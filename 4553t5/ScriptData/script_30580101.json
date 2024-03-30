@@ -1,0 +1,224 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SPOTCHARA", "0" ] },
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「あんまり嘗めるんじゃないよ。これくらいで怯むあたしじゃない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103101" ]},
+		{"command":[ "SETCHARA", "0", "char_00005801_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「あははっ！　お盛んだね。いいじゃないか、とことんまで付き合うよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103102" ]},
+		{"command":[ "SETCHARA", "0", "char_00005801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「どうだい？　あたしはあんたの思うようにできているかい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103103" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005801_01_01" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「まぁ、実際あたしはパワーアップはそれほど気にしてない。それより気にな\nるのはアンタが満足しているかだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「しかしまぁ……よく皆こんな下品な事に付き合うもんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「いいよ、遠慮せずに、感じて……そのためにやっているんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103106" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「これも訓練だっていうなら、あたしは喜んでやってやるよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103107" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「そう、これは訓練……力をつける為の……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「もうこんなに熱く硬くなってるよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103109" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「気持ちいいかい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103110" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「こう、ゆっくり擦りあげて……上下に動く……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「だんだん、限界が近くなってきたようだね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「そろそろ仕上げに入るよ。んふぅうう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103113" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「ほら見てごらん。こんなに先端から透明のどろっとした汁が出てる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「気持ちいいようだね……顔が蕩けてるよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103115" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「わかった。いいよ、もっと感じて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「随分長い間溜めていたようだね。今にもはち切れそうじゃないか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「あたしがやっていることは……あんたを満足させられているかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「訓練の為なら……あんたが気持ちよくなるためなら、あたしの身体をどう使\nっても構わない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「熱い……あんたのその欲望の熱が、胸を通じてひしひしと伝わってくるみた\nいだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「チンポを抱きしめるように、そっと優しく包み込む……どうだい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「上手いわけではないけれど……気持ちよくなってくれれば嬉しい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「そう、これも訓練……強くなるためだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「んぐぅうう……んっんぶぅううっ……あんたのチンポ……喉の奥までぐいぐ\nい、くるね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103124" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005801_01_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「凄い……舌の上で鼓動を刻んで、跳ねているよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「濃いオスの臭い……嗅いでいるだけで頭がくらくらしてしまうよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「溢れてきた……全部、舐めとってあげる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「すごい……どろどろだよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「真っ白なねっとりしたこの精液……まるであんたの欲望を象ったようだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「こんなに出したのに……まだ弾けそうに大きい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「ぐっんむぅうう……オスの香りが……鼻に抜ける……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「んぐぅっ……ふぅ、んっ……はぁ、はぁ……んむぅううっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103132" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「んぐぅううう…………ねばついた汁が、どんどん溢れて……口の中がいっぱ\nいになってる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「んぐむぅううう……チンポが……あたしの口をもっと犯そうと、暴れてる…\n…んじゅるううううっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「んぶぅうっ！　んぐ！　そ、そんなに激しくするのかい…………ぐむぅうう\nうっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「ふぐぅううっ！　んっ！　ま、まだでるんだね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103136" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「はぁ、はぁ……流石だよ……こんなに出るなんて思わなかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「あたし相手にここまで欲情してもらえて、嬉しいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「こんなに逞しいなんて……つい見とれてしまいそうだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「濃厚なこの独特の臭いと感触……癖になりそうだね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_0103140" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,163 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0184" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "ルナテミスの前に置かれた端末から、ＡＩが質問してきた。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「あなたが砂漠を歩いていると、一匹の亀がやってきます」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「亀だって？　おい、なんなんだ。この質問は。私はただ、面会に来ただけな\nんだぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「承知しております。その前にお答えください。一匹の亀がやってきたので、\nあなたは頭を撫でてやります」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「だから、どうしてそんな……いや、ちょっと待て？　亀の……あ、あ、頭だ\nと！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「質問の途中です。あなたは亀の頭を撫で――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふ、ふ、ふざけるなっ！　なんだこの質問はっ！　か、か、亀の……頭だな\nんてっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「質問の途中です」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「こいつ、さては時間稼ぎだな！？　誰がそんな手に乗るか！　はやく面会さ\nせるんだ！　いいかげんにしろーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルナテミスは椅子を蹴って立ち上がり、剣を抜いた。そのとたん、検査室にブ\nザーが鳴り響き、壁から機械のアームがせり出して彼女を拘束する。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「な、なんだ！？　触手か！？　たかが触手に私はくっコロなどしないぞ！　\nあ、バカよせやめろ放せ！　放せぇ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「……検査中断。ただし測定結果は出ました。ひどい早とちり。おっちょこち\nょい。暴力ヒロイン及びツンデレの傾向が顕著」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「局内での武器携行は不適当と判定されました。武器をお預かりします」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「剣を取り上げるというのか！？　だったら力ずくでこい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「次元管理統制局内の警備規定により、武器をお預かりします。同意いただけ\nない場合は、面会を許可できません」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「屁理屈をこねるな！　カツマを出せ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「同意いただけない場合は、面会を許可できません」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「くうううううっ……石頭のＡＩめ！　これだからボタンが３つ以上ある機械\nは嫌なんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "結局、ルナテミスはあきらめて剣を預け、ＡＩの案内に従って長い通路を歩く\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0185" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ホントに長いな。どこまで歩かせる気なんだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＡＩ" ]},
+		{"command":[ "SETTEXT", "「お待たせいたしました。こちらです」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "ＡＩはそう告げると、厳重にロックされた金属製の扉を開ける。その区画の奥\nには……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0172" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_012" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630010" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "牢の奥には、カツマが死んだように横たわっている。ルナテミスの呼びかけに\nも反応がない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ！　どうしたカツマ！　返事をしろ！　カツマ―っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "統制局員" ]},
+		{"command":[ "SETTEXT", "「ダメです！　離れてください！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "牢に駆け寄ろうとしたルナテミスを、警備の局員が制止するが――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「貴様ら……！　私の下僕になにをした―っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114630012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

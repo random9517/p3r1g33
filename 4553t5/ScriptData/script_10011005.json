@@ -1,0 +1,161 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_012" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっしゃぁ！　俺たちの勝ちだな！　襲来者（インベーダー）ども、ざまぁ\nみやがれ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今回も盛大にぶっ放させてもらった。おかげで葬式での嫌な気分がぶっ飛んだ\n……ような気がした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「いえ、待ってくださいカツマさん！　新手が向かっているとの連絡が入りま\nした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010110050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうかそうか。じゃあ、このまま連戦と行こうぜ！　今ちょうどいい感じに\n盛り上がってるからな！　はははははは！　わーっはっはっは！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさん……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010110050002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んん？　なんだ？　」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「いえ……なんでもないです。でも……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "1", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010110050003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ……気持ちはわかるけど、ヤケをおこしちゃダメ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ヤケだって？　妙なこと言うなよ。俺は冷静だぜ。心配いらねえって」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010110050004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「大丈夫だっての！　ほら！　ぐずぐずしてねえで行くぞ！　敵がみんな逃げ\nちまう！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「待て、カツマ！　カグヤたちの言う通りだ。いったん落ち着け」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090110050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "後ろから俺の肩を掴むものが居る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "一瞬乱暴に振りほどこうと思ったが、グッとこらえた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「落ち着いてるさ。いま、絶好調」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「……そうは思えないがな。今のお前は、血に飢えた狼のようだ。普段と全然\n違う」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090110050002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「血に飢えた狼、ねぇ……ちなみに普段の俺は、どんな動物なんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「バナナだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090110050003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「果物じゃねーか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そ、そうか……この世界ではバナナはただの果物だったな……長い耳と触覚\nと足が２５６本ある、あれではないのだったな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090110050004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どんなバナナだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「バナナのことはいい。とにかく、落ち着け」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090110050005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからぁ！　落ち着いてるって言ってんだろ？　それに敵は待っちゃくれね\nーぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「……そう、だな。確かに敵はこちらの都合などお構いなしにやってくる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090110050006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だろう？　だったら、このまま行かせてくれよ。心配するな……引き際ぐら\nい心得てる」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こう見えて、以前は弱小幹部だったんだからな。逃げ隠れは大得意なんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「……わかった。もう何も言わん。だが、その……いや、なんでもない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090110050007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだよ、その『本当はいいたいことがあるけど、色々配慮して言うのを止め\nました』感は……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あ～～……モヤモヤする。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "このモヤモヤは敵をぶっ倒して解消するしかなさそうだ──。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

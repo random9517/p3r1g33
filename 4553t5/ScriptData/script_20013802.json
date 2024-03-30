@@ -1,0 +1,247 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「この学園の中では、何人たりとも破壊をすることは許さん！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010022680001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "凄まじい勢いで駆けてきた修羅姫が、ほとんどタックルのような形でヤムにし\nがみつく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「や～～～～～だ～～～～～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680001" ]},
+		{"command":[ "SETCHARA", "0", "char_00017501_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ごねるヤムも、さすがに身動きがとれなくなったのか、ジタバタと手足を動か\nすことしか出来なくなった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「学園の秩序を守るのは、私の仕事だからな……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010022680002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おお、助かった！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドラゴンモードになったヤムをおとなしくさせるのは骨が折れる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺が苦心しつつも修羅姫の手伝いをしていると……ヤムの目にみるみるうちに\n大粒の涙が溢れだした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「ぴぇええええん……！　だって、行きたかったんだもんん、悲しいんだもん\n……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680002" ]},
+		{"command":[ "SETCHARA", "0", "char_00017501_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあまあまあ、落ち着けって」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「楽しいと思うじゃん、だってお祭りだよ！？　アンタだって喜ぶと思ってえ\nえぇえええ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まずい、どんどんパワーの出力があがっている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "このままでは最悪、ここで人死にが出かねない……それはなんとしても阻止し\nなければ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「ここで泣いていても仕方あるまい。話は聞いてやるから職員室に来い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010022680003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「やだやだやだやだ～ッ！　職員室なんかいかない！　行きたいのはお祭りな\nんだもんー！　うあああああん！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680004" ]},
+		{"command":[ "SETCHARA", "0", "char_00017501_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからってここで泣いてたってどうにもなんないだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "夏祭りが出来ないことで泣いてしまったヤムを、俺達は引きずるようにして職\n員室に引っ張っていった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0148" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「でね、それでそれで……！　あれがそうしてこうなったのぉおお！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680005" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「なるほど。それで、あれほどまでに暴れていたというわけですか……。はぁ\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020022680001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "改めて事情を聴いた明日楽が、大きなため息をつく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「カツマさんが言うとおり、なにも永遠に夏祭りに参加出来ないというわけで\nはないのよ？　来年には参加できるでしょうし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020022680002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「来年っていつ！？　明日？　明後日？　もっと後とか待てないしムリぃい…\n…！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680006" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「ヤムはすぐに祭りに行きたいのッ……！　祭り……うううう、お祭りに行き\nたいぃいい……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680007" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「んっ……。ま、待って。泣かないで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020022680003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「あああああああん、どうしてダメなの～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680008" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "泣きわめくヤムを目の前に、堅物な明日楽は困り果ててしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うーん……ヤムがここまで泣くのにはワケがあるのかもしれない。それを俺\nに話してくれないか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「ぐすっ……。イルルと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680009" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「わたし……と？　どうしたの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022680001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「イルルと一緒に……行きたかったの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680010" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか。単なるワガママじゃなくて、イルルを楽しませてやりたかったんだ\nな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「うん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022680011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "殊勝にうなずくヤムの姿を見て、俺はすっかり情にほだされた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんという良い子なんだ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とは言え、調べても近くで祭りはやっていないし、打つ手無しとはこのことな\nんだが……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「であれば……いっそ、私達でお祭りを開いてしまっては？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022680001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "耳元で聞こえたその言葉は、いつの間にか俺のそばにいた牛神様からの提案だ\nった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その手があったか……って、牛神様！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「ほら、神社なら神様にも場所にもあてがありますよね？　ヤムちゃんのため\nに、一肌脱いでみませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022680002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう言われてみれば、うっすら心当たりがあるようなないような……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……そうだな。もしかしてあそこなら……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ヤムの願いを叶えてくれるかもしれない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし！　稲穂神社に向かうぞ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「じんじゃ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022680002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、あそこならヤムとイルルの力になってくれるはずだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

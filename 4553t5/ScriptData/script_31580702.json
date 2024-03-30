@@ -1,0 +1,425 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あら、アナタ。また来たのね。どうしたのかしら？　って前よりも酷い顔を\nしているわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704101" ]},
+		{"command":[ "SETCHARA", "0", "char_00015801_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「最近ますます疲れている？　忙しくしていたものね……そうねえ、じゃあ一\n回、きちんと診察してみましょうか。そこに座ってみて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704102" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ふむ……ふむ……やっぱり身体的な疲労がかなり溜まっているわね。全身が\n凝り固まってしまっているわ。これは一旦リラックスさせないと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704103" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「筋肉が固まると、お互いに引っ張り合って緊張して、寝てても疲労回復しな\nいからね……それじゃあ、ベッドに仰向けになって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704104" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「疲労回復のマッサージをしてあげるわ。全快とはならないけど、かなりよく\nなるはずよ。そう、その姿勢ね。よっ……と」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704105" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「何をするって、だから治療よ。動かれると効果が鈍るから、こうして手足を\n拘束させてもらってるんじゃない。それじゃあ、始めるわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704106" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「んっ……ふふっ、疲れてるけど、こっちは元気ね。結構結構。もしかしてそ\nれを期待して保健室に来てたり？　なんてね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704107" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「アナタが頑張ってるの、私は知ってるからね。ってどうしたのその顔。だか\nらこれは治療だって。全身を気持ちよくさせて、リラックスさせるの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704108" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ね、だからアナタは何も考えず、ただ感じて……ほら、おちんちんが私の中\nに入っていくの、分かるでしょう……んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704109" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、全部入ったわ。今からゆっくりと癒やして……身体をリラックスさ\nせてあげるから……力を抜いて……身を任せて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704110" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「じゃあ、治療を始めるわね……んっ、ふっ、んんっ、んっ、あんっ、あっ。\nどう、気持ちいい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704111" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あんっ、あっ、動いちゃダメよ……でも、気持ちいいみたいね。そのまま、\n快感に逆らわず……んっ、ふうっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704112" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「んっんっんっ、あんっ、あっ……んふっ、私の中でおちんちんが跳ねてるの\n、分かるわ。アナタの顔も火照ってきてる……んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704113" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「アナタの疲れたもの全部、私の中に出すみたいにして……んっ、ふうっ、ん\nんっ、ふっ、ふうっ、んっ、あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704114" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ふふ、おちんちんがさらに大きくなって……んっ、疲れ、取れてきたでしょ\nう？　んんんっ、あくうっ、ふうっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704115" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「この体勢、自分から奥にごつごつって当たって……私も、んっ、気持ちよく\nなっちゃう……あんっ、あっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704116" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ダメね、しっかりしないと。これは治療なんだから。でも……んっ、ああっ\n、あんっ、アナタのおちんちん、気持ちよすぎて、んくうっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704117" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ふあっ、あっ、あっあっあっ、でも、腰、止まらない、んっ、ふううっ、あ\nんっ、くうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704118" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「んんっ、アナタはどう？　疲れ、んうっ、取れてきた？　ふああっ、あっ、\nあんっ、あくっ、ふうっ、ううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704119" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「そ、そう。それならよかった……んっ、ふうっ、あんっ、腰、動かして中を\nこすっちゃダメよ、私が動くから、んっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704120" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ほら、こうして締めつけながら動かして、んふうっ、ふっ、んんんっ！！　\nじゅぷじゅぷって音もしてきたでしょう、あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704121" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「もうちょっと、腰の動きを速くするわね……んっ、あっ、あんっ、んんっ、\nふあああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704122" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「動いちゃダメだったら、もう、悪い子ね……あんっ、あくうっ、んっ、ほら\n、アナタが刺激するから……んっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704123" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「おっぱい、垂れてきちゃったじゃない……んふうっ、ふっ、おちんちんがお\n腹の中ぐりぐりってしてくるから、ふあああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704124" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「んふうっ、でも、ちょうどいいわね……私のおっぱいミルク、マッサージオ\nイルにして……ほら、ぬるぬる、ぬるぬる……んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704125" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「お肌に塗りこんだら、気持ちいいでしょう……つやつやになって、んっ、あ\nっ、あんっ、おちんちんも悦んでいるわ。んふうっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704126" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私の腰もいっぱい動いちゃって、アナタの治療なのに、私のおまんこも治療\nされてるみたい……んっ、ふうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704127" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ほら、きゅっきゅって締めつけてるの、分かるでしょう……んっ、ああっ、\nあんっ、今下から動かれたら……んんっ、あっ、あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704128" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ふうううっ、治療中に暴れる悪いおちんちんはこうして……んっ、ふうっ、\nあっ、奥、ぐりぐりってしたらダメですってば、んくうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704129" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「もう、こうなったら本気の動きで、んっんっんっ、あっ、あんっ、あくうっ\n、ふあああっ、あっ、あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704130" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あっあっあっ、これ、私の方も……んんっ、やっぱり、私も治療されちゃっ\nてる、アナタのおちんちんで、んううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704131" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私のおまんこの中、治療されちゃってる！！　柔らかくほぐされて、ごつご\nつって叩かれて、んんっ、気持ちよすぎて……ふああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704132" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あんっ、おちんちん、膨らんできてる、先端が硬くて、熱くて、開ききって\n……ふうううっ、んっ、んうっ、あくうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704133" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「出したいんですね、いいですよ。出すまでが治療ですから、遠慮無く私の中\nに……アナタの精液、いっぱい出して……あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704134" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あっ、ああっ、私、私も、イく、アナタのおちんちんで、イく、んっ！！　\n一緒に、一緒にイって、それが、治療でっ、あああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704135" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「イく、イっく、イくうううううううっ！！　ふあっ、あああっ、中に、中に\nきたああああああああああああああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704136" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「んんっ、あっ、気持ちいい、これ、アナタの治療なのに私も気持ちいいっ！\n！　んっ、あふうっ、ふあああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704137" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「一番奥に、精液がびゅっびゅって、溶けちゃう、私の中溶けちゃううううう\nう！！　んんんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704138" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ふうっ、ふっ、はあっ……あっ……アナタも、気持ちよかった……？　んっ\n、なら、よかった……治療、上手くいったわね……あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704139" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「アナタの顔も身体も、凄くリラックスして、気持ちよさそうだもの……んっ\n、ふうっ、私も治療しちゃうとは思わなかったけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704140" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「んふうっ、まだおちんちん硬いままだわ。治療の継続が必要ね。ふふっ、ア\nナタの顔も、もっと必要だって言ってるわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704201" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あんっ、んっ、ふうっ、ふふっ、私に合わせて腰を動かしちゃってるわ……\nいいわ、アナタがそれで癒やされるなら、んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704202" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「二回目は一緒に、一緒に動いて治療をしましょう……あんっ、あっ、あふう\nっ！！　そう、そうよ。私の動きと、アナタの動き、んっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704203" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「一緒なら、治療の効果も倍増ね、ふああっ、あっ、んっ、凄い、おちんちん\nのカリ首が、ごりごりって、ひあああっ、あっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704204" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「奥、奥をこんこんってされたら、おまんこが吸いついちゃう、ふうあああっ\n、かき混ぜられたら、んっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704205" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私の中、どろどろで癒やされてるの、伝わってる？　んんっ、アナタのおち\nんちんもまた硬くて震えてるの、分かってる、ふああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704206" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ああっ、密着したまま、ぐりぐりってしたら……ふうっ、うっ、私の中、お\nちんちんでかき混ぜられて、あんっ、あああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704207" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「気持ちいい……んっ、凄い、満たされてる……私、アナタで満たされてる…\n…んんっ、幸せ、あくうっ、ふううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704208" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「アナタも幸せ？　あっ、嬉しい！！　んっ、ふううっ、あっ、またおっぱい\nがいっぱい出てきた、アナタと一緒に感じてっ、んんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704209" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「おっぱいでアナタの身体、べとべとになっちゃってるっ！！　ひあっ、んっ\n、んんっ、でも止まらないっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704210" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「幸せのおっぱい止まらないのっ！！　んふううっ、んっ、あっ、アナタのお\nちんちんも止まらないっ、あくううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704211" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あっあっあっ、ダメ、それダメ、下からずんずんするの、ダメっ、んっ、ふ\nうううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704212" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私、だって、んんんっ、アナタを治療するんだから、ふっ、うっ、ああああ\nっ、んっ、おまんこで、抱きしめて……んくうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704213" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「抱きしめて、マッサージして、ふあっ、ああっ、あっ、これ、私も気持ちよ\nくなっちゃうけど、こうやって、腰も……んうううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704214" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あっ、おちんちん、震えてきた、膨らんで、震えて、びくびくして、またイ\nきそうなの、分かります、あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704215" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「出して、疲れとか、お仕事とか、全部忘れて、私の中で気持ちいいのだけ出\nしてっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704216" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「それが、アナタにできる、私の治療だから、んふうっ、ふっ、ああっ、あっ\n、あああああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704217" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私も、私もイっく、んんっ、アナタのおちんちんで治療されて、イっく、あ\nっあっあっ、腰、止まらない、あくううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704218" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あくうううっ、イくイくイく、イくって言ってるのに、そんなに下からずん\nずんされたら、頭の中までおちんちんになっちゃう！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704219" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ふあっ、あああっ、イっく、私、イくから、アナタもイって、おちんちんか\nら、精液出してえええええええええええっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704220" ]},
+		{"command":[ "WAITINPUT" ]},
+				
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あううううううっ、二回目、二回目の精液きたっ、あっ、ああっ、熱いっ、\nんっ、ふううっ、ふああああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704301" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「さっきのと混じって、どろどろって私の中溶かしてるっ、んっ、あんっ、あ\nっ、射精の勢いで、お腹叩かれて、あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704302" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「射精でとんとんとんって中をマッサージされてるっ！！　はっ、あっ、んっ\n、気持ちいい……んんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704303" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「アナタも気持ちよかったみたいですね……顔と、中にあるおちんちんの反応\nを感じたら、それで分かります……あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704304" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「治療とはいえ、たっぷり出しましたね……ふふっ、それだけ私の中がよかっ\nたってことですから、嬉しいです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704305" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あんっ！！　今の言葉でまた……最後の最後まで私の中に出して、これ、治\n療なのに、きっと赤ちゃんできちゃいますね、ふふふっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704306" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「赤ちゃんができたら、ちゃんと育てて、今度は家族でアナタのことを癒やし\nて治療しますから。楽しみにしててくださいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704307" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ああ、でも一回じゃできない可能性もあるから……またこうして、この部屋\nに来てくださいね。いっぱいっぱい治療してあげますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704308" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「え、次は拘束しないでくれって？　ふふふ、どうしましょうか。だって、ア\nナタを自由にしたら私、めちゃくちゃにされそうですから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704309" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あくまでこれは治療行為ですからね。アナタを愛して癒やす、気持ちのいい\n治療行為……また、しましょうね。アナタ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704310" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あっ！！　おちんちんが抜けて……んんんっ、ふあっ、あっ、身体に、んん\nんっ、ふあああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704401" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「んふうっ！！　んっ、身体中が粘ついて……んっ、どろどろにされて……お\nっぱいと精液が混じって……あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704402" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「んんっ、んっ、ふふっ、これでアナタが癒やされるなら、いくらでも私の身\n体にかけて……んっ、ふうううっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704403" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「あんっ、あっ、んんっ、ふふっ、満足しました？　ならよかった。アナタの\n視線、熱いぐらいに私の身体に向けられてますし……んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704404" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「中に出されるのもよかったけど、こうして身体にふりかけられるのも……こ\nれはこれでアナタのものだって一目で分かって……んふっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704405" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私のH.E.A.R.T、すごくどきどきしてきてます……んっ、あっ、ま\nた精液が……もう、私の身体全部、アナタの精液で染まっちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704406" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「この熱さ……匂い……味……全部記憶して、私のメモリーに刻んでおきます\nね。アナタの気持ちいいしるし、覚えておきます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704407" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「こうして中も外もアナタに染め上げられて、私の方も幸せで癒やされちゃい\nますね……ふふっ、意図したのかどうかは分からないけれど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704408" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「アナタのそういうところ、大好きです。ずっとずっと一緒に居たくなる……\n中でも外でもいいから、疲れたらまたきてくださいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704409" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私の身体全部を使って、アナタを癒やしてさしあげますから……ふふふっ、\n楽しみにしてるだなんて、嬉しい。私も楽しみに待ってますよ、アナタ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_0704410" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

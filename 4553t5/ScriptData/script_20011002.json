@@ -1,0 +1,160 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くそっ、何だこれ、全然当たらねぇっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「まだまだっ、気合で当てろぉっ、うっらぁぁぁぁぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「うわっ、たったったっとぉぉぉ！　もー、さっきから何なのお兄さん達はさ\nー。こんな小さい子をみんなでいじめるなんてひどくない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「そんな物騒なモノ持ってる奴が、よく言うぜ。いいから大人しく捕まりやが\nれ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021280002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「きゃあん、そんな怖い顔して迫られても困っちゃうよぉー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021280002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちっ……何なんだよこいつは……涼しい顔しやがって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「……っ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こっちの方は調子悪そうだな……おい、大丈夫か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「す、済まない……大丈夫だ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021280002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんまり大丈夫って感じでもなさそうだが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「あらら、イグニスったら何か変なのと仲良さそうじゃん？　でもさー、関係\nない人は……邪魔しないでほしーんだよ……ねっ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021280003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「くっ……！　うぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021280003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「あぐっ……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "4", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021280004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うおっと……！　あぶねぇっ、お、おい、大丈夫か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「あ……あぁ……済まない……んくっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021280005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわっ……な、何だ……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「はっ……あぁぁぁっ……んぁっ……あっ……はぁぁぁぁぁぁぁんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021280006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おい……どうしたんだ、腹に……何か……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「んふぁ……あ……は……あっ……あぁんっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021280007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「おいおい……戦ってる最中にやめろよ、節操ねーな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021280003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺は何もしてねぇっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「……んんぅ……は、ぁぁ……んふっ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021280008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「何もしてねぇって感じじゃねぇよな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021280004" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「うそっ！　イグニスに淫紋＜スティグマ＞が？　えっ……こんなところにい\nたのっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021280004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、何だ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「へぇ……まさか、こっちに来てこんなに早く見つけられるなんて……すっご\nいラッキーだね♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021280005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な……何か目がやべぇぞ、こいつ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「当然……ほっとく手はないよねー♪　行くよー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021280006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,307 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0050" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「見るがいい！　これが男！　あたしたちが勝利した証だよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「さすが塾長です！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「塾長万歳！　婚活万歳！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生三号" ]},
+		{"command":[ "SETTEXT", "「純情塾よ永遠なれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人。ご主人が有り難がられることなど、百年に一度あるかないかなんで\nすぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「少し、愛想良くして、ついでにわたくしたちの人質としての立場を良くしま\nせんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「悪かったな、普段から扱いの悪い主人で」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それに……意外と扱いは悪くないからな。こんな時どんな顔すればいいのか\n、わからないだけだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「笑えばいいのではありませんか。愛想良く」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうなんだろうがなあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "置かれている状況も、エファたちのノリも、よくわからなくてなあ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うっかり同調してしまったら、妙な沼に嵌まりそうな悪寒もする……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「それで塾長、男を手に入れてからはどうするんですか？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「……え゛」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「まずはお友達からですか？　お手紙に気持ちをしたためるんですか？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生三号" ]},
+		{"command":[ "SETTEXT", "「それともまさか、一気に……手を繋ぐとか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「そ、そうだなあ……うん、そんなところかなあ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生たち" ]},
+		{"command":[ "SETTEXT", "「きゃ～っ！？　ダイタ～ン！！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "って……んん？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ちらっ……ちらっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "2", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あ？　なんだよ、エファの奴。さっきからこっちをちらちら見て。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "期待に満ちた眼差しでお前を囲む塾生さんたちとやらに、何か教示しなくてい\nいのか？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人。ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あん？　なんだよ、お前までこそこそと」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わたくしが思いますに、エファナティカ様はご主人に助けを求めておられる\nのではないかと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ちらっ。ちらっちらっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあ？　あれが？　ヘルプサイン？　なんで？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わたくしが状況を客観的かつ冷静に分析しますところ――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ここにいる皆様はどうやら、かなりピュアな恋愛観の持ち主ばかりのようで\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「エファナティカ様もそれに合わせておられる……ような、同レベルになって\nおられるような」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……えー。いや、そんなことあるか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ちらちらちらちらっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生たち" ]},
+		{"command":[ "SETTEXT", "「わくわくわくわく」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だって、エファナティカだろ？　男なんか足で踏みにじってなんぼって奴じゃ\nなかったか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「婚活などとも叫んでおられましたから、おそらくですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「恋に恋する乙女が、男女の愛欲もよく知らぬまま、取り敢えず男をゲットし\nてみたものの――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「この先どうしたら良いのか、わたくしわかりませんの、ぽっ、という有り様\nなのではないかと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113890011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「気持ち悪い声真似までして、しなをつくるのはやめろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかしなあ、駄犬の推理が合っているとしても、どうすりゃいいんだ？", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "解決しないと帰れそうにないとはいえ、めんどくせえなあ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "男女の営みを解説したハウツー本でも薦めてやればいいのか？　あいにくそん\nなものは……あ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょい待ち。なあ、携帯を弄ってもいいか？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "2", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ん？　なんだ、助けを求めるつもりか。それをいちいち許可するとでも？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうじゃない。お前たちが喜びそうな動画を思い出した」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "エファ自身が俺に勧めてきたやつだから、まあ、嫌がりはしないだろ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "状況がそれで好転するとも思えないが……ま、ものは試しだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「――と、あったあった。これこれ、『１万年と２０００年前からのプロポー\nズ』」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「はっ！？　そうか、それか……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「え……まさか。塾長が常々口にされていた、聖典……？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「私たちのらくすぎフォンでは再生出来なかった、幻の……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どんだけ低スペックな携帯を使っているんだ、こいつら。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生三号" ]},
+		{"command":[ "SETTEXT", "「み、観られるのですか！？　恋愛の教科書、愛の指南ドラマが！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ああそうだ！　正座して、観ろ！　劇中の主人公は、あたしたちが手本にす\nべき勇者だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「なびかぬ相手にも決して引かず、諦めず、繰り返し闘いを挑む根性！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「愛を叫ぶためならば、軽トラックの前へ飛び出して転生も辞さぬ勇気！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「それら……命懸けの恋を教えてくれる、最高の教材だ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113890012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生たち" ]},
+		{"command":[ "SETTEXT", "「はい、塾長！！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……やっぱり、今すぐ帰りたいかなあ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

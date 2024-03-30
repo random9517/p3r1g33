@@ -1,0 +1,246 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "そうだよ……なにも意地を張ることはない。なにもかも俺が、ひとりでやるこ\nとはない。", "NORMAL" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はひとりじゃない。ひとりじゃなかった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の周りには、いつだってあいつらが――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「…………カツマ……カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021510001" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………ん？", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「………………起きなさい！　カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510001" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………なんだ？　誰かが呼んでるような……。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……いいかげんに起きるです！　なにが『仕事が忙しい』ですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021510001" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あれ……このシチュエーション、どっかで――", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はっ！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「やっと起きたのね。まったく……こんなことじゃないかとは思ったけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021510002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「せっかく呼びに来てみれば……！　いったい、なにをやってるの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、あれ……３人の……また来たのか。まだ俺に、なにか……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「『まだ俺に？』じゃないです。まだかと聞きたいのはこちらです。まだ残業\nは終わらないんですか、このノロマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021510002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「残業？　残業って……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「はぁ……ダメだわ。完全に寝ぼけてる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021510003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「まさかとは思うけど、私たちが正義（まさよし）に行ってから、ずっと寝て\nいたんじゃないでしょうね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「残業……？　まさよし……？　あ、あれ！？　じゃあ、おまえたちは\nサンタじゃなく……本物の！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「本物のサンタが、こんなファンキーな格好をしているわけがないでしょう。\nこれはただの罰ゲームです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021510003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「まさか、まりあがあんなに『あっちむいてホイ』が強いなんて……思っても\nみなかったわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、はぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そうか……じゃ、この３人はサンタじゃなく、本物のルルーナ、エファ、兎子\nなんだな……。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「まあとにかく！　仕事もしていないようですし、さっさと会場に来てもらう\nのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021510004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「そうよ。せっかく私たちが、こんな格好で迎えに来てあげたんですからね。\n嫌とは言わせないわよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021510004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「抵抗しても無駄よ！　みんなを待たせてるんだから腕ずくでも――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかった、それじゃ行きますか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "３人" ]},
+		{"command":[ "SETTEXT", "「え！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "3", "CENTER", "-400" ]},
+	{"command":[ "SETCHARA", "1", "char_00000308_01", "3", "CENTER", "0" ]},
+	{"command":[ "SETCHARA", "2", "char_00000508_01", "3", "CENTER", "400" ]},
+	{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+	{"command":[ "DISPCHARA", "2", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだよ、どうしたんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「い、いえ……今回はやけに素直ね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510007" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "3", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "1", "FALSE" ]}, 
+	{"command":[ "DISPCHARA", "2", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんすか姫様。俺がパーティーに行っちゃいけないんすか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「い、いえ！　そんなことはないわ！　っていうより、最初から素直に来れば\nいいのよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「そうそう、残業なんか、仕事始めのあなたに任せちゃいなさい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021510006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「そうと決まれば行くのです。レッツ、パーリィオンなのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021510006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、行こうぜ！　あ、もちろんケーキは俺の分、残してくれてるんでしょ\nうね！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、腰を浮かせてふと、残りの書類を見る。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "仕事始めの俺に……か。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、いいや！　俺ひとりで、抱え込むこたぁないんだよな！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "≪仕事始めの俺≫は、きっとひとりじゃない。そう信じよう！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とにかく今は――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「みんな！　メリー・クリスマス！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "３人" ]},
+		{"command":[ "SETTEXT", "「メリー・クリスマス！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021510009" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "8", "CENTER", "-400" ]},
+	{"command":[ "SETCHARA", "1", "char_00000308_01", "8", "CENTER", "0" ]},
+	{"command":[ "SETCHARA", "2", "char_00000508_01", "8", "CENTER", "400" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+	{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+	{"command":[ "DISPCHARA", "2", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "サンタ姿の３人が、笑顔で答える。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+	{"command":[ "DISPCHARA", "1", "FALSE" ]}, 
+	{"command":[ "DISPCHARA", "2", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どこか遠くから、そりの走る音が聞こえてくるような気がした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

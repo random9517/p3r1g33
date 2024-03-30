@@ -1,0 +1,173 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0143" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "ふと気づくと、俺はとんでもなく不安定なところに立っていた。", "NORMAL" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わ！　わ、なんだここ！？　窓のひさし！？　わ、わ、わわわわわっ！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「……なにやってんのよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021480001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の目の前に浮かんだルルーナサンタはあきれ顔だが、こっちはそれどころじ\nゃない。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにって！　こんな不安定なとこに立たせるんじゃねえよ！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「大丈夫、落ちたりしないわよ。こっちへ来なさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021480002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んなわけねえだろ！　おまえと一緒にすんな！　落ちる！　絶対落ちる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「大丈夫だって言ってるでしょう！　こっちへ……来なさいったら！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021480003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、ルルーナサンタが強引に俺の手を引く。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やめろーっ！　マジ落ちる！　やめて止めてやめて止めてやめて止めてーっ\n！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「だから落ち着きなさいよ！　落ちてなんかいないでしょ！　ほら！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021480004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なに言ってんだ！　こうして落ちて――ねえな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「だから言ったじゃないの。ここは夢の中みたいなものなんだから、落ちたり\nしないわよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021480005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んだよ……それを早く言えっての」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「言ったじゃないの！　現在のサンタが！　……まあいいわ。とにかく、窓の\n中をのぞいてごらんなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021480006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「窓の中……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0144" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "なんだろう、ここは。教会かな……。中で大勢の人が泣いてるみたいだが……\n葬式かなんかか？", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「うううっ……うっ、うっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021480001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000201_01", "4", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ぐすっ……ううううっ……ううっ……ぐすっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010021480001" ]},
+	{"command":[ "SETCHARA", "0", "char_00001201_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「うわあああああーーん！　ああああああーん！　なんで……どうしてこうな\nっちゃったんだよぉ！　わああああああーーん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010021480001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれは……！？　インクレディブル・スクワッドの連中じゃねえか！　まさ\nか、メンバーの誰かが！？　誰なんだ！　おい！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「すぐにわかるわ。ほら、ちゃんと彼女の話を聞いて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021480007" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "彼女……？", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「いつも、我々のために一生懸命だった。いつも、黙々とみんなのために働き\n続けた……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021480001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "アナザー……？", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「我々がもう少し、そんな彼の様子に気を配っていれば……彼の様子に、気づ\nくことができれば、きっとこんなことには――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021480002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "≪彼≫……？　≪彼≫って……誰のことだ？", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ……！　どうか、安らかに眠ってくれ……！　カツマ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021480003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「！！！！！！！！！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "この葬式……！　俺の葬式じゃねえか！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

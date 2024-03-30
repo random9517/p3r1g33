@@ -1,0 +1,316 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0108" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くぁ～っ！　どうして外れるんだ～っ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いやぁ、それはもうご主人の勘が絶望的に悪いからかと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「正論をぶつけるな！　くっそ～。こうなったら次のレースにかけるしかない\nか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おやめくださいご主人。そんなことをしては今晩の食費がなくなってしまい\nます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なぁに、勝てばいいんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それはもう負ける人間の発想ですぞー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大負けした前のレースのことは考えないことにして、次のレースのことを考え\nていると……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "見知らぬ女性が俺の名を呼び、手を振りながらやってきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、お知り合いですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ、いや、その……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "はっきり言って、知らない人だ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こんな裸同然の衣装で、堂々と街中を歩けるような人は……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "……いや、一人いたな", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「カツマ、会いにきたぞ。ああ、元気そうでなによりだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうですか……。えっと……どちらさま、ですか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「カツマよ、私のことがわからないか？　……まあ無理もないか。私は刻の…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "……いや、待て。ここで私の身分を明かしては、カツマに警戒されてしまう", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "カツマは、私たちと敵対している組織の隊長をしているのだからな", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0108" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ときの……？　もしかして、トキノさん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「そ、そうだ。私の名前はトキノだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、お知り合いですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、やっぱり知らない人だな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うーん、人違いじゃないっすかね？　俺はこれで……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "ああ、せっかくカツマに会えたというのに！　ほんの少し会話した程度で\n帰るわけにはいかん！）", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390007" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0108" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「ま、待ってくれカツマ！　私は、その……そうだ！　新しくやってきた隊員\nなんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「この土地のことは詳しくなくてな、隊長に聞けば案内してくれると言われて\n、お前を探していたのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390009" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……なるほど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「だから、私のことを案内して欲しい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そう言われても、俺には次のレースが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「引き受けてもいいのではありませんか、ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「どうせ次のレースでも大負けでしょうし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぐぬぬ、確かにそうかもしれないが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「なにか都合が悪かったか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390011" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、いやその……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、困っている女性の頼みですぞ？　ここは助けてあげるのが紳士では\nございませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それに、このお方はただものではありませんぞ、きっと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "たしかに、こんな格好のまま平気で出歩ける人物が、一般人であるはずがない\nか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「助けてくれたお礼に……という展開がまっているかもしれませんぞ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390010" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、そういう下心ありで助けるのは紳士じゃないんじゃないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「見たところ、手ぶらでございます。お礼は身体でしてくれるかもしれません\nぞ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「身体で……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう言われて、トキノの身体をじっくり見てしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こんなむちむちばいんばいんの身体でお礼をしてもらえたら……最高じゃない\nか！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「カツマ、どうした？　顔が赤いが、熱でもあるのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390012" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、いやなんでもないですよ。案内ですよね？　まかせてくださいよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「本当か！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、俺がよく行く場所の範囲になるとは思いますが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「それでもかまわん。ありがとうな、カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390014" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおぉっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ぐっと身体を抱き寄せられて、顔がトキノの胸に埋まる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さっきから目を引いてた爆乳を顔面で味わわされた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人！　ご主人にあるまじき展開ですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115390012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おお……やばい……これは天国か……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さっきジュンジローが言った、『助けてくれたお礼』を前払いでもらっている\nみたいだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「それでは案内を頼むぞ、カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115390015" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまかせください！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "トキノさんを連れて、まずは競艇場をあとにした。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

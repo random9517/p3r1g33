@@ -1,0 +1,414 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0002" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……あ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……あれ？　どこだ、ここは？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はさっきまで、襲来者（インベーダー）と戦っていたはずなんだが……？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「見知らぬ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、ルナパレスじゃねーか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "慌てて跳ね起きてみれば、目の前は壊れたはずのルナパレス２１", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「あ、目を覚ましたのね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "！？　っと、なんだ姫様かよ、驚かせるなあ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「大丈夫？カツマ、どこか痛いところはない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……は？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだ、この……やけに優しげな態度は。それに……名前で、呼ばれたあ？？\n？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ツいてないわね、せっかくのパーティーだったのに。まさかバナナの皮で足\nを滑らせて、転んで頭を打つなんて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "んな馬鹿な。今時アメリカンなコメディでも見ないぞ、そんなベタなすっ転び\n方。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だいたい、なんだよパーティーって？　戦闘で勝って祝勝会でもしてたのか？\nいや、いちいちやってないよな最近。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「大学の夏休みに帰省してきて、そこで災難に遭うなんて。いかにもあなたら\nしくもあるけれど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……はああ？　大学だあ？　いったい、なんの話をしてるんださっきから？？\n？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「汗がすごいわ。よく眠れなかった？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？　いやその」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「拭いてあげる。動かないでね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "っと！？　おいおい……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "上等な絹のハンカチなんか、どこから出した？　そして、それを惜しげもなく\n俺の額に押し当てて……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930007" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "間近で優しく、撫でるように汗を拭き取るなんて……ルルーナらしからぬ\nサービスなんだがっ！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「――と、これぐらいでいいかしら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「お腹も空いたでしょ？　何か持ってきてあげる。ちょっと待ってて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うーむ……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "呆気にとられるばかりで、部屋を出て行くあいつを黙って見送ってしまった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかしなんなんだ、あの変貌振りは？　普段の高慢高飛車お姫様じゃないぞ？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あれじゃあ差し詰め、良いところのお嬢様で、世間知らずだけど根は善人、み\nたいな？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うん、きっとよく似た別人だな！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ようカツマよ、目を覚ましたのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……えっ！？　陛下！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「先ほどまでルルーナが面倒をみておったそうじゃな。我が娘ながら甲斐甲斐\nしかったであろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「あやつ、お主の妻に本気でなりたいと見える」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあ！？　妻ぁ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いやそれもあれだが、どうしてここに陛下が……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「何を驚く。気心の知れた幼馴染みで、前途有望な男を婿に迎えたいのは、当\n然の心理であろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ま、子供の時分から憎からず想っていた相手が、せっかく帰省したのじゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「今このチャンスを逃すまいとする娘の焦りも、わからんではない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……いやいやいや。本当に、何を言ってるんだこいつらは？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺が、ルルーナと、幼馴染み？　で結婚？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いったいなんだ、この悪ふざけは？　みんなして俺を騙そうとひと芝居打って\nいるのかあ？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……それともまさか、あれか？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "出撃前にウェディングドレスなんて話を聞いた影響で、なんか、悪い夢でも見\nているのか、俺は？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "陛下がいるって時点で、おかしいものなあ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「……ふむ。よく見れば貴様、確かに良い面構えになっておるな。ルルーナが\n惚れ直すわけじゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「小僧だとばかり思っておったが、なかなか旨そうに育ちおって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ってなんだよ今度は、俺のことを舐め回すように見やがって。その上、舌舐め\nずりまで。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「せっかくじゃ。お主、ルルーナではなく、妾と結婚せぬか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はああぁっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「まだまだ美貌は衰えておらぬつもりじゃし。お主ひとりぐらい食わせてやれ\nる財産もあるし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「何よりも、じゃ……アッチの方では、娘には決して真似出来ぬ技の数々を味\nわわせてやれるぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「どうじゃ一発？　婚前交渉シテみぬか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいやいや！　ないから！　いやないですから！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルルーナとですら信じがたい話だってのに、その母親が横取りしようとするか\nあ！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「母上！　私のいない隙に何をしようとしておられるのです！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ちっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ちっ、じゃねえよ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「歳を考えて下さい、歳を！　もうっ、はしたない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「お主！　歳の話は禁句じゃぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「だいたいお主こそ、医学生の婚約者がおるじゃろうが！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そ……それは、それ。これは、これで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "医学生――エリートのお坊ちゃまかな？　そいつとの婚約を蹴って、俺と？　\nいやいや。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかしホント……なんなんだこの状況。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は、あれか？　『やめて！　私のために争わないで！』とか泣き叫びながら\n割って入ればいいのか？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……それも嫌だな。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「カツマだって、若くてピチピチしている相手の方が良いに決まっているでし\nょ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930013" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「いやいや、最後にモノを言うのは経済力じゃぞ。特に結婚ではな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「愛の前に金！　財産！　持たざる者は幸せになれん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「貧乏でも、愛さえあれば生きていけるわ！　カツマ、私を連れて逃げて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあぁ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "わけがわからん！　どうしてそうなる！　いや本当に！！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ほう。妾の前から、堂々と、男と逃げると申すか。ルルーナよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930018" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ええ。愛しい相手と名前を呼び合い、手と手を取り合って、愛の逃避行……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「燃えますでしょ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「萌えるのう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930019" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "燃えも萌えもねえよ！！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ならば妾はその愛をさらに盛り上げるべく、立ちはだかる壁となろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930020" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「身分の違いや反対する肉親等々、結婚に障害はつきもの！　さあ見事乗り越\nえてみせるが良い、カツマよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんな障害はいらん！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「さあカツマ、私のために戦って！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021930017" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「断る！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「だが容赦なく妾とその取り巻きは、若いふたりを襲うのであった。ゆけい、\n皆の衆！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010021930022" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだこのなし崩しなバトルは！！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

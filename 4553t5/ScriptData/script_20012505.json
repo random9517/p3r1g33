@@ -1,0 +1,416 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0078" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_007" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "マリッサ" ]},
+		{"command":[ "SETTEXT", "「オラオラオラッ、さっさと逝っちまいな！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_095_010022010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009502_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スーザン" ]},
+		{"command":[ "SETTEXT", "「誰がっ！！　喰らえ、サメ分断ブレード！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_127_010022010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00012702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マリッサ" ]},
+		{"command":[ "SETTEXT", "「効くかよっ！！　行け、ゴーストども！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_095_010022010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00009502_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スーザン" ]},
+		{"command":[ "SETTEXT", "「くっ……舐めるなっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_127_010022010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00012702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マリッサ" ]},
+		{"command":[ "SETTEXT", "「はん、やるな！！　だがゴーストはまだまだいるんだぜ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_095_010022010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00009502_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マリッサ" ]},
+		{"command":[ "SETTEXT", "「テメエに殺されたサメたちの怨み、全て受けきれるかっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_095_010022010004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おお……学園に現れたときに少しは仲良くなったと思ったんだが……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「サメとはそういうものでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういうものじゃねえよ！！　まあいいか、今ならあの怪人と接触するチャ\nンスじゃねえか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マリッサ" ]},
+		{"command":[ "SETTEXT", "「まだまだ、まだまだまだだっ！！　喰らいつくし、殺しつくす！！　テメエ\nがやってきたことの因業、全部倍返しだ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_095_010022010005" ]},
+		{"command":[ "SETCHARA", "0", "char_00009502_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スーザン" ]},
+		{"command":[ "SETTEXT", "「人を喰らうサメがなにを！！　貴様らの存在、神が許しても私のこの右手が\n許さない！！　輝け、アタッチメントアーム！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_127_010022010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00012702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんかすげえ盛り上がってる間に行くぞ。あっちを刺激するなよ」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「お任せを。なにを隠そう私はご主人が姫様などに折檻されるときに気配を隠\nすのが大の得意」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「本人の前で言うんじゃねえよ。とにかく、行くぞ。ラー・サイアムも」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「え、ええ。深く静かに行きましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015903_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「ア……ウ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よお、大丈夫か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「とりあえず、こっちに敵意はない。分かるか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「話、できるか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「頷いている……のかしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015903_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし、俺の言葉は分かるか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「……スコシ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010004" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん。お前、どこの所属だ？　どこから来た？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「ココ……チガウ……トオク……トオク……カエル……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「遠くってどれぐらいだ？　場所は分かるか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「ウウ……ワカラ……ナイ……カエル……タイ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「分からないほど遠くから来て、お前は帰りたいんだな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「カエル……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「これはラー・サイアム殿の推測が当たっているようですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど。それはいいとして、なんで俺たちに迫ってきてたんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「オンナ……オンナ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010008" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「わ、私？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015903_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「チカラ……カエル……カエレ……ル」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010009" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ラー・サイアムの魔導を見て、帰れると思ったのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「頷いておりますな。偶然コテージに来たところ、ラー・サイアム殿の力を見\nたのでしょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「じゃあ、床が濡れていたのはあなただったのね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015903_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「カエレ……ル……カエル……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010010" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「つまり彼女に敵意はなく、帰るために接触しようとしていた。それを我々が\n驚きから勘違いしてしまったわけですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うーん……なあ、ラー・サイアム。こいつの言ってることが事実だとして、\nお前の魔導でなんとかできるものなのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「……難しいわね。まず彼女がどうしてこの星に来たのかが分からないし。そ\nれに――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015903_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「呼ぶと違って戻すって難易度が段違いなのよ。掃除機で大雑把に吸い込んだ\n後、そのまま吐き出したとして元の位置に簡単に戻せると思う？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「無理……とは言わないだろうけど、難しいなそりゃ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「そう。呼ぶよりも大量の魔力と緻密な術式が必要になる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「それに仮に戻す術式を組めたとして、対象の位置をほぼ正確に把握して行使\nしないと、最悪彼女が異空間に飛ばされたり、あるいは成功しても天空に転移\nとか土の中に転移とかしてしまう可能性もあるし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「一朝一夕にはできないってことか。そりゃそうだろうな。なあ、お前はなん\nでこっちに来たのか分かるか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「ワカラ……ナイ……カエル……タイ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010011" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そりゃ俺たちもできれば帰らせてやりたいが……難しそうなんだよな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「しょんぼりしておりますな。まあ当然ですが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「この様子だと拠点とかもないよな……なあ、お前、俺たちと一緒に来るか？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「ウ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010013" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺たちの組織に所属すれば、少なくとも住む場所と仕事はもらえる。言葉も\n覚えられるし、そうしながらお前が帰れる方法を探す。どうだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「イイノ……カ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、学園の時みたいに危害を加えないなら大丈夫だろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……たぶん。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「オマエ……イイヤツ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010015" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ、と」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おお、これは熱烈な抱擁。ご主人もまんざらではない様子」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だって、こいつ、結構身体が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「巨乳ですな。ご主人の大好きな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「オマエ、コレ、スキ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010016" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、まあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「ナラ……モット……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおう、そんなに押し付けられたら……じゃなくて、とりあえずスーザンが\n気づく前に戻ろうぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「腹も減ったし。なあ、ラー・サイアム、コテージには食い物あるんだろう？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「え、ええ。備蓄はたくさんあるけれど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010010" ]},
+		{"command":[ "SETCHARA", "0", "char_00015903_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「メシ……タベル……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010018" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺も腹減ってるし、お前の歓迎会だな。ああ、水は出すなよ。ジュンジロー\nが溺れちまう」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "デッドシャーク" ]},
+		{"command":[ "SETTEXT", "「ワカッタ……ダサナイ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_222_010022010019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし。じゃあ行こうぜ。ていうかお前名前は――ってラー・サイアム、なに\nやってんだ？　行こうぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「なんかいつのまに仲間になってる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010011" ]},
+		{"command":[ "SETCHARA", "0", "char_00015903_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「ま、いいか。これはこれで楽しそうだし。それに、あの子の能力で『大いな\nる力』が見つけられるかもだし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010012" ]},
+		{"command":[ "SETCHARA", "0", "char_00015903_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラー・サイアム" ]},
+		{"command":[ "SETTEXT", "「待ちなさい、先に行っても鍵は私が持ってるんだから入れないわよ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_010022010013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マリッサ" ]},
+		{"command":[ "SETTEXT", "「まだだ、根性見せろテメエら！！　憎きサメハンターを喰らいつくせ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_095_010022010006" ]},
+		{"command":[ "SETCHARA", "0", "char_00009502_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スーザン" ]},
+		{"command":[ "SETTEXT", "「甘い！！　亡霊ごときにやられる私ではない！！　アタッチメントアーム、\nサメ滅殺ナパーム！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_127_010022010004" ]},
+		{"command":[ "SETCHARA", "0", "char_00012702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あちらはともかく、丸く収まったということで。一件落着……ですかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022010009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

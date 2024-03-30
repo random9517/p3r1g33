@@ -1,0 +1,341 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっぱり、インドア派だって聞いてたのに、いきなりバリバリの体育会系は\n大変だったな……」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「す、すみません……ご迷惑をお掛けしまして……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、こっちこそ悪かった。とりあえず、今度は文化系の方にしよう。その\n方が間違いない。で……えーと、ここだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「こちらが……文化系の方々が活動しているところですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、全部って訳じゃないが、放課後に部室として使われている部屋が多い\nエリアだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ざっと見た感じでも、吹奏楽部、手芸部、茶道部、美術部……他に、漫画研\n究会やクイズ研究会なんてのもあるみたいだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「わぁ……どこを覗くかだけでも、結構迷っちゃいそうですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まぁ、特別目当てがないんだったらフィーリングでいいんじゃないか？　流\n石に、さっきみたいなスパルタはないだろうし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「そ、そうですね……えっと、それじゃ……あら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910004" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうした？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ、いえ……何か音楽のようなもの聞こえてくるんですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……？　あぁ、確かに……これはエレキギターの音か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「なんだか、ノリがいい感じですね。自然に身体が動いてしまうような」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910006" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これは、軽音部か？　どうする、せっかくなら覗いてみるか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ……そうですね、確かに、ちょっと興味があるかも知れません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし、それならここか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0138" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "部屋に入ると、一気に音のボリュームが上がり、厚みのある音が響き渡った。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "目まぐるしくコードの変わる難所っぽい場所が、滑らかに演奏され、思わず小\nさく口笛が漏れる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「すごいですね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910008" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……でもこれは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そこに学生たちの姿はない。代わりにいるのは――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「ふん、ふふーん、ふん、ふん、ふーん……っと。あらぁ、あなた方は……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ちょうど演奏が終わったところで、演奏していた主はゆっくりと顔を上げた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「まぁまぁ、ようお越しになりましたなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910002" ]}
+,		{"command":[ "SETCHARA", "0", "char_00019802_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ラストノート……あんたが、どうしてここに？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「ええ、ちょっと学園長はんに頼まれましてな。部活の顧問をしてもらえんか\nと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんたもか……軽音部でいいんだよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「ええ、今も昔も、軽音楽は文化部の花形。うちにぴったりだと思いません？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どこからその自信が出てくるかは知らんが……とにかくあんたが顧問をして\nるってことか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「ええ、学園長はんにうちの指遣いが忘れられなかったと……熱っぽくおねだ\nりされたんどす」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ギターの話だよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「他に何かあるんどす？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910006" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや……ねぇけど」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「あらぁ……違いましたかぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910007" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その誤解を招きそうな、指の動きはやめろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「うふふ、すんまへんなぁ。それで、本日はどんなご用でっしゃろか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910008" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あぁ、ちょうどこの子が、今いろいろと部活見学をしたいってんで来たんだ\nが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ、あのっ、よろしくお願いしますっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910009" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「まぁまぁ、ずいぶんと可愛らしい子やあらしまへんか。中々に味わい深そう\nな……じゅる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910009" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「え……えっと、今日は部員さんは……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910010" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「ええ、今日はそのたまたま、みなさん休学……いや、お休みになってしまい\nましてな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910010" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「ですが、体験入部でしたら大歓迎どす。初心者でも分かるように、手取り足\n取りお教えしますえ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910011" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ、え、えと……じゃあ……お、お願いします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910011" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「うふふ、ほなさっそく、ギターを持ってみましょ。これをお使いやす」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910012" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、はい、えっと……こんな風に持つんでしょうか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910012" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「ああ、お上手どす。左手でこう支えて、右側はこう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910013" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ、ありがとうございます……え、えっと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910013" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「大丈夫どす。うちがちゃーんと後ろから支えますよって。ほら……身体の力\nを抜いて……リラックスどすえ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910014" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、はい……あ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910014" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「そうそう……いい香りがしてきはったでしょう？　ふふ……そのまま、その\nまま……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910015" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910015" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「いい子どす……さあ、ゆっくり服を脱いで……気持ちよーく……あだっ！？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910016" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「いっつぅ……何ですのん、無粋な邪魔をして……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「何ですのんじゃねぇよ！　堂々と俺が見てる前で服を脱がそうとしてんじゃ\nねぇ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう言えば、こいつの芳香には人をおかしくさせる効果があるんだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だからって、完全に俺のことをすっ飛ばして、いきなりコトに及ぼうとすると\nは思わなかったが……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「あぁん、いけずやなぁ……何なら、一緒に楽しみはります？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910018" ]},
+		{"command":[ "SETCHARA", "0", "char_00019802_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「大事な生徒預かって、そんな事できるか！　て言うか、お前まさか、既に他\nの部員を……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「いややわぁ、そんな言いがかりはよしとくれおす。本当に今日はたまたま皆\nさんお休みになってるだけどすわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……とにかく、この子は連れて帰るからな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラストノート" ]},
+		{"command":[ "SETTEXT", "「あぁん、残念……また気が向いたらいつでもおこしやす」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_198_010022910020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ったく……学園長もとんでもないのを連れてくるよな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「ん……むにゃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022910016" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まだ夢見心地のうららを支えながら、俺は急いで部屋を後にした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

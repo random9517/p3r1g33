@@ -1,0 +1,167 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "パンケーキの材料を買い出しを終え、学園に戻る。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「カツマ、持とうか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これくらい平気だ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "小麦粉やら卵やら、トッピング用の果物なども買い込んだ袋を両手に提げて歩\nく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「他に足りない材料はないよな？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「大丈夫だと思う」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「にしても、俺が言い出したことではあるが、なんで流々那はそんなに優勝に\nこだわるんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「別にこだわってはないの。でも、やるならいい思い出を作りたいから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いい思い出ねぇ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「私の世界が滅亡したとき、私はその世界でも学生でした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うちの姫様と一緒か」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「ですが、世界が滅んで、ルナパレスもなくなって、私はとにかく逃げなくち\nゃいけなくなったんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「追われてたのか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「……うん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「私たちのところにきた襲撃者（インベーダー）は、その次元に暮らす住民を\nとことん滅ぼすんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「次元の跡形も残さないくらいに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "めちゃくちゃなやつだとは思っていたが、そこまでするのか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「家族も、友達も、みんないなくなって。たった一人で次元から次元を渡り歩\nいていました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620009" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "改めて聞くと、流々那は想像できないほど大変な暮らしをしていたのだろう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の不幸さがかすんでしまうくらいに。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それにしても、流々那の世界には俺のほかにも『アナザー』がいたんだよな。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "アナザーの俺は死亡したらしいが、ほかの連中は……？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「大変なだけでもありませんでした。私に手を差し伸べてくれる人にも出会え\nましたし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「今だって、この次元でカツマと出会えました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだか照れるな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「カツマだけではありません。この次元では、いろんな人が私に手を差し伸べ\nてくれて、一緒に戦ってくれる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「だから、みんなに悲しい思いをさせたくない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「この学園祭も、楽しい思い出にしたい。それがこの次元で、みんなのために\n私ができることだと思うから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど。そういうことなら協力しないとな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「ありがとう、カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113620015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なに、俺はいちおう教師だからな。生徒を応援するのも仕事のうちってこっ\nた」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうして素直に話してくれた流々那に同情したのだろうか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は不思議と流々那に力を貸したくなっていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

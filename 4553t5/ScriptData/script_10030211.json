@@ -1,0 +1,81 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "襲来者" ]},
+		{"command":[ "SETTEXT", "「く、くそっ！　なんだお前ら！　隊長が帰ってきたら、急に強くなりやがっ\nてっ！」」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わははははは！　これが俺の実力よ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「…………お、おい。下僕！　戦闘中になんだが、言っておくことがある！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114910001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんスか、姫様？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「こ、今回も……よく帰ってきたな。その点は、ほめてやる。あと、その……\nなんだ。お前がいると、なんだか妙に技のキレがよくなる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114910002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へへっ、そりゃまあ、俺は隊長ですからね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「っていうか、エンブレム・シンテシスとかいう能力のおかげだろうが。しか\nしまあ、カツマがいると膝が楽になる気がするのは確かだね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114910001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「そういえばダイヤナちゃんも、疲れ目が少し改善されるというか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114910001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「ふむ。言われてみれば、血行が良くなる気がしなくもないな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010114910001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、俺はどっかの健康食品か！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0181" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "みんな" ]},
+		{"command":[ "SETTEXT", "「個人の感想です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114910003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「通販番組じゃねえっつーの！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者" ]},
+		{"command":[ "SETTEXT", "「戦闘中にコントやってんじゃねえぇ～～～っ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

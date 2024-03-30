@@ -1,0 +1,414 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「で、なにがどうなって晴れ女なんだよ」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「うん。神性の増幅には概念、特質が必要なんだ。私はあるものを増幅はでき\nるが、ないものを作ることはできない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つまり、晴れ女という本人の概念というか特質を増幅させて、日輪の力まで\n引き上げるってことか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「その通り！！　だから、これは重要な質問になる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060002" ]}
+,		{"command":[ "SETCHARA", "0", "char_00026401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つってもそんなもん、自覚すらない場合があるぞ。どうやって見つけるんだ\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「心配するな。そういうときのために見つける条件がある」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おお、いいじゃねえか。で、その条件はなんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「忘れた！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こいつ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ちょっと、いや、かなり残念なお方ですな……まあある意味我々の同類とい\nいますか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「いや、勘違いしないで欲しい。忘れたのは一部で、なにか……なにかが小さ\nいというのが条件なんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060005" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そのなにかがわかんなきゃ意味ねえだろ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「大丈夫、うっすらと覚えている。確か……し……えーと……んんんんんっ！\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060006" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「全く覚えていないご様子」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「も……し……し……尻。そうだ、お尻が小さいという条件だったような」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060007" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「尻って……なんで尻が天気と関係あるんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「神々の気まぐれは分からない。ということで失礼」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060008" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「ひゃあっ！？　な、なにを……あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「尻の大きさを確かめているんだ。動かないでくれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060009" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「確かめるって……あっ、んんっ、そんな入念に……ひああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「彼女は違ったか。次は君だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060010" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ配下" ]},
+		{"command":[ "SETTEXT", "「え？　ふあっ！！　そんないきなり……んんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_050023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000805_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「むむ、君は少し小さめだが……うーむ、何かが違うような」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060011" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ配下" ]},
+		{"command":[ "SETTEXT", "「指、沈みこませないで……あうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_050023060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000805_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんか……見てていいのかな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そんなことをいいながらご主人の視線は釘付けの様子」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや……まあ、なあ。あんなの見ちゃうだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「なにをぼさっとしてるんだ。カツマ、君もやらないか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060012" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へ？　え？　俺も？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「この中で晴れ女ではないのは私と君だけなんだから、手分けしてやるのは当\n然だろう。ＥＤＯが水没してもいいのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、そういうわけじゃないけど……いいのかな～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そう言いつつも、顔がやに下がっておりますぞご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「早くするんだ。二人でやれば半分の時間で済むじゃないか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060014" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そこまで言われたら仕方ないな……俺も腹をくくろう。じゃあ、いくぞ\n！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ配下" ]},
+		{"command":[ "SETTEXT", "「きゃあっ！！　た、隊長……！！　んっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_060023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000806_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「すまんが、辛抱してくれ。ＥＤＯのためだ……！！　あっ、凄い柔らかい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ配下" ]},
+		{"command":[ "SETTEXT", "「か、感想は言わなくていいですからっ！！　んんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_060023060002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……これは……いい形だ……うむ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ配下" ]},
+		{"command":[ "SETTEXT", "「なんだか、手つきがいやらしい……あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_060023060003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うーん、この感触は晴れ女っぽくないな。よし、次行くぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ配下" ]},
+		{"command":[ "SETTEXT", "「ふあああっ！？　ちょっと、隊長、ひうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_070023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000807_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お……これは……所属部隊の幹部と体型も似るのかな。なかなか……うん」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ配下" ]},
+		{"command":[ "SETTEXT", "「お尻……なで回さないでください、んんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_070023060002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さっきのよりも少し大きめだから、これも違うな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ配下" ]},
+		{"command":[ "SETTEXT", "「人のお尻を大きいとか言わないでください！！　サイテー！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_070023060003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「まあまあ、こっちも終わった。どうやらお尻の小ささではなかったようだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060015" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なに？　じゃあ本当はなにが条件なんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「うーん……なんだったかな。何かが小さいのは確かなんだ……お尻じゃない\nなら……おっぱいか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060016" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス配下" ]},
+		{"command":[ "SETTEXT", "「うわあっ！！　いきなり胸を……んっ、ふっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「ほらカツマ、君も調べるんだ。時間は無駄にできない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060017" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え、ええ。仕方ないよなあ～、ＥＤＯの危機だもんなあ～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "水着" ]},
+		{"command":[ "SETTEXT", "「ひあああっ！！　本当に、本当に触った！！　あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_080023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000811_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おほっ……いや、ごほん。これは……うーん、絶妙な柔らかさと張り……素\n晴らしい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "水着" ]},
+		{"command":[ "SETTEXT", "「信じられない、んんっ、本当にサイテーです、隊長！！　やんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_080023060002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うむ。これは幸せ……じゃねえ、これは晴れ女っぽくはない。次！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ配下" ]},
+		{"command":[ "SETTEXT", "「ひゃん！？　そんな鷲掴みを……んんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040023060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000803_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おお、これはまた感触が……たまらん。じゃない、晴れ女かな……うははは\nは」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ配下" ]},
+		{"command":[ "SETTEXT", "「……報告しますからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040023060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000803_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ配下" ]},
+		{"command":[ "SETTEXT", "「今日のこと、エファナティカ様に報告しますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040023060003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス配下" ]},
+		{"command":[ "SETTEXT", "「私も姫様に報告する」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020023060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "水着" ]},
+		{"command":[ "SETTEXT", "「私は長官に報告します」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_080023060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000811_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いやいや。待て待て待て、俺はアグニに言われて、この問題解決のため\nにだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ配下" ]},
+		{"command":[ "SETTEXT", "「この期に及んで他人を言い訳に使うとか最低です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040023060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000803_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "水着" ]},
+		{"command":[ "SETTEXT", "「今の隊長はただの痴漢です。ただのエロ上司です！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_080023060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000811_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そうですぞ、変態ご主人！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023060005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前は黙ってろ！！　いやいや、俺は皆の隊長として、使命のために揉んだ\nんだよ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ配下" ]},
+		{"command":[ "SETTEXT", "「だとしても、いくら私たちよりも紋章が大きいからって、こんなセクハラは\n許せません！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040023060005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000803_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「今なんて言った！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060018" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ配下" ]},
+		{"command":[ "SETTEXT", "「え……セクハラは許せないって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040023060006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000803_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「違う、その前だ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060019" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ配下" ]},
+		{"command":[ "SETTEXT", "「私たちより紋章が大きい――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040023060007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000803_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「それだ！！　紋章！！　紋章の小さい者だ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060020" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだそれ、どういう理屈だ？　そもそも紋章つっても、俺たちは月の紋章\nで、日輪からはほど遠いと思うんだが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「だからこそだよ。月の力を持ちながら、それが小さい。すなわち、それは太\n陽に近い存在でもあるんだ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060021" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ええ……分かったような、分からんような」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「というわけで、紋章が小さいのは……そこの君だっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023060022" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

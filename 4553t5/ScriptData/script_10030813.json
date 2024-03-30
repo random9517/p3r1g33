@@ -1,0 +1,232 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0160" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "ドラグソードを操るカグヤと、巨大化したまりあの激しい戦闘。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その余波で校庭は荒れ、校舎も壊れる。そしてふたりに潰されないように右往\n左往する俺たち。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「あ、あんまり無茶はさせるなよカグヤ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そんなことより、私たちまで巻き込むな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「うおおおっ、踏まれるぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ガンシスター" ]},
+		{"command":[ "SETTEXT", "「お姉ちゃん！　正気に戻れーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001301_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドラグソードの攻撃を軽くかわすまりあが攻撃をする。ドラグソードはバリア\nを展開してそれを防ぐ。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "隙をみてカグヤ自身も忍法で攻撃しているが、それはまりあがバリアを張って\n防いでいた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いや、なんでまりあがそんなことできるんだよ。本当になんでもありか。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「おいカツマ！　おまえがこの戦いをどうにかしろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、俺が！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「お前がだらしないのが原因で起きた争いだろうが！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010115770002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺のせいかよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「カツマのせいだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「カツマのせいであろうな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「十中八九カツマくんが悪い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「いまはこの世界の被害だけですんでいるが、その余波が現実に及ぶのは困る\n。だからどうにかして止めろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010115770003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや無茶言うなって！　あんなに激しく戦ってる二人の仲介なんてでき\nるわけが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう言ったところで、俺の身体が修羅姫に掴まれた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「いいから、行ってこい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010115770004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んなぁあああぁぁぁっ！？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして次の瞬間、俺の身体は宙を舞う。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "戦っている二人に向かってぶん投げられたことに気づいたときには、両脚はす\nでに地面を離れていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あぶないっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺を危険に合わせないように、カグヤとまりあは同時にバリアを展開した。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ふたりのバリアがぶつかった途端、強烈なエネルギー波が発生する。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どわぁああぁぁぁっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は弾き飛ばされる形で地面にたたきつけられた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "衝撃波の発生地点を中心に、ぐにゃりと空間が捻じ曲がる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「なっ、なに！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115770002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「これ、やばそうだっちゃ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115770002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいおい、どうなってんだよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「バリア同士、すなわち斥力と斥力がぶつかりあったことで、対消滅エネルギ\nーが発生したんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115770002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだって！？　……で、どうなるんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「消滅と消滅がかけあわさって……消滅する！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115770003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わけわから……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "サイレーンにツッコミを入れるまもなく、俺たちのいた校庭はまばゆい光に包\nまれた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……こ、ここは？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "目を覚ますと、大戸岐学園の校庭だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "全員気を失っている。そして、伝説の古時計も転がっていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「戻ってきたみたいだな。もとの世界に……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "これでよかった……のか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

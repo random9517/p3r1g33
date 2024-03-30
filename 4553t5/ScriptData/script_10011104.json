@@ -1,0 +1,105 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0001" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「うわっと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020111070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「シルバスター！　大丈夫かい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010111070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「ありがと！　こっちは大丈夫！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020111070002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ロボットどもめ。硬いわ数が多いわで、らちがあかねぇな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「しかし、今のところ防衛線は抜かれておりません。避難の準備は着々と進ん\nでいるようですぞ。ご主人もやるときはやるのですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010111070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やめろ！　おまえにほめられると、なんだか気持ちわりぃ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……まったく、珍しくほめて差し上げたのにこれですか。おだてがいのない\nご主人ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010111070002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃん！　ジュンジローちゃん！　漫才でなごませようとかしなくて\nいいから！　働いて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010111070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「別にそんなつもりはねえよ！　それよりアナザー！　そろそろいけるか！？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「待たせた！　今召喚する！　メカ・ジュンジロー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090111070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「了解（ラジャー）……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_040111070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000904_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ゴラド・イザヤ・ムーン、月龍の血の元に――出でよ！　ドラグソード！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090111070002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0088" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_007" ]},
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「来たぁっ！　ドラグソード！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020111070003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「よし！　これで形勢が変わる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010111070001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「いけいけー！　ドラグソード！　悪いロボットぶっとばせー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010111070001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「頼むぜ……！　マジで！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,289 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「やれやれ、また学園長から呼び出しとは……今度は何をしでかしたんですか\n、ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせぇな。心当たりなんてあるわけ……ねぇこともねぇな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「更衣室を覗き見とか、拾い食いとかしていませんでしょうな？　ご主人は、\n何をしでかすか分かりませんからなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022890002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「してんのはお前だろ、一緒にすんな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「失敬な。私めは別に更衣室を覗いたりはしませんぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022890003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「拾い食いはするんだな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まぁまぁ、私のことはいいでしょう。とにかく、学園長のもとに行きません\nと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022890004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くそ……一体どれのことだ！？　何をやらかしたんだ俺は……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0129" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、あのぅ、失礼します……お呼びになりましたかと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ああ、いらっしゃいましたね。どうぞ、中へお入り下さい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、はい。その、この度は誠に申し訳なくっ、反省しておりますのでどうに\nか寛大なっ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「……えぇと？　何のお話でしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ、あっ、いや……何のお話だったんでしょうか……その、心当たりが…\n…あるような、ないような……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「そちらのお話はまた後で伺うとして、今日は貴方にお願いがあってお呼びし\nた次第です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お願い……ですか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「はい。待って下さい、今、控室の方にいらっしゃるので……春風さん、こち\nらにいらして下さいますか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「は、はは、はいっ……あのっ、しし、失礼……しますっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「緊張しなくても大丈夫ですよ。こちらは警備員のカツマさん。怖くないわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890005" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、はいっ、すみませんっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんか、やけに腰が低いというか……卑屈そうな女の子だな……", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「改めて自己紹介して下さい、春風さん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890006" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、は、はいっ、あの……私っ……こ、今度……大戸岐学園に転入すること\nになりましたっ、春風……うららと申しますっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890003" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「その、何も分からず、ご迷惑をお掛けしてしまいますがっ、どど、どうぞ、\nよろしくお願いします！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へぇ、転入生ね……この時期に珍しいっすね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ、そ、そうですね……いろいろと事情が……す、すみません……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、いや、別に謝ってもらうようなことは」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「それで、お願いというのは、彼女に学園を案内してあげて欲しいんです。貴\n方なら学校の隅々まで知っているでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890007" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、はぁ……まあ、一応は知ってますけど……担任の先生とか、クラスの生\n徒は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「それが……クラス委員の子は、今日は体調不良で欠席だそうで……担任の先\n生は、部活の顧問で忙しいと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「要するに、ヒマなやつが適任と……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「お願いできるかしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、それはもう……業務命令ですし、喜んで」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「そう、よかったわ。それで、貴方の方からは何か話すようなことが？　最初\nに何か言いかけていたような……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、いえいえいえっ、別に何も！　だ、大丈夫です！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「そうですか。では、春風さん。後は、彼に案内してもらって下さい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、はいっ、あのっ……よ、よろしくお願いしますっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890006" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「分かりました。とりあえず、基本的な施設を案内していけばいい感じですか\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「春風さん、どこか気になるところや、見ておきたい場所があったりするかし\nら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890012" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ……え、えっと、そうですね……も、もし、よかったらなんですけど……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890007" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「遠慮しないでいいのよ。カツマさんが全ていいようにしてくれますわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890013" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、あんまり何でもかんでもってわけには……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「そそ、そうですよね、すみません……出過ぎたことを……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890008" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いやいや、まだ何も聞いてないから。とりあえず、どんなことか言って\nみないことにはな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、はい……その、私……前の学校では、諸事情がありまして……ずっと帰\n宅部で……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890009" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「それで、もし、よかったら……部活動見学みたいなことができたら嬉しい、\nかも知れないです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「あら、それはちょうどよかったですわ。わが校は、今、特に部活動へ力を入\nれようと様々な試みを始めたところなんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890014" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「えっ、そうなんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890011" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ええ、外部からコーチを招聘したり、新しい部活動の承認を増やしたり、全\n体の予算も多めに確保したばかりです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890015" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「どこに興味があるにせよ、今なら充実した部活動ができると思いますから、\nぜひ、色々と見ておくといいですわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ、ありがとうございます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890012" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「それではカツマさん、改めてよろしくお願いします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_010022890017" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「了解です。それじゃ、早速行きますか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、はいっ、あ、あ、あのっ……よろしくお願いしますっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022890013" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

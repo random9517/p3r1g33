@@ -1,0 +1,295 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はーぁぁっ……こーれでやっと一段落かぁ、疲れたぜ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ここ最近、時間帝国との戦いが激化し、気の休まる暇もない日々が続いていた\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかも、そんな非常事態だからといって日々の雑務がなくなる訳じゃない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ったく、ハードスケジュールなんてレベルじゃねぇぞ……それでなくても、\nうちはブラックだってのに……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい、ジュンジロー……って、あいつもどっか駆り出されてんのか……どん\nだけ人手不足なんだよ、ここは」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……はぁ、この後に報告書書いて、それから合同作戦とか言ってたっけか…\n…あぁ、めんどくせぇ……てか、体が重てぇ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くそ……ちょっとだけ仮眠……３０分だ……。そしたら一気に色々仕上げて\n……ｚ……ｚｚｚ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "………………", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「…………きて…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……起きて…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……ねぇ……起きて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0187" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んっ……んむぅぅ……う……んくっ……む……ぉっ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ぁぁ……いけねぇ、思いっきり寝ちまった……えぇと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ようやくお目覚めね、旦那様」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……？　カ、カグヤ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「どうしたの、旦那様。驚いた顔をしちゃって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だ、旦那様って……それは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「どうしたんだ、旦那様。何を狐につままれたような顔をしているんだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022500001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ア、アナザー……！？　何でお前まで……ってか、ここは……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "左にカグヤ、右にアナザー・ルナテミス。まるで分からない状況だったが、目\n覚めたベッドもまるで覚えがないものだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「何だこのフッカフカなの……それに、このカーテンみたいなの……まるで王\n族かなんかじゃねぇか……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「あら……お目覚めになられたのですね、旦那様」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022500001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ、あ……牛神様……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「とてもよくお休みになられたようで、何よりでございました。お疲れは取れ\nましたか、旦那様？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022500002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぇっ……！？　あっ、えっ、あっ、え、えぇ、まぁ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「それは、結構でございました。日々、お忙しいご様子でしたから、少しでも\n体力を回復されませんといけませんものね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022500003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、はぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "部屋に入ってきた牛神様も、明らかに普段とは様子がおかしい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「朝食の準備も出来ているから。今日は、和風、洋風、中華……どれがいいか\nしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……？　選ぶとか……あるの？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「当然だろう、どれでも好きなものを選んでいいんだからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022500002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「私達、心を込めてご用意いたしましたから、どうぞ沢山お召し上がり下さい\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022500004" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「その前に顔を洗わなくちゃね。お風呂も沸かしてあるから、先にそちらを済\nませてもいいわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "一体どうなってるんだ、これは……。揃いも揃って俺のことを旦那様と呼んで\n、妙にかいがいしくて……", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まるで召使い……いや、それにしちゃあ、態度がもっと親しげな……それは、\nつまり……に、新妻のような……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "い、いやいや、だが、カグヤとアナザーはまだ分かるが、牛神様までっての\nは幾らなんでもおかしいだろ……？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "都合の良すぎるハーレムのような状況に、俺は思わず首を振る。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「旦那様……大丈夫？　まだ疲れが取れていないの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ？　あっ、い、いやっ……そういうワケじゃ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「もしかして熱でもあるのか……？　すまん、ちょっと頭を失礼する」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022500003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おぉっ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふむ、おでこは熱くないようだ。だが、具合が悪かったりするなら、いつで\nも知らせてくれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022500004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、それは大丈夫だ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何なんだ……これ！　本当に現実なのか？　まだ夢の中にいるんじゃ……", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「大変だーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010022500001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「あら……ルナテミス様……どうなさったのですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022500005" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「敵襲だ！　エファ……アナザー・エファナティカが攻めて来たぞっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010022500002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っ……時間帝国の奇襲かっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "現実離れした夢心地が、一瞬でクリアになって、俺は慌ててベッドから飛び起\nきる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「きゃっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「きゃあっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022500005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へっ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「あら……まぁ……これはまた、ご立派な朝立ちで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022500006" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「や、やだ……旦那様ったら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022500010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「バ、バカ、こら！　見るんじゃねぇっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

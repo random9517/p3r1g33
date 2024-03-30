@@ -1,0 +1,216 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふう……。さて、陛下――じゃないのか、学長？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「なんじゃ。妾を楽しませたからには、何か褒美を授けるにはやぶさかではな\nいぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その辺りの器は変わってないなあ、この人。……負けていたら相当厳しいお仕\n置きをされただろうが。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「何が欲しい？　学食のチケットか？　それとも女子更衣室を覗ける穴場スポ\nットを知りたいか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやそういうのは……いいんで」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「今、若干の間がありましたな。ご主人も徐々にこの世界に馴染んでいると見\nえる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108170001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「違う！　この上、余計な面倒は抱えたくないぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「なんじゃ、分かっておるではないか、カツマよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「今の選択肢はな、学食なら飲み物を溢した女学生に濡れた股間を拭いてもら\nうフラグ――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「更衣室を選べば、上級生にバレてお姉様たちから嬉し恥ずかし折檻を受ける\nという流れじゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういう寄り道はもういいんで……って、学長も正気なんですか？　フラグ\nとか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「正気かとは失敬な！　妾は灰色の学園生活に薔薇色の幸せを咲き誇らせたい\nだけじゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「フラグと言ったのは、ナウなヤングの基礎教養だからじゃ……が。なんぞ、\n間違っておったか？　ヤバい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや……無理して若者に合わせなくても」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やっぱ、何も知らない……というか、学長とかいう設定のままかよ。紛らわし\nい。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さっさと元に戻す方法が知りたいだけなんだが……こりゃ尋ねても無駄かな\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「む。なんじゃ、妾が知らぬ事でもあるというのか？　この学園に関して、妾\nが知らぬ事なぞ何もないぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「草木の一本から学生たちの経験人数まで、すべて把握しておる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや……その、後半は可哀想だからやめてあげません？　なかには年齢＝童\n貞もいるんでしょ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「それはそうじゃ。ちなみに女子の非処女率は男子の脱童貞率よりも遙かに高\n――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺が聞きたいのはそういう話じゃなくて！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー……ここ最近、学園内で何かおかしな事はなかったですか？　変わった\n事でもいい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「おかしな？　変わった？　何を言っておるのかイマイチ分からんのじゃが…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「学園の七不思議とか、学校の怪談とか、そういう類いの事を聞いておるのか\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おほ。それはまた、夜の肝試しイベントでラッキースケベ発生のフラグです\nなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108170002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それも違う。やっぱり収穫ナシか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「待て待て、気が早い奴じゃのう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「お主が求めておる情報かは分からぬが、変わった事でひとつ思い出した」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お？　なんです？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「この学園には裏庭があってな。そこに伝説の大木というものが生えておる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「伝説の……大木？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「うむ。その下で告白したふたりは必ず結ばれる……かもしれない、というご\n利益のある木なんじゃが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや、かもしれない、の時点でご利益って」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「いいから聞け！　こほん、かくいう妾がそのご利益を受けて、旦那とイチャ\nラブでうっふんな関係になったのじゃから、間違いない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170017" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それ、何十年前の話って、聞いちゃマズいんだろうなあ……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「でまあ、その大事な想い出の木がな、雷にでも撃たれたのか、綺麗さっぱり\n消えてしまったんじゃよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170018" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？　跡形もなく、ですか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「うむ。根っこすら残っておらん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108170019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……裏庭、ですね。行くぞジュンジロー」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「お？　いやそれだけでもう向かうのですか？　もう少しフラグをあちこち立\nてて楽しみませんか、ご主人～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108170003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

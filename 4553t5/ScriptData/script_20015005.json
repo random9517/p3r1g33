@@ -1,0 +1,281 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「生……生きてるかジュンジロー……？」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なんとか私の心臓は動いております……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「酷い目に遭った……もう一滴も出ねえ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ブラッシングされたはずなのに、毛並みがカサカサになっております……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、なんかもうダシを取り尽くされた鶏ガラみたいになってるぞ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人も限界まで燻製したジャーキーのような肌になっておりますぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今まで結構死にそうな目に遭ったことはあったが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「皆まで言わずとも分かりますご主人。今回だけは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、今回だけはマジで死を覚悟した……快感が恐怖になるって、あんな感\nじなんだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんとか逃げ切れたが……もう一回捕まったらもう無理だ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「精気を吸われる快感と虚脱と絶望がない交ぜになったあの感情はなんと言え\nばいいのか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「とりあえず今は、もう部屋に帰って眠りたい……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "「やっと帰ってきた……この狭い部屋が楽園みたいに思える日が来るなんてな\n」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ああ、我が愛しの寝床……夢にまで見た故郷」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおげさ……でもないか。ともあれ、今日はもう寝ようぜジュンジロー。何\nかをする気にはなれねえ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「何か忘れているような気もしますが……そうですな。ひとまずは身体を休め\nましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。じゃあな、おやすみ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おやすみなさいませ、ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SETNAME", "貴梨果" ]},
+		{"command":[ "SETTEXT", "「ふふ、夢の中でもご奉仕。それがｓｕｃｃｕＢｉです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_269_010023350001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわああああああああああああ！！　出た～～～～～！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「つれないですねえ。あんなに喜んでくれていたのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_020023350001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003304_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「カツマさん、夢でもこんにちは～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_020023350001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018204_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひいいいいい！！　夢にまで出てくるなよ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "魅白" ]},
+		{"command":[ "SETTEXT", "「お忘れですか？　ｓｕｃｃｕＢｉのモットーは『クライアントにクリティカ\nルなアサインを』ですよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_270_010023350001" ]},
+		{"command":[ "SETCHARA", "0", "char_00027001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ……どういうことだよ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "魅白" ]},
+		{"command":[ "SETTEXT", "「私の能力は夢へと侵入できますが、それはある程度同意がなければ不可能な\nのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_270_010023350002" ]},
+		{"command":[ "SETCHARA", "0", "char_00027001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "魅白" ]},
+		{"command":[ "SETTEXT", "「ようするに『サキュバスにエッチなことをしてほしいな～』って願望のある\n男性にしか侵入できません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_270_010023350003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つ、つまり……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "魅白" ]},
+		{"command":[ "SETTEXT", "「つまりカツマさんは心の奥底では私たちを求めているのですよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_270_010023350004" ]},
+		{"command":[ "SETCHARA", "0", "char_00027001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「うふふ、口では嫌がっても身体は……ということですね。素直じゃないんで\nすから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020023350001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002605_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「でも、そういう男の方が私は好きですね。落とし甲斐があるじゃないですか\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_020023350002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003304_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "貴梨果" ]},
+		{"command":[ "SETTEXT", "「サキュバスのご奉仕は、夢の中だと現実とはまた違ったものになるんですよ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_269_010023350002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "魅白" ]},
+		{"command":[ "SETTEXT", "「会社で味わったものとはまた違う快感、たっぷりと堪能してくださいね、カ\nツマさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_270_010023350005" ]},
+		{"command":[ "SETCHARA", "0", "char_00027001_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……ああああああ……嘘だ……嘘だ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「それじゃあ、まずはハグからいきましょうか～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_020023350002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018204_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "貴梨果" ]},
+		{"command":[ "SETTEXT", "「じゃあ私はローションマッサージをしてあげますね～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_269_010023350003" ]},
+		{"command":[ "SETCHARA", "0", "char_00026901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「服なんか邪魔ですから、脱ぎ脱ぎしましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_020023350003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003304_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「夢の中なら道具も出せたりするんですよ。ほら、こんな気持ちよさそうなモ\nノがたくさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020023350002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002605_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "魅白" ]},
+		{"command":[ "SETTEXT", "「現実でも、夢でも、存分におもてなししてさしあげます、カツマさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_270_010023350006" ]},
+		{"command":[ "SETCHARA", "0", "char_00027001_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あああああ～～～～～！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわあああああああああああああっ！！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「夢……じゃない……この倦怠感……！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュンジロー！！　おいジュンジロー！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュ……ジュンジロー……お前もか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「彼女たち……夢で動けない私によってたかってブラッシングやなでなでを…\n…！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺も……もう無理だって言ってるのに何度も何度も……っ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「現実でも夢でも搾り取られて……もう動くこともできねえ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「サキュバスを助けたばかりに老人のような様相に……まるでこれは現代の浦\n島太郎」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023350011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「サキュバスなんか……もうサキュバスなんか、こりごりだ……っ！！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今度からは、絶対に助けたりなんかしないからなああああああああああああ\nっ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

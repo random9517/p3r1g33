@@ -1,0 +1,237 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0148" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「学生たちの様子がおかしい……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ある日の打ち合わせ中、明日楽が急にそんなことを言い出した。副担任として\nも、それはちょっと気になるが、しかし……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待ってくれ。あいつらがおかしいのはいつものことじゃないのか？\n」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "正義の味方だの悪の女幹部だのその手下だの、って連中を集めたクラスなんだ\nし、多少おかしいぐらいが平常運転だと思うんだが。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「違います！　そういうおかしさだったら私だって慣れてますし、別に気にし\nません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113130001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "明日楽だって十分以上に「おかしい」部類だしな。とくに「修羅姫」になっ\nてるときは。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その明日楽が気にするぐらい様子がおかしいっていうのは、たしかに気になる\nな。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「なんというか一部の学生が……たとえば、ルルーナさんやつきみさんが、妙\nにおとなしいといいますか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113130002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「特定のグループの学生には決して逆らえない、という状況になっているみた\nいなんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113130003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つきみはともかく……ルルーナが？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うーん、ルルーナが他人に対して下手に出るなんて、それはちょっとおかし―\n―いや、待てよ？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「学食代でも借りてるとか、そういうことなら可能性はある――あ、いや、待\nて。つきみの場合はそれはないか……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「さよう。それに、あのロート殿までがおとなしいとなると、これはもう異常\n事態と言わざるを得ません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113130001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マーガレットまで！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マーガレットとは、まだ知り合って日が浅いが……どう考えても、めったなこ\nとで静かになったりする子じゃないのはわかる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかった……俺も気を付けて見てみる」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「よろしくお願いします。では、私は次の授業がありますので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113130004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0138" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "……っていう話を聞くと、さすがに気になるからな。放課後、見回りがてら地\n球防衛科の教室に行ってみることにした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……教室に何人か、残ってる学生がいるな。問題のルルーナやつきみも……\nって、なんでセレインまでいるんだ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なにやら盛り上がっているようですが。ここからでは声がよく聞こえません\nな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113130002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だな。ジュンジロー、ちょっとそこ見張ってろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人……教師兼警備員の職権を濫用してのぞきとは、まったく感心しませ\nんぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113130003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんなときにくだらねえ冗談言ってる場合か、アホ犬」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "などと、誰も見てないところで漫才やっててもしょうがない。とにかく、あい\nつらがなにを話してるのか確認しないと。もし、いじめだったりしたら大変だ\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、いうことでこっそり教室に近づき、中の連中の話に聞き耳を立てると――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「あなたは下僕でしょう？　逆らっていいと思ってるんですか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "下僕！？　あいつ、ほかの学生を下僕扱いしてんのか！？　まさか、本当に…\n…！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人も、姫様から下僕扱いされておりますな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113130004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせえっての！　聞こえねえから黙ってろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、ジュンジローを黙らせて、さらに聞き耳を立てると……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「いいから、早くその下着をよこしなさい。嫌とかいっても無駄よ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020113130001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「！！！！！！？？？？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "女子が、嫌がる女子から下着を奪おうとしてる！？　やべえ！　これはやべえ\n！　間違いなく――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「百合ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113130005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「違う！　いじめだよ！　一大事だよ！　こらーっ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あ、ご主人どちらへ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113130006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0138" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえたちなにやってんだ、やめろーっ！　嫌がる同級生から無理に下着を\n脱がそうなんて――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「し、下着を脱がす！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113130001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待て！　俺は――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「いきなりなにを言い出すんだ、このヘンターーーーーイっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113130001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

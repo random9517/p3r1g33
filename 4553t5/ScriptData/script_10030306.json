@@ -1,0 +1,120 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "と言うわけで、本部を飛び出したセレーナを探しに街に出た。アナザーと、ル\nナテミスも一緒に来てくれたのは助かるんだが……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「見つからねえなあ……あいつ、いったいどこ行ったんだ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「さっぱりわかりませんな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「駄犬には期待してねえ。姫様、アナザー、どっか心当たりは？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだなあ……セレーナのことだから、腹が立ったらまず腹が減るのではな\nいかと思うんだが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「私もそう思う。問題は彼女が今、なにを食べたいのか、というところだが…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「とりあえず、食べ物に関係のある店をしらみつぶしに探していくしかないか\n……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と言いつつセレーナを探しに出かけたカツマたちを、尾行している怪しい影が\nあった……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "人型襲来者Ｂ" ]},
+		{"command":[ "SETTEXT", "「はい、それでは！　カツマ隊長たち３人の行動に密着し、その様子をカメラ\nに収めたいと思います！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_227_010115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022701_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "人型襲来者Ａ" ]},
+		{"command":[ "SETTEXT", "「まだ撮るのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_226_010115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "人型襲来者Ｂ" ]},
+		{"command":[ "SETTEXT", "「ええ！　この次元の人たちの珍しい生態を、つぶさに観察するチャンスです\nので！　うまくすれば繁殖行動なんかも……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_227_010115000002" ]},
+		{"command":[ "SETCHARA", "0", "char_00022701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルミナス" ]},
+		{"command":[ "SETTEXT", "「あの３人でそれはないんじゃないかなぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_040115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "人型襲来者Ｃ" ]},
+		{"command":[ "SETTEXT", "「かー！　元リーダーわかってなーい！　かえってああいう人たちこそ、意外\nと意外なことになったりするんすよー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_228_010115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルミナス" ]},
+		{"command":[ "SETTEXT", "「な、なるほど！　のぞき……じゃなかった、生態を観察する価値はあるとい\nうことか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_040115000002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「で？　なんでウチたちまで一緒に……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｈ・Ｍサムライ" ]},
+		{"command":[ "SETTEXT", "「なあに。隊長たちの性格を、さらによく把握してもらうチャンスだと思って\nな。それに……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020115000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「それに？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115000002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｈ・Ｍサムライ" ]},
+		{"command":[ "SETTEXT", "「なんか面白いことになりそうだからな！　フハハハハハハ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020115000002" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「……結局ただの野次馬ですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115000003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

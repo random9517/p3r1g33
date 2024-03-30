@@ -1,0 +1,44 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_002" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「絶体絶命の危機に陥ったインクレディブル・スクワッド！　彼女たちを救っ\nたのは、新たな悪の組織、ブラックメルヘンの女幹部たちだった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010112200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ブラックメルヘンとはどんな組織なのか。そして、ルナパレス２１を失った\nルナテミスたちはどうなってしまうのか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010112200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「円盤少女を戦力に加え、さらに激しさを増す襲来者（インベーダー）たちの\n猛攻を、女幹部たちは食い止めることができるのか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010112200003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「さらにパワーアップして帰ってくる『悪の女幹部ペリジーニュームーン』！\n　シーズン２に、どうぞご期待ください！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010112200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「いいかい？私が告知してやったのだから、キリキリ制作をすすめるんだぞ！\n　働くがいい！　このボケナスビどもぉ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010112200005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

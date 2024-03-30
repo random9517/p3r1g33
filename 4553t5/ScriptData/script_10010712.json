@@ -1,0 +1,108 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0133" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「とりゃあっ！　これで最後か……！？」", "NORMAL" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "無限に湧き出してくる敵を突破し、前へ前へと進んでいく。吹雪は収まるどこ\nろか、さらに激しさを増していく。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さっきまでの俺達なら、こんな風景を見せられただけで心が折れていただろ\nう……」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だが！！　今は違う……。心は晴れ渡り、未来だけを見通している！　腹い\nっぱい食える未来を！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだそうだ！　私たちの前に敵はない！　んぶぶぶっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107120001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「多少雪が口に入ってこよう、と……あぶぶ！　肌が半分凍ってこようと……\nぶるるる！　誰も我らを止めることは出来ん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107120002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「その通りです！　ルナテミス様！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010107120001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さあ、行くんだ！　その顔をあげて！　冷たい風に心を洗え！　ここから新\n天地を目指すんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「あなたについていきます、カツマ様！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107120001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「カツマ様！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010107120001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000501_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ……こんなに立派になって！　カツマ様……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010107120001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000201_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「我々が目指すはあの時計台！　約束の地、バイキングはそこにある！　みよ\n！　あの日の差す方向を！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれこそは希望の光！　遠い流れ星に願いをかけろ！　あれは我らを癒すバ\nイキングの光だ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "みんな" ]},
+		{"command":[ "SETTEXT", "「ＶＫ！　ＶＫ！　ＶＫ！　ＶＫ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107120003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "8", "CENTER", "-600" ]},
+	{"command":[ "SETCHARA", "1", "char_00000201_01", "8", "CENTER", "-200" ]},
+	{"command":[ "SETCHARA", "2", "char_00000401_01", "8", "CENTER", "200" ]},
+	{"command":[ "SETCHARA", "3", "char_00000601_01", "8", "CENTER", "600" ]},
+	{"command":[ "DISPCHARA", "1", "TRUE" ]},
+	{"command":[ "DISPCHARA", "2", "TRUE" ]},
+	{"command":[ "DISPCHARA", "3", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふはっ、ははははっ、はははははっ！！！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "高笑いをあげる俺の声を聞きつけたのか、また猿が飛び跳ねてくる。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+	{"command":[ "DISPCHARA", "1", "FALSE" ]},
+	{"command":[ "DISPCHARA", "2", "FALSE" ]},
+	{"command":[ "DISPCHARA", "3", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しかぁし！　今の俺に恐れるものなど何もなし！　みなのもの、行けぇーっ\n！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

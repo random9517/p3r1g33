@@ -1,0 +1,227 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ～……あれだけ学校でドタバタやった上に、ＥＤＯ本部に顔出して雑務\n処理して、だもんなぁ～……体がもたねえよ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「二足のわらじを履いている以上、仕方がありませんな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「好きで履いてるわけじゃねえよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「でもまあ、やっと帰って来たし。あとはビールでも飲んで、ひっくりかえっ\nて寝るだけ――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「やあ、隊長。おかえり」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010113250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はいはい、ただいま……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「おう、隊長さん。ビールと柿ピーもらったぜ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020113250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マジかよ。残り少ないんだから無駄に食うなよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ.Ｏ.Ｅ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃん、シャワー借りたわよ～？　見て見て！　新車同様ピッカピカ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010113250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はいはい、ピカピカ。えーと、テレビのリモコンは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「隊長さーん、おなかすいたー！　スシとっていいー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010113250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はははは、バカいうな。どこにそんな金が――って、ちょっと待て！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「えー？　なーにー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010113250002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえら、俺の部屋でなにやってんだよ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ようやくそこに気づかれましたか、ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113250002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「気づいてたんならなんか言えよ、このバカ犬！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「いいんだ、気にしないで。僕らは僕らで勝手にくつろいでるから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010113250002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、その『勝手にくつろいでる』ってとこが問題なんだろうが！　なに勝\n手に人の部屋でくつろいでんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "っていうか、「よく部屋の中に入れたな」ってヤツがいるぞ！　約一名という\nか、約一台！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「いや、だって……なあ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020113250002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「みんなの憩いの場として、ちょうどいいかな～、って！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010113250003" ]},
+		{"command":[ "SETCHARA", "0", "char_00009901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺の生活の場を勝手に憩いの場にすんなよ！　俺の部屋はサークルの部室じ\nゃねえっつーの！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "みんな" ]},
+		{"command":[ "SETTEXT", "「ええ～～～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020113250003" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "3", "CENTER", "-600" ]},
+		{"command":[ "SETCHARA", "1", "char_00007901_01", "3", "CENTER", "200" ]},
+		{"command":[ "SETCHARA", "2", "char_00003402_01", "3", "CENTER", "-200" ]},
+		{"command":[ "SETCHARA", "3", "char_00009901_01", "3", "CENTER", "600" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "DISPCHARA", "2", "TRUE" ]},
+		{"command":[ "DISPCHARA", "3", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「『ええ～～』じゃない！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「なになにー？　みんな、なにゴチャゴチャやってんの～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010113250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]},
+		{"command":[ "DISPCHARA", "2", "FALSE" ]},
+		{"command":[ "DISPCHARA", "3", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんたもかい！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「っていうかカツマちゃんさあ～もっといい酒用意しときなさいよね～。第３\nのビールとチューハイしかないじゃ～ん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010113250002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんたはサークルのタチの悪いＯＢかっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「だーいじょうぶ！　まーかせて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010113250003" ]},
+		{"command":[ "SETCHARA", "0", "char_00004902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「若い子はそのネタわかんねえよ！　あーもう！　みんな帰れ！　帰れーっ！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ちぇっ、しょうがないなあ……しょうがないからチューハイだけもらってく\nぞー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010113250004" ]},
+		{"command":[ "SETCHARA", "0", "char_00004902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「んじゃ、また明日な―」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020113250004" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、明日も来る気かよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「今日は勤務中で来られない子もいるからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010113250004" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういう問題じゃねえ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「あーしは明日もくるよ～。スシ、よろしく～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010113250005" ]},
+		{"command":[ "SETCHARA", "0", "char_00009901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから無茶言うな！　さっさと帰れー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ.Ｏ.Ｅ" ]},
+		{"command":[ "SETTEXT", "「あらあら。みんな帰っちゃって寂しいわねえ、カツマちゃ～ん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010113250003" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから、おまえもみんなを乗っけて帰れっつーの！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それでは皆様、おやすみなさい。できれば明日はお土産にせんべいでも……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113250003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにをちゃっかり要求してんだおまえは！　どいつもこいつも、いいかげん\nにしろ～～～っ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

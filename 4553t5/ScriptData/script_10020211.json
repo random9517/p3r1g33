@@ -1,0 +1,165 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_026" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「というわけで、スキルの効果がさらに継続！　場に出ているハルカ側のキャ\nラ１体が、ただちに『おしおき部屋』に送られる！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「も、もうキャラがいないである……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ならばその効果はプレイヤー本体に行くぞ！　おまえのライフはもうゼロだ\n！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「なんであるとっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「と、いうわけで俺の勝ちだな！　どうだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「ま、まいったのである……。まさか、こんなバランスもなにも考えていない\nような、とんでもないカードがあったとは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113230003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「くうううう……っ！　もっときちんとテストプレイをしておくんだった……\n！　思い付きでカードを追加するんじゃなかった！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はははははは！　いまさら悔やんでも遅いぜ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「さすがご主人、お見事な勝利ですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせえ駄犬！　いまごろゴマすっても遅ぇ！　って、それはともかく……\nハルカプトラに珠魚！　約束を果たしてもらおうか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「うむ。では珠魚」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113230004" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「い、いやだ……これはボクの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "珠魚は、カードの売り上げが入っているらしい手提げ金庫をしっかりと抱えた\nまま、じりじりと後ずさり……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「ボクの研究資金だぁ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113230003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そのまま逃げ出した！", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ！　待て！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「珠魚！　往生際が悪いである！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113230005" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「嫌だぁ～！　絶対に渡すもんかぁ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113230004" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、ひたすら逃げる珠魚。しかしそこに――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「待てぇーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010113230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンハンター" ]},
+		{"command":[ "SETTEXT", "「その金、おいてけーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_010113230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「いや、その言い方はちょっと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020113230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「ひいいいいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113230005" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「どうせこんなことになるだろうと思って、ここで張り込んでいたのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010113230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へへへへ、とうとう追い詰めたぞ。さあ、その金をみんなに返せ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「い、嫌だ……嫌だぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113230006" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「これは、ボクの研究資金だあああああーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010113230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あーもう！　めんどくせえな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

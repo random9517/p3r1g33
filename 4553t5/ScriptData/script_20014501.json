@@ -1,0 +1,274 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……蒸してる」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「蒸しておりますな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんなんだこの天気！！　もう二週間も降り続けてるじゃねえか！！　しか\nも豪雨レベルで！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「梅雨でもこれほどは降りますまいな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「雨だから外にもいけねえし、異様に蒸してるし……気分も上がらない」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「散歩にも行けませんな。これは私にとっても一大事」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あきらかにこれおかしいだろ……あん？　なんだ、長官からの呼び出し？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「というわけで、この長雨の原因調査を命じる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、なにがというわけなんだよ長官」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「二週間前から雨雲レーダーが微動だにしていない。いくらなんでも異常事態\nなのでお前に調査を命じるというわけだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010023040002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「省略がすぎる……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いつものことではないですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、これが異常っていうのは分かるけど、他の幹部連中は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「……湿気で肌の調子が悪い、髪のまとまりが悪い、気分が乗らない、後は―\n―」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010023040003" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、もういい、もういい！！　クソっ、そんなことだろうと思ったよ……\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「手伝ってくれそうなカグヤは別任務で不在だ。というわけでカツマ、君に白\n羽の矢が立った」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010023040004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どう考えても貧乏くじじゃねえか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「とはいえ、私も君一人で解決できるとは思ってない。ゆえに、各幹部のピー\nスムーンたちへの指揮権を預けよう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010023040005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、一人よりはマシですけど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「私もいますぞご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前雨の日になんか役に立つのか？　鼻とかも効きそうにないだろ", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「マスコットに有用性を求めるのは無粋というものですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マスコットって顔じゃないだろお前」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ゴホン！！　そういうことだから、この長雨の原因を調査するように。ああ\n、あと雨漏りもひどいのでそれも補修してくれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010023040006" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……最後に無茶な命令付け足すのってパワハラだよな。しかも超肉体労働じ\nゃねえか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「聞こえますぞご主人。たしかにこの雨の中屋根の修理とか正気ではありませ\nんが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「二人とも、聞こえているぞ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010023040007" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「命令了解しました！！　とりあえずピースムーンたちに招集かけるぞ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あっ、ご主人さすがの逃げ足！！　私も続きますぞ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「というわけで皆には雨雲調査と雨漏りの補修を手伝ってもらう。はい点呼～\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「なにがというわけなのか分かりませんが……とりあえず本部にいるピースム\nーン全員揃ってはいます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よろしい。我々は鬼の冴島長官からこの長雨の原因調査と、ついでにＥＤＯ\n本部の雨漏り補修を命じられた」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス配下" ]},
+		{"command":[ "SETTEXT", "「なぜ私たちが……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ配下" ]},
+		{"command":[ "SETTEXT", "「そもそも原因調査ってどうやって……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000803_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ配下" ]},
+		{"command":[ "SETTEXT", "「私たちの上司はどうしたんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_050023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000805_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "水着" ]},
+		{"command":[ "SETTEXT", "「この雨の中、雨漏り補修とか正気ですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_080023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000811_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だああ、お前らの疑問ももっともだ！！　そしてそれは全部長官に聞いた！\n！　その上で俺たちだけでやれって言われたんだよ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023040002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そこで黙るなよ！！　俺だって不安なんだから！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ配下" ]},
+		{"command":[ "SETTEXT", "「そもそも、私たちだけでできるんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_060023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000806_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わからん。けどやるしかないだろ……とりあえず、お前らの特別手当とか長\n官に申請しておくから、それでなんとか納得してくれ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「はぁ……分かりました。長官からの命令なら拒否もできないですし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023040003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ配下" ]},
+		{"command":[ "SETTEXT", "「特別手当、絶対ですよ隊長」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_070023040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000807_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「申請はする」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「通ると言わないのが悲しいところですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マスコットならせめて応援しててくれ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「それで、どうするんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023040004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな……雨雲の調査なんかは門外漢だから、とりあえず雨漏りの補修か\nら始めよう。資材は倉庫にあるから、皆で手分けしてやるぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「こうして始まったＥＤＯの補修工事、まさかあんなことになるとは誰も思っ\nていなかったのであった……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023040010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そこ、不吉なナレーション入れるんじゃねえよ！！　お前も一緒に屋根に登\nらせるからな！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

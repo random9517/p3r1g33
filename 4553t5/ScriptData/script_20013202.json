@@ -1,0 +1,405 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0183" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っつーわけで……俺達は団地にやってきたわけだが……」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どこからどう見ても、平和でのんびりとしたこの団地に……ホズミ先生の健康\n診断を拒否している人々がいるとは到底考えにくい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここが居心地良すぎて、外に出たくないってことなのか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「とはいえ、何度も呼び出しを無視するというのは……確固たる強い意思を感\nじますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「団地……団地か。団地といえば団地妻だよな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうせなら、エロい人妻でも現われてくれるなら、わざわざ来たかいもあっ\nたってもんだけど」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……あなた、人妻を探しているの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へっ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「さっきから、このへんずーっとウロウロしてたでしょ。なになに？　誰を探\nしているのかな～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「この団地にいる人だったら……名前を聞けばわかるかも。１つ、私達に相談\nしてみない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おおおっ。困った時に美女軍団が……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "近くのスーパーの袋を持った３人は、井戸端会議の最中だったらしい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やった！　人妻だ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って……なんだ？　この人達、どっかで見た事があるような……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「どこかで会ったことがある、なんて……あなた、随分古い口説き文句を使う\nのね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「やだ～♪　ぼうやったらおねーさんたちを口説いてるつもりぃ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、いや。そ、そういうわけじゃ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ふふふ……♪　慌ててる慌ててる……♪　って、あら……？　確かに、どこ\nかで見た顔かも……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「あっ！　こ、この子って……！　ほらっ、あれっ、ぷ、プールの……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……本当だわ。プールで会った……。隊長の……、ねぇ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「プール……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「あっ！　な、なんでもないの！　それで何々？　誰を探してるって？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、ああ。えーっとですね。ハルミさん、ジュリさん、イチカさんって人を\n探してるんです」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「えっ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「ハルミはわたし……だよ？　あなた、私を探してたんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200005" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マジっすか！？　そんじゃ、もしかして……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イチカ" ]},
+		{"command":[ "SETTEXT", "「そう。私がイチカで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200005" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「私がジュリだけど……。この３人に用があるって……どういうことかしら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、いや……。ＥＤＯ本部がですね。奥さんたちに、健康診断を受けて欲し\nいって言ってまして」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「申し訳ないんですけど、このまま本部に向かってもらっていいですかね？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「あ～あ～あぁ、……その話かぁ？　健康診断……健康診断ねぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200006" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イチカ" ]},
+		{"command":[ "SETTEXT", "「最初はね、私達みーんな受ける気マンマンだったのよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200006" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「でも、いざ受けるとなると……大変だし時間もないし……。それにもし悪い\n結果になったら不安でしょう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「賢いお医者様って頭が良すぎて、私達みたいな庶民の人妻の言うことなんて\nまるで聞いてくれなさそうだし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「異変が見つかって、すぐ入院だ手術だなんて言われても……。節約主婦に無\n駄なお金なんてないしぃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200007" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イチカ" ]},
+		{"command":[ "SETTEXT", "「ええ。不調を知らなければ、なかったことになるかも～。なんて……思っち\nゃうのよねぇ。人妻って……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200007" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「気持ちは十分わかりましたが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "でも、ここで退いたらホズミ先生の甘々なご褒美はもらえないわけで。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんな怖いことなんかないですって。ちょーっと行ってパパーッと終わらせ\nた方が……ほら」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「のちのち気分もいいですって！　さ、行きましょう！　今すぐ行って終わら\nせちまいましょう！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イチカ" ]},
+		{"command":[ "SETTEXT", "「う～ん……気がのらないなぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200008" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「そうだ！　ねぇ、貴方がやってくれる？　健・康・診・断……♪　それなら受\nけてあげてもいいよぉ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200006" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「きゃーっ。それいい！　すごくいいっ！　あなたにだったら……。私達、ぜ\nーんぶ見せてあげてもいいのよ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200008" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "団地妻たちはお色気攻撃をしかけつつ、ジリジリと俺に近寄ってくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「わたし達は時短になるし～？　あなたも気持ちいい思いが出来るし……最高\nだよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200009" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかる……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「チェストー！　ご主人、騙されておりますぞ！　ケムに巻かれておりますぞ\nー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……はっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だが……！　だが！　健康診断なんて、誰が見たってぶっちゃけそんなに変\nわらないだろ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺がじっくりと、奥さんたちのありとあらゆるトコロを観察すれば……ホズ\nミ先生だって問題解決するわけで！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……まりあ殿やカグヤ殿がその現場を見たら、一体どうなることでしょうな\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022200004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ギクゥウウッ！！　って、それを持ち出すのはズルいだろ！　あいつらはこ\nんなとこまで来ないって！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「そうそうそう～♪　なんだかよーくわかんないけど……。わたし達だって、\nどうせなら熱い昼下がりをおくりたいのよぉ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200010" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「ね～え～？　先生～？　ウチに寄っていってくださいよぉ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200007" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「先生！　くぅ～。なんといういい響きだ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「ウチにはキンキンに冷えた麦茶と美味しいケーキがありますよ　なんならあ\nーんして食べさせてあげますし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200008" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イチカ" ]},
+		{"command":[ "SETTEXT", "「いつも私達が寝ている寝室で……♪　しっぽりお医者さんごっこなんていか\nがかしら～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200009" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……あああ、ホズミ先生と人妻達と！　俺は一体どっちを選べばいいってい\nうんだ～！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……団地にこだまする、俺の苦悩の叫び。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "すると、それに応えるように鋭い女の声が聞こえてきた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「こんのバカ者どもが～～～～～！！　成敗してくれるぅううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひええええっ！　な、なんだお前はぁっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「私か？　私は……誰が呼んだか、お願いされても止めない尋問官……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022200002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「怪人派遣協会尋問部！　おねだりトーチャー！！　この鞭に恐れおののき…\n…屈服しなっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022200003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "パシィンッ！　パシィイインッ！", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "唸りをあげてひるがえる鞭が、容赦なく人妻たちに襲いかかる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「きゃ、きゃああああ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022200011" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イチカ" ]},
+		{"command":[ "SETTEXT", "「尋問部が出て来るなんて、話が違うわぁあ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022200010" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ど、ど、どうしますかご主人。ここは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022200005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「逃げたい！　ところだが……。逃がしてくれる相手でもなさそうだ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「フフフ……♪　お前は自分の立場ってモンが、よぉぉお～くわかっているよ\nうだねぇ……♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「あたしがここに出てきたからには！　おまえたちをもう逃がさないよ……。\nクックックッ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022200005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「一人残らず、あたしの鞭の餌食になりな！　そらっ……！　拷問ウィップだ\nッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022200006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「きゃああああああ～！　お許しをぉお～～～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022200009" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……気づけば、静かな団地は阿鼻叫喚の地獄絵図に変わってしまっていた。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひ……人妻を見捨てるわけにはいかないぞ。ど、どうする……俺！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

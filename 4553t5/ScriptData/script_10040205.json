@@ -1,0 +1,120 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0198" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「と、いうわけで特訓を始める！　準備はできたか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020116570001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「できましたが……なんなのです？　この服は」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116570001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「いっただろう。お前の新型スーツだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020116570002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「新型って……見た目全然変わってねえけど」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「見た目は変わらないくせに……重さは１０倍以上ある気がします。なんなん\nです？　これは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116570002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「ふふふふふふ……いずれわかる。そのスーツの真の意味がな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020116570003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや……でもさ？　なんか俺、スーツの意味というか元ネタが、もうわかっ\nちゃった気がするんだが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「奇遇ですな。ご主人もですか。元ネタはおそらく、なんちゃらボール養成…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010116570001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……なんちゃらギプス系のアレのつもりなんだろうな……たぶん」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「はい、そこ！　ごちゃごちゃ言ってないでさっさと始める！　まずはウサギ\n跳びで山頂まで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020116570004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え！？　俺も！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「隊長だろうが！　隊員の特訓に付き合うのは当たり前！　はい、ちゃっちゃ\nとやる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020116570005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひいいいいいっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "数時間後――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「も、もう……ダメ……山頂まではたどり着けない……遭難する……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「え。ホントにウサギ跳びやってたんだ。冗談だったのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020116570006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぃいい！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハイッパーマッポーサムライ" ]},
+		{"command":[ "SETTEXT", "「ははははは！　お主はすぐ人の言うことを信じるからな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020116570001" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って！　お前らなぁ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハイッパーマッポーサムライ" ]},
+		{"command":[ "SETTEXT", "「ほらほら！　いつまでもへばってないで立て！　ハルノブとニンジャラビッ\nツの模擬戦が始まるぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020116570002" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

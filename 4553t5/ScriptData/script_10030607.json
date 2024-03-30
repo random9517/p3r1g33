@@ -1,0 +1,304 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0163" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「次に一行が向かったのは大戸岐学園。第２部のおもな舞台となった場所です\nな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115420001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「カツマは学園の警備員もしていたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「臨時ですけどね。まあ、いろいろと大変でしたよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「学園モノらしいイベントをいろいろこなしましたなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115420002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、体育祭とか、学園祭とかな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「ドッジボール対決をしたらしいな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうそう、まさか敵とスポーツで戦うことになるとは思いませんでしたよ…\n…って、よく知ってますね？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「あっ、いや、カツマの活躍はわたしの耳にも届いているということだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうなんですか？　まあ、俺もそれなりに有名らしいですからねぇ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「先生に隠れてカードゲームに興じるというのも、学園あるあるでしたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115420003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、あれは先生までまきこんで堂々とカードゲームしていたがなぁ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "思い返すと、俺は警備員なのにそれ以上の仕事もさせられていたような気がす\nる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "雑用とか、全部押しつけられていたような……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「警備員のご主人が大活躍したこともありましたな。ほら、サメの件」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115420004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、サメなぁ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「サメ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420004" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうそう。デッドシャークっていう、空間の裂け目からでてくる変なサメと\n戦ったんですよね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しかも、知り合いの過去の姿がタイムスリップしてきてたんですよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時空の穴？　とかいうのを通ってきたらしくて」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「なるほど。あやつの企みが、いまのこの結果を生んでいるのだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんのことです？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「いや、なんでもないぞ。さて……さすがに中には入れんよなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420006" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうっすね。ここには仲間もいますけど、一般の生徒も授業を受けています\nし、それに……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「……なんだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420007" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、なんでも」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "シーズン２でお世話になった学園にもたまに顔をだしているが、さすがにトキ\nノさんを連れては入れない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もっとこう、周りになじむような格好をしていたら、ここで教師をしている修\n羅姫たちにも紹介したいんだが、それはまた今度だ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「カツマ、次の場所へ案内してくれないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え、次ですか？　えっと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうしたんだろう。トキノさんが急にそわそわしだした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「そ、そうだ。軽食屋はどうだ？　カツマがよく行く店に案内して欲しいな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え、ええ。じゃあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "軽食屋、か……。うーん、でも俺が知っている店ってそんなに多くないな……\n。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ。この組織に入っていると、一度はお世話になる店があるんです。そこ\nに連れて行ってあげますよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「おお、それは楽しみだ。早く行こう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115420010" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、ちょっと！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "トキノさんは急に早足になる。そんなに腹が減っているのか？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0163" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「カツマを追ってきたら、なぜか学園まできちゃった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115420001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「こんなところに連れてきて、いったいなにをしているのかしら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115420001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「貴様ら、いったいなにをしているのじゃ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115420001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「あなたは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115420002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「エファさん……じゃない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115420002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「やっと“女王様”を見つけたってときに、“邪魔者”までいるとはな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115420001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000411_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「時間帝国……狙いはなんなの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115420003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ただ、女王様といっしょに城へつれていくだけじゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115420002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「てことは、いまカツマといっしょにいるのって、刻の女王ってこと！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115420004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「か、カツマさんがあぶない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115420003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「おっと、女王様には近づかせないぜ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115420002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000411_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「セレーナ、そいつをしっかりおさえておくのじゃ、あとは余が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115420003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「……ちっ！　邪魔をする気か」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115420004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「させない。カツマは渡さない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115420005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カグヤさん、早くしないと……ああっ、カツマさんが行っちゃう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115420004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「エファナティカ様！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115420003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000411_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ええい、わかっておる。余の秘技を……って、ないっ、腕輪がない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115420005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「いや、自分で置いてきたじゃん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115420004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000411_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「本来の力はだせないってこと？　だったらこっちに有利」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115420006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ふん、甘く見るなよ小娘！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115420006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

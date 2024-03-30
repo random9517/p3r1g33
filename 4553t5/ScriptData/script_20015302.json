@@ -1,0 +1,508 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0059" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_013" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "どういうわけか、この温泉宿の受付に立つことになってしまったわけだが……\n。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こうしてみると、利用客の中に見知った顔が混じってるな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ですなぁ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "PLAYVOICE", "v2_009_020023480001" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "本当にいろんな客が利用している。ＥＤＯの廊下ですれ違ったヒーローやヴィ\nランもいるな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「こうなると、知り合いにもばったり会ってしまうかもしれませんな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023480002" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういうフラグを立てるんじゃない」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "もし遭遇してしまったら、この状況、なんて説明したらいいんだろうか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ケガをしたキツネを助けたらその流れで働くことになった、とか？　いやどん\nな流れだよ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もしかしなくても、ＳＮＳで有名になる前から知る人ぞ知る宿だったのかも\nな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「秘湯とよばれるほどですからなぁ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023480003" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "そんな話をしていると、俺のところに従業員のひとりがやってきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ミナカ" ]},
+		{"command":[ "SETTEXT", "「あ、あの、人間のカツマ様ですよね？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027301_01", "9", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_273_010023480001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっと……ミナカだっけ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ミナカ" ]},
+		{"command":[ "SETTEXT", "「あああ、そんな、こんな私の名前を覚えてくださっているなんて……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027301_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_273_010023480002" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやぁ、妙に頭に残ったからさ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ミナカ" ]},
+		{"command":[ "SETTEXT", "「は、はわわ。そんな、恐れ多いぃ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027301_01", "1", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_273_010023480003" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ミナカは頭から湯気が出そうなほどに顔を真っ赤にしていた。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027301_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "従業員がほとんどキツネのこの宿で、数少ないそれ以外の妖怪。そのなかの\n唯一の河童がミナカだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "そんな特徴的な要素が多いだけでなく、三助という役職のせいか露出の多い格\n好で宿を歩いているのをよく見かける。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人は助平ですから、ミナカ殿の身体と名前は一目で記憶したのでしょう\nな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023480004" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、お前ぇ！　それをいうなら顔と名前だろうが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……っと、それよりどうしたんだ？　なにかトラブルでも？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ミナカ" ]},
+		{"command":[ "SETTEXT", "「ええっと、三助のサービスを希望している女性のお客様がいるのですが」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027301_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_273_010023480004" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ミナカ" ]},
+		{"command":[ "SETTEXT", "「その……私より、人間の方のほうが洗い方を心得ているのではと思いまして\n……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027301_01", "0", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_273_010023480005" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つまり、俺に三助をやれと？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ミナカ" ]},
+		{"command":[ "SETTEXT", "「そうです。あの、すみません。受付の仕事で忙しいとは思いますし、む、無\n理なら、結構ですので……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027301_01", "1", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_273_010023480006" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いいや、やるね！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、食い気味に答えましたな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023480005" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ようは三助として合法的に女湯に入り、洗いと称して身体を触り放題ってこ\nとだろ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "困っている従業員を放ってはおけないからな。俺でよければ力になるよ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、本音と建前が逆ですぞ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020023480006" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+        {"command":[ "SETIMAGE", "0", "bg_0075" ]},
+        {"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETTEXT", "受付はジュンジローにまかせて、ミナカに言われた浴場へと向かう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さぁて、どんな女の子がまっているのか……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "三助用の服に着替え、さっそく女湯の戸をあけて中へと足を踏み入れた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お待たせしましたー」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "STOPBGM" ] },
+
+		{"command":[ "SETTEXT", "すると、そこは浴場というのに湯船が見えない。これはいったい……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "PLAYBGM", "M02" ] },
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃん！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "3", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480001" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「どうしてここに！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "困惑している俺の耳に、聞きなれた声が飛びこんできた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それはこっちの台詞だ！　というか、車のお前たちがなんで温泉宿に！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「私たちはただの洗車会よ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480002" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「そうそう。カツマちゃんをめぐるライバルではあるけど、たまには息抜きで\nね」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "0", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480002" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「一緒にドライブして、行った先で洗車して帰ってくるのよ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "6", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480003" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "人間でいうところの、日帰り温泉旅行みたいなものなのだろうか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "にしてもこのふたり……いや、２台は、いつの間にかかなり仲良くなっていた\nようだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「調べたところによると、この温泉宿って温泉のお湯で洗車できちゃうらしい\nじゃない」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "6", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「それを聞いて、体験しにきたのよ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480004" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれ？　お前たちを温泉水で洗って大丈夫なのか？　ボティ、錆びちゃわな\nいか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「それくらいで肌荒れしちゃうようなヤワなお肌じゃないわよ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "7", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480005" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃんのための特殊超合金ボティは、それくらいじゃ痛まないわ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "1", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480004" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ……そうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ミナカが俺に任せたいと言った理由がわかった。三助の仕事は俺より長いだろ\nうが、車を相手にするのは初めてなのだろう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "とりあえず、なぜか用意されている車用の洗剤などをもってきた。いや、なん\nで温泉宿にこんなものがあるんだよ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それじゃあ、洗車するぞ。いつも通りでいいかな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっと待って。もしかして、カツマちゃんが洗ってくれるの！？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480005" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、そういうサービスだからな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「えっ、うそでしょ。ほ、ほぼパンツ一丁のカツマちゃんに、洗車してもらえ\nる……！？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "3", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480006" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃんの、み、水着カーウォッシュ……はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480006" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これから洗車するんだから、エンジンをふかすなよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「ああ、ごめんなさい、つい……。なにせ、初めてだから……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480007" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ふたりをなだめなてからさっそく洗車をはじめる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「あはぁ、私から洗車してくれるなんて嬉しいわ。んっ、やっぱりカツマちゃ\nんの洗い方、素敵……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "2", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480008" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「泡まみれのスポンジが、優しくボディを這って……ああ、まって、いつもよ\nり密着してるわ……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480009" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「変な声だすなよ。というか、いつもこんな感じで洗ってやってるだろ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「そうだけど、今日はカツマちゃんも薄着だから、は、肌が当たってるのを感\nじるの……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480010" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「ああ、そうやって大きく手を伸ばして、ルーフも洗ってくれる……うぅんっ\n♪」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480011" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃんの逞しい胸板が、ガラスにあたって……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480012" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「ドアにはカツマちゃんの……カツマちゃんがあたってるわ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480013" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「やぁん。こんなに、き、気持ちよくって……んくぅ……バッテリーが上がっ\nちゃいそう……っ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480014" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "興奮しっぱなしのＭ．Ｏ．Ｅを洗い終わり、泡を洗い流す。今度はＹ．Ａ．Ｍ\n．Ｉの方へと向かった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「待ってたわ、もう……カツマちゃんに洗って欲しくて、うずうずしちゃって\nる……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480007" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちゃんとお前もきれい洗車してやるよ。……っと、タイヤが汚れてるな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "目についたタイヤの汚れに、お湯をかけながらブラシで擦る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「ああっ、そ、そこぉ……っ。足元は弱いのよ、んくっ、ブラシ……気持ちい\nい……っ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "2", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「山道を走ってきたんだろ？　Ｍ．Ｏ．Ｅもそうだったが、お前もタイヤやボ\nディの側面がかなり汚れてるな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「ゴシゴシこすって、ああ、タイヤの溝にはまった小石をかきだされちゃって\nる……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480009" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんまり暴れるなって」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「ごめんなさい……。でも、つい暴走しちゃうの……カツマちゃんのブラシさ\nばきが上手すぎて……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480010" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "そういうＹ．Ａ．Ｍ．Ｉの後ろに回ると、またこびりついた泥汚れをみつけた\n。ここはスポンジでこすってやる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「あぁん♪　そ、そんな、後ろから……ごしごしこするの……んぉっ、いい、\n気持ちいいぃ～っ♪」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480011" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「バックから、私のボディに覆いかぶさる体位で……リアバンパーにカツマち\nゃんのが当たってるぅ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480012" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「そんなに念入りに洗われたら、もう……。我慢ができないわ。私のビースト\nが覚醒しちゃう～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480013" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「あはぁ～～～～ん！！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480014" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おわぁっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "Ｙ．Ａ．Ｍ．Ｉがひときわ大きな声をだしたと思ったら、ウォッシャー液をす\nごい勢いで飛ばしていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「あぁ……カツマちゃんに洗ってもらっている最中なのに、漏らしちゃった…\n…」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480015" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「恥ずかしすぎて、車庫があったら入りたいくらいだわ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "5", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480016" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「気にすんなよ。ちゃんと洗ってやるから。あと、ウォッシャー液も補充して\nおくか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……。お願いするわぁ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480017" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃんありがとう。ボディがピッカピカで最高の気分よ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "8", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010023480015" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ｙ．Ａ．Ｍ．Ｉ" ]},
+		{"command":[ "SETTEXT", "「私も。いつもの洗車以上に興奮しちゃったわ。また……シてもらいたいわぁ\n」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022501_01", "6", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_225_010023480018" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "満足そうな２台が帰っていく。", "NORMAL" ]},
+        {"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「三助……思ってたのと違うな……」", "NORMAL" ]},
+        {"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "湯煙の中、美女や美少女の身体を洗えるオイシイ仕事ではないのか……。現実\nは、非情だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

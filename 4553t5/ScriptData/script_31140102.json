@@ -1,0 +1,203 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_02" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「……ん……。制服姿のアタシのオナニー……自慰を見たかったとか、隊長…\n…マジでヤベぇ性欲だよな。べ、別に特別なことはしてねえ……よ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104106" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「こうやって……胸が感じるから。ち、乳首、つまんでいじくったり……。葉\n金よりちっちぇえのにヘ、ヘンだろ、なんか、乳首が……よくて。好きで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104107" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「そんで……そん、で……んんっ！戦いの後とか、感情が昂った時、とか……\n。無性にムラムラして……アソコが……下半身が、濡れたりして」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「それをティッシュで拭いてたリすると……トロトロしたのが、指の方まで溢\nれてきて……。そ、そのツユを指に塗って……こんな風に……んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104109" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「オ、オマンコ？マンコ……をくちゅくちゅって軽く、撫でて……んんっ！そ\nの間も、胸っ……胸、さ、触ったり、し、て……それを繰り返す……ぅっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104110" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「はぁっ……はぁっ、ぁっ、あっ……！なん、か……！右手で乳輪とか……！\n下乳、とかなぞったり……膨らんでる肉、ギュッて掴んだり、しつつ……ぅ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「全力でマンコ……に神経集中させて……ああっ！あっ！あぁっ！入り口、が\nゆるんできたら……人差し指と中指をゆっくり中に入れ、て……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「ンンンンっ……！そん、で！そんっで……！ちょっと、ずつ……っ！はぁっ\n、はぁ、はぁ……ああっ！スピードぉっ、あげ、て……あげてっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104113" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「くっちゅくっちゅじゃなくて、ぐっちゅぐっちゅって、激しく……してっく\nっ♪はげし……くっ、イイとこ、感じるとこ、さがし……てっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「あっ！あぁっ！こ、こういう風に……こういう風に……ぃ！自分が満足する\nまで続け……て、あっ！イ、イクまで……イクっ、まで！で、でも……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104115" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「アタシ……アタ、シ、一人じゃうまくイケなくて……！なぁっ！あっ……ア\nッ！アタシどうしたら満足できるのか、わ、わかんなく、て！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「教室で！いつ葉金が来るかもわかんないこの部屋でっ、シてるのに、後一歩\n……一歩足りないっ、もっと太いのがここに欲しい、欲しくて、ずっと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「ッんんんっ……あああっ、イクッ！イ……ク！ぅうう……！……今の見たか\n？わ、わかるだろ、軽く絶頂は出来るけど……大きくはイケなくて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「……え？隊長も参加する？ってあぁっ！？隊長の、そのデカチンをアタ、ア\nタシのマンコに入れ……あっ！？ああああっ！？嘘っ、ウソだろぉお！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104119" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「やっばいっ！ヤッバイ太い、太い、デカぁああいいい！んぉぁあああっ♪♪\nんんんぅうっ♪チンポ、隊長のチンポ……指なんかよりめっちゃイイ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104120" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「奥っまで一気じゃん！指じゃ届かないとこまでズンズブゥって来て……おあ\nああっ♪手首入ってるみてぇに、マンコいっぱいに……なってぇえ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「あーっヤバい！コレッ、コレだよぉおっ！アタシが欲しかったのっ、アタシ\nがシたかったのコレだぁっ！ああっ、ああ、動いて、動いてくれぇ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「……ンッおっ♪んぉっ♪んぐぉおっ！あえっ、あえぇええっ♪ふっといっ…\n…ブッといぃいっ！これがチンポ……ぉ、オトコとのセックスぅう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「めっっっちゃ気持ちいい！頭チカチカするっ！あたま……頭おかしくなる、\nアッ！あっ、あっあっ！止めない、でくれ、やめないでくれ、もっと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104124" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「もっと、もっとしてっ、もっとしてくれええっ！んーーーーーー！ああああ\nあ！オナッた直後だからニュルニュルで気持ちいい、だとぉ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「あっ♪アタシもっ、アタシも同意っ！オナった後に隊長にハメられるの、め\nっっちゃめっちゃ気持ちイイ！敵を倒すより１００倍スゴい！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104126" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「一生してたい……っ！あっ！あっ！アタシ、淫乱なのかな！？葉金はちゃん\nとしてんのに……アタシ、はっ♪オナ好きで♪セックス好きでっ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「隊長のチンポで完全に満たされちまってるっ！へい、わ、平和のために戦っ\nてるとか言ってっ！結局チンポの方が気持ちいいとか、失格すぎっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「でも……でも、こんっな気持ちーこと！我慢できねぇよぉ！突いて、突いて\nくれぇ！乱暴にしても壊れねえから！あたしアマルガメイトだからっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104129" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「どんだけハードなセックスでも耐えられるっからっ！選ばれた器だからっ！\n……だからズコバコしろよぉお容赦なく突き上げろぉおお♪♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「んんーッ♪おっおっおっおぉおおおォオオ♪♪イイッ、イイッ、チンポ好き\n、セックス気持ちいい、セックス、セックス好き、す、きぃいいい♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104131" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「あっ！一緒にイッてくれよっ！アタシ、アタシすぐにでもイクからさっ、ア\nンタも……デカチン隊長も射精しろっ、おらっ、中出ししろぉッ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104132" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「はぁっ、はぁ、はぁ……ああっ！　あっ！あぁっ！　もうっ……マンコドロ\nドロで、デカチンポからの精子ほしくて、たまんなくなってんだっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「ドロドロになったとこに、精子……精液発射されたら、アタシ……アタシ、\nもう戻ってこれねぇかも……。でも、それでもいい……出せっ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「アタシが全部っ、全部受け止めてやるか……らぁあああ♪ッあああああ、イ\nクッ……アタシもうイクぞ、タイミング合わせろぉ……あああああああ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「アーッ！！あーっ、あーーーーーーっ！！あひっ！ひぃいっ！出てる、アタ\nシん中に……ヤッベェ勢いで赤んぼの汁、精子、精液出てるぅうう♪♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104136" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_08" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「んぁああっ、ああああ……！このまま……このまま抜かずに流しこんでくれ\n……最後の一滴ま、で……！ッあっ……♪あぁっ……ああ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「あーっ、イ、く、今までで一番でっけぇ波がキ……キて……うぁあああああ\nっ♪♪隊長っ、隊長の搾りたて精液でイクぅううううう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「……はぁっ……。はぁあっ、はぁ……。た、たいちょーぉ……。アタシ、オ\nナニー、当分やめにしとく……だってさ……ぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104139" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_07" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鈴" ]},
+		{"command":[ "SETTEXT", "「隊長とスる方がエグいくらいきもちーもん♪だから……アタシがしたくなっ\nたら、協力……してくれよな、今日みたいに……ヘヘヘ♪♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_114_0104140" ]},
+		{"command":[ "SETIMAGE", "0", "still_00011401_02_09" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

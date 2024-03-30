@@ -1,0 +1,228 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_01" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あ、あぁっ……あの、今から、その……本当に、するんですね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204101" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「え……エッチを。あっ……あぁ！？　おちんちん、今までにないぐらい硬く\nなってます…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204102" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「こんな大きいの、入るでしょうか……はあぁ、はぁ、あっ……はうぅ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204103" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「は、はい……入れて下さい。あなたのおちんちんで、私をオンナにして下さ\nいっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んあぁ！？　ひっ……ひぅぅ！？　あっ……あああぁ！　あああぁぁ～～～\nっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204105" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んあぁ！　はっ、はあぁん！　ふあぁ？　い、イッてないです……私、初め\nて、なのにぃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204106" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「入れられてイッちゃうなんて、そんなはず……んっ、んんぅん……あっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204107" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あっあっあっああぁ～！！　激しっ……そん、そんっなにされたら……ああ\nぁぁ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204108" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「はうぅ！　はあぁ……！　はひっ、くぅぅ！　んっ……は、はいぃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204109" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「白状、します……んうぅ、入れられただけで、い……イッちゃい、ましたぁ\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204110" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んあぁ、こ、これでも少しは痛かったんですよ……？　んあぁ、それは本当\n……なんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「でも、でもっ……痛い、のに、激しく突かれて、くぅぅ！？　そぅ……！　\nこ、こうやってぇ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204112" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んああぁぁ～～～！！　がつ、がつって腰を打ち付けられて、おまんこのナ\nカぁ掻き回されてると……くぅぅ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204113" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「痛いとか、そんなのスグにどこかへいっちゃって……！　背筋がゾクゾクっ\nてきちゃう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んあぁぁ！！　嫌わないで、くだ……さいぃ！　こ……こんな淫らで、変態\nな私を……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204115" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「くぅぅん……んっんん！　ふあぁ！　わ、私がドＭ……！？　んあぁ、ひど\nいっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「え、えっ？　こんなドＭな私が好き……だなんて、そんなぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あぅぅ！　あぅぅん！　わたし、本当に今、あなたとエッチしちゃってるん\nだ……ふあぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「おちんちん、こんな根元まで突きこんで……！　はっ孕ませようとしてるん\nですね……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んあぁ、はっ！　はぁ！　はい……来て、来て欲しい、ですっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「子宮にぃ、たーっぷり精液注ぎ込んで……くぅぅ！？　私に種付けして欲し\nいんです……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ほ、本当に初めてか……って、初めてです……！　ウソなんかついてな……\nんあぁぁん！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「くぅぅ！？　激しっ……はげし、すぎぃ……！　子宮ぅからカラダ揺らされ\nてっ……ひぃぃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204123" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「頭のナカぁ、ビリビリって、電流走ったみたいに……くぅぅ、くひぃ……！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204124" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あっ！　んあぁ！？　あひぃぃ！　軽く、イッ……イッちゃってるんです…\n…くぅぅん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204125" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「イクッ……い、イッちゃってるのに、これ以上ぉガツガツおちんちん突きこ\nまれたらぁ……くひぃぃ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「も、もう……んあぁぁん！！　あなたなしじゃ、生きていけないっ……カラ\nダになっちゃう……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あっあっ！　来るっ！　来るぅぅ！？　おちんちんビクビク震えてぇ……ひ\nぅぅ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んああぁぁ～～！？　おっぱいまで弄らないで、イクッイクイクッわたし…\n…っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「初めてなのに、ヴァージン奪われたばかりなのに、もう……もぅ！　中出し\nされて特大のアクメきめようとしてるんですっ……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204130" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んんっ！　あ～～～っ！！？　ああぁ～～！！　あっ、んあぁ～！！　わた\nしぃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「もう……もぅっ……！！？　イクぅぅ～～～っ！！！　あっ、あぁ！　ああ\nぁぁ！？　あ～～～っ！！！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204132" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ひゃうぅ！！？　あっ！　あ～～！！　熱いぃ……っ！　スペルマが子宮に\n、いぃっぱい注がれて……んああぁ～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204133" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_07" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「子宮のナカで渦巻いてるのが分かるんです……ふあぁ、はあぁん、こ、こん\nなの絶対に孕んじゃう……んあぁぁん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ふああぁ、あぁっ、あ……？　んちゅ、ちゅるる、ちゅぱ、ちゅっ……んふ\nぅ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あうぅん……ファーストキスも、ヴァージンも、全部……あなたに奪われち\nゃいました……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204136" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んっんんぅ、まだ絶頂の余韻で頭がボーッとして……んあぁ、ふあぁ……え\n？　えっ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「またおちんちんが勃起して硬く……？　ま、まだするんですか？　やあぁん\n、そんなぁ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「これ以上されたら、私……！　わ、私が私でなくなっちゃいます……んんぅ\nん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「優しくして……くだ、さい……んんぅ！　ウソっ……も、もっと激しくして\n……あっ！？　あああぁぁ～～～！！！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_0204140" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001402_02_05" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

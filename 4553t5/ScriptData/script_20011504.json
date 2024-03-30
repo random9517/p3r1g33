@@ -1,0 +1,163 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0081" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "俺は誰にも言わず、ひっそりと南国リゾートに来たはずだ。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だというのに、目の前には女幹部が水着を着てビーチに並んでいた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、おかしいだろ！　俺は誰にも告げずにここに来たはずなのに、なんで\nみんな居るんだ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「お前が誰も誘わなかったから、長官に頼んでＥＤＯの特別機を貸してもらっ\nて、ここまできたんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021520004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000111_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「長官には特殊任務ってウソをついて……一足先にこっちに来たの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000205_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「一足先にって……俺は南国リゾートとしか言ってないぞ！？　どうして居場\n所までわかったんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「どうしてもなにも、ジュンジローが旅行券とホテルの宿泊先のチケットを見\nせてくれたじゃない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000107_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そういえば報告のとき、両方とも教えていましたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520025" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにやってんだ、この駄犬！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「出発日や飛行機の時間まではわからなかったけど、抽選会場のおじさんに聞\nいたら、全部教えてくれたわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000306_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「あとはカツマさんが到着する前に、現地に乗り込んでおくだけ……簡単なこ\nとです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_060021520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000506_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんな……！　せっかく俺一人で、悠々自適な時間を過ごせると思ったのに\n……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「一人だなんて寂しいことを言わないでください。わたくしもおりますぞ、ご\n主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520026" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こうなったのも、全部お前のせいだからな！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「そんな顔すんなって。せっかくのリゾートなんだから、思いっきり楽しもう\nぜ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000404_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「そうよ～。これからたくさんお買い物もする予定だし、カツマちゃんには荷\n物持ちしてもらうからね～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_050021520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000605_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「楽しめる要素がまったくないんだが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「私も荷物を持ちますので、ご安心ください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_008_040021520004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000811_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それは嬉しい申し出だけど……っていうか、あんたもしっかり付いて来てる\nんだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「皆様の護衛がありますので当然です。そもそも、私は最初から誰が選ばれて\nも付いて行くと言っています」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_008_040021520005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ひょっとして、最初からこの方を選んでおけば、全て丸く収まったのではな\nいですかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520027" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺も一瞬そう思ったけど、それはそれで面倒な結果になると思うぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ちょっと、カツマさん！　いつまで待たせるつもりなの！？　お姉ちゃんも\n待ってるよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_030021520004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001203_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「べ、別に待ってなんて……！　それに、カツマさんも着いたばっかりみたい\nだし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_020021520004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……もういいや。なんか考えるだけバカらしくなってきた」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「悟りの境地を開きましたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520028" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前はあとでシメる。覚悟しとけ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ジュンジローも悪気があってやったことではないだろうし、そう怒るな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021520005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000111_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「悪意のない悪意ってのが、一番タチが悪いんだぜ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあいいや。なんだかんだ言っても、せっかくのリゾートだ。俺も荷物を置\nいて、着替えるとするかな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

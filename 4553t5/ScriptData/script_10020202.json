@@ -1,0 +1,314 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0138" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっとまてお前たち！　ストップ！　ストップー！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「なにをー！？　いきなり飛び込んできたヘンタイのくせに……あれ！？　カ\nツマ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「え！　うそ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「変態はカツマ先生だったの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「カツマってヘンタイなの！？　わー！　ヘンタイ！　ヘンタイ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちがう！　誤解が広がるから変態変態って連呼すんな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「でもヘンタイなんでしょ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113140002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「違うっつーの！　っていうか、おまえらこそなにやってんだ！　いじめなん\nか絶対によくない！　やめるんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「いじめ！？　私たちが？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「いったい、なんのこと？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だってお前たち……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ふむふむ、なるほど。これはどうやら、双方誤解があったようですな。ご主\n人、落ち着いて皆さんにお話をうかがってはいかがですかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、この野郎。騒ぎが収まって安全だと思ったら、ノコノコ出てきやがって\n……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかしまあ、ジュンジローの言うことには一理ある。とりあえず、落ちついて\nルルーナたちと話をしてみると――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カードゲームで遊んでたぁ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「そうよ！　『女幹部これくたぁ』っていうゲームなの！　略して幹――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113140003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……いや、略さなくていい。それより、カードとやらを見せてくれるか？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「いいわよ？　はい、これ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113140003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう言ってルルーナは、女の子キャラクターが描かれたものや、アイテムらし\nきものが描かれたものなど、何枚かのカードを出して見せる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかしこのキャラクター、どっかで見たような……？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「いわゆる『トレーディングカードゲーム』の一種です。こういうカードを集\nめて、自分のデッキをつくって対戦するんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010113140001" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、トレーディングカードゲームってのは聞いたことあるよ。おまえらこ\nれで遊んでたのか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「そう！　けっこう面白いんだぞー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ、そういうことか……『下着をよこせ』とか言い出すから、俺はてっ\nきりいじめかなんかかと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ふふふっ、違うよ先生。『下着』っていうのは、強化アイテムの名前！　私\n、アイテムを取られそうになっちゃって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113140003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「私が出したカードの効果です！　相手プレイヤーが装備している強化アイテ\nムを奪えます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020113140001" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「じゃあ、『下僕』ってのは？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「おう！　私が下僕だ！　ジュース買いに行かされるとこだった！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113140003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえかよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「しょうがないだろー？　そういう約束だったんだから。対戦で負けたほうが\n、下校時刻まで下僕にならなきゃいけない、ってことにしたんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113140004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……つまり罰ゲームか。小学生のランドセルじゃんけんと同レベルか。つか\n、おまえいちおう教師だろうが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「なんだよ！　教師がカードゲームやっちゃいけないのかー！？　面白いんだ\nぞ、これ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113140005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういう問題じゃねえだろ！　っていうか……ホントに面白いのか、これ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "見れば見るほどカードに描かれた女幹部たちが、誰かさんたちに似ている気が\nして……うさん臭さしか感じねえぞ、これ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、思っていたら――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「面白いんだってば！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113140004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふぇ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "つきみが、きっぱりと言い切った。こいつに言い切られると、妙な説得力を感\nじる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「最初は私もうさん臭いと思ったんだけど、これ、対戦が盛り上がってすっご\nく面白いんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113140005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか……？　そうなのか……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「そうそう！　教師のわたしがハマるぐらいだもんな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113140006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえにそう言われると、つきみの説得力が台無しだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「だったら、あなたも遊んでみればいいじゃない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113140004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「そうですよ。パッと見だけで敬遠してないで、やってみるのがいいと思いま\nす」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010113140002" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「学生の気持ちを理解する、いいチャンスですよ！　先生！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020113140002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「そうそう！　面白い！　絶対面白いんだから！　カツマ先生もやってみよ！\n　ね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113140006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっと！　落ち着けつきみ！　顔が近い、顔が！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「あははは……ごめんなさい。つい、熱くなっちゃって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113140007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「でもまあ、みんながそこまで言うなら……ちょっとだけ遊んでみるか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "別に悪いことをしているわけじゃなさそうだし、少しぐらい付き合ってみても\nいいだろう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう思って、つきみたちからルールを教わり、対戦してみたんだが――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こ、これは……！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「はい！　私の勝ち！　カツマ先生、残念でした！　あははははっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113140008" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぁあああああーっ！　負けたぁ！　もう一回！　もう一回勝負してくれ！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……はい。予想外に面白くて、まんまとハマってしまいましたとさ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「よし！　次は私が相手よ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113140005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、来ますか！　姫様だって、手加減はしませんよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ふふふふ、こちらこそ、初心者だからって手は抜かないわよ。それじゃ……\nデッキを用意しなさい！　女幹部、スタンバイ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113140006" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

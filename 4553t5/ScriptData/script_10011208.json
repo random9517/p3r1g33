@@ -1,0 +1,319 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0113" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわああっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くっ……あいつら、狙いが正確になってきやがった……痛っ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いてててっ……脚が……。まさか折れて……は、いないか。よかった……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、それよりドラグソードは！？　どうなってる！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「大丈夫か！？　ドラグソード！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「――って、直撃！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やばいやばいやばい！　ドラグソードが撃たれまくってんじゃねえか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "円盤少女" ]},
+		{"command":[ "SETTEXT", "「…………食らいなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_162_010112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016201_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ドラグソード！　おい、今度こそヤバいんじゃねえのか！？　ドラグソード\nッ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まだ戦えるのか……さすがだな。やるな、おまえ。だけど、だいぶやられち\nまったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やられてんのは、俺も同じだけどな……くそぉ……こりゃもう、本格的にダ\nメかもしれねぇ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っ！？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「大丈夫か、カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「幻聴かよっ！　やべえよやべえよ！　俺、もう完全におしまいなのかよ！？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「情けないことを言うな！　しっかりしろ、私たちがついている！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090112150002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「一緒に戦おう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カグヤ！？　アナザー！？　本物かよ！？　幻聴じゃ――って、ちょっと待\nて！　それじゃおまえら、戻ってきちゃったのか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだ、戻ってきた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090112150003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ。私、もう、どこにも行かない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「『どこにも行かない』って……ダメだろ、それじゃ！　みんなのところに行\nけよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「私は、カツマのそばを離れない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今回に限り離れてくれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「嫌」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「また『嫌』かよ！　そう言われましてもねえ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「あきらめろ、カツマ。私もカグヤも、一歩も退かんぞ。それにだな、おまえ\nは約束を破るつもりか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090112150004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「約束？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだ。最後まで私と一緒に戦うと、おまえは言ったぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090112150005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……あ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そういうことだ、言った以上、責任は取ってもらうぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090112150006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_014" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「せせせせせせ責任！？　カツマ、アナザーとなにを……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待て、カグヤ！　なにを勘違いしてるのかしらんが、なにもない！\n　ナニもないぞ！　っていうか、こんなところで仲間割れしてる場合か！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ふふっ。わかってる。冗談」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………！　はぁ……ビビらせないでくれ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ふふふふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っていうか、普段はほとんど冗談なんか言わないくせに、こんなときに限っ\nて……エラい余裕だな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「こんなときって？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だってそうだろ。この状況、ほとんど絶望的じゃねえか。普通だった\nら冗談なんか言ってる余裕ねえぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「絶望的……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おかしなことを言うヤツだな。なぜ絶望するんだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090112150007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だって……どう考えても多勢に無勢もいいとこだろ。おまえたちが来\nてくれたのはありがたいけど、でも……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「私たちだけなら、確かにそう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010112150012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_008" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「しかし我々も来ているとすれば、話は違うだろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だって、カグヤとアナザーだけじゃ――え？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「だれがアナザーだと……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010112150002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「カツマさん、お待たせ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「忠実なワタクシが、皆さんと戻ってまいりましたぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえたちも！？　っていうか、うしろにずらっと控えてるのは――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ああ、我々だ。たったいま地球から着いた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「へへへへっ！　見てろよ、あんなポンコツ、すぐに片付けてやらあ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もう来たのかよ！　さっき連絡もらったばっかりじゃねえか！　えらい早い\nな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "М・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「ミス・パープルが、カツマさんと皆さんの居場所を補足し、その近くまでワ\nームホールを開いてくれたんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お七" ]},
+		{"command":[ "SETTEXT", "「おかげですぐそこまで、宇宙船で乗り付けることができた、っていうわけで\nすよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_010112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなことできるのかよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ええ。我がクリスタル・コンツェルンの技術力は、多元宇宙一ですので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010112150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうなのか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「そういうわけでサービスの一環としてワームホールを開かせていただきまし\nた。お役に立てば幸いです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010112150002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ああ！　いいサービスだった。おかげで助かったぞ！　さあ、全員揃ったと\nころで、さっそく反撃といこう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010112150002" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「うむ。インクレディブル・スクワッド！　総攻撃だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010112150003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,154 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0190" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "その『厄介なの』というやつの正体は、スケバンサンダーだった。宇宙海賊で\nすら手を焼くほどの乱暴者だとか。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなおまえがどうしてこんなところにいるんだよ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「そんなの、お宝の匂いを嗅ぎつけたからにきまっているだろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「知ってんだぜ？　最近ここの宙域を次元管理統制局の連中が調査しているっ\nてことをよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「あいつらが目を付けたってことは、ここにナニかある」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「オレの勘がそう言っているのさ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからって、なんで襲い掛かってくるんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「るせぇ！　お宝はオレのもんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510005" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「この前は共闘したが、今回は同じお宝を狙うライバル同士ってわけだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「たった一つの財宝を求めて争う、お宝争奪戦だぁ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう言って、スケバンサンダーはさっき俺たちが見つけた地下道の中へと入っ\nていく。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、待て！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「どうするんだカツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「スケバンサンダーより先にお宝を手に入れないと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、わかってるって！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0136" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「待てぇっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「追ってきてんじゃねぇ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510008" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「悪いが俺たちも、その宝を手に入れないといけないんだからな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「そういうことだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115510002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「貴様なんぞに渡せるか！　だいたい、貴様はお宝を手に入れてどうするつも\nりだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115510002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「ああ？　なにもしねぇよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510009" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだと！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115510003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「そこにお宝がある。それが手に入れることが難しければ難しいほど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510010" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「オレの魂が勃起する……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なにを言ってるんだこいつは。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「スケバンサンダー、ここでタイマン張らせてもらうぜ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115510012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,259 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふー……ふー…………っさ、流石に疲れたぜ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こんなに連戦したことなんて、シルバスターと戦っていた時でもなかった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "肩で息をしながら、おっぱらった敵の背中を見送った。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふぅ……さて、と……さっきまでのパターンからすると……ジュンジロー！\n　おい！　ジュンジロー！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう。どっからともなくジュンジローが戻ってくるはずだ。「いや～、危ない\nところでしたぞ」とか言いながら。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……あれ？　戻ってこねえな。まさか、今度こそ本当に……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいやいやいや！　もうだまされねえぞ！　どこだジュンジロー！　どこ\nにいやがる！！　さっさと出てこ…………ん？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0086" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……ご主人が、呼んでおります。行かなければ不自然では？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「もう手遅れです。さすがにあの人でも、この状況の異常さに気がついている\nことでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110110001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ではどうしたらよろしいですかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "物陰からボソボソと声がする。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "この声は──。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0086" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「それにしてもＩＣＢＭとは……一体何を考えているのです？　本当に犬の浅\n知恵ですね。セレーナさんと大差ありませんよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110110002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「さすがにそれは言いすぎではありませんかな？　知性が売りのわたくしとし\nては実に心外ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「はぁ……もういいです。また手榴弾が飛んできたことにします。またカツマ\nさんの足元に投げますから、ちゃんと咥えて──」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110110003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい！　何をこそこそしてやがる」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「きゃっ！！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110110004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おっとぉ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「……おや、カツマさん。あなたの部下を見つけておきました。どうやら怪我\n一つしていないようです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110110005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「不幸中の幸いでしたな。いやぁ、危なかった危なかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "驚いたのもつかの間、瞬時に平静を取り戻したらしい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それにしてもこいつら……何を白々しい……ブチ切れてやりたいが、今は疲れ\nてる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "連戦につぐ連戦を演出してくれた襲来者（インベーダー）達に感謝しろよ。助\n演女優賞でも出しとけ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……それで？　俺の足元に手榴弾はいつ飛んでくるんだ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「……耳は達者なようですね。結構なことです。では私は任務の後始末があり\nますので、この辺で──」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110110006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい、待てよ、こらぁ！！　今までのこと、全部芝居だったってのか？　お\nおい！！　ああ、クソッ……行っちまいやがった……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さすがオボロ……鉄面皮ぞろいのＧ・ルナリアムの女幹部の中でも、ふてぶて\nしさはトップクラスだぜ。呼び止めたって聞きやしねえ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「と、いうことはだねぇ……？　ジュンジローくぅ～ん？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……その猫なで声。たいへんにキモうございますぞ、ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせえ。こうなったらお前に事情を吐かせるしかねえんだよ。わかるよな\nぁ～？　ジュンジローくぅ～ん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はぁ……まあこれには深いわけがございましてなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「と、このまま説明を求めたいところだが……これはあれだろ？　また襲来者\n（インベーダー）が来て、話が中断するパターンなんだろ──」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「下僕！　どこにいる！　敵襲だ、さっさと戻ってこーい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010110110001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……正解のようですな。さすがはご主人、慧眼ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マジかよ……おい、まさか……敵も芝居に協力してたってことか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まさか。この敵襲も、これまでの敵襲も正真正銘本物です。いささか出来す\nぎたタイミングではありますがな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああっ、くそ！！　仕方ねえ、相手して来てやる！　おい、ジュンジロー！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なんですかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「細工はバレてんだから、次はもう死ぬんじゃねえぞ。わかったな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はぁ……もうバレましたからな。死なないよう、すみっこで大人しくしてお\nきますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それでこそお前だ。まさにお前のいつものやり方だな。役立たずの中の役立\nたず。足手まといオブ足手まといって呼んでやるよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「大きなお世話ですぞい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ったく……足手まといが帰って来て、嬉しいったらありゃしねえよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110110013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さーて、行って来る！　そこでおとなしくしてろ！　また邪魔すんじゃねえ\nぞ！　いいな、絶対だぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

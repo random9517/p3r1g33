@@ -1,0 +1,63 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0112" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_012" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くそっ！　あいつら遠慮なく撃ってきやがる！」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「反撃しないと！　でも……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020111100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "2", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「母上様……母上様……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010111100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「このままでは……この次元も……あのときのように……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090111100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「ふたりが、このありさまじゃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020111100002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ルナテミス様はともかく、アナザーまで……どうして？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010111100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「見当もつかん……だけど、このままじゃまずいぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「カツマ、いったんあそこの岩陰まで下がろう。身を隠すところがなきゃ、狙\nい撃ちだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010111100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな！　ドラグソード！　しばらくそこでふんばれ！　後退を援護して\nくれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

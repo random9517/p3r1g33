@@ -1,0 +1,606 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとーさんっ、ぶらーんってしてっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぶらーんって……あぁ、こいつか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「そうっ、つかまるのっ……ぶらーんっ！　あははっ、ほらほらっ、おとーさ\nんっ、イルルねっ、ぶらーんってしてるよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな……って言うか、こんなのが楽しいのか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「うんっ、たのしー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0031" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとーさんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んおわっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「えへへー、おんぶー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おんぶはいいが、急に後ろから突っ込むのは危ないから気をつけろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「あ……はーい、ごめんなさいおとーさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……まぁ、分かればいい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「んふふー、おとーさん、やさしーから好き♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとーさんっ、これ、甘くておいしーよっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760008" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、そうか。よかったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「うんっ、だからね、えとね、おとーさんにもあげるのっ、はいっ、あーんっ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ……あーんて……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おくちっ……あーんってあけて？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760010" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「う……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「あーん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、あーん」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「はいっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760012" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んむっ……むぐっ、んむ……むぐ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おいし？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760013" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うん……そうだな、うまいな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「えへへぇー、よかったー！　もう一口あげるねっ、あーんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760014" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女性職員Ａ" ]},
+		{"command":[ "SETTEXT", "「あの人……ずっとあの子に、べったりよね……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女性職員Ｂ" ]},
+		{"command":[ "SETTEXT", "「何かの担当なんじゃないの？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女性職員Ａ" ]},
+		{"command":[ "SETTEXT", "「そういう話は聞かないわね……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女性職員Ｂ" ]},
+		{"command":[ "SETTEXT", "「えっ……それじゃ、餌付けしてるってこと？　キモい……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとーさん、どーかした？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760015" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……いや、何でもないぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「んみゅ……すぅ……すぅ……んふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760016" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふぅ……やれやれ、やっと寝てくれたか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「子守も楽ではありませんな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「全くだ……基地内だろうが、外だろうが、人目があろうがお構いなしで甘え\nて来るからな……周囲の視線が痛ぇなんてもんじゃねぇぞ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「確かに、実の親子ならば微笑ましくもありますが、現実は不審者ですからな\nぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だーれが不審者だ。と言いたいが……中でも外でもこの調子じゃな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「基地の中は、多少慣れて来たようですが、外は白黒ツートンカラーのお車が\n手ぐすね引いて待っていそうですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ぐ……言い返せねぇのがムカつく……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「特に公園は危ないですぞ。ママ友ネットワークは、かなりの精度と速度で情\n報を共有するようですからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「何でお前がママ友事情に詳しいんだよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そこはそれ、ワタクシめは犬ですからな。公園を駆けずり回っても何もおか\nしなことはありませんから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……なるほど、それで通報されたって訳か」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「な、なぜそれを……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「十分に不審な犬だからだろ。ったく、仕事ほっぽり出して一人で散歩とは優\n雅なご身分だよな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「元はと言えば、ご主人が私を構わなくなってるからですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どういうことだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そうやって、お子様にうつつを抜かすヒマがあるなら、もっと愛犬に対して\nも気を配って頂いていいんですぞ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「無駄飯喰らいの駄犬は黙ってろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「どストレートなのはあんまりですぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……だが、今のままべったりって訳にもいかねぇのは確かだな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ただなぁ……あいつのことを考えると、今更突き放すってのも中々難しいん\nだよなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "思い返されるのは、倉庫整理を任された……あの時のことだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ったく……何だって俺がこんな作業をしなくちゃならないんだよ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人が一番ヒマそうに見えるんでしょうなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「オマエにだけは言われたくねえよ！？　って言うか、ボンヤリ見てるヒマが\nあんなら、手伝ったらどうだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「お言葉ですが、犬が無理して手伝おうとしても、かえって足手まといになる\n可能性が高いですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぐ……だったら、せめて視界の外に消えてろっ、チョロチョロされても邪魔\nなだけだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そんなつれないことを。親愛なるご主人に精一杯のエールを送る仕事がどれ\nだけ重要なものか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「１ミリも重要じゃねぇ。大体、エールどころか、こっちのやる気ゲージを下\nげることばかり言いやがって。もっと俺に相応しい仕事が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「……あら……私の与えた仕事に、何かご不満があるのかしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぉわっ！？　かっ、館長っ……い、いや、これは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「しっかり働いているかと見に来てみれば……のんびり犬と戯れているなんて\n……随分と査定に自信がおありのようね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いやいやっ、館長直々に拝命して下さった仕事ですからっ、しっかりっ\n……全身全霊を掛けて、果たしますから！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「仕事は、倉庫整理だけじゃないんです。無駄に時間を掛けて、進みが悪いよ\nうでは困りますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もちろん分かっておりますっ！　とりあえず、この奥のやつを速やかに片付\nけて……うぉわっとぉっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「……何をしているんですか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いや、ちょっと躓いちまっただけでして……って、何だこの箱……えら\nく年季が入ってるな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「確かそれは、一番奥にあったのをとりあえず引っ張り出して来たものですな\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……くそ、そう言えば、こいつを片付ければ一段落と思って、出しておいた\nんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「何でもいいけど、そこにあると邪魔だわ。片付けてしまって頂戴」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へいへい……っと、思ったより重いな。何が入って……ん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760017" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な……ガ、ガキ……？　何で子供がこんな所にいるんだ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「待って……この子、人間じゃないわ。頭の所……ツノが生えてる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「本当だ……まあ人間の子供だったら、国際問題レベルでヤバい気がしますが\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「どういうことかしら……この倉庫も、色々な贈り物や戦利品を片っ端から放\nり込んであるから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「要するに、心当たりが全くないと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「むしろ、あり過ぎると言ったほうがいいかもしれないわね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それで……どうするんです？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「どうするって言われても……流石に私の一存じゃ、これは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「…………ん…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760018" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「んみゅ……んっ……ふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「か、館長……子供が……意識を……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「…………んっ……ふぁぁぁ……ふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お……起きた……のか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「んむぅ………………お……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760021" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとー……さん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「……おとーさん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760023" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「カツマさん……貴方……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いやいやっ、違いますよ！　全く身に覚えのない話でっ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、さっさと認知してしまった方が楽になりますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「話をややこしくするなっての！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「まぁ、確かに貴方にそんな甲斐性があるような雰囲気は、毛ほども感じませ\nんけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それはそれでヒドくないすか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「んみゅ……お……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760024" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「えっ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「……おかーさん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760025" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「な、何言ってるのっ！　私、そんな……まだ子供を産んだことはありません\nっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、問題はそっちじゃないですから！　ていうか、こいつは……まさか刷\nり込み？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「最初に見たモノを親と認識するというアレですな。ということは、ワタクシ\nめは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760026" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「……いぬ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760027" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まぁ、それはそう以外の何者でもないよな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「何を期待していたのかしら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021760014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「当たり前の筈なのに、何故か少し傷つきますぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021760016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「で、こいつは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「……イルル……おなか……すいた……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760028" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「イルル……？　お前の名前か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「ん……おとーさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760029" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だから俺はおとーさんじゃ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとーさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010021760030" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ぎゅっと体に抱きつかれ、俺はあとに続く言葉を失う。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それが、俺とイルルの最初の出会いだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

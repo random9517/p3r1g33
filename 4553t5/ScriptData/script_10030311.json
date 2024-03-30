@@ -1,0 +1,107 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0186" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おい！　ハルノブ！　モタモタすんな！　敵はそっちだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115050001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「言われなくてもわかってます！　あなたこそ、後ろに気を付けることです！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115050001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「ちっ！　よけいなことを！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おっとぉ！？　こいつ、いつの間に回り込んだんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115050002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわ……すげえな、セレーナとハルノブ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETIMAGE", "0", "sbg_0187" ]},
+		{"command":[ "SETNAME", "Ｈ・Ｍサムライ" ]},
+		{"command":[ "SETTEXT", "「うむ。驚きのコンビネェションであるな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020115050001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだろう、これ……まるで、あいつと一緒に戦ってるときみたいな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115050003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「どういうことでしょう……？　このセレーナって人の動きが、まるで手に取\nるように……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115050002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「認めたくはないですが、妙に息が合うみたいです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115050003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0031" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ！　みんな！　大丈夫！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「緊急連絡を聞いて、助けに来たよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おお！　お前たち、来てくれたのか！　これで勝ったも同然だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「そうはいかぬぞ！　ゆけい！　時間帝国の兵士たちよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「なにそれ！　そっちも応援を呼ぶとか、ありなのぉ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "人型襲来者Ｂ" ]},
+		{"command":[ "SETTEXT", "「さあ！　戦いはまだ続きますよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_227_010115050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルミナス" ]},
+		{"command":[ "SETTEXT", "「だから、カメラやめろっつーの！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_040115050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015604_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

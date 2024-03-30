@@ -1,0 +1,153 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0029" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「でやぁあ！！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550009" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＤ" ]},
+		{"command":[ "SETTEXT", "「ええ～～～……見つからないよう、隠れてたのに～～……きゃうぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_151_020021550005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015102_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「はぁあ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550010" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＥ" ]},
+		{"command":[ "SETTEXT", "「うう、全然目立てませんでしたわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_152_020021550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015202_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＧ" ]},
+		{"command":[ "SETTEXT", "「くぅ……もう逃げられない……し、仕方ありません……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_020021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00015402_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＧ" ]},
+		{"command":[ "SETTEXT", "「…………オラァ！！　かかってこいや！　下剋上女ぁ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_020021550008" ]},
+		{"command":[ "SETCHARA", "0", "char_00015402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「…………ッ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550011" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＧ" ]},
+		{"command":[ "SETTEXT", "「ふげぇぇ……クソがぁぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_020021550009" ]},
+		{"command":[ "SETCHARA", "0", "char_00015402_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マスク・ザ・ブルーに追いつくと、ちょうどクノイチが蹴散らされるところ\nだった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マスク・ザ・ブルーの容赦なさに、こちらも背筋が凍ってしまいそうだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＦ" ]},
+		{"command":[ "SETTEXT", "「…………オノレ……マスク・ザ・ブルー＝サン、カナラズコロス……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_153_020021550005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015302_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "妙にカタカナの多い一人だけが、油断なくマスク・ザ・ブルーに向かって身\n構えている。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「はー……はー…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550012" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マスク・ザ・ブルーも油断なく身構えて……るわけじゃないな。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ありゃ、疲れてるんだろう……肩で呼吸をしている様子が窺えた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「ぜー……ぜー……ぼ、僕にはわかる……走りまわった後に、れ、連続で、技\nを繰り出したから……はぁ、ふぅ……疲れたん、だ……はふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550011" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういうお前がヘロヘロになってんじゃねーか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺もちょっと疲れた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "追いかけっこなんて、大人になってからするもんじゃない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それで？　どうしてあんなにブチキレになってんだ、氷華のやつ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「ぜー……ぜー……それは……はぁ、ふぅ……つまり……はー……ふー……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いつまで息を切らせてんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「す～……はー……失敬。これから話すことは内密に頼むよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550013" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「あとで数枚の書類にサインをしてくれたまえ……なぁに、ちょっとした秘密\n保持契約さ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……面倒くせえな。いいから話せ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「わかったよ……でも絶対、絶対の絶対、内緒だからね――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550015" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

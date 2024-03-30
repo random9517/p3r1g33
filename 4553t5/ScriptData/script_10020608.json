@@ -1,0 +1,244 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "買い出しから戻ってきた俺たちは、屋台でさっそくパンケーキを作る準備に取\nり掛かった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「えっと、クラスのみんなは……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ええ、みなさん保健室へ搬送されました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "気絶したまま校庭に放置され続けるわけにはいかないからな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そのうち戻ってくるだろう。俺たちだけでつくるか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「うん、そうしよう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "材料を並べているうちに、流々那があることに気づく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「あ、あれ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうした？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「牛乳がない。あると思ったのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだって！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「牛乳でしたら、先ほど口直しにいただきました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「てめえ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ああっ、首をもって振らないでください！　必要になるとは思わなかったん\nです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114010003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「カツマ、ジュンジローに当たっても仕方ないよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くそっ、まあそうだな。しかしまいったぞ。これから買いに行く時間なんて\n……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「お困りのようですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020114010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「流々那、やっと見つけた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020114010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「桃花さん。えっと、手に持っているのはまさか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「うん、牛乳。牛神様が必要になるっていうから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020114010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「でかした桃花！　それと牛神様！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「礼には及びませんよ。困ってる生徒たちの助けになるのが神の役目ですから\n。はぁ、はぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020114010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「ありがとうございます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「うふふふふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020114010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それにしても、よく牛乳なんて都合よく手に入ったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「ま、まあね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020114010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうやって手に入れたんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「それは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020114010004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「うふふ、桃花のおかげですよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020114010004" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「桃花の？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「ええ。桃花がとっても上手なので、私も大変よく絞り出せ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020114010005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「うわーっ！　わぁーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020114010005" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "牛神様にとびかかって口をふさぐ桃花。なんだかすごく罰当たりな光景だな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「もごもごもご……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020114010006" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その牛神様はちょっと嬉しそうだ。そういう性癖の持ち主なのか……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「とにかくこれでパンケーキが作れる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「パンケーキ？　カレーじゃなくて？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020114010006" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。屋台で出す料理についてある人物に相談して、アドバイスをもらった\nんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "桃花にもほむらからもらったレシピを見せる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「へえ、見た目もいいし、おいしそう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020114010007" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「これをみんなで作ろうと思う。どうかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「わかった。あたしは回復したみんなを呼んでくるよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020114010008" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「お願い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130114010010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうして、俺たちのグルメコンテストは再始動となった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

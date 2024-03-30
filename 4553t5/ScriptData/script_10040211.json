@@ -1,0 +1,251 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……くっ、うっ……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "意識が回復してくるにつれ、全身の痛みもじわじわと襲ってくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まだ朦朧としている中、ゆっくりと瞼を開けた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ここは……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「気がついたですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ううう……なんだよ、ここ……どうしてあんなところに、いきなりでかい穴\nが空いてんだよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「なんです、その微妙な顔は。微妙な顔をしてみたところで、状況は好転しな\nいです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「微妙って言うな。これでもシリアス顔なんだよ。……あれ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「……どうしたですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、なんだろう。前にもこれと同じような目にあった気がするんだが……\nいつのことだったか思い出せない」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それに、あのとき一緒に落ちたのはハルノブじゃなく……？　いや、そもそも\n（あのとき）ってどのときだよ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「いつまでも旧作再現ネタを引っ張っていてもしかたないでしょう。気になる\n人は『悪の女幹部』冒頭をプレイしてくださいです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、早々にネタを割るなっつーの！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「そんなことより、もう少しウチから離れてくれませんか。狭いです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んなこと言われたって、穴が狭すぎてさ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「だからって、そんなにもぞもぞ動かないでください！　そ、そんなに動いた\nら……ん、んんんんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なんだよ！？　いきなり変な声出すな！　……って、まさか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「な、なんです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「臭いの？　俺、やっぱり臭いってことか！？　そんな！　こんなときにまで\nそんなこと言うなんて！　あんまりだぁ～っ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっと！　あまりジタバタしないでくださいっ！　ジタバタすると\n、よけい――はぁ……はぁ……はぁああっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「（こ、こんなに狭いところで密着していると、カツマの汗の匂いが濃厚に…\n…っ！　頭が、ボーっとしてきます……！）」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「（そ、そうでしたっ！　これがあるから、ウチは昔からなんとなくカツマを\n避けて……ん？　昔……？）」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「（そうでした……！　ウチは……ウチは……Ｇ・ルナリアムの幹部……そし\nて、月兎族の一員……）」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「（そうです！　ウチはオボロ！　間違いなくオボロ！）」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「そしてあのとき……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "Ａオボロ" ]},
+		{"command":[ "SETTEXT", "「あなたはここで消えるがいいです。今日からはウチがあなたに代わって――\nオボロです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000509_01", "7", "CENTER", "0" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「うっ！　うわぁあああああああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「あいつを、決して許すわけには……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おい！？　ハルノブ！？　どうした！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「行きます！　高速潮流・逆回転の陣！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぬわっ！？　なんだ！？　なんだぁあああああっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａオボロ" ]},
+		{"command":[ "SETTEXT", "「な、なんです？　この音は」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090116630002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000509_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「はぁああああああああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "超・セレーナ" ]},
+		{"command":[ "SETTEXT", "「ハ、ハルノブ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_130116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000413_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「よかった！　無事だったんだね！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_020116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、俺もなんとかな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "びっくりした……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "急に竜巻に乗せられて、穴から飛び出したんだもんな……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハイッパーマッポーサムライ" ]},
+		{"command":[ "SETTEXT", "「戻ってきたか、ハルノブ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａオボロ" ]},
+		{"command":[ "SETTEXT", "「ちっ……！　しぶといですね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090116630003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000509_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「ハルノブ！　かりそめの名を破壊せよ！　破壊し、叫べ！　真実の名を！　\nその時――スーツがお前を受け入れる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そのかけ声、どっかで聞いたことあるな！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ですが……今、はっきりとわかりました……！　ウチは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116630017" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "真・オボロ" ]},
+		{"command":[ "SETTEXT", "「ウチはオボロ！　ウチは月兎族の式神使い！　オボロです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_210116630001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000521_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

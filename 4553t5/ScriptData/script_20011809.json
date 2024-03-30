@@ -1,0 +1,232 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0029" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "クノイチＦ" ]},
+		{"command":[ "SETTEXT", "「トラップ、ヤッター！　ニンジツ、ノ、ショウリ！！　ワザマエ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_153_020021550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015302_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しまった……疲労困憊のまま、戦わせるべきじゃなかった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大ダメージをくらっちまったらしいマスク・ザ・ブルーは、膝をついたまま\n動けない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その横で、いい乳をしたクノイチが、勝ち誇るようなポーズを取っている。う\n～ん、マジでいい乳だな。Ｆカップはありそうだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＡ" ]},
+		{"command":[ "SETTEXT", "「よくやったでござるっす！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_148_020021550009" ]},
+		{"command":[ "SETCHARA", "0", "char_00014802_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＢ" ]},
+		{"command":[ "SETTEXT", "「あとは止めをさすのみでござるわねぇ……関節技は、また今度にしてあげる\nでござる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_149_020021550009" ]},
+		{"command":[ "SETCHARA", "0", "char_00014902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＣ" ]},
+		{"command":[ "SETTEXT", "「うう、ごめんねぇ……？　本当はこんなことしたくないんでござるけど……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_150_020021550009" ]},
+		{"command":[ "SETCHARA", "0", "char_00015002_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "技の効果が切れたのだろう……氷漬けにされていたクノイチたちが合流してく\nる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＤ" ]},
+		{"command":[ "SETTEXT", "「はぁ……早く終わらせて帰ろうよぉ……でござるぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_151_020021550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015102_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＥ" ]},
+		{"command":[ "SETTEXT", "「ふふ、みんな、見せ場よ……いい感じにキメましょ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_152_020021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00015202_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＧ" ]},
+		{"command":[ "SETTEXT", "「いててて……クソがっ……憶えてろ、このマスク女ぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_020021550010" ]},
+		{"command":[ "SETCHARA", "0", "char_00015402_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "のされた残りの３人も立ち上がり、何やら儀式っぽいことを始めた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……おい、なんだ、あれは？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「僕の灰色の脳細胞のうちの小さな小さな一つが真実を伝えてくる……あれは\n、結界だ、とね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550022" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「脳細胞はいくつあるのですかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021550010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「……んー、１０こぐらい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550023" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「少ねえよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「冗談だよ。まあ、あのまま完成したら、氷華は無抵抗のまま攻撃を受け続け\nることになるだろうね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550024" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やべぇな……それ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……助けなくていいのですかな？　かなり氷華どのが危険に晒されているよ\nうな気がするのですが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021550011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「助けるに決まってんだろ！　おい、鳳雛、ジュンジロー、行くぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "くだらないやりとりをしている間に、マスク・ザ・ブルーはちゃくちゃくと\nピンチを迎えている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「……う、うごけ、ない…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020021550021" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＦ" ]},
+		{"command":[ "SETTEXT", "「コレゾ、カゲシバリ、ノ、ジツ！　コレデモクラエ！　イヤーーー！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_153_020021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00015302_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "――ここで割って入って『ピンチのヒーローを、思いも寄らない相手が助けに\n入る』という超燃える展開を作ってやる！！", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう意気込んだ瞬間である。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＦ" ]},
+		{"command":[ "SETTEXT", "「オタッシャ…　デャャャー！！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_153_020021550008" ]},
+		{"command":[ "SETCHARA", "0", "char_00015302_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "凄まじい爆発が結界を破壊し、クノイチ達をぶっ飛ばしてしまった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………あぶねぇ……巻き込まれるところだったぜ…………って、氷華は？\n　一緒に吹っ飛んだりしてないか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「……問題ありません。結界が守ってくれてたようです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550019" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ふむ……いったい何が爆発したのですかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021550012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「……僕の推理によれば…………きっとただのガス漏れだろうね。もしくは誰\nかのおならが引火したのかも……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550025" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、もう、どうでもいい。ほら、鳳雛、氷華を担ぐぞ……ジュンジロー、\nお前は先にいって、救護を頼んで来い」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「やれやれ、犬使いの荒いご主人でございますなぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021550013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020021550022" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺と鳳雛に担がれながら、マスク・ザ・ブルーは無言で目線を彷徨わせていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まるで、誰かを探し求めるかのように――。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "………………。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「けっ……相変わらず世話のやけるヤツだぜ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021550005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

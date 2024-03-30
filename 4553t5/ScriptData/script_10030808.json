@@ -1,0 +1,174 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "あれは、インクレディブル・スクワッドが結成されたばかりのころ……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「もーっ！　お姉ちゃん、なんで起こしてくれなかったのーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010115720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「今日に限って、私のアラームもならなかったの！　とにかく本部にいそがな\nいと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「……って、きゃぁあああぁぁぁっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あいたたた……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ああ……だ、だいじょうぶ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう、遅刻しそうな私は、カツマさんと道の曲がり角でぶつかってしまったん\nです。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あ、あの……ごめんなさい。……って、あなたはカツマさん！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「気をつけろよな。ったく……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その人を助けようと、手に触れた瞬間……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「…………っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "頭の中にこの人とわたしが……えっと……エッチなことをするほど親密で、ラ\nブラブな関係になっている映像（ビジョン）が、流れ込んできたんです！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「い、いまの映像はなに……？　この人とわたしは、いったいどういう関係な\nの……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720006" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おーい、大丈夫か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「だ、大丈夫です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そのとき、ティンときました。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "カツマさんがわたしにとって運命の人だって……！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「お姉ちゃん、急がないと遅刻しちゃうって！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010115720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そ、そうだった！　それじゃあ、またあとで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720008" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、ああ……。俺も急がないと！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0201" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そうなんです！　カツマさんはわたしの、運命の赤い糸で結ばれた相手だっ\nたんですよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720009" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「だからわたしは……ここで、この世界でカツマさんと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720010" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジリリリリリリリリッ！！", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ、防災ベル！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「……はっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720011" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「せ、せっかくいい感じだったのに、またつきみたちがきたっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115720012" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つきみたちが！？　どういうことだ？　お、おいまりあ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここ屋上だぞ！　飛び降りたら……って、消えた……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いったいどうなってるんだ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

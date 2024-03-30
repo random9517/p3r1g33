@@ -1,0 +1,592 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "そして迎えたクリスマス当日。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺達は、学園長が用意した見回り専用コスチューム……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "クリスマスを楽しむ人々に、自然に紛れ込む為の衣装に着替えて集合する事に\nなっていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おーい、カグヤ……。って、お、お、おおお……！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そこに立っていたのは、どう考えてもこの商店街で１番目立つ美少女……。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大胆にアレンジされたサンタ衣装を身に纏った、見慣れたはずのカグヤだった\n。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつも、他の幹部達の後ろにいることが多いからすっかり忘れ去っていたが", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こいつ……顔立ちはかなり整ってるんだよな。改めてそれを認識させられたと\nいうか……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っていうかこりゃ、気合が入りすぎてるような……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あの学園長が用意したとは思えない、男心をくすぐる可愛いコスチュームだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これじゃパトロール用っつうよりデートかエッチなバイトかって感じだぞ…\n…」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あの……どうかな。私の衣装……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。いいんじゃねーか？　なんか、カグヤのためにあるみたいな衣装でび\nっくりした」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……っ！　本当……？　カツマもすごく似合ってる。いつもよりかっこいい\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺はいつもカッコイイだろうが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんな俺の冗談に、ぽぽぽっと顔を赤らめるんだからカグヤは何を考えている\nかよくわからない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そうかも。いつも……かっこいい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ！　そういえばカグヤ。女幹部の状態でサンタ服を着てるんだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「え？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうりで気合が入ってると思った。なんでわざわざその状態で……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……こっちの方が、何があってもカツマを守れるから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へぇ……。そこまで考えてんのか。確かにこっちの姿の方が不審者と戦うに\nは適してるか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「うん。でも、気づいてくれるとは思ってなかったからびっくりした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、わかるだろ。そんな浅い付き合いでもねーんだし」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……嬉しい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しかしこの衣装……動きやすさを重視して、可愛さも兼ね備えている……。\n学園長の目利きは本物だな。ふむふむふむ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……あ、あんまりまじまじと見ないで。恥ずかしい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「は、早く行こう。なんだか、もう走り出したくてたまらないの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんなんだよ。ま、いいけど……どこから行くんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "問いかけた俺の背後から、聞いたことのある声がした。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「そのパトロール、私達もご一緒していいかしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022090001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002603_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……学園長？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ええ。私です。同行すると前もって言っていたでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022090002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002603_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はい。まあ、そのお気持ちってやつはひっじょーーーーにありがたいんです\nが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ですが？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022090003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「学園長のその服！　衣装！　コスチューム！　一体どういうつもりなんです\nか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "正直、寒さから自分を守れていない気がして仕方ない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な……なんっつう極悪ボディだ！　誰が治安を守る側だって！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "純粋なちびっ子だったら、これで精通してもおかしくない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なによりも……商店街の皆様と俺の性欲が爆発してしまう！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「……そうでしょうか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022090004" ]},
+		{"command":[ "SETCHARA", "0", "char_00002603_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうに決まってます！　現に今、俺の股間がおかしくなってるんで！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "カグヤの冷たい視線をやり過ごし、俺は思う存分目の前の豊満な肉体を視姦し\nようとしたのだが……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ…………。さっき、私を可愛いって言った。なのにすぐに学園長に…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ち、ちちちち違うんだカグヤ。俺は町の治安を案じているのであって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「か、カグヤ殿！　先程貴殿を見たご主人は、少年のように瞳を輝かせており\nましたぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022090001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「魅力的なあなたに照れてしまっただけなのです、ご主人は！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022090002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……本当……？」　", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおっ！　珍しくナイスフォローだぞジュンジロー！　お前、やれば出来る\nじゃねーか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「フフン。不肖のご主人をフォローし続けたおかげですかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022090003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、たまーに役に立つな！　偉いぞ、偉いぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わははは！　そうでしょう、そうでしょうとも！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022090004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういや、学園長。さっき私達って言ってましたけど……他にも誰か来るん\nですか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の言葉に、待ってましたとばかりに学園長は微笑んだ。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00002603_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ええ。そうです。１人でも人員が欲しいと貴方が言っていたのを思い出しま\nして」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022090005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「彼女達にもパトロールをお願いしました。さあ、皆様どうぞこちらへ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022090006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「……また、この衣装を着ることになるなんて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070022090001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000112_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「恥ずかしいけれど、大使館としても不審者は見逃せないという話になったの\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060022090001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000308_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「ええ、そうです。ちょうど、ウチも手が空いていましたので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050022090001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「げげっ、すごいメンツが集まっちまった……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "でも、確かに不審者対策には最適な……頼もしすぎるメンバーでもある。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんか……逆に不審者が不憫になるくらいだが……。ま、まあいいか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「さ、楽しいお話はそこまでですよ。改めてパトロールに繰り出すとしましょ\nうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022090007" ]},
+		{"command":[ "SETCHARA", "0", "char_00002603_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おっとりとした学園長の一声で、俺達の次の行動は決定した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よーっし、そんじゃあ俺は学園長に付いていくってことで……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっと待ってくだされご主人！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022090005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「案が！　案がありますぞ！　すこーしお耳を拝借させて欲しいのですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022090006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あん？　なんだよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それは……かくかくしかじかで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022090007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "それから約５分ほど後。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……ジュンジローの策略により、俺はカグヤと２人で街を徘徊することに\nなった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「追加メンバー３人で１組、学園長とジュンジローで１組、俺達２人で１組…\n…の全３組かあ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマと２人っきりになれて嬉しい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090017" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか？　俺の顔なんていつも見てるだろ。そろそろ飽きてきてんじゃねー\nのか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そんなことない……。最近、いつも誰かが近くにいて、２人きりになんてな\nれなかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだったっけ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「不審者が来ても、絶対にカツマの事は守るから。安心して。……行こう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ま、あんま気負わずのんびりとってとこだな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だらだらと歩き出した俺と違って、カグヤの足取りは軽い。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「わぁ……。見て。イルミネーション……これが夜に輝くのかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090020" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "クリスマス仕様に飾り付けられた商店街に、カグヤが瞳を輝かせる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺達が、商店街のイルミネーションに目を奪われたその瞬間だった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「チキン～。クリスマスチキンとケーキはいりませんか～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090001" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "鳥の羽根をつけ、バッサバッサと現れたのは大量の食品を抱えた一人の少女と\n……その仲間達だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「あ！　そこの素敵なお兄さん！この夜限定のスペシャルなチキンにケーキ\nはいかがですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090002" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、クリスマス限定商品の売り付けか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「よくわかりましたね！　その通りです！　ふふふっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……って……なんだ？その顔……どこかで前に会った事があるような……\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「へっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090004" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「そ……そんなことないですよー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090005" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ものすごく棒読みなんだが……まあいいか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員１" ]},
+		{"command":[ "SETTEXT", "「兄さん兄さん！　お願いしゃっす！　これ売り切らないと、ウチら永遠に帰\nれないンす！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員２" ]},
+		{"command":[ "SETTEXT", "「助けると思って……どうかどうか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「そ、そうです！　鳥人・チキン乙女のクリスマスチキンはこの商店街でも名\n物なんですよ。脂がのっていて美味しいって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090006" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へー。確かに美味そうだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「でしょうでしょう？　なにせ鳥人が売っているチキンですから。鳥が認める\n鳥ですよ、凄いんです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「待って。今鳥人って言った？　それに……その姿、怪人？　だったら見逃す\nわけにはいかない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090021" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「え、ええっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090008" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「私達、不審者を探しているんだけど……それってあなたの事で間違いない？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090022" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「不審者？　あっ……、この姿が怪しいってことですか？　この羽根はコスプ\nレです、実際生えているんじゃありません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090009" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "自称、鳥人チキン乙女は慌てて羽根を振り、わたわたとカグヤに説明する。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「じ……自分は怪人じゃなく、ただの派遣販売員なんです！　販売元にこの格\n好で売れって言われて……それで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090010" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「ほらっ、焼き肉店の看板で豚がお肉を差し出しているアレです！　わかりや\nすさ重視なだけですから！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090011" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……本当に？　嘘をついたら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090023" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……空気が凍り付くようなカグヤの一言に、チキン乙女はブルブルと震え上が\nった。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「あ……あ、あ……。し、失礼しました！　またのご利用をお待ちしておりま\nすー！」　", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022090012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員１" ]},
+		{"command":[ "SETTEXT", "「失礼しゃっしたぁ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員２" ]},
+		{"command":[ "SETTEXT", "「こっえ！　なんだアイツ、めっちゃこえぇ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "商品を抱えて逃げていく集団を、カグヤはじっとりと冷たい視線で見送ってい\nる……。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あーあ、一本くらい買ってやろうかと思ってたのに。逃げちまった」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あの様子なら、あの人達に誰かを傷つける敵意はないと思う。私が睨んだだ\nけで逃げるくらいだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090025" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……見回り、続けましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022090026" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう……そうするか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_ETC0022090042" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだかわからないが、今日のカグヤには逆らわない方がいい気がする。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は下っ端戦闘員だった頃の経験を活かして、自分に降りかかりそうな危険を\n回避した。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

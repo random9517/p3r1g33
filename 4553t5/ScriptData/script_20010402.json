@@ -1,0 +1,99 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0078" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SPOTCHARA", "0" ]},
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「うわっ！　なんだこれえ！？　ギャーーー！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021030003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000404_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あっという間にひっくり返され、頭から砂浜に突っ伏すセレイン。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「あらあら、どうしたのセレインちゃん。そんな遊びは流行らないわよ……っ\nてキャーーー！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_006_050021030003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000605_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "横に居たディアナも油断しきったまま、簡単に真っ逆さまにされる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ディアナはともかく、荒事に強いセレインが一方的にやられるなんてただごと\nではない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "一体何者、とその姿を確かめるまもなく、狼のようなシルエットが眼前に迫っ\nてきた。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00001001_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どどどどうすんだコレ！？　女王なんとかっ……うわあああああ！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「カツマ！　危ない！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021030005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000205_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とっさに俺を助けようと輝夜が飛び出そうとしたが、いつもの忍び装束と違っ\nて身体にピッタリフィットした競泳用の水着のせいか一瞬遅れてしまう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "次の瞬間、俺も衝撃と共に砂浜の上にひっくり返されたと思ったその時、颯爽\nとアナザーが俺を受け止め守ってくれた。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000111_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「大丈夫か！？　カツマ！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021030005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、ありがとう助かったぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「ひ、姫様……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021030006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000205_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "輝夜は俺が無事だった事に安堵はしたものの、アナザーに役目を奪われたよう\nな悲しそうな表情を見せる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「何者だ！？　姿を現せ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021030006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000111_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺たちに襲いかかってきたシルエットが再び襲いかかってくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00001001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

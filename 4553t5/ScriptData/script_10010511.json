@@ -1,0 +1,120 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0121" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_020" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "お嬢様Ａ" ]},
+		{"command":[ "SETTEXT", "「あらあらうふふ、ごきげんよう」", "NORMAL" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｂ" ]},
+		{"command":[ "SETTEXT", "「あらあらうふふ、ごきげんよう。ねえねえ、あなたご覧になった？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「もちろんよ！　とっても楽しかったわ。本当に出来のいい推理ドラマだった\nわね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ａ" ]},
+		{"command":[ "SETTEXT", "「でもあの探偵さん、どうしてずばっと犯人を言い当てたのかしら？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｂ" ]},
+		{"command":[ "SETTEXT", "「そうね。不思議ね。容疑者はほかにもたくさんいたのに」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「別の人が犯人だって、ちっともおかしくなかったわ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ａ" ]},
+		{"command":[ "SETTEXT", "「もしかして」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｂ" ]},
+		{"command":[ "SETTEXT", "「ひょっとして」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様たち" ]},
+		{"command":[ "SETTEXT", "「他にも犯人がいたのかも？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「それと、わたくし思ったのだけど」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ａ" ]},
+		{"command":[ "SETTEXT", "「あらあら、なんて思ったの？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「もしかしたらのもしかして」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｂ" ]},
+		{"command":[ "SETTEXT", "「ええ、もしかして？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「ホントのホントの犯人は」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ａ" ]},
+		{"command":[ "SETTEXT", "「ええ、犯人は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「あの探偵さんだったりして～！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様たち" ]},
+		{"command":[ "SETTEXT", "「えええ～！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ａ" ]},
+		{"command":[ "SETTEXT", "「そんなことってあるのかしら？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｂ" ]},
+		{"command":[ "SETTEXT", "「そうよ、ホントにあるのかしら？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「ふふふっ、ホントはどうかしら。今のはただの思い付きだし。でも、続編が\nあるとしたら……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ａ" ]},
+		{"command":[ "SETTEXT", "「あるとしたら？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｂ" ]},
+		{"command":[ "SETTEXT", "「あるとしたら！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「きっと真犯人が明かされるわ！　わたくし、それがとっても楽しみ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ａ" ]},
+		{"command":[ "SETTEXT", "「あらあら、もうこんな時間だわ。わたくし、そろそろ帰らなくては」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｂ" ]},
+		{"command":[ "SETTEXT", "「あら、残念だわ。わたくしもなの」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様Ｃ" ]},
+		{"command":[ "SETTEXT", "「わたくしもだわ。それでは皆さん――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お嬢様たち" ]},
+		{"command":[ "SETTEXT", "「さよならさよなら、ごきげんよう！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

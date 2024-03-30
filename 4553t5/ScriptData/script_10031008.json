@@ -1,0 +1,78 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0215" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「うぉおおおおお！　爆弾をしかけたら急げ急げ～っ！　アナザーなんかに負\nけるんじゃなぁ～～～いっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116040001" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「はははは！　どうしたどうした、タコのように真っ赤になっても、一向にス\nピードは上がっていないぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116040001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「うるさぁ～い！　お前なんかお前なんかお前なんかお前なんか～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116040002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「私がなんだって？　ここまで来られたら聞いてやろう！　さあみんな、急い\nで脱出するぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116040002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「はいです。バカ犬はどうせ、道に迷って脱落ですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116040001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「うるせええ～！　追いついたらキャンキャン言わせてやるからなぁ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116040001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「しかし、なんだねぇ。あいつらを張り合わせる……特にルナテミスを焚きつ\nけるって言うのは、実にいい手だねえ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010116040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「さよう。姫様は煽られれば煽られるほど、無駄に実力を発揮しますからな。\nこういうときは思いっきり煽ったほうがよろしい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010116040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「さすがジュンジロー！　悪知恵はあんたが最強！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010116040002" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ほらほら、敵が来るぞ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116040003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「うぉおおおおおおお～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116040003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

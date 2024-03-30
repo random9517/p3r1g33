@@ -1,0 +1,254 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0136" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「なるほど。可能性はあるわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310001" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の臭いを嗅いだハルノブをみてピンときた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「人間の記憶は香りとも結びついているって話をきいたことがあるわ。だから\n、それがきっかけで催眠が解けるかもしれない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「だけど、どうやってアンタの臭いを嗅がせるのよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310003" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そこでミヤビの力を借りたいんだ。こう、俺の臭いを散布するメカとか作れ\nないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「そういうパーツを作れなくはないけど……そのアンタの臭いをどうやって集\nめるかよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここに、俺が逃亡生活中ずっと来ていた服と戦闘スーツがある。こいつを使\nえないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「なるほどね……たしかにそれなら使えるかも」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310005" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「あとは、だれに散布ユニットをつけるかだけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ロッテがやります！　お兄ちゃんのおやくにたつのが、ロッテのやくめです\nから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115310001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「わ、私も……しかたないから、このままだと、兄さんがかわいそうだから…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115310001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ロッテ、クララ……！　ありがとうな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「にゃふふ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115310002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「えへへ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115310002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それからミヤビはささっとロッテとクララ用の追加パーツを作ったのだった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「ふふ、アタシとしたことが、また最高傑作を生みだしてしまったわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310007" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「えっと……なんだか下半身がごわごわします……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115310003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「どういうことなの、このオムツみたいなパーツ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115310003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の臭いを散布するためのパーツは、ロッテとクララの下半身……というかお\n尻に取り付けられた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「使い方は簡単よ。相手にお尻を向けて臭いを放ったら、すぐに撤退するの！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310008" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「それってつまり、人間でいうところの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115310004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「オナラってこと！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115310004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「ロボットがオナラをするわけないでしょ。それはただの『異臭散布ブースタ\nー』よ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115310009" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ええぇっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115310005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「余計にいやぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115310005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺も、自分の臭いを『異臭』呼ばわりされるのはつらいな……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だ、だが……その装置のおかげで、もしかしたらみんなが正気に戻るかもし\nれないし……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「頼む、やってくれないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃんがそう言うなら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115310006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「うう、言い出したのは私たちだし、頼ってくれるなら、ちゃんとやるもん…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115310006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "メカカツマ" ]},
+		{"command":[ "SETTEXT", "「ここか！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「メカカツマ！　どうしてここに！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "急に地下アジトのドアが開き、姿を見せたのはメカカツマ率いるインクレティ\nブル・スクワッドだった！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "メカカツマ" ]},
+		{"command":[ "SETTEXT", "「偽物め、まだそんなことを言っているのか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "メカカツマ" ]},
+		{"command":[ "SETTEXT", "「たとえ本物と嘘をついても、匂いまではごまかせなかったようだな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだと！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "メカカツマ" ]},
+		{"command":[ "SETTEXT", "「ジュンジローにお前の匂いを追ってもらっていたのさ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いやぁ、久しぶりにいい仕事をしましたぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115310001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジュンジローてめぇ！　こんなときばかり役に立ってるんじゃねえ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115310001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おいハルノブ！　おまえのこと、ちょっとは信じたのに、なんで偽物のカツ\nマと一緒にいるんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115310001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「Ｍ．Ｏ．ＥちゃんやＭ．Ａ．Ｍ．Ａちゃんまで一緒だなんて、みんなどうし\nちゃったの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115310001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "メカカツマ" ]},
+		{"command":[ "SETTEXT", "「偽物のカツマに操られているのかもしれない。みんなで仲間を正気に戻すぞ\n！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "すっかり俺が悪者みたいになっている。しかし、俺の臭いを嗅げばきっと正気\nに戻るはずだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いまはその可能性を信じるのみ。偽物には負けねぇ。本物のカツマの、主人公\nとしての意地を見せてやる！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

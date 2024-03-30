@@ -1,0 +1,121 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0132" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "惑星・アイザモフに近づいたダイアンサスは、敵艦隊の攻撃を受けていた。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「スミレちゃん、リリアちゃん！　Ｇ・ルナリアムの皆さんが乗ったシャトル\nは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スミレ" ]},
+		{"command":[ "SETTEXT", "「はい！　たった今、発進しました！　アイザモフへの着陸軌道に入ります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_192_010116060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「それまでは、なんとかこっちで敵艦の攻撃を引き付けておかないと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リリア" ]},
+		{"command":[ "SETTEXT", "「右舷、敵艦発砲！　来ます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_193_010116060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「回避できそう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リリア" ]},
+		{"command":[ "SETTEXT", "「はい、やってます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_193_010116060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スミレ" ]},
+		{"command":[ "SETTEXT", "「お願い、ルナテミスさんたち……無事に降りて……できるだけ早く……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_192_010116060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019201_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こちら上陸班！　いま、アイザモフの地表に着陸した！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リリア" ]},
+		{"command":[ "SETTEXT", "「やった！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_193_010116060003" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "SETCHARA", "0", "char_00019301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「よかった！　皆さん無事ですね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、こっちは大丈夫だ。手間かけさせたな。そっちは早いところ退避して\nくれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「了解！　そうします！　帰りにまた迎えに来ますからね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、よろしく！　それじゃまた後でな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「さてと……艦長？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「はいは～い。長居は無用、進路反転！　進めばひとつ、帰ればおやつ、って\nね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「何のことですか、艦長……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「なんでもいいじゃない。とにかく、いったん安全宙域まで退避～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116060005" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リリア" ]},
+		{"command":[ "SETTEXT", "「カツマさんたち、がんばって……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_193_010116060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00019301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

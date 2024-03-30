@@ -1,0 +1,368 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0160" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "校庭では、まだルルーナチームが特訓を続けていた。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おーい、ルルーナ。ちょっといいか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……。なんですか、カツマ先生」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「特訓だか練習だかに熱心なのはいいけど、あんまり夜日楽をいじめないでや\nれよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「いじめてません。練習しているだけです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからって、やりすぎなんだよ。なんでまた無茶苦茶な特訓を……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「必殺技です……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「必殺技が必要なのよ。勝つためには！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "必殺技？　たかだかドッジボールに？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そのためにお互い高めあっていたの。見なさい、あの二人を」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「ふぅんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああぁっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "流々那の放ったボールが校庭の地面にめりこんでいる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「はぁあっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113580003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぉおっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マーガレットの投げたボールが分身して三か所にボールの跡を……って、質量\nのある残像だと！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「相手は私たちと同じ防衛科。ならば、なにかしらの決め球を用意しておかな\nいと勝てないわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「勝ちにこだわりすぎだっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やばいなぁ。こんな球が飛び交うドッジボールになったなんて、学園長がどん\nな顔をするか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「私も、身につけられるはずなのよ。グレート・ルナリアムに古より伝わる闘\n球の秘技が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600007" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「……そうだわ！　あなた、実験台になりなさい！　もしかしたら、いいアイ\nデアが浮かぶかも！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、俺が！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いや、こいつの特訓に付き合ったらケガどころじゃすまないぞ。だが……、", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020113600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ああっ、神様が見てる。ルルーナの想いを、教育者の愛をもって受け止めろと\n……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ああそうだ。そのために来たんだからな、俺は！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「もちろん、付き合ってくれるわよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ええい、わかった！　やってやろうじゃねーか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「それでこそ下僕っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010113600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……え？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なぜか変身している。まさか、その姿でドッジボールをするのか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まてまて。猛烈に嫌な予感がする。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「それではいくぞっ！　はぁああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010113600002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぉおおおっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "猛スピードで飛んできたボールを慌ててよけた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "着弾地点にめり込んでいたボールは鉄製。はぁ！？　鉄球でドッジボールだと\n！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや待て！　鉄球はよせ！　当たったら死ぬ！　死んでしまう！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ならよけなさい！　よける相手に当てるスポーツなのだから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010113600003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんな殺人技を当てる気でいるのかぁっ！　やめろー！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「カツマ先生、がんばって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001702_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETTEXT", "いかん、よそ見をしたら死ぬ！　余計なツッコミをしたら死んでしまうぅうっ\n！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0160" ]},
+		{"command":[ "DISPIMAGE", "0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "それから俺はルルーナの鉄球ドッジによってボコボコになったのだった。かろ\nうじて生きている。なんで生きてるんだ……？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「立ちなさいカツマ！　苦しくったって悲しくったって、コートの中では不死\n身のはずよ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だれがそんな……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「下僕がこんなに軟弱では、特訓になりませんわ。やはり夜日楽でないと……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まずい、また夜日楽がルルーナの特訓に……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、その時だった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「甘いぞ、ルルーナ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020113600001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「その声は！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "声のした方向をむくと、ものすごい勢いで風が吹いた。ルルーナの頬すれすれ\nに、ボールが通過したのだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「あ、あなたは……まさか……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600013" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「ベルガっと参上、ベルガっと解決！　人呼んで、伝説の闘球王……ベルガマ\nスク！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020113600002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんなんだよ伝説の闘球王って！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「お前たちに真の闘球道を進む資格があるのか、私が見極めてやろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020113600003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「ではいくぞっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020113600004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さっそくベルガマスクがボールを投げた。投げた？　いつの間に投げたんだ？\n　気が付いたらボールが校庭に転がっている。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「は、速い……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「闘球を極めた私の投球は、音を置き去りにした。ルルーナよ、この球をよけ\nてその神髄を掴めっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020113600005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「技を盗めというわけですね。わかりました！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ちょっと待て、今から特訓を始めるつもりか？　もう下校時間は過ぎているん\nだが！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いや、それよりもコートの中には俺が残ってる！　早くここから離れないと…\n…。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「闘球の道は一日にして成らず……我が伝説を継ごうとする熱きスポーツウー\nマンたちの魂、見せてもらおう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020113600006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「くっ。速すぎてよけるので精いっぱい……。技を見る余裕がないわ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113600016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「音速を超えているせいで、音で軌道を読めない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「投球フォームから軌道を読むことも難しい……っ！　これが、闘球王の妙技\n……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113600002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「これでもまだ本気ではないぞ。さあ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020113600007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "お前らだけで盛り上がらないでくれ！　俺が残ってるから！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

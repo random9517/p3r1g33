@@ -1,0 +1,101 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0177" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「やぁ～みんな！　今日も元気に働いてるかな～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「またお前か。なにしにきた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「なにも～？　ボクは道化師だからね。思いつくまま気の付くまま、どこにで\nも現れて、適当なことを言ってみんなに楽しんでもらうだけさ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ならば、たまには笑えることのひとつも言うてみい。お主は顔を見るだけで\n腹立たしいわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「なにそれ～！　心外だなぁ～！　ボクはいつでも、みんなをなごませようと\nがんばってるのに。ね～？　オボロク～ン？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「おやおや？　いつもにも増して辛気臭いねえ。どうしちゃったのさ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115010004" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「はいはい、面白いジョークはあとで聞くです。ウチはいま、考えなければな\nらないことがあるので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「ちぇ～っ。ホントにつれないなぁ～。まあいいや。他のとこに行こ～っと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115010005" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115010004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「ＥＤＯの救援に現れた、あの変なウサギ忍者……何者でしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115010005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「なにやら月兎族の気配を強く感じました。しかし、あのような忍者に見覚え\nはありません。と、すると別の次元から来た月兎族……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115010006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「とにかく、正体を確かめる必要がありますね。そのためには……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115010007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「…………？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

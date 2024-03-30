@@ -1,0 +1,372 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_016" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はー、食った、食った。これで午後の仕事も頑張れそうだ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そういえばご主人。先ほどの食事で、福引券をもらいましたぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「福引券？　そんなの配ってたっけ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「少し前から配っておりましたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「商店街の催しで、福引券を１０枚貯めると１回抽選を受けることが出来るら\nしいですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今日１枚貰ったから、あと９枚か……まあ、地道に貯めていくか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「実はわたくし福引券を９枚ほど持っておりまして、先ほどの福引券をいただ\nけると、丁度１０枚になります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どこで９枚も集めたんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「道端に落ちていたものを拾ったり、ご主人が貰い損ねたモノを集めたりして\nおりました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんな犬みたいなことを……って、お前犬だったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあいいや。どうせ当たらないだろうけど、貯まったなら使うとするか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「抽選会場は競艇場前にあるらしいですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それなら、ちょっと回しに行ってみるか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0105" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ここで抽選を受けられるようですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ガラガラを回して、出た色に応じて景品がもらえるのか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なになに……特賞が南国リゾート旅行３名様。１等がテレビ。２等が商店街\nで使える商品券。３等が米１０キロ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「食費も浮くし、２等か３等が欲しいところだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そんなことを言っていると、残念賞のポケットティッシュしか当たりません\nぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせぇ！　ガラガラを回す前ぐらい、夢みさせろよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そもそも、これはわたくしが集めた福引券なのですが、どうしてご主人が回\nすことになっているんです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前のモノは主人である俺のモノ。俺のモノは俺のモノだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺が貰い損ねた福引券も集めてたなら、それはもう俺のモノといっても過言\nじゃない」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そんな横暴な……ですがわたくしではガラガラを回せませんし、ご主人に託\nすとしますか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それじゃ、お前の持ってる福引券を出しな。９枚でいいぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それはわたくしが集めた全てなのですが……まあいいでしょう。よろしくお\n願いします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よっしゃ。それじゃ、いっちょ米でも当てるとするか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっちゃん！　ガラガラ回させてもらうぜ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "おじさん" ]},
+		{"command":[ "SETTEXT", "「あいよ。福引券１０枚ね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジュンジローが持っていたモノと合わせて、１０枚の福引券をおっちゃんに手\n渡した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "おじさん" ]},
+		{"command":[ "SETTEXT", "「１、２、３……１０枚あるな。それじゃ、回してくれ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「頼む！　３等の米１０キロ……いや、贅沢は言わないから、２等の商品券だ\nけでも……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「２等の方が贅沢なのでは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「当たるなら、いいモンが当てた方がいいだろうが。とにかく回すぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「金色の玉？　金色って、何等だ？　まさか、１等のテレビじゃないだろうな\n」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "おじさん" ]},
+		{"command":[ "SETTEXT", "「そ、それは……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "おじさん" ]},
+		{"command":[ "SETTEXT", "「大当たり～～～～～！！　特賞の南国リゾート旅行だ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「と、特賞！？　マジかよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "おじさん" ]},
+		{"command":[ "SETTEXT", "「これが旅行券と宿泊先のホテルのチケットだ。三人まで誘えるから、友達や\n恋人と一緒に楽しんでくれ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんなところで運を使ったら、これから暫く不幸なことしか訪れない気がし\nてくるな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「暫くどころか、これから先、ずっと不幸かもしれませんぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「縁起でもないこと言ってんじゃねぇぞ、この駄犬！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それにしても旅行か……暫く忙しかったし、休暇も兼ねて羽を伸ばしに行く\nか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「とはいえ旅行券は三人分か……俺は確定として、あと二人。誰を誘うかだな\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「誰もなにも、わたくしが集めた福引券ですから、わたくしも旅行に行く権利\nがあって当然ではないでしょうか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「図々しいヤツだな……まあ、他に誘う相手も思いつかないし、二人目はお前\nでいいか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「となると、あと一人だな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「せっかくの休暇を邪魔されたくないから、幹部連中は除外だな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうなると他に一緒に行きそうなヤツが居なくなるな……いっそのこと、こ\nいつと二人で……いや、それは寂しすぎるな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人。そろそろ休憩時間も終わりますし、誰を誘うかは残りの仕事を片付\nけてから考えてはどうでしょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もうそんな時間か。早く戻らないと、脳筋幹部どもに怒られちまうな……！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_016" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「遅いぞ、下僕！　いつまで道草を食っているつもりだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、いや。すいません。ですがこれには複雑な事情があってですね……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「複雑もなにも、商店街の福引に参加しておりました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520017" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「バカ野郎！　余計なこと言ってんじゃねぇ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「仕事をサボって福引とは、いい御身分だな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そんな当たりもしないモノにうつつを抜かす暇があったら、もっと真面目に\n働いたらどうだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021520003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、はい。その通りでございます……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "（クソっ！　なんで福引しただけで、こんなに文句言われなきゃいけな\nいんだよ）", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "（せっかく息抜きできるチャンスなんだ。南国リゾート旅行が当たった\nことは、秘密にしといた方がいいな……）", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「しかし姫様。今回は特賞の三名様分の南国リゾート旅行が当たりましたので\n、それなりの成果はあったかと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520018" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「バカ野郎！！　なんで当たったことまで言ってんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「南国リゾート旅行だと！？　本当に当たったのか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021520004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、その……当たったような、当たってないような……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「これがその旅行券と、ホテルの宿泊先のチケットです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520019" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「どうやら三人まで行けるみたいなので、ご主人とわたくしは確定として、あ\nと一人誰を誘うかで悩んでおりました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからお前は、なんでそう余計なことばっかり言うんだよ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人から言うなと言われていないからですが、なにか問題でも？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「問題しかねぇよ、この駄犬！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「南国リゾートか……ふふっ。悪くないな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021520005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、別に姫様を誘うとか、そういう予定はないんですけど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだと！？　では私以外に、誰を誘うというのだ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021520006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それはまだ決めかねている状態で……話し合いとかで決められたらなーと考\nえていてですね……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そうだったのですか。では僭越ながら、わたくしが皆様へ旅行券が当たった\n報告をして、話し合いの場を設けさせていただきますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520022" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「バカ野郎！！！　それが余計なことだって、いい加減気づきやがれーーーー\nー！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

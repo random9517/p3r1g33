@@ -1,0 +1,275 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0180" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "時の帝国に棲む三姉妹のダークエルフ。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その長女、クロートーの誘導もあって……次は優しげな美女がこちらに自己紹\n介をしてくれることになった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あなたは……たぶん、次女？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「うんうん。そ～だよ？　わたしがね～、次女」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「はいはいはーい、適当に聞き流しちゃっていいから……一応は聞いてくれる\nと嬉しいなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「あのねぇ、わたしは～。クロートーちゃんの妹で、モイライシスターズの次\n女」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「ラケシスっていうの。心のどこかで、覚えていてくれたらうれしいな～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ほんわか、のほほんとした話し方にゆるゆるとした雰囲気の次女。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ラケシスは、俺の手を取るとそれをムギュッと自分の胸の谷間にねじこんだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「はい、サービスぅ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370005" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっ、柔らけぇ！　なんだこの乳圧！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「なかなかでしょ～？　よーく触ってみて？　お肌もすべすべで気持ちいーん\nだから～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「んなっ……な、何をしているラケシス！　初対面の男と肉体接触など！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022370001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「ん～？　なんか、カツマさんってかわいいな～って思って～。そうしたら我\n慢できなくなっちゃった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370007" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「わたしねぇ。すてきだなーって思った男の人にはすーぐこういうことしちゃ\nうんだぁ。こういうエルフはイヤ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「嫌じゃないです！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「えへへっ。それならよかった～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370009" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「……と、ここまでのやりとりを見ててわかったと思うけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022370001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ラケシスお姉はホンモノの！　ゆるふわドスケベダークエルフなの。偽ドス\nケベダークエルフなクロートー姉とは違ってね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022370002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ほんまもん、マジモンのビッチだよ☆　でも、男の人ってそーゆーのが好き\nなんでしょ～？　良かったね、おにーさん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022370003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、それは人にもよるっていうか……個人の好みっていうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「ええ？　カツマさんはぁ……嫌いなの？　ビッチちゃん」　", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370010" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「どうして～？　あなたはわたしのおっぱいで手が気持ちいい。わたしはあな\nたの手でおっぱいが気持ちいい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「これってお互いの距離も縮まるし、いい挨拶だと思ったんだけどなぁ。やっ\nぱりだめかぁ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、手はそのままの位置でいいんですけど」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「いいんだ！？　わぁーい。それならもっと奥に入れちゃお。ん～……ずぼっ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370013" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「あんっ♪　太いのがおっぱいに突き刺さってるぅ……もっと奥、奥まであっ\nたかくして……太くて素敵だよぉ、カツマさぁん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「ラーケーシースーッ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022370002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「んー。この挨拶はクロートーおねーさまには刺激が強すぎたかも。だから…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370015" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「この続きは、あとにしよーか……。ふふふ、楽しみにしてくれていいから\nねぇ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「ラケシス……。あまりそうやって相手をからかうものではないぞ。本気にさ\nれたらどうするのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022370003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「え～？　別にいいよ？　わたしはちゃらんぽらんのプルンプルンだけど～。\nそんなに嘘はつかないし？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370017" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「それなりに……誘う相手は選んでいるもん。ね？　だから……試してみない\n？　わ・た・し・と気持ちい～こと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「きっとう～んと楽しいよお？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370019" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ！？　へっ……あっ、そ、それは……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「あなたはわたしとドスケベなことをしたってぇ、失うものなんてなにもない\nし～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「ゆったりまったり王様気分で寝そべっていてくれればいいからねぇ？　ぜー\nんぶ、ぜーんぶわたしがしてあ・げ・る。ちゅっ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「ん～っ、ちゅっ、ちゅっ……♪　あ～ん、唇おいしぃ……カツマさぁん……\n好きぃ……♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「お……おい。待て。こんなところでおっぱじめるな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022370004" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「ん～♪　どうして？　そーだ、クロートーちゃんも一緒にするぅ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370023" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「な、なにぃ！？　わ、私は……わたくしは……！　うう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022370005" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「たくさんでした方が気持ちいーよ？　初めてなんだし、わたしもー。乱れる\nクロートーお姉様が見てみた～い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022370024" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「だだだだから初めてではないと何度も言っているだろうっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022370006" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「……あのだな……私とて、そういったことに興味がないわけではなく……。\nだがこれは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022370007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「刻の女王のための調査であって……。……しかし、彼が……私の疼きを治め\nてくれるというのなら……。ど、どうすべきなのか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022370008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「へーえ！？　けっこー前向きなお返事だぁ。おにーさんてばモテモテじゃん\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022370004" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ん。でもダメだよ？　このおにーさんはねぇ、からかいがいがありそーだか\nらアーちゃんがもらっちゃうの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022370005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「アーちゃん専用のペットにしてー。このお城でお馬さんごっこでもしようか\nな？　なーんちゃって☆」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022370006" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「でもぉ……おにーさーんも、アーちゃんのことも～っと知りたいよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022370007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドキリとするような、悪い表情を見せつけてくるダークエルフ少女から、目が\n離せない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の口元にちょん、と人差し指を乗せると三女は自分について語り始めた……\n。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

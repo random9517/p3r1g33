@@ -1,0 +1,323 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「皆のおかげで雨漏り補修は終わったけどよ、よく考えたら長雨の原因調査と\n解決なんてどうやりゃいいんだ？」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ふむ、お役所のお天気部門にでも電話しますかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「したところで電話先の人が困るだけだからな……長官は雨雲がずっと停滞し\nてるつってたけど、それを動かせばいいのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「雨雲を動かすとなれば……上空で風を吹かせるとか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんな神様レベルの事象、おとぎ話じゃねえんだからできるわけねえだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ＥＤＯには神レベルの力をもつお方もおりそうですが……ご主人には無理で\nしょうな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせえ！！　うーん、お前たちに心当たりはないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ配下" ]},
+		{"command":[ "SETTEXT", "「と、言われましても。隊長が知らないものを私たちが知るわけもありません\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_030023050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000802_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "水着" ]},
+		{"command":[ "SETTEXT", "「そもそも雨雲を動かせたとして、原因が分からなければまた元に戻ってしま\nうのでは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_080023050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000811_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だよなあ。どうしたもんか……誰か天気に詳しい奴とかいたっけか。それに\n話を聞いてみればとっかかりはつかめるかもしれん」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「とりあえず、それっぽい方をリストアップしてみますか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「隊長、ちょっといいですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あん、どうした？　ていうか誰だそれ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「私はアグニ！！　火の神だ！！　よろしく！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「玄関部分の補修を終えて、仕上がりを確認していたらこの人が玄関口をうろ\nうろしていて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023050002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「話は聞かせてもらった！！　私がこの問題を解決できる……と思う」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050003" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「と、このように言っているので連れてきました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023050003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ええ、マジかよ。めちゃくちゃうさんくさいぞ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「神は心の中かインターネットの中にしかおられませんからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういうネタはよせ！！　で、アグニだっけか？　俺はカツマだ。この雨の\n原因に心当たりがあるのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「ああ。この雨は私の妹分……同じ蓬莱仙女同盟に属するヴァルナが引き起こ\nしたものだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050004" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「蓬莱仙女同盟……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「簡単に言えば私のような神性を有するものたちの集まりと思ってくれ。私と\nヴァルナはそこから地上へと来たんだが――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だが？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「ちょっとしたトラブルではぐれてしまった！！　そのせいでヴァルナの力が\n暴走して、この長雨というわけだ！！　すまない！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050006" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「元気よく言ってんじゃねえよ！！　お前らが原因なのかよ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「のっけからなにか既視感を感じるトラブルメーカー……神様ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それで、お前が解決できるってことは、その火の力でなんとかしてくれるの\nか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「そうしたいのはやまやまなんだが、残念ながらそれは不可能だ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050007" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあ？　なんだそれ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「私は火の神でヴァルナは水の神。水に対して火は無力だ。ヴァルナが呼び出\nした積乱雲に私はなにもできない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050008" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「むしろ私が火の力の制御に失敗したとき、ヴァルナにはいつも鎮めてもらっ\nている。力の差ではなく相性の話だな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「理屈はわかるが……じゃあどうすんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「積乱雲……雨雲に対抗するには火ではなく日、日輪の力が必要なんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どっちも熱で対抗するなら同じような気がするんだが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「んむ。これは特質……神性の話になるんだ。雨に対して火で対抗する人はい\nないだろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「たしかに、雨を晴らすのであれば人々は火よりも太陽を望みますな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「そう。そういうことなんだ。特質、神性、あるいは概念ともいうべきものか\nな。そして私の火の権能は太陽を呼び出せない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050012" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「水は雨と同じ性質をもつが、火と太陽は似て非なる性質だからな。これは私\nの力というよりは、神性というものの話になる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど……それで？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「だが、私の神性は誰かの性質を増幅させることはできる。非なるものだが、\n似ているものでもある。ややこしいが、そういうものなんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「誰かの中にある、眠っている日の性質を私の火の神性で強化し、日輪の力を\n顕現させてヴァルナの雨雲を止める」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「長雨の問題がなんだかスケールが壮大になってきたな……それで、その誰か\nを探しにＥＤＯに来たのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「そうだ。私の中にある神性が、ここにそういう人物がいるはずだと告げてい\nる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「日輪の力か……もしかして俺じゃねえよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「いや、断じて違うな。残念だが君からは欠片も感じられない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050017" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人は太陽というよりはむしろこの湿気の方がお似合いですからな。日輪\nなどおこがましいというものです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前だって一緒だろうが！！　じゃあ、とりあえずそれっぽい奴に招集かけ\nればいいのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「もたもたしている時間はない。この長雨でヴァルナの力が高まりつつある。\n一刻も早く探し出さなければならない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050018" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そのヴァルナとかいう奴の力が高まったらどうなるんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「ここが水没するな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さらっと言ってるけど非常事態じゃねえか！！　つうか、だからこそ招集し\nて選別しなきゃいけないだろ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「それには及ばない。こうして近づいて分かったが、今いる彼女たちの中に日\n輪の特質を持っている存在がいる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050020" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ピースムーンたちが？　いやしかし俺もそうだけど、こいつらは……いや、\nそんなこと言ってる時間も惜しいか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「で、誰がそうなのかどうやって調べるんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「うん。まずは聞き取り調査だ。シンプルにして最重要な質問をさせてもらい\nたい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう。なんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アグニ" ]},
+		{"command":[ "SETTEXT", "「ここに最強の晴れ女はいるか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_264_010023050022" ]},
+		{"command":[ "SETCHARA", "0", "char_00026401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010023050004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「壮大な話から一気に陳腐な話になりましたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023050009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

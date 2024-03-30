@@ -1,0 +1,219 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ここは……元の世界……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あっ、時計！　あの時計は……う、動いてないっちゃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ああ……カツマさんとのラブラブの夢が砕けたっちゃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まりあも目を覚ましたようだ。真っ先に時計の方へと駆け寄って、がっくりと\n肩を落としている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さすがにかわいそうに見えて、まりあの傍へとやってきた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだかよくわかんねぇけど、元気出せよ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ダーリン……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ダーリン……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんな呼ばれ方、あの時空の中でもされてなかったぞ？　まりあ、おまえ本当\nに大丈夫か！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「まってカツマ！　まりあの口調がまだ変！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「まりあはきっと、なにか企んでる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115780002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "慰めようとした俺とまりあの間に、カグヤが割って入った。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「なっ、別に企んでないっちゃ！　というか、何万回もループすれば口調や設\n定のひとつやふたつやみっつくらい変わるんだっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ、おい……っ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はまりあにお姫様抱っこのかたちで抱えられてしまう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえ、こんな力どこに……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ループの中でつきみたちと何度も戦ったから、身体が鍛えられたっちゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「またあそこでダーリンと一緒に暮らすんだっちゃ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっ、どこ行くんだ。時計は動いてないんだぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「きっと学園の地下に、あの時計みたいなふたりっきりの空間をつくれるなに\nかがあるはずだっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そういういわくつきのアイテムの宝庫に違いないっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んなわけねぇだろ！　というか、そんなあぶないもんがホイホイ見つかって\nたまるかぁ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ダーリンとの愛の巣をつくるために、見つけ出してみせるっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ああっ！　カツマを連れてどこに行く気！　待ちなさい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115780003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「待たないっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780012" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだ騒がしい……って、まりあ！　カツマを抱えてどこに行く気だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「まりあ！　カツマは渡さないぞ！　独占するなんて許せん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「お姉ちゃん！　正気に戻ったんじゃないの！　もういい加減にしてーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "逃げるまりあ。抱えられる俺。そしてカグヤたちが追いかけてくる。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「やれやれ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「とりあえず万事解決であるな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「学園に被害が出なくてよかったね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「うんうん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大戸岐学園教師陣はこの光景を微笑ましく眺めていた。いや、眺めてないで助\nけてくれ。頼むから……！", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いったいどうなってるんだよ！　いい加減放してくれ～！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「一生放さないっちゃ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115780013" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "FALSE" ]},
+	    {"command":[ "DISPNAME", "FALSE" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_3_008.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+
+		{"command":[ "EXIT" ]}
+	]
+}

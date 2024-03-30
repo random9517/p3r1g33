@@ -1,0 +1,83 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0132" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "カツマたちが地上で苦戦しているころ。はるか上空の宇宙では……", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リリア" ]},
+		{"command":[ "SETTEXT", "「左舷後方に被弾！　シールド６３％に低下！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_193_010116170001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019301_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スミレ" ]},
+		{"command":[ "SETTEXT", "「天頂方向より、さらに敵小型艇が接近！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_192_010116170001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「まずいわね……このままじゃ、みんなが帰ってくる前にダイアンサスが沈み\nかねない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116170001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「ってことは……どうせカツマさんたちもまだ忙しいだろうから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116170001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「どうするんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116170002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「こうするの！　進路反転！　両弦全速！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116170002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「一時退避……それしかなさそうね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116170003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「逃げればまた来ることもできる、ってね。それからスミレちゃん！　ＥＤＯ\n本部の冴島長官を呼び出して！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116170003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「救援を要請するんですね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116170004" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「さすがに、ダイアンサスだけじゃ厳しくなってきたもんねぇ～。シャムちゃ\nんとフィルちゃんでも来てくれれば……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010116170004" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スイレン" ]},
+		{"command":[ "SETTEXT", "「そうですね……来てくれないと、そろそろ本当に……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_191_010116170005" ]},
+		{"command":[ "SETCHARA", "0", "char_00019101_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

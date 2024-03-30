@@ -1,0 +1,180 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0116" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ホントにあの子たちにも困ったもんよねぇ～！　ほっとくと、なにしでかす\nかわかんないし！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060113410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「そうなんです！　私が何度、学園内にオモチャを持ち込むなと言っても、次\nから次へとおかしなものを持ち込んで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁああ……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やめとくんだった。うっかりついてくるんじゃなかった……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "エファが、明日楽にもこの店を教えたい、なんていうからなにも考えずに一緒\nに来てみたら……このザマだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「８時前だってのにすっかりできあがっちゃって、学園の愚痴合戦かよ……付\nき合いきれねえ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おふたりとも楽しそうでよいではありませんか。ご主人もここぞとばかりに\n、日頃のストレスをぶちまけてはいかがですかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ストレスの元凶の前でかよ！？　それは――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「なんですってぇ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113410002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あああああ！　しまった！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「だいたいあなたもあなたです！　今回の件に限らず、教師が率先して学園に\nオモチャを持ち込んでどうするんですか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113410003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やめてやめてやめて！　スリーパーホールド危ないから！　マジでやめて！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おやおや、ご主人。口は災いの元。うかつな発言は慎んだほうが健康によろ\nしいかと。おっと……もうグラスが空ですな。ほむら殿～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113410002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「ご注文か？　私が承ろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010113410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おや、イグニス殿。今日はこれからバイトですかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113410003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「うむ。今日は剣の稽古をしたかったもので、遅番にしてもらったのだ。して\n、ご注文は？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010113410002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「では、ワタクシは日本酒のお替りをグラスで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113410004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ふふふっ、イグニスもすっかりバイトに慣れたみたいね。あたしはジョッキ\nハイボールを、思いっきり濃いめで♪　明日楽は？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060113410002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000305_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「そうですね……では、この特製チリコンカーンと、それから芋焼酎のロック\nで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113410004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「承知！　よろこんで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010113410003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、俺も……頼みたいんだが……いいか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「もちろん。ご注文をどうぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010113410004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「助けてくれ……！　こいつのホールドを……外してくれ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「だ、そうだが……ほむら殿？　どうすれば？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010113410005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「あー？　ほっとけほっとけ。ここは中立地帯だ。こういうのには一切干渉し\nないことになってんの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020113410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「だ、そうなので。悪しからず」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010113410006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待て……！　これホントに苦しいんだって……！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「んじゃ、ご注文の品持ってきますんで。お客さん、ごゆっくり～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020113410002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから……待って！　チョーク！　チョーク！　レフェリー……！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「これぐらいのことで！　情けない声を出すんじゃありません！　ふんぬっ！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113410005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「絞まってる……！　マジ絞まってるって……！　タップしてるの……気づい\nて！　お願い……だじげでぇ～～～！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

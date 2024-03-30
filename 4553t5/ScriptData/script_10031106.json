@@ -1,0 +1,103 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0219" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},	
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_007" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "昴" ]},
+		{"command":[ "SETTEXT", "「引き続き『クロノストライダー・昴』をお楽しみください！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116160001" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから違うっつーの！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そういえば番組乗っ取り未遂、スクールガール・ミュータント・ニンジャ・\nラビッツの登場回にもありましたな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020116160001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0185" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「……おい。話、進めていいか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080116160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう、本題に戻そう。しかし全員そろったのはいいが、相変わらず決着\nがつかねえな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「当然じゃ！　全員集合したところで、戦力が拮抗していることに変わりはな\nいわ！　このままではらちがあかぬ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100116160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「新装備でパワーアップしているはずなのに……お尻の異物感で帳消しに……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000212_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤＤ" ]},
+		{"command":[ "SETTEXT", "「オシリリアリティショック……力が出ない……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_100116160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000210_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっぱりどうしても気になるんだが……カグヤ、尻に刺さってるそれはいっ\nたい……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「だから見ないで！　見ないでぇえええっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116160002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000212_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ご、ごめんっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「だからなんでお前ら、ちょっとでも隙を見せるとコント始めるわけ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080116160002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "などと言っていると、部屋の入口から――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "時間帝国兵" ]},
+		{"command":[ "SETTEXT", "「いたぞ！　侵入者だ！　迎撃しろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010116160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00092401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「やぁ～ん！　こんなときに警備の兵隊ちゃんたちが～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010116160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミスＤ" ]},
+		{"command":[ "SETTEXT", "「ちょうどよいところに来ました。警備兵！　わたくしたちを援護なさい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_190116160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000119_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

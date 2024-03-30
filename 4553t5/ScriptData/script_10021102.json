@@ -1,0 +1,165 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0174" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「襲来者（インベーダー）は追い払ったぞ！　これで、しばらくは大丈夫だろ\nう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「翔生子さん、落ち着いてお話を聞かせてもらってもいいかしら？　ここは\nいったい、どこなの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ここは『宇宙の始発駅』と呼ばれる場所……かつて、宇宙の様々な星へと\n通じる『宇宙鉄道』の出発点だった星です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「宇宙鉄道が消え去ったいま、ほとんどこの星を訪れる人はいません。ですが\nここには……『時間城』に通じるゲートが開くと言われています」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「じかんじょう……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114360002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「はい。『時間帝国』の拠点のひとつです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「……じかんていこく？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114360003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「姫様、さっきからひらがな多いっすね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「うるさいな！　わからないんだから仕方ないだろうが！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114360004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「『時間帝国』は、その名の通り多元宇宙の『時間』を支配する存在です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時間を……支配する？　ずいぶんでかい話になってきたな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「実際、かなり大きな相手だ。クリスタル・コンツェルンに匹敵するレベルの\n相手だからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「クリスタル・コンツェルンって、ミス・パープルのとこか？　そう言われる\nと、なんだか強そうには思えなくなってきたけど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうバカにしたものでもないぞ。時間を支配する時間帝国に対して、クリス\nタル・コンツェルンは――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114360002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「多元宇宙の『空間』を支配していると言われている。いわばライバル関係に\nある組織だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114360003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「その時間帝国とやらが、なんで襲来者（インベーダー）と手を組むんだい」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "3", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114360001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「手を組む……というよりも、おそらく帝国が彼らを動かしているのです。\n『刻の掟』を守り、多元宇宙への支配を強化するために」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「とにかく、そいつらが襲来者（インベーダー）の黒幕ということだな？　\nだったら、敵であることに間違いはあるまい！」　", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114360005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「翔生子の『おじいさま』は、そのことを我々に知らせてくれたのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114360004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「はい！　そしておじいさまがわたしたちをここに導いた、ということは――\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「おそらく、時間城でなにかが行われている、ということです。時間城への\nゲートを探しましょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう！　……って、ちょっと待て。いま、『探しましょう』って言ったな？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「はい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つまり、どこにあるのかはわからないってことか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あ、え、えと……すみません……時間城へのゲートは神出鬼没で、どこに\n開くかは見つけてみないと……ご、ごめんなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114360009" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、いや、そんなに謝ることはねえって。ただちょっと……大変そうだな、\nって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まあまあ、ご主人。そのへんは、いつものことですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「そうそう！　がんばってゲートを探そー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010114360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

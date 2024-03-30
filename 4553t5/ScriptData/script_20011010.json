@@ -1,0 +1,171 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やれやれ、一時はどうなることかと思ったぜ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人の悪運の強さが、最後にはモノを言いましたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今回ばかりはお前に同意するとこかもな。はぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「まっ、何にせよ無事に帰って来れたんだから、万事解決上等じゃねーか。な\nっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「確かに無事に戻れたのは戻れたが、とても万事解決とは言えないだろ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「まぁ、あいつを取り逃がしちまったのは残念だけどよ、この際贅沢は言って\nらんねーだろ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「はい、ほむら殿がお力を貸して下さったお陰で、何とか主殿を取り戻せた…\n…それは喜ばしいことであります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「ですが、アルマはまた必ず何らかの形で主殿を狙ってくるでしょう。まだ油\n断は出来ません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021320002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうでもいいんだが……その主殿ってのはどうにかならないのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「えっ？　あ……で、ですが、主殿は今まさしく私の主人であり、お仕えすべ\nき存在で……それ以外の呼び方と言われましても……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021320003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「別にいーじゃねぇか、お前が主人になるなんて、こいつ以外に滅多にねーん\nだから、味わっとけよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「私としましても、頼もしい後輩が出来て嬉しゅうございますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021320002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「はいっ、先輩。どうぞ、これからもよろしくお願い致します！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021320004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、こいつに敬意を払う必要はないからな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「さらっと酷いですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021320003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「でも、イグニス……だよな。これからどうするつもりなんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「はい、主殿をお守りする為にも、私はこの地に残ろうとは思うのですが……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021320005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「それなら、うちの正義の上の階に空いてる部屋があるから、そこを使ってい\nいぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320004" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「ほ、本当ですか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021320006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「何にせよ拠点が必要だろうからな。ま、ちょっと掃除すりゃ、寝る場所位に\nはなる筈だぜ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320005" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「何から何まで……本当にかたじけない。感謝します、ほむら殿」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021320007" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「なーに、困った時はお互い様だぜ。あたしにとっちゃ、もうイグニスは可愛\nい妹分みたいなもんだしな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320006" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「ありがとうございます。二君に仕えることは出来ませんが……ほむら殿に頂\nいたご恩は何らかの形で必ずお返し致します」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021320008" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういや、お前は最初からイグニスに味方してたな。何でだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「何でって……当たり前だろ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320007" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ええ、そんなの当然ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021320004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや、何がどう当たり前なんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「いや、だからさ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320008" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「いつだって、赤は正義に決まってんだろ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021320009" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

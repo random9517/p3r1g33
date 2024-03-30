@@ -1,0 +1,86 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0177" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「ふふっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010114840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「あれあれ～？　女王様、どうなさいました？　今日はなんだかごきげんです\nねえ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010114840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「ジェスタか。いや、なに。息子のことを思い出してな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010114840002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「カツマクンのことですか？　はははっ、彼もいろいろ大変みたいですねえ。\n地球に帰って、元気でやってますかねえ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010114840002" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「アホな仲間たちの元で、アホ同士仲良くやっておるじゃろうよ。まったくあ\nのボケナスビどもが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100114840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「そのアホどもに出し抜かれて、なんとかいう蝶を横取りされた方たちもいら\nっしゃるようですが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010114840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだと……？　なにが言いたいんだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080114840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「別に。ただ、敵を侮るなと忠告して差し上げているだけです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010114840002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「まあまあ、３人とも女王様の前でケンカはよしなよ。いつものことだけどさ\n！　ははははははっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010114840003" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「しかし、余には陛下のお考えがよくわかりませぬ。なにゆえ、あのようなボ\nケナスビのことを気になさるのか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100114840002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「……たしかにその通り。まさか女王陛下ともあろうお方が、親子の情とやら\nに惑わされているとも思えませんが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080114840002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「ふふっ、お前たちにも今にわかる。我が帝国が、カツマを必要とするわけが\nな。ふふふ、ふふふふふふふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010114840003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"scriptCommands" :  [
+    	{"command":[ "PLAYMOVIE", "OVA_FMN2_1.mp4" ] },
+		{"command":[ "FADEOUT", "NORMAL" ]},
+    	{"command":[ "WAITMOVE" ] },
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

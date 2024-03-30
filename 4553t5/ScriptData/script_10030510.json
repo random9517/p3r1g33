@@ -1,0 +1,111 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "いつもの採石場へと場所を移して、俺たちはインクレティブル・スクワッドと\n戦うことになった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おいハルノブ！　なんか言え！　なんであのスパイと一緒にいたんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「そんなこと、どうだっていいでしょう。ウチはつきたい側についていただけ\nです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "一番に飛び込んできたセレーナの相手を、ハルノブがしている。いつも以上に\n気が立っているようだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「だいたい、こっちのカツマがスパイだという証拠はあるのです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115320002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「そ、それはこいつが時間帝国のやつと一緒にいたからだ！　ハルノブも見た\nだろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115320002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「そうですが、それも時間帝国側の罠かもしれません……と、単純なバカ犬に\n言ってもわからないでしょうが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115320003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだとぉっ！　ああ、その言い方腹立つ！　絶対に許さない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115320003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ヒートアップするセレーナに対して、ハルノブの動きは妙に鈍い。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「はぁああぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115320004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「しま……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115320004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ハルノブ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "セレーナの攻撃がハルノブの顔面に当たった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「く……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115320005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0194" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "ハルノブのマスクにひびが入り、一部が割れる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「な……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115320005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、その顔は……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115320006" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,230 @@
+{
+
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_01" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "PLAYVOICE", "v2_012_0304101" ]},
+		{"command":[ "SETTEXT", "「はうぅ～、はあぁ、あぁ、んっ……んんっ、ねえねえ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304102" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「もしかして……もしかしなくてもさ～、今からすごくエッチなことしちゃう\nつもりじゃない？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304103" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「あぁ……やっぱりそうなんだ～。えっ……い、イヤじゃないよ？　そ、その\nぉ～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304104" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ドキドキしちゃってるの……はぅん、あっ、やぁぁ、あぅん！　こ、こうや\nっておっぱい揉まれたり……ぅぅん」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304105" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「あっ、あぁ～～！？　首筋、キスされたりしながら、何されるんだろうって\n……はあぁ、あぁっ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304106" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「オチンチン入れるんだぁ……やっぱり。さ、さっきから鉄みたいに硬くなっ\nてるよぉ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304107" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「こんなおっきくて硬いの入れちゃうんだ、わたしのオマンコに……♪」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304108" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「うん……い、いいよ。来て……わたしのココ、メチャクチャにしっ……んあ\nああぁぁ～～～！！？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304109" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「はうぅ！　あぅん！　はぁぁ～！　はぁぁ！　だっ大丈夫、ビックリしただ\nけ、だからぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304110" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「きゃぅん！　きゃぅぅ！？　あぁぁ、ふあぁん、はぁぁ、はぁっ、奥ぅぅ！\n　奥に入って……くるぅ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304111" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「んあぁぁん！！　はひっ、ひぅぅ！　あぁぁん！　すっ、すごいぃ……！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304112" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「子宮ぅ、あなたのオチンチンで突き上げられて、くぅぅん！？　カラダごと\n持ち上げられてるよぉ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304113" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「はっ、はあぁん！　ナカで……ナカで、オチンチンがびくびくしてるぅ……\n！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304114" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「わたしのオマンコ、具合が良くて気持ちイイ……？　はぅぅ～！　恥ずかし\nいよぉ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304115" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「んうぅん、んっ、んんぅ！　は、入ってるトコロ見ろって？　警備員さんの\n変態ぃ～」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304116" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「はあぁ、はぁぁっ、大事なトコにズポズポ入って出てぇ……す、すごくいや\nらしいの……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304117" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「オチンチンが、くぅぅ！？　子宮ぅ、ぐりぐりって突き上げるとね？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304118" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「アタマの奥がビリビリって痺れてぇ……んあぁ！？　そう、そうなの、これ\n……これぇ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304119" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「もう何でも良くなっちゃうよぉ～！　お、おっぱいまで揉まれたら、わたし\nぃっ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304120" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「やあぁん！　おっぱいぐにぐに揉まないでぇ……オモチャにされてるぅ……\nっ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304121" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ま、前に言ったでしょ？　おっぱい弱い……ひゃぅぅん！　乳首、そう……\nそうなの……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304122" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「そこ、弱っ……はぅぅ！？　んあぁ、はぁぁ、あっ、あぁ～！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304123" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「このまま責められてたら、わたしっ……わたしスグにイッちゃうよぉ～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304124" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「わっ、わたしのこと……どうする、つもりなの……くぅぅ！？　んあぁぁん\n！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304125" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「オチンチン、でっ……ぐりぐりってオマンコほじって、ひっ、ひぅぅ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304126" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「んあぁぁ～っ！　おっぱい、ぐにぐに弄んで、い……イカ、せ、るの……？\n」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304127" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「んぁん！　あんっあぁ！　あん、あんあぁん、あんあんあんっ……くひぃぃ\n！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304128" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「もっ……もぅイッちゃうよぉ～！！　ふあぁ、一緒にイキたいの、だから…\n…」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304129" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「いっしょ、一緒にぃ……！　そうだ、わたしだって、あなたをイカせちゃう\nんだから～！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304130" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「腰ぃ……こ、こうやって自分で振ってぇはぅぅ！　ほらぁ、オマンコのナカ\nでビクビクいってるぅ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304131" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「んあぁぁん！？　も、もうイキそうなの？　イクの？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304132" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「わたしも……はぅぅ！　子宮ぅ、がつがつって突かれてイキそうになってる\nの……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304133" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「来てぇ、来てっ来て来てっ……んんっ！　ん～～～っ！！？　んあぁぁん、\nあっ、あぁぁ！？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304134" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ああぁぁ～～～！？　イクッ……イクッ、あぁぁ～～！！　イクぅぅ～～～\n！！！！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_07" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304135" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「はひぃ……！！　出てりゅぅ……！　子宮いっぱいに、あっつい精液がどぴ\nゅどぴゅ注がれてるぅ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304136" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「んあぁ！　はぁっ！　はぁぁん！　んはあぁ……オチンチンと繋がってると\nころからぁ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304137" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「精液、溢れちゃってるよぉ……！　あうぅ、こんなのエッチすぎる……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304138" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ふぇ……？　いまイッたばかりなのにぃ、ど～してオチンチンがカチカチに\nなってるのかな～？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001203_02_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304139" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「もっとしたい？　もぅ～あなたって本当にスケベなんだからぁ、んふふ♪」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_012_0304140" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「い～よ？　もっともっとエッチなこと、い～っぱいして？　ね……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+
+	]
+
+}

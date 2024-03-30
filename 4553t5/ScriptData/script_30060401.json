@@ -1,0 +1,237 @@
+{
+
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SPOTCHARA", "0" ] },
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "PLAYVOICE", "v2_006_0403101" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「き、来たわよ。ディアナちゃんを呼び出すなんて、ダーリンたらなにを考え\nてるのかしら」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403102" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ご、ご奉仕……なんとなく予感はしてたけど、まさか、本当にそんなことさ\nせるつもりなんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403103" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「べ、別に怖くないし！　エッチなこと、したことないけど、でも、全然怖く\nなんかないし～！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403104" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「むしろ、ダーリンとならあたし……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403105" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「って、なななな、なんでもないから！　なんでもないから～！　それよりも\n、どうすればいいのか、早く教えて～！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403106" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「え？　おっぱいで挟むの？　え？　え？　そんなのでいいの？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403107" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「そ、そうなんだ。パワーアップのためだから、そんなのでいいんだ？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403108" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「えっ！？　したいなら最後までしてもいいって、なにその言い方！　それじ\nゃあまるで、ディアナちゃんがエッチをしたがってるみたいじゃない！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403109" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ディアナちゃんは、そんな簡単に身体を許しちゃうような尻軽女じゃありま\nせん～！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403110" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ちゃんと、そういうムードを作ってくれて、エスコートしてくれたなら……\nむしろ、嬉しいのに……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403111" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「なんでもないです～！　とにかく、それぐらいなら、余裕でできちゃうもん\nね～」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403113" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「――って、だから、エッチなことしたいわけじゃないの！　これぐらい平気\nで、早く終わらせたいだけなんだってば～！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403114" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ひう！？　お、おっきい……あれ？　うそ？　だっておちんちんって、もっ\nと小さくて、そんなにギンギンに膨らんでないんじゃあ？」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_01" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403115" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「そ、そうなんだ。エッチな気分になると、こんな風になっちゃうんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403116" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「これを、挟む……おっぱいに……う、うん。えいっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403117" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「は、はうぅ。なにこれ、思ってた以上に、堅くて、熱い。それに、ごつごつ\nしてて、おっぱいにこすれる」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403118" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「おまけに、匂いも……すぅ、はぁ、すぅ、はぁ……うわぁ。青臭くて、頭ク\nラクラしちゃいそうな匂い」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403119" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ね、ねえ？　血管が浮き出て、ぴくぴくしてるけど、痛くないの？　そうな\nんだ……気持ち良いんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403120" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「それで、動けばいいの？　これを挟んだまま……うん。いくよ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403121" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ん、しょっ。んっ……ん、んん……あ、ふあぁ。なにこれ、胸に、おちんち\nんがびくびく震えてるの、伝わってくる」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403122" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「これ、直接は気持ちよくないけど、なんだか不思議な気分になっちゃうわね\n。だって、心臓に近い場所で、ぴくぴくしてるんだもん」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403123" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「それに、だんだん匂いも熱いのも、どんどん強くなってきてる。まるで胸を\n犯されてるみたい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403124" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「――って、みたいじゃ無くて、本当に犯されてるんだよね。あれ？　それと\nもディアナちゃんの胸がダーリンのおちんちんを犯してるのかな？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403125" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「まあ、細かいことはいっか。それよりも、先っぽから透明なの出てきてるよ\n、ダーリン。んふふふふ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403126" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「気持ち良いんだ？　ディアナちゃんの胸、とろとろになっちゃうくらい気持\nち良いんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403127" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「はい、正直に言えて偉いですよ、ダーリン。んふふ、ご褒美に、もっと強く\n挟んであげますね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403128" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ん、しょっ！　ん、んんんっ、ん！　あはっ。どんどんおっきくなって、デ\nィアナちゃんのおっぱい、とろとろになっちゃってる～」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403129" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「なんだかこれ、嬉しいかも。それ、それっ！　それ～！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403130" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「って、あわわ！？　ぷくって、膨らんだ！？　先っぽ、びくびくって！？　\nえ？　い、イクの？　ディアナちゃんはどうしたらいいの！？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403131" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「このまま？　う、うん……えい！　えいえいっ！　あ！？　ふああ！？　お\nちんちんが、びくんって！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403132" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「んんんんん！　熱いぃぃ……びゅくぅって、白いのが……精液が、たくさん\n……ひゃあ！？　まだ、出てる……」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403133" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ふあぁぁ……凄い。こんなにたくさん、白くて粘っこいのが、ディアナちゃ\nんの胸、どろどろに汚しちゃってる」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403134" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「そっか。これがアソコに注がれると、赤ちゃんになっちゃうのね。へぇ……\n」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403135" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「う、うん。初めて見たから、すっごく不思議。それに、おっぱいが熱くって\n、なんだか変な気分になっちゃう」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403136" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「ご奉仕、癖になっちゃいそう。だってぇ～……んふふふふ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403137" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「イク時のダーリンの顔、すっごく可愛かったもん。まるで泣いちゃうみたい\nに、ぎゅーってなってたわよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403138" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「あはははは！　そんなに気持ちよかったなら、またいつでもしてあげるね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403139" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「で～も～……次はもうちょっと、ムードとか、エスコートに気を遣って欲し\nいな～」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000604_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYVOICE", "v2_006_0403140" ]},
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「だって、ディアナちゃんは女の子なんだから。そういうところから胸がキュ\nンキュンしちゃうんだから。分かったら、次からお願いね、ダーリン」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+
+	]
+
+}

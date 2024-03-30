@@ -1,0 +1,109 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0108" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「う、うう～ん……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おや、ご主人。思ったよりはお早いお目覚めで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……？　ああ、そうか……俺、気絶してたのか……ところで、こうなった\n原因の女幹部どもは？　いや、いい。言わなくてもわかる」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺を置いて帰っちまったんだろ？　だけど、お前だけは残ってくれてたんだ\nなジュンジロー……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それは当たり前ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうかそうか……お前のこと、恩知らずの駄犬だなんて思ってたけど、本当\nはお前――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人がクビにでもなれば、ワタクシまでセットでクビになるのです。ダメ\nなご主人の尻ぬぐいも、仕事のうちと割り切っておりますので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにぃっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「だいたいですな、ご主人は図に乗っておるのです。最近、隊員たちの当たり\nが柔らかくなったのを、モテていると勘違いしておるのでは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュ、ジュンジロー！　てめえ、言わせておけばムチャクチャ言いやがって\n！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いーえ！　このさい言わせていただきます！　そのようなぶったるんだ思考\nで勤務しておられるから、よけいなことを考えるのですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぐっ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そもそも、ご自分で言っておられたではありませんか！　Ｇ・ルナリアム自\n体、泣く子も笑う悪の組織。ご主人はその幹部なのですぞ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なのにお母上がどうのとか、血の宿命がどうのとか、正義のイケメンヒーロ\nーみたいなことで悩むなど、ナンセンス極まれりですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、それは……確かに」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そもそも、隊員の皆様からの当たりは格段に柔らかくなっておるのですから\n、そこになんの不満があるというのです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「シーズン１の第一話を思い出すのですぞ！　あれに比べれば、破格の待遇改\n善ではございませんか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうだな……あのときは危うく、シルバスターもろとも生き埋めにされ\nかけて……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それに比べたら、今の待遇にはなんの不満もねえ……とはお世辞にも言えね\nえけど、やりがいは段違い平行棒じゃねえか！　そうだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わかっていただけたようですな。では、そろそろ本部に戻りましょう。敵の\n襲撃を受けておるそうですからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114890010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それを先に言え、それを！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

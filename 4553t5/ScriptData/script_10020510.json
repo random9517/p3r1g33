@@ -1,0 +1,200 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0153" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "ついに学園祭当日。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、ほぼ寝てませんよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやぁ、油断した。ほぼ一夜漬けでセリフを暗記することになるとは」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「サイレーン殿から不眠学習装置をお借りすればよかったのでは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113510002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「断るっ！　もうあんなのはごめんだっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんなわけで、ダラダラしていたら当日だ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "練習には参加したが、セリフなんかろくに覚えられなかった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とにかく、５人と最後の台本チェックだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ところでさ、ラストシーンのことなんだけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん？　ああ……投票のことか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「もしかしたら、本当にカツマさんの一票が一億票になるかもしれません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001702_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにぃっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おいおい、それってつまり観客の投票が茶番になるってことか！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「でも、誰が選ばれても恨みっこなしよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「うん、わかってる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113510002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「みんな、カツマ先生とのキスのためにがんばっていたから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「いや、それはあんただけ……だと思うよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020113510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おっと、そろそろスタンバイに入る時間ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113510003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「カツマ先生、ちゃんと見ててね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113510003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「大江山先生のためにも、頑張りますっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113510002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001702_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「瞬き禁止なんだから。まあ、瞬きなんかさせないけどねっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113510002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「カツマ先生、私の熱演、しっかり見ていてほしい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113510002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、みんな頑張れ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「カツマ先生」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113510001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ルルーナ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「私が一番だって、観客にも認めさせてあげますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113510002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「べ、別に貴方とキスをしたいからではないですわよっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113510003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、ああ、わかったわかった。任意だから無理しなくていいぞー」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「な、なんですかその反応！　私とのキスですよ！　キスしたくないんですか\n！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113510004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや、言ってることがめちゃくちゃだぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まあ、めちゃくちゃなことを言うのはいつものことか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ともかく、このまえ愚痴を言いに来たルルーナとは顔色が全然違っている。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつものルルーナだ。俺が見た限りでは、練習はうまくいっていたみたいだし\nな。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ちょっと下僕、聞いているんですか！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "0", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113510005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、わかったから。思いっきりやってこい！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ふんっ、しっかり見ていなさいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113510006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「あのさ、あとがつかえてるんだけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020113510002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002802_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

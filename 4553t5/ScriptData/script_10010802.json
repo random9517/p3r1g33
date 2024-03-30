@@ -1,0 +1,234 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ほらカツマちゃん、急いで急いで！　もう走らないと間に合わないよ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかったから引っ張るな、全力で走るな、そしてそのちゃん呼びをやめろ！\n！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "にしても、どうしてこうなった……未だに状況が理解出来ん。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "これはなんだ？　何かの訓練か？　新手の嫌がらせか？　心を試されているの\nか？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まさかとは思うが、この状況にどう対応するかで査定されている、とか……い\nやまさかな。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どこからか監視されていて、ドッキリでーすってやられても不思議じゃないが\n……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "幹部どもの嫌がらせ、っていう線もあるか。いやだとしても、カグヤの態度が\nなあ。こいつ、その手の企みではすぐボロを出す気がするんだが。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「それにしてもいいお天気だね。こんな日はウキウキしちゃう。もっとゆっく\nり歩いて登校できたら良かったのになあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……演技だとしたら真に迫っているな、おい。いかにも『幼馴染みの同級生』\nじゃないか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ああもうカツマちゃん、ぼおっとしてないで！　急ごう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108020003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んぐっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だから、いきなり襟首を引っ張るな、人を後ろ向きのまま引き摺って走るな！\n！　喉にパンが詰まる！！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そもそもぼおっとしてねえ！　おまえが俺の口に無理矢理突っ込んだパンのせ\nいで、声が出せないだけだ！！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大体だな、全力疾走しながらパンを咥える文化なんでどこのどいつが考えやが\nった！？　これ、女がやって曲がり角でぶつかるのがお約束なんじゃなかった\nか？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "確か、ジュンジローが前にそんな与太を口にしていたぞ……ってそうだ、あの\n野郎こんな時にどこで油を売ってやがる？　姿を見てないぞ？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「え？　――あ！？　きゃあ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108020004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ん――？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぐあっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ああっ！？　カツマちゃん！！　大丈夫！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108020005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大丈夫じゃねえよ……いきなり立ち止まるから、引っ張られていた俺だけが前\nへすっ飛んで……イテテ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なん……だ？　別の誰かとぶつかった……ような？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＡ" ]},
+		{"command":[ "SETTEXT", "「テテテ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_030108020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000802_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだ、ピースムーンじゃないか。……あ、ようやくカグヤ以外の奴に会えた\nな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＢ" ]},
+		{"command":[ "SETTEXT", "「ああ？　カツマじゃないか。まぁた私たちのアイドル、カグヤちゃんにちょ\nっかい出してたの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040108020001" ]},
+		{"command":[ "SETCHARA", "1", "char_00000802_01", "3", "CENTER", "-400" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……はあ？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＣ" ]},
+		{"command":[ "SETTEXT", "「幼馴染みと仲良くラブラブ登校なんて、朝から見せつけてくれるじゃないの\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_050108020001" ]},
+		{"command":[ "SETCHARA", "2", "char_00000802_01", "6", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "2", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ラブラブだなんて、そんな。ぽっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108020006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]},
+		{"command":[ "DISPCHARA", "2", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだあ？　なんでこいつらがそんな口をきいてくる？　いくら俺が幹部じゃ\n下っ端扱いとはいえ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかも、カグヤが、アイドル？　ラブラブ？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＡ" ]},
+		{"command":[ "SETTEXT", "「カツマ！　あんた、今の落とし前、どうつけてくれるのさ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_030108020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000802_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ああ、ごめんなさい！　私が悪いの、カツマちゃんは悪くないの！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108020007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＢ" ]},
+		{"command":[ "SETTEXT", "「いえ、分かってます。分かってますよ。カグヤちゃんは黙ってて大丈夫です\nよー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040108020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000802_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＣ" ]},
+		{"command":[ "SETTEXT", "「全部カツマが悪い。うん。そうに決まってる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_050108020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000802_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おいこら。黙って聞いていれば、こいつら……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃん、どうしよう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108020008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おまえもおまえでうろたえてるんじゃないよ。命令すれば一発だろうに、こい\nつらなんて。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……あ、まさか。カグヤと同じように、ピースムーンたちもなんか、おかしな\n設定にでも従って振る舞っているのかあ？", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そうだな……カグヤが『幼馴染みの同級生』なら、こいつらは……さしずめ『\n柄の悪い同級生』か？　『不良学生』ってやつ。で、『学園のアイドル』を崇\n拝しているような――。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＡ" ]},
+		{"command":[ "SETTEXT", "「良い機会だ、決着を付けてやるぜ、カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_030108020003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000802_01", "7", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00000802_01", "7", "CENTER", "0" ]},
+		{"command":[ "SETCHARA", "2", "char_00000802_01", "7", "CENTER", "400" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "DISPCHARA", "2", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＢ" ]},
+		{"command":[ "SETTEXT", "「誰が一番カグヤちゃんにふさわしいか――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040108020003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＣ" ]},
+		{"command":[ "SETTEXT", "「かかってこい、カツマ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_050108020003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺までその変な設定に巻き込むな、めんどくせー！！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

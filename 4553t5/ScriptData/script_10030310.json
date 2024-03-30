@@ -1,0 +1,77 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0031" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「騒がしいと思ったら、またお前らか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ふん！　お前らこそ、呼んでもおらぬのにまたノコノコと！　返り討ちにし\nてくれる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「っ！　ハルノブ……！　てめえ、こんなとこでなにやってんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いまそんなこと言ってる場合じゃねえだろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「でも！　やだよ、こんなヤツに助太刀すんの！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115040002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「誰も頼んだ覚えはないです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おー、そうかよ！　だったらわたしは帰るからな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115040003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「はははは！　勝てないとわかって、尻尾を巻いて帰るのか！　いいざまだな\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだとぉ……！？　ふざけんじゃねえ！　ニセモノのわたしなんか、本物\nのわたしがギッタンギッタンにしてやらあ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115040004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "人型襲来者Ｂ" ]},
+		{"command":[ "SETTEXT", "「というわけで戦闘は続きます！　激しいバトルの結果は、ＣＭのあと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_227_010115040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まだ撮っておられたのですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

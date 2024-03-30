@@ -1,0 +1,183 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0148" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "そんなわけで翌日。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さーて、そろそろチャイムもなるし教室に行きますか……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "と思ったら突然、校内放送でサイレンと学園長の声が鳴り響く。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「特別授業です。地球防衛科の生徒と教職員は、ただちに校庭に集合してくだ\nさい。繰り返します。特別授業です。地球防衛科の――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020116440001" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっと！？　襲来者か！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「私たちが先に出る！　カツマは生徒たちを連れてきて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「一般生徒の避難も頼むぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかった！　まかせろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「襲来者が学園の方に来るのは久しぶりだな……とにかく一般生徒を誘導して\nから、地球防衛科の連中を連れて校庭に――」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0138" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、あれぇ！？」", "NORMAL" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "慌てて普通科の教室に飛び込んでみると、そこはもう空っぽ。生徒たちはとっ\nくに避難してしまったようだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだよ、あいつらずいぶん素早いな……それじゃ地球防衛科の方は？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「こらぁ～っ！　下僕ーっ！　さっさと校庭にこーいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116440001" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ルナテミス！？　ってことは、まさかみんな校庭に！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「敵を体育館から遠ざけて！　一般生徒が危ない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おー！　まかせとけ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハルカプトラ7世" ]},
+		{"command":[ "SETTEXT", "「生徒には指一本触れさせないのである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "円盤少女Ａ" ]},
+		{"command":[ "SETTEXT", "「そんなのどっちでもいーもん！　恨みがあるのはあんたたちだけだし！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_162_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016202_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "円盤少女Ｂ" ]},
+		{"command":[ "SETTEXT", "「この前はよくも、ホームランキメてくれたなぁ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_163_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016302_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え！？　もう戦闘始まってる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「下僕ぅ！　なにをやってる！　遅いぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116440002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「スバルさんの指示で、私たち先に出てました！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「スバルの！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「私、いちおう隊長代理だからね！　隊長が来るまで、代わりに指揮をとらな\nいと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116440002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "円盤少女Ａ" ]},
+		{"command":[ "SETTEXT", "「こらー！　あんたたち、こっちの話を聞きなさいよー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_162_010116440002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016202_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "円盤少女Ｂ" ]},
+		{"command":[ "SETTEXT", "「今回こそ、全員まとめて泣かせてやるぅ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_163_010116440002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016302_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「そうはさせない！　みんな！　行くよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116440003" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、それ、俺の仕事……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "バッケンハンター" ]},
+		{"command":[ "SETTEXT", "「いいじゃない！　いつものことでしょ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_010116440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それはそうなんだけどさぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

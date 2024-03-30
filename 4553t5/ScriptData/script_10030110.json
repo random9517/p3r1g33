@@ -1,0 +1,73 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0186" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_007" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "セレーナ同士のバトルが続く中、蝶を追っていったシルバスターとＡエファナ\nティカは……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「いた！　クリスタルモンツキハカマアゲハ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100114720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ちゃんと言えるんじゃないの！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001499_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「名前はともかく、その蝶はこっちでいただくよっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020114720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「はははははは！　貴様らごときに、この希少な蝶が捕まえられるものか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100114720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「ぜったい捕まえるーーーーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020114720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「そうはさせーーーーーんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100114720003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「うおおおおおおーーーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020114720003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「うおおおおおおーーーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100114720004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "二人" ]},
+		{"command":[ "SETTEXT", "「うおおおおおおーーーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100114720004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "7", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00001302_01", "7", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

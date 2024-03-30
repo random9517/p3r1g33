@@ -1,0 +1,248 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_012" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "──そんなこんなで、あっという間に数日が経過した。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は～～～…………」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何をしても、身が入らない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "夜もよく眠れない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "毎日生あくびを繰り返しながらボンヤリして、時間が流れるのに身を任せてい\nる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふわぁぁぁぁぁ…………眠い……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんな俺を気づかってか、あからさまに停滞モードの俺を誰もとやかく言わな\nかった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おかげで自室で堂々とサボることが出来たのだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………こいつも、もう必要ないか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、つぶやいたとたん、外からノックの音が聞こえてきた。そして……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「…………今、いい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、大丈夫だ。どうせ暇を持て余していたところだしな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドアの向こうから、カグヤがひょっこりと顔を覗かせる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その目には心配そうな表情が浮かんでいた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……まあこいつはちょくちょく俺にこういう表情を向けてくるから、この表情\nにはとっくに慣れっこなんだが。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうかしたか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……いつも、これぐらいの時間に散歩に連れて行ってあげてたでしょ？　今\n、どうしてるのかな、って……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうもこうも……おかげで、空いた時間が出来て、楽ちんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……そう。だったらいいんだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "──ムーンランド公国大使館務めをしていた頃。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0084" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "これぐらいの時間にジュンジローの散歩に行っていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルルーナの送り迎えを終え、通常業務があらかた終わったほんの僅かな時間。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "リードと首輪を繋いで、近所の公園をぐるりと回っていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "３０分程度の散歩ではあったが、今思うと意外と楽しい時間だったように思う\n。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "生前、面倒臭いとしか思っていなかったってのに……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ジュンジロー……あんまり散歩が好きな犬じゃなかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、散歩後の餌だけが楽しみだったみたいだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう言いながら、俺はちょうど手にしていた首輪とリードを弄んでいた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "長年の間、散歩で培った使用感がこびりついている。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大して散歩好きでもなかったくせに、首輪とリードは高級品をねだっていたっ\nけな。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まあ、無視して安物を購入して、嘘の値段を教えてやったもんだが……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ふぅ、もうこいつを使うこともない。思い切って捨てちまうか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……それは、どうかな。置いておいてもいいんじゃない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうして？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……だって、他の犬を飼うかもしれないし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういうこともあるだろうけど、この首輪のサイズがそのまま使える保証は\nないだろう？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「うん……だよね。でも、その……ジュンジローの思い出に浸るのもいいかな\nーって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……思い出、ねぇ。思い出……誰も世話してくれないから、俺が世話してた\nだけなんだがなぁ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あなたの部下なんだし……あなたが面倒見るのは当然じゃない？　でも、私\nは結構面倒見てたつもりだったんだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、お前はな。けど、毎日毎日陛下やルルーナの無茶振りの合間合間に、\nあいつの散歩するのはかなり大変だったんだぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……まあ、王族のお世話は、私達のお仕事のうちだから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「犬の散歩に行ったら行ったで、エファやセレインに負け犬を見る目を向けら\nれるし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……それ被害妄想じゃない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「兎子やディアナには、露骨に『負け犬同士、仲がいいね』とかダイレクトな\n皮肉を言われたり……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それにムーンナイトどもも、俺とジュンジローを──」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ご、ごめんなさい。もういい……お腹いっぱい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そんなこともあったけどよ、いざいなくなると……結構キツいな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ……みんな、あなたの気持ち、わかってるから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、みんな、気味悪いぐらい俺に優しいんだ。余所余所しくもあるんだが\nな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110060014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "カグヤは何も言わず、ただ俺を見つめるだけだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その目はいつもにも増して、優しく……そしてどことなく憐れむような色合い\nを感じさせてくれた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

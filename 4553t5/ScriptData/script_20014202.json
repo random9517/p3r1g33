@@ -1,0 +1,327 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さて……教室、職員室、購買、保健室、トイレに、一通りの連絡路も大体案\n内したかな」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「ありがとうございました。混雑する時間帯とか、穴場のスポットまで……と\nても参考になりました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なーに、伊達に長年サボ……いろいろ学校を見てきた訳じゃないからな。参\n考になったんなら何よりだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「くすっ……はい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それで……部活動だったか。何か、決めてるところはあるのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ……いえ、特別ここというのはなくて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900003" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「運動系か、文化系でもだいぶ違うとは思うが……どっちかは？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ、えと……わ、私自身は、どちらかと言えばインドアなんですけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「でも、せっかくの機会ですし、何にでも挑戦してみようかなって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900005" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほどな。ちょうど体育館が近くにあるし、まずはそっちを覗いてみるか\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、はい、お願いします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900006" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0153" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どれどれ……おお、やってるやってる」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "体育館の中に入ると、活気に満ちた学生たちの掛け声が聞こえてきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「そっち行くよー、はいっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「オーケーっ、はーいっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど、バレーボールか。うーん、弾む胸が何とも……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、普段と同じ調子でいるとやらかしますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっと……そうだった……えぇと、多分顧問がいる筈なんだが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「次っ、そこの列全員っ、順番にサーブ練習始めっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｃ" ]},
+		{"command":[ "SETTEXT", "「はいっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「しっかりボールをよく見て、中心を捉えて打つんだ！　狙ったところの感覚\nをよく覚えるように！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……ちょ、長官？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "体育館の中心で大声を出していたのは、ユニフォームに着替えた冴島長官だっ\nた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ど、どうなってんだ……何だって長官が……へぶっ！？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｃ" ]},
+		{"command":[ "SETTEXT", "「きゃあっ！　す、すみませんっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「そこっ！　練習中にボーっとよそ見をするなっ！　怪我をしても知らんぞ！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900003" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふ、ふびばへん……あてて……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「ん……？　何だ、誰かと思えば君か。また、妙なところで会うものだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900004" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、それはこっちのセリフと言いますか……こんなところで何してるんで\nすか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「ああ、学園長から依頼されてな。昔覚えのあったバレー部に、臨時コーチと\nして就任したのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「長官……じゃない、冴島さんがコーチ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「これでも、現役時代は全国大会でそこそこの所まで行ったこともあるぞ？　\n一応はレギュラーメンバーだったしな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900006" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「久しぶりに動いてみたが、思ったよりは身体がちゃんと覚えていてな。少し\nでも役に立てればと引き受けたのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なるほど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、これは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022900002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あぁ、分かってる。こいつはやべぇ……春風さんには他の部活を勧めた方が\n……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「おや、そこの奥にいる君は、もしかして入部希望者かな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900008" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「えっ、あっ、あのっ、入部と言うか……その、とりあえず見学だけでもって\n思いまして……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900007" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「そうかそうか。確かに、一度雰囲気だけでも味わった方がいいだろう。せっ\nかくだし、軽く体験してみないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900009" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ……い、いいんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900008" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「もちろんだ。当校のバレー部は経験一切不問。やる気のある者ならば、誰で\nも大歓迎だからな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900010" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あの、それじゃあ、ちょっとだけお願いします……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900009" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おぉ、体験していくんだな。じゃあ、俺は一旦これで……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「ちょうどいい、君も手持ち無沙汰だろう。一緒に、一汗流そうじゃないか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900011" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いや、自分はその用事があると言いますか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「よーし、Ｄグループ、ランニングに行くぞ！　見学者も連れて行ってやって\nくれ！　通常メニューの半分５キロでいい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「ふぇっ、ごっ、５キロ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900010" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「さあ行こう、出発！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900013" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0153" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「はぁっ、はぁっ、ぜぇっ、ぜぇっ……はぁっ、はぁっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900011" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「よーし次っ、レシーブ練習！　ボールが胸元の中心に来るように素早く移動\nするっ！　せいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900014" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふぼぁっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「スパイクは思い切りが大事だっ！　私が手本を見せるぞっ、はぁぁぁーーー\nっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おごぉぉっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「あー、その……大丈夫、だったかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900016" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「はぁ、はぁ、はぁ……す、すみません……私には……ちょっと、ハード過ぎ\nた……みたいですぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022900012" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「むぅ……そ、そうか。ちょっと張り切って飛ばしすぎてしまったか……すま\nなかったな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900017" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんで……お、俺まで……はぁ、はぁ……ぜぇっ、ぜぇっ……はぁ……おふ\nっ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「君は、もう少し身体を鍛えろ。いくらなんでも情けなさ過ぎる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022900018" ]},
+		{"command":[ "SETCHARA", "0", "char_00004907_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ず、ずびばぜぇん……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

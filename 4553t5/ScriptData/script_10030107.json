@@ -1,0 +1,86 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0186" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「いたぞ、そっちだ！　捕まえろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114690001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「アナザー！　捕まえたよ！　これでいいの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020114690001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふむ……透き通った羽で、一部に模様があるはずで……模様？　ダメだ、模\n様がない。これはクリスタルオオアゲハだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114690001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「これじゃないの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020114690002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「依頼されたのはクリスタルオオアゲハじゃなくて、クリスタルモンツキハカ\nマアゲハだ。そちらを探してくれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114690002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「アナザー、こっちは！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114690001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「それはそもそも蝶ではなくカナブンだ。カンジカナマジリカナブンだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114690003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ややこしいわねえ、もう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114690001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「異星の虫は見分けがつかない……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114690001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「そもそも、なんだってあたしらが虫採りなんかやらされるのかねえ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114690001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「なぜって、それは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114690004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだ！？　なんで私を見る！？　仕方ないだろう！　これが、レディ・ホ\nープの依頼なんだから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114690002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

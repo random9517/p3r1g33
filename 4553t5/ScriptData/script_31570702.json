@@ -1,0 +1,425 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あら、お帰りなさいアナタ。今日は早かったんですね。ごめんなさい、まだ\nご飯ができていないの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704101" ]},
+		{"command":[ "SETCHARA", "0", "char_00015701_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「え？　料理が上達してるって？　もう、私も大人になって、アナタの妻にな\nったんですから、これぐらいはできます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704102" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あんっ！！　もう、この格好に興奮したんですか？　いけない旦那様ですね\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704103" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「晩ご飯の前に、私を食べちゃいます？　なんて、聞くまでもないですね……\nいいですよ、アナタ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704104" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「やんっ、ああっ、もうそんなに大きくして……んふっ、でも嬉しい。私でそ\nんなに硬くしてくれたんですね。あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704105" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「凄い……ビキビキって張りつめて、私の中に入りたいって、おちんちんが全\n身で主張してる……好き……ふああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704106" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あんっ、あっ、そうやってこするの……んっ、気持ちいい……でも、ね、ア\nナタ、中に……私の中に……入れて？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704107" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あっ、はっ……あああっ、入って、きた。アナタのおちんちん、私の中に…\n…ふあああああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704108" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んっ、うっ……凄い、奥まで……ふうっ、うっ、私の中が全部、満たされて\n……んっ、あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704109" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「相変わらず大きくて……熱くて……硬くて……んんっ、奥、ぐりぐりってし\nちゃ、ダメ……あんっ、ダメですってば」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704110" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んっ、うっ、そんなにされたら、あっ、あんっ、んっ！！　ふあっ、あああ\nっ、あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704111" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んうううっ、おっぱいが……おっぱいから母乳出ちゃう、んあっ、ああっ、\nああああああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704112" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あんっ、揉んじゃダメ、ふあああっ、もっと出ちゃう、んっ、んんっ、ああ\nっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704113" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あうっ、あっ、あっあっあっ、揉みながら腰を動かしたら……ふあああっ、\nあっ、あくうううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704114" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ちょっと、イっちゃいました……んっ、ああっ、あんっ、あっ、イったって\n、言ってるのに、あんっ、あっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704115" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「イったのに動かしちゃ……ふあああっ、母乳塗りながら腰動かすの、ダメっ\n、あっ、あああっ、あんっ、んっ、んくうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704116" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ダメばっかりって、だって、アナタにこんな風にされたら、ずっと、ずっと\nイっちゃっておかしくなっちゃう、ふああああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704117" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ああっ、奥、奥うっ、おちんちんで奥突いたら、また、んっ、あくうううう\nうううっ！！　またイっちゃった、あううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704118" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ふっ、うっ、あっ、イってる、イってるのに、腰動かしたら……んっ、ああ\nっ、あっ、あふうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704119" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「私のおまんこ、アナタのおちんちんにきゅうきゅう吸いついちゃう！！　イ\nってるのに、おねだりしちゃう、ふあっ、あっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704120" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ああっ、んっ、腰、速くしたら、お腹の奥が、きゅんきゅんって、ひああっ\n、胸も、どっちもなんて、んんっ、んっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704121" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あっあっあっ、また、また……イくっ、んんんっ！！　もう、もうダメっ、\n本当におかしくなっちゃう！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704122" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「壊れちゃう！！　私のメモリ壊れちゃう！！　アナタのおちんちんで壊れち\nゃううううううっ！！　ひああああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704123" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あっ、ああっ、んっ、ふううううっ！！　頭の中までおちんちんで突かれて\nるみたい、ふうっ、うっ、あくううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704124" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んうっ、はっ、アナタの大きなおちんちんが出入りしてるの、分かる、分か\nります、んっ、あんっ、手も……大きな手が、おっぱいに、んっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704125" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「おっぱい、優しく揉まれるの、好き、んっ！！　激しいのも好きっ！！　ふ\nううっ、ああっ、あっ、おちんちんで突かれるのも好きっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704126" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「大好きっ！！　アナタの全部、好き、好きです！！　だから、もっと、もっ\nとしてえっ！！　私が本当に壊れるぐらい、もっとっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704127" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あっあっあっ、ふうっ、凄い、さっきよりももっと強く……んんっ、私の中\n、きゅっきゅっておちんちんに抱きついて……んんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704128" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ああんっ、おっぱいも搾られて……ふうっ、うううっ、あっ、私、アナタに\n食べられてる……ご飯より先に食べられてる……ふああああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704129" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んんっ、あっ、また……イっく、おちんちんと手で、両方でイっく、イっく\n、イくううううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704130" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ふああああっ、あっ、あんっ、アナタも、アナタもイって！！　私のおまん\nこで、おっぱいで、アナタもイって！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704131" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んふうううっ、んっ、あっ、おちんちん、こうやって締めつけるから、ふう\nっ、うううっ、私の中に、いっぱい出して！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704132" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あんっ、あくうっ、うっ！！　先っぽが膨らんで、準備してるの、分かる…\n…おまんこの中で、おちんちんが準備してるっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704133" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んんっ、私もまた……ふうっ、あっ、もう、何回もイったのにまた……おち\nんちんで、アナタのおちんちんで……っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704134" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「一緒に、一緒にイきましょう、ふうううっ！！　夫婦で、アナタと私で一緒\nに……あっ、ああっ、あっ、イっく、イっくうううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704135" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あああああああああああっ！！　あっ、来たっ、出てるっ、おちんちんから\n精液、出てるっ、んんんんんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704136" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ふうっ、あっ、熱くて、濃くて……赤ちゃんの素……アナタと私の赤ちゃん\nの素が、いっぱい……んっ、んんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704137" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「私の中全部、アナタの精液が満たしてるのが分かる……ふううっ、あっ、あ\nあっ、あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704138" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んんっ、あんっ、あっ……この、どくどくって注がれてる感触……好き。愛\nされてるって実感する……んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704139" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「アナタの精液が身体に染みこんでる……ふふっ、これならすぐに赤ちゃんで\nきちゃいそうですね。あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704140" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んっ……まだ大きい。二回目、します？　いいですよ。アナタがしたいだけ\n……何回も、私を食べて？　あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704201" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あっあっあっ、また激しく……んっ、ふふっ、興奮したんですか？　エッチ\nな旦那様……あんっ、あっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704202" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「じゅぷじゅぷって、おちんちんが音を立てて……んっ、胸もぬるぬるで……\n中も外もアナタにどろどろにされてる……あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704203" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ふううっ、んっ、出したところぐりぐりってされたら、赤ちゃんの部屋が降\nりてきちゃうっ、んっ、あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704204" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あうっ、んっ、分かる……アナタのおちんちんが、私に子供を作らせようと\nしているの、分かる……んくうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704205" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「大きく膨らんで……硬くなって……ごつごつって、赤ちゃんの部屋ノックし\nて、子供を作らせろって催促してきてる……あっ、ふああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704206" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んんんっ！！　母乳搾ったら、さらに準備できちゃう！！　アナタの赤ちゃ\nん作る準備できちゃうっ！！　んんっ、あっ、あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704207" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ああっ、あっ、今の言葉でまた硬く……ふうううっ、精液出した中、それで\n突いたら、んんんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704208" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あんっ、んっ、奥、おちんちんの先端が、私の奥をがっちりと捕まえてる…\n…ふううっ、うっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704209" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「おっぱいも搾られて……んんっ、本当に、本当に赤ちゃん作る気なのね……\n嬉しい。アナタと私の子供……あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704210" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「だったら……いっぱい出して！！　私の中、お腹がアナタの精液だけになる\nぐらい、たっぷり出してっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704211" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んふうっ、ふっ、おまんこで締めつけて、んっ、ぬるぬるの中が絡みついて\nいるの、分かりますか？　あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704212" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「私も、アナタのおちんちんがごりごりって中をこするの、分かります……ふ\nうっ、んっ、んくうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704213" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あくうっ、くっ、頭の中まで、がんがん突かれてる……ふううっ、アナタの\nおちんちんのことだけしか、気持ちいいことしか……ふああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704214" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「それだけしか考えられなくなっちゃう！！　おちんちん！！　気持ちいいっ\n！！　赤ちゃんの素、また欲しいっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704215" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「出してっ！！　いっぱい出してっ！！　アナタの気持ちいいしるし、赤ちゃ\nんのためのしるし、私の中にっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704216" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あっ、イく、イく、私もまた一緒にイくっ！！　んんんんっ！！　イくイく\nイくイくっ！！　アナタのおちんちんで、おまんこイっく！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704217" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ふうっ、ふっ、あっ、ああああああっ、イっくううううううううううううう\nうっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704218" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ああっ、あっ、さっきから、イってるのに、そんな動いたら、ああっ、連続\nで、イっく、んんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704219" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「おちんちんも膨らんで来てる！！　出して、私に全部、アナタの精液、全部\n出してええええええええええええっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704220" ]},
+		{"command":[ "WAITINPUT" ]},
+				
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んううううううっ、来てる、二回目の精液、私の中に来てるううううううっ\n！！　ふううっ、うっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704301" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「さっきのでたぷたぷな一番奥に、また上書きされて……熱い……んんっ、赤\nちゃんの部屋に、べっとり貼りついてる……んっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704302" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「最初のと二回目のがおちんちんで混ぜられて……んっ、お腹の中全部熱くて\n、気持ちよくて……あんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704303" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「母乳もまたいっぱい出ちゃう……んっ、本当は赤ちゃんのためのものなのに\n……あんっ、まだ揉んでる……いけない旦那様ですね、んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704304" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ふうっ、んっ、最後の一滴まで、全部出して……ね？　アナタの精液、私の\n中がごくごくって嬉しそうに飲みこんでるの、分かるでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704305" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、お腹が精液で溺れちゃいそう……濃くて、大量で……これが私が愛\nされてる証拠ですものね。嬉しい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704306" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「これ、絶対子供ができちゃいますね……最初は男の子がいいな。アナタに似\nた、やんちゃな子がいいです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704307" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「二人目は女の子かな。私に似た可愛い子に、アナタと二人で振り回されたい\nですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704308" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ふふ……だから一人目ができても、またこんな風にいっぱいいっぱい愛しあ\nいましょうね。私たちは夫婦なんですから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704309" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「愛してます、アナタ。いつまでも、どんなときでも。だから、ずっとずっと\n一緒にいましょうね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704310" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あんっ、あっ！？　なんで、おちんちん抜いて……ふあああっ、あっ、私の\n身体に、んんんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704401" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「熱いっ、んっ、身体にかけても、赤ちゃんできないのに……んんっ、ふうっ\n、ふっ、身体中がべとべとになってる……んうっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704402" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「私の身体にマーキングしてるって……もう、そんなことなんかしなくても、\n私はずっとアナタのものなのに。あんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704403" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「んふううっ、母乳と精液だからマーキングになるって、そんなの……んっ、\nこんな匂いで歩いていたら、そりゃアナタのものだって、んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704404" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「アナタのものだって一目で分かるわ……思ったより独占欲が強いのね、アナ\nタ。ふふ、でも嬉しいわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704405" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「それぐらいには、私に側にいて欲しいんでしょう？　心配しなくても、ずっ\nと一緒にいるのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704406" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「でも、男の人のこういう独占欲、ちょっとくすぐったいけど……女として、\n妻としては悪い気はしないわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704407" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「アナタの望み通り、全身がアナタの色に染まったわ。満足した？　ふふふっ\n、嬉しそうな顔をしちゃってる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704408" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「甘えん坊でわがままで、独占欲の強い、私の旦那様……私はいつだってアナ\nタの望むこと、望むようにしますからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704409" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「でも、それはそれとして赤ちゃんも作りましょうね。二人の子供だって、ア\nナタのものだってしるしでもあるんですから……頑張ってね、アナタ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_0704410" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

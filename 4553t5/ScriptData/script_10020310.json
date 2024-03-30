@@ -1,0 +1,135 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ルルーナさんチーム、グレーテルさんチーム、みんとさんチーム……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そろって撃破でしょ！　わかってるわよ！　マシンを止めてっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「あの……皆さん……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113360002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「大丈夫よ！　次こそ勝つわ！　私にまっかせなさーい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「は、はあ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113360003" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「結局、『バリカタ作戦』も失敗か……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「次は『ハリガネ作戦』にでもするの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001802_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「う、うるさいわね！　みんな悪の女幹部なんだから、負けには慣れっこでし\nょ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113360002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「それを言ったらおしまいですよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001702_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「もっと強い戦車を探してみては……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050113360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「ううう……無理です。しょせん無理だったんです！　戦車で怪獣に勝とうな\nんて！　戦車が勝つ怪獣映画なんて、観たことありますか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そもそも、なんで怪獣映画にこだわるんだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「流々那！　あきらめたらそこで試合終了よ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113360002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「怪獣が来たら逃げるしかないんです。ロボットにでも乗っていれば怪獣と戦\nうことができますし、勝つこともできます。でも戦車では……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113360002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、そうなるよなあ……くそっ、マシンの中でロボットが動かせりゃなあ\n……って、ちょっと待て！？　怪獣戦車はなんで動いてんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「あれは第二次大戦中の戦車の車体に、怪獣が乗ってるだけだからね。プログ\nラム的には戦車と判定されるんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113360001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「なによそれ！？　そんなんでいいの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113360003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「判定がザル……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050113360002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういうことはもっと早くいえよ！　だったらこっちだって、下半身が戦車\nのロボットを作って……あ！　いや、ちょっと待てよ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もっといいこと思いついたぞ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「なにか思いついたの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050113360003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ！　思いついた！　夜日楽！　流々那！　ちょっと模型屋まで一緒に来\nてくれ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

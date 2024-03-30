@@ -1,0 +1,218 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0045" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "そして迎えた夏祭りは、ごった返しの大盛況だった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「ここまで人が集まるとは……。これもあなたの人徳のなせる業というわけで\nすね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020022720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001603_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ま、ほとんど俺の功績じゃないけどな。たまたますごいやつらと知り合いだ\nっただけで」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「それでも……。ええ、すごいと思います」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020022720002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうかぁ？　喜んでくれてるならいいけど」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「たくさんおみせがあってまよっちゃう……。どれから行けばいいのかな……\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016404_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「ていうか、屋台全部回ろ！　今だったらここのメニュー、全種類制覇できる\n気がするっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00017503_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「腹だけは壊すなよー」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "浴衣を着て楽しそうに屋台を回っているイルル、ヤム、明日楽たちと、そこか\nら少し離れて……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "これまた浴衣に着替えた牛神様も、ちゃっかり屋台を楽しんでいる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「ふふふふっ。皆さんが楽しそうだと、自然に笑みが浮かんでしまいますね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003005_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「あっ。そちらの綿あめをいただけますか？　あとは……そうですね、りんご\n飴を一つ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022720002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あの神様、自分が楽しみたくて祭りをしようって言ったんじゃないだろうな\n……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そこは言わないであげましょう……ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0045" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "それから数時間後。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "宴もたけなわになり、ついに盆踊りの時間がやってきた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "あゆむ" ]},
+		{"command":[ "SETTEXT", "「みんなーっ！　お待たせ！　皆の天野川・織姫・あゆむだよー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_030022720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00017803_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「きゃーっ、あゆちゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00017503_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "あゆむ" ]},
+		{"command":[ "SETTEXT", "「今回もお招きどうもありがとうっ！　今回、私はまた新しい扉を開くことが\n出来ました！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_030022720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00017803_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "あゆむ" ]},
+		{"command":[ "SETTEXT", "「愛するみんなへのリスペクトを……ううん！　心の全てをこめて！　新曲を\n歌わせてもらうけど、いいかしら！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_030022720003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「わくわくわく……どきどきどき……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016404_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "あゆむ" ]},
+		{"command":[ "SETTEXT", "「新曲のタイトルは……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_030022720004" ]},
+		{"command":[ "SETCHARA", "0", "char_00017803_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「タイトルは……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020022720003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001603_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "あゆむ" ]},
+		{"command":[ "SETTEXT", "「悪の女幹部音頭ー！　皆も一緒に踊ってねぇっ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_030022720005" ]},
+		{"command":[ "SETCHARA", "0", "char_00017803_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ＆ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「悪の女幹部　音頭ぉ！？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "9", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022720002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_017" ]},
+		{"command":[ "SETTEXT", "アイドルとはかけ離れた歌に思わずずっこける、俺とジュンジロー。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「これが新しいステージの曲……トップアイドルとは深いものですなぁ～……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022720003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これを深い、で語っていいのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……んでも、まあ……。たまにはこういうのも、悪くはないよな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あゆむの歌に誘われて、たどたどしいながらに盆踊りを踊っているヤムとイル\nル。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それを見守る明日楽と牛神様の、優しい笑顔が花火に照らし出される。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……うん、悪くない」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人が頑張った甲斐がありましたなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022720004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ま、俺が本気出せばこんなもんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとーさん！　ぼんおどり、おもしろいよ。いっしょにおどろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022720003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016404_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「誰が一番上手く踊れるか競争ね！　はやくはやく！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022720003" ]},
+		{"command":[ "SETCHARA", "0", "char_00017503_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の右手と左手を握りしめる、小さなてのひら二つ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それを強く握り返して、俺も盆踊りに参加することにしたのだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "FALSE" ]},
+	    {"command":[ "DISPNAME", "FALSE" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_SP_001.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "EXIT" ]}
+	]
+}

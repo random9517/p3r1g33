@@ -1,0 +1,186 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だああああああっ！　……後から後から俺に色々おっかぶせやがって！！　\n全然仕事が終わらないじゃねーか！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "書類！　書類！　書類書類書類っ！　今日も昨日も書類仕事の山！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えー、なになに……？　『会議中、宅配ピザを注文する予算について』だと\n！　知るか！　ってかピザ食うなら俺も呼べ！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そしてピザのトッピングも俺に決めさせろ！！　と、内心プリプリ怒りながら\n、右に左に書類を流していく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "くそ、くそくそくそくそ～～……面白くない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そもそも、どうして俺が書類仕事に拘束されなきゃならないんだ？　こういう\nのはむしろ秘書の仕事……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだ！　秘書！　おーい！　秘書さん！　秘書くん！？　秘書様！？　っ\nて、どこいったんだ秘書ー！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……あ、そうか。おとといから出張でいないんだっけ。そもそも、それでこ\nんなに書類がたまってんだっけ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "書類は後から後からバンバンと、どこからともかく集まって、俺の机の上に敷\nき詰められていく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんかこう、地層が形成されていく様子をリアルタイムで見物しているような\n……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「かといって、やらなきゃ終わらねぇ……終わらせなきゃ、どこの誰にどんな\n嫌味を言われるかわかったもんじゃない……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あの、ご主人、ちょーっとよろしいですかな？　お時間ございますかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……時間があるように見えるか？　このクソ犬。おめおめと犬づらして呑気\nに生命活動しやがって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なんとも酷い言われようですなぁ。私が犬であることに、何かご迷惑をおか\nけしましたかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110020002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「かけてる。俺の忙しい時間を、お前との会話で浪費しているんだ。クソ……\nどうして犬なんだ？　せめて猫にしろ、猫に」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「猫の手も借りたい、ということですかな。やれやれ、イマイチなジョークで\nすなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110020003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっかましい！　お前こそ、俺のジョークセンスをどうこう言ってる暇があ\nったら、俺のこの死ねるほどの忙しさをなんとかしろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はぁ……どうやらお邪魔のようでございますなぁ。しかし、私の方も少しお\n願いがございまして──」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110020004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「カツマさん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010110020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だああっ！？　なんだ！？　つきみまで俺の邪魔しに来たのか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「なにそれ！　ひどいなあ！　今の警報聞こえなかったの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010110020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「警報？　鳴ったのか？　アホ犬と話してて聞こえなかった……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「出動だよ、出動！　隊長、早くしな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010110020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「出動！？　あーくそっ！　こんなときに！　百分の一も書類が片付いてねえ\nよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……ご主人が、あからさまにダラダラ仕事を進めておったからではございま\nせんかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110020005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うっせえ！　だいたい、どうして俺の直属の部下が犬っころ一匹なんだよぉ\n！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「その嘆きを聞くのは、今日で何回目でしょうか……。昔から数えて、もう一\n億回は聞いた気がいたしますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110020006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前こそ、一度ぐらい有能なところ見せてみろ！　長く一緒に居るくせに、\nろくなことしてねえじゃねえか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……って、こんなところで管巻いてる暇はねえ！！　くそ、こうなったら、\nこのストレスは襲来者（インベーダー）にぶつけてやる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あっ、ご主人、その前にお話が。あの、その、重要な要件でして……あ、あ\nーあ……──」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110020007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "背後でジュンジローがなんか言ってるが、どうせろくなことじゃねえ。ほっと\nけ！。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うらぁぁ！！　どんどん来やがれ！！　蜂の巣にしてやるぜ！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ……。落ち着いて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おらぁ！　おらおらおらおら！！　元はといえば襲来者（インベーダー）ど\nもが無駄に真面目に仕事しやがるから、こんなことになってんだよ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "戦場には、俺の品のない叫びと、銃声がいつ果てること無く響き続ける。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだぁ？　まだ出てくんのか！　上等だオラァ！！　どんどん来い！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

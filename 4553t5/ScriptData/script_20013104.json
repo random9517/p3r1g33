@@ -1,0 +1,251 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0180" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「……たまにはマジメに自己紹介くらいしないとね。あたしの名前はアトロポ\nス」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「この、ちょーぜつカワイイはいぱーすーぱーミラクルきゅーとなアトロポス\nちゃんこと……アーちゃんはぁ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「刻の女王様に仕えるダークエルフの三姉妹……モイライシスターズの最後の\n一人で……三女だよ☆」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「能力は～……んぷぷぷっ、よわそーなおにーさんには教えてあ～げない☆　\nヒミツだよっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "くるくるくる、とその場で可愛く回ってみせると、アトロポスは生意気そうな\n顔をした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「……あたしはね。なんでも安売りしないようにしてるの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380005" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「挑発はしても貞操は守るし、自分の本心だってそうそう誰かに見せたりしな\nい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「それくらい自分に自信があるし……。まぁ、それだから周囲を見下してる～\nとか言われるコトもあるけどさぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「……結局勝つのは自分だって思ってるから……誰に何を言われたって平気。\nここまでわかった？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「おにーさんのこともさぁ？　嫌いじゃないけど……刻の女王様の邪魔をする\nなら容赦しないよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380009" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「アーちゃんってば、怒ったら超怖いんだから。そのへん分かったうえで、て\nーちょーに発言してよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380010" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ぷぷぷ……♪　そーだよ、あたしだけがおにーさんに油断してないってコト\n。敵意とか～悪意とまでは言わないけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380011" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「……信用もしてないよ？　だから～帰り道では背中に気をつけてねぇ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380012" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "口元に手をあてて笑うその笑顔の黒さは、三女が一番厄介そうな印象をビシビ\nシに与えてくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その狡猾さ、程良い邪悪さ……まさにメスガキのダークエルフ代表としか言\nいようがない！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「さ……さっきから言ってる、そのメスガキ……ってもしかしてあたしのこと\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「恐ろしいほどのきっぱりとした返答ですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022380001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「とーにーかーくぅ、ここで二人に粗相したらあたしが許さないから。覚えて\nおいてよね？　おにーさん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380014" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「あたしのこと……弱そうとか思ってみくびったり、二人や女王様に何かした\nら……ホントに殺しちゃうかも☆」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これはわからせるしかないな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ん！？　わ、わからせる……？　わからせるってなによ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380016" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前には、人間の……。いや！　大人の男の力というものをじっくりネッチ\nリわからせてやる必要があるっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「な……なにそれ、きもちわるい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さっきから聞いてりゃ、二人の姉のこと、そして女王の事を思うなかなかの\n良い子じゃありませんか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「うぐぅうっ……！　んむぅうう……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380018" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これは、古き良きツンデレ文化を含んだメスガキダークエルフ……心も肉棒\nもたっぷりイライラさせられた分……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「デレた時の威力の高い、攻めのメスガキタイプのダークエルフだ！　そうだ\nろ、ジュンジロー！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「またまたご主人がおかしなことを言い始めましたぞ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022380002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そもそも顔が大変可愛い！　だから何を言われてもまーったく痛くも痒くも\nない！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「はぁああああ！？　ヘ、ヘンなこと言うなぁ！　ばか、ばか、ばか！　ぼけ\nぼけ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380019" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……褒められるのには慣れていないらしく、アトロポスはどんどんしどろもど\nろになっていく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「そんな直球でこないでよぉ！　り、理性よわよわエッチおにーさんのくせに\n～ッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380020" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ほーら可愛いだろ。こういうタイプが１人いるとはかどるんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「何がよぉ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いいんだぞ。おにーさんに甘えても。お前は愛に飢えているだけなんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「たっぷりとわからせた後で……しっかり抱きしめてやるぞ！　来い！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「おにーさん……♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380022" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ってこらぁっ！　あ、あ、あたしをわからせよーとするなぁ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380023" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「アーちゃんは絶対にわからされたりしないんだもん！　み、身の程を知って\nよねぇ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380024" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「メスガキダークエルフまで準備してくれているとは、性癖の満漢全席を出さ\nれた気分だな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……俺は、疲れすぎて自分の都合のいい夢でも見てるのか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「これは全然夢じゃないし！　ていうかあたしをメスガキって呼ぶの禁止～！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380025" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ぴええええん！　アーちゃんはメスガキなんかじゃないもん！　一人前のレ\nディーだもん～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380026" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いいんだぞ……おにーさんはわかっているからな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「あ～ん！　も、もういいからっ！　あたしの話は終わりっ、終わりー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022380027" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「意外とその子どもっぽさが……ご主人と同レベルな気がしてきましたぞ……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022380003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,277 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0203" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "フェンリル" ]},
+		{"command":[ "SETTEXT", "「くそっ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「さあ、勝負はついた。お前たちもまとめてミッドガルドに戻してやる」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「フレイア様……申し訳ありませんが、少し拘束させていただきます」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「あん……残念だわ、レイア。こんな形で一緒にいることになるなんて……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やれやれ……色々あったが、何とかなったみたいだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「お姉様！　あちらの奥に、裂け目の中心部が見えます。あそこからなら、ミ\nッドガルドに戻れそうです！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふむ……となれば、今度こそお別れか。皆、元気でな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「はい。ルナテミス様たちもお元気で！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「短い間だが、楽しかったぞ。中々次に会うということもなかろうが、息災を\n祈ろう」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「ふ……お前たちもな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「おっと……別れの惜しむのは結構じゃが、そう簡単に思い通りにさせる訳に\nはいかぬな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「む……貴様は……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「やれやれ、もう少し使える奴らかと思ったが、時間稼ぎがせいぜいというと\nころだったか」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「随分な言い草だな。お前たちが連れてきたんだろう？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「そうじゃな。だが、この世は全て結果が物を言う。奴らは、お主らの仲間に\n負けた」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ということは、あの２人よりも、お前達ヴァルキリーの方をスカウトした方\nがよかったかも知れんな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「ふん、結局は人を駒のようにしか見ていないような貴様と手を組むことなど\nあり得ない」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「そうかのう？　余はお主とはあまり他人のような気がせぬのじゃがな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「バカな事を言うなっ、似ても似つかないだろう！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「そ、そうね……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "（どうしてかしら……ちょっとだけ、声が似てるかも……って思ってしま\nったわ……）", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「お姉様……？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「う、ううん、何でもないの」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ふん……どうやら、余に靡くつもりはないか。じゃが、簡単に戻れるとは思\nわぬことだ。機も十分に熟したことだしな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「……どういう意味だ？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「次元の裂け目からの流入というのは、何も目に見えるものばかりが全てでは\nない」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「見せてやろう、余の新たな力を……はぁぁぁぁぁぁっ……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「な、何だ……奴の身体から……暗闇が……吹き出してくる……！？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「にひひ、他の次元からの同士の召喚は、副次的な要素なんだよねぇ～♪　エ\nファ様が、異世界の気脈を吸い取ってできるのはぁ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「……………………」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「あ……あれは……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「くく……なかなかいい気分だ。これがミッドガルドとやらのエネルギーか。\n貴様らの強さも納得できるというものだ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「まさか……この姿は、ヴァルキリー！？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「そんな……こちらの世界の人間が……神族の力を……！？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「驚くには当たらぬ。余は元より選ばれし者。新たな世界の万象の力を取り込\nめば何も難しいことはない」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「く……このオーラは……気をつけろ、お前たち！　こいつはまやかしじゃな\nいぞ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ほう、しっかりと力の見定めができるとは、なかなかやるではないか。どれ\n、ならばその片鱗を少し見せてやろう」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「焼き払えっ！　はぁぁぁぁぁぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なっ……ま、街が一瞬で火の海に……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「くくっ、まだまだここからじゃ。余の元へ集え力よ……！　はぁぁぁぁっ、\nアンダー・ザ・ゲヘナッ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード＆スクルド" ]},
+		{"command":[ "SETTEXT", "「きゃぁぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「ヒルダお嬢様っ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「大丈夫かっ、スクルドっ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「は……はい……！　何とかギリギリで避けられましたが……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "スクルド" ]},
+		{"command":[ "SETTEXT", "「あ、あんなのに当たったらひとたまりもないよ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ふん、流石にまだ少し勝手が分からぬな。もう少し力の出し方を調整する必\n要がありそうじゃ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「エファナティカ様～、今の気脈が流れている向きはあっちですー。そこから\n吸えるともっと力が出ますよ～」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「なるほど、分かった。あちらじゃな？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「マズいぞ！　これ以上、ヤツを強くするといよいよ手に負えん！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「今のうちに食い止めておかないと、かなり厄介なことになるぞ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「私達も協力します！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「くくっ、ちょうどいい腕鳴らしじゃな。構わんぞ、纏めてかかってくるがい\nい」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「余のヴァルキリーとしての力……たっぷりと見せつけてやろう！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

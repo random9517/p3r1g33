@@ -1,0 +1,228 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_01" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「こ、これは……そ、その……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103101" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「いくら隊長でもこれは少々オイタが過ぎますよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103102" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「これは……パワーアップに、必要……なのでしょうか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103103" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「隊長……これは本当に訓練に必要なのでしょうか？　どうにも私には理解し\nかねてしまうのですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「こんなこと、皆当然のようにしている……？　そ、そう……ですか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「これが、隊長の言う訓練なのは理解しているのですが……どうにも羞恥心が\n勝ってしまいますね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103106" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「わ、わかってます！　これが、訓練に必要なのは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103107" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「わ、私のこの胸と、口を…………。これは、皆、やっているんですよね……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103108" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「こ、こんなに逞しくなっているのを見ると……なんだか変な感じですね……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103109" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「んっ……はぁ、はぁ……。隊長、これで……合っていますか……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103110" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「胸を使って……。わ、わかりました。やってみます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103111" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「くぅ……私の、この胸の中で……隊長の逞しくなったものが、熱く、脈打っ\nています……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「んむ……んじゅううう……先っぽを丁寧に舐めて、咥える……。こう、でし\nょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103113" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「す、すごい……。もうこんなにねっとりした汁が先端から溢れている……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「私はこういった経験がないので拙くはありますが……気持ち、いいですか？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103115" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「わかりました。この胸と口で、ご満足いただけるようにご奉仕しますね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103116" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「随分溜まっていたようですね……。もうこんなにはちきれんばかりに硬くな\nってる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「隊長……これで、気持ちよく、なっていますか……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「承知いたしました……この身体、思う存分使ってください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「熱い……隊長の熱が、この胸に伝わってきます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「こう、包み込むように……そしてぎゅっと強く抱きしめるように……隊長、\n私、ちゃんと出来ていますか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「まだ、上手くはできませんが……頑張ります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「これも、訓練の一環、ですね……わかりました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「んぐぅうう……の、喉の奥が……隊長のちんぽの先っぽで、ふ、んぐぅうう\nう……犯されていく……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103124" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「舌から……隊長の鼓動が、伝わってきます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「あぁ、オスの、生臭い、エッチな香り……これを舐めれば、いいんですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「じゅるううっ……れろぉおおお……裏側も、しっかりと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103127" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「どうですか？　隊長……隊長にご満足いただけるように出来ているでしょう\nか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103128" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「隊長のちんぽ……すごく立派で、つい、見とれてしまいます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「んふぅ、んむぅ、ぐぶぅう……もう、弾けてしまいそう……隊長の、ちんぽ\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「ぐっんむぅうう……隊長のオスの香りが……鼻に抜けます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「んぐぅっ……ふぅ、んっ……はぁ、はぁ……んむぅううっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103132" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「じゅるるるるぅううう……透明なねばついた汁が、どんどん溢れて……口の\n中がいっぱいになってしまいそう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「んぐむぅううう……隊長のチンポが……私の口をもっと犯そうと奥までぐい\nぐい……ふぐぅうううっん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「ぐぅうう！　あ、おあぁっ！　んぶぅっ！　んんっ！　た、隊長……そんな\n、激しく……ぐむぅうううっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「んっ！　んぶうっ！　ん……そろそろ、弾けて、しまいそう……ですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103136" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「んむっ！　んっ……先っぽの頭の下も……丁寧に舐めますね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「隊長……もう、弾けてしまいそうですか……？　いいですよ、私の口の中に\n……思う存分出してください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「あ、あぁ……すごい。どくどくと私の口の中でぇ、脈打って……弾けようと\nしてる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103139" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00006801_01_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーニー隊員" ]},
+		{"command":[ "SETTEXT", "「きゃああっ！　す、すごい……これが、隊長の精液……濃くて、臭くて、頭\nがくらくらしてしまいます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_068_0103140" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

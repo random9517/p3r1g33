@@ -1,0 +1,400 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0081" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "SETTEXT", "俺はＥＤＯの指令で氷華と一緒にビーチへとやってきていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "なんでも、ビーチで行われる仮面戦隊マスカレードショーに出演して欲しいと \nいうことだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "素顔の戦士に会えるということで、小さなお友達から大きなお友達まで大集合 \nしている。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「ハーチハチハチ！　このビーチは我ら怪人派遣組合の幹部が制圧したハチ！ \n」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "8", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200001" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「ふふっ。さぁて、どんなワル～いことしちゃおうかしら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010023200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くっ、なんてこった。こんなとき、ヒーローがいてくれたら……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「助けを呼ぼうったってムダよ。私たち、すっごく強いんだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010023200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「そうですよ。人妻にあるまじき動きで、正義の味方もやっつけちゃうんです \nから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010023200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「パワーアップした私たちの前に、現れるヒーローなんかいないハチ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなことはない！　きっと、マスカレードなら……このピンチをなんとか \nしてくれるはずだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「会場のみんなも、そう思うよな！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "観客たち" ]},
+		{"command":[ "SETTEXT", "「うぉおおおぉぉぉ～～～～っ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「うぅ。この完全アウェーな感じ……。数年前のスパリゾートを思い出して… \n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200003" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「ハチ乙女さん、しっかりして！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010023200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「私たちがついてるわ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010023200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「そうですよ。トラウマになってるのは、みんな一緒ですから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010023200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「慰めてくれてありがとう……ハチ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "なんだか相手が不憫な感じだが、安心して欲しい。前のように、こちらが過剰 \n戦力というわけではない……はずだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よーし、みんなでマスク・ザ・ブルーを呼ぶぞ！　せーの！　マスク・ザ・ \nブルー！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "観客たち" ]},
+		{"command":[ "SETTEXT", "「マスク・ザ・ブルー！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "その瞬間、ギラギラした太陽に照らされていた真夏日のステージが、一瞬だけ \n真冬のような寒さになった。そして……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女たち" ]},
+		{"command":[ "SETTEXT", "「ひぇええぇぇぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010023200003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "2", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "3", "TRUE" ]}, 
+		{"command":[ "SETCHARA", "2", "char_00018201_01", "9", "CENTER", "-700" ]},
+		{"command":[ "SETCHARA", "1", "char_00018401_01", "9", "CENTER", "700" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "9", "CENTER", "-200" ]},
+		{"command":[ "SETCHARA", "3", "char_00018301_01", "9", "CENTER", "200" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ステージに横たわる真っ青になったハチ乙女たち。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "そしてステージには、マスク・ザ・ブルーが立っている。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]}, 
+		{"command":[ "DISPCHARA", "2", "FALSE" ]}, 
+		{"command":[ "DISPCHARA", "3", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "いったいなにが起こったのか、解説しよう。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "氷華は打ち合わせ通り、俺たちの助けを呼ぶ声に応じて颯爽とステージに登場 \nした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "そして、マスク・ザ・ブルーに変身して、怪人たちを一瞬にしてやっつけたの \nだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "……そう、文字通り一瞬で。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "マスク・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「全てを止める絶対零度、マスク・ザ・ブルー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010023200001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「敵を倒してから名乗るなー！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "マスク・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「正義に仇なすものに聞かせる名などありませんので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010023200002" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "マスク・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「さて、これでこのビーチも平和になりましたね。では、怪人たちの処遇はあ \nなたに任せます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010023200003" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……ああ……。ありがとう……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "マスク・ザ・ブルーはステージから去っていく。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "俺も、そして観客たちも、ぽかんとしたままその後ろ姿を見送ったのだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……えっと……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "さて、この冷え切った空気をどうにかしないといけない訳だが……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "客１" ]},
+		{"command":[ "SETTEXT", "「おい！　ブルーの出番はあれだけか！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "客２" ]},
+		{"command":[ "SETTEXT", "「一瞬じゃないか！　もっと戦っている姿を見せろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "客３" ]},
+		{"command":[ "SETTEXT", "「こっちは金払ってるんだぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "客席からブーイングの嵐。下手をしたら暴動に発展しそうだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい、ハチ乙女！　この状況なんとかしろ！　お前があっさりやられるから \n……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「うぅ……強すぎます……。私みたいな虫ケラが勝てる相手じゃありません… \n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200006" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「本職のヒーローにパートの人妻が勝てるわけありませんよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010023200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「４人がかりならなんとかなる……わけないわよね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010023200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「先輩戦闘員の方々から、７人がかりで追い詰めるのがやっとだったと聞きま \nしたし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010023200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「てことはあと３人……Ｋ、Ｌ、Ｍカップの戦闘員が必要ってことですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200007" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「でも、それってブルーが本調子じゃないから追い詰められたって話も……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010023200005" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「それじゃあ結局、私たちみたいな派遣怪人が何人あつまってもブルーに太刀 \n打ちできませんよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200008" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まだショーが終わってないのに、ステージの上で反省会をするなー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "そして戦闘員の乳のインフレを予感させるな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女たち" ]},
+		{"command":[ "SETTEXT", "「はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010023200006" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "2", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "3", "TRUE" ]}, 
+		{"command":[ "SETCHARA", "2", "char_00018201_01", "4", "CENTER", "-700" ]},
+		{"command":[ "SETCHARA", "1", "char_00018401_01", "4", "CENTER", "700" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "4", "CENTER", "-200" ]},
+		{"command":[ "SETCHARA", "3", "char_00018301_01", "4", "CENTER", "200" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "すっかりお通夜ムードのハチ乙女と人妻戦闘員たち。そして暴動がおこりそう \nなほどヒートアップしている客席。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああもうどうすりゃいいんだ！　助けてくれ、マスク・ザ・ブルー！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "俺はお手上げで助けを求めるが、仕事を終えたマスク・ザ・ブルーはすでに会 \n場にはいなかった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPCHARA", "1", "FALSE" ]}, 
+		{"command":[ "DISPCHARA", "2", "FALSE" ]}, 
+		{"command":[ "DISPCHARA", "3", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETTEXT", "どうにかその場を収集し、ヒーローショーはお世辞にも成功と言えない惨状で \n幕を閉じた。", "NORMAL" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ステージで素顔の戦士が見られるのは魅力だろうが、戦士の素顔があれじゃ \nあなぁ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "あの戦い方は、素顔のマスク・ザ・ブルーそのものだ。ショーだからって手加 \n減なんか一切していない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "それを見せるのが目的なのだが、しかし、見る側としては物足りないだろう。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「あ……あの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200010" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん？　ハチ乙女か」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「そうです。えっと、相談があって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200011" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ……って、マスク・ザ・ブルーのことだよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「そうです！　あの、ヒーローショーなので、もっと戦闘を盛り上げてもらわ \nないと困ります……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200012" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「たしかに私たちは最後にやっつけられるって台本ですけど、ステージの上で \nは、怪人や戦闘員とある程度戦ってもらわないと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200013" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「まあ、本職と戦うには私たちが弱すぎるところもあるとは思いますが、でも \n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200014" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「うぅ……。なんとかこの失敗を挽回しないと、来月の派遣が打ち切られてし \nまいます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200015" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "涙目で訴えるハチ乙女の相談はかなり切実なものだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「なんとかならないでしょうか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200016" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだなぁ……なんとか……なんとかしてみるか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ハチ乙女" ]},
+		{"command":[ "SETTEXT", "「ありがとうございます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_010023200017" ]},
+		{"command":[ "SETCHARA", "0", "char_00021901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんまり期待しないで待ってくれよ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "今後も俺たちが出る公演は何度かある。そのたびに、客席が暴動を起こし、俺 \nが鎮めるハメになるのは御免だ。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ただ、あのブルーに「もっとショーを盛り上げるようにしてほしい」と伝えて\nも、取り合ってくれるだろうか。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "俺は、ブルーをよく知る人物に相談することにした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

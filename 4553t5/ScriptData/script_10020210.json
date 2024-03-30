@@ -1,0 +1,125 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ハルカプトラ！　いるか！　いるな！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おやご主人。これはまたえらい鼻息ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ハルカプトラの足元に寝そべっていたジュンジローが言う。こいつ……今日の\n晩飯は抜きだな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「我は最近、放課後はいつもここにいるである。何用であるか」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113220001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺と勝負しろ！　きのうのリターンマッチだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「ほほう？　また負けてカードを大量に買い込んでくれるのかなぁ？　いいね\nえいいねえ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「なるほど。つまりカツマは我に真剣勝負を挑むであるか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう！　もちろん真剣勝負だ！　もし俺が買ったら、珠魚がまきあげたこづ\nかいを学生たちに返してやれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「はぁ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「よかろうである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113220003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「って、ちょっと待てハルカっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113220003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETIMAGE", "0", "sbg_0118" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだぁ？　なに慌ててんだぁ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETIMAGE", "0", "sbg_0119" ]},
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「なんでボクがお金を返さなきゃならないんだ！？　勝負するのはハルカだろ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113220004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「問題ないのである。我が負けるはずはないのである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113220004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「だから！　ボクの研究資金を勝手に賭けるなーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113220005" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「もう遅いのである。王たる我が、真剣勝負を受けると宣言したのである！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113220005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだそうだー！　ファラオと江戸っ子に二言はねえ！　えらいぞハルカ！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「勝手に話をすすめるなーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113220006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_026" ]},
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「勝てばよかろうなのである！　女幹部、スタンバイ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113220006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「やめてえええええええーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113220007" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

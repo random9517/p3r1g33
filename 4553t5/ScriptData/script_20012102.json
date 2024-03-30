@@ -1,0 +1,473 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「『貴方は何も役にたっていないのに、女の園についてくるつもり？』」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……だってよ。俺が見つけた場所なのに、冷たくしやがって。さっすが氷の\n女サマサマだよな～！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "文句を言いつつ、再び市街をブラつこうとすると……タイミングを狙ったかの\nように、新しい連絡が飛び込んできた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まーた呼び出し……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、鳴っておりますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020021670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかってて無視してるんだよ。今出てきたとこで、また呼び出されちゃかな\nわんからな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さんざん焦らして放置して、俺の大切さに気づくまで待たせてんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そんな日は来ないと思いますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020021670002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせー……って。アレ、この番号……ＥＤＯじゃないぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ？　Ω組事務所……？　今度はなんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0140" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_014" ]},
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「……それで、息せき切って駆けつけてくれた……っちゅうことですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "こっちはこっちで、またビリビリとした雰囲気でキツい……！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どこからどう見てもヤクザの事務所……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんなΩ組では組長、血桜お七こと獄門七重と……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そのすぐ隣に、用心棒のほむらが控えていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "す、すげぇ殺気だ……。ぶっちゃけ逃げ出してぇ……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「お忙しいところ、わざわざお呼びだてしてしまってすみません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、はい。それで、あの～……御用と申しますのは～……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "低姿勢でヘコヘコ様子をうかがう俺に、七重は優しく微笑みかける。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「それなんですけど、いつもいつも隊長さんにはお世話になってますよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「今度、うちの組のモン連れて慰安旅行に行こうと思ってるんです。それで…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「せっかくなら、お礼を兼ねて隊長さんもご一緒されてはどうかとお誘いした\nくって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670005" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……えええっ！？　マジっすか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ＥＤＯでは冷遇されたが、さすがは地域の皆さまとも良好な関係を築き上げて\nいるΩ組……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "オメガ建設の一同だ、なんて、なんてあったかい懐の広い連中なんだろう！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「仁義と任侠を感じる……。姐さん、俺、Ω組に一生ついていきまっす！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「ふふふ……。それは嬉しいお言葉です。それで、行こうって話になってると\nころなんですが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「見てください。近くに新しく出来たスパリゾートでして……あの、ももぞの\n薫さんイチオシの慰安地なんですよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670007" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へええ～、あの！　ももぞの薫さんが……って、うぇっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こ、こ、このスパリゾートは……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「いいぞ。うむ。なかなかゴージャスな施設のようだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_040021670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「場所もそう遠くはありませんし、ここなら日帰りでリフレッシュできそうで\nすね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_030021670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0140" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_014" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よりにもよってここかよ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「ん……？　どうかなさいましたか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670008" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、あ、あ、い、いや、特になんでもない……です」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「でしたら良かった。聞いてください、館内の案内をももぞのさんがやってら\nっしゃるそうなんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670009" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「それで……私、どうしても一度行ってみたくって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ～……でもそういえば、その日は予定があったような～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「なんです。急に歯切れが悪くなって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670011" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それに、俺なんかがももぞのさんのオススメスパリゾートだなんて……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺ごときには身分不相応というか、おこがましいというか～……ハハハハ！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "青ざめ、カタカタと歯を鳴らしている俺の異変に気付くなり、組長は低い声で\n呟いた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「もしかして……私たちと行くのは嫌とでも……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670012" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ま、ま、待ってください！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「……ほむら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670013" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ウッス」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今まで沈黙を貫いていたほむらが、こくりと頷き俺の頭に手を伸ばす。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぎゃあああああああああ！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "躊躇のない、見事なまでのヘッドロック。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「隊長、俺たちとの旅行が嫌なわけないよなぁ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ギリギリと締めつけられる頭と、後頭部に感じる柔らかな膨らみの確かな感触\nに、俺の性欲と戦慄とがぶつかり合う！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "鍛え上げられた胸筋に支えられた、存在感のあるおっぱい……。いい！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ってぐえええええええ、死ぬ死ぬ死ぬ、ギブ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「あーああ、悲しいなぁ。せっかくの組長のご厚意を断られるなんてー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「悲しすぎて、うーっかり手が滑っちまいそうだぜー。そんなことになったら\n、もっともーっと悲しいなー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「痛い、イタいいたい痛い……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「オレたちは御一緒したかったんだけどさ～。ズパッと断ってくれていいんだ\nぜ？　な？　な？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「しょーがねーよなー？　隊長は、オレらと一緒が嫌なんだからさぁ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そ、そ、そんなことないです、お断りなんてとんでもないッ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いぎぎぎぎぎ、うぐぁあああ！　死ぬぅ！！　行きたい、行きたいですスパ\nリゾートぉおおお！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「……だ、そうだ組長」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "パッ、と手を離し朗らかに笑うほむらに、七重組長も改めて満面の笑みを浮か\nべてみせる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「そうですか♪　カツマさんが来てくれるなら安心です、楽しい慰安旅行にし\nましょうね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670014" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「スパについたらよぉ、思いっきり羽根伸ばそうぜ。身体動かせるとこも結構\nあるみたいだしよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670008" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、はははははい……喜んで……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "ま、まあ行き先が一緒だって言っても、そうそうかち合うわけがねーよな！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "ＥＤＯのヤツらが行く日とズレてりゃ何も問題ないわけだし……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、必死に自分に言い聞かせる俺をジュンジローは冷ややかな視線で見つめて\nいた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、嫌な予感ほどあたるものですぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020021670003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SETTEXT", "そして当日。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "一発逆転の神展開なんてもちろんあるわけもなく……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "悪い予感はもちろん当たり、スパリゾートにむかうバスターミナルで見事にＥ\nＤＯとΩ組は会合した。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「げぇ～～～～っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670009" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「なんっでよりにもよってこいつと！　氷華と仲良しこよしで同じバスに乗ん\nなきゃなんねーんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まーまーまー、せっかくのバケーション！　いがみ合わずに楽しく過ごさな\nいと！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「か～っ！　隊長！　どっちの味方するつもりだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どちらの、と言われましても……アハアハアハ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「私は……別に一緒でもいいですけど。そちらの部下さんは、お嫌みたいです\nねぇ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670015" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「……今から違うバスを手配するのは難しいですし……。仕方がありませんが\n……でも……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_030021670002" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "運転手" ]},
+		{"command":[ "SETTEXT", "「そろそろ出発ですが……大丈夫ですか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "険悪な雰囲気の中、申し訳なさそうに声をかけてくるバスの運転手に……八つ\n当たりしても仕方ない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "双方は何か言いたげではあったものの、しぶしぶ指示に従い、同じバスに乗車\nすることになった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "美鈴" ]},
+		{"command":[ "SETTEXT", "「仕方あるまい。ここでごねていても、始まらないだろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_040021670002" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "七重" ]},
+		{"command":[ "SETTEXT", "「そうですね。カタギの人に迷惑をかけるのは、うちのやり口じゃあありませ\nん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_030021670016" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「組長がそう言うんなら……。ハァ……しゃーねぇか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670012" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "リゾートへ向かう、マイクロバスに乗って出発する一行。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「あ～！　近寄んじゃねえ！　お前がいると狭いんだよ、氷華！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_040021670013" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「あなたこそ……暑苦しくて鬱陶しい……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_030021670003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺達の旅路は波乱万丈を予感させるスタートとなってしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

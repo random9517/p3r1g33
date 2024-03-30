@@ -1,0 +1,222 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00015501_02_01" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「隊長さん、急に押し倒したりなんかして、ごめんなさいね。でも……あたし\n、我慢できなかったんですもの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104101" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「ここ……隊長さんのチンポ、さっきからずっと勃起していて、先っぽからエ\nッチな臭いさせているから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104102" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「クンクン……これ……この懐かしい海の底の臭いに似た、先走りのチンポ汁\nの臭い、あたし、身体が疼いて我慢できなくなっちゃうの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104103" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「ほら、もうお姉さんのここぉ……オマンコもグチョグチョ。触手も勝手に動\nいて、隊長さんに絡みついちゃってるの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、隊長さんは自分で動くほうが好きそうだけれど……今日は、お姉さ\nんに任せてちょうだい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「地上の人間の繁殖行為……セックスなんて見たことがないけれど、それでも\nちゃんと勉強はしてきたから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104106" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「ほら、もうすぐお姉さんのここっ、はんぅっ、あぁ、オマンコに入っちゃう\n。隊長さんのチンポ、中に……ふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104107" ]},
+		{"command":[ "SETIMAGE", "0", "still_00015501_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「んくぅっ、あぁ。はぁはぁ……ふふっ、思っていた以上に太くて、硬くて…\n…んんんっ、あぁ、中がいっぱいになっちゃうわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「はぁはぁ、痛み……ええ、少しあるわね。大丈夫、これくらいなら我慢でき\nるわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104109" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「それにっ、はふっ、あぁっ、チンポの熱がオマンコの中に伝わってきて、蕩\nけてしまいそうなくらい気持ちいいの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104110" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「痛みなんてすぐに吹き飛んじゃうくらい、感じて……あふぅっ、お姉さん、\nもうダメぇ、動いちゃう……触手も腰もっ、はんんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「はぁ、ああっ、どう？　こうして腰を振って、オマンコでチンポをしごくっ\n、はぁ、これが地上流の繁殖ぅ、セックスでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「いいわ。卵に精子をかけるだけなんて、味気ないのと違う。ちゃんと熱が伝\nわってくるのっ、好き……あたし、好きよ、これぇっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104113" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「はぁ、もっと、もっと深くまでちょうだい。隊長さんのチンポ、いっぱいち\nょうだい。んぅっ、くふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「触手で、隊長さんの腰をあたしのほうへ引き寄せて……あぁっ、いいわ、先\nっぽが行き止まりぃ、子宮に当たってるっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104115" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「『深海の魔女』が、チンポ一本でメロメロにっ、骨抜きにされちゃってる…\n…あっ、あふぁあああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104116" ]},
+		{"command":[ "SETIMAGE", "0", "still_00015501_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「んぅっ、あぁ、触手が食い込みすぎて痛い？　ごめんなさい、もう、力の加\n減ができなくなっちゃってるの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「チンポっ、チンポで奥を突かれるたびに、頭の中が真っ白になってぇ。あん\n、ダメっ、はぁ、くふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「はぁ、んっ、あぁっ、ふふっ、おっぱいが気になるの？　隊長さんのチンポ\nに翻弄されてぇ、腰を振るたびに揺れてるおっぱい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「いいわ、もっと見て。隊長さんの視線を感じるだけで、乳首っ、敏感になっ\nて尖ってくるっ、ふぁっ、あぁっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「全身で隊長さんを感じて……はぁんっ、もう止まらないっ、止められないの\nっ、はひっ、はぁ、ひふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「んんんっ！　あぁっ、隊長さん、ダメよっ、今、そんな風に腰を突き上げら\nれたらっ、あはっ、あんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104122" ]},
+		{"command":[ "SETIMAGE", "0", "still_00015501_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「お姉さん、自分で動いてるだけでも限界なのにっ、はひぃっ、そんな風にい\nっぱい責められたらっ、もうっ、ああああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「中がっ、チンポのでっぱりでゴリゴリ引っかかれてるぅっ、くうううっ、あ\nはっ、あぁんっ、いいっ、あああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104124" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「も、もう、触手でしっかり動きを押さえているのに、それでも責めてくるな\nんて……でもっ、そんなところも好きっ、あんんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「いいわ、もっと、もっと突いてぇっ、お姉さんのオマンコに、地上流の、隊\n長さんのセックス刻み込んでぇ、はひいいいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104126" ]},
+		{"command":[ "SETIMAGE", "0", "still_00015501_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「くぅっ、それぇ、奥に先っぽが食い込むくらい深く突かれるのっ、好き、あ\nはっ、あぁっ、触手も勝手に動いちゃうぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「もっと、もっときてぇ、んんぅっ、あぁ、踊るみたいに腰くねらせてぇ、チ\nンポに子宮口、こすりつけちゃうっ、あふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「はぁううっ、はぁはぁ、チンポっ、中でビクビク震えてるわ。んぅっ、出る\nの？　精液、出そうなのね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「いいわ、きて、隊長さん。このままあたしのオマンコにいっぱい出してちょ\nうだい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「隊長さんの熱い精液、あたしの子宮に打ち込んでっ！　んぅっ、捧げるぅ、\n子宮も隊長さんに捧げぇ、あたしもイク……イッちゃうううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「ふぁあああっ、あふぅっ、あぁ、いいっ、出てるぅっ、熱いの、奥にきて…\n…イク、イクッ、くふぁあああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104132" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00015501_02_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「はふうっ、あぁ、凄いわぁ。ドクドクって、勢いよく精液出てる、全部あた\nしの中に流れ込んできてるぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「ふぁっ、はぁはぁ……本当……い、一発で骨抜きになっちゃう……もう、完\n全に身体が隊長さんのものになってるぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104134" ]},
+		{"command":[ "SETIMAGE", "0", "still_00015501_02_07" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「こんなに満たされた気分、久しぶり……はぁ、はぁ……んぅっ、身体が海の\n底……もっと深くまで沈んでいきそうなくらい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「ふふふっ、あふれるくらい精液いっぱい……隊長さんの赤ちゃん、孕んでし\nまっているかもしれないわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104136" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「もしそうなら……ちゃんと責任を取ってくれる？　ふふっ、お姉さんはしつ\nこいから……ぜったいに逃がしたりしないわよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104137" ]},
+		{"command":[ "SETIMAGE", "0", "still_00015501_02_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「こんな風に触手を隊長さんに絡ませたまま……どこまでも、どこまでもしが\nみついていっちゃうんだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「その代わり……このオマンコもおっぱいも……お口だって、全部隊長さんの\nものだから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウルスラ" ]},
+		{"command":[ "SETTEXT", "「次は何をしてほしい？　おっぱい？　それともお口や触手でご奉仕？　隊長\nさんのお望みのまま……何でもおねだりしてちょうだいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_155_0104140" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

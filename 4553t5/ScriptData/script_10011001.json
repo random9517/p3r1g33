@@ -1,0 +1,92 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0083" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……さて、事前に通達していた通り、あの件について忌憚なき意見を聞かせ\nてもらいたいのだが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010110020001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ここには襲来者（インベーダー）と戦う勢力の代表が集っている。だからこ\nそ言わせてもらうが……そもそも戦力を集中させすぎでは？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ギリギリでもどうにかしのいでいる以上、下手に現状を変えるわけにもいか\nないだろう。現状のまま、勝つ手を考えるべきだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……というか現状、ボイスチェンジャーの効きすぎでは？　だれが話してい\nるのか全然わかりませんよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「一人ずつ自己紹介していく？　えー、初めましてー。趣味は食べ歩きとショ\nッピングです～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「合コンか！　そんなことより、なんで音声だけなんだよ！　早く画像だせ、\n画像！！　誰がなに言ってるかわからんぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「でも、今ノーメイクだし……ノーブラだし……このままでよくない？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「こんにちはー！　ピザをお届けにまいりましたー」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「誰だよ！　会議中にピザ取ってんの！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「はぁ……まったく解決策が出てこない。……どうだろう、とりあえず、『ア\nレ』でいくということでは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010110020002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「うむ……他に名案も出ない以上、とりあえず『アレ』しか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110020001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「Ｍサイズ二枚で３７００円でーす。あ、クーポンで５００円引きでーす」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「だから会議中にピザ頼んでんじゃないっつーの！！　誰かは知らんけど！！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ともかく、オラは農作物のブランド化に大賛成だべ。地産地消も大事だけん\nども、日本中にオラの芋、食べてもらいてぇべ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……どこか別の通話会議と混線してないか？　一体誰が誰なのやら。もうわ\nけがわからん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110020002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「もういい！　とにかく『アレ』でいく！　『アレ』発動！　決めた！　あと\nは知らん！　オンライン二次会に参加する人は、各自飲み物持ってきて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010110020003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETTEXT", "………………。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

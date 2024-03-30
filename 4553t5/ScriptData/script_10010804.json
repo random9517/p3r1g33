@@ -1,0 +1,222 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「先程は、本当に申し訳ありませんでした、カツマさん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「敵う相手ではないと、あの子たちには日頃から言い聞かせているのですけれ\nど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108060002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そうだよね、カツマちゃんすっごく強いもんね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや……まあ、なんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルナテミスから真摯に謝罪され、カグヤも人目を憚らず持ち上げてくれるって\nいうのは、レアな体験かもしれないが――。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "落ち着かない事この上ないな！！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "未だにこの設定？　状況か？　それがよく理解出来ないってのも大きい……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "学園だって言う建物も、いつもの学園だったのは校門まで。中の建物は大使館\nじゃねえか、一体どうなってんだ？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「あの、カツマさん？　ご不快……ですよね。本当に、大変失礼致しました。\nお怪我などされていませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああいや、それは大丈夫だが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こいつがこんな下手に出て、身体を気遣ってくれるとはなあ……。夢でも見て\nいるのか、俺は？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「騒ぎが起きていると聞いてきてみれば、またおまえかカツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ん？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あ。生活指導のセレーナ先生」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "は？　こいつが？　生活……指導？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「お待ち下さい、セレーナ先生！　カツマさんは私の家の者が起こした騒ぎに\n巻き込まれただけですわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだルナテミス、おまえ、カツマを庇うのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「事実を申し上げているだけです。罰するなら私も同罪ですわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108060005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……二度と聞けないんじゃないだろうか、こいつの口からこんなセリフは。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「先生、本当です！　カツマちゃんは何も悪くないんです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだなんだ、お前ら揃ってカツマを庇うのかあ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「ははーん。さてはこいつに惚れてでもいるのかあ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あうっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108060004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そ、そういう訳では……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108060006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いやそこでふたりして頬を赤らめるな、あからさまに図星を突かれたような振\nりはやめてくれ……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「良いご身分だなあ、ええ？　カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「だいたいカツマ、おまえはいつも面倒ばかり起こす割には、女にモテる。モ\nテすぎる。なぜだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "モテた覚えなんぞない……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「普段腑抜けているくせに、女の前でだけは良い格好でもしているのか？　そ\nういう奴が一番気に入らん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おいこら！　聞いてるのかカツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、はあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なーんか……な？　もういい加減、疲れてきたし……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうやって因縁をつけてくる奴って、イコールこの後さあ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おまえにはやはり指導が必要だな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「先生！　まさかこんな所で、“指導”を行われるのですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108060007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「駄目だよ乱暴は！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108060005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いやおまえらいつも、俺に折檻とかお仕置きしてただろうが。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おまえたちは黙っていろ！　カツマ、性根から叩き直してやる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108060010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あー、こういう扱いをされる方がホント、面倒だがらしくて安心するなあ……\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

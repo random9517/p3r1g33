@@ -1,0 +1,79 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0185" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ううう……プラグ……プラグが気になって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000212_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "時間帝国兵Ａ" ]},
+		{"command":[ "SETTEXT", "「それ、私たちも気になっちゃってるんですけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010116260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00092401_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "時間帝国兵Ｂ" ]},
+		{"command":[ "SETTEXT", "「どうにかしてもらえません？　気が散って実力が発揮できないんですけど…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020116260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00092501_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「だったら見なければいい……っていうか、ジロジロ見ないでっ！　お願いっ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116260002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000212_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミスＤ" ]},
+		{"command":[ "SETTEXT", "「まったく！　いくらあなたたちがギャグキャラ集団とはいえ、もう少し真面\n目に戦闘できませんの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_190116260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000119_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「好きでプラグを入れてるわけじゃない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116260003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000212_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤＤ" ]},
+		{"command":[ "SETTEXT", "「ウソ……絶対ウソ……！　自分で入れてた……！　あのぶっといのを……あ\nあああああ！　コワイ！　プラグコワイ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_100116260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000210_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「いいかげんにしてーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116260004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000212_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「『それを抜けば？』って言ったら言ったで、また動揺するんだろうなあ…\n…カグヤのことだし」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000212_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わかっているのなら黙ったほうが身のためですぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020116260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

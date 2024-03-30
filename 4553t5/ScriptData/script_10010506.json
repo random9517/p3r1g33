@@ -1,0 +1,106 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3", "4", "5", "6"] },
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ふぅ……やっと全員倒したよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010105110001" ]},
+	{"command":[ "SETCHARA", "0", "char_00001201_01", "2", "CENTER", "0" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「まったく、困った連中だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010105110001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「へっ！　ルナテミスなんか、どれだけいたって楽勝だぜ！　何匹でもかかっ\nてこいってんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010105110001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「…………ん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010105110002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「とはいえ、油断はできません。ルナテミスはまだ、街中にはびこっているは\nずですから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010105110001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「……お前たち。その言い方、どうにかならないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010105110003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「しかし……倒したルナテミ――偽ルナテミスだが、おかしな連中だねえ。倒\nした途端、雲みたいに消えちまった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010105110001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「形態のコピーを維持できなくなった、ということだと思う。おそらく、ナノ\nマシンか何かだろうが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090105110001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「もしかして、襲来者（インベーダー）が作ったの～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010105110001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「だと思う。ヤツら以外、こんなことをできる者がいるとは考えられん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090105110002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ってことは、このまま放っておくと大変なことになるな。ルナテミスを全員\n探し出して、ぶちのめしてやろう！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「偽者をな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010105110004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ！　向こうにルナテミスが！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010105110001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「偽物な！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010105110005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さあ、始めるぞ！　ルナテミスを一掃するんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「だから偽者を、だよな！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010105110006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

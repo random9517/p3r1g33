@@ -1,0 +1,93 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「もう、なんなの、なんなのよ！！　失礼しちゃうわ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010021260004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セラフィックスター" ]},
+		{"command":[ "SETTEXT", "「大勝利ー！　翔生子ちゃん、ハイタッチー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_090_010021260013" ]},
+		{"command":[ "SETCHARA", "0", "char_00009001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「え、ええっ？　こ、こうです……か？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260016" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「何を遊んでいるんですの？　早く荒らされた部屋を掃除しないと、隊長さん\nが放心したままですよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260011" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おいカツマ、何だかよく分からない書類がたくさんあるんだ。お前に預けて\nおけば……な、なんだ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021260003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「はぁ、隊長さんの部屋に書類が積み上げられてゆく理由が、分かった気がし\nますわね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260012" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "特に幹部連中は、カツマが強く出られないこともあって、書類を押しつけたり\nと好き勝手しているから当たり前だ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「お、おまえたち何のつもりだ！？　わ、私はグレートルナリアムの姫だぞ！\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021260004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セラフィックスター" ]},
+		{"command":[ "SETTEXT", "「お姫様でも、最近ではお掃除の１つも出来ないと、ダメ女子扱いになっちゃ\nうんだから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_090_010021260014" ]},
+		{"command":[ "SETCHARA", "0", "char_00009001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「……わ、私は身の回りの世話くらい出来ますわよ！？　伊達に独りぼっちで\nの暮らしが長いわけではないのです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260013" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "（威張って言うことか……？）", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ちゃ、ちゃんとおしごとは自分でやってください！　わたしのひめさまなら\n、こんなことしません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260017" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「あ、ああああいつと比べるなと言っているだろうがー！！　うわあああん！\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021260005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

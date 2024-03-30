@@ -1,0 +1,130 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+        {"command":[ "SETIMAGE", "0", "still_00000205_02_01" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },
+        {"command":[ "FADEOUT", "NORMAL" ]},
+        {"command":[ "PLAYBGM", "BGM_015" ]},
+        {"command":[ "WAITMOVE" ]},				{"command":[ "PLAYVOICE", "002_0504101" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁっ、当たってる……私の、アソコに……んんっ、あなたの、固くて、熱\nいのが……あぁ、すごい……もうこんなに、なってるなんて……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},		{"command":[ "DISPNAME", "TRUE" ]},		{"command":[ "DISPTEXT", "TRUE" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504102" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁんっ、ダメっ、そんなふうに擦りつけたら……あぁんっ、もういっぱい\n、濡れちゃってるから……イヤぁっ、Ｈな音、立てないでぇ……！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504103" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「身体が、変なの……んんっ、水着姿でこんな格好をして、恥ずかしくて死ん\nじゃいそうなのに……あなたに見られてると思うと、んふぅぅっ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504104" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「はぁ、はぁ、頭がぼうっとして、身体が熱くなってきて……んんっ、アソコ\nがじんじんして……切なくて、頭がどうにかなっちゃいそうなの……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504105" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁぁっ、もう、おねがい……んんっ、ガマン、できないの……あなたの、\nこの、固いので……シてほしいの……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504106" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「うぅっ、またそうやって、イジワルなこと言うんだから……お、お尻を振り\nながら、もっとＨな、おねだりをしろだなんて……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504107" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「……いいよ、する……あなたになら、どんなイジワルされても……イヤらし\nく、イジメられても、いい……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504108" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「恥ずかしいけど……あなたが悦んでくれるなら……でも、おねがい……私が\nどんなにＨなこと言っても……キライにならないでね……？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504109" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「わ、私の、輝夜のオマンコは……水着姿で、恥ずかしいポーズをさせられて\n……あなたにＨな目で見られて、奥までトロトロになっちゃってるの……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_03" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504110" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あなたの、大っきくて凶暴なオチンポを……ふぅ、ふぅ、輝夜のイヤらしい\nオマンコに、奥まで挿れて……ぐちゅぐちゅにかき回してぇ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504111" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んふぅうう～～～～っ！！　お、大っきいのが、一気に、奥まで……あぁあ\nんっ、あっ、あぁっ……！　これが、あなたの、オチンポ……！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504112" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁぁっ、オマンコのナカに、あなたのが入ってる……固くて、熱くて、ゴ\nツゴツしてて……んぅううっ、オチンポの形、はっきりわかっちゃう……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504113" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ひゃうっ！？　お、奥に、オチンポの先っぽが、当たって……ひゃひっ！！\n　ソ、ソコ、ダメっ、お腹が熱くて、変になっちゃうから……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504114" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ふぁ、あっ、あっ……オチンポが、抜けてぃ……ひぅぅっ、ま、まって、も\nっとゆっくり……身体が変なの……すごく敏感になってて……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504115" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁっ、カリ首が、オマンコのナカ、引っ掻いて、あふぅぅっ……あっ、あ\nっ、待って、そのままだと、オチンポ抜けちゃ……んふぅううっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504116" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「またっ、オチンポ、入ってきたぁ……！　固くて、大っきな亀頭が、オマン\nコのカベ、ぐりぐりっ、かき分けてぇ……あはぁうううっ……！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504117" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ひぁんっ、奥、ずんってぇ……あぁぁんっ、また抜けて……あふぅぅっ、入\nってきたぁ……！　ナカが、いっぱい擦れてるぅっ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504118" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あっあっあっ、待ってぇ、早いからっ、もっとゆっくり……あひぃんっ！　\nお尻、パンパン鳴ってるっ、んひぅうっ、Ｈな音、しちゃってるぅっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504119" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「変な声、出ちゃうっ……ひあっ、あっ、あひぃっ！　イヤらしい声、でちゃ\nうっ、やあぁんっ、聞かないでぇっ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504120" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あっあっあぁんっ、オチンポ、早いっ、あひぃいんっ、オマンコ、変になっ\nちゃうぅっ、待ってぇっ、お願いっ、一回、止まってぇっ……！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504121" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んっぐふぅうううううっ！？　ま、まって……ソコで、止まっちゃ、らめっ\n……んぐぅううっ、オチンポ、深いぃっ……！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504122" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ソコっ、ぐりぐりっ、らめぇっ、んあひぃいいっ！　赤ちゃんのお部屋のと\nこ、亀頭、食い込んでっ……あへぇえええっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504123" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「オマンコの奥っ、ハメちゃらめぇっ！　腰が、ガクガクして、力、入らなく\nなっちゃうっ！　おねがいっ、オチンポはなしてぇっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504124" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「はぁっ、はぁっ、はぁっ……子宮の、入り口が、オチンポから、解放されて\n……ぉふぅううううっ！？　またっ、奥ぅっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504125" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んひっ、はひっ、まって、ホント、ソコ、らめらからっ……あへぇえええっ\n！　強すぎるっ、オマンコ、おかしくなっちゃうからぁっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504126" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んあひっ！　あへっ！　あへっ！　それらめぇっ！　お尻ぱんぱんっ！　奥\nと同時はらめっ！　はやいのと、つよいのっ、いっしょはらめぇえっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504127" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あひいっ、あへえっ！　オマンコ、ゆるしてぇっ！　気持ちよすぎるっ！　\n頭バカになっちゃうっ！　オマンコっ、ダメになっちゃうぅっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504128" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んあひぃいいいっ！？　あひっ、オチンポっ、もっとおっきくなってきたっ\n！　あひぃいいいんっ！　カリ首っ、ごりゅごりゅ擦れるっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504129" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「オチンポっ、イきそうなのっ？　んひぃっ、精液、出ちゃうの、私のオマン\nコで、オチンポ気持ちよくなって、あひぃいんっ、ザーメン出ちゃうのっ？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504130" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「いいよっ、出してっ、私のナカに、赤ちゃんの素、いっぱい射精してっ、輝\n夜のオマンコに、精液いっぱい、中出ししてぇっ……！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504131" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ひぁああああああんっ！！？　あっ、あひっ、あひっ！　出てるっ、オマン\nコのナカに、いっぱいっ、精液、出てるぅっ……！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_09" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504132" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「熱くてっ、ドロドロのザーメンっ、奥に、どぴゅどぴゅっ、あひぅううっ、\nオマンコに、射精されてるぅっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504133" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あひっ、あへっ、精液、しゅごいっ！　オチンポミルク、気持ちいいっ……\n！　あっあっ、オマンコ、イくっ、中出しされて、イくっ、イくぅうっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504134" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ひぁっ、あっ、あっ……まだ、出てる……オマンコのナカに、ザーメン、び\nゅる、びゅるってぇ……あぁんっ……射精、されてるぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504135" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「もっと、出してぇ……私のオマンコに、あなたの精子、いっぱい注ぎ込んで\n……赤ちゃんの素、種付けして……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504136" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ふぅ、ふぅ……あふぅっ、オマンコのナカ、あなたの精液で、たぷたぷにな\nっちゃった……こんなにたくさん出るなんて……はぅぅっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504137" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「うぅっ……すごい声、出ちゃってた……私の、Ｈなところ……あなたにいっ\nぱい、見られた……引いてない？　変じゃなかった……？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504138" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「……ま、また、そういうことを言って……でも、よかった……あなたに嫌わ\nれたら、私、生きていけないから……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504139" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「こんな格好で、イヤらしくお尻を突き出して……Ｈなおねだりまでして……\nあふっ、イヤらしい声も、たくさん聞かれちゃった……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504140" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「すごく、恥ずかしいのに……恥ずかしいほど、オマンコがじんじんてきて…\n…あぁっ、あなたに見られると、私、おかしくなっちゃうの……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504201" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁんっ！　ナカであなたのが、ぴくんって……あぁんっ、また……！　あ\nぁ……すごい、オチンチン、まだこんなに固いなんて……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504202" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「やんっ、オチンチン、あんまり動かさないでぇ……あぁんっ、また、気持ち\nよくなってきちゃうからぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504203" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁんっ、動かし方、Ｈだよぉ……あひいっ！　奥は、ダメっ、そこ、つん\nつんされたら……あっ、あひぃんっ！　おかしくなっちゃうからぁっ……！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504204" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ふぇ……？　動いてないって……だって、今も……あぁんっ！　あ、あれ…\n…ウソ、まって……ちがうのっ、私、自分でなんて……あぁんっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504205" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「やぁんっ、どうしてぇ……！　あぁんっ、お尻が、勝手に動いちゃうのっ…\n…あひぃんっ！　止まらないのっ、おねがい、止まってぇっ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504206" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ダメぇっ、お願い、見ないでぇっ……！　あっ、あっ、私が、お尻を振って\n、オチンポ出し入れするところなんて、あひぃんっ、見ないでぇっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504207" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「イヤぁんっ！　イジワルなこと言わないでぇ、あんっ、あぁんっ！　激しく\nなんてしてないのっ、あひぃんっ！　Ｈな腰の動きなんて、してないぃっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504208" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁんっ、お尻、ぱんぱん、鳴っちゃうっ、あんっ、あひんっ！　オマンコ\nも、ぐちゅぐちゅ、イヤらしい音しちゃってるぅっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504209" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あぁっ、聞かないでぇっ、あひぃんっ、見るのも、ダメぇっ！　イヤっ、私\nのオマンコが、あなたのオチンポ食べてるところ、じっくり見ないでぇっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504210" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あひぃいんっ！　お願いっ、あなたも動いてぇっ、あぁあんっ！　でないと\n、恥ずかしくて、死んじゃうっ！　あひぃっ！　おかしくなっちゃうぅっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504211" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「するからっ、またＨなおねだりっ、あひぃっ、お尻をふって、オマンコにオ\nチンポ出し入れしながら、あへぇっ、イヤらしくおねだりするからぁっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504212" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「か、輝夜はっ、水着姿の恥ずかしい格好を、イヤらしい目で見られて、あひ\nぃいんっ、オマンコをぐちゅぐちゅに濡らす、イヤらしい女の子ですっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504213" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あっあっ、恥ずかしい姿を見られると、ガマンできなくてっ、あひぃんっ！\n　勝手にお尻を振ってっ、ひとりでオマンコしちゃうんですっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504214" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「もっとＨな目で見られてっ、あひぃっ！　イジワルなこと言われながらっ、\nひぁあんっ！　オマンコの奥まで、激しくズポズポされたいのぉっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504215" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あっあっ、ここっ、この角度、すごいっ！　オチンポっ、奥に当たって……\nあへぇえええっ！　もうダメぇッ、ダメになっちゃうぅっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504216" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ちゃんと、おねだりしたからぁ、おねがい、はやく動いてぇっ、あへぇええ\nっ！　オマンコいいのっ！　このままだと、ひとりでイっちゃうからぁっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504217" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あひっ、あひっ、ひどいっ、ウソツキっ、いじわるっ！　ちゃんと約束した\nのにっ、んひぃぃっ、このまま、ひとりでお尻を振って、イけなんてっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504218" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んぉっ！　おっ、おっ、ここっ、しゅごいっ、キモチイイッ！　恥ずかしい\nのに、お尻とまらないっ、オマンコ気持ちよすぎるのぉっ！」　", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504219" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あっあっあっ、オチンポ、太くなってきたっ！　しゅごいっ、オマンコ、ご\nりゅごりゅっ、奥までこすれるっ！　もうらめっ、イくっ、イっちゃうっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504220" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あへっ、あへっ、見にゃいでっ、ひとりでお尻を振って、オマンコしてイっ\nちゃうとこっ、Ｈな私を、見にゃいでぇええええっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "PLAYVOICE", "002_0504301" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あへぇえええええええっ！！　せーえきっ、でてりゅっ、オマンコのおくに\n、また、中出しされてりゅううっ！！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_15" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504302" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んぉおおお～～～っ！？　奥っ、ぐりぐりっ、今は、らめっ、オマンコ、イ\nってるからっ、しゃせーしながら、オチンポおしつけないでぇ……っ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504303" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んひぃっ！？　あひっ！？　せーえきっ、はいってるっ！　あひぃいいいっ\n！　赤ちゃんのおへやに、せーしがぶちゅぶちゅ、はいってるぅっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504304" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「じゅせーしちゃうっ、にんしんして、赤ちゃんできちゃうぅっ！　んひぃい\nいっ！　イくっ、しきゅーに中出しされて、またイグぅううううッ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504305" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ふぁ、はぁ、はぁ……うぅぅっ、ひとりでオマンコして、イっちゃったぁ…\n…ひどい、イジワルだよ……私にこんなこと、させるなんて……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_14" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504306" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「すっごく、恥ずかしかった……こんな格好で、私だけひとりで、お尻を振っ\nて、イっちゃうなんて……うぅぅぅっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504307" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「……あなたは、ちゃんとオチンチン、気持ちよかった？　……引いてない？\n　イヤらしすぎて、私のこと……キライになった……？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_13" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504308" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ほ、本当……？　無理、してない……？　そう……あなたが喜んでくれたな\nら、私はそれで良いけれど……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504309" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あふっ……オマンコ、あなたの精液でいっぱい……子宮のナカまでパンパン\nになってて、んぅっ、熱くて、苦しくて……すごく、ジンジンする……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_14" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504310" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「……あ、あのね……もし、もう一回……今度は、あなたにシて欲しいって言\nったら……今度こそ、引く……？　それとも……シて、くれる……？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_13" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "PLAYVOICE", "002_0504401" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「んほぉおおおおおおっ！？　オチンポっ、きゅうに、ぬけてっ……あひぃい\nいっ！？」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_12" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504402" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あちゅいいっ！　しろくてどろどろのせーえき、いっぱいかかってるぅっ！\n　わたしのからだにっ、とぴゅとぴゅでてるっ、あひぃいいんっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504403" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「やぁああっ！　からだじゅう、せーしまみれになっちゃうっ！　あへぇええ\nっ、ザーメンのニオイ、しゅごいっ、あたまバカになっちゃうっ……！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000205_02_11" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504404" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あっあっあっ、またイくっ、イっちゃうっ、せーえきかけられて、イっちゃ\nうっ、ザーメンシャワーで、イくっ、イくっ……イぐうっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504405" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あひっ、はへっ、はへっ……オチンポ、しゅごいっ……からだじゅう、せー\nえきでどろどろ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504406" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「ザーメン、あちゅくて、ベトベトで……んひぅうっ、水着も、わたしのから\nだも、ぜんぶせーしまみれ……あなたのニオイになちゃったぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504407" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「あへぇええっ、水着セックス、しゅごいぃっ……恥ずかしいの、きもちよく\nて……んぅううっ、こんなの、クセになっちゃうよぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504408" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「もっとぉ……恥ずかしいせっくしゅ、シてほしいの……お尻ふりふりして、\nＨなおねだり、いっぱいするから……もっとオチンポ、シてほしいのぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504409" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「わたしの、カグヤの、ザーメンまみれのオマンコ、奥までオチンポで、どち\nゅどちゅシてほしいの……じんじんして、おかしくなっちゃいそうなの……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "002_0504410" ]},		{"command":[ "SETNAME", "輝夜" ]},		{"command":[ "SETTEXT", "「おねがい、オマンコ、シてっ……カグヤのＨで恥ずかしいオマンコ、あなた\nの大っきなオチンポで、もっとずぽずぽ、イジメてぇっ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

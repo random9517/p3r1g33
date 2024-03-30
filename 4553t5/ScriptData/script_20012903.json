@@ -1,0 +1,338 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「結局、何も思いつかなかった……」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "社と稲穂姫を救う良い案なんて、一日二日で思いつくわけもない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「本人が何年も考えてダメだったもんを、俺ならって言われてもなあ……。無\n理だろ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつまでも、一人でうんうん唸っていたって名案が閃く気がしない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんな時は……あそこだ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0116" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_019" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「たーのもー！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「たーのもー、じゃねえっ！　道場破りのつもりかオマエはっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ、ほむらたん。今日も威勢が良くていいなあ～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「たんをつけるな、たんを……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「おらっ、飲みに来たんだろ？　お通し出してやるから好きな席に座れ、座れ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ノロノロしてんじゃねーぞ。いっそがしーんだこっちはよぉ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……確かに、言われてみればいつもより客の入りが多い気がする。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちぇーっ。うちの奴らに相談しても埒が明かないと思ったからこっちに来て\nみたんだが……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「はーあー？　正月に、ヒマなヤツなんかいねぇーよ！　ウチだけじゃねえ…\n…どこだっててんやわんやだっつうの！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160005" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんな冷たいこと言わずに……。なんとか頼むよ～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「うーん……。ってオイオイオイ！　こうして考える余裕すらねえって言って\nんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ええええっ！　そんな殺生な……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「……いらっしゃい、主殿。話なら、私が聞こう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ。イグニス！　お前でもいい！　俺の話を聞いてくれ～！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「イグニス！　そんな奴なんてどうでもいいから接客を――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160007" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「主殿も店に来た以上客だ。客である以上、接客を行わせていただく」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「かー！　でなんだ話って」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160008" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それが、かくかくしかじかでして……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうそう。巫女さんみたいな服を着た女の神様がさ、俺に泣きついてきちま\nって困ったのなんのって！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「どうやら、参拝客が減ってしまって力が出ないとのことで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022160002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そう！　なんとかしてくれーってもう大騒ぎでさぁ～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まさにご主人もタジタジになる勢いでしたぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022160003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ほー。そんなことがあったのか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160009" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「巫女さん、か……。いいな、私も一度は見てみたい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「んっ？　なんだ。オマエ、巫女を見たことねえのかよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160010" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「そう、だな……。私の世界では何度か見たような気もする。ただ……こちら\nの世界ではまだ、一度も見たことがないのは確かだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「だから、少し気になっただけだ……。休みを取って、ゆっくり初詣にでも\n行こうかと思っていたんだが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「この忙しさだからな。店を放っておくのも気が引けて……なんだかんだと神\n社には行けていない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「一日くらいだったら……休みとってくれていいんだぜ？　こんだけ連日出勤\nしてくれてんだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160011" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「いや。こんなのは、私のただの興味本位だ。気にしないでくれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160007" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「……さあ、注文を聞こう。今日は何が欲しい？　主殿」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「巫女だ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「……み、巫女……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160009" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今の話を聞いててピンときた。……お前が巫女にならないか？　イグニス」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「なにっ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160010" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだ！　なんで気づかなかったんだ！　ここにはこんな逸材が、ゴロゴロ\nしてるじゃねえか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「巫女！　巫女だよ！　正月、神社、神と来たら巫女だ！　そうに決まってる\n、そうだろイグニス！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前が巫女になってくれさえすりゃあ、何もかもうまくいく！　俺は今……\nそう確信した！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「私が……み、巫女に？　どういうことなんだ。説明してくれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022160011" ]},
+		{"command":[ "SETCHARA", "0", "char_00016704_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「そうだぜ。説明しろ。それにだな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160012" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「このクソ忙しい時に、ウチの看板娘を他のトコで働かすってなら許可出来な\nいぜ。そっちに客が流れるのはゴメンだしな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ところがところが……これは居酒屋正義にも旨味がある話だぜ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「イグニスが巫女になるだろ？　そしたら、あれがああなって……それで……\nごにょごにょごにょ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「うーん？　ふむ……。ああ、なるほどな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160014" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そこでうまいこといけば…………ごにょごにょ……。ってわけだ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「……それは、なかなかおもしろいじゃねえか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160015" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だろ？　さっすが、話がわかるぜ。よっ、この経営の大天才！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「やめろやめろ。褒めたって何も出やしないっての。……でも、まあ……そだ\nな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「一品くらいはオレがおごってやってもいいかもな。そら、出来立ての雑煮と\n牛スジだ。遠慮なく食ってくれよ、ほらほらほら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「二品に増えてるし……。まったく、面倒見がいいんだよなぁ。だからこんだ\nけ店が繁盛するわけだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「褒めるな褒めるな。……ったく。しょーがねえな。餅も食うか？　マジで忙\nしいからまかないレベルのやつしか出せねえぞ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022160018" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……なんだかんだ言いつつも、ほむらは結局生ビールもオマケしてくれた。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。まったくだ。うまい！　うまい！　うまい！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はすっかりいい気分になりながら、閃いた名案について考え込む。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あとのアテは……頼み込めばもう一人ぐらいはいけるか？　よし、メールし\nておくか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "軽快に携帯をタップしつつ、ついついにんまりとほくそ笑んでしまう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっと、せっかくだから神様にもひと肌ぬいでもらおう……。クックック…\n…」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「何を思いついたのかわかりませんが……いやらしい顔してますなぁ、ご主人\nは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022160004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

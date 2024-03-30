@@ -1,0 +1,93 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0078" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_008" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SPOTCHARA", "0" ]},
+		{"command":[ "SETTEXT", "二人の争いは一向に収まる気配を見せない。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「だから言ったんだ！　もうお家かえるって！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021030010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000404_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ルナルバース女王の強さは我々の組織でも話題になっていましたが、それに\n匹敵する幹部がまだいたとは…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_020021030005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「セレインさんのおばあちゃんてこんなに強いんだね…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_030021030003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「カツマ！　早く母上様をお助けしないと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021030007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000107_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わ、わかってますけど、むちゃくちゃ強いじゃないですか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「カツマは……私が守る！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021030008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000205_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「ほほほ、事前に聞いた通り確かに軟弱な連中ですのぅ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ふふふ、そのためにお主を呼び出したのじゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_040021030015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "力比べを行っていた二人が急に争うのを止めた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふぅ…………、やっと収まったか…………」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と思ったが二人が揃って俺たちの方に闘気を向けてきた！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「そういう事であれば、早速鍛えてやるとしようかのう…………うひょひょひ\nょ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030008" ]},
+		{"command":[ "SETCHARA", "0", "char_00001001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「良かろう…………、余も及ばずながら手助けをしてやろう…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_040021030016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "タダでさえとんでもないばばあがタッグを組んで襲いかかってきやがった！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

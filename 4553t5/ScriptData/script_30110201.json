@@ -1,0 +1,433 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_01" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あの、にいさま？わたしもこうやって、色々変わったと思いませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203101" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ですから、その……にいさまにしてもらうばかりじゃ、ダメだと思うんです\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203102" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「だからその、ええと……今日は、わたしがにいさまにご奉仕します！本で色\n々勉強したら、その方が男の人も喜ぶと書いてあったので！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203103" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「え？　そ、それだけじゃ足りないんですか！？そ、そんな、本に間違ったこ\nとが書いてあったの……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「大丈夫？　まだ修正ができる……ですか？さすがはにいさまです！　はい、\nそれじゃあお願いします！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……あ、あの、にいさま？これが本当に……その……どちらにとってもいい\nこと……なんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203106" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「も、ものすごく恥ずかしいんですけど……。いえ、あの、そんなに嬉しそう\nに親指を立てられても……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203107" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「うーん……なんだか上手く言いくるめられているような気がしますけど、に\nいさまがいいなら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「わ、すごくおっきくなってます……。じゃあ、えっと……気持ち良くしてあ\nげますね……手で……こすって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203109" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「に、にいさま！？　そんなところ、じっと見ないでください……っ！す、す\nっごく恥ずかしいんですからね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203110" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「もっと強くこすっていいんですか？　ええと……これくらい、ですか？わわ\nっ、すごく固くなってきました……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んんっ、はぁ……っ、にいさまの触っているだけなのに、すっごくどきどき\nしてます……え？　ぬ、濡れてきてる、ですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「だ、ダメです！　絶対ダメです！　よく見たいなんて、そんなことされたら\n恥ずかしくて死んじゃいます！　そ、そんなにお願いしても……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203113" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「くすん……結局押し切られ……ふぁんっ！？　やだぁ、ひ、広げちゃダメで\nす……！　み、見ないでぇ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203114" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んきゅっ、ゆ、指入れちゃっ、あぁっ、くぅん……っ！くちゅくちゅ音させ\nないで下さっ、ふあぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203115" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ひゃぁんっ！？　な、何してるんですかにいさま！？そ、そんなところ舐め\nちゃっ、きゃふっ、くぅん……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「も、もう、お返しですっ！　ちゅぷっ、れろ……んっ、ちゅる……。す、す\nごく熱いです……はち切れそう……ちゅ、んむ……れろろ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ふふっ、舐めるとびくんってしてます……気持ちいいんですか？もっとして\n欲しい、ですか？　はい、分かりました……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ぁ、先っぽからねばねばしたの出てきました……んっ、ちゅ……っ、れろ…\n…ちゅぷぷ……ふふっ、にいさまの味がします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「れろっ、んぁっ、んむ……れろろ……っ、ちゅむ……。ふぁっ、に、にいさ\nまは舐めなくて良いですからあ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「じゃあって広げるのはもっとダメですっ！に、にいさまは大人しくして……\nえ？　い、イヤなんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「一緒に気持ち良くなろう……ですか？そう言われるとダメって言えないじゃ\nないですかあ……もう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「れろ……ちゅっ、はむ……んんっ、じゅる……ちゅぷっ、じゅぷぷっ、ぷは\nぁっ、どんどんおっきくなって……口が疲れちゃいます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203123" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ちゅぽっ、ちゅぅっ、んぷっ、れろ……じゅる……ふぅんっ、んむっ、じゅ\nちゅっ、れろろ……はぁぅ、にいさまの舌が……くぅんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203124" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「やらぁっ、わたしの中にぃっ、にいさまの舌が入ってきっ、ひぁんッ！ダメ\nです、ダメぇっ、そんな音させちゃやらあ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「れりゅっ、れろろっ、じゅぷじゅぷぷっ、じゅちゅっ、んふっ、んんーっ、\nぷはぁっ、んんっ、むっ、ちゅうぅ……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んふうっ、に、にいさまっ、胸のさきっぽカリカリって引っ掻いちゃダメで\nすっ！　い、イタズラしないで下さぃ……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あぁっ、乳首引っ張りながらあそこなめたらダメですっ、腰がぁっ、跳ねち\nゃう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「もうっ、お返しです……っ！　んっと、手でしごきながら……口で……、ん\nぷっ、じゅるるっ、れろろっ、ちゅぅ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「じゅぷゅ、じゅるるっ、ぷぁ、んっ、また膨らんできてっ、ちゅっ、もうす\nぐ……ですか？　れろろっ、いいですよ、出して下さい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「れろろっ、ちゅむっ、んふっ、んんーっ、じゅるるっ、ちゅるるっ、ひぁっ\n、ダメっ、にいさまぁっ、指入れちゃっ、あぁっ、ああぁあっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「きゃうんっ！　ふぁっ、すごい……びゅーびゅーって……噴水みたいに噴き\n出してます……熱いのたくさんかかっちゃってます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203132" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_08" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あっ、ああ……っ！？　に、にいさま、ごめんなさい！顔がびしょびしょに\n……！　す、すぐ拭かないと……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ええっ、ご褒美だから気にするなって……ほ、本気ですかにいさま！？え？\n　わたしも精液でべたべただろうって、確かにそうですけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「おあいこ……なんでしょうか？　あっ、ちゅる……んむっ、じゅる……垂れ\nちゃう……んっ、ちゅ……んくっ、こくん……ぷぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203135" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_07" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「まだびくんびくんしてますね……？　えっと、手でしごいて……ちゅぅっ、\n　先っぽから……まだとぷとぷって出てきてます……じゅる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203136" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ちゅぷっ、じゅる……んっ、んくっ、こくん……ぷぁ……。はい、きれいに\nなりましたよ、にいさま？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……まだ、ものたりないです……か？だ、だって、にいさまの全然小さくな\nってないから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「わ、わたしのもひくひくしてまだ欲しがってる……？そ、そんなこ……きゃ\nんっ！？　い、いきなり広げないで下さい……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「やあ……広げたり閉じたりしないでください……。くちゅくちゅえっちな音\nが聞こえちゃう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203140" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「じゃあ……つ、続き、します……か？お願いしないとやらない、ですか？　\nもう、にいさまは時々意地悪です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203201" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「にいさま、わたし、身体がまだうずいちゃって、どきどき治まらないから、\n一緒に……して下さい……やぁ、恥ずかしい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203202" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「にぁんっ！？　いっ、いきなり舌入れちゃんっ、ひぅ……っ！？吸っちゃ、\n音ぉっ、じゅるるってさせちゃいやぁ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203203" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んきゅっ、ふぁあ……っ！　腰が、抜けちゃっ、ひきゅうっ！！そこダメで\nすっ、舌でつついちゃっ、ひあっ、きゃふん……っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203204" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「そんなにっ、されたらあっ、にいさまのこと気持ちよくっ、んふっ、させら\nれませんよお……っ！　あっ、あああ……っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203205" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んひゅっ、ああっ、んっ、だめっ、だめだめえっ、背中ぞくってして、また\nイッちゃいます……っ！！　ふぁああっ、んきゅう――っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203206" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「はぁっ、はぁっ、にいさまのばかあ……いっしょにするって、言ったのに、\nわたしだけえ……ぐすっ、ふえええ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203207" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……ぐすっ、くすん……っ、ほっ、本当に悪いと……思ってます、か？じゃ\nあ……許してあげます……けど、今度はわたしの番です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203208" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「じゅぷっ、じゅぷぷ……っ、ぷぁっ、れろ……ちゅうっ、ふふっ、びくんっ\nてしてます……びっくりしましたか、にいさま？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203209" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ぎゅうって強くしちゃいますから……。わたし、ちょっぴり怒ってるんです\nからねって、……あれ？　強く握ってるのに気持ち良さそう……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203210" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「こ、こんなに強くしても気持ちいいんですか？　だって、赤黒くなってきて\nて、ええ……本当に大丈夫なんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203211" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「こ、怖いから普通にやりますっ！　ざ、残念そうな顔しないで下さいっ！に\n、にいさまヘンタイです……っ！　もうっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203212" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「はむっ……んっ、ちゅぷっ、れろっ、んふぅっ、ぷはぁっ、んっ、はむっ、\nれるっ……れろろっ、ちゅっ、ちゅぷっちゅっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203213" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んっ、んふっ、ちゅぷっ、れろっ……え？　もっと飲み込むように、ですか\n？　えっと……上手くできるかわかりませんけど……んぶっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203214" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んぶっ、じゅぷっ、ちゅるっ、じゅるるっ……んくっ、じゅるっ、じゅっ、\nけふっ、こふんっ、ごめんなさい、喉に当たっちゃって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203215" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「だって、にいさまのどんどんおっきくなっていくから……、口の中もいっぱ\nいになっちゃって……口開けてるのもたいへんです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203216" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「それに、んふぁっ、にいさまが下の方にいたずらするからっ、まちがえて噛\nんだりしないようにするの、たいへんなんですからね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203217" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「もうっ、ちょっと噛んじゃってもいいんでしょうか……？　はむ、かぷっ、\nかぷかぷ……もう、何をされても嬉しいんですか、にいさまは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203218" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「でも、すこし分かってきました。こうやって、たべものを飲み込むみたいに\nんぶっ、んぐ……っ、じゅぽ……じゅるる……んぶぶ……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203219" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んぷっ？　さきっぽがふくらんで……出るんですか、にいさま……？じゅぷ\nぷっ、じゅるっ、ちゅぅ……っ、じゅぷぷ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203220" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んふぅっ！？　んんん～っ、んむっ、んぐ……っ！？じゅぷっ、んくっ、ん\nんん……っ！　んくっ、んぐ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203301" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_08" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んくぅっ、ごくっ、ごくん……っ、いっぱいれっ、のみきれにゃ……っ！？\nじゅぷっ、んぐっ、んぐぐ……ごくっ、こくん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203302" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「けふんっ、けふっ、すごい量……２回目なのに、こんなに出るなんて、びっ\nくりしました……んちゅっ、んぷ……こぼれちゃう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203303" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あっ、ああああ！？　に、にいさまの方もびしょびしょになってます！？ご\n、ごめんなさい、す、すぐに拭きますから……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203304" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「もう、なんでにいさまは嬉しそうなんですか！え、お互いさま……？　ち、\n違いますよっ、わたしは嬉しくなんて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203305" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ちょっとどきどきして……にいさまの匂いがして頭がくらくらして。ちゅむ\nっ、じゅるる……ちゅぱっ、こぼすのが勿体ないってだけで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203306" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……はっ、ち、違います、違うんです……！　もう、笑わないでください！\n早くお風呂行きましょう！　シーツも洗わなきゃ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203307" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「その、お風呂でしたくなったら、言ってくださいね？汚れるの気にしなくて\nいいから、気分的に楽なので……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203308" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「もう、そんなに嬉しそうにして……でも、にいさまが望むなら、その、わた\nしはなんでもしてあげますからね……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203309" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「んっ、ちゅ……んふ、ぁは……そういえば、あんなことしてたのに、キスは\nまだでした……ちゅっ、お風呂でたくさんキスしましょうね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203310" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ぷぁっ、けふんっいきなり抜いてどうしたんで……きゃあっ！？出て……っ\n、すごい……噴水みたい……にっ、んぷっ、んぶ……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203401" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00001102_01_09" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「２回目なのに、こんなに……。髪の毛とかにかかっちゃってる……。びくん\nびくんして苦しそうだけど、へいきなんですよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203402" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「れろ……っ、ちゅむ……んっ、顔がべたべたです……。にいさまの匂いでむ\nせかえりそう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203403" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「にいさまも綺麗にしますね……？　ちゅっ、じゅる……ちゅっ、じゅるる…\n…じゅぽっ、じゅるる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203404" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「のどに絡みつくみたいで、すごく不思議な味と匂いです……。え？　いやじ\nゃないですよ？　このままで外には行けませんけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203405" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「にいさまは気持ち良かったですか？……よかった、頑張った甲斐がありまし\nた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203406" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あの、その……またしたくなったら、言って下さいね？あんまりためると良\nくないって、本に書いてあったんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203407" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「わたしでよければ、いつでもにいさまのことを気持ち良くしてあげますから\n……だから、いつでもどうぞ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203408" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……あ、でも、部屋のお掃除終わるまではダメですね、あはは……。お風呂\nにも入らないといけませんし、シーツや服も……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203409" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……え？　これからお風呂で、ですか……？もう、にいさまのえっち……！\n　でも、いいですよ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_0203410" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

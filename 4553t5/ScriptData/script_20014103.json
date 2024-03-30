@@ -1,0 +1,283 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0177" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「ではでは、第２位！　悪魔筆頭騎士のヴァラファールさんにご挨拶をいただ\nきましょ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022860001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 	
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今とんでもない役職の名前が聞こえた！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あ、あ、あ、悪魔とは……。見た目も相当強そうですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022860001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺とジュンジローがごくりと唾を飲む。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、その反応を見て気を良くしたのか、ヴァラファールと呼ばれた悪魔はニヤ\nリと不敵に笑ってみせた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「クククク……。我の名を乞われてはいたしかたあるまい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860001" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「我の名はヴァラファール。刻の女王に呼び出された四神衆が１人……女性悪\n魔のみが棲息する悪魔の国の筆頭騎士だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「しかし、あまりの強さに自国では既に敵無し。本気で戦える者がいなくなっ\nてしまったゆえに召喚に応じた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「新たな敵を探すため……、様々な世界を渡り歩くことで、更に剣の腕を磨く\nためだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へえ。２位の人は悪魔なのにかなりストイックなんだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「奔放とか享楽のイメージがある悪魔だけど、カノジョに限っては違う……っ\nてことかな～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022860002" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「お前の国には我に勝てるものはおるか？　おれば一度、手合わせ願いたい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860005" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "真剣なまなざしで、手にした大きな剣を突きつけてくるヴァラファール。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その青肌を見てわかる通り、鍛え抜かれた肉体には少しも無駄な部分はない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「と、とりあえず俺はパスだな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「なんだ。つまらぬな。ここにいる他の３人は、喜んで手合わせをしてくれた\nものだが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マジかよ。どんだけ血の気が多いんだ、四神衆ってやつは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「猛者と猛者が出会えば自然とそーなる……んじゃない？　知らないけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022860003" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「召喚したヤツは無責任だし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それで、勝敗はどうなったのですかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022860002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジュンジローの問いかけに、フッ、とヴァラファールは鼻を鳴らした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「みなそれぞれ、異なる才能を持つ強者たちだ。数回の手合わせでは決着はつ\nかなかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860007" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へえ！　よわっちそーなやつもいるのにな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "チラ、と軍服の少女を横目で見ると、そいつはぷくーっと頬を膨らませて詰め\n寄ってきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アンドレッテ" ]},
+		{"command":[ "SETTEXT", "「それはまさか、私のことではありませんわよね！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_260_010022860001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026001_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「こやつはなかなかの力量を持っておる。そう馬鹿にしたものではない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860008" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうなのか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アンドレッテ" ]},
+		{"command":[ "SETTEXT", "「そうですわよ！　可憐な外見に惑わされないでくださいませ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_260_010022860002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あとは、まあ……ほんわかした雰囲気のおねーさんとか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「やん♪　おねーさんだなんて嬉しい♪　私をかよわいって思ってくれるのね\n。可愛い♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022860001" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「こやつは食えぬ女だぞ。敵の心を読み、いつのまにか懐柔するしたたかさが\nある」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860009" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「え～？　そんなつもりはなかったんだけど～。あなたがそう言うのなら……\nそうなのかしらぁ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022860002" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほどな。で、さっき紹介されたスザクはニンジャだから強いんだろうし\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スザク" ]},
+		{"command":[ "SETTEXT", "「ふふ、その通り。ゆえに、この悪魔と一番長く戦い続けたのは私だった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_257_010022860001" ]},
+		{"command":[ "SETCHARA", "0", "char_00025701_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「ああ。今思い出しても血湧き肉躍るぞ。悪魔の国にはない技をたくさん浴び\nることができて素晴らしかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860010" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スザク" ]},
+		{"command":[ "SETTEXT", "「お誉めにあずかり光栄だ。またいくらでもやろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_257_010022860002" ]},
+		{"command":[ "SETCHARA", "0", "char_00025701_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "がしっ、と手と手を握り合うダークエルフ・シノビマスターと悪魔筆頭騎士。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その美しい友情に、俺とジュンジローは清らかな涙を流し……はしなかった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「４人の強さはよくわかった。で、他には何かないのか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「何か……とは？　強さ以外に何が必要なのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860011" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「例えば、賢さとか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「か、か、か、かしこさ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860012" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや。知り合いの悪魔がわりと狡猾なタイプだから、そっちもそうなのかな\nと思ってさ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「……そ、そうか。だが我は座学は苦手だ。お前の話していることも、実際半\n分以上理解出来ていない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860013" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わりと簡単に話していたつもりだったんだが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「くっ……。己の頭の良さをひけらかしているつもりか？」　", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860014" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ～なるほど……。ジェスタ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「お察しの通り。カノジョは脳筋無知の巨乳おバカだから、難しいことは言わ\nないであげてね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022860004" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「脳髄まで筋肉にしてこその騎士だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022860015" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今回はそういうタイプが来たか～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "同じ青肌でも、エファナティカとは異なるパワー全振りタイプらしい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「大体わかった。というわけで次を頼む」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「ほいほい♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022860005" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

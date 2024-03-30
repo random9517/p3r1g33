@@ -1,0 +1,114 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0078" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SPOTCHARA", "0" ]},
+		{"command":[ "SETTEXT", "数十秒後には、俺と女幹部とつきみたちは再び砂浜で無残に横たわっていた。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺をかばいながら戦ったアナザーも精根尽き果てたのか珍しく肩で息を\nしている。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000111_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「はぁはぁ…………こ、この世界の母上もお強い事は想定していたが、………\n…っ、同じレベルの幹部が存在していたとは…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021030009" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「ほっほっほ、わしらの攻撃を受けて立っているとはなかなか見どころのある\nヤツじゃわい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030009" ]},
+		{"command":[ "SETCHARA", "0", "char_00001001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「お主、名前は？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「はぁはぁ…………私の名は、Ａ・ルナテミス…………はぁっ、も、もう一つ\nのＧ・ルナリアムの人間だ…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021030010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000111_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「ほほぅ、あんたが噂のもう一人の姫様か……ハンドレッドムーンなど馬鹿げ\nたほら話と思っておったが、誠の事じゃったか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030011" ]},
+		{"command":[ "SETCHARA", "0", "char_00001001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「気に入った！　あんたは特にわし自らが鍛えてやろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふっ…………の、望むところだ…………！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021030011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000111_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ヘカテリーナはアナザーの実力を高く買っているようだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "姫様が失神してるからいいものの、またまたルナテミス同士のケンカの種が増\nえそうな予感がしている。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「……というわけで、おばばがお主たちの相手をしてくれるからな。しっかり\n特訓するように」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_040021030017" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「ほっほっほ、誰がばばあか。まあたっぷりかわいがってやるからのう。終わ\nる頃には別人に生まれ変わっとるよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030013" ]},
+		{"command":[ "SETCHARA", "0", "char_00001001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「……もちろん、生きていればの話じゃがのう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ふっふっふっふっふ……お主もそこまでの体力はあるかのう、ばばあだから\nの……ぐぎぎ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_040021030018" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘカテリーナ" ]},
+		{"command":[ "SETTEXT", "「ほっほっほっほっほ……ばばあに言われとうないわいばばあが……んぐぐ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_010_010021030015" ]},
+		{"command":[ "SETCHARA", "0", "char_00001001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "お互いの頬をつねり合いながら笑う２人のおばばたち。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……マジでどうなるんだこれから」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今ではせっかくのエメラルドブルーの海も色あせて見えるのだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

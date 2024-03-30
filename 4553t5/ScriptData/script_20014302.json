@@ -1,0 +1,284 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうなってんだ！　俺の身体、小さくなってんじゃねーか！」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご、ご主人！　落ち着いてください！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これが落ち着いていられるかー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「カツマー！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺たちが大騒ぎしている最中、ドアが蹴破られる音がする。そして、青い肌を\nした少女が登場した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ジュンジロー、カツマを知らないかい！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご、ご主人ですか？　それより、お嬢さんはいったい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023000002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ああっ、やっぱりわからないのかい？　あたちだよ！　エファナティカだよ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え、エファナティカぁっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "エファナティカと名乗った青肌幼女は、言われてみれば確かに、どことなくエ\nファナティカの面影を感じる。喋り方もそれっぽい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ん？　誰だいそのガキ……って、もしかしてカツマかい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、そうだ。というか、お前どうしたんだよその姿！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「その言葉、そっくりそのままあんたに返してやるよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺は、朝起きたらこうなってたんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「あんたもかい？　あたちもそうなんだよ。どうやら、中身はそのままで、身\n体だけ若返ったみたいだね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「若返りたいって思ったことはあるけど、ここまで小さくなりたいとは思って\nないよ、まったく……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "エファナティカは大きくため息をついた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「で、どうするんだ？　このまま本部に行くか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もしかしたら、俺たちのことを元に戻せるやつがいるかもしれないし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「バカ言ってるんじゃないよ！　あたちがこんな格好で現れたら大騒ぎになっ\nちまうだろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「狂魔元帥として恐れられるあたちが、こんな……こんなキュートな姿になっ\nてたら、威厳もなにもないよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「自分で自分のことキュートとかいうかよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんでもないです」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「とにかく、本部への連絡はナシだ！　あたちたちで原因を突き止めて、元の\n姿にもどるんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうはいってもなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「話は聞かせてもらったぁ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「鳳雛！？　なんで俺の部屋にいるんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「いやぁ、瓦斯になって大家さんから逃げていたら、この部屋から事件の香り\nが漂ってきたからねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023000002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「昨日の夜からおりましたな。確か、深夜に窓の隙間から侵入し、かくまって\n欲しいと訴えておられました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023000003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「そ、そういうことは言わないでいいよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023000003" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「不法侵入じゃねえか！　……おまえ、もしかして普段からそんなことやって\nるのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「そ、そんなことないよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023000004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「僕のことより、まずはこの事件の方が大事でしょ！　君たちをキュートな姿\nにした犯人を捜しだすのさ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023000005" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「この探偵のいうとおりだね。早く元に戻らないと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えー。子供の姿になったってことは、大人の苦労から解放されたってことだ\nろ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それに中身が元のままなら、こんなの『強くてニューゲーム』ってことじゃ\nねーか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「元に戻る必要、あるか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「あのねぇ。若返るっていうこの手の禁呪には、あたちもひとつ心当たりがあ\nるんだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「このままの姿でいたら、精神が肉体に引っ張られて中身まで子どもになっち\nまうんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「大人になると子供のころの記憶がなくなるみたいに、大人としての記憶まで\nなくなっちまうのさ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マジか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「だから、そんなことになる前に元の姿にもどらないとね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうやら、事態は俺が想像していたよりも深刻なようだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "この調子で人生２周目を謳歌しようと思ったが、そんな美味い話はないらしい\n。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「具体的なタイムリミットはわからないけど、とにかくはやく犯人を見つけ出\nさないとね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023000017" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「そういうことなら、この瓦斯探偵にまかせてよ！　とにかく、まずはこれま\nでの経緯をふりかえってみよう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023000006" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0180" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「はぁ……マキはうまくことを進めているだろうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「あやつは、子どものことになると本来の目的を忘れる悪癖があるからなぁ…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023000002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「……ふふ、もうすぐ私の下に、ショタとなったカツマが……。ふふ……ふふ\nふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023000003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「私の下で、新たな人生を歩ませてやるからな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023000004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「はぁ……。そういう魂胆だったのね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010023000001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

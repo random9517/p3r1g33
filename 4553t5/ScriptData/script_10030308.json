@@ -1,0 +1,201 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0031" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「セレーナを探してるうちに、こんなとこに来ちまった……」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「しかし、セレーナは商店街のあちこちで、食べ物をテイクアウトしているよ\nうだ。それを食べるとしたら、きっと――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「いた！　あそこだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだよ、あいつら！　なにがハルノブだよ。あんなやつと組めるもんか…\n…あ、この肉まんうめえ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ホントだ。セレーナがベンチに座って、商店街で買い込んだものをバクバク食\nいまくってる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しかし、ずいぶん食ったみたいだな。あいつ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「並みの人間なら、ゆうに一週間分ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「まあ……あれだけ食べれば、だいぶ機嫌も収まったんじゃないだろうか。話\nを聞いてみるとするか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな。それじゃ行ってみますか。あ、姫様はひとまず黙っててください\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なにぃ！？　私が邪魔だとでも言いたいのかっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうは言いませんけどね！　あんた、すぐに怒って話をこじらせるんですか\nら、まずはアナザーに……あ、さっそくアナザーが話に行った」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「セレーナ、ちょっといいか……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115020003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「アナザー……？　それに、カツマとルナ様も……？　な、なんだよ！　帰れ\nって言っても帰らないぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「その話はまた後にしよう。だが……どうだ？　腹いっぱい食べて、少しは落\nち着いただろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115020004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「…………まあな。まだ、腹いっぱいってわけじゃないけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふふっ、そうか。それじゃ、よかったら聞かせてくれないか。なにか、もや\nもやしていることがあったんじゃないのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115020005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「もやもやっていうか……なんていうかさぁ……引っかかってることはあるよ\n？　カツマはどうなんだよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？　俺か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「そうだよ！　だって、カツマも知ってるだろ！？　オボロのやつが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「！！　ああ……そうか。そうだな。そのことなら……俺も引っかかってる。\nなんでオボロが裏切ったりしたのか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「だろ！？　カツマもそう思うだろ！？　あいつ、いちいちわたしに突っかか\nってきて、ほんとにウザいヤツだったけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「でも、あそこまでするヤツじゃないと思ってた！　仲間を裏切ったりするヤ\nツじゃないと思ってたんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そうだな。俺もそう思って――あ！　そうか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「どうした？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115020006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ハルノブのこともそうなんだな！？　あいつが気に入らないのも、オボロの\nことが関係してるんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「それはそうだろう。オボロとの戦いを邪魔されたんだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115020007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうじゃない！　　そうじゃないんだ！　もっとなんていうか気持ち的に…\n…あー！　まいったな、うまく説明できない！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「オボロと……ハルノブ？　気持ち的に……あ！　そ、そうだ！　そうなんだ\nよ！　なんていうか……こう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「あー！　でも、なんでそうなるんだ！　わっかんない！　ぜんぜんわかんな\nいぞ！　あーもう！　よけいモヤモヤするぅ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115020009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あーくそっ！　俺もだ！　俺もモヤモヤしてきたーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なぜだろう……？　どういうわけだかきちんと説明はできないんだが、オボロ\nのことと、セレーナがハルノブを気に入らない理由……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それは間違いなく繋がってるんだ！　それははっきり感じる！　感じるけど、\n説明できない！　あー！　すっきりしねえ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115020008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「っていうか、なんなんだこいつら！　話がよけい混乱するばっかりじゃない\nか！　私にもわかるように説明してみろーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115020003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そう言われても、うまく説明できないんですよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "っていうか、ハルノブに最初に会ったときにも思ったんだよな。なぜか、よく\n知ってる相手のような、そうじゃないような――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あー、もう！　なんだか俺まで混乱してきた！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

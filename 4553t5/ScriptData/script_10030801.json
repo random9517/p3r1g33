@@ -1,0 +1,278 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0159" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……あれ？」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "気づけば、俺は大戸岐学園の廊下に立っていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おかしいな。なんでここに居るんだ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "用事もなく大戸岐学園にやってくるわけがない。きっとなにか、ＥＤＯで仕事\nがあったんだろうが……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあいいや。きっとほかの連中がなにか知っているだろう」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "仕事の内容を忘れました、なんて言ったら罵倒されそうだ。しかし忘れたまま\nよりはいいだろう。そういう展開も慣れているしな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とにかく、きっと一緒に仕事してるだろう姫様たちと合流だ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0162" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おーい、姫様ー？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カグヤー、アナザー？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュンジロー？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "空き教室をくまなく見て回ったが、誰もいない。というか、なんだか人の気配\nを感じない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いったいどうなっているんだ？　また学園ホラー回か？　いくらボンキュッボ\nンでもサメに襲われるのはもう勘弁だぞ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「やっと見つけたっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その声は、まりあか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やっと第一味方発見だ。しかもまりあとはついているぞ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まりあなら、仕事の内容を忘れてしまったといっても、罵倒抜きでやさしく教\nえてくれる！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "急いで俺のことを探しにきてくれたのか、まりあは少し息が上がっているよう\nだった。バニースーツから見える胸元に汗がうっすらと浮かんでいる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょうどよかった！　まりあ、ほかのみんなをしらないか？　学園の中には\n全然見当たらなくて……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ほかの人なんか最初っからいないっちゃ！　この世界は、私とカツマさんだ\nけだっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なぁんだ、そうだったのか……って、最初からいない！？　まりあ、この世\n界どうなってるんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、キャンプみたいで楽しいっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやキャンプって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いったいどうなっているんだ。この世界にまりあとふたりっきり！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして俺は、まりあへの違和感に気づいた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……っていうか、おまえその語尾なんなんだ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「私の語尾？　どこか変だっちゃ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだか虎縞ビキニが似合うような口調になってるぞ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「虎縞ビキニ！？　……って、お正月に夜日楽さんが着ていたような……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そんなの着るのは恥ずかしいっちゃ……。で、でも……カツマさんが見たい\nっていうなら……運営にかけあって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだ、まりあってこんなキャラだったか？　今日も……いやいや、今日のこ\nいつはなんだかおかしいぞ……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「とにかく、元の世界に戻らないとな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ええっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650008" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よく考えてみろ。この状況、ふたりっきりの世界といえば聞こえはいいが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もしかしたら俺たち、この世界に閉じ込められたのかもしれないんだぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時間帝国の罠か？　いったい誰がこんなことを……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そ、そんなことより、カツマさんに言いたいことがあるっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650009" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なんだ急に」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "教室を出ようとしたところをまりあに引きとめられた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさん、今日も電話とってくれなかった！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650010" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「電話ぁ！？　いまそんなこと言ってる場合か！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「寝過ごしても電話取る妹とかいないんだっちゃ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650011" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いねーよそんな奴！　まりあ、おまえどうしたんだ？　さっきから何言って\nんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やっぱりまりあの様子がおかしい。この世界の影響を俺より強く受けているの\nか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "手分けして出口を探そうかと思ったが、まりあを一人にしないほうがいいかも\nしれないな……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「とにかく、一緒に出口を探そう」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そんなことより、カツマさん、私の話を聞いて欲しいっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650012" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ急に……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まりあの顔をみると、俺のことをまっすぐに見つめてきていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こっちが気恥ずかしくなって、つい視線をそらしたくなってしまうほどの熱烈\nな眼差しだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっと……手短にたのむぞ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「じゃあ、一言で済ませるっちゃ。私、カツマさんが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650013" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0159" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……あれ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0164" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ああぁっ！　もう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650014" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「いったいどうなってるっちゃ！　これで１５５３２回目だっちゃーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115650015" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

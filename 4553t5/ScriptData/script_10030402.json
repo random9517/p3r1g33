@@ -1,0 +1,165 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "数日前", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんでこんなに書類が！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「し、仕方ないだろ！　気づいたらこんなに溜まっていたんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっと……。ここ最近の戦闘被害の始末書が、ひとつ、ふたつ、みっつ……\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「隊長の仕事だろ、こういうのは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115100002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、これ姫様が書くやつですよ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ええい知らん！　かわりに書いてくれ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115100003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃん、ダイヤナちゃんの分もおねが～い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おっ、じゃあ私の分も頼む！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「あんたたちねぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「長官！　いいんですか代筆なんて！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ダメに決まってるだろ！　そういうことはバレないようにやれ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010115100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "統制局局員" ]},
+		{"command":[ "SETTEXT", "「開けろ！　次元統制局だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020115100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00092801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "統制局局員" ]},
+		{"command":[ "SETTEXT", "「カツマ隊長を渡してもらおう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020115100002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "次元統制局のやつらが、また突然やってきたんだ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そしてカツマの身柄をよこせと要求してきた！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "統制局局員" ]},
+		{"command":[ "SETTEXT", "「次元管理統制局の権限において、実力を行使する！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020115100003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なにが権限だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115100004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「そんなことさせるか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もちろん、私たちは抵抗した！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "当然だ。前にカツマが拘束されたときは、", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "釈放するまでものすご～く苦労したんだからな！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「こんなところで戦闘して欲しくないが、やむを得ないな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010115100002" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「ああ！　カツマをこんなやつらに渡せるか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115100002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「そうよ！　これから代わりに書類を書いてもらうんだから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115100002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「それに、予感がするんだよ。ここでまた隊長を引き渡したら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115100002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「きっとまた面倒なおつかいをさせられるに決まっている！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115100005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前らなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まあ、そうでしょうなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

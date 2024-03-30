@@ -1,0 +1,265 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ……起きて。カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん、んん……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだ……誰だ。俺の貴重な安眠を妨げる奴は……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今日は休みだ。公に認められた休息日だ。慣れない隊長役から解放され、下僕\n扱いもされず、面倒な幹部たちとも顔を合わせずに済む、魂の安らぎに満ちた\n楽園の筈で……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0070" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「起きて、カツマ。カツマ……ちゃん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……ん？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃんってば、ホント子供の頃から寝坊助なのが変わらないんだから\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ん？　ん……ん？　んんーん？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「やっぱりカツマちゃんは、私が居ないと駄目だね♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なん……だ？　誰かと思えば……カグヤか？　にしても、何を言っている……\n？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "確かに俺とお前は所謂幼馴染み、そういう仲かもしれないが、今はもうそうで\nもないだろ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ちょっと？　カツマちゃん？　まさか寝た振りじゃないよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「もう！　お布団取っちゃうんだからね、えい！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "上掛けを剥がれた！？　くっそ、いくら薄くてもそれは俺に安らぎを与えてく\nれる、貴重な布団なんだぞ……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「これでも起きない？　起きないのかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010007" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "クソッ、こうなったら意地だ。ワケが分からんが、素直に起きる事を断固拒否\nしてやる！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「本当に起きてくれない……カツマちゃん？　不貞寝で現実逃避しても、人生\nは何も解決しないんだよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010008" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「く……っ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うるさいわい！　夢の中でぐらい平穏無事に生きる事も許されないってのか、\n俺は！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「うーん……これはもう、強硬手段に訴えるしかないかなあー――えいっ！！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010009" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぐあっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "み……鳩尾に、一撃喰らった？　肘でも落とされたか……息が詰まる。死ぬわ\nっ！！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ってえなあ……！　いきなり何しやがる！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "上掛けを剥ぐだけなら、わかる。わかるが！　そこに技を加える必要はねえだ\nろ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あ、おはようカツマちゃん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010010" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おはようじゃねえ。それになんだその、気色悪い呼び方は」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こんな呼ばれ方、やっぱりされたことないぞ？　滅茶苦茶違和感を覚える。魂\nの奥底から。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「え……へ、変かな？　ずっとこう呼んできたのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ずっと？　何を言っているんだ、まったく身に覚えがない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃんが嫌ならやめるけど……その代わり」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その代わり？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「名前を呼び捨てにしていいの？　それって恋人みたい……きゃっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……なんか、悪い物でも食ったのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ええっ！？　酷いよカツマちゃん、乙女の純情を全否定……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "オトメノ、ジュンジョウ？　なんだこれは？　本物のカグヤか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それに……どうにもおかしいと思えば、なんで俺ここにいる？", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつの間にか帰ってきたのか？　無意識に？　いやいや、どうなんだその夢遊\n病者は。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あ、カツマ……ちゃん、時間」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時間？　なんの？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「学校に遅刻しちゃうよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「学校？　送迎か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「送迎？　何を言っているの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010017" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そもそもルナテミスの送迎なんて、今はやってないだろ。一応非常時、戦時、\n俺様指揮官に抜擢！　って時勢なんだぞ？？？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「んもう、今日から新学期なんだよ？　私たちも２年生になったんだから、し\nっかりしないと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010018" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや……だからホントに、なんの話だ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルナテミスの送迎でもなく、進級？　なんだなんだなんだなんだあ？？？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「朝ご飯用意しておいたけど、食べる時間もなくなっちゃうよ。トースト咥え\nて走らないと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108010019" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいおいおいおいちょっと待てえ！　腕を引っ張るな、抜ける！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,181 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0138" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ここで琴吹隊員ビキニバージョンのスキル、『ビーチアームズ』を発動！　\n相手に物理属性の大ダメージを与えるわ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だああーっ！　ライフがゼロだっ！　うわあああー！　また負けた！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「あはははははっ！　下僕の分際で私に勝とうなどと、百万年早いのよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113150002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くっそおおお！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「ふふふふふふ、カツマ先生。くやしそうですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010113150001" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？　ああ……おまえらの言った通り、このゲームよくできてるよ。まるで\n本当にバトルしてるみたいに、熱中しちまう」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「そうでしょうそうでしょう。でも対戦で勝てるようになったら、もっと楽し\nめる、熱中できると思いませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020113150001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そりゃまあ、そうだけどさ。どうやったら勝てるんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「それはもちろん、カードを買ってデッキを強化するのです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010113150002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「金しだいかよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「そりゃそうです。トレーディングカードゲームというのはそういうものです\n。でもね？　先生……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010113150003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「先生も立派な社会人。ルルーナさんたち学生よりは、資金面でずっと有利な\nはずですよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020113150002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それはどうかなあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大使館の警備員が表の顔だったころから、たいして給料上がってねえぞ……？\n　それで買え買え言われても……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0113" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ふふふふふ、しょせん下僕が、私に勝てるわけがないのよ。いつまでも私の\n前に這いつくばっているがいいわ！　うふふふふふふ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113150003" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "くっ……ルルーナめ！　１回勝っただけで調子に乗りやがって……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「先生……ルルーナさんの鼻を明かせるかもですよ？　そう！　デッキを強化\nすれば！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010113150004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うううう……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「いまなら保健室で、初回購入限定、ブースターパック２割引のサービス中で\nすよ！　さあ、カツマ先生！　いますぐ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020113150003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「保健室ぅ！？　保健室って、まさか珠魚が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あいつには「不眠学習装置」とやらでひどい目にあわされたからな……カード\nゲームにあいつが絡んでるとなると、どうも嫌な予感が……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「さあ！　先生！　どうします！？　買うんですか？　買わないんですか！？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010113150005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「はーっはっはっは！　やめときなさいな！　下僕がいくらデッキを強化した\nところで、私に勝てるわけがないのよ！　はーっはっはっは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113150004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くっ…………！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「先生！　あんなこと言ってますよ！　さあ！　決断のときです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020113150004" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかった買う！　箱で買う！　保健室に行くぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「は～い！　それでは行きましょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010113150006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「初心者１名様、ごあんなーい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020113150005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "嫌な予感がする！　嫌な予感がするが……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ははははは！　はーっはっはっはっは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113150005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は教師として！　あいつの鼻をあかしてやらなきゃ気が済まねえんだぁああ\nああーっ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0138" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「教師というより、ゲームにすっかり熱くなったお子さまですな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

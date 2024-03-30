@@ -1,0 +1,171 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0125" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_022" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「これで、終わりダァ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_010021070001" ]},
+	{"command":[ "SETCHARA", "0", "char_00014202_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大地を割り、炸裂する金華の攻撃。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……だが、蚩尤はそれを真正面から受け止めていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「フフ……なるほどネ。コレがオマエの本気……やるネ、金華！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021070001" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "6", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「な、なにィ！？　コレでもトドメが刺せないなんテ……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_010021070002" ]},
+	{"command":[ "SETCHARA", "0", "char_00014202_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「実力伯仲というわけですね……このまま、お互いの消耗を待つしかないので\nしょうか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_010021070001" ]},
+	{"command":[ "SETCHARA", "0", "char_00014301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「さ、どするアル。いつまでもこうしてグダグダしてるわけにはいかないネ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021070002" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "両者、一歩も譲らぬ膠着状態。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「うーん、うーんうーん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021070001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "不敵に挑発する蚩尤の前で、セレインは頭を抱えていた。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ああああもうっ！　このままじゃいつまでたっても勝負がつかないだろー！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021070002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「こうなったら、うちの隊長に誰が一番強いか決めてもらおう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021070003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はああ！？　なんだそりゃ、なんで俺が！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「ンン……？　それはいい案かもしれないアル。まだるっこしいコトはやめて\n、一発勝負……キライじゃないヨ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021070003" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「だろ、だろ？　スパッと決めるにはこれしかないよなーってさ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021070004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「うむうむ。わかりやすいのはイイ事ヨ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021070004" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「……確かに、いつまでも金華を戦わせておくわけにもいきません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_010021070002" ]},
+	{"command":[ "SETCHARA", "0", "char_00014301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「オネーチャンがそう言うなら、金華もそれでイイ！　負けないヨー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_010021070003" ]},
+	{"command":[ "SETCHARA", "0", "char_00014202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「よっし！　じゃあ、そういうことで――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021070005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "セレインがそう言うとともに、中華娘達が全員……俺の方を向いた。", "NORMAL" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "-600" ]},
+	{"command":[ "SETCHARA", "1", "char_00003801_01", "8", "CENTER", "-200" ]},
+	{"command":[ "SETCHARA", "2", "char_00014202_01", "8", "CENTER", "200" ]},
+	{"command":[ "SETCHARA", "3", "char_00014301_01", "8", "CENTER", "600" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+	{"command":[ "DISPCHARA", "2", "TRUE" ]}, 
+	{"command":[ "DISPCHARA", "3", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ど、どういうことだ？　なんでお前ら全員で俺にじりじり近寄ってくる！？\n」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「フッフッフッフ……往生際が悪いネ、隊長さん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021070005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ご、ごめんなさい……これも金華のためなんです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_010021070003" ]},
+	{"command":[ "SETCHARA", "3", "char_00014301_01", "1", "CENTER", "600" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ま、待て！　目的が変わってるぞ！　肉まんの話は一体どうなったんだよっ\n！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「それはソレ、これはコレある……中華娘のナンバーワンは、ゆずれないネ…\n…！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_010021070004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「もちろん、元祖・中華娘のわたしがナンバーワンだよな？　な？　な？　カ\nツマぁ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021070006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちくしょう、何だってこうなるんだよ……お前ら脳が肉まんでできてんのか\n！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうなってしまったら、平和的解決は望めない。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は覚悟を決めて、荒ぶる中華娘たちに立ち向かうことにした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

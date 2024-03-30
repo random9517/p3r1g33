@@ -1,0 +1,216 @@
+{
+		"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「あと数分で現場に着くわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150003" ]},
+	{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかった。襲来者（インベーダー）の相手は頼むぞ、ロッテ、クララ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お任せください♪　ご期待にお応えしてみせます♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010021150017" ]},
+	{"command":[ "SETCHARA", "0", "char_00015701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私も頑張るから、見ててね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010021150013" ]},
+	{"command":[ "SETCHARA", "0", "char_00015801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういえば、ＭＯＥも俺専用って言ってたけど、詳しい説明を受けてなかっ\nたな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「私もロッテちゃんたちと同じで、カツマちゃんのために作られたＡＩカーな\nの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150004" ]},
+	{"command":[ "SETCHARA", "0", "char_00011101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「ただ私の場合、この次元じゃなくて別の次元に居て、少し前にワームホール\nを通じてこの世界にやってきて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「元の世界に戻れなくて途方に暮れてたところを、ＥＤＯ（地球防衛機構）の\n人が助けてくれたの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「それからＡＩを搭載したロボット同士、仲良くなったということです♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010021150018" ]},
+	{"command":[ "SETCHARA", "0", "char_00015701_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ＭＯＥが独立超常部隊（インクレディブル・スクワッド）に志願したのも、\nご主人様に会うためなんだ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010021150014" ]},
+	{"command":[ "SETCHARA", "0", "char_00015801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「話を聞くに、アナザー殿みたいな感じのようですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021150010" ]},
+	{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど。つまりＭＯＥは、別次元の俺の愛車だったってことか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「そういうことになるわね。それにしても、こうしてまたカツマちゃんに運転\nしてもらうことが出来て、とっても嬉しいわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150007" ]},
+	{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺からしたら、初めての運転だけどな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「ふふっ。例え次元が違っても、私の身も心もぜーんぶカツマちゃんのモノ…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「だからいつでも私に乗ってくれていいし、なんなら住んでくれても構わない\nわよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「く、車に住むのはちょっと……一応、寝る場所はあるワケだし」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「私はご主人様が望むなら、ＭＯＥちゃんに住むことも厭いませんよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010021150019" ]},
+	{"command":[ "SETCHARA", "0", "char_00015701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ご主人様の居るところが、私の居るところ……おはようからおやすみまで、\nご主人様のお世話をするから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010021150015" ]},
+	{"command":[ "SETCHARA", "0", "char_00015801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「そうですよ。この世は老いも若きも男も女も、心の寂しい人ばかり。そんな\nご主人様のココロのスキマをお埋めします♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010021150020" ]},
+	{"command":[ "SETCHARA", "0", "char_00015701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「お金は一銭もいらない。ご主人様が満足されたら、それが何よりの報酬……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010021150016" ]},
+	{"command":[ "SETCHARA", "0", "char_00015801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「ふふっ。カツマちゃんったらモテモテね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150010" ]},
+	{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「本当はカツマちゃん以外、乗せたくないんだけど……ロッテちゃんとクララ\nちゃんは同じＡＩロボットだから、許してあげるわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「つまり、ワガハイはダメなんですな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021150011" ]},
+	{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「ロボットになったら、乗せてあげなくもないわよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150012" ]},
+	{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ワガハイのロボットなんぞ居るワケが……いや、そういえばおりましたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021150012" ]},
+	{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前たちの気持ちは嬉しいけど、俺にだって男としてのプライドがある！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それに、守られてばかりだと男が廃るってモンだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そのようなプライド、見たことありませんぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021150013" ]},
+	{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ご主人様……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010021150021" ]},
+	{"command":[ "SETCHARA", "0", "char_00015701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「私たちを守ってくれるだなんて、嬉しい……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010021150017" ]},
+	{"command":[ "SETCHARA", "0", "char_00015801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「やっぱりカツマちゃんはカッコいいわ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150013" ]},
+	{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなに褒めるなよ……！　照れるじゃないか……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ですが私たちはメイドロボ。ご主人様の優しさに甘えるワケにはいきません\n♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010021150022" ]},
+	{"command":[ "SETCHARA", "0", "char_00015701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「そうだね……今回の襲来者（インベーダー）の相手も、私たちに任せて……\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010021150018" ]},
+	{"command":[ "SETCHARA", "0", "char_00015801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ＭＯＥ" ]},
+		{"command":[ "SETTEXT", "「ええ、カツマちゃんには指一本触れさせないわ！　みんな、襲来者（インベ\nーダー）を倒すわよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010021150014" ]},
+	{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「こんなダメダメなご主人の何処に惹かれるのか、理解に苦しみますな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021150014" ]},
+	{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+	{"command":[ "EXIT" ]}
+	]
+}

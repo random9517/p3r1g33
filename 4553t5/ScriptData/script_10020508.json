@@ -1,0 +1,437 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そろそろ焼けたかな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "校庭の掃除をしていた俺は、落ち葉を集めて焚火をしていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その中からアルミホイルと新聞紙にくるんだ芋を取り出す。いい具合に焼けて\nいそうだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「下僕、こんなところでサボり？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわっ！　……って、なんだルルーナか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん？　今の時間は劇の練習をしているんじゃないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そ、それは……。ちょっと休憩時間なだけよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そっか。ならいいんだが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルルーナの視線が俺の焼き芋に向けられている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……食うか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「校庭でなにをしているかと思ったら、焼き芋を作っていたの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。もらいもんだけどな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あいにく芋はひとつしかない。半分にしてルルーナに渡す。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「なによこれ、中が紫色じゃない」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「紫芋だよ。高級品なんだぞ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そんな高級な芋がどうして下僕のところに？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さあな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ふ～ん……熱っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「焼きたてだからそりゃ熱いさ。気をつけろよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「もっと早く言いなさいっ！　まったく……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "焚火を囲んで、ルルーナと焼き芋を頬張る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「練習はうまくいっているのか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「……いってないわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「セリフや動きのタイミングが合わせられないの。いえ、そもそも周りが私に\n合わせればいいじゃない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「私だって一生懸命やってるのに。私が一番令嬢ヒロインにふさわしいのにっ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「というか、下僕はこんなところで油を売っていていいの？　セリフとか覚え\nないといけないんじゃない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺は出番もセリフも少ないし」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "王子は中盤に顔だし、それとラストの方で戦隊と女幹部との戦いに飛び込んで\n死ぬところだけだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「王子役は気楽ね。あなたのキスがかかっているのよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやぁ、キスの相手を選ぶ権利はないからなぁ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そもそも、キスは任意だぞ？　クラスの反応を見ると、俺がキスされること\nはないんじゃないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「だとしても！　あなたも投票に参加するのでしょう？　一票が一億票くらい\nになるんでしょうっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやそんなわけないだろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「こほん。そういう意味じゃなくて、当日の演技だけを見てキスの相手を決め\nるのか聞きたいのよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「例えば、練習中の姿も評価して、とか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん？　俺も練習を見学に行けばいいのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そうは言ってません！　……むしろ見に来ないでください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「い、いまの私の演技なんか……見せられたものじゃありませんわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そう言われると、見に行きたくなるような」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「来なくていいと言ったでしょ、このボケナスビ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あだぁっ！　わ、割と本気で殴ったな！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「余計なことを言うからですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ふんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490019" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ま、ルルーナもなんだかんだ頑張ってるんだろ？　ほかの奴らに負けないよ\nうにさ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「当然ですわ。真のヒロインの座は私のものなんですから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それに、令嬢ってことはルルーナと設定も近いし、やりやすいだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「うっ、そ、それは……うぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490021" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルルーナの顔色が変わった。というか、泣き出した！？　芋を食いながら！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、見事に地雷を踏み抜きましたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113490002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにーっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「わだぢはれいじょぉなのに、れいじょぉやぐに、なっ、なりぎれでないどぉ\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490022" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おいおい、泣くなって！　やっぱり練習中に何かあったんだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まあ、そんなことだろうとは思っていたが。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それから、ルルーナの愚痴を聞いた。泣き止ませようと、俺の分の芋も差し出\nした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「うう……ぐす……芋をおかわり……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490023" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、もうないって」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ううぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490024" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、なんだ。そのレイジョーピンクって役はそんなに普段のお前とかけ離\nれてるのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「まあ……私よりちょっと、頭がよくて、おしとやかな感じで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490025" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ああ、つまりルルーナよりずっと賢くおとなしいんだな。流々那に近い設定だ\nったのか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その通りに演じなくてもいいんじゃないか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「えっ、でも、台本は……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490026" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なに、もともとあった台本を大改編して出来上がったシナリオなんだ、問題\nないだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いつものルルーナに近い設定に変えちまえばいいんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「普段のお前なら、そうしてるだろ？　お前が役に近づくんじゃない。役をお\n前に近づけるんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「役を私に近づける……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490027" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「でも、そんなことをして、ラストシーンの投票の時に……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490028" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ラストシーン？　というか、さっきの反応といい、お前は俺とキスしたい側\nなのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「っ！　なにを言ってるんですかっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490029" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そもそも、こんなことになったのは下僕が大事なキスの相手を投票任せにす\nるからなんですから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490030" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「最初から選んでおけばこんなことには私だってこれほど苦労しませんでした\nからっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490031" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なっ、俺のせいなのか！？　というかキスの相手を決める投票じゃないんだ\nって！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「もういい、練習に戻ります！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490032" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、おい……っ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まーたご主人は余計なことを言う」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113490003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だってなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そんなことより、本当、どんな練習をしているんだろうな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「スプリングだらけの装置をつけて、終始パンツが丸見えの状態でしたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113490004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルルーナのやつ、あれをつけているにもかかわらず練習を飛び出してきたのか\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いったいどんな厳しい練習をしているんだ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0153" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「急に飛び出してごめんなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113490035" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ルルーナちゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ふむ、いい顔になりましたね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020113490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「なにかを掴んできたようですね。もう五分咲きというところでしょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020113490002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ルルーナさんの底力、見せてもらいますよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020113490003" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,425 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「お、おにーさん、今日こそはあたしとエッチしてもらうですよ！　今日こそ\nは、絶対にそのチンポをハメてもらうです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104101" ]},
+		{"command":[ "SETCHARA", "0", "char_00022104_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「無理するなって？　無理なんかしてねーですよ！　きっといつもより時間を\nかけてほぐせば、絶対入れられるはずですし！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104102" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「その作戦でいくか？　なんのことです？　ま、まあ、おにーさんがヤる気を\nだしてくれたってんならいいですけどね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104103" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……。んっ、くふぅ……、あぁ……ふぅ……はぁ……お、にぃ\n……んはぁ……んふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104104" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「いぃ……いったいいつまで、こうしてぇ……。んはぁ……オマンコ、弄り続\nけて……んっ、くぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104105" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「すっかり蕩けたなって……お、おにーさんの手で、何回オマンコをイかされ\nたと、思ってんですかぁ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104106" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「何度も潮吹きさせられて……はぁ、はぁ……も、もう、でねーですよ……。\nこれ以上、潮吹いたら……干からびちゃうってんですよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104107" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んひぃっ、ま、まだオマンコ……愛撫、するってんです？　んぁあっ、指ぃ\n……オマンコに、入ってきて……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104108" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「中ぁっ、おにーさんの指で、ぐりぐりっと……！　あっ、ああっ、マン汁ま\nたかきだされるです……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104109" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「も……もう、いい加減……あたしのオマンコに、チンポをいれやがれってん\nですよ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104110" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「もう我慢ならねぇってんです！　さっきから勃起チンポの匂いがプンプンし\nて、子宮がどうにかなりそーなんですよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104111" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「ふーっ、ふーっ、本当の本当に、ハメちまっていーんですから……！　んく\nぅ……っ！　そ、そーです……おにーさんの、チンポ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104112" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んくぅ……っ！　は、はいってくるぅ……っ！　おねえちゃんを堕とした、\n凶悪ケダモノチンポ……ッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104113" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「あたしのオマンコ、こじ開けられてるです……っ！　んぁあっ、あっ、息、\nできなくなりそう……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104114" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「な……なんです……？　血……？　そんなの、当然じゃねーですか……こっ\nちは、初めてなんですから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104115" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「で、でも……ちょっと息苦しいくらいで、全然痛くねーですよ……はぁ……\nはぁ……おにーさんは、どーなんです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104116" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「あたしのオマンコ、ちゃぁんと男の人のチンポを気持ちよくできるでしょう\n……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104117" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「ほ、ほら……我慢できなさそうな、顔してますよ……。お、おねえちゃんに\nやってるみたいに、腰振ってみたらどーです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104118" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「……くひぃん！？　ち、チンポ……奥ぅ……っ！　ちょっと動かれただけで\n、目の前がっ、ばちっと……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104119" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「イッたんじゃないかって？　な、なに言ってんですか、そんな簡単に、イか\nされるはずねーですよ。女の子に夢見すぎ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104120" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んひゃあぁっ！？　またチンポで、オマンコの奥っ、ごちゅっと……っ！　\nんはぁっ、ああっ、チンポ、出たり入ったりぃ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104121" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっと、もうちょっとゆっくり……んはぁっ、ああっ、チンポにっ\n、オマンコひきずりだされそうっ、んぉおっ、おふぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104122" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「な……なんで、途中で腰を止めて……。べ、別にへーきですよ。むしろ、ち\nょうど気分が、ノッてきたとこですし？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104123" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「だから、このまま続けていーですよ。まさかここまでやって終わらすような\n、腰抜けじゃねーでしょ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104124" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んはぁっ！　あぁっ、チンポがっ、また激しいのきてっ、んくぅっ、あっ、\nぶっといのいっぱい、中に感じるです……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104125" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「これが、チンポ……オマンコに、ごしごし、ごりごり、こすれる感じ……ん\nひっ、いっ、いい……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104126" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「熱いチンポに、お、オマンコかき混ぜられてっ！　マン汁、とまんねーです\nっ！　んぁあっ、おにーさんのチンポに、本気汁かきだされるですっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104127" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「な、なんですっ、みりゃわかるでしょーがっ！　き、気持ちいーんですよっ\n！　おにーさんのチンポ、すっごく気持ちいいんです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104128" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おねえちゃんを虜にしたチンポにっ、あたしのオマンコ蹂躙されて……っ！\n　ああっ、気をしっかり持たないといけねーのにーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104129" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おにーさんのチンポが気持ちよすぎるからっ、オマンコゆーこときかねーで\nすっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104130" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んぁっ、ああっ、このままおにーさんも、射精しそうです……？　はぁっ、\nはぁっ、いーですよっ、最後までちゃんと、オマンコしやがれですっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104131" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「はぁっ、あっ、ピストン激しい……っ！　ああっ、オマンコがっ、変になる\nっ！　おにーさんの形に、なっちまうですっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104132" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「こんなっ、こんなぁっ、ああぁっ！　ごりごりくるっ、ガッチガチの凶悪チ\nンポにぃ……っ！　んぁっ、はぁっ、ああ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104133" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「イクッ、イク……イかされる……っ！　おにーさんもっ、射精っ、あたしの\nおまんこに、だしちまってくださいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104134" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おねえちゃんを虜にしたチンポと、精液でぇっ、あたしのことも、堕としや\nがれってんですよぉ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104135" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「くひぃいいいぃぃぃいいぃぃ～～～～っ！！　きひっ、きひゃぁっ、ああぁ\nっ、精液ぃ……いっ、ひぃいいいぃぃぃ～～～～っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104136" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「せっ、精液っ、すごいぃ……っ！　オマンコに入りきらねーくらい、どびゅ\nどびゅ、容赦なく、中出し……くるぅ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104137" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んふぅっ、くふぅ～～……っ！　オマンコの奥に、チンポぐりぐりして……\nっ！　子宮の入り口に、精液、塗りたくられる……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104138" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「こ……これがぁ……おにーさんの、チンポぉ……。んふぅ……チンポ、すご\nいぃ……エッチ……すごすぎぃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104139" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おねえちゃんは、こんなの味わって……。はぁ……はぁ……こんな気持ちい\nいこと知ったら……も、戻れなくなっちゃうですよぉ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104140" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……。ちょ、ちょっと……おにーさん……。な、なに……チン\nポを抜こうと、してんです……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104201" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「１発中出ししたから、もういいだろうって……？　そ、そーですけど……。\nいや、そんなことねーです……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104202" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おねえちゃんから、聞いてます。おにーさんは、１発ヤッたくらいじゃ、ぜ\nんっぜん満足できないんだって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104203" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「あたしの中で、まだチンポが勃起してるじゃねーですか。こ、このチンポ…\n…このあとお姉ちゃんにぶちこむつもりじゃねーでしょーね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104204" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「あたしがおねえちゃんの代わりになるってんですから、このまま、もっとあ\nたしのおまんこに中出ししろってんですよ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104205" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「な、なんです？　勘違いしねーでくださいよ。あたしは、おねえちゃんの代\nわりにおにーさんの精液をうけとめてあげるのであって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104206" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「そのチンポにもっとイかされたいとか、もっとおにーさんとエッチしたいと\nか……そんなことは、微塵も思ってねーですから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104207" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「だ、だからほら……。さっきみたいにあたしのオマンコをずぼずぼ犯しやが\nれってんです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104208" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「……よぉっ！？　い、いきなりすぎるですっ、チンポ、動かすの……ぉおっ\n、おおぉおぉっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104209" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「チンポがまた、オマンコごりごりしてきやがってぇ……！　んひぃっ、オマ\nンコ痺れる……っ、さっきより、ずっと感じるぅ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104210" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「チンポ、チンポもっとぉ……っ！　んぁっ、ああっ、気持ちよすぎて、頭の\n中っ、おかしくなるです……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104211" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おっきいデコボコに、オマンコけずられるのも、硬い先っぽに、奥をゴツゴ\nツされるのも……気持ちいい……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104212" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「あ、あたしのオマンコも、おにーさんのチンポをぎゅぎゅぅっと締めつけて\n、はぁっ、はぁっ、おにーさんも、気持ちいーです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104213" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「あたしのオマンコ、気持ちいーんですねっ！　んぁっ、そんなはっきり言わ\nれると……へ、変な気分になっちまうです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104214" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「いっぱい突かれてる、オマンコの奥……子宮……っ！　じわじわ熱くなって\nきて……はぁっ、はぁ……チンポ、もっと感じるぅ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104215" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「チンポが膨らんで、んぁあっ、中で、イキたそうにしてやがります……っ！\n　あっ、あたしも……イク……また、イク……ッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104216" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おにーさん、このまま、あたしにまた射精するですっ！　おにーさんの精液\n、いっぱいだすですよっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104217" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「あーもーっ！　あたしの身体も、辛抱できなくなってるですっ！　おにーさ\nんに、イかされたくて、たまらなくなってるですっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104218" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おにーさんのチンポで、精液でぇっ！　あたしのこと、もう戻れなくなっち\nまうくらい、気持ちよくしてくだせーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104219" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「ああっ、ああっ、おにーさんっ、射精っ、射精ぇえっ！　いっぱい、おにー\nさんの精液で……い、イク……あたし、イクです、イクですぅううぅぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104220" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んひぃいいいぃぃぃいいぃぃいぃ～～～～っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104301" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「きてるですっ、きてるですっ！　中出し精液っ、あたしのオマンコに、あっ\n、ああっ、どびゅどびゅどびゅどびゅぅううぅぅ～～っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104302" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んひっ、ひぃぃっ、イクイクッ、んイクッ、イッくぅううぅぅ～～っ！！　\n子宮に精液っ、いっぱい注がれてるですぅ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104303" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「ま、まだでるです！？　どんだけ射精して……んひっ、はひぃんっ！　チン\nポ震えるたび、射精して……んぁあっ、イかされる……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104304" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んぁあっ、もう入らねーですって！　オマンコもう、精液でいっぱいいっぱ\nいになってるってんです……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104305" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「でも精液……注がれるたびに、めちゃくちゃに気持ちよくなって……っ！　\n頭の中、真っ白になっちまいますよぉ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104306" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……。おにーさん……ずいぶんと好き放題、あたしのオマンコ\nに、中出ししてくれやがりましたね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104307" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「怒ってるわけじゃねーですよ……。あたしは、おねえちゃんの代わりとして\n、これからおにーさんの性処理をするわけですし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104308" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「そうじゃなくて……エッチが……中出しが……こんなに気持ちいいって、あ\nたしの身体に刻み込まれちまったです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104309" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「おにーさんのチンポなしでいられなくなったら、責任はしっかりその身体で\nとってもらいますから、覚悟しておくですよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104310" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んはぁあああぁぁぁああぁぁあぁ～～～～っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104401" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「い、いまチンポ抜かれたらっ、精液がぁ……っ！　いっぱいあたしの身体に\nぃっ、か、かかる……っ！　んぁっ、あっ、ぶっかけぇ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104402" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「ああっ、ああっ、イクイクイクイク……ッ！　アツアツドロドロの精液浴び\nながらイクです……イッちまうですよぉおぉっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104403" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んぉおっ、おおっ、濃くてネバネバの精液ぃ……っ！　全身、おにーさんの\n精液で、ベトベトになっちまうですぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104404" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「こんなのぉ……おにーさんに全身犯されちまってるみてーで……。頭、回ん\nなくなる、ですよぉ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104405" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「んひゃっ、ま、まだでるってんです！？　どんだけ……んぁっ、ますます身\n体……精液まみれにされて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104406" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「このいやらしい匂いだけで、発情するような身体にされちまいます……んぁ\n……はぁ……おにーさんの匂い、とれなくなるですよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104407" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「な……なんです……？　あたしのオマンコが、どーかしました……？　ぱっ\nくりひらいてるの、誰のせいだと思ってんですか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104408" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「あたしのオマンコ、すっかりおにーさんのチンポの形になっちまったんです\nからね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104409" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "リン＝クァー" ]},
+		{"command":[ "SETTEXT", "「これからはこのオマンコで、おねえちゃんの代わりに性処理してやるです…\n…。か、覚悟、しやがれってんです……よ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_293_0104410" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,244 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……ちゃん……いちゃん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115230001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「おきてください、お兄ちゃん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115230002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃん……って……？　んー……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0193" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「やっと起きたの？　これだから大人は」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115230001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……んんっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、お前ら……ロッテとクララ……なのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「にゃふふ♪　そーだよお兄ちゃん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115230003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「見てわからないの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115230002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だってお前ら……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんか小さくなってるじゃねーか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「それについてはアタシが説明するわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「誰だ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「隊長、初めまして。アタシはミヤビ。機械化帝国スペースネットの第三世代\nよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「スペースネット……って、たしかロッテとクララが生産された？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「そうそう。で、どうしてこの子たちが小さくなっているかの説明だけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、それを聞きたかったんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「簡単に言うと、いま彼女たちのボディはロボドックを受けているの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「それで整備中の間、内部ＡＩをこのアーリーボディに移したってわけ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「アーリータイプはもとのボディほどの出力はだせないんだけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まてまてまて！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「……ん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230007" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ロボドックだのアーリーボディだの、専門用語が多すぎる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もうちょっと俺にわかりやすく説明できないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「あらごめんなさい。アタシったらついね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「うーん、人間にもわかりやすくかー……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230009" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「そうね。クララとロッテは車検を受けていて、その代車としてアーリーボデ\nィの彼女たちが来た……ってところかしら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230010" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「でも、車検のときの代車と違って、中身は元の彼女たちと一緒よ。見た目が\nちょっと幼くなってるだけだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……なるほど……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「なんだかまだ納得いかない感じね。けっこういい例えだと思ったんだけど…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230012" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115230004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「見た目はちっちゃくなっても、ぱーふぇくとにお世話しますので、ふんすっ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115230005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「まあ……そういうこと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115230003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ちゃんと仕事するから……。てか、あんまりこっち見ないでよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115230004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいミヤビ。ボディが変わったのはわかるが、性格まで変わってないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「若干ね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230013" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや若干ってレベルか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「まあとにかく、アーリーボディは本来の彼女たちの機体よりデリケートだか\nら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「トラブルが起きても対処できるように、整備士のアタシもついてきたってわ\nけ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、整備士だったのか。ロボがロボを整備する……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「人間のお医者さんだって人間でしょ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、言われてみればそうか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「ほんの数日間の辛抱だから、よろしくね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115230017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあ……そうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「きちんとおせわしますね、お兄ちゃん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115230006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「まあ……やることはやるから、兄さん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115230005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,195 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0139" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「……はい♪　これで健康診断は全て終了いたしました♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "嬉しそうな声が聞こえ、人妻達がどっと歓喜の声をあげた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「あ～♪　ようやく解放されたぁ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「済んでしまえば……もっと早くに終わらせておけばよかったと思ったわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「何事も、手をつける前が一番億劫というわけですよね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やれやれ……。無事に終わって良かったぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ホッと安心していた俺を見つけるなり、人妻達は手にした小さな紙を手渡して\nきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「あ……、隊長。これ……受け取ってくれる？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「私の連絡先。さっき、皆で書いておいたの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022240003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「もし良かったら……ぜひ連絡してね？　待ってるから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「一人で寝るのが寂しい時には、すぐ教えてね。少しの間なら……家をあける\nことも出来るから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「モテモテですな、ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや～。いつもこうだと嬉しいんだがな～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「隊長さん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、は、はい！？　なんでしょうか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "一瞬、ホズミ先生の声がおねだりトーチャーに重なって、震えあがってしまう\n俺。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんな俺に近付くと、ホズミ先生はその豊かな胸に俺をそっと抱き寄せてくれ\nた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「今日の一番の功労者さんに、約束のご褒美がまだでしたよね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「よーしよし、いいこ、いいこ……♪　わたし、すっごく助かりました……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240005" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ホッ……。怒ってなかった……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「怒る？　わたしが？　どうして？……あなたには感謝しかありませんよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それならホントに良かったです。あああ……柔らかなこのぬくもり……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「ふふふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「でも、これを持って帰るのはいけませんよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "シュバッ、と目にも止まらぬ素早さで奪い取られる……人妻達の連絡先。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、ああっ！　俺の団地妻ハーレムが！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "嘆く俺を目の当たりにしても、ホズミ先生はにこにこ可愛く笑っているだけだ\nった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「個人情報はダメですよ。守秘義務がありますからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240009" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「今日のあなたは、わたしと衛生科のお手伝いをしていたわけですから。こう\nいう事は困ります♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022240010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「う、ううう……っ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の耳元に囁き、離れていくホズミ先生。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その姿はあまりにも堂々としていてつかみどころがない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ト、トーチャーとホズミ先生……どちらが本性なのですかねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「女はわかんねぇ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "唖然とする俺達を後にして、美貌の女医はその場を去っていったのだった……\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

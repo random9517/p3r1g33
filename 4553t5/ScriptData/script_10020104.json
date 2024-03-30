@@ -1,0 +1,54 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0108" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「貴様らがモタモタしているから、こういうことになるのだろうが！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113040001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なにをー！？　だいたい、手際が悪いのは貴様らだろう！　あれっぽっちの\n襲来者（インベーダー）に、なにを手間取っていたんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010113040001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「脳まで筋肉だからそういうことになっちゃうんだよ！　ちょっとは頭使え！\n　頭！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010113040001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「誰が脳まで筋肉だ！？　脳まで筋肉はおまえだろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113040002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「だから！　お姉ちゃんもルナテミスさんたちも、もうやめてーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010113040001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0109" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "修羅姫とルナテミス" ]},
+		{"command":[ "SETTEXT", "「うるさーいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010113040002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、いうわけで、めんどくさい女幹部どもがまた乱闘を始める。いつものこと\nだ。ここのところ、毎日のようにこんな騒ぎが起きている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "はぁ……ホントに、心底めんどくせえ……！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

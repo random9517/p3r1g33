@@ -1,0 +1,125 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+        {"command":[ "SETIMAGE", "0", "bg_0004" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },
+        {"command":[ "FADEOUT", "NORMAL" ]},
+        {"command":[ "PLAYBGM", "BGM_015" ]},
+        {"command":[ "WAITMOVE" ]},		{"command":[ "PLAYVOICE", "103_0103101" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あのー……呼び出されたから来たんだけどさぁ、一体何？　まあ、ボク、忙\nしいわけじゃないけど、自分の時間は大事にするタイプなんだよね」", "NORMAL" ]},
+        {"command":[ "SETCHARA", "0", "char_00010301_01", "0", "CENTER", "0" ]},
+        {"command":[ "DISPCHARA", "0", "TRUE" ]},
+        {"command":[ "SPOTCHARA", "0" ] },		{"command":[ "DISPNAME", "TRUE" ]},		{"command":[ "DISPTEXT", "TRUE" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103102" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「へぇ？　一緒にトレーニングぅ……？　うーん……そーいうの、好きじゃな\nいなぁ……やらなきゃ駄目？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103103" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「疲れるの、好きじゃないし……え？　疲れない？　むしろ楽しい？　ふ～ん\n……じゃあ、やってみてもいいよぉ？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103104" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「へ？　恥ずかしいことをするけど、それがトレーニングになるの……？　よ\nくわかんないけど、まあとりあえず始めてみようよぉ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00010301_01", "2", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103105" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「……どうして、おちんちん出したの？　ねえ、こんなの出してどーする気ぃ\n？　ねえ、まさか……ひょっとして──」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103106" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「……もう、本当にこんなことさせるなんて、信じらんない。こーいうのセクハ\nラって言うんだよ？　知ってるぅ？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_02" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103107" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん……あぁん、動かさないでぇ……顔にピタピタあたっちゃう……。あうぅ\n、変な匂いがするぅ……くんくん、くんくん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103108" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「え？　臭いかって？　うーん……想像よりは臭くない、かな？　でも全然匂\nいが無いわけじゃないけどね」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103109" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「それで？　ボク、これをどうしたらいいの？　このまま、お顔でスリスリす\nればいいの……？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103110" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ええ～～……お口でぇ？　うーん……でもトレーニングなんでしょう？　ま\nあ別にいいけどさぁ……んー……はぁむ──」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103111" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「れろ、れるれろ、ねる、れろん……んひゃぁ、変な味ぃ……これがおちんち\nんの味なのぉ？　うわー……頑張ったら、なんとか食べられそうだね……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103112" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ねるん、にゅるれろ、んちゅ……ん？　ああ、ホントに食べたりしないよぉ\n……んちゅ、ねろれろ、にゅるる……でも、噛み付くぐらいはしたいな……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103113" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「え？　だめ？　れろん、ぬるる、ちゅぬぅ……いいじゃん別に……怪我させ\nないからさぁ……え？　絶対駄目？　うーん、ケチぃ……れろれろ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103114" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ぴちゃ、ぬる、れろん、ぬるぬる……んふぅ……それで？　こうして、ずー\nっと舐ればいいの？　れろれろ、んちゅぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103115" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ふえぇ？　もっと全体的に舐めるの？　ふーん……まあいいけど……じゃ、\nいっくよー……せぇの──」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103116" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んれろ、れろれろ、先っちょ……すべすべして、舐めてて気持ちいい～……\nんちゅねる、れろん、にゅるる、ぴちゃぁ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_03" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103117" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ねろ、ねろねろ……んん、この膨らんだところ……れろれろ……その下のく\nぼみ……んんぅん、味と匂いが濃くなってる……ねる、ぬれろぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103118" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん、んん、ねるん、ちゅぅ、れるぬるるぅ……んふぅ、ここ、裏筋って言う\nの？　ふ～ん……れろろろろ……うふふ、気持ちよさそうだねぇ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103119" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん、んん、はあ……先っちょのくぼんだところ……少ししょっぱくなってる\n……れるれる、ねるる、にちゃ、れろぬるぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103120" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「これ、我慢汁って言うんだぁ……ねるれる、ちゅぬ、れろれろん……んふふ\n、ネトネトしてて、ちょっと美味しいかもぉ……？　ふふふ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103121" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「はぁ……舐めてるだけじゃ、我慢できなくなってきちゃったぁ……んはぁあ\nむ、むぐ、もごもご……れる、にゅる、ちゅちゅる、れろん……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103122" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あはぁ……おちんちんが口の中で、いっぱいになってるぅ……ねるん、にゅ\nるにゅる、ちゅぼ、ちゅるじゅるぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103123" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あむ、むぐ、もごもご、むぐぅ……んふふ、美味しい……これ、楽しいねぇ\n……どんどん口が動いちゃうぅ～～……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103124" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん？　え？　もっとゆっくり……？　あぁん、でも、口が勝手に動いちゃう\nの……ねろれろ、むぐ、じゅぼ、ちゅぶぐちゅ、ちゅぼぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103125" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あはぁ……はぁ……え？　なぁに？　おしゃぶり音で、よく聞こえない……\nちゅぶじゅるじゅぼぉ……ぐじゅじゅぼ、ちゅちゅじゅぼぉ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103126" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あはぁ……隊長、気持ちよさそう……れろにゅる、ぐちゅじゅぼぼ、ずるれ\nろ、ずずちゅぼちゅぐつぅ……はぁ、んんぅん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103127" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「おちんちん味と、おちんちんの匂い……はぁ、はぁ……くせになっちゃうか\nもぉ……ねろれろ、ぬるる、ちゅぼぐちゅ、ぴちゃくちゅぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_03" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103128" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん、んぐぅ……んはぁ、根本まで入っちゃい、そう……んぐ、ぐぶぅ、じゅ\nぼじゅぼ、ぐぼぉぉ……ングっ、げほ、ゴホっ……はぁ、はぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103129" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あふぅ、苦しかったぁ……ああん、涎がこんなに溢れて……あぁん、ボク、\nなんだかすごくエッチだよぉ……んちゅ、れろ、れろれろ、ねろん……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103130" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん、れろ、ぬるぅ……はぁ、ふぅ……隊長、おちんちんがビクビクしてるぅ\n……ねぇ、一体どーしたのぉ？　あむ、むちゅ、れろ、ねろん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103131" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「イキそう？　じゃ、もっと激しくしてあげる……んちゅ、ちゅぶちゅぶ、じ\nゅぼれろ、ぬる、んちゅちゅるじゅるぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103132" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「イクと、おちんちんから何か出すんだよね……？　ぴちゃ、ぴちゃぴちゃ、\n出したいの？　れろれる、ぬるれる、ちゅぬ、ぴちゃぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103133" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「え？　ちょっと待って……だって？　どうしてぇ？　れろれろ、ぬるん、ん\nふふ……待たないよ～だ……じゅるれろ、くちゅ、ちゅるじゅるぅ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103134" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んあむ、ちゅぼじゅる、れろちゅろ、ずる、ずるぢゅるるぅぅぅ……ん？　\n何？　我慢、できない……んふ……ちゅるじゅるれろぉ……！！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103135" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ひゃ！？　ひゃぐっ、んぐ……んっ、んん……げほっ、ごほっ……はぁ、は\nぁ、んん、んんん～～～……ゴクン……」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103136" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「はー……はー……んぁむ、ちゅる、れろれろ、んぁあ、やぁん、いっぱい出\nてるぅ……うぇぇ、ごほぉっ……やだぁ、出しすぎだよぉ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103137" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んぁむ、ちゅる、れろれろ……んちゅぬる、ゴクン……んん、はぁ……はぁ\n……あぁん、これが、せーえきぃ……？　うえぇ、変な味ぃ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103138" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んふぅ……はぁ、はぁ……あはは、まだジンワリ、染み出してる……んちゅ\n、ちゅる、ちゅぞぞぞぞ……ゴクン……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103139" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あはぁ……変な味だったぁ……これで終わりぃ？　んー……これ、ほんとに\nトレーニングなの？　よくわかんなかった……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103140" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……少し疲れちゃったぁ……え？　もうちょっと続ける？　ん\nー……まあ、いいけどー……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103201" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん～～はぁむ……んちゅ、れろ、ねろねろ……んふぅ、精液の味が、いっぱ\nい残ってる……れろ、ねろれろ、にゅる、んちゅぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103202" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「え？　味がしなくなるまでペロペロすればいいの？　うん……いいよ……れ\nろ、にゅるる、ちゅぬ、くちゅ、れろれろねろん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103203" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん、んん……んあぁむ、もごもご……んちゅ、ちゅぽん……んふぅ、精液味\nって不思議～……変な味なのに、あんまり嫌いじゃないんだよねぇ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103204" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ねるん、れろれろ、んちゅぅ、ちゅるる……んふぅ、まあ、好きってわけじ\nゃないけどね……ふふ、ねるれろ、ぬるる、ちゅぬん……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103205" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「れろ、ねろねろ……んはぁ、精液味、まだオチンチンに残ってるぅ……んれ\nろ、れろ、ここ、この傘の下のくぼんだ溝のところ……ん、んん、れろん」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103206" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「はむ、んちゅ、れろれろ……はぁ、ふぅ……この裏筋のところも味がする…\n…滴って、垂れていっちゃったんだね、きっと……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103207" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ねろ、れろれろ……んふぅ、オチンチンの根本……毛の生えたところに精液\nの塊はっけーん……ん、んん、ちゅるる、ゴクン……んふぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103208" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「はぁ……うふふ、精液探し、ちょっと楽しい……ん？　これ、お掃除フェラ\nっていうんだ……ふーん……憶えておくね？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103209" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「れろ、ねろぬちゅ、ぴちゃ、れろれろ……はぁ、んん……すっかり精液味、\nしなくなっちゃったぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103210" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「う～～ん……なんだか寂しい……れろ、れろぬるる、ちゅちゅる、ねえ、次\nの射精、まーだぁ？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103211" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「えー、まだもうちょっと掛かるの？　ふ～ん……じゃあボク頑張るぅ……れ\nろ、にゅるる、じゅぼ、じゅるれろ、ちゅちゅぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103212" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「はぁ……んん、早く、射精、しないかなぁ……れろぬるる、もごもご、じゅ\nぶ、れろぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103213" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん？　やっぱり精液好きなのか、だって？　ううん……違うよぉ……れろれ\nろ、ぴちゃん……んん、ちゅぽ、じゅぼぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103214" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「慣れてきて、平気にはなっちゃったかなぁ……ねろれろ、ぬるる、ちゅぶっ\n、ぴちゃぁ……はぁ、んふぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103215" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「むぐむぐ、れろ、んはぁむ……でも、射精するところを見るの、ちょっと楽\nしかったんだよねぇ……れる、んぁむ、もごご、じゅるるぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103216" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んぁむ、むぐ、ちゅぼじゅぶぅ……んふふ、早くピュッピュしないかなぁ…\n…ねるん、ぬちゅ、ぴちゃ、ちゅちゅるぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103217" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あむ、んちゅ、れろ、れるれる……ん、んん～～？　段々おちんちん味が、\n濃くなってきたぁ……ぬちゅ、ぴちゃん、ちゅるちゅる、ねろぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103218" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あぁん、口の中がネトネトして来ちゃったぁ……あはぁ、これ我慢汁でしょ\n？　ボク、この味は、結構好きかも……ねるる、ちゅちゅるぅぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103219" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「これって、そろそろイキそうってこと……だよね？　ぬるれろん、ちゅちゅ\nる、ぴちゃ、ちゅくちゅく、じゅるずぼぉぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103220" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「はぁ……いいよぉ……出してぇ……ボクに気持ちいいの、いっぱいちょーだ\nぁい……ちゅる、じゅずずる、ちゅぶじゅるるぅぅぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+		{"command":[ "LABEL", "LABEL1" ]},		{"command":[ "PLAYVOICE", "103_0103301" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んんぅ！？　んぶっ……んっ、んぐぅ、ゴク、ゴクゴク……んふぅ……はぁ、は\nぁ……あふぅぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103302" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んぐぅ、んん、んん～～……ゴクン……はぁ、はぁ……あぁ、いっぱい出て\nぁ……はぁ、ふぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103303" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あぁん、まだ出てる……んちゅ、ちゅるる、ずるぅぅ……ゴクン……はぁ、\nふぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103304" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「うう、変な味ぃ……シャンプーが口に入った時みたいな味ぃ……んん、それ\nに、この匂い……はぁ、はぁ……すごい味ぃ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103305" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「口の中にねっとり絡みついてる……ん、はぁ、なかなか飲み込めない……あ\nうぅ……喉の引っかかる……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103306" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あはぁ、まだ出てる……精液、じわー……って滲んでる……れるん、れろれ\nろ……ちゅるる、ずる、ちゅるるるぅ……ゴクン……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103307" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ふぅ……やっと射精が治まったぁ……あはぁ、隊長さ、いっぱい出したね…\n…ボク、お腹がチャプチャプしてるよぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103308" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んふぅ……息が精液の匂い……はぁ、はぁ……あはは、胃の中で妊娠しちゃ\nいそうだよぉ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103309" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん、ふぅ……少し顎が疲れちゃったぁ……ねえ、隊長、もう満足してくれた\nぁ？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103310" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あはは、そう……よかったぁ……精液飲ませてくれて、ごちそう様♪　けっ\nこう楽しかったよぉ。じゃ、またね……隊長──」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "PLAYVOICE", "103_0103401" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ひうぅ！？　はぁ、んん……あふぅぅぅ……顔が、精液でいっぱいになって\nる……ん、ふぅ……あはぁ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_12" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103402" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「うわぁ……精液、さっきより多いぃ……はぁ、あはぁ……こんなに出すだな\nんて……隊長って、ほんとすごいねぇ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_11" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103403" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んぶっ、げほっ……はぁ、ふぅ……鼻の中に入ってきちゃったぁ……ああん\n、匂いがすごーい……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103404" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ああ、もう……酷いんだからぁ……顔が溶けちゃったみたい……こんなにド\nロドロになっちゃたぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103405" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ん、んちゅ、れろれろ……ずるるぅ……ゴクン……はぁ、ふぅ……精液の味\nぃ……ああ。なんだか頭がじんじんしちゃうぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103406" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「あはあ……まだ、オチンチンから精液、滲んでる……トロトロが奥から溢れ\n出してくるよぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103407" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「……ふう、髪の毛までビチャビチャになっちゃった……はぁ、ふぅ……顔が\n重たいよぉ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010301_01_10" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103408" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「わぁ……見てぇ……顎からつららみたいに垂れ下がってる……うわぁ、胸元\nに垂れてる……うふふ、ボクぅ、すごくエッチだよぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103409" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「んふふ、なんだか興奮しちゃうねぇ……精液ってすごくエッチぃ……はぁ、\nはぁ……うふふ、で、隊長……もう満足できた？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "103_0103410" ]},		{"command":[ "SETNAME", "急" ]},		{"command":[ "SETTEXT", "「ふーん、よかったー。もう顎が疲れちゃったぁ……はぁ、じゃボク、顔を洗\nってくるねぇ。隊長、結構楽しかったよ……またねぇ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

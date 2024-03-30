@@ -1,0 +1,174 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0184" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「本当に正直に話すの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「まあ……そうするしかないよなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ホープちゃんには悪いけど、お宝は見つからなかったもの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「見つかったって嘘の報告をするわけにもいかないだろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そういうのは、すぐにバレますからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「それで、インクレディブル・スクワッドの皆さん。秘宝は見つかりましたか\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「いや……その……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「申し訳ないが、見つけることはできなかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「そう……ですか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115620002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時間帝国まであらわれて、こっちは大変な目にあったんだ。探索どころじゃ\nなかったんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「仕方ありませんね。ですが、時間帝国に秘宝が渡らなかっただけでもよしと\nしましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115620003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "依頼は達成することができなかったが、時間帝国に介入されたことを理由に大\n目に見てくれるみたいだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「……しかし、契約違反には違いないので、ちょっとしたペナルティは受けて\nもらいます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115620004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ええっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0184" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "レディ・ホープから受けたペナルティとして、俺たちは次元管理統制局の掃除\nをさせられていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちくしょう……。結局こんな目に遭うのかよ……。いつもどおり軟禁される\n展開の方がよかったぜ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ぼやいていると、レディ・ホープがやってきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「カツマさん、あなたたちは本当は秘宝を手に入れているんです。……いずれ\n、あなたたちも気づくでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115620005" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "意味深に笑いながら、俺に衝撃の事実を告げた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なっ！？　俺たちが秘宝を手に入れているなら、どうして掃除なんか……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「これは、長官にわたるはずだった５０００兆円の分ですから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115620006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「長官ぅうううぅぅぅっ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺たちに内緒で、レディ・ホープと変な取引をしてやがったなぁっ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ぶぇえええっくしょぉおおい！！　こなくそぉっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010115620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「誰か私の噂をしているな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010115620002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「はぁ……。それにしても５０００兆円、欲しかったなぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010115620003" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "FALSE" ]},
+	    {"command":[ "DISPNAME", "FALSE" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_3_007.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+
+		{"command":[ "EXIT" ]}
+
+
+
+	]
+}

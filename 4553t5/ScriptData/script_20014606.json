@@ -1,0 +1,274 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おぁぁぁぁぁぁぁぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あだっ、いっつつ……ぐっ……おぉっ……いってぇ……あ……あれ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ハッと目を開けると、なんとも見慣れた天井が目に入る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "傍らには、愛用の椅子が無造作に転がっており、そこから転げ落ちたことがす\nぐに分かった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今のは……夢か？　何か、めちゃくちゃ色々あったような気がしたが……そ\nうか、夢か……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しかし、高いところから落とされて目が覚めるか……何か、前にもこんなこ\nとあったような……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おや、ご主人……まーた、椅子から転げ落ちたんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「大丈夫ですか？　もうすぐ作戦時間だというのに、相変わらずぼんやりして\nますね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110023140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュンジローに、ハルノブ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「作戦……そ、そうか……もうすぐだったっけな。えぇと、今日の出陣メンバ\nーは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「遅いぞ、カツマ。母の準備は全て完了しておる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、はいっ、申し訳ありませんっ！　って……刻の女王っ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「何をしておる。出陣だろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023140002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、あー、仲間……だったっけ？　えっ、あっ、うん」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「全く……隊長が遅いと示しがつかない……もっとしっかりしてくれなきゃ困\nる……カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010023140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おぉ、すまん……って……カグヤ……お前も、今日のメンバーか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そうだけど……私がメンバーだと何かおかしい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010023140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、いやいや！　全然……そんなことはっ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ほら、シャツがはみ出てる。身だしなみもきっちりして」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010023140003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わ、分かったって……何だよ、急に世話焼きだな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「別に……急にって訳じゃないし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010023140004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「ふん、あまり大っぴらに見せつけるものではないぞ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023140003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ご、ごめんって。ほら、カグヤ、怒られただろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「代わりに母が包み込んでやろう。さあ、遠慮なく母の胸に飛び込んでくるが\nよいぞ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "6", "CENTER", "0" ]},		
+		{"command":[ "PLAYVOICE", "v2_201_010023140004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ？　わぶっ……ちょっ……あのっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「うわああっっ……遅刻、遅刻っ……！　遅くなりましたっ……と、きゃああ\nあっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010023140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ほぐううっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「あっ……ご、ごめん……ぶつかっちゃった……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010023140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いや、大丈夫だが……気をつけてくれ……後、おふくろは……巧みに俺\nを盾にしないでくれ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「すまぬ、なかなかの勢いだったのでな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023140005" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「ふはぁ……でも、ギリギリ間に合ったぁ……今日の作戦これからだよね……\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010023140003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ってことは、グリムロックもメンバーか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「ど、どうかした？　何か私に至らない点が……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010023140004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……いや、そういう訳じゃない。ただ、その……偶然、だよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「偶然？　何のことかな……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010023140005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、何でもないんだ。変なこと聞いて悪かったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「そっか。じゃあ、え、えっと……作戦任務よろしくお願いします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010023140006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう、よろしく」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「で、今日の成果次第では、カツマ君が専属の部下になってくれるってことで\nいいのかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010023140007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「そうだな。私が勝った場合は、私がカツマの嫁になるということだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023140006" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「二人とも……あの話は、ココではご法度……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010023140005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おいっ、今のっ……！　夢の話じゃなかったのか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ほら、カツマ、もうそろそろ時間。早く出撃しないと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010023140006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「うむ、準備も済んでいるのに遅れたのでは、戦果にも影響が出るからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023140007" ]},
+		{"command":[ "SETCHARA", "0", "char_00020101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「ほらカツマ君、出撃だよ……もし活躍した時はいろいろ考えておいてね……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010023140008" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから、何の話をしてるんだよっ！　やっぱりアレは夢じゃないってのかっ\n！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、遅れますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュンジローっ！　お前も何か知ってるんだろぉっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「目覚めた先も夢なのか……それとも、もう一つの可能性の話なのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110023140003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ふふ……また翻弄されているみたいですね。つくづく学習できない人です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110023140004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「まぁ……それがいいなんて物好きが、いっぱいいるからこそ、あんなことに\nもなるんでしょうけどね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110023140005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「なんて……自戒しなくてはならない話も甚だしいですね。さて、私も出撃準\n備をしないと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110023140006" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

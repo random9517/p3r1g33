@@ -1,0 +1,247 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「それでは調査をお願いします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ということらしいぜ。どうする？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「報連相」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「おひたしは好きですよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「誰が食べ物の話をしているか！　何の依頼かをきちんと伝えろと言っている\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780002" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「怒りっぽいのはカルシウムが少ない証拠です。そうそう、カルシウムといえ\nば昔のほうれん草の鉄分量はほぼ鉄鍋によるもので……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780003" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……なんか本気でブチ切れそうだからいい加減話したほうがいいぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あとそれでも100グラムあたり3.7mgもあるから十分に鉄分が豊富だ\nな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ほうれん草などどうでもいいといってるだろ！　用件を言え！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780003" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ではカツマさんもいらっしゃることですし、ちょうどいいですわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780004" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うわ、嫌な予感がしてきやがった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「それでは改めまして……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780005" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「実はクリスタルコンチェルンが出資しているファミレスがあるのですが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「お前らが出資している……となるとクリスタルミラーズといったか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780004" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「よくご存じで。どうもそのファミレスの従業員に私達を狙った襲来者（いた\nずらずき）が紛れ込んでいるという噂を耳にしまして」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780007" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ぜひ、その調査と退治をお願いしたいのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ＥＤＯは便利屋じゃないぞ。そこまで掴んでいるのだろう、自分の店の調査\nぐらい自分でやったらどうだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780005" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「はっ、ほうれん草談義よりよっぽど有意義だろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「襲来者の撃退はあなた方の仕事でしょう？　まぁ、そちらの実力次第ですけ\nど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780009" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「なにぃ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780007" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「私達との繋がりを強くする好機です。ふふ、そちらにとっても悪い話ではな\nいと思いますが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780010" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ちっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780008" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「では、期待していますよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022780011" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「今度潰す」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780009" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やばい、さらっとヤバイ本音が出ている。厄介なこととなる前に退散したほう\nが良さそうだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ふー……気に食わんが襲来者の情報が本当ならば仕方ない。インクレディブ\nルスクワッドの出撃準備をしろ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780010" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ちなみに聞かなかったフリして逃げたら即懲罰だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぐっ、ちくしょう……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はー……へいへい分かりましたよ。で、今回の任務は誰と行けば良いんだ？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「こちらからはお前一人でいい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は！？　単独任務ってことか！？　相手の人数が分からないところへ！？　\n俺一人で！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「とうとう俺を殺す予定でもできたか！？　横暴とかそんなちゃちなもんじゃ\nあねぇ、もっと恐ろしいものの片鱗を――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「心配するな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780013" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いつも心配しかねーわ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「鋭い返しをしてくるな……。とっておきの助っ人を送ってやる。だから安心\nして任務に励め」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……助っ人って？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「まぁそれも今から頼むんだが、もしダメでもお前一人でやれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780015" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい何さらっと酷ぇこと言ってんだよ！　大体あんたこそいつも報連相でき\nてねーじゃねーか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「もしもし？　ああ、私だ。一つ頼みたいことがあってな。――そうだ、そち\nらも事情は把握しているということか、ふっふっふ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780016" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うっわ、なんか悪巧みしてる邪悪な顔だ……。一体誰に連絡してんだか……", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「そうだ。せっかくだから派手にやってくれ。Ｂ級映画感溢れる展開で頼む。\nじゃあな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780017" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや何言ってんだ！？　Ｂ級って大体最後爆発オチって相場が――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「よし行け！　そして見事爆発の海に沈めてこい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022780018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くっそ！　最後まで言わせてくれねー！　ていうかやっぱり爆発するのかよ\n！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうして今日も（毎度のことながら）嫌な予感しかしない任務に出撃するのだ\nった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

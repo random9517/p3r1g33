@@ -1,0 +1,275 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0184" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……次元管理統制局での監禁生活とも、今日でお別れかぁ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「ご不便をおかけしたことは、お詫びしておきます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、別にそんなに不便でもなかったぜ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "正直最初はビビったけど、身の危険がないとわかったらメシ付きの休暇みたい\nなもんだからな。なんてことを考えつつ、統制局を出てみると……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カグヤ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「よかった……元気そうで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まりあも……それに、姫様やみんなも！？　も、もしかして、俺を迎えに！\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふ、ふん！　人質がちゃんと解放されたかどうか、確認に来たまでだ！　貴\n様の身の上など、これっぽっちも心配しちゃいないぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふふっ、それにしては、今朝からずいぶんそわそわしていたがな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ア、アナザー！？　余計なことを言うなぁーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114810002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうですか……それは……どうも」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あ、やべ。なんだろ。急に鼻の奥がツーンと……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「にいさま……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……？　翔生子も来てくれたのか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「はい、にいさま……！　おつとめ、ごくろうさまです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114810002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、ああ……どうもな。気持ちはすごく嬉しいんだが……そのあいさつはや\nめとこうか。なんか誤解を招きそうだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「えええええっ！？　でも、ほむらさんがこう言えと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114810003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "翔生子になにを吹き込んでんだ、あいつは……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「おう、カツマぁ。よう帰ってきたのぉ。別荘暮らしはどうじゃった？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004999_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、あんたもこのノリですか！　しかも声まで作って！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「いや、ノリはともかく声は違うんだ……ここ何日か、風邪気味でなぁ……ゴ\nホゴホ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010114810002" ]},
+		{"command":[ "SETCHARA", "0", "char_00004999_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それで長官はリモート勤務というわけですぞ。ＥＤＯ本部内に、風邪が大流\n行しては困りますからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほどなあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「風邪はともかくぅ！　どうなのよ、カツマちゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうってなにが？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「刻の女王に決まってるじゃないの！　カツマちゃんのママちゃんなの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114810002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「そうだよ！　あたしらさんざん、その件で振り回されてるんだからね！　ホ\nントはどうなのか、教えてもらわなきゃ割りにあわないよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、そう言われてもなあ……そんなこと、俺にわかるわけないだろ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマも私も、親のことなんか覚えてない……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114810002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「あ！　ご、ごめんなさいね……。時間帝国のこととかレディ・ホープちゃん\nのこととか、いろいろあったから気になっちゃって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114810003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、いいんだ。気持ちはわかるしな。っていうか……時間帝国っていった\nいなんなんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルミナス" ]},
+		{"command":[ "SETTEXT", "「そこは、私から説明しよう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_040114810001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015604_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、張り切ってんな新入り。それじゃ、説明してもらおうかな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルミナス" ]},
+		{"command":[ "SETTEXT", "「うむ。すでに聞いているかとは思うが、『時間帝国』とは多元宇宙に流れる\n時間を管理、維持する組織だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_040114810002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015604_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルミナス" ]},
+		{"command":[ "SETTEXT", "「彼らがいつから存在しているのか、今となってはそれを知る者すらいない。\n一説によると、刻の初めから存在しているとかいないとか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_040114810003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ホントかあ？　うさんくせえ話だなあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルミナス" ]},
+		{"command":[ "SETTEXT", "「まあ、その辺はただの噂だ。とにかく時間帝国の目的はただひとつ。『刻の\n流れ』の法則を守り、維持すること」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_040114810004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……悪いことのようには聞こえねえな。なんでそんな連中が、襲来者（イン\nベーダー）を使って地球を狙うんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「そこが大問題なんです。彼らは『刻の流れ』を守るためならどんなことでも\nやります、ですが――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114810004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「どの『刻の流れ』が正しいのかは、時間帝国にしかわからないんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114810005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんじゃそりゃ！　やり放題ってことじゃねえか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルミナス" ]},
+		{"command":[ "SETTEXT", "「ああ。そう考えるものは多い。だから、時間帝国に敵対するものは多元宇宙\nの中にも数多く存在するが――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_040114810005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015604_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「相手がデカすぎて、どいつもこいつも苦戦してる、ってことか……。面倒だ\nなあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それに、そうなると時間帝国がなぜ襲来者（インベーダー）と組んでるのか\n、ヤツらにしかわからないってことだな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「そういうことになりますね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114810006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、翔生子がうなずいた途端、室内に警報が鳴り渡る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「きゃっ！　な、なんです！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114810007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、氷華が慌てて作戦室に駆け込んでくると――", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「通報がありました！　市街地に襲来者（インベーダー）出現！　インクレデ\nィブル・スクワッドに出動指令が出ています！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020114810001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やれやれ、帰ってきたとたんにこれかよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

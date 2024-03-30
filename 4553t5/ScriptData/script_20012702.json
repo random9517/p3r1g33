@@ -1,0 +1,256 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「ふぅ……くそ、腐ってもサムライテールか……なかなかしぶとい。だが、や\nはり最後に勝つのは我々のようだな……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「ありゃ～～～、倒しきれなかったか……やっぱ、余力残して戦うのは無理か\nー……ふう、ほ～～ら、二人、もっとやる気出すです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "破" ]},
+		{"command":[ "SETTEXT", "「はぁ……そう言われてポンと出せるほど、都合よくやる気なんか出ないって\nばぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_102_010021880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "急" ]},
+		{"command":[ "SETTEXT", "「だよね～。それができれば、そもそも成績に困るようなこと、なかったんじ\nゃないかなぁー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_103_010021880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「くっくっく……お前達の戯言など、もう聞く必要もない。さあ、眠れ！　三\n姉妹……！！　墓碑銘は『バカども』と刻んでおいてやる！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「くぅ……そんな言葉が刻まれたお墓にお参りをしなきゃならないだなんて…\n…若苗家の子孫が気の毒です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021880002" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "破" ]},
+		{"command":[ "SETTEXT", "「どーする？　一旦逃げる？　お亥さま、ガチギレしそうだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_102_010021880002" ]},
+		{"command":[ "SETCHARA", "0", "char_00010201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "急" ]},
+		{"command":[ "SETTEXT", "「うーん……そうなると、やっぱ、また赤点になっちゃう～～？　んー……そ\nれもやだなぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_103_010021880002" ]},
+		{"command":[ "SETCHARA", "0", "char_00010301_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "三姉妹は、どうにかこうにか考えているが、誰も積極的に戦おうとはしない。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "相変わらず危機感のないことである。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その様子に、女怪人がイライラをつのらせている。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「おい！！　せっかく人が悪役冥利に浸ってるんだ！　もっと、こう……絶望\nに打ちひしがれたり、怒りに震えたりしろ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「……そんなこと言われても、そこまで切羽詰まってないし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021880003" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "破" ]},
+		{"command":[ "SETTEXT", "「そう？　今、まあまあ、ピンチじゃない？　負けたら、赤点地獄になるし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_102_010021880003" ]},
+		{"command":[ "SETCHARA", "0", "char_00010201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "急" ]},
+		{"command":[ "SETTEXT", "「……はぁ、やっぱホテルのバイキング、無理かなぁ？　あー……お腹空いた\nぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_103_010021880003" ]},
+		{"command":[ "SETCHARA", "0", "char_00010301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「……クソッ、もっとこう、倒し甲斐のあるヤツらだと思ってたのに、とんだ\n肩透かしだ」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「もういい……こんなヤツらは放っておいて、次の仕事に向かうぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "──戦士は孤独で、過酷だ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "気持ちが塞ぐこともあるだろう、ヤル気が出ない日もあるだろう。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ましてや多感な女学生ともなれば、気分は山の天気のようにコロコロと変わる\n。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今日は厄災退治はお休み……サムライ達よ、今日はゆっくりと休むがいいだろ\nう──と、なるはずもなかった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「待てぃ！！　不貞な輩！　たとえ人の目は誤魔化せても、この拙者はそうは\nいかぬでござる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_010021880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「何奴！！　って、そう、こういうのが欲しかったんだ。ふっふっふ……誰か\nは知らないが、感謝するよ～～……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「悪人に感謝される言われなどないでござる！　申し開きは地獄の閻魔の前で\nせよ！　いざ、参る」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_010021880002" ]},
+		{"command":[ "SETCHARA", "0", "char_00010401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「いいノリだねぇ……で、そっちの女も、我々の邪魔しようってのか？　まと\nめて蹴散らしてやるよ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「あの……私もいかなきゃ駄目……ですか？　うう、目立つのやだなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_105_010021880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010501_01", "2", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「……随分覇気がないねぇ。そんなにエロい恰好してるくせに……まあいい！\n　邪魔しようってんなら、容赦は──」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "女怪人" ]},
+		{"command":[ "SETTEXT", "「ほげぇぇぇ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "──突如現れた、ナゾのサムライ姿の二人。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "一刀で怪人どもを斬り伏せてしまった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……つまらぬものを切ってしまったでござる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_010021880003" ]}, 
+		{"command":[ "SETCHARA", "0", "char_00010401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "破" ]},
+		{"command":[ "SETTEXT", "「……ねえ、お姉ちゃん。いつの間にか終わってるよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_102_010021880004" ]},
+		{"command":[ "SETCHARA", "0", "char_00010201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「え？　あ、ホントだ……って、あれは？　私達の恰好に似てるですけど……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021880004" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "流石に異変に気づいたサムライテールの三姉妹である。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "『いつの間にか怪人がやっつけられててラッキー！』と喜ぶほどいい加減な三\n人ではなかったようである。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……内心では喜んでいたかもしれないが。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「そなたら……まったくなんと不甲斐ない！　この程度の相手に手こずろうと\nは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_010021880004" ]},
+		{"command":[ "SETCHARA", "0", "char_00010401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「うんうん、話に聞いてるより、色々下回ってるね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_105_010021880002" ]},
+		{"command":[ "SETCHARA", "0", "char_00010501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんな三姉妹に、怪しい二人は手厳しい言葉を向ける。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "当然三姉妹は、そういった言葉を聞き流せるほど大人ではなかった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「ちょっと、そこのエロい人とサムライの人……いきなり随分失礼です！　っ\nてか、一体何者なんです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021880005" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「問答無用！！　士道不覚悟……これすなわち切腹。さあ、腹を切れ！　拙者\n、介錯してしんぜよう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_010021880005" ]},
+		{"command":[ "SETCHARA", "0", "char_00010401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「はぁ……とにかく、お役目を果たしましょう。あなたたち、お仕置きです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_105_010021880003" ]},
+		{"command":[ "SETCHARA", "0", "char_00010501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "急" ]},
+		{"command":[ "SETTEXT", "「うわー……エロいおねーさんにお仕置きされちゃうなんて……何、これ。結\n局、どういうことなの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_103_010021880004" ]},
+		{"command":[ "SETCHARA", "0", "char_00010301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ほらほら、余計なこと考えてると……痛い目見ちゃいますよ～～～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_105_010021880004" ]},
+		{"command":[ "SETCHARA", "0", "char_00010501_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "新参の二人は刀を抜き、三姉妹に襲いかかっていく──。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,534 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SPOTCHARA", "0" ] },
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「……紅華をお呼びでしょうか……。それで、本日は何を……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103101" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00014301_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「こんな密室に男性と二人きりだなんて、き、緊張してしまいます。出来れば\n早くお仕事を済ませたいのですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103102" ]},
+		{"command":[ "SETCHARA", "0", "char_00014301_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「え？　仕事ではなく……パイズリを？　そうすることで私を強化する……。\nそ、そうなのですか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103103" ]},
+		{"command":[ "SETCHARA", "0", "char_00014301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「パ、パイズリ……。あ、はい。知識はあります。ですが、自分に出来るかど\nうかというと……。その、体験したことがありませんから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「それに、パイズリと強化との関係もいまいちピンと来ませんし。今回はお断\nりをして……って、きゃっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「や、やぁあっ……。こ、これ……！　隊長サンのこか、股間、股間ではない\nですか……！　だ、駄目です、やっぱり無理です、あ、あ、あ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103106" ]},
+		{"command":[ "SETCHARA", "0", "char_00014301_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「男性器を胸で挟むだなんて……！　金華ちゃんに知られてしまったら軽蔑さ\nれます！　か、帰ってもよろしいでしょうか……？　だ、駄目ですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103107" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「…………駄目……なら……。さっさと済ませてしまった方がいいみたい、で\nすね……。隊長サン、内緒にしてくれますか？　今夜のこと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「は、はい。紅華も他の誰にも告げ口しません。ですから……。私が胸でした\nということは、金華ちゃんには言わないでください……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103109" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「……っはぁ……はぁ、はぁ……お、おちんちん……。おちんちんを自分の胸\nで挟むだなんて……卑猥すぎます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103110" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+        {"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_02" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「あ、ああ……あんまり紅華の顔は見ないでください。む、胸も……駄目です\nよ。これは強化のためのパイズリのはず……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「それなら、快楽を目的にするのは間違っています。……っ……そ、それでは\n……はじめさせていただきますね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「っはぁっ、はぁ、はぁ……はぁ、ああ……はぁ……。んっ、ん、んぅ……は\nぁ、はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103113" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「……初めてパイズリをしてみてどうか、ですか……？　はぁっ、そ、それを\nお聞きになるのですか……。そうですね、んん、まず……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「生で見る男性器というものが初めてで……。ほ、他の方もこんなに大きいも\nのなのか……隊長サンだからなのか判断しかねます……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103115" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「んん……、ち、知識で想像していたものと、実物がかけ離れているんです…\n…。小説で読んだ限りでは、そ、その、愛の証明と言いますか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「もっと小さくて、キラキラしていて、……あっ！　優しいものだと思ってい\nたのですが……実際に触れてみると、こ、これは……はぁっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103117" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「グロテスクで、あ、赤黒くて……生きているという感じがします。恐ろしい\n爬虫類を……太い蛇を挟んでいるみたいで、少々困惑が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「生物特有の生々しさを感じるといいますか……。んッ、ぬ、ぬくもりと……\nあの……血管の這った肉幹とが……あん、んん、その、そのですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「……私の胸から顔を出す亀頭が……あッ……その先端がクパクパと開いたり\n閉じたりして……く、口のようなんです。それが怖い……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「男性のおちんちんが、全部こんなに恐ろしい形や色をしているのなら……。\nこ、子供を作った女性は凄いのだな、と……か、感心します」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「だ、だって……こっちにかみついてきそうなんです……！　尿道口で、がぶ\nッて胸に、首に……んんんっ、顔にかじりついてきそう、で……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「隊長サンは……男の人はこれと共に暮らしているだなんて、にわかには信じ\nられません。はぁ、はぁ、これが人体の一部だなんて……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「あ、ああ、怖いっ……こわいっ……。んん……！　紅華のおっぱいに、ひ、\nひどいことしないでくださいね……っ、ああ……ん、ん、ん……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103124" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「大事なところを女性の胸に挟ませて……刺激させるなんて……。理解できま\nせん……。や、柔らかさが欲しいんですか？　ぬくもり……ですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「圧迫されるのが好きなの、ですか……？　わか、らない……わからない……\n。でも、し、知ってしまうのも怖い……。はぁ、はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「隊長サンが……男の人が、私の胸を見て、パ、パイズリして欲しいと思って\nいたなんて……。思わせぶりに見えたの、でしょうか……んんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「それとも、おっぱいがあれば男の人はこうしたいって……パイズリを命じた\nいって思っているのかも……。っ……そんな、そんなこと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「それが真実だったら、明日から私……。っ……も、もう感想はいいですよね\n？　本物のおちんちんは、こ、怖い……です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「でも、少しだけ……ここまで凝り固まったものをほぐしてあげたい、柔らか\nく戻してあげたいとも、思うから……だから……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「んぁっ、ぁっあっ、ぁっあっぁっ……！　あっ！　あっ、あぁ……はぁあっ\n……あぁ……！　んふっ……んっ！　んっ！　んっ、んんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「あふ……ふぁっ、ぁっ……！　あっ……お、怒っているの……？　あん……\n！　か、顔におちんちん近づけないで……あっ、おとなしくしてて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103132" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「んんんっ……気持ちよくしてあげるから……！　あっ！　んぁッ……あっぁ\nっ……！　ふぁっ……！　アッぁっあっあぁっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ああ……出すのですね。って、きゃ……！　だ、出す？　だ、出すのですか\n？　ま、待ってください、こ、このまま出されたら私……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「きゃああああっ！？　あつっ……！　あっ、待ってくださいとお願いしたの\nに……！　あっ！？　あぁっ、あっ、あ……ああああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103135" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「パ、パイズリを許可しましたが、だ、出されるのまでは許した覚えはありま\nせん……っ。なのに、なのに……ああああ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103136" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「なんという悪臭……うう……。どこもかしこもべっとり……。こんなの、洗\nっても取れませんよ……。い、いや……いやぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「やっぱり、おちんちんは怖い生き物です……。どこにここまでの量を蓄えて\n……。ふ、噴水みたいでした。ばびゅっばびゅって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103138" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「隊長サン……恨みます……。って、自分の意思では止められない……？　そ\n、そうなのですか……だったら……仕方ないのでしょうか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「いえ、自己で制御出来ないような生き物を股間に飼っているなんて、まずそ\nれが問題ですっ……！　お、男の人ってこれだから……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103140" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「きゃっ！　な、なんですか！？　またおちんちんが動き出し……って、隊長\nサン！？　なぜ腰を動かしているのです！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103201" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ま、まだ物足りない！？　もっと出したい！？　こんなに出してまだ物足り\nないというのですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103202" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「おちんちんの要求だから仕方ない？　これも自分の意思では制御できない！\n？　なんということでしょう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103203" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「なんという迷惑な……！　ほんとうに最悪です、男性器……！　隊長サン、\nこんなものは、いっそ取ってしまうわけには……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103204" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「いきませんか、やはりそうですか……わかりました。これも修行のうちです\n。強くなるためです……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103205" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「パイズリ……させていただきます。んっ……んんっ……んっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103206" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ううう……やはりベトベトします。胸の間も、臭くてべとべとした汁がいっ\nぱいついていて……その間でグロテスクなものが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103207" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「それにしてもこの汁……どうしてこんなに臭いのでしょう……臭い……はぁ\nあああ、臭いです……ぁああああ……ああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103208" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「海産物系と植物系、二つの生臭さをあわせ持った独特の匂い……無駄に生命\n力の溢れる匂いとでも言いましょうか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103209" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「それに、隊長さんのおちんちんの匂いが……磯の匂いを思わせる、この荒々\nしい臭みが入り交じって……はぁあああ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103210" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「くんくん……はぁああ……くんくん……ぁあああああああ……ひどい……ひ\nどい匂いです……ぁあああああっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103211" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「こんなひどい臭気にさらされながら、隊長サンのグロテスクな怪物に奉仕し\nなければならないとは……なんと厳しい特訓なのでしょう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103212" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ですが、この試練に打ち勝ってこそ、得られる力と技があるのですね！　紅\n華は負けません……！　ふぁあああ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103213" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……強化のためです。はぁああ……んんっ！　強化……強化…\n…ぁああああん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103214" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「おっぱいで、おちんちんを圧迫し、力を絞り出すのです……！　んっ、んっ\n、んんんっ……！　はぁ、はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103215" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ぁあああ……力を込めてこね上げると、胸の間からまた、おちんちん独特の\n臭気が……ふぁああああ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103216" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「た、隊長サン……！　隊長サンのおちんちんが、先ほど同様、真っ赤に膨れ\n上がってきました！　これは、もしかしてまた……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103217" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「やはりですか！　やはり、また出るのですね！　ああああ……おちんちんが\nピクピクと痙攣しています……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103218" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「は、はい！　大丈夫です！　強くなるために必要な試練ですから、紅華は耐\nえてみせます！　出させてみせますっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103219" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「さあ、かまいません！　隊長サン、出してください！　出して！　早く出し\nてくださいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103220" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+		{"command":[ "LABEL", "LABEL1" ]},
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「出して！　出し……んぁっ！？　あ、あ、ふぁああああああああ～～～っ！\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103301" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_12" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「あ、ああああああっ……出ていますっ！　紅華の胸の間で、隊長サンのおち\nんちんがどくどくと脈打って……きゃっ！　きゃっ！　きゃぁっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103302" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「あ、あああっ！　またこんなに！　またこんなに噴き出してっ！　どこにこ\nんなに残っていたのですか！？　はぁあああん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103303" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「やっ！　やぁん！　胸も顔もべたべたですっ！　それに……匂いが……匂い\nがっ！　すぅううううっ……はぁあああ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103304" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「すうぅ～……はぁ……すぅ～……はぁあああ……なんてひどい……ひどい悪\n臭が部屋にこもってしまって……すぅううう～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103305" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_11" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ぁああああ……この匂い。隊長サンのこの匂いっ！　ひどすぎて頭がくらく\nらしてしまいそうです！　あああ、なんだか気が遠く……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103306" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「な、なんですか！？　隊長サン！？　人聞きの悪いことを言わないでいただ\nけませんか！？　紅華は、トリップなどしておりません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103307" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_10" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「トリップなんて……そんなこと。まるで、紅華が悪いおクスリかなにかやっ\nているような言い方を……すぅううう～……はぁあああ～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103308" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_11" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「と、とにかく、これで今日の特訓はおしまいですね？　これで紅華は、以前\nよりも強くなれるのですね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103309" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「……なるほど、たしかに、一度で結果は出ないでしょうね、継続は大事です\n。ではまた、この匂い……もとい、特訓を、よろしくお願いいたします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103310" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_10" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "JUMP", "END" ]},
+		{"command":[ "LABEL", "LABEL2" ]},
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「え？　どうして腰を引いて……きゃっ！？　きゃぁああああああああっ！？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103401" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ぁああああっ！？　隊長サンのおちんちんから、精液が噴き出して……んぁ\nああっ！？　やめて！　顔はやめてくださいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103402" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_09" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「あ、あ、あ、ああああっ！　きゃあっ！？　違いますっ！　顔でなければい\nいというわけでも……いやぁあん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103403" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ふぁああああ……はぁあああ……紅華、もう体中ベトベトになってしまいま\nした……全身からすさまじい悪臭が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103404" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「すうぅ～……はぁ……すぅ～……はぁあああ……それにしても、この匂い…\n…本当にすさまじいです……はぁああ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103405" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_08" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「日頃なにを食べていたら、こんなものすごい匂いを放つ液体を、放出できる\nようになるのでしょうね……すぅう～はぁああ～……すぅうう～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103406" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「ごほっ！　ごほごほごほっ！　はぁああ……悪臭を胸いっぱいに吸い込みす\nぎて、むせてしまいました……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103407" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_09" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「な、なにをおっしゃるんですか！？　いきなり！　別に、この匂いを気に入\nってなどおりません！　人聞きの悪いことをおっしゃらないでください！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103408" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_07" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「と、とにかく、特訓は終了ですね。紅華、どれだけ強くなっているのでしょ\nう。次の任務が楽しみです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103409" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014301_01_08" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "紅華" ]},
+		{"command":[ "SETTEXT", "「これだけ強烈な匂いに耐えたのですもの。強くなっていなければ困ります…\n…すぅぅ～……はぁああ～……すぅうう……ふぁああああ～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_143_0103410" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,232 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふう……酷い目にあった」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「全国の現役学生童貞のお友達が聞いたら、恨まれそうな感想ですなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺だって女は嫌いじゃないし、胸に挟まれて死ねるなら男としては本望だろ\nうさ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「が、こんな訳の分からん状況で、幹部共に囲まれて死ぬのは願い下げだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「やれやれ。こんな状況だからこそ、いっそ色と欲に溺れてもバチは当たらな\nいでしょうに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「立場を代わりたいなら代わってやるぞ。オボロに解剖されるかもしれんが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それはご勘弁願いたいですなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しかし……冗談抜きで、こんな毎日がこれからも続くようじゃ身が保たない\nぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今はまだ、どさくさ紛れにこうして逃げ出しているからマシだが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「確かに。いくら虐げられる事に慣れているご主人でも、今度は毎日ハーレム\nルートとなれば、精も根も搾り取られるでしょうなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そっち方面じゃなくってな？　イチイチ余計なバトルが発生するのが面倒な\nんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人の行く所、常に何かイベントが発生するのでしょう。それが主人公と\nいうもの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなトラブル体質は返上したいぜ。俺に被虐趣味はないんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そうですかあ？　いつもいつも陛下を始め皆様に可愛がって頂いているとい\nうのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからそれを言うな。おかしな趣味に目覚めたくもないんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今の俺はただただ、このおかしな状況を元に戻したいだけなんだよ。ったく\n……手懸かりぐらい掴めないもんか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はあ。学園アドベンチャーゲームなら、これだけあちこち移動していれば、\n何か会話に進展があるものですが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだそりゃ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「行く先々で出会った女性と会話を発展させる事で、物語を進展させるシステ\nムです。フラグを立てる、とも呼ばれておりましたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなルールがあるのかよ、面倒な。大体それ、ゲームの話だろ？　現実で\nそんな――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いやいやいや、ご主人？　ゲームというものは現実をモデルにして成立して\nいるものなのですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「特に男女の性愛を描いた作品は元々、『恋愛シミュレーション』と呼ばれて\nいたぐらいで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それがちょっとばかり、建物のマップ上でどこに誰がいるかとか、好感度が\n高いか低いか、分かりやす～くアイコンが表示されたりするだけで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「充分チートじゃねえか……。現実じゃ、相手の居場所や気持ちなんてそうそ\nう分からないぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「とはいえ現実でも捜査の基本は、人に会い、聞き込みを繰り返し、地道に情\n報を集める事ではありませんか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺は別に捜査をしたい訳じゃあないが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "この状況を打破するヒントが欲しければ、人に会え、探せって事か……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかし他に誰がいる？　幹部連中はほぼ出揃った。後は――。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「おうカツマよ。相変わらず問題児しておるか～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「出た」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「出たとはなんじゃ失敬な！　学園長に向かって口の利き方もなっておらんの\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108150002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "学園長……なるほど。確かに陛下といえば国の長、この学園とかいう場所でも\nトップに立つって設定かよ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「セレーナやエファといった教師陣からの報告では、随分と手を焼かせておる\nらしいのう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108150003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ま、それでこそ入学以来目を掛けてきた甲斐があったというもの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108150004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつここに入学した事になってんだ、俺……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ここはひとつ、どれほどのやんちゃ坊主になったか、妾が自ら試してやろう\nではないか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108150005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「カモーン！　学園の用心棒たちよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010108150006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＡ" ]},
+		{"command":[ "SETTEXT", "「給食のおばちゃん、ここに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_030108150001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000809_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＢ" ]},
+		{"command":[ "SETTEXT", "「用務員、参りました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_040108150001" ]},
+		{"command":[ "SETCHARA", "1", "char_00000809_01", "7", "CENTER", "-400" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーンＣ" ]},
+		{"command":[ "SETTEXT", "「生協の係員、推参です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_050108150001" ]},
+		{"command":[ "SETCHARA", "2", "char_00000809_01", "7", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "2", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "結局こうなるのかよ！　いい加減疲れてきてるんだがなあ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、これもフラグのひとつだと思って。存分に暴れて下され」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108150013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]},
+		{"command":[ "DISPCHARA", "2", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえも人任せにするんじゃねえよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,223 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「なーんだ、カツマはヘンタイじゃなかったのね！　殴って損したー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だったら最初から殴りかかってくるなよ！　説明ぐらい聞いてくれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「……いきなり部屋に飛び込んでくるから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001802_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、そりゃ悪かったけど……俺はまたてっきり、中でその……なんという\nか、まずいことが起きてるんじゃないかと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まったく。ご主人の早とちりにも困ったものですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「言い出したのはおめえじゃねえか、バカ犬！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「ふふふっ。私たち、戦車のプラモデルを作っていただけですよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001702_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「模型シミュレーションマシンで遊ぶの！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえらもか！　あれ、ホントに流行ってんだなあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ほほう。チャーチル歩兵戦車ですか。なかなか通好みな車種を選ばれますな\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「はい！　低速に悩まされながらも重装甲を生かして活躍した、イギリス製の\n戦車です！　スケールは１／３５です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001702_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なんだ？　夜日楽、戦車に詳しいのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「い、いえ、そういうわけではないんですけど。せっかく先生に頼まれたので\n、きれいに作ろうと思っていろいろ調べたんです……あははは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113300003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001702_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「先生に……ってことは、主犯はグレーテルなのか？　意外だな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「そう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001802_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。こういう流行りものに乗っかるほうだとは思わなかった」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「別に、流行りだからじゃないよ。ゲームが好きなだけ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113300003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001802_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、なるほどな。まあ、たしかに出来はいいからな、あのシミュレーション\n……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0124" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "などという話をして、部屋を出る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あいつらも模型シミュレーションでなあ……ミス・パープル、大儲けじゃね\nえか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まあ、いつぞやのカードゲームのこともありますし、トラブルにならなけれ\nばよいのですが……むむ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113300003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どした？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あちらの部屋から妙な声が聞こえます。なにやら事件の匂いがしますぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113300004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「またかよ！　って、ここルルーナの部屋じゃねえか！　なんだってんだ、い\nったい！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SETTEXT", "と、足を止めると、わずかに開いたドアから声が漏れてくる。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「……ここに入れてほしいの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113300001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「は、はい。お願いします。ぐっと奥まで……。わたし、自分ではもう、おさ\nえきれなくて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113300001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はいぃ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「ルルーナ様。これは……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050113300001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「いいわよ……輝夜。もうこんなに濡れてるじゃないの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113300002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って！　輝夜までいっしょになってナニやっちゃってんの！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "『ドスケベ女子寮！』『深夜の学生寮で、百合百合！』", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんなニュースの見出しが脳裏をよぎる。やばい！　止めなきゃ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにやってんだおまえらーっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……と、部屋の中に飛び込んで、俺はふと気づいた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……あ。これ、さっきと同じパターン」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ですな。ご主人。これはつまり繰り返しのギャグ。いわゆる天丼を狙っての\nことですかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113300005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「きゃああああああああーっ！　ヘンターーーーーーイッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113300003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわあああああああーっ！　狙ったわけじゃねえけど、結果的に同じことに\nなっちまったぁーっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

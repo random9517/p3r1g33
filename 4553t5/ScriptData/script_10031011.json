@@ -1,0 +1,51 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0136" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "SETTEXT", "一方、俺たちは『ファウンデーション』内部に潜入し……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「『工房』はこちらのはずです！　急いで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116070001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「すげえな、例のセットの通りだ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ＢＢ隊の持ってきたデータが、正確だったってことだねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010116070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "時間帝国兵" ]},
+		{"command":[ "SETTEXT", "「いたぞ！　侵入者だ！　撃退しろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010116070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00092401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっとっと！　警備の配置までデータに入ってれば、完璧だったんだけどな\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「文句を言うな！　撃破すればいい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

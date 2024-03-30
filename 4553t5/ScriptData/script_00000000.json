@@ -1,0 +1,435 @@
+{
+  "scriptCommands": [
+    {"command":[ "FADEIN", "MOMENT" ] },
+    {"command":[ "FADEOUT", "NORMAL" ] },
+    {"command":[ "WAITMOVE" ] },
+
+    {"command":[ "SETTEXT", "メッセージが表示可能です", "NORMAL" ] },
+    {"command":[ "DISPTEXT", "true" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "キャラクター名が表示可能です", "NORMAL" ] },
+    {"command":[ "SETNAME", "サンプル" ] },
+    {"command":[ "DISPNAME", "true" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "立ち絵表示", "NORMAL" ] },
+    {"command":[ "SETCHARA", "0", "char_00000101_01", "1", "LEFTEND", "0" ] },
+    {"command":[ "SETCHARA", "1", "char_00000106_01", "1", "LEFT", "-10" ] },
+    {"command":[ "SETCHARA", "2", "char_00000109_01", "1", "RIGHT", "10" ] },
+    {"command":[ "SETCHARA", "3", "char_00000201_01", "1", "OUTRIGHT", "0" ] },
+    {"command":[ "DISPCHARA", "0", "true" ] },
+    {"command":[ "DISPCHARA", "1", "true" ] },
+    {"command":[ "DISPCHARA", "2", "true" ] },
+    {"command":[ "DISPCHARA", "3", "true" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "立ち絵番号でスポットを指定することで色が明るくなります", "NORMAL" ] },
+    {"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "立ち絵表示は表情指定も同時に行えます", "NORMAL" ] },
+    {"command":[ "SETCHARA", "0", "char_00000101_01", "2", "CENTER", "0" ] },
+    {"command":[ "DISPCHARA", "1", "false" ] },
+    {"command":[ "DISPCHARA", "2", "false" ] },
+    {"command":[ "DISPCHARA", "3", "false" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "大人立ち絵表示高さ確認", "NORMAL" ] },
+    {"command":[ "SETCHARA", "0", "char_00030201_01", "0", "CENTER", "500" ] },
+    {"command":[ "SETCHARA", "1", "char_00000109_01", "0", "CENTER", "-500" ] },
+    {"command":[ "DISPCHARA", "1", "true" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "しゃがみ立ち絵表示高さ確認", "NORMAL" ] },
+    {"command":[ "SETCHARA", "0", "char_00026502_01", "0", "CENTER", "400" ] },
+    {"command":[ "SETCHARA", "1", "char_00008106_01", "0", "CENTER", "-400" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "ロリ立ち絵表示高さ確認", "NORMAL" ] },
+    {"command":[ "SETCHARA", "0", "char_00028301_01", "0", "CENTER", "400" ] },
+    {"command":[ "SETCHARA", "1", "char_00022105_01", "0", "CENTER", "-400" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "立ち絵表示確認", "NORMAL" ] },
+    {"command":[ "SETCHARA", "0", "char_00028301_01", "4", "CENTER", "0" ] },
+    {"command":[ "DISPCHARA", "1", "false" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "立ち絵は移動ができます", "NORMAL" ] },
+    {"command":[ "MOVECHARA", "0", "CENTER", "200", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+    
+    {"command":[ "SETTEXT", "立ち絵フェードアウト", "NORMAL" ] },
+    {"command":[ "FADEOUTCHARA", "0", "NORMAL" ] },
+    {"command":[ "FADEOUTCHARA", "3", "NORMAL" ] },    
+    {"command":[ "WAITINPUT" ] },
+    
+    {"command":[ "SETTEXT", "立ち絵フェードイン", "NORMAL" ] },
+    {"command":[ "DISPCHARA", "3", "true" ] },
+    {"command":[ "FADEINCHARA", "0", "NORMAL" ] },
+    {"command":[ "FADEINCHARA", "3", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "背景表示（フェード付き）", "NORMAL" ] },
+    {"command":[ "SETIMAGE", "0", "bg_0003" ] },
+    {"command":[ "DISPIMAGE", "0", "true" ] },
+    {"command":[ "FADEINIMAGE", "0", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "フラッシュ", "NORMAL" ] },
+		{"command":[ "SETIMAGE", "1", "bg_0000" ] },
+		{"command":[ "DISPIMAGE", "1", "TRUE" ] },
+		{"command":[ "FADEINIMAGE", "1", "VERYFAST" ] },
+		{"command":[ "FADEOUTIMAGE", "1", "FAST" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "背景2種セットで切り替えも可能です", "NORMAL" ] },
+    {"command":[ "SETIMAGE", "1", "bg_0002" ] },
+    {"command":[ "DISPIMAGE", "1", "true" ] },
+    {"command":[ "FADEINIMAGE", "1", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "1", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202006" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "2", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202007" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "3", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202008" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "4", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202009" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "5", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_265_0202010" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "6", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202011" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "7", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202012" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "8", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202013" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "9", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202014" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "10", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202015" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "11", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202016" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "12", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202017" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "13", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_265_0202018" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "14", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202019" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "15", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_265_0202020" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "1", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102006" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "2", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102007" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "3", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102008" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "4", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102009" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "5", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_302_0102010" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "6", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102011" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "7", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102012" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "8", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102013" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "9", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102014" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "10", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102015" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "11", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102016" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "12", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102017" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "13", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_302_0102018" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "14", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102019" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "15", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_302_0102020" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "1", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702006" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "2", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702007" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "3", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702008" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "4", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702009" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "5", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_157_0702010" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "6", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702011" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "7", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702012" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "8", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702013" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "9", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702014" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "10", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702015" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "11", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702016" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "12", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702017" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "13", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_157_0702018" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "14", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702019" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "15", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_157_0702020" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "1", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702006" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "2", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702007" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "3", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702008" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "4", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702009" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "5", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_158_0702010" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "6", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702011" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "7", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702012" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "8", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702013" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "9", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702014" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "10", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702015" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "11", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702016" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "12", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702017" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "13", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_158_0702018" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "14", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702019" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "15", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_158_0702020" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "1", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402006" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "2", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402007" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "3", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402008" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "4", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402009" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "5", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_001_3402010" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "6", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402011" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "7", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402012" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "8", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402013" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "9", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402014" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "10", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402015" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "11", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402016" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "12", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402017" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "13", "NORMAL" ] },
+		{"command":[ "PLAYVOICE", "v2_001_3402018" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "14", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402019" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SETTEXT", "15", "NORMAL" ] },
+    {"command":[ "PLAYVOICE", "v2_001_3402020" ]},
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+    {"command":[ "STOPBGM" ] },
+    {"command":[ "PLAYSE", "SE_AK_004" ] },
+    {"command":[ "TITLE", "タイトル", "メッセージ" ] },
+
+    {"command":[ "PLAYBGM", "M02" ] },
+
+    {"command":[ "SETTEXT", "今のがTITLE演出です", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+    
+    {"command":[ "SETTEXT", "次はURLを指定して動画を再生します\nメニューの下に表示されるので文字枠は消すことを推奨", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+    {"command":[ "JUMP", "END" ]},
+
+    {"command":[ "LABEL", "LABEL2" ]},
+    {"command":[ "STOPBGM" ] },
+    {"command":[ "PLAYSE", "SE_AK_004" ] },
+    {"command":[ "TITLE", "タイトル", "メッセージ" ] },
+
+    {"command":[ "PLAYBGM", "M02" ] },
+    {"command":[ "SETTEXT", "今のがTITLE演出です", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+    
+    {"command":[ "SETTEXT", "次はURLを指定して動画を再生します\nメニューの下に表示されるので文字枠は消すことを推奨", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+
+    {"command":[ "STOPBGM" ] },
+    {"command":[ "DISPTEXT", "false" ] },
+    {"command":[ "DISPNAME", "false" ] },
+    {"command":[ "PLAYMOVIE", "PreregisterSample.mp4" ] },
+    {"command":[ "WAITMOVE" ] },
+    
+    {"command":[ "PLAYBGM", "M02" ] },
+    {"command":[ "DISPTEXT", "true" ] },
+    {"command":[ "DISPNAME", "true" ] },
+    {"command":[ "SETTEXT", "以上でサンプルを終了します", "NORMAL" ] },
+    {"command":[ "WAITINPUT" ] },
+		{"command":[ "LABEL", "END" ]},
+    {"command":[ "EXIT" ] }
+  ]
+}

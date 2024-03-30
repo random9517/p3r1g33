@@ -1,0 +1,196 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0137" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なあ……おい、これで宇宙港まで行けるのか……？」", "NORMAL" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "少し動かすだけでピシピシギシギシいっている、冴島長官の用意した車……。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どう見ても型落ちどころか、いつの時代だ！？　と驚くほどの古めかしい車体\nだ。これ、ホントに車検通してんのか。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「走行中に爆発したりしないだろうな……？」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふん、知らん！　そこは貴様が身体を張ってなんとかしろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107020001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「すごい無茶振りだ……。長官も、少しはマトモなやつを寄こしてくれればい\nいのに……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ああ。そうだな。重要任務に向かうとは思えないオンボロだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107020001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「これ……事故っても労災出なさそうねぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010107020001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "元々、そんな上等なものを出してもらった覚えはないが……どんどん不安は募\nっていく。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「とはいえ、これしかないのだろう？　ならグズグズするなボケナスビ！　さ\nっさと出発だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107020002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかってます！　わかってますから！　後ろから運転席を蹴っ飛ばさないで\n！　シート外れる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "はぁ……運転手まで押し付けられたおかげで、結局ラーメンも食い損ねるし…\n…最悪だ。いつものことだが。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「もし途中で故障させたりしたら許さんからな。命に代えても安全運転しろ！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107020003" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「安全運転には気を付けますけど、車が故障してもたぶん俺のせいじゃないと\n思います……というか、ちゃんと走り出してくれるのかどうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんて思いながら、半分祈るような気持ちでキーを回すと、軋み、ひずんだ音\nをたてながらエンジンが動き出す。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「んんっ！？　あ、あまり揺らすな……！　怖いだろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107020004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これが安全運転の限界です……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こんな状況でのフルドライブに、自信も元気も出る気がしない。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、思ったんだが……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あああああ！　俺は自由だ！　自由に向かって走っているんだあ！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「あははは！　スピードを上げろ！　もっと！　もっとだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107020005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ふむ。思ったよりは快調ですな。サスペンションの効きぐあいとエンジンの\n調子、それにドライバーの腕前に難がありますが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010107020001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「ひゃっはー！　前の車、どけどけー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010107020001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なぜかみんなのテンションがウナギ昇りにあがっていく。徹夜のドライブで疲\n労と空腹が限界を超え、ついに緊張の糸が切れたのか……。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それともただの天然か、まあ、そんなことはどっちだってかまいやしねぇええ\n！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ねえねえ～？　この先のサービスエリアに、美味しいサンドイッチ屋さんが\nあるみたいよ～！　テイクアウトしていかな～い？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010107020002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000601_01", "6", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「お洒落な飲み物も飲もう！　ああ……麦わら帽子でもかぶってくればよかっ\nたぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107020006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「らーらーらーらー♪　素敵なドラーイブー♪　バカンスーの真昼～♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010107020001" ]},
+	{"command":[ "SETCHARA", "0", "char_00001201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ロマーンスの予感～♪　ステーキなドライブー♪　ららーらーらー♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010107020001" ]},
+	{"command":[ "SETCHARA", "0", "char_00001401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「燃料噴射装置付き自滅マシーン……私たちはロックンローラー……ふふふ、\nふふふふふ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010107020001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ははははは！　夜空を見るたびに思い出せぇぇぇぇ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "悪い意味で、俺達はドライバーズハイだった。止めるツッコミのいない、ボケ\nだけを乗せた自由の翼……。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だが、そんな幸せな時間は唐突に奪われた！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだぁ！？　いきなり目の前で爆発が！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107020007" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、ここで敵襲かぁ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「我々がこの道を通ることを知って、罠を張っていたのかもしれない！　とに\nかく、反撃しよう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107020002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、ああ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

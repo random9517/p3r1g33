@@ -1,0 +1,216 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0137" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「駄目だ……キリがねえ！　一旦退却するぞ！　早く乗れ！」", "NORMAL" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「みんな！　急いで！　全員乗った？　乗ったね！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020107030001" ]},
+	{"command":[ "SETCHARA", "0", "char_00001302_01", "3", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ま、待てっ……乗ったは乗ったが……まだ扉が閉まりきっていない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「待てねえ！　行くぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「待て待て待て待て！　落ちる落ちる落ちる落ちるーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「ルナテミスっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020107030002" ]},
+	{"command":[ "SETCHARA", "0", "char_00001302_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "落ちそうになっていたルナテミスを、シルバスターがあやうく引っ張りこみ、\n二人で車の床に転げ込む。と、次の瞬間！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「きゃっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020107030003" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "SETCHARA", "0", "char_00001302_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「のぁああっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "二人の頭上を、敵の光線がかすめていった、", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ひわわわわわ……！！　なんという攻撃を……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030004" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ！　狙い撃ちされてる！　とにかく敵を攪乱してくれ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107030001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「攪乱ってのは……こうか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ギャリッ……ギャリギャリギャリッ！！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺がハンドルを大きく回すとタイヤが滑り、車体が激しくドリフトする。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ぎゃああああああああああああああー！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "車はそのまま路面に巨大な円を描き、方向を変えると蛇行しながら走り出す！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お？　お、お？　意外に俺、ドライバーの才能があるんじゃあ……」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「このボケナスビーっ！！　乗っているものの身にもなれ！　酔うっ、よ、酔\nう……おえええ！」", "NORMAL" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ルナテミス。我慢しろッ……！　カツマ、後ろは私にまかせろ……行けええ\nええっ！」", "NORMAL" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107030002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……了解！　いっくぜぇぇぇぇぇっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、アクセルを一杯に踏み込んだとき。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ！　横だ、危ないっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107030003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドガァアアアッ……！！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "真横から、まっすぐ俺の頭を狙って放たれた一撃。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それを咄嗟によけようとして、ハンドルを切ったおかげで直撃は避けられた。\nだが……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「きゃぁあああっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010107030001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "車が激しく揺れ出し、金属のこすれる嫌な音が響く！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「あああああああああ！　ガードレール！　ガードレールこすってるぅううう\nう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030007" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「カツマ！　バックだよ、バック！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010107030001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、ああ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "慌ててガードレールから車を引きはがすが、そんなことをやってる間に、周囲\nを敵に囲まれている。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「ちっ！　なにやってんだよ、カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010107030001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「懲りないやつらだな！　あいつら、ぞろぞろと溢れてくるぞ！　……おえっ\nぷ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030008" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「もう一度出て、活路を開くしかないな！　行くぞ、ルナテミス！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107030004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「言われなくとも……！　この車酔いの怒り、ヤツらの敗北をもって償っても\nらおう！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030009" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「グレート・ルナリアムの王女に醜態をさらさせたこと、後悔させてや……う\nぅ～っぷ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107030010" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「あああ、ルナテミス！　早く外に出て！　外の空気吸って！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020107030004" ]},
+	{"command":[ "SETCHARA", "0", "char_00001302_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,138 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「長々とご説明するよりも、一度体験していただくのが早いですね。プラモデ\nルは、持ってきていただけました？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。これでいいのかな。プラモデルっていうか、ガレージキット？　って\nヤツだけど」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、言いつつ部屋から持ってきたものを見せてみる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "古舘隊員" ]},
+		{"command":[ "SETTEXT", "「ドラグソード！？　商品化されてたっすか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_061_010113280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00006101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、これはあれだ。ＥＤＯ模型同好会の連中が作ったやつ。こないだ、完\n成品をもらったんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「あー……そうでした。私としたことが、肝心なことをお伝えしていませんで\nした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113280002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ、これじゃダメなのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「このマシンはテスト稼働中ですので、第二次世界大戦中の戦車しか、データ\nが入っていないんです。ロボットはちょっと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113280003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいおいおい！　そういうことはもっと早く言ってくれよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そうか、それでみんな、戦車のプラモばっかり作ってたのか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "古舘隊員" ]},
+		{"command":[ "SETTEXT", "「隊長！　そういうことだったら、こっちのチームに入ってプレイしませんか\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_061_010113280002" ]},
+		{"command":[ "SETCHARA", "0", "char_00006101_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？　いいのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "古舘隊員" ]},
+		{"command":[ "SETTEXT", "「ええ！　やりましょ！　私の自信作！　１／３５　Ⅳ号車Ｈ型で！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_061_010113280003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おお！　なんか知らんけど強そうだな。それじゃ頼むぜ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "古舘隊員" ]},
+		{"command":[ "SETTEXT", "「オッケーっす！　決まりっすね！　ねえ、キミたち！　もうワンゲームやら\nないっすか？？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_061_010113280004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「私たちですか？　いいですね、やりましょう！　先生を合法的に撃ちまくる\nチャンスですし！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいおい、お手柔らかに頼むぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「わかりました。それでは皆さん、ブース内へどうぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113280004" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "プレハブ小屋のようなブースに入って座席につき、ＶＲゴーグルをかけると、\nブース内にミス・パープルの声が聞こえてくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「合意とみてよろしいですね？　それでは皆さん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113280005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「模型シミュレーション、ゴー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113280006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおっ！？　これは！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "古舘隊員" ]},
+		{"command":[ "SETTEXT", "「それじゃ行くっすよ！　パンツァー・フォー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_061_010113280005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

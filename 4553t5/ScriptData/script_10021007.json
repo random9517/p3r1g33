@@ -1,0 +1,56 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0172" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へっ！　ざまあみろ！　リーダーとやらをやっつけたぞ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「どうだ！　次はおまえたちだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "円盤少女Ａ" ]},
+		{"command":[ "SETTEXT", "「へぇ～？　おもしろいじゃない？　それじゃ、わたしが相手だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_162_010114250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "円盤少女Ｂ" ]},
+		{"command":[ "SETTEXT", "「リーダー！　もっかいいけー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_163_010114250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016301_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者リーダー" ]},
+		{"command":[ "SETTEXT", "「……ま゛っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_010114250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015602_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルルカン" ]},
+		{"command":[ "SETTEXT", "「お！？　リーダーってのが起き上がってきちゃった！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_015_010114250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「まだ戦おうってのかぁ！？　だったら、もう一回ぶちのめしてやる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114250001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

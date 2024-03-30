@@ -1,0 +1,164 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0190" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「邪魔はさせぬぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「くぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「はぁぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「うわぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつものノリで戦闘をはじめたのはよかったが、時間帝国の連中はいつもより\nも本気だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ちょっとぉ、いつもと違くない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「だね、すごい気迫だよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「みんな大丈夫か！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ああ、これくらい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「問題ない。とにかく、こいつらにはいつものように撤退してもらわないとな\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「撤退？　そんなことするわけないじゃろ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115530002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「この惑星の秘宝をおまえたちに渡すわけにはいかないからな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115530002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時間帝国まで狙っているのかよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こんな面倒なことにまきこまれるくらいなら、いつもみたいに軟禁状態だった\n方がよかった！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そのとき、ダイアンサスから通信が入った。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「ちょっと隊長、ヤバいかも！　なんか、前方にドデカいワームホールが開い\nちゃってる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010115530001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだって！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「このままじゃ、らちがあきませんからね……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "オボロが呼び出したのは、巨大ロボット軍団だった。前に月を襲ったのと同じ\nくらいの規模だろうか。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「セリカ、そっちは大丈夫なのか！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「一応、時間帝国のロボとの戦闘経験はあるわ。だけど、地上の援護は厳しい\nかも」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010115530002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こっちに出てきたロボは、俺たちでなんとかするしかないか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいアナザー！　今まであっちでサボっ……ドラグソードの整備してたんだ\nったな！　出せるか！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「今サボったって言いそうになってただろ！　最近出番がなかったのは整備に\n忙しかったからだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115530002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「おほん。それはさておき、ばっちり整備も済ませてきた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115530003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「機体の性能も若干アップしている。バージョン１．５といったところだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115530004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そりゃあいい。さっそく召喚してくれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ああ！　こい、ドラグソード！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115530005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

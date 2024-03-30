@@ -1,0 +1,318 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0042" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まいったな……」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前たちもついてきたのか。まあ……あいつのそばにいたら、なにされるか\nわからないもんな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「だ、だいじょうぶです！　ロッテはお兄ちゃんのみかたですからっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115290002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「わ、私も……頼っていいんだからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115290002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、ありがとうよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「にゃふふぅ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115290003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「……ふふ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115290003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「あれ～、カツマくんじゃないか～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジェスタ、どうしてここに！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「ん～、そろそろあの変な組織をやめてきたんじゃないかな～って思ってね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなわけないだろうが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「別にやめちゃっていいと思うけどな～。だって、キミの代わりがいるんだか\nら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、あの偽物のことをなにか知っているのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「知っているとも。だって、あれを作ったのはボクだもん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「キミのことをい～っぱい調べて、完璧なキミのロボットを作ったんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290005" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「完璧な……俺だと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「名付けてメカカツマ！　どうどう？　かっこいいでしょ？　おまけに性能は\n当社比２２％アップ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「力も、賢さも、そしてチンコの大きさも♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "余計なところまで２２％アップさせてるのか！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「キミより有能なキミが組織にいるんだから、キミは安心して女王様のところ\nにきていいんだよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290008" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃん、だめですよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115290004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「そうだよ、みんな兄さんが必要なんだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115290004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……そうだな……。俺はみんなを絶対に正気に戻して見せる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「うーん、そろそろ精神的に参ってると思ったんだけどなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290009" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「でも、そろそろ時間だからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時間……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？？" ]},
+		{"command":[ "SETTEXT", "「いたぞ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その声は！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジェスタと話しているタイミングで、都合よくメカカツマがやってきてしまっ\nた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おまけに女幹部たちも一緒じゃないか！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ（弱）……って、お前！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「驚いたね、なんであんたが時間帝国のやつと一緒にいるんだい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「さては、お前も裏切り者か！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ち、違う！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「そうさ！　このカツマ（弱）は、ボクがＥＤＯに潜入させたスパイだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290011" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジェスタ、お前適当なことを……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「やはりそうだったのか！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「許さない……！　許さないぞカツマ（弱）！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115290002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まずい、俺に濡れ衣がかけられている！　催眠だけじゃなく誤解まで解かない\nといけなくなったじゃないか！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「話を聞け！　偽物は俺じゃない！　そっちのカツマ……メカカツマだ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「メカカツマだと！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115290002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだ！　時間帝国から送り込まれたのは俺じゃない！　そっちのカツマだ\n！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そいつは時間帝国が作った俺のロボット、メカカツマだったんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "メカカツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「こっちのカツマが、ロボット？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115290003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「この期に及んで、そんなことであたしらを騙せるとでも思っているのかい？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115290002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "メカカツマ" ]},
+		{"command":[ "SETTEXT", "「そうだよなぁ。俺がメカなわけないじゃないか。俺は本物のカツマだ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やっぱり俺の声は届かないか……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「ほらほら。カツマ、逃げるならこのワームホールだよ。この先で、女王様が\nまっているからさぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115290012" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうする……ここであいつらの相手をするのか……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いや、勝てるわけがないだろ……。だからって、刻の女王のところに行ったら\n、二度と戻ってこられなくなるだろう。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんとかしてあいつらの催眠術を解く方法を考えないと。そのためにもいまは\n、鍛え上げられた俺の逃げ足を見せてやる！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんちくしょうめぇぇえええぇぇぇっ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "メカカツマ" ]},
+		{"command":[ "SETTEXT", "「逃がすか！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃんを守りましょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115290005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「い、言われなくても……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115290005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

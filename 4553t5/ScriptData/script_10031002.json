@@ -1,0 +1,91 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0132" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "琴吹隊員" ]},
+		{"command":[ "SETTEXT", "「このこのこの～！　どっか行け～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_064_010115980001" ]},
+		{"command":[ "SETCHARA", "0", "char_00006402_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "東風隊員" ]},
+		{"command":[ "SETTEXT", "「敵はいなくなったみたいです。勝ったんでしょうか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_063_010115980001" ]},
+		{"command":[ "SETCHARA", "0", "char_00006302_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スミレ" ]},
+		{"command":[ "SETTEXT", "「どうやらそのようで――いえ、待ってください！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_192_010115980001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつの間にか時間帝国兵が撤退し、静まり返った艦内に足音が響く。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スミレ" ]},
+		{"command":[ "SETTEXT", "「新たな侵入者が……たった一人ですけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_192_010115980002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セリカ" ]},
+		{"command":[ "SETTEXT", "「一人で来るっていうことは、それだけ自信があるんだね。みんな！　気を付\nけて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_190_010115980001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "みんなが緊張して待ち受ける中、足音は次第にブリッジに近づき、そして……\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナＤ" ]},
+		{"command":[ "SETTEXT", "「はぁ～い？　お待たせ。あなたたちがダイヤナちゃんと遊んでくれるのぉ～\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_110115980001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000611_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "宵待隊員" ]},
+		{"command":[ "SETTEXT", "「ダ、ダイヤナさん！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_065_010115980001" ]},
+		{"command":[ "SETCHARA", "0", "char_00006502_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アディー隊員" ]},
+		{"command":[ "SETTEXT", "「違う！　ダイヤナさんのアナザーよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_067_010115980001" ]},
+		{"command":[ "SETCHARA", "0", "char_00006702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナＤ" ]},
+		{"command":[ "SETTEXT", "「なんでもいいわよぉ～。ダイヤナちゃん、とっても退屈してたのぉ。楽しま\nせてくれると嬉しいなぁ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_110115980002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000611_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スミレ" ]},
+		{"command":[ "SETTEXT", "「ひ、ひいっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_192_010115980003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナＤ" ]},
+		{"command":[ "SETTEXT", "「そうよ！　その反応！　おまけにおっきな悲鳴を上げて、泣き叫んじゃった\nりなんかしてくれると、もぉ最高よぉ～！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_110115980003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000611_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,216 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0139" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「はーい、それでは健康診断をはじめまーす。皆様、こぞってご参加くださ～\nい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ようやく人妻達を一網打尽に出来たとあって、ホズミ先生はご機嫌だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「あの～。どこで着替えればいいですか～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「あちらに更衣室がありますから、ぜひご利用ください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「あ……ありがとうございます……。でもなあ……絶対体重増えちゃってるよ\nぉ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「あなたはお胸がまた増えただけなんじゃない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「この～。言ったな～？　あなただって、またバストサイズがあがったんじゃ\nない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「ふふふっ。それは秘密……♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「人妻が一か所に集まると、かしましいといいますかなんというか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「すっかり井戸端会議のノリだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "トーチャーに無理やり連れてこられたにしては、人妻達は元気いっぱいだった\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そしてストレス発散とばかりに、俺に絡みまくってくる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「隊長さぁん。私達、今から頑張ってくるねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「本当の本当に……わたしはあなたに診断してほしかったけど……。今回だけ\nは諦めてあげる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022230003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「もうこうなったら、誰よりも健康に長生き目指しちゃうんだから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022230004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「おっぱいのサイズ、上がったら……教えてあげようか？　ダンナより先に…\n…ふふふ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022230003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「それ、いい！　なんだか淫靡でアンモラル……。ドキドキしちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022230003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「さあさあ、皆さん。準備をなさってくださいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022230003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「はーい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022230005" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "きゃいきゃいと楽しそうに騒ぎながら、看護師さんに案内されていく人妻たち\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺も更衣室に付いていきたい……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「鼻の下が限界突破してノビノビになっておりますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「う、うるせー……。しかし……なんで怪人協会の怪人たちが、ＥＤＯで健康\n診断なんかするんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「怪人派遣協会なんて、一時は敵になったこともあるやつらだろ。それを快く\n受け入れてやるなんて……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「それには深い理由がある」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょ……長官！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「彼女達は、我々と敵対するばかりではない。こちらの戦力が足りない時に、\n派遣で来てもらう事も多いんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022230002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……なるほど。あくまで派遣会社だから……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「そうだ。彼女達は、呼ばれた先で懸命に働いている。どう行動しているのか\nは、呼ばれた先の方向性次第ということだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022230003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「……特に先人は、協会の方も色々と物入りなようで……。仕事を選んではい\nられないらしい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022230004" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へー。どこも不景気っすもんね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「よって、彼女達が敵になろうと味方になろうと……彼女らが仕事をしている\n事に違いはないということだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022230005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「出来れば味方で会いたいもんですけど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人は、今まで結構な目にあわされてもおりますからなあ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022230003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「とにかく。ＥＤＯはＥＤＯで、彼女達に力になってもらっている。ゆえに、\n持ちつ持たれつの精神で助けもする」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010022230006" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ＥＤＯも協会も大変なんだなー……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「組織運営というのは、大変なのですぞ。ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022230004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前は運営してねーだろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

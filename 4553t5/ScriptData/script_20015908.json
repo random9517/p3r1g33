@@ -1,0 +1,413 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0203" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぉっ……こいつは……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00021203_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「空に……あんなにはっきりと裂け目ができています……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ずっと観測できない位に小さくなっていた筈なのだが、突如として広がり始\nめてな……しかも、まだ広がりつつある」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "市民Ａ" ]},
+		{"command":[ "SETTEXT", "「うわ、何だよあれ……メチャクチャでっかい穴ができてるぞ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "市民Ｂ" ]},
+		{"command":[ "SETTEXT", "「何か異常気象のやつとかじゃね？　とりま写真とっとこ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "市民Ｃ" ]},
+		{"command":[ "SETTEXT", "「よく分からないけど……気味が悪いわね……どうなってるのかしら……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "スクルド" ]},
+		{"command":[ "SETTEXT", "「街の人たちも不安そうにしてるよ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028301_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「無理もありません。お天気はいいのに、１部分だけ真っ暗になっているみた\nいな……不気味な感じがしますからね……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「どういうことなんだ……これは？　一体、何が起こっているんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「うちの研究班の話だが、本来、次元の裂け目とは異なる世界が何らかの形で\n交錯した際に偶発的に発生するものらしい」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「だが、本来混じり合わない世界は、成立させようにもどうしても整合性が合\nわなくなる。すると自然に裂け目も閉じてしまうそうだ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「ふむ……だが、これは裂け目が大きくなっているように見えるが……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「その通りだ。それは、本来は違和感になる筈の要素が、ある程度融合してし\nまう事態が起こっているからだ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「違和感が融合……どういうことですか？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「違和感というのは、この世界で認知されているものとは性質の異なるものが\nあった場合に発生する」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「だが、世界の認知が進めば、それらは違和感ではなくなる」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "スクルド" ]},
+		{"command":[ "SETTEXT", "「それって……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028301_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「薄々は察しもついているかも知れないが……君たち、ヴァルキリーの存在だ\n」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「私たちの……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「本来は別次元の存在である君たちが、市民に認知されすぎてしまった為に、\n次元の裂け目はそれを違和感と認めないでいる」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「も、もしかして、私達の人気が出すぎてしまって……？　やだ……どうしま\nしょう……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「何を満更でもないという顔をしている」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「す、すみません……あの、そうなると……どうなってしまうんでしょうか…\n…？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「私達のいる現在の次元と、君たちのいた次元が融合を始めようとしていると\nいうことだ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「次元の裂け目が、整合性が合っているという判断をして、より自然な状態に\nなろうと、逆に広がり始めている」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「もし、このままこの状況が進んだら……どうなるのでしょうか」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「裂け目が広がれば広がるほど、やがてそれは自然なものになり……最終的に\nは我々の次元は融合してしまうと予想できる」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「この世界と……私達がいた世界とが……だが、それは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「混乱なんてレベルじゃ済まねぇよな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「ミッドガルドは戦乱の世界です……皆さんの世界でも、戦いがあることは分\nかっていますが、それにしても……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「平和で暮らしているこちらの方々にとっては余りにも過酷です……何とかな\nらないのでしょうか？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「ふむ……だが、今ならば、次元の裂け目を通して元の世界に戻ることはでき\nそうだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「そうです。私達が元の世界に戻れば……また、元の通りに世界は切り離され\nるのでしょうか？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「正直なところ、実際にどうなるかは分からん。だが、その可能性は高いだろ\nう」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「それならば、もう迷うことはありませんね」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「はい。この世界の平和は、ＥＤＯの皆さんに委ねて、私達は私達の世界を守\nる……それが１番ですよね」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「むぅ……名残り惜しくはあるが、こればかりは強く引き止めるのは難しいな\n……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「名残惜しいのは私達も同じです。短い間でしたが、どれだけお世話になった\nことか……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「美味しいものもいっぱい頂きましたし、皆さんにもとてもよくして下さいま\nした。本当に感謝しかありません」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「そうだな……随分と世話になった」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "スクルド" ]},
+		{"command":[ "SETTEXT", "「２度と会えなくなっちゃうのは寂しいけど……みんなも元気でね！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028301_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ああ。だが、２度と会えなくなるかどうかは分からんぞ？　未来に何が起こ\nるかは誰も分からないんだからな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「そうですね……。またどこか世代を越えて、会える機会があるかも知れませ\nん」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふふ……我々の世代がしっかりと生き残れるように、ヴァルキリーたちには\n頑張ってもらわないとな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「お任せ下さいっ。お姉さまたちと力を合わせて、きっと素敵な世界にしてみ\nせます！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「あら……もう行ってしまうおつもりですか？　せっかく、これから楽しくな\nりそうだというのに……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「……フ、フレイア様っ……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「次元の裂け目のこと……どうやら気づいたみたいね、レイア」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「フレイア様……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フェンリル" ]},
+		{"command":[ "SETTEXT", "「随分と異世界を堪能していたようだな。すっかりと、こちらの世界に馴染ん\nだんじゃないか？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「分かるわ。ここは、何かと居心地がいいものね。私達も、すっかり落ち着い\nてしまった感じなの」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「……でも……いつまでも、このままでいる訳にはいかないようです」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「あら、どうして……？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「私達が元の次元に戻らないと、この次元の裂け目が更に広がって、２つの世\n界が融合してしまうかも知れないのです」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「まぁ……そうなのね」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「今、帰れば、裂け目はまたゆっくりと塞がって元の状態に戻るそうです。で\nすから、早く戻らないと……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「どうして？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「どうしてって……２つの世界が繋がったままでいたら、これからどんな混乱\nが起こるのか……！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「でも、既にあなた達は、この世界に順応してしまっているでしょう？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「そ、それは……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「最初のうちは混乱もあるかも知れないけれど、やがてそれは大きな秩序の中\nに取り込まれて自然なものになるのではないかしら？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フェンリル" ]},
+		{"command":[ "SETTEXT", "「徒に世界の理に干渉するのは、お前たち神族にとって好ましくないことだろ\nう」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「ふん、それが最初から何も仕組まれていない話であれば、まだ説得力もあっ\nたろうがな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "スクルド" ]},
+		{"command":[ "SETTEXT", "「そうだよっ、何かそっちの人たちが悪いことを企んだのが最初でしょっ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028301_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「さあ、それはどうかしら。悪いことかどうかは立場や状況で、判断が変わる\nことではないかしら？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「フレイア様……フレイア様は、片方の次元が侵食されることになっても構わ\nないというのですか？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「ふふ……私は、全てをあるがままに受け入れるだけ……そして、新たな世界\nをあの方に献上するの」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「あの方……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「貴方もよく知っているんじゃないかしら？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「それが、そちら側の答えという訳か。やはり、話は通じないようだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「話ができないのなら、どうするつもりなのかしら？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "アリーヤ" ]},
+		{"command":[ "SETTEXT", "「知れたこと。力ずくでも突破する」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フェンリル" ]},
+		{"command":[ "SETTEXT", "「ふん、面白い。ずっと消化不良の戦いばかりだったからな。しっかりと決着\nをつけてやらなければと思っていたところだ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「申し訳ありませんが、お２人で私達を止めることは難しいと思います。大人\nしく投降していただけませんか？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「あれれぇー？　正義のヴァルキリー様たちがぁ、人数有利で突っ掛かってく\nるのってばぁ、ちょーっと不公平じゃない？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "レイア" ]},
+		{"command":[ "SETTEXT", "「あなたは……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00027901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「にひひっ……もしかして、ボクを差し置いて、楽しいコトを始めようとしち\nゃってる～？　それは、ちょっと見逃せないかなぁ～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒルデガード" ]},
+		{"command":[ "SETTEXT", "「気をつけて下さい、お姉様。あの人は、怪しい攻撃をして来ます」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「わはーい、褒められちゃった？　でも、せっかくこれから面白くなりそうな\nんだから、お邪魔されたくはないんだよねぇー」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「困りましたね……私は戦いは専門ではないのだけど」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フェンリル" ]},
+		{"command":[ "SETTEXT", "「お前に戦いは期待していない。大人しく下がっていろ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "フレイア" ]},
+		{"command":[ "SETTEXT", "「ごめんなさい。一応、援護だけさせてもらいますわ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00028201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふん、いい度胸だ。ならば、行くぞ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

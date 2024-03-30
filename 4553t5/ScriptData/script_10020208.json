@@ -1,0 +1,394 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_026" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわぁあああああっ！　また負けたぁっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「弱い。弱すぎるのである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「く、くそぉおおおっ！　なんでこんなに強ぇカードがボンボン出てくるんだ\nよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「フフフフ、カツマクン。キミには想像もつかないだろうねえ。このデッキを\n構築するのに、ハルカがいくらつぎ込んだか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「想像したくもねえよ！　つか、珠魚もそんなに巻き上げた割には羽振りよさ\nそうに見えねえな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「言っただろう、研究資金だって。趣味だの贅沢だのには１円も使ってないよ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113200002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえの『研究』ってのは９割がた趣味だろうに。くそっ、とにかく、それ\nだけ大人げなく金を突っ込んで強化したデッキってことか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「王の遊びとはそうしたものである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くうううっ！　覚えてろよ！　必ず民衆の力で王政を打倒してやるからな！\n　つまり金をかけずにお前に勝ってやる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……と、いうことでおまえたちに集まってもらったわけだ」", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「いい心がけね！　私たちがいれば、大勝利間違いなしよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そう願っとく。とにかく、おまえたちの知恵を借りて珠魚たちをぎゃふ\nんと――じゃなくて、巻き上げられた学生たちの金を取り返す！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「……本音は、前半だよね。絶対」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「でも……冷静に考えてみるとたしかに、あの売りつけ方は納得いかないわね\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「だよなー。おかげで次の給料日までもやし生活だぜ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえは教師なんだからちょっとは考えろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「まあ、話はわかりました。校内であこぎな商売をされては困りますし、カツ\nマさんに協力してもいいです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「でも、どうしましょう……私、ゲームのことなんて、ぜんぜんわからないで\nす……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そうね……つきみから話を聞いた限りでは、どれだけ強くてレアなカードを\n持っているかが、勝敗のカギを握るみたいだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010113200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、それがすべて、ってわけでもないんだろうけど。ただ、その要素がで\nかいのは確かだと思うぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「と、すれば、一番強いレアカードを手に入れることができれば、対戦では有\n利になるかもですね。最強のカードって、どんなカードです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「それはなんといっても、母上様でしょうね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「母上様……？　つまり、ルナルバース陛下のカード？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんなんがあるのか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「うん。正確にいうと『ルナルバース１３世・真冬の着ぶくれバージョン』。\nすっごいレアで、まだ誰も見たことがないんだけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「すごく強いらしいわね！　わたしも見たことないけど！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、誰も見たことがないって……それ、実在するカードなのか？　ただの\n噂じゃないのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ルナルバース……着ぶくれバージョン？　あれ？　もしかしてこれのことか\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、セレインが１枚のカードを取り出す。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「はい！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「あーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「わ！　すごい！　これこれ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、マジかぁ！？　セレインおまえ、そんなの持ってたのかよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ああ、こないだ買ったブースターパックに入ってたんだけど。へー、これ、\nそんなに強いのか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マジかよ……セレインのヤツ、そのわりには勝てないってボヤいてたけど……\n。いや、それはともかく、カードをなんとかこっちのデッキに入れなければ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "幸いにも、セレインはカードの強さに気づいていなかったようだ。つまり、最\n強のカードを持っていながら、真価を理解していなかった……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だったら、簡単に手放すに違いない！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「なんか、カツマ先生すっごく悪い顔してる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんでもないって！　それよりセレイン！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「お、なんだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そのカードくれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「え、やだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ま、まあ……そりゃそうだな。いきなりくれと言われても、普通は嫌だな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だったら……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それじゃあ、交換してくれよ。けっこういいカードあるぞ。ほら、これなん\nかどうだ。『エファ・ミニスカサンタバージョン』」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「うーん、強そうだけど……あんまり交換したくないなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え！？　な、なんでだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「だって、最強なんだろ？　このカード」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうらしいけど……でも、おまえあんまり使ってないんだろ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「まあ、そうだけどさ。このカード、みんなが言うほど強くないし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だったら頼む！　交換してくれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「でもなー、カードの絵は気に入ってんだよなー。着ぶくれモコモコでかわい\nいし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういう問題じゃないんだ！　学生たちを助けるために、そいつが必要なん\nだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「……自分の腹いせのためでは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「だから、やだって！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「たーのーむよー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「カツマ先生……あ、あの、それぐらいに……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「嫌だと言ってるのに、交換を無理強いするのは最低です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「む、むう……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いかんいかん、熱くなりすぎてしまった。強引に押しても、セレインは頑なに\nなるばかりだろうしな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なにかこう、セレインが乗ってくるような条件を出さないと――あ！　そうだ\n！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな、悪かった。無理にとは言わないよ。そのかわり……俺と勝負して\nくれ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「勝負？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだ！　俺とおまえで、一世一代の大勝負だ！　俺がついさっき組み直し\nたばかりの、自慢のデッキを見せてやる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「おおー！　なんか面白そうじゃん。やるやるー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「始める前に、勝負を盛り上げる提案があるんだ。カードを１枚ずつ賭けよう\n！　勝ったほうは、負けたほうから好きなカードを一枚もらえる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「あ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「さてはこの人……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113200005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう。この二人には気づかれてしまったようだが……セレインはまだこちらの\n意図を見抜いてはいない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "賭けをもちかけて、最強のカードを手に入れようという、こちらの計画を……\n！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「おおー！　それは盛り上がりそうだな！　カツマにしてはいい思いつきだぞ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「クククク……そうだろうそうだろう！　ゲームを盛り上げるのには、やっぱ\nりなにか賭けないとな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「と、いうわけでセレイン！　勝負だ！　」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「おう！　カードはもらったようなもんだな！　それじゃ、いくぞー！　女幹\n部、スタンバイ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113200014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "クククク……セレインの脳筋っぷりに感謝だな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

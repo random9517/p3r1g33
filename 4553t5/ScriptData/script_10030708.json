@@ -1,0 +1,245 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0199" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "姫様がトラップを暴発させまくった結果というか、俺たちが互いに出し抜こう\nとした結果というか。……とにかく現場は大混乱だった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「なっ、なにこれぇっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「手足に、ね、ネバネバしたものが……くっ、このっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「やぁああんっ！　おっぱいがひっぱられてっ、服が脱げちゃうぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだよこれぇっ、ぜんぜん、とれないぞっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「こらセレーナ、そんなに、くっついてくるんじゃないよぉっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「離れろお前たちっ、ひ、秘宝は私が……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「は、離れたくても……身体がぁ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そ、そんなに暴れたら、余計にくっついて動けなくなる……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は幸い無事だったが、洞窟の床がネズミ捕りのような粘着液で覆われていた\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "姫様たちはそれに引っかかってしまい、もがきながら身動きが取れなくなって\nいる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「なにやってんだお前ら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前は！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そこへやってきたのはスケバンサンダーだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「うわっ、てめーなんですっぽんぽんなんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560002" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせぇ！　これには深いわけが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「いや、別に知りたくねぇから。ま、ちょうどいいや、お先にー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560003" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああっ、待ちやがれ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は奥へ進んでいくスケバンサンダーを追いかける。このままでは、あいつが\n先に秘宝を見つけてしまうかもしれない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "秘宝を見つけて、それを売って一生遊んで暮らすのは俺だ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「てめー！　追いかけてくるんじゃねえよ、全裸で！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560004" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前が逃げるからだろうが！　秘宝は渡さねえからな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「オレだって、てめーみたいな変態に宝を先取りされてたまるか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560005" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "カチッ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「あ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560006" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "突然、俺たちの足元に穴が開いた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「落とし穴かよぉっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560007" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおおぉぉぉっ！　落ちるぅうううぅぅぅっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "落ちた先は滑り台のようになっていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ！　この滑り台、このままどこへむかってるんだぁぁっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0200" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "俺たちが落ちた場所は、どこかの部屋だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な……なんだ、ここ……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "天井の穴はいつの間にか閉じていて、つまり俺たちはこの部屋から出られなく\nなってしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「ああっ、てめーのせいで変な部屋にでてきちまったじゃねーか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560008" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺のせいかよ！　だいたい、秘宝を横取りしようとしたお前が悪いんだろう\nが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「横取りだぁ！？　秘宝はてめーのもんじゃねーだろうが！　早い者勝ちだっ\nて言っただろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせぇ！　お前が余計なことをしなければこんなことにならなかった！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「なんだとぉっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いがみ合ううちに、俺は壁になにかが書かれているのに気づく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい、これ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「なになに……『××ッ×スしないと出られない部屋』……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560011" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115560012" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

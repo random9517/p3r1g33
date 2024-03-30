@@ -1,0 +1,186 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0201" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「みんなを探して屋上までやってきたが……誰もいないな」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そうだっちゃね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何度もループして、とりあえず最初はカツマさんに合わせて、みんなを探すル\nートを選ぶといいことがわかったわ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "告白の場所も、学園のいろんな場所を試したけど、全部ループが始まって最初\nに戻されてしまう。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まだ屋上は試してないからこんどはここで……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ねえ、カツマさん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "2", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうした、まりあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「えっと……その……って」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわぁあああぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「きゃぁあああぁぁぁっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0164" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「んもーっ！　屋上での告白、ルートを変えながら３９０回試してもまた最初\nにもどされたっちゃーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここからまりあの声が！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさん！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "カツマさんが職員室のわたしを見つけるルート！？　こ、これは初めてのパタ\nーン……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もしかして、これはチャンスなんじゃ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まりあ、ほかのみんなが見当たらないんだ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「一緒に探しましょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ、おう。俺もいまそう言おうとしていたところだったんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、私はカツマさんのことはなんでもお見通しだっちゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「さっそく屋上へいくっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「屋上？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0208" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここには誰もいないみたいだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そうっちゃね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710010" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「じゃあ、他のところを探しに行くか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そ、それは……嫌だっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710011" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まりあ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "屋上から出ていこうとするカツマさんの腕をとっさに掴む。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「わ、わたしはカツマさんと一緒にいたいんだっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まだループは起こらない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうしたんだまりあ、なんだかおかしいぞ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「おかしくなんかないっちゃ。ずっと、ずっと思っていたことだっちゃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710013" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「襲来者（インベーダー）が地球にやってくる前は、カツマさんのことは敵組\n織の足を引っ張ってる無能な幹部だとしか思ってなかったっちゃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう……。ひでぇ言い方だが間違いじゃないな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「でも……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115710015" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

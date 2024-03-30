@@ -1,0 +1,232 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0024" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぐわぁあああぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "本気でかかってこいとバッケンローダーは言った。だから俺は本気で攻撃をし\nかけた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、俺はバッケンローダーに攻撃を当てる間もなくボコボコにされている\n。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……って、当たり前だよなぁ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「これじゃだめ……まだまだ、威力が足りない……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「あの３人を、一撃でダウンさせられるくらい強くならなきゃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ……その練習相手として、俺は適任なのか……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ＲＰＧでたとえるなら、最初の村近辺で出現する敵を延々と倒しているような\nもんだぞ？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんなんで特訓になるか？　レベルアップするのに何時間もかかるだろうが。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「夜叉が相手だと、今度は夜叉の方が手加減しちゃうからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020115890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「すみません。頭ではわかっていても、本気で攻撃するのはやっぱりできなく\nて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010115890001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「いいよ。夜叉の性格は、わたしもよくわかってるから。さあ、カツマさん、\nもう一度！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや……だが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何度も倒されて、俺の方がボロボロだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「悩んでいるようだな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115890001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ……その声は……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「待ちに待ってた出番が来たぜ、ここはおまかせベルガマスク！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115890002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「ベルガマスクさん！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010115890002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょうどよかった……！　ベルガマスク、俺のかわりにバッケンローダーの\n相手をしてくれ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「ベルガマスクさん？　あなたが相手でもいい。お願い、わたしは強くならな\nいといけないの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890004" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「うむ。だがまずは装備を考えるべきではないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115890003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「装備……？　武器のこと？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890005" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「そう、攻撃の威力をあげる王道にして近道、それは強い武器を持つこと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115890004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「ひとつで足りなければ、ふたつ持てばいい！　両手に武器をもてば、その強\nさは２倍！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115890005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「二刀流になればいい……そうか、夜叉！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890006" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「なんですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010115890003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「金棒をかして！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890007" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「ええっ！？　お、重いですよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010115890004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「く……っ。たしかに、重いね。でも、これくらい平気……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890008" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おい、ベルガマスク！　こいつになに吹き込んでるんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "満月を背に、月明かりに大桃切をきらめかせ、夜叉の金棒を引きずってバッケ\nンローダーが俺に迫る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待て！　妙な謎理論（こたえ）を鵜呑みにしてんじゃねえ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなの赤点だ赤点！　実はお前らもあの塾でなんかされてんじゃねえのか\n！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「そんなことない……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890009" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おぉいっ！　なに金棒を掲げてるんだ！？　鬼の武器だろ！？　おまえ桃太\n郎だよなぁ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おかしいだろ？　なんで金棒を装備できるんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「人間から、筋肉殺人ゴリラに脳みそ交換（ジョブチェンジ）したんじゃねえ\nか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「わたしは、わたし。わたしは……わたしのまま、もっと強くなる……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010115890010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺に向かって、バッケンローダーが金棒と大桃切を振りかざす。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぎゃぁあああぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「いいぞぉっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115890006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉＆珠魚" ]},
+		{"command":[ "SETTEXT", "「うわぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010115890005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "3", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00002202_01", "3", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,206 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0031" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_016" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "それは、トップアイドルになるための第一歩……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "九重市ご当地アイドルライブのステージでは、４人のアイドルがマイクを片\n手に舞い踊っていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「みんなー！　盛り上がってるか～っ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022940001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010009_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミスＤ" ]},
+		{"command":[ "SETTEXT", "「まだまだカッ飛ばしてまいりますわよ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_270022940001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000127_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「ワタクシたちは今日、ここで。今までの努力の成果を発揮して！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_030022940001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019403_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤＤ" ]},
+		{"command":[ "SETTEXT", "「お前たちを夢のような世界に誘う！　乗り遅れずについてくるがいい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_150022940001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000215_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "４人の姿はさんさんと輝く太陽に照らし出され、まばゆく光り、煌めいている\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤＤ" ]},
+		{"command":[ "SETTEXT", "「この混沌の世を正すため！　人気を爆発させるため！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_150022940002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000215_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「刻の国からやってきた、戦えて強い４人組！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022940002" ]},
+		{"command":[ "SETCHARA", "0", "char_00010009_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「究極アイドル☆タイム４！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_030022940002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019403_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "２人" ]},
+		{"command":[ "SETTEXT", "「究極アイドル☆タイム４」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_270022940002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000127_01", "8", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00019403_01", "8", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドッ、と沸きに沸く場内。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何万人という老若男女のファンの前で、４人は火柱と共にジャンプする。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミスＤ" ]},
+		{"command":[ "SETTEXT", "「全財産を投げうち、全裸で推しなさい☆」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_270022940003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000127_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「すげぇ……！　こいつらなら行ける！　伝説のドームに、全国ツアーに！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……っ、俺も関わりたい！　叶うことならプロデューサーとして！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「最高のアイドルユニット爆誕だぜ！　全力で推すっきゃねえっ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……はっ！？　ゆ、夢か……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人～。先程からギャーギャーうるさいですぞ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022940001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺、口に出して独り言を喋ってたのか。どんだけリアルな夢だったんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「独り言……というかもう、夢中で叫んでおりました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022940002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなに……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "確かに夢の中で、俺は４人のアイドルたちを全身全霊で応援していたような気\nがする。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかし、よりにもよってなんであの４人だったんだ", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "特に仲がいいわけでも、姉妹だったり同じグループだったりするわけでもない\nバラバラの４人。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "でも、夢の中ではめちゃくちゃ相性が良さそうだったんだよな。共通点は見当\nたらないが", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あんな風に、リズムを合わせて楽しそうに歌ったり踊ったりしている姿を見た\nら感動してしまうのも無理はない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「不思議なこともあるもんだ……。って、うわ。まだ朝の４時だぞ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「二度寝でもするか……。なんかもう、目が冴えちまって寝れそうにないけど\nな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そういえば夜中、ご主人に連絡が来てましたぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022940003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「連絡ぅ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうせＥＤＯからの呼び出しに違いない、と寝返りを打ちながら確認すると…\n…。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ギュワワワワ、と見覚えのあるワームホールがベッドの真上に出現した。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これ、あれだろ！　刻の女王だな！？　あ、ああああ、身体が、身体が吸い\n上げられるうう！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なにやら大事が始まる予感ですな……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022940004" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「って、一緒に吸い上げられておりますぞ！　ああああ、まるで抵抗出来ませ\nんん！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022940005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジュンジローと共にホールに巻き込まれながら、俺は嫌な予感に全身が満ちて\nいくのを感じていた……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

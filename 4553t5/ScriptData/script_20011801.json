@@ -1,0 +1,184 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0152" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_016" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "戦闘員Ａ" ]},
+		{"command":[ "SETTEXT", "「ふ～～～……おつかれーっす！　いや、今日、マジキツかったっすよねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_148_010021550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00014801_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｂ" ]},
+		{"command":[ "SETTEXT", "「馴れ馴れしくしないでいただけて？　わたくし、あなたと同じ部屋で着替え\nるだなんて本来ありえませんのよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_149_010021550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00014901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｃ" ]},
+		{"command":[ "SETTEXT", "「……毎回、それ言ってますよね？　揉め事は起こさないで下さいよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_150_010021550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015001_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "――戦闘服に身を包んだ女性たちが、ロッカールームにやってくる。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう……彼女たちは、名もなき戦闘員。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "彼女達の働きによって、本作の戦闘シーンは成り立っているのである。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だが、そんな彼女たちにも戦闘服を脱ぐ時があった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｄ" ]},
+		{"command":[ "SETTEXT", "「はぁ……お腹空いた～～～。ねえ、駅前のコーヒーショップに行こうよぉ。\n新しいのが出たんだってぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_151_010021550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015101_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｅ" ]},
+		{"command":[ "SETTEXT", "「あらぁ、いいわね♪　今日はキツかったし……ちょっとぐらいなら過剰にカ\nロリーを摂っても平気平気♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_152_010021550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ａ" ]},
+		{"command":[ "SETTEXT", "「いいっすね～。ぜひ行きましょう！　で、あんたはどうします？　一緒に行\nくっすか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_148_010021550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00014801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｆ" ]},
+		{"command":[ "SETTEXT", "「ウゥー……ニク……タベル…………アマイモノ、タベル…………デモ、ソレ\n、ニクノアト……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_153_010021550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｃ" ]},
+		{"command":[ "SETTEXT", "「……ま、まあ、別にいいじゃない。一緒にいきましょう？　ね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_150_010021550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｆ" ]},
+		{"command":[ "SETTEXT", "「ゥゥ………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_153_010021550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "彼女達の所属する『怪人派遣組合』は、『敵役』を派遣する営利団体である。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "当然、雇用者の戦闘力と、反社会的勢力として生きる能力と気概を何よりも重\n視していた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……いわば『世間のはみ出し者』が集められているわけである。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とはいえ、コンプライアンスに則った雇用契約はかなりカッチリだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "残業代も休日出勤も皆勤手当もバッチリ支給されるが、仕事内容は『危険・汚\nい・キツイ』の典型的３Ｋ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ホワイトとブラックに色分けがパンダ級にクッキリと塗り分けられているとい\nう労働環境なのであった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｇ" ]},
+		{"command":[ "SETTEXT", "「…………はい。わたしです。ええ、こちらの現場が終わって、もう撤収して\nいます……はい……はい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_010021550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｇ" ]},
+		{"command":[ "SETTEXT", "「え？　ああ、聞いてます……次の現場、結構特殊みたいですね……でも、無\n茶振りは慣れていますから大丈夫だと思います」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_010021550002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｇ" ]},
+		{"command":[ "SETTEXT", "「はい……はい……わかりました。お疲れ様です……では失礼いたします――\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_010021550003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ａ" ]},
+		{"command":[ "SETTEXT", "「あ、本部からの連絡っすか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_148_010021550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00014801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｇ" ]},
+		{"command":[ "SETTEXT", "「うん……みんな、聞いてる？　次の現場について」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_010021550004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｂ" ]},
+		{"command":[ "SETTEXT", "「当然ですわ。はぁ……もう、面倒臭い……口調まで換えねばならないのでし\nょう？　いつもみたいに定型文だけでいいのに……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_149_010021550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00014901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｅ" ]},
+		{"command":[ "SETTEXT", "「『イ゛ーッ！！』だけで済むほうが楽よね……確かに。でも、仕事は仕事だ\nから……みんな、しっかりキャラを作ってきてね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_152_010021550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｃ" ]},
+		{"command":[ "SETTEXT", "「……殺陣、上手くできるかな？　斬られるより、斬る方が好きなんだけど…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_150_010021550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015001_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｄ" ]},
+		{"command":[ "SETTEXT", "「しょっぱなにやられる方が楽じゃない？　憶えること、少ないし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_151_010021550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｅ" ]},
+		{"command":[ "SETTEXT", "「なんでもいいわぁ……ふふ、しーっかり目立って、主役を食っちゃいましょ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_152_010021550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｆ" ]},
+		{"command":[ "SETTEXT", "「フー……フー…………ワタシ、ガンバル…………アオーーーー！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_153_010021550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｇ" ]},
+		{"command":[ "SETTEXT", "「更衣室で大声出さないでね？　ほら、他の人に迷惑だから――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_154_010021550005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "着替え終わった彼女達は、一般人に戻る。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、束の間のスイーツタイムや、安居酒屋で疲れを癒やし、次の現場に備\nえるのであった――。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

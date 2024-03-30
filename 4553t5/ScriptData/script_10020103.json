@@ -1,0 +1,154 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "襲来者" ]},
+		{"command":[ "SETTEXT", "「形勢不利か……撤退だ！　退けーっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「空間変動と、敵影消失を確認。敵、全部隊が撤退したものと思われる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_040113030001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000904_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「ふぅ……！　どうにか追っ払ったね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020113030001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やったな、修羅姫！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「なんだと……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113030001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "修羅姫がギロリとこちらをにらむ。思わず俺は震えあがった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「なにが『やったな』だ、なにが！　遅れてきたうえに、こちらの足をひっぱ\nりおって！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113030002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な！？　ちょ、ちょっと待てよ！　俺たちは！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「お姉ちゃん！　落ち着いて！　私たちは教室にいたから――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010113030001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「ああ、いや、夜叉はいいんだ、夜叉は。私が問題にしているのは、この新参\n者連中の戦い方だ！　なんなのだ、あの無様な動きは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113030003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……あ、やべ。初めて会ったときから、なんとなくそんな気はしてたんだが\n……こいつ、絶対めんどくさいヤツだ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだとぉ！？　聞き捨てなら―ん！　それはいったいどういうことだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010113030001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だよなあ！？　そう言われたら、ウチのめんどくさい連中も当然黙ってないよ\nなあ！？　ああああ、なんかもう、ホントにめんどくさいことになってきた！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「手際が悪すぎると言っているんだ！　あれしきの相手にもたついて、我々の\n邪魔をするんじゃない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113030004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「よけいな手間を増やしただけだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113030005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「だったら言わせてもらうがね、あたしらが来なければ、いったいどうなって\nたと思ってるんだい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113030001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「もっと早く片付いていた！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113030006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「お姉ちゃん、いくらなんでもそんな言い方……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010113030002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おのれおのれー！　言わせておけば好き放題吹きまくりおって、このボケナ\nスビどもがー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010113030002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「なんだと、貴様！　教師に向かってその言葉遣いはなんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113030007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、ちょっと待て！　いまのお前は『担任の明日楽先生』じゃなく、『ブ\nラックメルヘンの修羅姫』のはずだろ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「うるさい！　だったら望み通り、教師らしくしてやろうじゃないか！　貴様\nらに戦い方を、この拳で叩き込んでやる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010113030008" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「のぞむところだ！　皆の者、かかれーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010113030003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「あああ！　みんな！　やめてーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010113030003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからいいかげんにしろってー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

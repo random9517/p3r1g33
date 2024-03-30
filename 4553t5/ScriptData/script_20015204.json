@@ -1,0 +1,207 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふっ、ふっ、はっ……ひとまず撒いたか……？　あいつらが内部の構造に詳\nしくなくて助かった」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒカリ" ]},
+		{"command":[ "SETTEXT", "「だが、このままだとまた見つかるぞ。先ほど救援を呼ぼうとしたが、妨害さ\nれているのか通信が繋がらない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_030023440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015605_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「どうやらシステムをハッキングされているみたいですね。どこからも外に繋\nがりません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まりあ！？　どうしてここに？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「話してる暇はありません。ひとまず抜け道を使って逃げます。こっちに！！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0118" ]},
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "「ここならひとまず安全でしょう」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "6", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440003" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだここ……お前の私室なのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「私室というか、実験室というか……シルバスターの研究とかもここでやって\nます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440004" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「それよりも、ここのモニタで彼女らの計画を聞いていたんですが、どうやら\n司令部の中で怨霊を呼び出して、この土地を汚染しようとしているみたいです\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「このまま本部から逃げ出せば時間帝国はその計画を実行してしまうでしょう\n。外との通信を遮断されている今、ここを守れるのは私たち３人だけ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440006" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だけど、あいつら精鋭だぞ。ヒカリはともかく、俺とまりあはそこまで戦闘\n力が高いってわけじゃねえし」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ええ。ですから、ヒカリさんを主攻にして、私とカツマさんで支援して相手\nを妨害、こちらを追ってきたら抜け道で逃げましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440007" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そうして他の皆が出勤してくるまで時間を稼ぐんです。幸い、司令室の様子\nはここのモニタで観察できますし、あちらが術を展開させようとしたら、そこ\nを叩きましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440008" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それしかないか……とんだハロウィンになっちまったな。ブギーマンのマス\nクをかぶったら怖がって逃げてくれりゃ楽なんだが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ブギーマンどころか本物の悪霊を呼べるみたいですからね……驚くぐらいが\n関の山でしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440009" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒカリ" ]},
+		{"command":[ "SETTEXT", "「ところで、私を呼んだのはまりあ、お前で間違いないのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_030023440002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015605_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ええ。他の皆には連絡がつかなくて……連絡が遮断する前に反応してくれた\nのはヒカリさんだけです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440010" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おかげで助かったが……まりあはハロウィンの日になにをしていたんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「えっ……と、この部屋でスーツの改良とかしてたら、時間を忘れちゃって…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440011" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「研究者タイプの残業……場合によっちゃあ、俺よりも酷いな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「それに、ハロウィンの夜にカツマさんと本部で２人きりとかになったりとか\n……うふふふふふ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440012" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん、なんか言ったか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「いえいえ、なんでもありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440013" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒカリ" ]},
+		{"command":[ "SETTEXT", "「ふむ……このノートとかもその結果か。買い物メモ、日記……スーツの研究\nはこれか。機能改良、武装改造、バージョンチェンジ。細かいな。ん？　これ\nは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_030023440003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015605_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒカリ" ]},
+		{"command":[ "SETTEXT", "「カツマさん観察日記……カツマさんの好物、カツマさんの行動記録、カツマ\nさんの肌の様子、カツマさんの服装……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_030023440004" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒカリ" ]},
+		{"command":[ "SETTEXT", "「カツマさん陥落作戦、カツマさんとの結婚式、カツマさんとの子育て計画、\nカツマさんとの一軒家選び……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_030023440005" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒカリ" ]},
+		{"command":[ "SETTEXT", "「残業するカツマさんの横顔、寝ているカツマさんの顔、私の身体を見ている\nときのカツマさんの顔……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_030023440006" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒカリ" ]},
+		{"command":[ "SETTEXT", "「怖っ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_030023440007" ]},
+		{"command":[ "SETCHARA", "0", "char_00015605_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ヒカリ" ]},
+		{"command":[ "SETTEXT", "「なんだこれは……それにさっきまでまりあが座ってたこの椅子、湿っている\n……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_030023440008" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ああああああああヒカリさん、時間帝国を迎撃する手順を確認しましょう！\n！　そうしましょう！！　ね？　ね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010023440014" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「その必要はないぜ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080023440001" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "PLAYSE", "SE_M_009" ] },
+		{"command":[ "SETCHARA", "0", "char_00000414_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うおおおっ、なんでここがばれてんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「セレーナの嗅覚を侮るでないわ。お主らの痕跡を辿るなど、造作もない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100023440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000317_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「計画の邪魔はさせませんよ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010023440001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019503_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「さあ、覚悟してもらうぜ……ファウンデーションでの借りを返させてもらう\nっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080023440002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000414_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,259 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "俺たちと時間帝国のロボ、そして宇宙ヒグマとの戦い。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はスケバンサンダーの戦艦と、ドラグソードと共にオボロの指揮するロボ軍\n団と宇宙ヒグマと戦っていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「おいカツマ！　もっとそのデカブツをうまく操縦できねぇのか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせぇ！　ドラグソードを扱うのは初めてなんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「それと、オレの戦艦なんだからもっと大事に扱えよな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115600002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「大事に扱えって、どの口がいってんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そしてスケバンサンダーはアナザー・エファナティカとアナザー・セレーナの\n相手をしている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「無駄話とは、ずいぶん舐めたマネをするのう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「お前の相手はオレたちだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「ちぃっ！　さすが、時間帝国の幹部。なかなかやるじゃねぇか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115600003" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あっちも防戦一方って感じか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "宇宙ヒグマ" ]},
+		{"command":[ "SETTEXT", "「あふぅううぅぅんっ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くっ、ドラグソード！　大丈夫か！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺がよそ見をしている間に、ドラグソードが宇宙ヒグマの攻撃をモロに食らっ\nてダウンしてしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「カツマ！　ちっ、援護してやりたいのに……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115600004" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "戦艦はロボ軍団の相手をするので手いっぱいだ。俺もアナザー・ルナテミスの\nようにドラグソードを扱う力があれば……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「前々から、あなたたちの戦力であるドラグソードは邪魔だと思っていたんで\nす」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115600001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「そこにちょうど石像もありますし、ここは墓場にするのにうってつけですね\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115600002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふざけるな！　いけるよな？　動けるだろ、ドラグソード！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の声に応えて、ドラグソードはまた立ち上がる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そのとき、ドラグソードの石像が光を放つ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "謎の声" ]},
+		{"command":[ "SETTEXT", "「……欲しいか……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010115600001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ……頭の中に、声が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "謎の声" ]},
+		{"command":[ "SETTEXT", "「力が……欲しいか……？　欲しければ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010115600002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……いや、そういうのいいから！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "謎の声" ]},
+		{"command":[ "SETTEXT", "「え……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010115600003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「誰か知らねえが、こっちは困ってんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "謎の声" ]},
+		{"command":[ "SETTEXT", "「いや、だってマニュアルにはこう話しかけろって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010115600004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「力が欲しいってときに、そんなのんきに問答していられるか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "謎の声" ]},
+		{"command":[ "SETTEXT", "「で、でも、本人確認を……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010115600005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いいから、さっさとよこせ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "謎の声" ]},
+		{"command":[ "SETTEXT", "「はっ、はいぃっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010115600006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "石像から放たれる光が強くなり、その空洞を埋め尽くす。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "宇宙ヒグマ" ]},
+		{"command":[ "SETTEXT", "「ひゃふぅうん！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「なっ、なんだいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115600002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドラグソードとスケバンサンダーの戦艦が、光に包まれた。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なっ、なんだ……！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その瞬間、俺の脳裏にドラグソードとは違う巨大ロボの姿が閃く。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「おい、カツマ。なんだ今の……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115600005" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「スケバンサンダー、お前にも見えたのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「ああ、それに、わけのわかんねぇ言葉もな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115600006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「多元宇宙に危機が迫るとき、勇者は新たな力を得るだろう……。どういう意\n味だ？　そのままの意味か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「しらねぇよ！　それより、気づいてるか？　俺の戦艦がなんだかパワーアッ\nプしやがった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115600007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、どうやらドラグソードも強化されたみたいだ」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんとなく俺にもドラグソードの状態がわかる。息遣いのようなものを、肌で\n感じる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いまなら俺にも、アナザー・ルナテミスのようにドラグソードを扱えそうだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「なんだかよくわかんねぇが、またぶっとばしてやる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115600002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「援軍を呼びますよ。さあ、ここでおしまいです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010115600003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "オボロがさらにロボ軍団を召喚した。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「させるかよぉっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

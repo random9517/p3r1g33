@@ -1,0 +1,431 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000307_01_01" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んんっ……はぁぁ……あっ……挟まって来るわ……んっ、くぅぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703101" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……すごく熱い……何よ、こんなに膨らませて……そんなにパイズリが\n楽しみだったの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703102" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「まぁ……ね、やっぱりバカンスに来て、何となく開放的な気分になって……\nそれで、大人の男と女が二人だけになって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703103" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「それで何もしないなんて……ええ、やっぱりそんな風にはならないわよね。\nふふ……私も、その気になっちゃったんだもの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んっ……それにしても、暑いわね……身体から汗がどんどん出て……んっ、\n大丈夫かしら……におったりしてない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「よく滑るから丁度いい、か……確かにそうかも知れないわね。どうせ、海は\nすぐそこだし……後で流れちゃうわよね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703106" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あんっ……もう、慌てないで。そんなに押し付けなくても、ちゃんと包み込\nんであげるわ……ほら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703107" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「こうして……ぎゅうっと……んっ、ふふ、ぴくぴくさせて……これ、そんな\nに気持ちよかったのかしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……脈打ってる……オチ〇ポもドキドキしてるのね。んっ、ええ……私\nも同じ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703109" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「今、ここには誰もいないけど……こんな外で丸見えの場所で、すごく大胆な\nことしちゃってるのよね……私……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703110" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「こんな所を誰かに見つかったら……絶対言い訳出来ないのに……んっ、でも\n……ドキドキするの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ごめんなさい、ちゃんと集中しなくちゃよね……んっ、じゃあ……動かすわ\n……ん、しょっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んっ、ふっ、はっ、あっ……んふっ、んっ、うんっ……んっ、ふっ……んく\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703113" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「もうオチ〇ポ震えさせて……んふっ、私のおっぱい……気持ちいいのかしら\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「汗……丁度いい感じみたいね……でも、もう少し濡らしておくわ……んっ、\nじゅる……れろ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703115" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ふふ……ちょっと舐めただけ。今日は、フェラチオはお預けよ。あくまでも\n、おっぱいだけで楽しんで頂戴……口はまたの時にしてあげるから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んふぅ……じゃあ、もっとしっかりオチ〇ポを押し付けて……そう、ゆっく\nり腰を動かしていいわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「はん……あっ、あぁ……んっ、擦れるぅ……あぁ、敏感な場所……ずりずり\n当たって……気持ちいいわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「もっと、強い方がいいの？　分かったわ……こうやって、ぎゅうって挟み込\nんであげるから……んんっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「大丈夫かしら……苦しくない？　んっ、おっぱいの中に……大きなのを感じ\nるわ……あっ、まだ勃起するの……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「はぁっ……んっ、大きさにはそれなりに自信があるつもりだったけど……こ\nんな、はみ出ちゃいそうになるなんて……んぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ダメよ、しっかり捕まえておかないと……んっ、貴方も気をつけて……はみ\n出たら、あんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ほら……先っぽが、乳首に当たるじゃない……んっ、ふっ……あっ、こら…\n…貴方、そうやってわざと……あ、あんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「もう……すぐ、そういう悪戯ばかり……あっ……んっ、確かに、ここを……\n刺激するのは効果的だけどっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703124" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あっ、はぁっ、あぁ……敏感になってる……んくぅっ、あぁ……オチ〇ポの\n先で、乳首……転がしたらダメよ……あ、はぁんっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……は、恥ずかしい……もう、分かってるクセに……ええ、感じてるわ\n……私の乳首……オチ〇ポで弄られて、ビンビンになってるの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「し、して欲しいわ……んっ、もっとコリコリしてぇ……あっ、はぁんっ、ん\nっ、ふっ……んくっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……もう、こんなので、またビクビクさせて……本当にしょうのないオ\nチ〇ポ……んっ、ふっ、んくっ、んっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「でも……んっ、私のおっぱいで……こんなに感じてくれて……それが、やっ\nぱり……嬉しいの……あぁ……んっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「いいわ……もっと遠慮しないで、私のおっぱいを使って頂戴……私も、ぎゅ\nって……強く、んっ、くぅぅ……するからぁ……あぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「はんっ、あぁっ、あんっ……身体が火照っちゃう……汗が滑って……はぁっ\n、んふっ、この感じぃ……あっ、はぁぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁっ……そんな、必死に……腰を振ってっ、あっ、ひっ、オチ〇ポ……出\nしたくなってるのね……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703132" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んんっ、構わないわ……貴方の欲望の印……私の谷間に……全部出しちゃう\nのよ……はっ、んっ、んふっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁっ、おっぱい犯されてる……オチ〇ポが私のおっぱいっ……メチャクチ\nャに擦ってるっ……はぁぁんっ、あぁっ、もうすぐっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「出してっ、おっぱいマ〇コにっ……いっぱいっ、掛けてぇぇぇぇっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ひぁぁぁんっ！　あぁっ……熱いのっ……はんっ、掛かってるっ……射精さ\nれてるぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703136" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000307_01_02" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……ビクビク震えて……搾り出してくるの……んっ、あぁ、もっとよ…\n…もっと出しちゃってぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……んっ、ふっ……ちゅぷっ、濃いわね……んっ、相変わらず\n……こんなにしちゃって……もう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「落ち着いた……？　んふっ、最後の分はおっぱいに擦り付けてるのね……あ\nぁ、また溢れて来てる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んふ……燃えちゃったわ……ここは、それだけ特別な場所なのかも……ね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703140" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「さ……身体、洗わなくちゃ……ね、もういいでしょ。ほら……そこからどい\nて、起き上がれないじゃない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703201" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「えっと……どうして、離れようとしないのかしら？　と言うか……また、腰\nが動いてるのは何のつもり……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703202" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「いえ……言わなくていいわ。そうだったわね、貴方みたいな節操なしが、一\n回で終わりにする訳なかったわよね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703203" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「もう……後一回だけよ？　この格好、貴方が思ってる程、楽な訳じゃないん\nだから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703204" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んっ、それにしても……射精したばっかりなのに、全然小さくさせないで…\n…むしろ、さっきより凶暴な感じになっちゃって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703205" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……オチ〇ポって、こんなに強烈だったかしら……あんっ、も、もう…\n…自由に動かして、私のおっぱいで遊ばないのっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703206" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「く……んふっ、あぁ……すごく滑る……んんっ、おっぱい……本当にオマ〇\nコになっちゃったみたい……あっ、んひっ、んくっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703207" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……オチ〇ポが大暴れしてる……んっ、私も……負けてられないわね…\n…ん、っしょ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703208" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んふふ……捕まえた。ダメよ、自分のペースで好き勝手ばかりしたら……ま\nだ、私のことをオナホールにするには早すぎるわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703209" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「大丈夫、お預けにする訳じゃないの。お互いに、気持ちを高めあって行きま\nしょう……？　ほら……こうして、んっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703210" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ふふ、あったかい？　私のおっぱいがオチ〇ポ全部を包み込んでるの……悪\nくないでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703211" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んふっ……オチ〇ポ押し潰して……タマの方も、一緒に挟んじゃうわ……ぎ\nゅっと……ね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703212" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、ビクビクしてる。どうしたの、さっきの強気な感じが随分おとなし\nくなったじゃない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703213" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「もっとして欲しいのね……ほら……オチ〇ポとタマタマのダブルプレスよ…\n…んっ、んふっ、あっ、んんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703214" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……すごく熱い……それに、この滑る感じ……とっても気持ちいいの…\n…あぁ……私……パイズリだけでイッちゃいそう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703215" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んっ、はぁっ、あっ、貴方も……我慢出来なくなって来てるわね……はぁっ\n、んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703216" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「またオチ〇ポ震わせて……顔も、必死になってるもの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703217" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あんっ、はぁっ、あぁっ、ラストスパート……本気の腰使いになって来てる\nっ……あっ、あぁっ、オチ〇ポ……凄いわっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703218" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「うんっ、ふっ、あぁっ……ええっ、一緒に合わせてっ……オチ〇ポいっぱい\n動かしてっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703219" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「私もイクからっ、あぁっ、どこがいいのっ？　どこに射精したいのっ……！\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703220" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あんっ、はぁ……また、おっぱいに出したいのねっ、このまま……出してっ\n、はっ、あっ、あぁぁぁんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703301" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000307_01_04" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁっ……出てる……熱いのがまた……おっぱいの中に流れ込んでくるの…\n…はぁぁ……んっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703302" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000307_01_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「汗と一緒になって……はぁ、はぁ……んんっ、頭……ボーッとして来ちゃう\n……んっく…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703303" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「まだ出るの……？　一生懸命腰振っちゃって……もう、本当にエッチなんだ\nから……あ……んっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703304" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「これで最後なのね……いいわ……おっぱいの中……徹底的にドロドロにしち\nゃいなさい……あ、ふっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703305" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……終わった……わね。あ……待って、ほら、先っぽ垂れてる\nから……ちゃんと、おっぱいで拭っちゃいなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703306" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「大丈夫ね？　今度こそ、しっかり出し切った？　ええ、それならいいわ……\nお疲れ様」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703307" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「はぁ……パラソルの下とは言え、これだけ動いたら本当に汗だくよ……さっ\nぱり水浴びしたい気分」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703308" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「そうね……目の前に、こんな素敵な海があるんだし……泳がない手はないわ\nよね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703309" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「それじゃあ、行きましょうか。ほら、レディをちゃんとエスコートしてくれ\nるんでしょう？　それが海での男の役目よ……ね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703310" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ちょっと……オチ〇ポの先、どこに向けてるの？　このままだと、顔に……\nひぁんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703401" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000307_01_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぷっ！　んんっ、あ……もうっ、いきなり顔に掛けるとか……んっ、ちゃ\nんと言ってくれなきゃ、私にも心の準備があるのよ……んっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703402" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000307_01_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「あぁ……ネバネバして……それに、このムッとするにおい……はぁぁ……ま\nた、変な気分になって来ちゃうの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703403" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「んちゅぷっ、あぁ……濃い。この粘度……喉に残って……上手く飲み込めな\nいわ……ちゅぱ……んっちゅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703404" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「後少し出るの……？　いいわ、ここまで来たら、もうしっかり出してしまい\nなさい……ん、そう……残さずに、んふっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703405" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「終わった……？　はぁ……ちゅぷ……本当に、遠慮なく出してくれちゃって\n……まぁ、それだけ私で興奮したってことよね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703406" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「ええ、そんなに悪い気分じゃないわ。私も気持ちよくなったのは確かだし…\n…んっ、それにしても……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703407" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「はぁ……パラソルの下とは言え、これだけ動いたら本当に汗だくよ……さっ\nぱり水浴びしたい気分」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703408" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「そうね……目の前に、こんな素敵な海があるんだし……泳がない手はないわ\nよね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703409" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「それじゃあ、行きましょうか。ほら、レディをちゃんとエスコートしてくれ\nるんでしょう？　それが海での男の役目よ……ね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_0703410" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

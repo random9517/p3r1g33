@@ -1,0 +1,158 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0136" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "襲来者Ａ" ]},
+		{"command":[ "SETTEXT", "「ヒデブーーーーー……！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者Ｂ" ]},
+		{"command":[ "SETTEXT", "「アバーーーーー……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者Ｃ" ]},
+		{"command":[ "SETTEXT", "「アイエーーーーー……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウタマロ" ]},
+		{"command":[ "SETTEXT", "「ふぅ……これで見張りは片付けたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_010021530028" ]},
+		{"command":[ "SETCHARA", "0", "char_00009702_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ゲンナイ" ]},
+		{"command":[ "SETTEXT", "「見て、入り口が開いてるよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_098_010021530025" ]},
+		{"command":[ "SETCHARA", "0", "char_00009802_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者Ｄ" ]},
+		{"command":[ "SETTEXT", "「原住民ども。よくこの基地の偽装を見破ったな」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者Ｅ" ]},
+		{"command":[ "SETTEXT", "「だが存在を知られた以上、生かしては返さんぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウタマロ" ]},
+		{"command":[ "SETTEXT", "「それはこっちのセリフだ！　行くぞ、オマエたち！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_010021530029" ]},
+		{"command":[ "SETCHARA", "0", "char_00009702_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ゲンナイ" ]},
+		{"command":[ "SETTEXT", "「よーし。今までみたいに、パパッとやっつけちゃお～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_098_010021530026" ]},
+		{"command":[ "SETCHARA", "0", "char_00009802_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「みんな、そんなに深追いしないで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010021530035" ]},
+		{"command":[ "SETCHARA", "0", "char_00009602_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「ダメだ……夢中になりすぎて、私たちの声が届いてないぞ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530028" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウタマロ" ]},
+		{"command":[ "SETTEXT", "「ちっ……！　見た目はさっきのヤツらと同じクセに、中々すばしっこいじゃ\nねぇか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_010021530030" ]},
+		{"command":[ "SETCHARA", "0", "char_00009702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ゲンナイ" ]},
+		{"command":[ "SETTEXT", "「パワーもスピードも、外に居たヤツらとは全然違うね……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_098_010021530027" ]},
+		{"command":[ "SETCHARA", "0", "char_00009802_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者Ｄ" ]},
+		{"command":[ "SETTEXT", "「フフフ……ヤツらはこの基地の中でも最弱……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者Ｅ" ]},
+		{"command":[ "SETTEXT", "「原住民ごときに負けるとは、襲来者（インベーダー）の面汚しよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「もしかして、ピンチってヤツだったり～……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010021530025" ]},
+		{"command":[ "SETCHARA", "0", "char_00009902_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウタマロ" ]},
+		{"command":[ "SETTEXT", "「ピンチなもんか！　ここでこいつらを倒しちまえば、全部片付くんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_010021530031" ]},
+		{"command":[ "SETCHARA", "0", "char_00009702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウタマロ" ]},
+		{"command":[ "SETTEXT", "「くそっ！　まったく攻撃があたらねぇ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_010021530032" ]},
+		{"command":[ "SETCHARA", "0", "char_00009702_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ゲンナイ" ]},
+		{"command":[ "SETTEXT", "「こっちの攻撃もだよ。ウサギ以上のすばしっこさだね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_098_010021530028" ]},
+		{"command":[ "SETCHARA", "0", "char_00009802_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者Ｄ" ]},
+		{"command":[ "SETTEXT", "「この程度か……もういい。残念だが、さよならだ」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者Ｅ" ]},
+		{"command":[ "SETTEXT", "「月を見ぬまま地獄に堕ちろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「シャラ！　危ないっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010021530036" ]},
+		{"command":[ "SETCHARA", "0", "char_00009602_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「えっ……うわあああああっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010021530026" ]},
+		{"command":[ "SETCHARA", "0", "char_00009902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「私に任せろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530029" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「ぐあああああぁ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530030" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「せ、先生ーーーーーっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010021530037" ]},
+		{"command":[ "SETCHARA", "0", "char_00009602_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

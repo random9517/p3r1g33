@@ -1,0 +1,347 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあ……授業が終わったら校内の見回りか。教師兼警備員も楽じゃねえな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まあ、そう言わず。今日はＥＤＯのほうは非番ですからな。あとは帰ってゴ\nロゴロするだけで――んん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113270001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうした？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なにやら教室に、女子学生が３、４人残っておりますな。なにをしているの\nでしょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113270002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、ホントだ。ってか、ウチのクラスの連中じゃねえか。なにやってんだ、\nあいつら」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まさかまた、妙なカードゲームが流行ってんじゃねえだろうな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もうすぐ下校時刻だし、いちおう声かけとくか……おーい、おまえたち！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「あ、カツマ先生」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえたち、いつまでも教室に残ってなに遊んでんだ？　もうすぐ下校時刻\n……え！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "学生たちが囲んでいる机の上を見て、思わず目を疑った。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだこれ……戦車のプラモデル？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「ええ、そうです。１／３５の。先生、どうしたんですか？　そんなに驚いて\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だって……なんでそんなものがここに？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「あれ？　先生知らなかったんですか？　最近、女子学生の間で流行ってるん\nですよ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「戦車のプラモデルが！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「そうですけど……あ！　先生、もしかして、プラモデルは男子の趣味だとか\n思ってます？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え！　そ、それは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "正直、俺の学生時代はそんな感じだったんだが……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「あははははっ！　先生、古～い！　戦車模型は乙女のたしなみってやつです\nよ～」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マジか！？　最近はそうなのか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人。時代は目まぐるしく移り変わっておるのです。いつまでも、地球の\n重力に魂を縛られていてはいけませんな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113270003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「自分で言ってて意味わかってんのかバカ犬」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「まあ『乙女の』っていうか、男女問わず、って感じですけどね。地下に『模\n型シミュレーションセンター』ができてからは」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだそりゃ、またなんか変な単語が出てきたな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「読んでそのままの意味ですよ。自分で作ったプラモデルを使って、仮想空間\nでバトルができるんです！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなのがあんのかぁ！？　信じられねえな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "っていうか『地下』って、まさかあそこか？　こないだ珠魚が、妙なカードゲ\nーム闘技場を作ったところか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そういやハルカプトラの部下たちは、あのカードゲーム騒ぎにも関わってたよ\nな……？　なんか、今回も嫌な予感が――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「いえいえ、今回は大丈夫です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわぁああああっ！　ミス・パープル！？　あんたいったいどこから出てき\nたんだ！？　っていうか、なにしに来た！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「我がクリスタル・コンツェルンが開発した最新アミューズメントマシンに、\n興味を持っていただけたようですので……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「カツマ先生にもぜひ！　一度おいでいただきたいと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ああ……そしてまたミス・パープルも一枚噛んでる、ってわけか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「気が進まねえ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「まあまあ、そうおっしゃらず！　学生たちがいま、どんなことに興味を持っ\nているのか。それを知るのも教師の役目でしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270004" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「教師は本業じゃねえんだけどなあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とはいえ、カードゲーム騒動のこともあるし。いちおう、なにがあるかぐらい\nは確かめたほうがいいか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んじゃまあ、行ってみるかあ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ありがとうございます！　プラモデルを持って、ぜひどうぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「プラモデル？　プラモデルなんかあったかな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、あれがあったのでは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113270004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれって？　あ、そうか。あいつか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "……と、いうわけで、いったん寮の部屋に戻ってプラモデルを取ってくると、\n俺とジュンジローは学園の地下へとやってきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "すると……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわ……！　なんだこりゃ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なるほど。これは思った以上に大がかりですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113270005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "例の地下洞窟には、５～６人分のシートが置かれたプレハブ小屋みたいなのが\n２つ、そして、それに接続された巨大なコンピューターらしきものがあり…。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ａ" ]},
+		{"command":[ "SETTEXT", "「あーもう！　また負けちゃったー！　やっぱり、あそこで待ち伏せされるん\nだよねー！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「やっぱり、社会人チームは強いよね～。もうちょっと作戦を練るか、新しい\nプラモデル買わないと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さっきの生徒たちがそこから出てくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「あ、カツマ先生！　プラモデル持ってきたんですか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあな。『最新アミューズメントマシン』とやらがどんなもんか、見ておこ\nうと思ってな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "古舘隊員" ]},
+		{"command":[ "SETTEXT", "「いやー！　これ、すっごい面白いっすよ、隊長！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_061_010113270001" ]},
+		{"command":[ "SETCHARA", "0", "char_00006101_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか、そんなに……って、なんでＥＤＯ職員がここにいるんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「シミュレーションマシンの開発にあたっては、Ｄｒ.サイレーンをはじめＥ\nＤＯ職員の皆さんにもご協力いただいておりますので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270006" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか、そういうことか……って、ちょっと待て！　いまなんつった！？　\nＤｒ．サイレーン！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ええ。システム開発にご協力いただきました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「またかよ……よりによって、あいつも絡んでるのかよ！　ダメだこれ！　カ\nードゲームに続いて、絶対ろくなことにならねえ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「いえいえ、その点はご安心を。今回、Ｄｒ．サイレーンはいっさいマシンの\n運営にはタッチしておりません。ですから絶対安全です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270008" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど、それならまあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「お二人とも。この場にご本人がいないと思って、なにげにひどいおっしゃり\nようですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113270006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「まあ、そこはともかく！　どうです、この『模型シミュレーションマシン』\n！　なかなかのスケールでしょ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270009" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……思ったより大仕掛けなんで、びっくりしたぜ。これ、どうやって遊\nぶんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「はい！　プレイヤーの皆さんにはチームごとにあちらのブースに入っていた\nだき、ＶＲゴーグルをかけていただきます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270010" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふむふむ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「そして、お持ちいただいたプラモデルを中央のシミュレーションマシンにか\nけますと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270011" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「かけますと？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「マシンがデータを解析し、仮想空間内に実車として再現します。ご自分の作\nったプラモデルに乗り込んで、バトルが楽しめるのです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113270012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へえ……なるほど。すっげえな……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

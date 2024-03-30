@@ -1,0 +1,149 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「へへへっ、襲来者（インベーダー）のヤツら、いつものパターン通りの攻撃\nだな！　楽勝だぜ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114820001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「なんかあいつら、最近たるみ過ぎじゃないのかねぇ？　カツマ！　一発気合\nいを入れてやんな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114820001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時間帝国かぁ…………しかしやっぱり刻の女王が言ったことが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "M・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「隊長！？　なにをしてるんですか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020114820001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え！？　あ、悪ぃっ！　攻撃だ！　攻撃しろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「どこだ！？　あっちか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114820002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「あっちじゃない！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020114820001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ちがう、あれだ！　あれを狙えーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114820001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "M・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「なにをやってるんです！　敵はあちらに――ああああああっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020114820002" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マスク・ザ・ブルーが止める間もなく、みんなはあっちこっち好き勝手なとこ\nろを攻撃し始め――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "M・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「あああああっ！　止めてあった一般車両が！　店先の野菜や果物が！？　ひ\nいいっ！？　あれはガスタンク！？　やめて、やめてーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020114820003" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "という具合に、街中に大損害を出してしまった。そればかりか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "通行人Ａ" ]},
+		{"command":[ "SETTEXT", "「え！？　なにあれ、ＥＤＯ！？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "通行人Ｂ" ]},
+		{"command":[ "SETTEXT", "「ＥＤＯが街を破壊してる！？　超レアじゃん！　動画！　動画撮っとこ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "通行人Ｃ" ]},
+		{"command":[ "SETTEXT", "「信じられない……ＥＤＯは正義の味方だと思ってたのに！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "通りすがりの防衛軍高官" ]},
+		{"command":[ "SETTEXT", "「ＥＤＯは解散だ！　超高性能爆薬シッパイナーさえあればいいんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "M・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「あああああ……損害賠償が、修理代が……予算が、予算がぁああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020114820004" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やべえぇ……！　どうしよう……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者" ]},
+		{"command":[ "SETTEXT", "「はははは！　バカな原住民め！　自分で自分の街を破壊するとは！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ！　襲来者（インベーダー）はあちらだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114820001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はっ！　そ、そうか！　みんな、あいつらだ！　あいつらを狙え！　あいつ\nらさえやっつければ、俺たちの大失態は――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「そうか！　隊長のとんでもないミスはごまかせるかも！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020114820002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「『隊長の』とか言うな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「敵は必ず仕留める！　カツマの大失敗は、すべてあいつになすりつける！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114820001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから俺の失敗とか言うなーーーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "襲来者" ]},
+		{"command":[ "SETTEXT", "「っていうか、なんでこっちにお前らのヘマを押し付ける気なんだーっ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,303 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んがっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……うお。まぁた、いつの間にか寝てたのか、俺は！？　そしてまたこのパタ\nーンかよ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドタバタの最中だったはずなのに、気づけば寝ていて、見知らぬ場所で目が覚\nめて――と？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……今度は知らない天井じゃない」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ここ、まさか……俺の部屋か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "見知らぬ場所じゃねえよ、嫌と言うほど知ってる場所じゃねえか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「じゃあ……ひょっとして、元に戻った」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それはそれでどうなんだ？　嬉しいような、元の生活は辛いだけのような。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いやでも少なくとも、わけのわからないことを言う女どもからは逃れられるか\n……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「あ、カツマちゃん起きた～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「もうすぐ朝ご飯出来るから、ちょっと待っててね～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……輝夜、だよな？", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "若干、浮かれているようにも見えるが。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それに……ん～、この、腹が空く香り。味噌汁か。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「ふんふふ～ん♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "輝夜がご機嫌な様子で、食事の用意をしてくれている……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「はい、できた！　これと、これと、これ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おお……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "瞬く間に、小さなちゃぶ台に、白い飯と味噌汁と、こんがり焼かれた鮭が並ん\nでいく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……それも、ふたり分。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「さあ、冷めない内に召し上がれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今度はいったい、どんなシチュエーションなんだ？　また夢か何かか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "これまでのトンデモな設定に比べれば、遙かにマシっぽいが。っていうかすげ\nー庶民的だな。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「お仕事着はそこに出しておいたから。初出勤、頑張ってね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お？　おう……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「ああ、あとお弁当も、ほらここに。忘れないでね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだ、なんだ？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は、どこへ就職したんだ？　そして輝夜はなぜこうも甲斐甲斐しい？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "これじゃまるで……その、あれだ。やっぱりその……新婚さん、みたいな？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「お仕事、うまく続くといいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……安定した楽な仕事で、かつ高給だと嬉しいんだが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こればかりは、思わず本音が漏れた。身に付いた社畜根性が恨めしいぜ……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「そうだねえ。いつ何が起きるかわからないし、将来に向けて備えは必要だし\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950009" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「私も、やっぱり働こうかなあ。パートか何かで、無理のない範囲で」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「理想の生活を築くためにも、頑張らなくちゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "にしてもこいつ、こんな願望をもっていたのか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ああいや、これは現実じゃないだろうから、輝夜が本当に夢見てるわけじゃな\nいだろうが。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……じゃあ、何か？　俺の願望を反映しているとでも？　んな馬鹿な。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「カツマちゃんのお仕事、扶養手当も付くから有り難いんだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「将来、子供が悪の女幹部になりたい！　なんて言い出した時、その進路をき\nちんと応援できるようにもしておきたいから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "嫌だぞそんな子供……ってか何顔を赤らめながら、腹をさすってんだ！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もういるのか？　いたのか？　致したのか！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「あ！　もうこんな時間！　ほらカツマちゃん、急いで急いで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950017" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おうっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "飯をかき込むのはいいが、俺、どこへ出勤するのかも知らないんだぞ？？？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「着替えた？　ハンカチ持った？　ティッシュは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950018" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、お、う、あ、ああ、あるな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "瞬く間に支度が調っていく……この辺りはさすが輝夜、メイド働きで手慣れて\nいるのか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「お財布と携帯もバッチリ？　ああ、あとはい、傘」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950019" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「傘？　雨が降るのか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「うん。あと襲来者（インベーダー）も」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………はあ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「今日はところにより激しく襲来者（インベーダー）が降るって、天気予報で\n言ってたよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「じゃ、行ってらっしゃ～い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021950022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おい？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0005" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "……わけのわからないまま、外へ放り出されてしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、嫌～な予感がして、後ろを振り向いて見れば……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "結局バトルになるのかよぉぉぉー！！", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090201_01", "0", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00090301_01", "0", "CENTER", "0" ]},
+		{"command":[ "SETCHARA", "2", "char_00090401_01", "0", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "2", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,240 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "今日も今日とて、空は青く白い入道雲がもくもくと空に立ちのぼっている。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんな中、褐色竜少女のヤムは一人で商店街を散歩していた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「ううぅ～ヤダ～。あっつ～い……。アイス食べた～い、ジュース飲みたぁい\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「こんな日に限って面白いこともなんにもないしぃ……。どっかにパーッとハ\nシャゲる事でも落ちてないかなぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670002" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とぼとぼと直射日光の下を歩いていたヤムは、ふいに店先に置かれた一枚のチ\nラシを手に取った。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「……ん？　なぁに、コレ。夏祭りのチラシぃ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670003" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「花火の打ち上げ、屋台に出店……ついでに盆踊り、……やっば。結構盛りだ\nくさんじゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「へぇ～？　こんなものがあったんだ。それなら……んふふっ。盛り上がれそ\n♪　イルルにも見せてあげないとね～♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670005" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……はぁ。拭いても拭いても汗が溢れ出してくる……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「とはいえ、仕事はサボるわけにはいかず……。いやはや、ニンゲンというも\nのはとても大変なものですなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前は気楽でいいよな、犬だから」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なにをぉ！　犬には犬の辛さというものがあるのですぞ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022670002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "学生にとっては待ちに待った夏休み中。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "学園の見回りをしていた俺は、突如、イルルとヤムに突撃を受けることになっ\nた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとーーーーさーーーん♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「げふっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「いたいた！　パパ！　もうすっごい探したんだからね……っ！　えい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670006" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぐぁっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "力加減も知らずに次々に胴体にタックルしてくる無邪気なドラゴンたち。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "悶絶して、その場にしゃがみこむと……イルルがひそひそと小さく俺に耳打ち\nしてくる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「おとーさん、イルルも夏のお祭りにいきたい……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022670002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「夏のお祭りぃ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「ヤムちゃんが商店街で見つけたチラシにかいてあったの。そこはね、みんな\nがしあわせになれるところなんだって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022670003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっとそのチラシ見せてくれ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「うんっ。はい、どーぞ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022670004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ニコニコしているイルルの頭を撫でながら、チラシを見下ろす。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ほーん、確かに去年もこんなことしてたような……？　なるほどな。別にい\nいぞ、これに連れていくくらい」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「わぁ……！　やったぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022670005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「と、言ってやりたいのはやまやまなんだが……。あ～……こりゃダメだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「ダメって何が？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670007" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「この祭りはもう終わっちまってるらしい。ほら、ここ。日付が一週間前だろ\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「うっそ！　見せて見せて！　あっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670008" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「ほんとだぁ……。このまえの、にちよーび……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022670006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「残念だったが、まあ……これじゃ無理だな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「え～っ！　なんでなんでなんでなんでぇ！？　絶対絶対行きたかったのに！\n　もう行くって決めたのに～ッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670009" ]},
+		{"command":[ "SETCHARA", "0", "char_00017502_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んなこと言われてもなぁ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「……そっか……。おとーさんとお祭り……いってみたかったな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022670007" ]},
+		{"command":[ "SETCHARA", "0", "char_00016401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「また来年があるさ。それに商店街の催しなんて、想像よりはショボいもんだ\nぞ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イルル" ]},
+		{"command":[ "SETTEXT", "「……ん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_164_010022670008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しょげつつも、素直に納得したイルルだったが……", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヤム" ]},
+		{"command":[ "SETTEXT", "「納得いかない！　お祭り行きたい！　行きたい行きたぁい～ッ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_175_010022670010" ]},
+		{"command":[ "SETCHARA", "0", "char_00017501_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわっ！　こんなところで変身するヤツがあるかっ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドラゴンの姿で大暴れするヤムを、どうしたものかと思っていると……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「こぉらああああああ～！！　学園内で暴れるなァアア～っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010022670001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

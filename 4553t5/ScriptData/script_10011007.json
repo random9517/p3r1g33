@@ -1,0 +1,101 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0083" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "………………。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……なんじゃ、今回も画像無しか？　はぁ……これでは会議が進まんのう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110070001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「通信費をケチるからこうなるんですよ。それで？　首尾の方は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「部下の話によれば……ん～～～～……ちょっと想定以上の事態を招いておる\nようじゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110070002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「薬が効きすぎた。現場としては、そんな風に感じているです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110070001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「――はい！　次の話のシナリオですね！　すみません、今週中……あ、いえ\n、あさってにはなんとか！　はい！　遅れてごめんなさいごめんなさいごめん\nなさいっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……またどこかの会議と混線しているような。一応機密性の高い会議なんで\nすけどね。これでは、あれこれ筒抜けですね……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「んだぁ、オラもそう思うべぇ！　ともかく、芋のブランド化のため、『芋娘\n』っちゅうキャラクターをオラが考えたべさ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……でもって、どこかの農村の会議とも繋がっておるようだのう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110070003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ええ、困ったものです。ともかくキャラ展開をするならプロのデザイナーと\n、広告会社を間に挟んだ方が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「だぁあ、どうでもええわ！　ともかく長官、計画は若干の修正が必要じゃな\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110070004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「承知いたしました。ではシナリオを修正しましょう──」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010110070001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「えええええっ！？　また直すんですか？　やっぱり、パロディネタが怒られ\nたんですか？　もしかしてドッキングはやりすぎでした？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「なんなのだパロディネタって！　ドッキングっていったいなんのことだ、こ\nのボケナスビーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010110070001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「…………のう、長官、やっぱりビデオ会議には画像が必要だと思うんじゃよ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110070005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……次回までに有料バージョンにしておきます。ひとまず、今回は解散とし\nましょう。二次会に参加する方は例によって各自飲み物を――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010110070002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "………………。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

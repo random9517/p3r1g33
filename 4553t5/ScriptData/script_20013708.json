@@ -1,0 +1,193 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0136" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふぅっ、はぁっ……くそっ、あいつ……逃げ足がはぇぇっ……！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「あの姿……私のよく知るあやつに似ていたような……だが、それは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010022620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「同感ですけどね……それも、直接捕まえて聞くしかないんじゃないですか？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふん、珍しく気が合ったな。下僕にしては上出来だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010022620002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「こちらのようだ。しかし、ずっと道が続いているが……むっ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016703_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「イグニス、どうした」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「どうやら刺客は、あの二人だけではなかったようだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なに……？　むっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010022620003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「ルナテミス殿も、気づかれたか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016703_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ……何が？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「なるほど、少しは出来るやつがいるというのは間違いないようだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080022620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000412_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うっ……また敵が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人だけ、全く気づいていなかったようですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022620001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせぇ、お前もだろうが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そこを私めに期待されても困りますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022620002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、本当に何しについてきてんの？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そこ、うるさいぞ！　役に立たないなら、せめて静かにしていろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010022620004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「足止め任務など下らないと思っていたが……手練れがいるとなれば、多少な\nりとも楽しめそうだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080022620002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000412_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「ルナテミス殿、主殿、どうぞ先へ。彼女は私が相手をしよう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016703_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「私が簡単に通すとでも？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080022620003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000412_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「私が全霊をもって、お前の相手をする。その上での妨害は簡単ではないと思\nうが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016703_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「ふん……確かに、お前は強そうだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080022620004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000412_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「そちらも、隙のない立ち振舞い……相当の実力者とお見受けする」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016703_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「もう闘気を隠す必要もない。全力でやらせてもらおう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080022620005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000412_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おぉ……なんか達人同士の言葉って感じだ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「これでビキニアーマー対ビキニンジャという格好でなければ、もっと決まっ\nていたんでしょうなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022620003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それは言ってやるなよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「さあ、主殿は先へ。私は後から追いかける」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620007" ]},
+		{"command":[ "SETCHARA", "0", "char_00016703_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう、くれぐれもその言葉……フラグにするなよ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「フラグ……？　よく分からないが、とにかく承知した」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「よく喋る奴らだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080022620006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000412_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「済まない、もう邪魔立ては入らない故、ご容赦願いたい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620009" ]},
+		{"command":[ "SETCHARA", "0", "char_00016703_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もう俺たちは邪魔者か。がんばれよ、イグニス！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「主殿の声援、身に染みる！　さあ、参ろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022620010" ]},
+		{"command":[ "SETCHARA", "0", "char_00016703_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

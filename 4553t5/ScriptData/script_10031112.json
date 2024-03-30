@@ -1,0 +1,98 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0043" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「あ……やべ。いきなり暴れたから、また目の前がグルグルして……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020116220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「ほむら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010116220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ううううう～ん……ばたんきゅ～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020116220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「ほむら！？　……って、いいかげんにしなさい！　起きなさい、ほむら～っ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010116220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ううううう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020116220003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「ああもう……うるっせえなぁ……お前らこそいいかげんにしてくれっての…\n…」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010116220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「あ。今度はこっちが起きた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010116220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「また暴れたりしないでしょうね……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010116220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「暴れるってなんだよ、人聞き悪ぃな……っていうか、暴れてたのはお前らじ\nゃねえか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010116220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「まあまあいいじゃないか、とにかく話を聞いてくれ。実は、君の助けを借り\nたいんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010116220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「助けだと……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010116220003" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「そうなんです！　実は――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010116220003" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｄｒ．サイレーン" ]},
+		{"command":[ "SETTEXT", "「と、いうところで次回へ続く！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010116220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「不運な結末にならないといいけど……フフフフフ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010116220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

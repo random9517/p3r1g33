@@ -1,0 +1,128 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "円盤少女Ａ" ]},
+		{"command":[ "SETTEXT", "「なんで！？　なんでまた負けちゃうの～！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_162_010116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016202_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "円盤少女Ｂ" ]},
+		{"command":[ "SETTEXT", "「これじゃやられキャラが定着しちゃう～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_163_010116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016302_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「今さらなに？　あんたたちなんか、とっくに負けキャラ確定だっての！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふぅ……どうにか撃退したな。みんな――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「みんな、お疲れ様。どうにか一般生徒にも校舎にも被害は出なかったね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って！？　締めのセリフも取られちゃうの！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「さすがだねえ、昴！　見事な指揮ぶりだったよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだな。おかげでこちらは安心して戦えた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おーい！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "って、あんたら！　昴がメンバーに入るの反対してなかったか！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「いや、そんなこと……私はただ、隊長の……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "2", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ああ。隊長の代わりを見事に務めてくれたな。ありがとう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って！　隊長ここにいるよ～！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「あ、カツマ隊長。安心して。これからは私が、できる限りサポートしていく\nから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116450003" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？　あ、そ、そうですか……どうも……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「っていうかさー！　いっそのこと、昴が隊長やったほうが早くねー？　あは\nははははははっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「！！！！！！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SPOTCHARA",  "3" ]},
+		{"command":[ "SETTEXT", "あ……そうなんだ……みんな、そんな風に思ってるんだ……。そうか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020116450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "（なにやら、こちらの予想通りの展開になってまいりましたな）", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020116450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "（まあ、面白いからもう少し見物させていただきますかな！　ムホホホホホ！\n）", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020116450003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

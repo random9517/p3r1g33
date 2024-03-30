@@ -1,0 +1,183 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0114" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_013" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁああ……。今回もこっぴどい目に合ったなぁ……」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ルナテミス、修羅姫、サンタガール、クィン・テイルと解散した俺はようやく\n自分の部屋の前まで戻ってきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ううう、寒い。こんな日は早く寝るに限る……って、あれ？　なんで鍵が開\nいてるんだ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「出る時締め忘れたか……？　我ながら不用心だな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETTEXT", "泥棒を疑いつつも部屋に入ると、そこは真っ暗でしーんと静まり返っている。", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「誰もいない……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……よく考えたら、クリスマスの夜だってのに、ボロボロで一人ぼっち……\n。さすがに辛くなってきたぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュンジローは風呂に入るとか言ってどっかに行っちまったし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "はぁ、とため息をつきつつベッドにもぐりこもうとした時だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+	
+		{"command":[ "STOPBGM" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん？　ふにゅっ、て柔らかいモノが……なんだ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「待っていたぞ、我が息子」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570001" ]},
+		{"command":[ "FADEINCHARA", "0", "NORMAL" ] },
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぎええええっ、だ、誰かいる！　誰だ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "DISPIMAGE","1", "TRUE" ]},
+		{"command":[ "SETIMAGE", "1", "bg_0000" ]},
+		{"command":[ "SETTEXT", "慌てて電気をつけると、ベッドの中に刻の女王がリボンに絡まれた状態で寝そ\nべっていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "FADEOUTIMAGE", "1", "VERYFAST" ] },
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、お袋！？　どうしてココに！？　てか、何やってるんですか！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPIMAGE","1", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「どうやってこの場所に来たかは些末な問題だ。さぁ、息子よ。クリスマスプ\nレゼントの私を召し上がれ♪」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "6", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570002" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "さあ、さあ、とばかりに己を差し出す刻の女王。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……一体どういう状況なんだ……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「私をこのまま召し上がれと言っているだけだ。……ん？　何を持っている？\n」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "3", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570003" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、こ、これは……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「待て。それを私に見せてみろ……。な、何？　グラビア写真集……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570004" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ち、違うんだ！　これはさっきもらったもので！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「こんな趣味があったとは……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "3", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570005" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「人からもらったもので俺が買ったんじゃない！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「こういう本を母に見つけられた息子は、大抵そう言って言い訳をするものだ\n。しかし……これは問題だな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "2", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570006" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「やはり、母が教育しなければ……。ちゃんとした性教育をな！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "4", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570007" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ～……。やっぱりわかってもらえないか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「さあ、息子よ！　愛しいカツマよ！　母の胸に甘え、性についてじっくり学\nぶのだぞ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "8", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570008" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お袋。俺、疲れ果ててるからもう寝るよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "俺はもういいや、とそのままベッドにもぐりこみ、刻の女王と一緒に眠ること\nにした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「ああ……、それもいいぞ。母があたたかく寝かしつけてやろう。よしよし、\nよしよし……♪」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "6", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570009" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "刻の女王の腕に抱かれ、豊かなその胸を顔に押し付けられつつ、陛下のグラビ\nア写真を枕元に置く。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "こうして、俺のカオスなクリスマスの夜は更けていくのだった……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「メリークリスマス、愛しい愛しい我が息子……♪」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020104_01", "8", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010023570010" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

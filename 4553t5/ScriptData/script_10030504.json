@@ -1,0 +1,153 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "元の次元に帰ってきた。それにしても日帰りで次元旅行をすることになるなん\nて、科学の力ってすげー。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おい、どこへ行っていた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「姫様っ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「姫様だと？　随分なれなれしいじゃないか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115260002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……？　どうしたんだ急に……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「一般の兵士が、このわたしに気安く声をかけるなと言っている」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115260003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「どうしたの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ、カグヤか。なんだか姫様の様子が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「え？　なに、なんでこんなにぐいぐいくるのこの人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115260002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……へ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだ？　どうなってるんだ？　なんだかふたりの反応が冷ややかというか…\n…。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ルナテミスはともかく、カグヤがこんな反応をするのは……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺がカグヤに対してなにかやらかしたとき？　いや、そんな心当たり\nはないが……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「なに廊下に突っ立ってるんだい、どきな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「エファナティカ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ああ？　下っ端ごときが幹部を呼び捨てだなんて、いい身分だね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115260002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「下っ端って、一応俺は隊長だろうが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「あんたが隊長？　寝言は寝ていいな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115260003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ねー、カツマちゃん見なかったー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「あいつ、どっかに出かけたっきりかえってきてないらしいんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだと、またサボりか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115260004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、俺ならここにいるって！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「あなたが……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115260002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「え……お前はカツマじゃないだろ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115260002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なに言ってるんだ！　俺はカツマだって！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「なんだ、襲来者か？　よし、お前ら……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「インクレティブル・スクワッド、出動だ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「誰だお前は！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

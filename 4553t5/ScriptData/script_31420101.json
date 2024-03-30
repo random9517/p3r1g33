@@ -1,0 +1,537 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ふぁああ……。こんっな夜明けに呼び出して、なにカ？　金華、もう眠いア\nル……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103101" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00014201_01", "0", "CENTER", "0" ]},
+		{"command":[ "SPOTCHARA", "0" ] },
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ん？　最近金華の戦績が良くないカラ……？　お仕置きして戦力アップさせ\nる？　はぁ？　それ、誰が言ってたネ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103102" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「金華はいつも爆裂炸裂絶好調ヨ……。話それだけカ？　帰るヨ。……て、ん\nむっ！？　そ、それはこの前の戦闘の記録っ……！？　アアアッ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103103" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「やめるアル！　わかた！　わかたヨ！　認めるアル！　最近の金華、ちょと\n皆の足手マトイ……。どうしたらイイ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103104" ]},
+		{"command":[ "SETCHARA", "0", "char_00014201_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「……。んにゃっ！？　パ、パイズリ……金華のおぱーいで隊長サンのチンポ\n挟んで……お口でペロペロする……。ムニムニする……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103105" ]},
+		{"command":[ "SETCHARA", "0", "char_00014201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「そ……そんなコトでホントに強くなれるカ？　怪しいネ！　で、でも、……\nこのまま役立たずでいたラ……皆に嫌われるかもしれないし……わかたヨ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103106" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んっ……こ、こうカ？　こうしてパイパイでチンポ捕まえて……。んっ……\nグニグニて……するのカ……。あぅ……むずかしナ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103107" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+        {"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_01" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んふっ……隊長サンのチンポでかすぎるのヨ。こんなの、ァッ……金華のオ\nパイ……んぅっ、壊れるのヨ……はぁっ……ハァッ、はぁ……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「おっき……おっきネ……ああ……っ、動かしにく、い……んッ……。こ、こ\nう……こうカ……？　もっとカ……？　はぁ、はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103109" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「汗でヌルヌルしてきたヨ……あぁ……嫌ヨぉ……。んはっ……はぁ……こん\nなＨなコト……誰にも言えな……ンンッ……ああぅ……ッ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103110" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「な、なに笑てるノ……！　金華が必死になてるのおかしいのカ……！？　ア\nッ、わ、笑うナ……あっ……ああっ、ンンァッ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「こ、これ、おかしーヨ……アアッ！　汗でヌメヌメしたチンポ……オパイに\nこすれテ……変な感じ……あっ！　ムズムズするゥ……あぁっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「……も、もうイヤよォ……。ん？　なにテ？　このチンポ……口でもぐもぐ\nするの忘れるナ？　……う、うぐぅっ……うう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103113" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「口……。こんなデカいの入らないアル……！　チンポ、肉まんよりもおっき\nーアル……。や、やめていいカ？　なんか怖い……だ、駄目カ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んーーー……。仕方ないアル……。ぱっぱとヤってちゃっちゃと終わすネ…\n…。う、ううー……すぅうう……はぁあ……。ぱくっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103115" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んむ……んむぅう……！　しょ、しょっぱイィ……はむっ……ちゅむっ……\n！　ちゅっぷっ、ちゅく……ちゅく……マ、マズイィ～……ッ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103116" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「チンポ……チンポ全然美味しくないアルぅ……いやヨ、いや……。れろっ…\n…ピチャッ！　ちゅぷっ、プチュッ、ちゅっ、チュパッ……おえぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「皆……こんなノ舐めてるノ……？　イヤぁ……チュプッ！　くちゅっ、ぬり\nゅっ……！　りゅぷっ！　くちゅっ、ちゅっ、ぷちゅっ……まずいぃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「チンポ、好きひゃにゃい……嫌い……なのに……ちゅるっ……。ナンカ……\nナンカ……おしゃぶりしてると身体が熱くなテ……んんんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「オパイの奥、ウズウズが止まらないネ……。んっ、ファッ、ぁっ、あぁぅ…\n…っ！　こ、これ以上オパイでご奉仕したら……か、感じるアル……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「あぅ……！　こんなノ……こんなノ知らないヨ……。オチンポれろれろしな\nがら……！　ンチュッ……オパイ動かして……アッ！　アッ！　イヤッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「こんなコト覚えたら悪いコになちゃう……！　んっ……あぷ……っ、オ、オ\nチンポクセになたらどうしてくれるノぉ……！　あっ！　アッあっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103122" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「黙って舐めろォ……！？　い、言ってくれるアルね……っ、素直な気持ち言\nっただけなのに……意地悪アル……うう……れるっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「レロッ……ジュパッ……ぢゅぱっ！　ぐちゅっぢゅるっ……ずぷぷぷっ！　\nじゅぷッ！　ズッチュッズッチュッズッチュッ……あああぷぅう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103124" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「はぷっ……んぶっ……ぐぷぷっ！　んぁ……れろっ！　れろっちゅるっ……\nんりゅぅ……ぐちゅっ！　ぐっちゅっ、ちゅぷぷ……ぷちゅちゅちゅっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「お口のにゃか……気持ち悪い汁でヌトヌトするアルぅう……。んぷ……ッ、\nぢゅぷっ、ぢゅぷっ、じゅぷ……ずぷぷぷっ！　じゅるっ、ぢゅるっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「アッ……あっ、あぅう……ううう、ンンンンー……！　ンンッ……！　んん\nっ、んっ、んっ……ンー……んむぅううっ……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「あぷ、んぷ……っ！　元からデカかったチンポぉ……もっとデカくなてきた\n……。どういう仕組みネ……っ、舐めにくいアルぅ……んむう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103128" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ぷぁっ、んんぁっ……んぁ、んん……！　オパイもお口も苦しいネ……！　\nンッ、こ、こんな恥ずかしいコトさせる、なんて……んちゅっ、チュッ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「隊長サンはヘンタイ……！　変態アルぅ……。ぐすん……。ちゅぱっ、ちゅ\nぷ、くちゅっ、ちゅっ、じゅるっ、じゅるるっ、れりゅっれるぅれるぅっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「あ、ァ、あ、ア、あ……っ！　んんぅ……んんんんっ！　ヤだァ、ズリズリ\nしないデ……！　ずちゅっ！　ぢゅるっ、ちゅぷっぷっちゅっ、んんん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103131" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ちゅむッむちゅっちゅぷっぷちゅっ……。ッ……はぁっ、はぁ、はぁ……！\n　くちゅぷっ、ちゅぷっぷちゅっ、はぁああっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103132" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「イ、イイか？　こうするとどうダ？　ムギューてされるのがいいのカ？　ン\n？　どうね……？　胸でパフパフしな、ら……はぁ、はぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103133" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「いっぱい吸ってやるネ……。ぢゅーっぢゅるるるっ……！　ぢゅるっぢゅる\nるる……あぷ……ンン！？　なんか、チンポ、ブワって膨らんで……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んーっ！？　んぁんんーっ！？　何っ！？　ビュルて何か出て……アッ！？\n　何カ！？　精子っ？　精子カコレ！？　うわっ、んぷぷぷっ……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103135" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_12" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「やぁっ、何するアルぅうう！　精子かけるなん、て……ってんむぅっ！　口\nに入たアルぅうっ……げほっ、ごほっ、口に入れないでほし……んぶぅっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103136" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んー！　んー！　んー！！　なんでもっと入れたアル！　うぇええ……生臭\nイ……！　ドロドロで苦くて臭い汁ゥ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「最悪ネ……でも、満足したカ……？　ン？　まだまだこんなんじゃ足りない\n……？　う、うるせーアル！　ヤるコトはヤたアルからっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103138" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_08" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「コ、コレ以上隊長サンのヘンタイチンポに付き合てられないアル！　ぺっぺ\nっ……うう、どこもかしこもベッタベタ……なんてことカ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「強烈な出来事すぎテ……今夜は当分眠れそうにねーアル……。完全に目ェ醒\nめたヨ……。うぐぐぐぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103140" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ナニ？　眠れないならもう一回？　イキナリなに言いだすネ！　寝言は寝て\n言うヨロシ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103201" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_09" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「え？　隊長サンの精子にはパワーアップのほかに安眠効果もアル？　よくも\nマ、そんなミエミエの嘘つけるネ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103202" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_07" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「はいはい、わかったアルよ。パワーアップの件は、嘘でもナイようアルし…\n…んっ……んっ……むに、むに……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103203" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「お口の方も休ませるな？　ほんとにアンタ注文多いアルね。わかってるヨ…\n…ぺろ、ぺろっ……ちゅう、ちゅう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103204" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_11" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「くちゅっ、ぺろ、れろ、れろ、れろ……ちゅうっ、ちゅるるっ……じゅるっ\n……じゅるっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103205" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ぢゅるるるっ……ぢゅううっ……ホントに……臭いチンポアルな……ちゅる\nるっ……ちゃんと、洗ってるアルか？　ぺろ、ぺろ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103206" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ちゅる……ちゅるるるるっ……ん、ん、ん、んんんっ……ふぇ……なにアル\nか？　ずいぶん……熱心にチンポをいじってるって？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103207" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_10" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「……嫌いな割には、ずいぶん熱心に舐めたりこすったりしてる？　う、うる\nさいアルよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103208" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ぺろ……ぺろ……早く終わらせて……ぢゅるるる……部屋に帰って……ぺろ\n、ぺろ……寝たいから、がんばってるだけアル……じゅるるる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103209" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_11" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「れろ、れろ、れろ……ちゅっ、ちゅっ、ちゅっ……別に……じゅるる……チ\nンポが気に入ってるわけじゃないアル……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103210" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ホントある！　もう、うるさいナ！　さっさとイクよろし！　ぢゅぽ、ぢゅ\nぷ、ぢゅぽ、ぢゅぽ、じゅるるる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103211" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ちゅっ、ちゅっ、ちゅっ、はぁあああ……臭いアル……キモいある……こん\nなキモいもの、いつまでも舐めてられないアルよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103212" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「だから、早くイカせて終わらせたいアル……ぢゅるっ、ぢゅるるるるっ、ち\nゅっ、ちゅっ、はぁあああああ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103213" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「チ、チンポの匂いかいでうっとりなんて、してないアル！　あーもう！　早\nくイケって言ってるアル！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103214" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ぢゅる、ぢゅる、ぢゅぽぽぷ……むに、むに、むに、ぢゅるるる……れろれ\nろ……れろ……じゅる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103215" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_12" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ちゅっ、ちゅるっ、じゅるるるる、れろ、れろ、れろ、れろ。むに、むに、\nしこ、しこ……じゅぷ、じゅぽ、じゅぷ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103216" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んむ……チンポ、もうはちきれそうアルな……それに、ピクピクしてきたア\nルよ。イクアル？　イクアル？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103217" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_10" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「そうカそうカ！　むふふふふ！　そうと聞いたら張り切ってイカせるアルよ\n！　じゅぽ、じゅぽ、じゅぽ、じゅぷ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103218" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「じゅるるるるる～っ！　れろ、れろ、れろ、れろ、じゅぷ、ちゅぷ、じゅる\nるる、ちゅぷっ、ちゅるる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103219" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_11" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んふふ、限界ある？　もう限界アルな？　ヘンタイチンポ！　早くイクヨロ\nシ！　ぢゅうっ！　ぢゅるるるるるるるるる～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103220" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+		{"command":[ "LABEL", "LABEL1" ]},
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んんんん！？　んんんんっ！　んぐううううううううううう～っ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103301" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_15" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「んっ！　んっ！　んんんっ！　ぷはっぁ！　んぁあああああっ！　マジ、な\nにするネ！　いきなり出すバカがアルかネ……ごほっ！　ごほ、ごほっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103302" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「げほっ！　げほごほげほげほっ！　んぁあああ……！　臭くテ苦い汁が口イ\nッパイに……ごほ！　ごほっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103303" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「全部飲め！？　無茶言うないヨ！　金華を殺す気カ！？　こんなドロドロの\nきったない汁、飲めたモンじゃないネ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103304" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「……飲むと、美容効果ガ？　嘘アル！　ぜーったい嘘アルね！　……え？　\nみんな飲んデル？　それでボディラインが……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103305" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_13" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「そ、そんなに言うナラ、口の中にこびりついてる分だけ……ん、ん、んんん\nんん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103306" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_14" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ん、んんん……うううう……飲みづらいアル。喉に引っかかっテ、匂いがつ\nーんと鼻に抜けテ……はぁああ……ふぁああ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103307" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「だから！　別にうっとりとか興奮とかシテないアル！　こんなの嫌いアル！\n　もう、いい加減にするヨロシ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103308" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「まったくモウ……！　なんでこんなのを二回モ……もういいアルな！？　金\n華、もう寝るアルヨ！　おやすみアル！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103309" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「……って！　なんでまだチンポをピクピクさせてるアルかーっ！　もう、い\nい加減に終わりにして欲しいアルーッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103310" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_13" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "JUMP", "END" ]},
+		{"command":[ "LABEL", "LABEL2" ]},
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ぷはぁっ！　わっ！？　わ、わ、わわわわわわーっ！？　なんか飛んできた\nアルっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103401" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_17" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「これが精子なコトぐらいわかってるアル！　いちいち説明不要アルヨ！　問\n題はそれより……ふぁああああ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103402" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「あ、あ、あああああっ！　顔に！　胸に……いっぱい飛んでくるアル！　う\nわっぷ！　また口に入っチャッタネ！　ぺっ！　ぶへっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103403" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_18" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「ごほっ！　ごほっ、ごほ、ごほっ！　ううううう！　口イッパイに、またあ\nの生臭さと苦さガ……！　ごほ。ごほ、ごほっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103404" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「もう！　なにするアルか！　え？　できれば飲んでホシカタ？　バカ言わな\nいで欲しいアルネ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103405" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_16" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「……って、なにアルか、隊長サン。いつもイヤらしい目つきが、さらにイヤ\nらしくなってるアルゾ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103406" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「……精子まみれの金華がカワイイ！？　きゅ、急になに言うアルか！　おだ\nてても無駄ネ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103407" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「カワイクて、イヤらしい！？　興奮してきた！？　アンタ、結局そういうこ\nとしか考えてナイナ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103408" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「あー、モウ！　付き合ってランナイアル！　金華は部屋に帰らせてもらうヨ\n！　今度こそお休みアル！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103409" ]},
+		{"command":[ "SETIMAGE", "0", "still_00014201_01_18" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		
+		{"command":[ "SETNAME", "金華" ]},
+		{"command":[ "SETTEXT", "「って！　チンポをピクピクさせるんじゃナイアル！　もう。今夜はおしまい\nネーッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_142_0103410" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

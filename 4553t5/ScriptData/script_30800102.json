@@ -1,0 +1,117 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_01" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},		{"command":[ "PLAYVOICE", "080_0104101" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「隊長さま……？　どうか、どうか目をこらしてよーくご覧くださいませ……\n♪」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},		{"command":[ "DISPTEXT", "TRUE" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104102" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「私、仲間の……人の子に、貴方の好みの衣装を聞き出しました……。そして\n、買ってみたのがこの下着……なのです……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104103" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ふふ、どうやらお気に召したようで結構なことです……。ふふ……いつだっ\nて、隊長さまのお身体は本当に素直で、敏感……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104104" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「神の私にいくら隠しても無駄ですよ……。ほら今。私の身体を……この衣装\nを見て、睾丸がドクドクと精子を作り始めましたね……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104105" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ええ。もちろんいいですよ。この『エロ下着』とやら……存分に触っていた\nだいてかまいません。その間……私はおちんちんを撫でてあげましょう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104106" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「くす……。いつ見ても、高慢で信仰心の薄いバキバキのおちんちんですね…\n…。なんて立派な……。指でなぞるだけで、気分が高揚してしまいます」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104107" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「んっ……。触り方がいやらしい……？　それは隊長さまも同じでしょう……\n？　あ、あぁ……はぁっ、私の身体を淫靡にまさぐって……♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104108" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「肉欲丸出しの、下賤なその手つき……嫌いではありません♪　もっと、もっ\nと欲望のままに……あっ♪　そうです、そうして……ああ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104109" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「私を撫でまわすと、勃起もどんどん強くなって……。なんと逞しく、雄々し\nいのでしょう……♪　見ているだけで濡れてしまいますね……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104110" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「んっ、んっ、ん、はぁ、はぁ……。ねえ、隊長さま……？　じっくり愛撫に\n集中してくださるのも嬉しいのですけれど……どうでしょう？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104111" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「まずは、この強直を私の膣内にねじ入れて……ふふっ。下から突きながら、\n愛撫も同時進行してみるという案は……？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104112" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あっ♪　いいのですか♪　嬉しい……。んんっ♪　亀頭をあてがうとわかる\nでしょう……？　もうトロトロに蜜が溢れているのです……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104113" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「そこを掻き分けて、存在を主張するように……ええ、そのまま……そのまま\n……！　あッ♪　あっあああああっ……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104114" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「来ましたっ♪　きま……した、ぁ、あ、あ、あ、ああああ……♪　ふぁああ\nあっ……♪　ど、どうしましょう隊長さま、今私……っ♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104115" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「入れられただけで一度イッてしまいました♪　きっと相性が良いのでしょう\nね……んんんっ♪　はぁ、はぁ、待ち遠しい……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104116" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「貴方の全力を、あっ♪　私の粘膜に……神の秘裂に突き入れるのですっ……\n！　あぁッ！？　はぁあっ、そう、そう、上手、です……ああっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104117" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「上手ぅ……上手っ、じょ、ぉ、ず……っ♪　あぁああ……♪　隊長さま……\n隊長さま……おててが留守ですよっ、止めないでくださいませ……っ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104118" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「男らしいその手のひらで……あぁあんっ、あぁんっ！　私の乳房を、胸を揉\nみしだきながら……股間を打ち付け、て……神を抱くのですっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104119" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あっ！　あっあっ！　そう、そうっ……！　獣のように……ぃぃいっ♪　私\nを喜ばせるために腰を振る、のです……あっ♪　あっあっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104120" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ふふ……どうですか？　女神の女陰……ッ、あぁ……っ！　本来ならば、人\nの手の届かぬ奇跡……っ。まるで熱い湯の中のようでしょう……っ？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104121" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「人の殿方なんて一瞬で射精させてしまいかねない……名器の中の名器……な\nのですって……っ。女の神のここは……あっあっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104122" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「一点のくすみもなく、美しい色をして……あぁんっ！　欠点がなく締まりが\nいいっ……その上……んっ、ちょうど良い強さで絡みついてきて……っ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104123" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「男性器を天界にすらいざなうというそうです……！　んん、はぁう……あん\nっ！　あんっ、あぁんっ……！　あんっ、あんっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104124" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「返事も出来ぬほどですか……っ。あら……どうしたのですか？　切羽詰まっ\nた苦しそうなお顔をなさって……まさか、まさかですけれど……っ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104125" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「数度、中をかき混ぜただけで出してしまいそうなのですか！？　ふふふ、ふ\nふふっ……そんなことは許しませんよ……ほら。ほらほらっ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104126" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あぁっ♪　貴方が出しそうになれば私は膣をゆるめ……っ♪　収まればまた\n締め付ける♪　射精の予感がすれば腰を引き、終われば身体をすりよせるっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104127" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ふふ、うふふふ……♪　もどかしいですよね、おちんちんがイライラしてく\nるでしょう……？　精液を出したい、出したいって……あああ……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104128" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「その表情が見たかったのです……♪　私が腰をくねらせる、だけで……ぇえ\nえ♪　苦悶に歪むその顔が……私の大好物なんです……ふふふふ♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104129" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ねえ？　ねえ？　少しひねるだけで膣内が密着してきて苦しいですねぇ……\n？　睾丸が上がってきているのがわかりますよ……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104130" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「んんッ！　射精したらきっととてつもなく気持ちいいですよ……♪　現実離\nれしているくらい……魂が抜けてしまうくらい……。うふ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104131" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「でもだぁめ……。だめです、だぁめ……。神に中出しだなんて……膣内射精\nだなんて出来るわけないじゃないですか……だめだめ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104132" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「隊長さまは、永久に私の肉ヒダにとらわれて……さいなまれていてくださぁ\nい……♪　すると、私はとても……はぁっ♪　とても感じるんですっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104133" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「え？　無理やりにでも中に出してみせる？　あら……♪　では勝負ですね？\n　私の腰使い、と……隊長さまの腰使い……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104134" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「どちらが勝利するか試してみましょう……。んっ♪　んんっ……んーっ……\n♪　あは……負けるな♪　負けるな、です……♪　ふふふっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104135" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「神の子宮に射精したいのですよねぇ♪　でしたらもっと頑張ってくださいっ\n♪　がーんばれっ……♪　がーんばれ……♪　あっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104136" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「その調子ですよ……あんっ♪　子宮口を激しく突き上げて……あぁんっ♪　\nあんっあんっあんっ♪　そうそうそうそう♪　そう、です……ぅっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104137" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あらっ♪　あらあらあら♪　すごいですねっ……私の責めに耐えながらも、\n健気におちんちんを膨張させ、て……あああっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104138" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ごう、いんに……ぃいいい♪　強引に射精だなんてぇえええ……♪　あはぁ\n……ッ！　さすがですっ、さすがです隊長さま……っ♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104139" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ああ……ドクドクと膣で脈打って……子宮に精を送っているのですね……♪\n　私を自分のものになさるために……なんと素敵な……♪　あああっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104140" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「んん……。全部出ましたか？　はい。良くできました……。でも……当然、\n一度の射精では私は満足しませんよ……。二回戦のはじまりです……♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104201" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「こう、やって……ん……ん……♪　ヒダヒダを細かく動かしながら……。射\n精後すぐの、敏感すぎるおちんちんを優しく優しく勃起させます……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104202" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あうっ……♪　やぁだ……。まだ、本気も出していませんのに……すぐにカ\nチコチになって……。私の腹の奥で暴れ始めましたよ……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104203" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「これなら連続で、抜かずに交わることが出来そうですね♪　え？　少し休み\nたい？　まさか！　休み時間など与えるわけがありません……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104204" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「はい、腰を振って……♪　私がするように、ぐちゅぐちゅぐちゅぐちゅ動か\nして……♪　んん、二人が一緒に腰を動かせ、ば……ぁ♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104205" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あっあっ♪　摩擦が強まって……快感が倍増しになるでしょう？　目の前に\n火花が散るほど……あんっ！　脳が揺れるほど……あっあっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104206" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「気持ち良くて気持ち良くて、おかしくなっちゃいますね♪　ねえ♪　ねえ♪\n　まだまだおかしくなれますよねぇ……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104207" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「私の……はぁああっ♪　維持神ヴィシュヌの選んだ、たった一人の肉バイブ\nとして……精根尽き果てるまで、狂ったように腰を振るんです♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104208" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「奥へ……奥へ進んで……っ♪　遠慮なくっ……ああッ！　己の白濁液で……\n精液で満ちた膣内を攪拌して……乱れてください……っ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104209" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「隊長さまが良くなればなるっほどぉぉっ……♪　私も感じますっ、二人で破\n滅してしまいましょう……ああああっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104210" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「世界っ♪　世界の平和すら忘れてしまうくらいっ♪　いつもの私なら不愉快\nになるくらいっ♪　ケダモノのように夢中になって子作りしましょうぅ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104211" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あっ……♪　あっあっ♪　えぐる、ように……っ、殺意すら感じるくらいに\n……ぃいい♪　憎しみ、かと間違うくらいに……強く強くぅうう♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104212" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「私の中をめちゃくちゃにしてくださいぃい♪　あっ、あっあっんん♪　んん\nッ、んん……！　いいですよ、いいですよ獰猛です……ッ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104213" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「飢えた肉食獣が餌にありつけたみたいにぃいいい……♪　女神おまんこをほ\nじりなさいっ、女神の神格が落ちるくらいに精液をなすりつけなさいっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104214" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ッあああああああーっ♪　いいですよっ♪　いい、いい、イイっ……！　い\nいっ、いいいいっ！　気持ちいいっ、いいいいっ……♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104215" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「凄まじい音、させて……あああ♪　パンッパンって知性のない音たてながら\n……♪　射精してください、射精して、射精……射精ぃい♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104216" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「また輸精管を使いたくなったでしょう♪　尿道から思いっきり女神おまんこ\nに射精するんですっ……。許可、許可しますっ、避妊もせず……ぅうっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104217" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ヴィシュヌの膣内に礼を欠いた特濃精液を注入するのです……っ！　あっ♪\n　私の、私の子宮っ、子宮が精液を待っているのです……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104218" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「人の子を受精してもっ♪　いいと思うほどほぐれて、あたたまって……ああ\nあああああ♪　準備が整いましたっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104219" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「出しなさいっ！　出しなさいっ！　準備っ……準備できましたからっ！　妊\n娠っ……させてくださいっ、赤子を孕ませて……っ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104220" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「んっおっおっおおおおおっ……♪　来るっ♪　くる、くる、くる、来るぅう\nうっ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "PLAYVOICE", "080_0104301" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「き、ました……っ、来ました、来まし……ああああああああっ♪♪」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_11" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104302" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「二度目だというのに、濁流が……ドッと押し寄せて……！　ああっ、熱い♪\n　熱いっ……熱いですぅううっ……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104303" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「も、もうダメ………イッてしまいますっ♪　あっ♪　イッ……イッて……っ\n♪　んんんんっ……んーっ♪　ンーッ……♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_12" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104304" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「いやぁ……っ♪　イくの終わりませんっ……♪　膣内に射精されたという事\n実だけで……いつまでもしつこくイッてしまって……あぁ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104305" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「っはぁああああっ……♪　こんなっ、こんなに充実感のある絶頂はいつぶり\nでしょう……。本当に、隊長さまは素晴らしいお方ですね……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104306" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「ふふ……。すごい……。少しでも動くと、たぷたぷと下腹で精液が音をたて\nます……。こんなにいっぱい……。ふふふ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_10" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104307" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「はぁ、はぁ、はぁ……。ねえ、隊長さま……？　貴方は人間にしておくには\n……あまりにもったいないお方だと思いませんか……？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104308" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「いつか、神になって……神と神の永遠に終わらない性行為をしてみませんか\n……？　もし、その時……私を抱き寄せてくださるのなら……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104309" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「選んでくださるなら……。今日よりずっとずぅううーっと……♪　もっとも\nーーっと気持ち良くしてさしあげますよ……♪」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_11" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104310" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「今日だけでも腰が抜けた？　これ以上は殺されてしまう？　あら……♪　お\n上手なのですから、隊長さまったら……ふふふ♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "PLAYVOICE", "080_0104401" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「っああああっ！？　きゅ、急に抜くなんて……ど、どうしたのですかっ……\n？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_03" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104402" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あ、あ、あ……！　あぁ、そ、そうですか……外に出したかったのですね…\n…。わ……かりました……んっ……！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104403" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「あぁんっ！　あっ！？　あっ、あぁっ……熱、い……精液がかかったところ\nが……身体が溶けてしまいそう、です……っ」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_15" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104404" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「くぅ……っ……んんんん……ッ！　いやっ……いやですっ、そんなにビチャ\nビチャと……っ♪　見境の無いぃ……♪」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104405" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「た、隊長さまぁ……！　私が神だと……女神だと忘れていらっしゃったので\nすね……？　自由気ままに身体いっぱいに精液を飛ばしたりなさって……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_14" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104406" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「はぁ、はぁ、はぁあ……っ。なんということでしょう……っ。どこもかしこ\nも……ンン……隊長さまの精液で真っ白……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104407" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「むわむわとした悪臭があたりそこらじゅうに広がって……。ンン、呼吸がし\nにくいくらい……。むせかえるような存在感です……っ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104408" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「こ、これは……単に神を汚してみたかったという嗜虐欲……なのですか？　\nそれとも……私への、愛情からのマーキング……？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00008001_02_13" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104409" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「どちらでも受け入れるつもりではありますけれど……。はぁ、はぁ……少し\n驚かされてしまいました……。あまりに突然でしたから……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "080_0104410" ]},		{"command":[ "SETNAME", "ヴィシュヌ" ]},		{"command":[ "SETTEXT", "「うう……ヌルヌルします……。もちろんこの白濁液……。後で一緒に洗い流\nしてくださるのですよね……？　粘り気がひどすぎますよ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},		{"command":[ "EXIT" ]}
+	]
+}

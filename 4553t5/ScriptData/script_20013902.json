@@ -1,0 +1,242 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "アヌビスが闇の魔法を詠唱した、その翌日のこと……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はＥＤＯの基地内で、昨日の出来事を思い返していた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「確かに魔法が発動したと思ったんだが……あれから、特に何も起こらなかっ\nたんだよな……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あの時は死んだかと思ったが……この通り、身体もピンピンしてるし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まあ、ハロウィンに参加したいというアヌビス殿の気持ちは本当でしょうし\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022740001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どこかそれっぽいイベントをやってるところに連れていってやるか。しかし\n、それで納得してくれるもんかなぁ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ。今……誰を、どこに連れていくと言った？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぉっ！？　な、なんだ！？　いきなり現れて……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「……ここに来る前の世界のことを考えていたら、どうしてもカツマに会いた\nくなってしまったんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わりと、ここで頻繁に会ってると思うんだが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「も、もうすぐハロウィンという祭りが始まるらしい。それに……ふ、二人で\n行ってみないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、俺もそのハロウィンについてちょうど考えていたんだけどさ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「わ……私を誘ってくれるつもりだったのか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうじゃなくて」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうじゃないのか……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ほら、この基地にアヌビスって子がいるだろ？　その子がハロウィンをした\nことが無いっていうんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだ。ルナテミスにも協力してほしい。なんとかここでハロウィンらしい\n催しができないもんか……どうだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「嫌だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なにぃ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「私は……お前と二人がいい。デ……デートをしたいと思っているからだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「別に名目はなんでもいいんだ。ただ……愛するカツマと、こちらの世界の色\nんな出来事に触れてみたくて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ついでに、叶うのであればハロウィンのコスチュームプレイなんかも……し\nたり……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "恥じらいながら徐々にこちらににじりよってくるＡルナテミスに、偶然通りか\nかったまりあがビシリと警告した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「……基地内で不純なやりとりをしないでください。他の皆さんに迷惑になり\nますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022740001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだと？　今、私の言葉を不純と吐き捨てたように聞こえたが？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ええ。その通りです。こんな公衆の面前で、堂々と言うことではないと思い\nましたけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022740002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「何を言う……！　私の気持ちに純粋でないところなんてない！　私がカツマ\nを愛していると言って何が悪い……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「もしや、嫉妬か？　私のカツマに横恋慕していて……自分が割って入りたい\nと、そういう事なのか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そ、そういうことじゃ……ありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022740003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「であれば黙って聞いていろ。お前はカツマと恋人でもなんでもないのだから\nな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そ……それはそうですけど！　言い過ぎだと思います。集団で過ごす場所に\nは、ルールというものがありますから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022740004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「私は大きな声などあげていない。ただ、愛する者に愛を伝えていただけだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ですが、公共の場で卑猥なことを言うのは……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022740005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「愛情の表現を卑猥だと思う、お前が一番卑猥なのではないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「な、なんてことを……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022740006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なんともはや、険悪な雰囲気になってまいりましたぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022740002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "睨み合うＡルナテミスとまりあは、どちらも一歩も譲る気がなさそうだった\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんな時、バァンッ！　と扉を開けてアーマーンが飛び込んできた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「はぁっ、はぁ、はぁ……お忙しいトコすいません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022740001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ。アーマーン。昨日ぶりだな。今日はどうした」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「そ、それがですね……！　大変なことになっちまったんです～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022740002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「大変なこと……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022740007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「話を聞かせてみろ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022740016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「そ、それがぁ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022740003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

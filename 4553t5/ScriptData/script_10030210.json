@@ -1,0 +1,132 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "襲来者" ]},
+		{"command":[ "SETTEXT", "「ははははは！　どうしたインクレディブル・スクワッド！　いつもの威勢の\nよさはどこへ行った！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「くっ……！　襲来者（インベーダー）め、調子に乗るな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ごめんなさい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「私たちが、カツマさんを連れて帰っていれば……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おまえたちのせいではない。悪いのは下僕だ下僕！　あのボケナスビめ、帰\nってきたら――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114900002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「帰ってきたら、なんスか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114900003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ！　帰ってきてくれたの……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114900002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「信じてました！　必ず来てくれるって！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114900002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へへっ、まあ、しょうがねえよな。だって俺は――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「っていうか、遅ーい！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ったく！　無駄にやきもきさせんじゃないよ！　カツマのくせに！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、だって、あの……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「まったくです！　今回ばかりは心配しました！　もしかして間に合わないん\nじゃないか、基地の施設に被害が出るんじゃないかとね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020114900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「心配すんのそっちかい！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「ほらほら、帰ってきたらチャッチャと働く！　病人に危険なことをさせない\nように！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010114900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004999_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんたリモートだから絶対安全でしょうが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「あー、こらこらリュウく～ん。いまお仕事中だからね～……って！　書類踏\nんじゃダメにゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010114900002" ]},
+		{"command":[ "SETCHARA", "0", "char_00004999_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「猫と遊んでやがるし！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ。みんなこんなことを言っているが、本当は――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114900001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、構わねえよ！　どうせ俺がいなきゃ、どうにもならないってんだろ？\n　しょうがねえよな、みんなどうせ、いつものみんなだもんな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「でもって、俺は俺！　いつもの俺だ！　インクレディブル・スクワッドの隊\n長、ムーンナイト様だ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

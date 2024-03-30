@@ -1,0 +1,137 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+        {"command":[ "SETIMAGE", "0", "bg_0004" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },
+        {"command":[ "FADEOUT", "NORMAL" ]},
+        {"command":[ "PLAYBGM", "BGM_015" ]},
+        {"command":[ "WAITMOVE" ]},		{"command":[ "PLAYVOICE", "007_0403101" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「むっ、どうした、お主？　余はこれから気晴らしにひと泳ぎしてくるつもり\nじゃ。用件なら手短に……」", "NORMAL" ]},
+        {"command":[ "SETCHARA", "0", "char_00000704_01", "0", "CENTER", "0" ]},
+        {"command":[ "DISPCHARA", "0", "TRUE" ]},
+        {"command":[ "SPOTCHARA", "0" ] },		{"command":[ "DISPNAME", "TRUE" ]},		{"command":[ "DISPTEXT", "TRUE" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403102" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ほうほう……今のは余の聞き間違えか？　月の女王、そして今はこの地球の\n夏を支配する女王である余に、奉仕せよと言ったのか？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403103" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「かーっ、お主は相変わらずわきまえておらんな！　この爽やかな夏空の下で\nも、そういうことしか考えられんのか」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "7", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403104" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「まったく、もう竿に血管が浮かんで見えるほど勃起させおって……その精力\nだけは見事なものよ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "3", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403105" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「そんなに余の水着姿にそそられてしまったのか？　どれ、こうして前屈みに\nなって……くっふふ、胸元がちらちら見えるじゃろう？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "6", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403106" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「それとも背を見せて……ほれ、どうじゃ？　小さなお尻をフリフリ……こう\nいうも好きそうじゃな、お主は」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403107" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あはははっ、なんじゃ、触れてもいないのにチンポをビクビクさせおって。\nいやらしい匂いがこっちまで漂ってきそうだぞ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "8", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403108" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「余が気まぐれに少しサービスしてやっただけでそのザマとはのう。お主は、\n本当にいい趣味をしているのう」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "6", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403109" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「やれやれ、夏の暑さに浮かれた部下が、悪さをしでかさないように管理する\nのも女王の務めよ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403110" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ほれ、このオスの匂いをぷんぷん漂わせているチンポ、余が直々にヌキ倒し\nてやろうではないか」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_02" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403111" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「スンスン、スンスン、暑いせいか、いつにも増して蒸れた臭いを漂わせおっ\nて……臭いだけで部隊の女どもを孕ませる気か？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403112" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「くっふふっ、ほれ、特別に先走りのチンポ汁で余のほっぺを汚させてやろう\nではないか。うり、うりうりっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403113" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んぅっ、ぷにぷにの頬がそんなに気持ちいいか？　日差しで火照っている頬\nでも熱く感じるほど、高まっておるのう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403114" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「余のような愛くるしい幼女のほっぺに雄の臭いをこすりつけて喜ぶ、心底ど\nうしようもない変態じゃ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403115" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「にゅふふっ、金玉までパンパンにふくらんでおるな。握り潰せば、さぞかし\nこってりと濃い精液が噴き出しそうじゃ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403116" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あははっ、そう怯えるでない。どれどれ、少し焦らし過ぎて熱くなりすぎた\nチンポ、特別に余の口で冷やしてやろう」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403117" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あむっ、ちゅぅっ、じゅるぅっ、ちゅぱぁっ、ぷはぁ、おう、咥えると頭の\n芯までイカ臭さが染み込んでくるようじゃ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403118" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んちゅっ、ちゅぱちゅぱっ、くっふふっ、小さな口いっぱいにチンポを押し\n込む気分はどうじゃ？　ちゅっ、れろぉっ、れろぉ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403119" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「もう息絶え絶えになっておるではないか……んふっ、ちゅっ、先走り汁も止\nまらなくなっておるぞ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403120" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「れろっ、んちゅっ、この張り出したカリの裏側に汗が溜まって、ひときわ臭\nいも味も濃くなっておる……んちゅぅっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403121" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「偉大な女王にしゃぶらせてよいチンポではないぞ？　こんなにも凶悪な臭い\nを放つチンポっ、じゅぼっ、じゅるぅっ、じゅるるるっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403122" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んふっ、はぁ、息までお主のチンポの臭いに染められていくぞ。愛らしい口\nを汚して興奮する、業深いチンポめ。れろっ、ちゅぱっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403123" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ほれ、ここはどうじゃ？　亀頭の先……透明のカウパーを情けなく垂れ流し\nておる鈴口……ちゅっ、れろれろっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403124" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んちゅっ、れろっ、はぁはぁ、舌を丸めて、奥へ押し込むように突きながら\n……ちゅううっ、ほれ、吸ってやるっ、じゅるるるるっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403125" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「れろぉ、んちゅっ、じゅるるるるるっ、ちゅぱちゅぱっ、んちゅぅっ、はむ\nううっ、じゅるるるっ、ちゅううっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403126" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んあぁっ、はむぅっ、にゅふふ、なんじゃその情けない声は！　みっともな\nく腰も浮かせて……本当に浅ましいチンポじゃな」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403127" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「竿がビクビク痙攣して、早く精をぶちまけたいと必死におねだりしてきてお\nるようじゃな……んちゅっ、れろっ、んぷぅっ、はぁむぅ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403128" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「よかろう、その哀れになるほどの必死さに免じ、特別に余の舌で射精するこ\nとを許してやる。さあ……みっともなく吐き出してしまえ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403129" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ちゅっ、ちゅうううっ、んちゅぅっ、れろぉっ、ちゅぱちゅぱっ、じゅるる\nるるっ、んちゅぅっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403130" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「カリ裏も舌でチロチロとくすぐって、裏側のスジもなぞるように……れろぉ\n、じゅるっ、ちゅぱっ、じゅるっ、ちゅうううっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403131" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ほれ、仕上げじゃ……パンパンにふくらんだ亀頭を思い切り舐め上げてぇ、\nんちゅっ、れろぉっ、じゅるるるっ、じゅぞぉおおおっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403132" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んぷぅっ、はむぅうううっ、じゅるるるっ、ちゅうっ、ぷはぁ、出たのう、\nネバドロのくっさいチンポ汁……んちゅうううっ！！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_09" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403133" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んくっ、んくんくっ、あはっ、べっとりと喉の奥に張り付いてしまう濃さで\nはないか。んぐっ、んぐっ、。ちゅぱぁっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403134" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ちゅううっ、ちゅぱっ、ちゅっ、ちゅうっ、んくっ、はぁはぁ、まだまだ止\nまらんのか。ため込み過ぎじゃ……じゅるるるるるっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_07" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403135" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「余の口を、顔を孕ませようとでもいうのか、これは……んちゅっ、んぐんぐ\n、ごくっ、ちゅっ……じゅるるっ……んちゅうう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403136" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ぬっふふふっ、遠慮ない勢いじゃな。はぁはぁ、まったく、このとんでもな\nく濃い精液の臭い、しばらく取れそうにないぞ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403137" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「強い日差しですぐカピカピに乾いてしまうから、普段以上に凶悪な臭いにな\nっておる」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403138" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「そんなに余の舌が気持ちよかったのか？　この小さな舌で、勃起チンポを隅\n々まで舐められることが……れろぉ……ちゅっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403139" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「くふふっ、またチンポを情けなくビクビク震わせおって。お主は本当にいい\n趣味をしておるわ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403140" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「こら、何をにやけておる。まったく、夏の暑さに浮かれるのもほどほどにし\nておけよ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403201" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「それにしても、余の口いっぱいに精を放っておいて、いまだに萎える気配が\nないではないか」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403202" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「先っぽからカウパー汁の残りを垂らして……スンスン……この鼻にツンとく\nるイカ臭さ。それでまた余を誘っているつもりか？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403203" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「やれやれ、こんなにも節操なしのチンポを、開放的な夏の砂浜で野放しにし\nておくわけにはいかんのう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403204" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「仕方あるまい。余が直々に……このずっしりと重い金玉が軽くなるまで、す\nっきりヌキまくってやるとしよう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403205" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んくっ、ちゅっ、はぁむっ、んぅ……一度ヌイた後だからか、臭いが一段と\nきつくなっておる……んちゅうううっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403206" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「舌に染み込んでくる味も、とんでもなく濃いのう。しょっぱさとイカ臭さが\n混じって、れろっ、ちゅっ、んちゅぅっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403207" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「野放しにしておけば、この砂浜全体に臭いが広がって、取り返しがつかない\nことになりそうじゃ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403208" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ちゅっ、んちゅっ、くふふっ、なんじゃ、褒められたとでも思っているのか\n、勢いが増してきたではないか」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403209" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「まったく、突っ込む相手もなく、無作為に勃起させているだけの情けないチ\nンポの分際で、生意気じゃな」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403210" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ちゅっ、ちゅううっ、ちゅぱっ、んくぅっ、うりうり……どうじゃ、前歯で\nカリカリと甘噛みのお仕置きは？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403211" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「敏感なカリへ、少し食い込ませるように強く……んくっ、ちゅぅっ、くはは\nはっ、ビクビクと大げさに震えるのう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403212" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「今度は、もっと深くへ咥えて……んぐっ、ちゅぅっ、奥歯で、ぎゅっと……\nんちゅっ、れろぉっ、ちゅっ、ちゅうううっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403213" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「にゅふふっ、余の歯形がついてしまうくらい、ちと強めにいじめてやろうか\n？　お主のような変態にはご褒美じゃろう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403214" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んくっ、月の女王、夏の女王である余の口いっぱいに、遠慮なく精液をぶち\nまけた遠慮知らずのダメチンポめが」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403215" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ほれ、んちゅっ、甘噛みされてぇ、猛省するのじゃ。ちゅっ、んちゅっ、は\nむぅ……むふぅっ、れろぉっ、ちゅっ、じゅるるっ、ちゅぱっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403216" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「一度イッた後じゃから、これくらい強い刺激のほうが好みか？　んくっ、余\nの舌を押し返す勢いでふくらんできておるぅ……はむぅうっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403217" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ちゅううっ、んちゅぅっ、はぁむっ、じゅるるっ、ほれ、我慢なんてお主に\nは到底無理なこと、さっさとぶちまけてしまえ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403218" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「この重い金玉に溜まっている精液を、マグマのように煮えたぎった生臭いチ\nンポ汁、一滴も残さず余に献上するのじゃ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403219" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んふぅっ、そうじゃ、その情けなく悶える顔。見ていると余もなかなか気分\nが盛り上がってくるっ、じゅるるっ、ちゅっ、んちゅっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403220" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「仕上げじゃ、少し強く吸って、噛んでやるからのう。さあ……遠慮なく、す\nべてぶちまけい。じゅるるるるるるっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "PLAYVOICE", "007_0403301" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んふうううっ！　はむぅっ、んぐんぐっ、ちゅぱっ、じゅるるっ、んちゅう\nうううううっ！！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_12" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403302" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「くっふふ、またぁ、んぐっ、本当にっ、の、喉の奥へ容赦なくぶちまけおっ\nて……んくんくっ、ちゅっ、ちゅぱっ、ちゅううっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403303" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はぁはぁ……余の口の中を、お主のチンポ臭で染め上げて、取れなくするつ\nもりか？　剛胆な男よ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_11" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403304" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「じゅるるるっ、ちゅっ、ほれ……んちゅっ、ストローのように吸ってやる。\n残りの精液もすべて余に捧げてしまえ、ちゅうううっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403305" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あははっ、イッたばかりのチンポを刺激されるのは、くすぐったくて耐えが\nたいのか？　腰を浮かせて……無様じゃのう」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_10" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403306" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「じゃが、手は抜かぬぞ。何しろ、お主のチンポはまだまだ萎える気配が見え\nぬではないか」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403307" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「無駄に元気だけはある変態チンポめが。萎えてみっともないヘナチンになる\nまで、徹底的にヌキ倒してくれよう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403308" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「せっかくの爽やかな夏の砂浜で、こんなイカ臭いことばかりというのは正直\nどうかと思うが……ちゅっ、んちゅっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_11" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403309" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「躾の行き届いていない部下がひと夏の過ちを犯しでもすれば、月の女王たる\n余の沽券に関わるからのう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403310" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「日光浴がてら、夕暮れまでとことん遊んでやろうではないか。感謝するのじ\nゃぞ？　あはははははっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "PLAYVOICE", "007_0403401" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んくっ、はぁふぁあっ、余の顔に……んちゅっ。遠慮なくびゅーびゅーと精\n液……んんふぅっ、ああああっ！！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_15" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403402" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ちゅっ、んぅっ、ヨーグルトみたいに真っ白でドロドロのチンポ汁を、びち\nゃびちゃと……はぁはぁ、んふぅううっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403403" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「くっふふっ、いきなり腰を引いて何をするのかと思えば……余の顔を、そん\nなにも汚したかったのか？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_14" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403404" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「この愛くるしい顔を己の欲望で染め上げたいとは、本当に最低のド変態趣味\nじゃのう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403405" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はぁはぁ、んぅ、もう顔中にくっさい精液の臭いが染み込んで、取れなくな\nったではないか」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403406" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「すぐにでも海に飛び込んで身を清めたいところじゃが……この変態チンポは\nまだ物足りなさそうじゃな？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_13" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403407" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「余の顔をここまで汚しておいて、それでもまだ足りぬとはな……とんだ強欲\nチンポじゃ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403408" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「くっふふっ、呆れられて喜んでおるのか？　余を誘うように、また無様に痙\n攣しおって……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_14" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403409" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「いいじゃろう。そんなに精液の無駄打ちをしたいのなら、もう少し弄んでや\nるとしよう」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_01_13" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0403410" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「夏の浜辺と言えば出会いのチャンスが溢れているというのに、無駄打ちする\nしかできないとは……情けないチンポじゃな！　あはははっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

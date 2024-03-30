@@ -1,0 +1,200 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「下校時刻のチャイムが鳴ったのである。本日の地下闘技場はここまで！　ま\nた明日集まるがいいのである！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113190001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くっそぉ～！　優勝は結局、生徒かよ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おまけにあれだけカードを買い込んでデッキを強化したのに、マーガレットに\nは負けまくるし、納得いかねえ～っ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、思っていると――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「はーい、どうしても勝てないキミたち。カードをどんどん買って、どんどん\nデッキを強化しようね～。勝たなければ……ゴミ！　だよ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、珠魚の声が。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうやら、闘技場の片隅に物販コーナーを出しているらしい。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カードか！　よし！　こうなりゃまた箱買いしてデッキを組み直して……！\n」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、俺がすっかり頭に血を昇らせて珠魚のほうへと駆け寄ってみると――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "学生Ａ" ]},
+		{"command":[ "SETTEXT", "「珠魚先生！　ブースター６つください！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "学生Ｂ" ]},
+		{"command":[ "SETTEXT", "「こっちは８つでーす！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「はいはーい、押さないで押さないでー。在庫はたっぷりあるからねー。なん\nなら、また刷ってくるよー！　ウヒヒヒヒヒヒ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そこに学生たちが群がり、カードを買い込んでいる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「こっちは箱だ！　箱でくれー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113190001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、おまえも買うのかよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「うるさーい！　おまえだってそうだろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113190002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うっ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「とにかく、このままじゃ勝てないんだよー！　もっと強いカードがないと！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113190003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "てな具合でカードは飛ぶように売れ、珠魚の手元にある箱には学生たちのなけ\nなしのこづかいが――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ！　さては珠魚のヤツ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "気づいてしまった俺は、思わず珠魚に詰め寄る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「珠魚！　てめえ！　俺たちをこんなところに連れてきたのは、これが目的か\n！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「そうだよ～？　みんなを閉鎖環境に置いた上で熱くなって対戦してもらって\n、判断力の鈍ったところで、たくさんカードを買ってもらう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「それこそがボクの狙いさ！　天才のボクが立てた計画に、間違いはない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "悪びれもせずに珠魚が答える。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「頭っから最後まで間違いしかねえよ！　だいたいハルカプトラはなんのため\nにいるんだよ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「ハルカはいわば用心棒さ。メカだけにこういうゲームには強いし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そりゃまあ、強いのはわかってるけど……っていうか、そういう問題じゃね\nえ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「じゃあ、どういう問題？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190006" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さすがにまずいだろうよ！　こんなだまし討ちみたいなことして、学生から\nこづかいを巻き上げるとか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「別に巻き上げてるわけじゃないだろう。彼女たちが自分で払ったんだし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190007" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、おまえがさっき言ったじゃねえか！　判断力を鈍らせて買い込ませて\n、って！　教師のやることじゃねえだろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「いいの！　金は命より重――くはないかもしれないけど、研究には必要なん\nだから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190008" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だーかーら！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「あーもう！　いちいちうるさいなあ！　文句があるなら、ハルカプトラと勝\n負してみなよ！　勝てたら聞いてあげる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113190009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにぃ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「む？　カードで勝負であるか？　始めるである！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113190002" ]},
+		{"command":[ "PLAYBGM", "BGM_026" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おーいっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

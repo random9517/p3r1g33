@@ -1,0 +1,117 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "なんだかわからないことだらけだ。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "この空間にはなぜかドラグソードの像があり、なぜか現役で正常に稼働するフ\nァックスが置かれている。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「てか、なんでこんなところにドラグソードの像があるんだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115580001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺が知るか。古代文明の遺跡じゃねぇのかよ。こんなファックスまで置かれ\nててよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はぶつくさ文句を垂れながらＦＡＸを送信した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "機械音を立てながら先ほど書いたトラップ解除申請用紙が飲みこまれていく。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「うがぁあああぁぁぁ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「おいおいマジかよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115580002" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "突然、俺たちのいる空間に、体長十数メートルはあるだろう巨大なクマが出現\nした！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "これもエロトラップのひとつだってのか！？　獣姦なんてしたら、配信サイト\nによっちゃＮＧになるんだぞ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「こんなところ宇宙ヒグマかよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115580003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひ、ヒグマー！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0205" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「そう、あれこそ宇宙ヒグマ……スペースキンカムイだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115580004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「スペースキンカムイってなんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「いや、あの股間の輝き……近縁種のスペースキンタマカムイか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115580005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺に聞くな！　キンタマカムイだかキンタマかゆいだか知らんが……どっち\nも知らん！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「スペースキンカムイとは、宇宙のキンカムイである！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115580006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「説明になってねぇっ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「そしてスペースキンタマカムイは宇宙のキンタマである！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010115580007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まって、宇宙のキンタマってなに！？　なんなの！？　怖いよぉっ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ってか、『カムイ』はどこ行ったぁっ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

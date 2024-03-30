@@ -1,0 +1,350 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "気が付けば、時計は夜の２時……午前２時を過ぎたところだった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今日も今日とて、身を粉にして働いたぞ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "体力の限界を超えてなお働いて、やっと自分の部屋のベッドに寝っ転がる事が\n出来た。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もう明日は働きたくねぇ……。なんでこんなに忙しかったんだ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ボヤき、げっそりしている俺にジュンジローはいつも通りの反応を返してくる\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いやはや……誠にお疲れ様でした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁーあ……オマエに慰められたところでなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうせなら、俺の願望通りの……とにかくエロい女なんかに優しくされたい\n。癒されたい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺の性癖にバッチリ当てはまった美女たちが……。って、もういいや」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「言ってて虚しくなってきた。この話はもうヤメだ、ヤメ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それは賢明な判断ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「寝るか……。おい、ジュンジロー、電気の紐を引いてくれ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ほいほい、アイアイサー！　ですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "呑気な掛け声と共に、ジュンジローが蛍光灯の紐を引いたその瞬間だった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "……ブワァッ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "急に視界が歪み、何もない場所から熱風が溢れ出してくる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な……なんだ？　今、空間が歪んだような……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、何かヘンな事してねーだろうな！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わ、わたくしめは何も……って、ご、ご主人！　ご主人！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「身体が！　身体が闇に吸い込まれていっておりますぞ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なななな、なんだってぇ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "慌てて事態に対処しようとしても、もう遅い。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の身体はどんどん深い闇に沈みこみ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「う、うあああああ！　助けてくれっ、ジュンジロー！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "咄嗟に手を伸ばし、ジュンジローのしっぽをつかんだものの……それで何とか\nなるはずもない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ひえええっ！　犬の身体で人の体躯を支えられるとでも！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350006" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それはご無体が！　無体が過ぎますぞご主人んんんんん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、俺もそう思うううううう！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "情けない声を上げて、俺達は容赦なくずぶずぶと闇に……そのワームホールに\n取り込まれていった……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0180" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うおぁっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どさっ、と着地したのは以前訪れた城の中だった……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いててて、なんでこんな目に……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それにはまったく同意ですが……ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いざとなれば、なりふり構わず私めにすがってくるその胆力……おみそれし\nましたぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「う、うるせー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やいのやいのと争っていると、カツン……カツン、とヒールの音が響く。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……？　誰かいるぞ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「……随分悠長なご到着だな。この私を待たせるとは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022350001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「せ、性欲を持て余していそうな熟女ダークエルフ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「は、はぁ！？　誰が熟女ダークエルフだ！　口を慎め、人間ごときが！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022350002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「結局……こういうカタブツっぽい熟女が一番エロくて愛が重いんだよな～。\n一度心を開くともうエロエロっていうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「……殺されたいのかと聞いているのだが？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022350003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ヒッ、すみません！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "怯える俺の前方から、次にぺたぺたと優しい足音が聞こえてきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「あらららぁ～？　思っていたより可愛いコじゃない。おねーさん、ウズウズ\nしてきちゃったなぁ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022350001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだかふわふわなおねーさんダークエルフも来たぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「この強烈なフェロモン……駄々漏れのお色気……。これはどう考えても、ダ\nークエルフ界のゆるふわビッチ枠……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「んふふふ～♪　その予想……近からず遠からずかもね～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022350002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、最後に聞こえてきたのは……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "キュッ、キュッ、と生意気そうな音をたてて早足に駆けてくる小さな足音だっ\nた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「発見～☆」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022350001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「あっれ～？　なになに？　思ってたより貧弱そうなのが来た～☆　ひーんじ\nゃく♪　ひーんじゃく♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022350002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こ、こっちはメスガキ風ダークエルフだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ムカッ……。なーに？　弱そうなおにーさん。あたしにメタメタのギタギタ\nにしてほしいわけ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022350003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「そーゆーこと言ってばっかりだから、おにーさんみたいなダメなオトナはぁ\n、あたしみたいなお子ちゃまに泣かされちゃうんだよぉ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022350004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "勢ぞろいした三人のダークエルフを見て、俺は言わずにはいられなかった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ダ、ダークエルフ黄金比……！　黒い三連星……！　な、なんという、男の\n性癖に素直な三人組なんだ……！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご、ご主人！　心の声が駄々漏れですぞ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022350010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「……我らが貴様をここに呼び寄せたのは他でもない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022350004" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ごくっ……！　ま、まさか俺が……子種でダークエルフの国を救う救世主だ\nっていうのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「違う。私達には貴様自身にさしたる興味はない、が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022350005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「女王の様子を見るに、貴様には尋常ではない価値があるものと私達は判断し\nたが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022350008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「しかし……簡単なワームホールすら防げぬ貴様に、どれほど価値があるもの\nか……少々不安を覚えるな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022350009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「ねーねー。つまんない男だったらどうする～？　埋めちゃう～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010022350005" ]},
+		{"command":[ "SETCHARA", "0", "char_00019601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「いざとなれば……わたしたちで、あなたをどうにでも出来るかなって思った\nから呼んじゃったの。急にごめんね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010022350003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "尊大なポーズで俺とジュンジローとを見下すダークエルフ達には、とてつもな\nい威圧感を覚える。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「……その顔をよく見せてみるがいい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010022350010" ]},
+		{"command":[ "SETCHARA", "0", "char_00019401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "じりじりと品定めするように見つめられ、俺は自分の背筋に汗がつたうのを感\nじた……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

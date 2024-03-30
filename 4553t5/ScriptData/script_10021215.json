@@ -1,0 +1,158 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0177" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "スケバンサンダーや、ＥＤＯの砲撃の影響は玉座の間にも及んでいた。その煙\nが晴れたとき……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「あれ？　あれあれ～！？　カツマくんたちは！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「……逃げたか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020199_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「どうやら、そのようですねえ～。さすが陛下の息子さん。ああ見えて、意外\nと抜け目がないですねぇ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010114610002" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「ふふっ、ふふふふっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010114610002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020199_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「いまは逃げるがいい。だが、いずれは連れ戻してみせるぞ。息子よ……ふふ\nふふふ……はははははははは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010114610003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0131" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ルナテミス様、よくご無事で！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ああ……なんとかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000105_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさんも、無事でよかった……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「大丈夫だ。ありがとな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「フィルさん、全員乗ったよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フィル" ]},
+		{"command":[ "SETTEXT", "「わかった。長官、こっちも発進するぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_129_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00012901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「了解！　それでは脱出だ！　ワームホールへ向かえ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010114610001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スケバンサンダー" ]},
+		{"command":[ "SETTEXT", "「ちっ！　お宝は分捕りそこねちまった！　でもまあ、楽しませてもらったか\nらいいや！　また会おうぜ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_229_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00022901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャム" ]},
+		{"command":[ "SETTEXT", "「おしゃべりしてる暇はない。対空砲火、来る！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_136_010114610001" ]},
+		{"command":[ "SETCHARA", "0", "char_00013601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フィル" ]},
+		{"command":[ "SETTEXT", "「おっとっと！　全艦、全速だ！　とっとと射程外からずらかるよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_129_010114610002" ]},
+		{"command":[ "SETCHARA", "0", "char_00012901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうして俺たちは、時間城を逃れ地球への帰途についた。しかし……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「刻の女王が言ったこと……あれは……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0131" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「そうではない。私がお前の母なのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010114610004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「私が、お前の母だ。我が子よ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010114610005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あいつが言ったことは本当なのか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それに、時間帝国はいったいなにを企んでるんだ……？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうやらこの先、襲来者（インベーダー）以上にやっかいな連中の相手をする\nことになりそうだぜ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "FALSE" ]},
+	    {"command":[ "DISPNAME", "FALSE" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "OP_3_000.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+
+	    {"command":[ "PLAYMOVIE", "ED_2_012.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+
+		{"command":[ "EXIT" ]}
+	]
+}

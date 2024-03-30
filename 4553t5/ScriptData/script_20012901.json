@@ -1,0 +1,396 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "……よく晴れた、冬のとある日。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつもと同じく、どこからともなく現れた牛神様に……俺は唐突な依頼を受け\nることになった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「私の知り合いの悩みを聞いていただけませんか……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いつもそのパターンで、酷い目にあったりするのでお断りします」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、今回は先手を打ちましたな……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "驚愕するジュンジローだが、今回の俺は退く気はない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「……ですが……。何も、頭ごなしに否定することはないではありませんか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「と、いいますけどねぇ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「これも一つの学習ですよ。人の悩みを聞き、人の心を知ること。そして、\nそれを解決しようと悪戦苦闘、七転八倒してみること」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「全てがあなたにとって必要な教育です。これを乗り越えた時、あなたは人と\nして大きく前進すると思います」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "牛神様がこう言い出したら、もうテコでも動かないに違いない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあ～……。つったって、俺に何が出来るっていうんですか……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「いえ、諦めてはいけません。挑戦するという心が大切なのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「彼女は稲穂姫という神様で、最近……自らの社に参拝客が来ないことを、大\n層気に病んでいるらしいんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「ですので、なんとかして社に人を集めて欲しいとのことで……どうでしょう\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ま……待ってくださいよ。今……神って言いました？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「ええ。それが何か？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140008" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか……っ、牛神様の知り合いっていうのは当然神様か……！　その可能\n性はまったく考えていなかった！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「あなたが力になってくれたら、彼女もきっと喜んでくれると思いますよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140009" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「神の悩みなんか、俺が解決できるわけないでしょうが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「いいえ。私はあなたを見込んで頼んでいます。あなたならやり遂げられると\n信じていますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなに信用されるようなこと、俺……何かやっちゃいましたかね！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「あなたの日々の努力こそ、私の信頼に足るものと判断したまでです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それって、俺の信頼が……低すぎるってことだよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「さっきから、何をノリノリで言っているのです。あなたは私の見込んだ人で\nす。きっと、成し遂げられると信じています」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「神の問題は神々で何とかしてほしいんですけど！　無理ですか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140013" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………威圧してくるのはやめてください」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「やってくれますね？　あなたには期待しています」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140014" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「最初っから、俺に選択権はないわけですね……。わかりましたよ、もう……\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そうして俺達は、牛神様に言われるがままに……稲穂姫とやらの社に案内され\nることになってしまった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なるほど。こうしてご主人は、様々な出来事に巻き込まれてきたわけですな\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022140002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "06", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まったくもってその通りだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0045" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……で、ここが問題の神のいるところ……ですか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「あなたから見て、ここの印象はどうですか？　正直に答えてくださいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140015" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんつーか……随分静かで寂れたところだなーって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もっとわかりやすく言えば、ボロボロすぎて、とてもこんな場所に神がいると\nは思えない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「ふふ……そうですよね。見ていてください。今、彼女をお呼びしますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140016" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「稲穂姫さま。稲穂姫さま。どうぞおいでくださいませ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0045" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「妾を呼ぶのは誰じゃ……？　なにやつじゃ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140001" ]},
+		{"command":[ "SETCHARA", "0", "char_00024101_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "突如、社に満ちる荘厳な一筋の光。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、数秒後にそこに現れたのは、半人半獣の……一目で普通の人間じゃな\nいとわかる１人の女神様だった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「妾がこの社の神……豊穣を司る神、稲穂姫なるぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおおっ、本当に神が出てきた！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "でも……なんつうか、神々しさとか威圧感はまったく感じないぞ……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「それは、彼女が今……人の参拝を受けられず、神としての力をまるで持てず\nにいるからでしょうね」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "0", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140018" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど、人が来ないせいで神としての力が目減りしてるってわけですね」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、俺の頭の中を勝手に読まないでもらえませんか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「読んでいませんよ。全て、あなたの顔に書いてありました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そんなわかりやすかったですか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「ええ。それで隠しているつもりだったことに驚きました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うっ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「まあ、それはさておくとして。彼女から威厳が感じられない大きな理由……\n。それは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、なるほど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その神様は、酔っぱらっていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「うぃ～。ひっく……。ごっきゅごっきゅごっきゅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140003" ]},
+		{"command":[ "SETCHARA", "0", "char_00024101_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "社の岩にあぐらをかき、いかにも日本酒が入っていそうなデカい瓢箪を膝に乗\nせていたかと思うと……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "真っ赤な顔で、それを躊躇なく飲み干しまくっていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「ああ～来ぬ、来ぬ、来ぬ、来ぬわぁ～！　今日も人の子は、妾を無視してエ\nンジョイライフしておるわ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140004" ]},
+		{"command":[ "SETCHARA", "0", "char_00024101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「終わりじゃ～！　社も、妾も、時代遅れのすかんぴんじゃ～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「そうやさぐれないでください。今日は、私があなたに必要だと思った人間を\n連れてきました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140022" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「……なに……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140006" ]},
+		{"command":[ "SETCHARA", "0", "char_00024101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ぴく、と耳を動かすと稲穂姫はそこで初めて俺に気づいたようだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「まさかおぬし！　おぬし、参拝客か！？　うぉおお、人間……人間じゃ、久\n方ぶりのニンゲンじゃあ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140007" ]},
+		{"command":[ "SETCHARA", "0", "char_00024101_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「参拝にきてくれたのか！？　となれば逃がさぬ、逃がさぬぞぉ～！　願いは\nなんじゃ、なんでも叶えてやる……！　近う寄れぇ～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわっ、酒臭ぁ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "これだけ綺麗な見た目をしていて、胸もデカいのに人が来ないのは……この神\nの、異常なくらいの酒癖の悪さが理由なのかもしれない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いやっ！　俺は参拝客じゃないし！　力になれるかどうかもわかんない\nです！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「まーたそのような、焦らすようなことを言うてからに～。よいではないか\nよいではないか～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「ちょーっと手を合わせて、妾に祈ってくれればいいのじゃ。ちょーっとだけ\nじゃ。先っちょだけ……先っちょだけじゃから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「ほーれほれ……。その可愛い手を貸してみよ……。少しくらい、妾の胸を揉\nんでしまっても構わぬぞ？　んん？　んんん～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022140011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「……教育に良くありませんね……これは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140023" ]},
+		{"command":[ "SETCHARA", "0", "char_00003002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひぇっ！　俺は悪くないのに、牛神様が静かにキレている！」", "NORMAL" ]},
+
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022140024" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「何か言ってください、怖いから！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "怯える俺を無視する牛神様、そして稲穂姫によるおねだりはそれからもなかな\nか終わってくれなかった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

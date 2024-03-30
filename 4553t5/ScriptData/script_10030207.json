@@ -1,0 +1,114 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0108" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おまえらが俺の死か……がくっ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「あ！　カツマさん！？　カツマさーんっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114870001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「やばっ！　白目むいてベロ出してるよっ！　生きてる！？　ねえ、生きてる\nの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010114870002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「修羅姫ぇ！　いくらなんでもやりすぎだろオマエー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114870002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「私のせいか！？　貴様だって、相当気合いの入ったビンタをかましてただろ\nうが！　いや、言い争ってる場合じゃない！　カツマ！　起きろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010114870002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「きゅぅうう～～～」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「よかった、呼吸はしてる……でも、完全に気絶しちゃってるわね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114870002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「まいったな……どうする？　どっかに埋めてくか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114870003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「いやいやいや！　ダメダメダメ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010114870003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待って！？　本部から通信が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114870003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「私だ！　おまえたち、どこにいる！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114870001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさんを探しに競艇――げふんげふん、競技場に。それより、どうかし\nたの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114870004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「すぐに戻ってきてくれ！　本部が襲来者（インベーダー）に襲撃されている\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114870002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「なんですって！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114870005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「やべえじゃん！　すぐ戻らないと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114870004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「カツマさんはどうするの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010114870004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「おいていくしかない！　放っておいても、最終レースまでには目を覚ますだ\nろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010114870003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさん……ごめんなさい！　ごめんなさいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114870006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

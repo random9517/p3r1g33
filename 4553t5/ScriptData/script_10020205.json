@@ -1,0 +1,113 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0154" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どぅわあああああああーっ！　負けたぁーっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「どうやら、勝負あったみたいだねえ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113170001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つか、どう考えても勝てねえよ！　なんなんだよ、おまえのデッキ！　むっ\nちゃ強ぇカードばっかりじゃねえか！　こっちは手も足も出ねえよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「トレーディングカードゲームとはそういうものである。なにもルール違反は\nしていないのである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113170001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くうううううううっ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「ともあれ勝ちは勝ち。負けは負けである。今からカツマは、我がしもべであ\nる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113170002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待て！？　どういうことだ、そりゃ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「真剣勝負の結果である。勝者が敗者をしもべとするのは、当然のことである\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113170003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから待てって！　なんだそのルール！　それこそ謎ルールじゃねえか、聞\nいてねえぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "セレインたちだって、罰ゲームやるまえにはちゃんと相手の合意をとってたぞ\n！　ファラオのくせにそれすら無しか！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「貴様は王たる我との真剣勝負を承諾したである。いまさら騒ぐのは見苦しい\nである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113170004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「王とかそういう問題か！？　って、おい！　なにすんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「問答無用である」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113170005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ハルカプトラはそう言って、俺をひょいっ、と担ぎ上げる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと！　やめろって！　冗談じゃねえ降ろせ！　放せ！　放せ―っ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「では珠魚、そろそろ行くのである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113170006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「そだねー。ちょうど時間もいいころだし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113170002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、人の話聞けよ！　放して！　降ろしてーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "と、ジタバタ暴れて抗議する俺を担ぎ上げたまま、ハルカプトラは珠魚を引き\n連れて保健室を出る……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おいおいおいおい！　俺はいったい、どこに連れてかれちまうんだーっ！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

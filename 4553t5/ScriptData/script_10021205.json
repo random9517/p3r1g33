@@ -1,0 +1,99 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0179" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "一方、翔生子が開いたワームホールで時間城に向かった俺たちは……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "時間帝国兵たち" ]},
+		{"command":[ "SETTEXT", "「うわああーーーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_924_010114520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00092401_01", "9", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00092501_01", "9", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「悪いな。しばらく眠っててもらうぜ。その間に……とにかくみんな、装\n備を剥いで着替えろ」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPCHARA", "1", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「え……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010114520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだよ。言ったろ？　衛兵の装備を奪って変装するって」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「いや、だって、女の子だよ！？　服、脱がすの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010114520002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うっ……！　いや、だって、今回ばかりはしょうがねえだろ！？　別にスケ\nベな目的でやってるわけじゃねえんだし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「果たしてそれはどうかなあ……？　女性の服を剥ぎ取って、あまつさえ自分\nで着ようなどとは、まさに変態にしかできぬ発想……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010114520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから、しょうがねえって言ってんだろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「なんでもいいから早くするのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえも見てないで早くしろよ！　そのスーツ脱いで、奪った装備に着替え\nろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｈ・Мサムライ" ]},
+		{"command":[ "SETTEXT", "「こ、この狼藉者！　変態！　変態大名！　うちの客人に『脱げ』とか『見せ\nろ』とか『舐めろ』とか、なんたる暴言！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020114520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「『見せろ』と『舐めろ』は言ってねーっ！　もう、かんべんしてくれーっ！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「だ、大丈夫なのでしょうか。敵の目の前で、コントのようなことばかりやっ\nていて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「考えたら負けです。ご主人たちのノリに慣れてしまったほうが楽ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「は、はあ……なんだかわたし、本気で先行きが不安になってきました……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114520002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

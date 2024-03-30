@@ -1,0 +1,366 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ハッ！？　……何度目だこの目覚めのパターン。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だが……今度こそ、現実か……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……どうやら、いつも通りの部屋、のようだな？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ったく！　酷い悪夢を見続けていた気がするぜ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おやご主人。ようやくお目覚めですかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021960001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「！？　……ああなんだ。お前かよ、脅かすな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「主の傍らでその目覚めを待っていた忠犬に向かって、ずいぶんな物言いです\nなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021960002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「戦闘での負傷が原因とあっては、さすがにこのジュンジローも気が気ではな\nかったというのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021960003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「戦闘？　負傷？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はい。要領の悪いご主人は先日、出撃した戦闘で滑って転んで頭を打って、\n幹部の皆様に引き摺られながらお帰りになって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021960004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "無茶苦茶格好悪いなそれ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まあ、ジュンジローが婚約だの結婚だの言い出すよりはマシだが。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "結局……幹部３人との結婚だなんだというのは、全部夢オチかあ？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ふむ？　寝こけていた割には、まるで地獄巡りでもしてきたかのような顔を\nされておりますなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021960005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「地獄か……ある意味そうだが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「余程夢見が悪かったので？　げっそりとやつれておられる様子ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021960006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……人生の墓場を見てきた」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ったく……なんだったんだいったい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0138" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぃーっす――ってげっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ななな……なんだお前ら、その格好は！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「なんだとは失礼ねえ。作戦の話は聞いたでしょ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010021960001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000309_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "作戦……あ、ああ。なんか、異文化交流みたいなやつか！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「衣裳合わせまで進んでいたのかよ。本気でやるつもりなんだな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「学園長まで乗り気なのだ、仕方あるまい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000118_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ああそうだったな……ちょっとだけ同情しよう。ちょっとだけな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はまた、あの悪夢が続いているのかと思ったぜ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「貴様こそ、私たちがこうして勤しんでいる間も、呑気に寝こけて。恥ずかし\nくないのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「う」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「まったくね。ようやくお目覚めなんて、楽なご身分だこと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010021960002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000309_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ちくちくちくちくと嫌味を飛ばしてきやがる……が、これがいつも通りの扱い\nだよなあ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さっきまで見ていた夢の方が、どうかしている。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あの……ところで今、気づいたのですけれど。私たちが花嫁役を演じるなら\n、当然――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021960001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000211_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「相手役が必要なのではありませんか……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021960002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……は？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そう、ね……伴侶がいなければ、幸せな結婚の姿を表すことには……ならな\nいわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000118_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "っておい。こっち見んな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「……下僕を連れて行くのは、甚だ不本意で、役不足にしか思えないわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「姫様、それは誤用です。本来『役不足』とは、役の方が役者の実力よりも格\n落ちしているという意味です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010021960004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000309_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうなの！？　なら訂正よ、下僕に夫役などもったいない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000118_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そうだよ、そうしてくれ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いやそれも情けないか……いやいやしかしだなっ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「けれど、他に候補は……。それに任務のためなら。あくまで任務のためなら\nば」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021960003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000211_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや。最近じゃ、同性婚も流行りらしいぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺をこれ以上巻き込まないでくれ、悪夢を続けないでくれっ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「敵襲？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021960004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000211_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし出るぞ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「いつになく張り切っているわね下僕！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000118_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いいだろ、結婚なんて話をしてるよりは！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「私たちもすぐに着替えて――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021960005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000211_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「せっかくです、そのまま出撃すべきでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020021960001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "またいきなり現れたなこの人も！！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「学園長！？　そんな、恥ずかしい真似は出来ません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000118_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「千載一遇の、作戦実行のチャンスだとは思いませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020021960002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え、あれか？　このままやるのか？　絶対通じないと思うんだがなあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「不本意なことに、下僕に全面的に賛成だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000118_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「私の花嫁姿、そんなに似合わない……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021960006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000211_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういう問題じゃなくてだな！　ああもうっ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「婚期と同じで、作戦には“機”というものがあります。早く行かないと、勝\n利を逃しますよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020021960003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「でも……もったいないですね。せっかく綺麗な衣裳なのに、汚してしまいそ\nうで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021960007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000211_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "戦闘突入不可避前提の発言だな、それ。まったく同感だが。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「多少動きにくいけれど、まあ問題ないでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010021960007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000309_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだな。何を纏おうと、私たちは私たち」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000118_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「行くぞ下僕！　こんな茶番、さっさと終わらせる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021960010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へいへい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「かくて花嫁衣裳は汗と涙と血に濡れるわけですな。いやはやなんとも」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021960007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "お前もしれっと見送る側にいるんじゃないよ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「それもまた、愛というものの、ひとつの形でしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020021960004" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「マンマ・ミーア！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020021960005" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

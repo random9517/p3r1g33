@@ -1,0 +1,109 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0032" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「はあ……どうする？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090201_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「どうするって。作戦は失敗したわけだし……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生三号" ]},
+		{"command":[ "SETTEXT", "「このまま母船へ帰っても、怒られるだけだよねえ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生たち" ]},
+		{"command":[ "SETTEXT", "「はあああ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090201_01", "1", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00090301_01", "1", "CENTER", "0" ]},
+		{"command":[ "SETCHARA", "2", "char_00090401_01", "1", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "2", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「酔って目を回して勝手に倒れた塾長を捕獲出来た時には、今度こそいける！\n　と思ったのに……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090201_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]}, 
+		{"command":[ "DISPCHARA", "2", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「どうにもならなかったねえ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生三号" ]},
+		{"command":[ "SETTEXT", "「ねーねー、それよりもこれ！　これ見て！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「ん？　――なっ！？　そ、そ、それは……！！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「『１万年と２０００年前からのプロポーズ』海外版……！？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生三号" ]},
+		{"command":[ "SETTEXT", "「古い作品だからレンタルでもなかなか見かけなかったんだけど」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生三号" ]},
+		{"command":[ "SETTEXT", "「とあるショップでワゴンセールに入ってたから、買っちゃいました！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「でかした！　すぐ観よう、今観よう！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「――あーっ！！　これだ！　今度はこれですよ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「これ、とは？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「体育会系が駄目だったなら、今度は文系で攻めるんです！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生二号" ]},
+		{"command":[ "SETTEXT", "「あいつらが感動の涙を流して我を忘れるような超傑作を、私たちの手で創る\nんです！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一号" ]},
+		{"command":[ "SETTEXT", "「それだあー！！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生三号" ]},
+		{"command":[ "SETTEXT", "「ねー、もう再生しちゃうよー？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00090401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,249 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0183" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「貴様らは……おまえ達はなぜ、怪人協会が無償で行っている健康診断に行か\nないのだっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「健康診断の費用は全て我々が……！　協会が負担しているのだぞ！　喜んで\n受診するのが筋だろうッ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うなる鞭を叩きつけながら、トーチャーが怒鳴るそのセリフ。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それを聞いて、俺はピン！　と来てしまった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか。ＥＤＯ本部に健康診断を依頼したのは、怪人協会だったのか！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って……意外と所属しているやつらの事を考えてるんだな。怪人協会って」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「もっと怪人は使い捨てだとか、ひどい待遇の組織を想像しておりましたぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、俺もだ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「はぁああ！？　ふざけたことを抜かすんじゃない！　協会は、所属している\n者全ての健康を祈っている！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「そもそも、病気の者……元気のない者を戦いに行かせて、勝てると思ってい\nるのか貴様らはッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「怪人達のヘルスケア、メンタルケアは協会の責務であり最も大切な仕事だ！\n　あなどるなっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「めちゃくちゃ真っ当なことを言い出した！　もう怪人ってなんなんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "思ったよりも、怪人達の福利厚生は充実しているらしい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「下手すりゃ、俺より待遇がいいんじゃ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、それに気が付いてはなりません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「と、とにかく！　私達は健康診断には行かないったら行かないの！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「なにぃ！？　無料なのにか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210006" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュリ" ]},
+		{"command":[ "SETTEXT", "「そうよっ……。人妻はすることが多くて毎日忙しいの！　それに……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018402_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「私達が目を離したら、トーチャー。あなたがこの人を……カツマを奪ってい\nくつもりでしょ！　絶対に渡したりしませんからね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「はァッ！？　なぜこのあたしが、診断よりこの男を優先せねばならんのだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210007" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「……そんな事を言ったって……あなたの真意なんてわからないし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018202_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イチカ" ]},
+		{"command":[ "SETTEXT", "「私達は……怪人派遣協会の横暴はゆるさない！　……こうなったら変身よ！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018302_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ？　変身？　変身って……うわっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺が疑問を口にし終えるより早く、人妻たちはその場で服を脱ぎ始めた。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「へ……へんしーん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「変身！　とぉおおっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "人妻たちはどこかで見た事のある、一般戦闘員の服装になると……おねだりト\nーチャーに挑みかかっていく！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「私達は戦闘員、Ｈ・Ｉ・Ｊ！　私達は……３人であなたを倒します！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ……。こ、こいつら！　プールで前に会ったやつらじゃないか！　ビッ\nクリした！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「ふっふっふっ……。カツマくん。あなたにだけは知られたくなかった。この\n姿を……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022210004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「でも、私達はどうしても負けられないの！　あなたを尋問部には渡せない！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いや！　診断を受けてくれれば済む話なんですが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「そうだっ！　あたしと貴様らには戦う理由などない！　おとなしく受診だけ\nしろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210008" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「絶対こっちの方が正論を言っている気がする！　だ、だが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「不利そうなのは人妻たちで……。となると、俺は人妻を助けるべき……なの\nか？　だが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「なんだ？　おまえもあたしの鞭を食らいたいようだねぇ……。ペロッ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「……ああああん？　言いたいことがあるならハッキリ言いな。くだらない事\nだったら承知しないよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ヒエッ。や、や、や、やっぱり……トーチャーの側につこう。そして人妻を\n倒すことにしよう」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「そんなあ！　カツマくんのばかぁ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022210004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「裏切るの！？　もう人妻ハーレムに入れてあげないからね！　ぷんぷん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022210004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああああ！　もう何がなんだかわかんねぇよおおおお！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "敵か味方か、おねだりトーチャー。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「いけ！　隊長！　おまえが健康診断を実行しろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022210011" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わ、わっかりましたあああ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はガクガク震えながら、とりあえず人妻たちを捕獲するために一歩を踏み出\nした。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

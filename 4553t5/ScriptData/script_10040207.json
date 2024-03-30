@@ -1,0 +1,125 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0198" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「くっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116590001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウタマロ" ]},
+		{"command":[ "SETTEXT", "「しまった！　大丈夫か！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_010116590001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009701_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「いえ、大丈夫です……かすっただけです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116590002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウタマロ" ]},
+		{"command":[ "SETTEXT", "「すまねえ……寸止めのつもりだったんだが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_010116590002" ]},
+		{"command":[ "SETCHARA", "0", "char_00009701_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「いえ、こちらも避けられるつもりでしたが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116590003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっぱり『新型スーツ』のせいか？　そのスーツが悪いんじゃないのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「なんだよ、私のせいだってのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020116590001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「自覚ないのかアンタ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「いえ……このスーツが重くて邪魔くさいのはたしかですが、そればかりでは\nないです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116590004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どういうことだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「やはり、ニンジャスタイルの戦い方には、ウタマロさんたちのほうが慣れて\nいる……ということだと思います。ウチでは、まだ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116590005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だよな……オボロだったころは、術を使ったり式神を呼び出したり、っていう\n戦闘スタイルだったもんな……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「やっぱ、前の戦闘スタイルを思い出せれば一番いいのかもね～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010116590001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「そうは思うですが、なかなか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116590006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「だよねぇ～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010116590002" ]},
+		{"command":[ "SETCHARA", "0", "char_00009901_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「とにかく、もう一戦お願いするです。なんとか以前のスタイルを思い出して\nみます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116590007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「わかった！　みんな、行くよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_020116590001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009601_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハイッパーマッポーサムライ" ]},
+		{"command":[ "SETTEXT", "「うむ！　やってみるがよい！　友情パゥアーで明日をひらくのだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020116590001" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ゲンナイ" ]},
+		{"command":[ "SETTEXT", "「なんでさっきから師匠ヅラしてるの……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_098_010116590001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

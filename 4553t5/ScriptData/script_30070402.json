@@ -1,0 +1,128 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+        {"command":[ "SETIMAGE", "0", "bg_0004" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },
+        {"command":[ "FADEOUT", "NORMAL" ]},
+        {"command":[ "PLAYBGM", "BGM_015" ]},
+        {"command":[ "WAITMOVE" ]},		{"command":[ "PLAYVOICE", "007_0404101" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「くっふふ、なんじゃ、せっかくのロマンスとエクスタシーのチャンスが溢れ\nる夏の砂浜で、今日もお主はひとりなのか？」", "NORMAL" ]},
+        {"command":[ "SETCHARA", "0", "char_00000704_01", "6", "CENTER", "0" ]},
+        {"command":[ "DISPCHARA", "0", "TRUE" ]},
+        {"command":[ "SPOTCHARA", "0" ] },
+		{"command":[ "DISPNAME", "TRUE" ]},		{"command":[ "DISPTEXT", "TRUE" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404102" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「これ、そう情けない顔をするではない。どうせそんなことだろうと思っての\nう……今日は特別に、余が相手をしてやろう」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404103" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「この水着と、肌を焼くような日差しの暑さのせいかのう。お主を見ていると\n、妙にムラムラして我慢できんのじゃ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404104" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ほれ、いいからチンポを貸せ！　にゅっふふっ、すぐ天国を味わわせてやろ\nう。ほれ、ほれ♪」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000704_01", "8", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404105" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「もうこんなに勃起させおって……こうしてあてがってみると、とんでもなく\n凶悪なサイズのチンポだとよくわかるのう」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_01" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404106" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「余の一番深いところまで……それこそ子宮の奥まで届いてしまいそうな、た\nくましすぎるチンポ……はぁ、はぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404107" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「い、いかんぞ。こうして弄んでやるだけじゃ……それ以上のことは……余に\nはすでに操を捧げた相手が……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404108" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「何じゃと？　夏は過ちを犯してしまいがちな季節？　お主はまた、そんな調\n子のいいことを……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404109" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あふっ、んんぅっ、これ、腰を揺さぶるな。チンポ……チンポを余の大切な\n場所にっ、オマンコにこすりつけるなっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404110" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「疼いて、もう、我慢が……んくっ、あぁ、あやつに顔を合わせられなくなっ\nてしまうというのに、余は、余は……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404111" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「過ち……犯してしまいたくなる気持ち、もう抑えきれないではないか。これ\nも……この暑さと、お主の立派すぎるチンポのせいじゃ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404112" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んくぅっ、くふぁああああっ、ひぃっ、あひぃっ、あぁ！　ふ、太いのじゃ\n、太すぎるぅっ、んくうううっ！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404113" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はぁ、はひぃっ、ああああっ！　しゅごいっ、あぁ、あやつでも届かなかっ\nた場所にぃ、軽々届くぅっ、くううううっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404114" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「情けない、変態チンポのくせにっ、んくっ、余のオマンコ、自分の形に作り\nかえてしまおうと、ますます太くなっておるっ、はふううっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404115" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「おほぉおおおっ、はぁ、あんんっ！　声が、声が止まらないのじゃ、情けな\nいっ、メスの声ぇ、ひぅっ、んほぉおおっ！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404116" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「つ、月の女王、この夏の女王である余がっ、ぶっといチンポでオマンコをじ\nゅぼじゅぼされてぇ。ひぐっ、んひいいいっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404117" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はぁ、はひっ、まだ、まだじゃ。これはひと夏の過ちにすぎんっ、余はあや\nつへの想いを捨てたわけでは……んくっ、はぁ、はううっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404118" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「そこっ、コンコンと子宮の入り口、チンポの先でノックしてほじくろうとす\nるのはっ、ダメ、ダメじゃっ、はへぇっ、あんんっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404119" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「こじ開けられるっ、余の大切なところっ、すべて蹂躙されて……ひぎぃっ、\nはひいいっ、あぁ、遊びとごまかせなくなるっ、くううっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404120" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「本気で、このチンポのぉっ、お主の女にされてしまうっ。そんなこと、ダメ\n……ダメなのじゃっ、余は、余はぁっ、あはぁっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404121" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「くひいいっ、あぁ、硬いカリ首が、子宮口に引っかかってぇ、おほぉっ、子\n宮が墜ちりゅっ、はへぇ、あんんぅっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404122" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「こんな激しいオチンポ、初めてじゃっ、余はっ、もうっ、もうっ、ひぐぅっ\n、ひいいいいいいっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404123" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はぁんぅっ、はぁ、あふぅっ、うううっ……なぜ止める？　焦らすように、\n浅いところばかりこすりおって……このぉ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404124" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「どうしても余におねだりさせたいというのか？　もう、言い訳しようがない\nくらい、お主に墜とされろとぉ……はぁはぁ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404125" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「この容赦ない鬼畜チンポめぇ、じゃが、んくぅっ、あぁ、硬い亀頭で深いと\nころ突かれるとぉ、切なくて、お腹が熱くなるぅっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404126" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「うきゅううっ、くぅっ、にゃぁっ、あああっ、許してくれぇ。もう、余は耐\nえられないっ、これぇ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404127" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「オマンコぉ、子宮が寂しくてぇ、あやつではない、お主のチンポをいっぱい\n感じたいという想い、止められないぃっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404128" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はぁ、きて……もっと深くぅっ、お主のぶっといオチンポで、余の小さなオ\nマンコ、容赦なくごりごりとほじくりまくってくれ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404129" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「もう、取り返しつかなくなるまでぇ、トロトロのキツマンコっ、イカせてほ\nしいのじゃ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404130" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んほぉ、はへぇ、うみゅぅっ、んんん！　じゅぼじゅぼとぉっ、おぉ、奥が\n突かれるぅ、容赦なくこじ開けられるぅ！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404131" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あぁ、許してくれぇ、もう、無理じゃっ、こんなぁ、身体が勝手に馴染んで\nいくっ、ひふぁああっ、んふぅっ、きゃうううう！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404132" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「子宮口も開いてぇ、このチンポに媚びてしまうっ、あぁっ、イィッ、久しぶ\nりの感覚っ、おほぉっ、きゅふうううっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404133" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「頭ぁ、真っ白になってぇ、もう、無理じゃっ、余は、余はぁ、おほぉっ、は\nぁはぁっ、ひふぁああっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404134" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「チンポ、中で震えてっ、くるっ、射精、種付けくるぅっ、ダメじゃっ、それ\nはダメなのにっ、もう、逆らえないぃっ、んきゅぅっ、あああっい！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404135" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「夏の過ちではないっ、本気セックスぅ、本気アクメでぇ、イグ、あはぁ、許\nしてくれぇ、余は、イグ……浮気チンポで本気アクメぇええ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404136" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「イグぅっ、んきゅうううううっ！　おっほぉっ、きてるっ、余の子宮に、ど\nびゅどびゅと熱い精液がっ、あやつのではない精液がぁ！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_09" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404137" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「何じゃ、この熱さと濃さぁ……子宮、蕩けていくぅっ、お主の精液で、ドロ\nドロに蕩けてぇ、おぉっ、イグイグッ、んぐううっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404138" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はぁ、はぁ、ひふぁっ、あああ……あぁ、身体の奥が満たされる、この幸せ\nな感覚っ、も、もう忘れていたはずじゃったのにぃ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404139" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「思い出してしまった……あやつのではない、浮気チンポで……本当の悦び、\n味わわされてしまったのじゃ……はひっ、はぁはぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404140" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「余が……ここまでメロメロにされてしまうとは……うぅ、これは夏の砂浜の\nムードに流されてしまったからなのじゃ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404201" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んふっ、あぁ。ど、どうしたのじゃ？　なぜ、ますますチンポを勃起させて\nおる、お主は？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404202" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「え……まだ終わりではない……？　もっともっと、心の底までお主色に染め\n上げるじゃと……？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404203" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「ほ、本気なのか、お主は。そこまで本気で余を欲して……んふっ、あぁ、わ\nかる、この熱いチンポから伝わってくるぅっ！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404204" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「うぅっ、このルナルバース１３世を、月の女王を相手にどこまでも剛胆な男\nめ……そんなにも求められては、もうっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404205" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「お主の女になるしかないではないかぁ……余は、余はぁ……あぁ、ほしい、\nもっとチンポ、お主のチンポがほしいのじゃ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404206" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あやつに合わせる顔もなくなってしまうがぁ、もう、もう、我慢などできぬ\n……これぇ、はへぇ、うみゅぅっ、にゃああ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404207" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あやつと一緒に海を見た、思い出まで塗りつぶされていく、もう、潮風を浴\nびるたびに、このチンポで突かれたことを思い出してしまう！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404208" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「本当に鬼畜な、ド変態男めぇ。じゃが……もう余は、そんなお主のっ、あな\nたのチンポの虜にっ、はひっ、ふぁああっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404209" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「きてほしい……もう生涯、誰にも塗りつぶされることなどない、最高の夏の\n思い出を、余のオマンコに刻み込んでぇ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404210" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「許してくれぇ、余は、余はこれから浮気ではなく、本気セックスで完全に墜\nちます。身も心も染め上げられりゅっ、んほぉぉぉっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404211" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「おおっ、そこぉっ、精液でいっぱいの子宮っ、容赦なくじゅぼじゅぼ突かれ\nるのしゅきっ、ひぃぃっ、んひいいいいっ！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404212" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「中出し精液、子宮の奥まで押し込まれるようでぇ、ひぃぃっ、あぁ、グチュ\nグチュといやらしい音が響くぅっ、んひいいいっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404213" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「おぉ、らめぇ、しぃ、子宮口も緩んで、もうあなたに屈服、完全に甘えてし\nまっているのじゃっ、はひいいいっ。、んふぅっ、おぉっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404214" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あはっ、ああああっ、精液ぃっ、あなたのチンポ汁ほしさにっ、腰が勝手に\n動いてしまうっ、ひぃっ、はひっ、あおぉおおっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404215" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「うきゅううっ、くぅっ、あはっ、んんっ！　ほしいっ、精液っ、ドロドロ精\n液、いっぱい精液ほしいのぉっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404216" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「恥ずかしいお汁ぅ、オマンコジュースいっぱい溢れさせてぇ、オチンポに媚\nびまくりぃっ、おほぉっ、おお、無様マンコでごめんなさいぃ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404217" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「イグ、余はぁ、もうイグぅ、このオチンポ凄すぎてぇ、もうイグ、イクの我\n慢できないのじゃぁっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404218" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「本気でイクぅっ、もう戻れないっ、あなたのお嫁さんになってしまう本気ア\nクメくりゅっ、はひぃっ、おぉっ、んほぉぉっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404219" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「きてぇ、一緒ぉっ、おぉ、排卵しっぱなしのクソザコマンコにぃ、とどめの\n射精ほしいのぉっ、いぃっ、イグ……ふぁああああ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404220" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「余もぉ、腰をカクカク振って、射精おねだりしてしまうぅっ、イクぅ、おね\nだりしながらイグぅっ、イク、んくうううう～！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "PLAYVOICE", "007_0404301" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「うきゅうううううううううううう！！　ひぃっ、あっひいいいいっ、しゅご\nぉっ、おおおおっ、んほぉおおおおおおお～！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_12" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404302" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「しきゅぅっ、いぃ、いっぱいきてりゅぅうっ、おぉ、せーえきぃ、ドロッド\nロのせーえきぃ、子種汁ぅ、びゅーびゅーくりゅううう！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404303" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あはぁっ、あああ、焼けるぅっ、子宮、あなたの精液いっぱいでぇ、焼けて\nイグぅっ、イグぅぅっ、んくっ、ひいいい！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404304" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はぁはぁ……あぁっ、余の大切な場所……完全にあなたの臭いを、味を覚え\nさせられてしまった……あふぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404305" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「オマンコもぉ、オチンポの形に馴染んで、はぁはぁ、もう、あなたのオチン\nポ以外、入らない……いらないのじゃぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404306" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「くふぅ、んぅっ、ひ、ひと夏の遊びが……本気になってしまうなど……ふふ\nふっ、じゃが……胸が温かい……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404307" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「長い年月、決して満たされることのなかった部分が、あなたのオチンポで埋\nめられた気分……はぁはぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404308" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「余をここまで本気にさせたのだ……あなたも、もう遊びと逃げることはゆる\nさんぞ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_10" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404309" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「月の女王、この夏の支配者、ルナルバース１３世……そのすべてをあなたに\n捧げよう……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404310" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あなたも……永久に余の傍にいてくれ。もう二度と、手放すことはゆるさん\nぞ……ふふふっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "PLAYVOICE", "007_0404401" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「にゅふぅっ、ううううう！　オチンポ、外に……ひふぅっ、くううううっ、\nあぁ、熱いぃぃっ！！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_15" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404402" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「肌にっ、肌にせーえきぃっ、いっぱいかかってぇ、ひふぁああっ、イグ、精\n液の臭いで染められてぇ、イグ、いきゅうううううっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404403" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「はへぇ、あぁ、あちゅいせーえきぃ……日焼けした肌にぃ、はぁ、少しぴり\nぴりすりゅっ、んふっ、はぁ、あはぁ……！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404404" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んっ、日差しですぐに乾いて、カピカピになって……あんんっ、凄くいやら\nしい臭いがするのじゃ……んちゅっ、はぁんぅっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404405" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「あなたの臭いで溺れて、もう、頭の中があなた一色に染め上げられていく…\n…はぁ、はひぃ、くぅぅぅっ……はぁはぁ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404406" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「んぅっ、余に、ここまで無様ではしたない、メ、メスの顔をさせるなど……\nあなたは罪作りな男よ……にゅふふっ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_13" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404407" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「もっと、もっとじゃ。まだ夕暮れまでには時間があるじゃろう？　チンポも\n元気なまま……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_14" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404408" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「夏が来るたびに、こうしてあなたと恥ずかしい臭いに包まれながら交わり合\nったことを思い出せるように、もっとしてほしいのじゃ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404409" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「最高の思い出……余の身体に、子宮に、プレゼントしてくれるな？　ふふふ\nふっ、それが余を本気にさせた対価……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "007_0404410" ]},		{"command":[ "SETNAME", "ルナルバース" ]},		{"command":[ "SETTEXT", "「月の女王の心を、あなたに捧げよう。末永く、愛してほしい……もう寂しい\n思いは、したくないから……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00000704_02_13" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

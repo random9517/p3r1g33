@@ -1,0 +1,101 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0084" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「子曰く、過ちて改めざる、是を過ちと謂う（しいわく、あやまちてあらため\nざる、これをあやまちという）」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530046" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「古代の賢人の言葉だ。過ちはだれでも犯すが、本当の過ちは過ちと知ってい\nながら、悔い改めないことであるという意味だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530047" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「お前たちはまだまだ未熟……しかし今回の件を反省し、糧とすることで、\nより強いニンジャになることが出来る」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530048" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「そしてこの傷は、お前たちが成長するための証……そう思えば、この程度の\n怪我の一つや二つ、可愛いものよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530049" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「だからいつまでも泣いたり、喧嘩したりしてないで、なにが悪かったのかを\n見つめ直すといい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530050" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「先生……！　ありがとう！　あーし、もう泣かない！　ちゃんと反省する！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010021530039" ]},
+		{"command":[ "SETCHARA", "0", "char_00009902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「ふふっ。シャラクは強い子だな。いいニンジャになるぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530051" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010021530051" ]},
+		{"command":[ "SETCHARA", "0", "char_00009602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「みんな、ごめん……少し言い過ぎたよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010021530052" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ウタマロ" ]},
+		{"command":[ "SETTEXT", "「いや……オレも悪かった。これからは、ちゃんとホクの指示を聞く」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_010021530040" ]},
+		{"command":[ "SETCHARA", "0", "char_00009702_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ゲンナイ" ]},
+		{"command":[ "SETTEXT", "「私もノリに流されたりしないで、自分で考えて行動するようにするね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_098_010021530034" ]},
+		{"command":[ "SETCHARA", "0", "char_00009802_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「あーしもしっかりする！　もう絶対に、先生に怪我なんてさせたりしないか\nら！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010021530040" ]},
+		{"command":[ "SETCHARA", "0", "char_00009902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「うむ。それでいい。しっかりと学び、反省し、次に活かせるよう努力するん\nだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530052" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「はい、わかりました！　先生の教えを守って、一流のニンジャになってみせ\nるね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010021530053" ]},
+		{"command":[ "SETCHARA", "0", "char_00009602_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "先生" ]},
+		{"command":[ "SETTEXT", "「その意気だ。それでは、一度街の方まで戻って傷を処置して、これからの話\nをするとしよう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010021530053" ]},
+		{"command":[ "SETCHARA", "0", "char_00010002_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,208 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「…………カツマよ……カツマ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021470001" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………ん？", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「………………起きなさい、カツマ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021470001" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "…………なんだ？　誰かが呼んでるような……。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「……いいかげんに起きるです。この給料泥棒」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021470001" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひっ！？　寝てない！　寝てませんよ！？　すぐに見回りに……あれ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0145" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここは………………！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021470002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それに、おまえたちは！？　ああ……そっか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子サンタ" ]},
+		{"command":[ "SETTEXT", "「そうです。ウチたちは――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021470002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ……夢か。そういうことなら……おやすみ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「って、二度寝するんじゃないわよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021470003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファサンタ" ]},
+		{"command":[ "SETTEXT", "「人の話をちゃんと聞きなさい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021470002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、話を聞けと言われても！　どう考えても夢だろ、この状況！　夢じゃ\n夢じゃ！　夢でござる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "目が覚めたらいつの間にか雪原にいて、イカれた格好の知人３人が立ってると\nか！　夢以外にあり得ねえ！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子サンタ" ]},
+		{"command":[ "SETTEXT", "「まあ、たしかにある種の夢です。そこは間違いではないです。ですが、話は\nちゃんと聞きやがれです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021470003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "8", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「話って……夢の中で、イカれたエロサンタ３人から聞かされる話って、どう\n考えてもろくなもんじゃねえだろ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「エロ……サンタ……っ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021470004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファサンタ" ]},
+		{"command":[ "SETTEXT", "「あのねえ！　あたしたちが好きでこんな格好してるとでも思ってるの！？　\nサンタの制服だから、仕方なく着てるのよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021470003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「最近のサンタはどうなってんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子サンタ" ]},
+		{"command":[ "SETTEXT", "「仕方ないです。ウチたちはまだ二級サンタですので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021470004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「二級と露出度とどういう関係があるんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファサンタ" ]},
+		{"command":[ "SETTEXT", "「それもこれも不況のせいで……まあいいわ。とにかく、私たちはエロサンタ\nではありません。私は『あなたの過去をつかさどるサンタ』」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021470004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子サンタ" ]},
+		{"command":[ "SETTEXT", "「ウチは『あなたの現在をつかさどるサンタ』」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021470005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「そして私は、『あなたの未来をつかさどるサンタ』。あなたを助けに来てあ\nげたのよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021470005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子サンタ" ]},
+		{"command":[ "SETTEXT", "「あなたを救えば、一級昇格の可能性が出てくるです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021470006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「そうすれば、もっと布地を使った立派なサンタ服がもらえるのよ！　それに\n通常の３倍速い専用のそりと、専属のトナカイも……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021470006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか……。って、それはともかくだ。俺を助けるって、なにから助け\nてくれるんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「このままでは近い将来、あなたによくないことが起こるわ。それをあなたに\n伝えにきたの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021470007" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よくないこと……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子サンタ" ]},
+		{"command":[ "SETTEXT", "「その目は、まだ信じてないですね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021470007" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ……いきなり３人のエロサンタにそんなこと言われてもなあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファサンタ" ]},
+		{"command":[ "SETTEXT", "「だから！　エロサンタじゃないって言ってるでしょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021470005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「でも、その格好……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「……このままでは、らちが明かないわね……えいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021470008" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう言って、ルルーナサンタがぱちん！　と指を鳴らした。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "すると――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,221 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "……結局、俺に全てを押し付けてミニスカサンタ隊ことルルーナ、エファ、兎\n子達は帰ってしまった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「学園長はまだ仕事が残ってるっていうし……ジュンジローは寒いから帰るっ\nて言うし」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「また、２人になっちまったな。……カグヤ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「うん。これから私達はどうする？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだなあ。なんか腹減ったし、食い物でも探しにいくか……って、あれ？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれってさっき、チキンを売ってたチキン乙女じゃないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺が指をさす方向を見て、カグヤがはっとした顔をする。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「本当。チキン乙女さん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "雪の降りしきる空の下……１人の少女が、声を張り上げて呼び込みを続けてい\nた。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「はぁ～……結局、帰ることも出来ず……。最後の最後まで呼び込みをするは\nめになっちゃったな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「チキン～。チキンはいりませんか～？　美味しい美味しいチキンですよ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130002" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「すいません。ここにあるケーキとチキン……残り全部、もらっていいっすか\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「あっ！　あ、あなたはっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130003" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……？　あ、アンタはさっきの……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "バチッと視線が交錯し、俺を見たチキン乙女はぺこぺこと深くお辞儀をする。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「お……お買い上げありがとうございます！　いいんですか？　買ってくださ\nるんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130004" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、さっきの詫びも兼ねてというか。ここのが一番美味そうだったんで…\n…はい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「そうなんですか……っ！　あ、ありがとうございます！　サンタカップルさ\nん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130005" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「感謝します！　聖なる夜です。二人のラブラブカップルさんに……神の祝福\nがありますように！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「……というか、私がお祈りします！　二人がずうーっとうまくいきますよう\nに！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あなたにも……いいことがありますように」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「ふふふっ……。お客様にお買い上げいただけたことが、私にとってのいい事\nです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130008" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まばゆいばかりの笑顔を向けてくるチキン乙女に、カグヤもつられて少しだけ\n柔らかい雰囲気になる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「さっきは疑ってしまってごめんなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「いえいえいえいえ。お気持ちわかります。彼氏さんに近づく女って嫌ですよ\nね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130009" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「甘えん坊の彼女さんに、甘いチョコをおまけしておきますね。これ、ケーキ\nに乗せるプレートなんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「二人で食べてください。それで、……ふふふっ♪　どうかお幸せに……♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130011" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あ……ありがとう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "甘い空気に包まれる２人の美女を眺めつつ、俺は手渡されたケーキとチキンの\n数を数えた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うーん。さすがにこの時間じゃあ、あまり売れ残りはなかったみたいだな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そうだね……。これだけじゃ、皆の分はないかもしれない。他にも何か買い\nに行く？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、もうどこの店も閉まってるだろうし、うろうろするのもしんどいだろ\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺達はこんだけ仕事したんだ、今日は二人で食ってもいいだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……いいの？　二人で食べても……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いいだろ。あいつら、ステージとかで凄い量の貢ぎ物をもらったって言って\nたし……俺達も少しくらいは得してもバチは当たらないって」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そっか。そうかも……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な。これ以上ここにいると凍えちまう。とっとと帰って部屋あたためようぜ\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「う……うんっ！　帰る！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022130009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ぱぁっと明るい笑顔になったカグヤを、チキン乙女は嬉しそうに手を振って見\n送った。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00021902_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「はぁ～♪　いいなぁ、カップルさんって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "チキン乙女" ]},
+		{"command":[ "SETTEXT", "「私も今日のバイト代で、ビールとおつまみを買って一人パーティーしようか\nなぁ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_020022130013" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

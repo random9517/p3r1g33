@@ -1,0 +1,256 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "夏が終わり、そろそろ秋風が涼しく感じられる今日このごろ……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺とアヌビス、アーマーンはＥＤＯ本部からの依頼で商店街の見回りをしてい\nた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「あれは……何の飾りつけなの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022730001" ]},
+		{"command":[ "SETCHARA", "0", "char_00008101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "アヌビスが指差す方向にあったのは、１０月恒例の季節のデコレーション。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "つまりはハロウィンのショーウィンドーだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれはハロウィンだな。知ってるか？　子どもたちが、仮装して近所の家に\nお菓子をもらいに行くやつ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「……初めて聞いた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022730002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「あ、マジっすか？　この国では有名っすよね。チビっこたちがめちゃ楽しみ\nにしてる日っていうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「それには、大人は参加しないの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022730003" ]},
+		{"command":[ "SETCHARA", "0", "char_00008101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「おーっと。そんなコトありませんよ。大人には大人のおタノシミってのがあ\nるんです。ほらっ、ワンコロ説明してあげて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ワンコロとはわたくしめのことでしょうか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022730001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "急にアーマーンに指名されて、たじろぐジュンジローだったが……すぐに気を\n取り直し、アヌビスを見上げて丁寧に説明しはじめる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「えーっとですな……。大人はハロウィンで、コスチュームプレイを主に行う\nのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022730002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「略してコスプレね！　コウモリとか～吸血鬼とか～黒猫とかカボチャとか、\n闇っぽくて可愛い服着て夜歩いたり、遊んだり」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カップルがイチャついて写真撮ったり、ダチ同士ではしゃいで酒飲んで暴れ\nたり……か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「あははっ、そーゆーのも最近はあるかもしんないッスね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「……わ、私もハロウィンしてみたい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022730004" ]},
+		{"command":[ "SETCHARA", "0", "char_00008101_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「へ！？　そ、それマジで言ってんですか？　そればっかりはありえないです\nって～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「アヌビスがハロウィンに参加すると、何かマズイのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の疑問に、アーマーンはちっちっちっちっ、と人差し指を振ってこたえた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「あのですねぇ～、パイセン？　あーしらは一応女神なんですよ？　しかも、\n死者を冥界に送る役割を持つ女神ッス」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730006" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「ゆーてオバケとかソッチのプロですから！　人間たち……アマチュアのオバ\nケ祭りに参加すること自体がヤバイっス」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……そういうのがあるのか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「大人が子どもたちのおままごとに割って入る感じ……なんですかねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022730003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「そ、そ！　そゆこと！　わかってんじゃんワン君！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730008" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わ、ワン君！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022730004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「えっ。なんて呼んでいいかわかんなかったから。気に障ったらガチでゴメン\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730009" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「い、いや……問題はありませんですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022730005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "色んな猛者を見てきたジュンジローすらたじたじにしてしまうほど、アーマー\nンの陽のコミュ力は凄まじかった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「つーわけで、あたしらはハロウィンとかいう祭りには不参加を貫きましょー\nよ！　それが間違いないッス」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730010" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「でも……こっそり隅っこで参加するだけなら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022730005" ]},
+		{"command":[ "SETCHARA", "0", "char_00008101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「絶対ロクなことにならないですって！　やめときましょーよ！　ね！？　ね\nっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730011" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "必死にアヌビスを説得するアーマーンだったが、アヌビスの決心は固いようだ\nった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「……『闇に集う亡霊の宴、その昏（くら）き催しに我を招き入れよ』……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022730006" ]},
+		{"command":[ "SETCHARA", "0", "char_00008101_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「『万聖節の前夜司りし聖者に今、我は望む。全ての淫らな夢の果てに』……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022730007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「待～って待って待って！　呪文の詠唱始めちゃってるじゃん！？　ありえん\nし！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730012" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「アーマーン！　なんとかして詠唱を止めてくれ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「り、りょ！　ってもう、こっから出来ることとかあんま無いんですケドぉ\n～！？　あああああ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "アーマーンの健闘もむなしく、俺達はアヌビスからほとばしった紫の魔力……\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "闇色の魔法陣が放つ光に巻き込まれ、一瞬で目の前を濃い霧に覆われてしまっ\nた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「きゃああああああああああああ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022730014" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うああああああああああああ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご、ご主人～っ！　アーマーン殿～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022730006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "吠えているジュンジローの声が遠くなり、周囲が夜に包まれる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「……さあ。ハロウィンをはじめましょう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022730008" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺達は、アヌビスの厳かな宣誓に……嫌な予感をビシバシに感じるしかなかっ\nた……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,95 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0173" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_007" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "円盤少女Ａ" ]},
+		{"command":[ "SETTEXT", "「ちょっとー！　なんでこんなに急に、いっぱい敵がでてくるのよー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_162_010114330001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "円盤少女Ｂ" ]},
+		{"command":[ "SETTEXT", "「こんなに大勢でこられたら、さすがにどーにもならないよー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_163_010114330001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「姫さま、にいさま、いきましょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114330001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ああ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114330001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな！　それじゃみんな！　ワームホールに飛び込め！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「わかった！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114330001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「うおおおおおおおっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114330001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「おっしゃーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010114330001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「行ってくるね！　学園のほうはよろしくっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020114330001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "俺たちは学園の防衛を、仲間たちに任せてワームホールに飛び込んだ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、転移した先で俺たちが見たものは……！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0105" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "次回に続く！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "FALSE" ]},
+	    {"command":[ "DISPNAME", "FALSE" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_2_010.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+
+		{"command":[ "EXIT" ]}
+	]
+}

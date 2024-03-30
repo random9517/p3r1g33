@@ -1,0 +1,182 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やった！　俺の勝ちだ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「くぅうううううう～っ！　やられたぁ～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さあ、セレイン。約束だぞ。俺の好きなカードを１枚、もらっていいよな？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ちぇ～っ！　しょうがないなあ。ほら、これだろ？　やるよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、ありがとさん！　しかし、おまえホントにこのカード使わなかったな\n。あんまり気に入って――うわっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「どうしたの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「このカードのスキル……あらためてみるとえげつないな。相手のカード、ほ\nぼ即死させられるじゃん。しかも１ターンに何度も使える！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「本当ですね……場に出すコストこそ高いですけど、スキルを使えば使うほど\n、コストを回収できる仕組みになってて……ほぼ永久機関？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010113210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001406_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっとこのカード、バランスがおかしい気がします……あまりにも\n強すぎて、ゲームが崩壊しちゃう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「さすが母上様！　最強カードにふさわしい性能だわ！　私も、母上様のよう\nにならなくては……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+        {"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "怖ぇ……！　もしこのカードをセレインに使われてたら、勝負に勝って巻き上\nげるどころじゃなかった……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+        
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、さすがにおかしいぞ！？　セレイン、なんでおまえこのカード使わな\nいの！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ええー？　だって、戦闘力低いじゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あ、ああ……たしかに単体で戦闘に使った場合は、あんまり強くないな。この\nカード……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なに……？　つまりこいつ、カードは戦闘力しか見ていなくて、ほかの効果と\nかは見ていない――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ！　そうか！　そういえば対戦中、おまえ一度もカードの効果とかスキル\nとかを使ってこなかったな！？　ほかのカードでも！」　", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「なんだよ、それがいけないのか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113210004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、いけなくはないけど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "勝てないだろ、それ……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「脳筋のセレインさんに、カードの説明を読んで理解して使いこなせ、などと\n……あまりに無理な注文です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか……そうだな。悪かった」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そ、そうね！　セレイン先生、いつでも引きだけは強いものね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000106_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「運も実力のうちよね！　それしかないと厳しいけど！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「な、なんだよ、おまえら！　それじゃまるで、私が全然ダメな子みたいじゃ\nないかっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113210005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「ダメ、とはいいません。ただ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ただ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113210006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「あなたは、この手のゲーム向いてないです。圧倒的に。それだけです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113210004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「う、う、うわああああああーーん！　そこまで言わなくたっていいじゃない\nか！　兎子なんか、大っ嫌いだあああああああーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113210007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……すまない、セレイン。おまえの弱点につけこむような真似をして。だが、\nおまえの尊い犠牲は決して無駄にはしないぞ。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おまえから巻き上げ――じゃなくて受け継いだ最強カードで、珠魚に仕返し―\n―じゃなかった、学生たちを救ってみせる！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「カツマ先生、本音が外にまで漏れてますよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001205_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

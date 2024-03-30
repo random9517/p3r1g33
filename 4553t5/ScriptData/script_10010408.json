@@ -1,0 +1,271 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0049" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_012" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ヘーイ……マグナシア……ドッチガセクシーダイナマイトカ、勝負シマショ\nウ……ウフフ……ファイト、ファイト……トッテモタノシイネ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080001" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ルナテミス！　しっかり！　最終予選に勝ったんだよ！　もうすぐ本戦の試\n合が始まるんだよ！　お願い！　気をたしかに！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010104080001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「スリーサイズはともかく、体重、体脂肪率まで観衆の前で発表されたショッ\nクが、かなり尾を引いているようですね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010104080001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「おまけに、多元宇宙に生中継されているんですものね。それはダメージも大\nきいはずです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010104080001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「頼みますよ、しゃっきりしてくださいよ、姫様……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まずいな。このままじゃルナテミ――いや、賞金が……。", "NORMAL" ]},
+
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「さあ、スタジアムの方では、間もなく始まる本戦の準備が始まっているよう\nですが――おっと！？　これはなんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「ああっと！　リングです！　スタジアムの床から、リングがせりあがってき\nました！　そして、リング中央には大会委員長が――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "大会委員長" ]},
+		{"command":[ "SETTEXT", "「本戦第一試合、種目を発表します！　『どっきり！　王女だらけのバトルロ\nイヤル』！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「おおーっと！　第一戦は１６人のプリンセスが入り乱れるバトルロイヤル！\n　王族だけにバトルロイヤルだーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やべえやべえ！　もう、試合の準備始まってるぞ！　ちょっと姫様！　頼む\nから立ってください！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「そうだよ！　ルナテミス！　このままじゃ試合放棄になっちゃう！　そんな\nの嫌でしょう！？　だからお願い！　立って！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010104080002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだ！　もう一度立ち上がれ、ルナテミス！　マグナシアを倒し、この私\nと決着を付ける気があるのなら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090104080001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「立て！　立つんだ、ルナテミスーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090104080002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0050" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ルナテミ――姫様！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ルナテミスッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010104080003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「……ルナテミス」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090104080003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0119" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_022" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「……行くぞ、アナザー。試合が始まる。まずはマグナシアと……そして、決\n勝ではお前と決着をつける！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+	{"command":[ "SPOTCHARA", "0", "1" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「…………ああ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090104080004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ルナテミス様……大丈夫なのですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010104080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ふふっ……エファナティカ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「案ずるな！　屁のツッパリはいらん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おお……！　言葉の意味はよくわからんが、とにかくすごい自信だ！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「さあ、いよいよ始まります、プリンセストーナメント本戦！　第一試合は、\n予選を勝ち抜いてきた１６人のプリンセスによるバトルロイヤル！」", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「優勝最有力候補との呼び声も高い、マグナシア・カイザー・ナックル姫をは\nじめ――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「女性人気ナンバーワン！　限りなくプリンスに近いプリンセス、高円寺クリ\nス選手！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「見た目はお子様！　でも戦闘力は決して侮れないシロクマ姫！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「そして今回最大のダークホース！　友情パワーで並みいるライバルを撃破し\nてきた、ルナテミス選手とアナザー・ルナテミス選手によるタッグチーム！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「名付けて『ザ・ショットガンズ』！　この面々が、今回の注目選手といえる\nでしょう！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「って！　呼び方変わってる！　『Ｗ（ダブル）ルナテミス』とかいうネーミ\nングはどこいった！　あと、友情パワーってなんだぁ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080007" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「落ち着けルナテミス！　ゴングが鳴るぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090104080005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヘッドホンプリンセス" ]},
+		{"command":[ "SETTEXT", "「行くわよぉっ！　まずは、ザ・ショットガンズを仕留めてあげるわ！」", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレーのプリンセス" ]},
+		{"command":[ "SETTEXT", "「辛口でいきま～す！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "知恵の輪プリンセス" ]},
+		{"command":[ "SETTEXT", "「私の知恵に勝てるかしら！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「来るぞ！？　アナザー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080008" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「承知！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090104080006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ザ・ショットガンズ" ]},
+		{"command":[ "SETTEXT", "「はぁあああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080009" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "LEFT", "0" ]},
+	{"command":[ "SETCHARA", "1", "char_00000109_01", "7", "RIGHT", "0" ]},
+	{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "三人のプリンセス" ]},
+		{"command":[ "SETTEXT", "「きゃああああ～っ！」", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+	{"command":[ "DISPCHARA", "1", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "実況" ]},
+		{"command":[ "SETTEXT", "「ザ・ショットガンズの見事な連携攻撃！　ライバル三人を、まとめて脱落さ\nせたぁ～っ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クリス" ]},
+		{"command":[ "SETTEXT", "「なるほど……さすがですね。シロクマ姫さん！　ご相談があります！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_131_040104080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00013101_01", "6", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シロクマ姫" ]},
+		{"command":[ "SETTEXT", "「な、なに！？　私、今忙しいんだけど！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_130_010104080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00013001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クリス" ]},
+		{"command":[ "SETTEXT", "「ここは、私たちもチームを組みましょう！　タッグチームと戦うには、それ\nが一番です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_131_040104080002" ]},
+	{"command":[ "SETCHARA", "0", "char_00013101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シロクマ姫" ]},
+		{"command":[ "SETTEXT", "「ルナテミスたちと、ってこと？　それは……たしかにいい考えかも！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_130_010104080002" ]},
+	{"command":[ "SETCHARA", "0", "char_00013001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クリス" ]},
+		{"command":[ "SETTEXT", "「では決まりですね！　行きましょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_131_040104080003" ]},
+	{"command":[ "SETCHARA", "0", "char_00013101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「むっ！？　おいアナザー！　クリスとシロクマ姫も手を組んだようだぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104080010" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「タッグ対タッグか！　面白い！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090104080008" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

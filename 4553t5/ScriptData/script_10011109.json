@@ -1,0 +1,49 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0112" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_007" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「す、すげえ……！」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ロボットたちが、あっという間に破壊されていく……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010111160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「なにこれ！　なんなのこれ！　顔だけのときとは、ケタ違いに強いじゃん！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010111160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「これがドラグソードの……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010111160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだ。真の力だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090111160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「いけいけー！　ロボット軍団なんか、みんなやっつけちゃえ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010111160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,302 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "俺の偽物は悔しいが俺よりも有能だった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "雑務や書類仕事も完璧にこなすし、女幹部たちからの信頼も厚い。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "くそ……俺と同じ顔のやつにこんなに差をつけられるとは……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "というか、俺が本物のカツマなんだぞ？　本物……俺は本当にカツマだったの\nか……？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "自分をカツマだと勘違いしている一般戦闘員だった……？　いやいや、心を強\nく持て。俺はカツマだ。誰がなんと言おうと。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「さっきから俺のことを見ているようだが、どうかしたか？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんでもねぇよ。なあ、お前は本当にカツマなのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「おかしなことを聞くな。俺はカツマだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか。じゃあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ちょっとこいつのことを試してやろう。こいつが偽物なら、俺の質問に全部答\nえられないはずだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の方が、あの女幹部たちとの付き合いが長いんだからな！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なあ、お前はあのルナテミスの苦手なものを知っているか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「苦手なもの？　そういや姫様は家事全般が苦手だったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な……っ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こいつ、ぽっと出の偽物のくせに、どうして姫様の苦手なものを知っているん\nだ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「じゃあ、他の女幹部の苦手なものは？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「そんなことを知ってどうする？　まさか、下剋上でも考えているのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなわけないだろ。それができるならとっくにしてる」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「ははは、それもそうだな。いいだろう、教えてやる……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の偽物は、俺の質問をすべて完璧に答えやがった。ただのそっくりさんじゃ\nねぇ。もう一人の俺がいるみたいだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ありがとうな。じゃあ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「どこへ行くんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっとタバコを吸ってくる」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "やばいな……。俺より有能な俺ってことかよ。偽物のくせに、隙がまったくね\nぇ……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「ちょっと休憩しすぎたな。さっさともどらないと」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「あなた、だれですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「兄さんの姿で、なにをしているの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「誰かと思ったら、カツマ（弱）と一緒にいたロボットか」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「俺はカツマだ。というかお前たちはどうして（弱）と一緒にいるんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ロッテのお兄ちゃんはただ一人です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115280002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「そもそも、あんたは人間……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115280002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ロッテとクララの声だ。相手は偽物の俺みたいだが、何を話しているんだ……\n？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「おかしなことを言うな。俺はカツマだ。本物のカツマだよ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「そんな変な音波をだしても無駄ですよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115280003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「人間ならまだしも、機械の目はあざむけないよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115280003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「ちっ、やはり機械相手では催眠術の効きが悪いな。ポンコツ車両どももそう\nだったが……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なっ、催眠術……！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「Ｍ．Ｏ．Ｅたちにも、催眠術を……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115280004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「いや、効果がなかったから車庫で眠ってもらってるよ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「そんな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115280004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "帰ってきてからＭ．Ｏ．Ｅの姿をみなかったのも、この偽物のせいだったのか\n……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいお前！　さっき催眠術とか言ったか！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「なっ、本物のカツマ！　聞いていたのか！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115280005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「兄さん！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115280005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっと偽物だって認めたな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "予想外のことが起きたときにヘマをするのは、悔しいが俺っぽいぞ、偽物め。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうやらみんなの様子がおかしかったのは、お前の催眠術とやらのせいみた\nいだな！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「バレてしまってはしかたがない……口封じをするしかないな！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふざけるな、みんなを正気に戻せ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんの騒ぎだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前ら！　いいか、よく聞け、お前らは催眠にかかってる！　こいつに騙さ\nれているんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「なにを言っているの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115280001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「無駄だ。こいつらは俺の言うことを信じる。なぜなら俺がカツマだからだ！\n　だよな、みんな！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そうだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115280002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あなたは所詮（弱）よ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115280002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ？" ]},
+		{"command":[ "SETTEXT", "「チームの結束を乱すようなら、ちょっとお仕置きが必要だな」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "くそっ、この状態じゃ不利だ！　逃げるしかない！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、覚えてろぉっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ああっ、お兄ちゃん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115280006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「……べー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115280006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

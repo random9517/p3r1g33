@@ -1,0 +1,300 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「コンテストで優勝するために、またメニューから考えないと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113990001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、そうだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「グレーテル先生のところはカレー、遥架先生の所は寿司の屋台みたい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113990002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「となれば、ほかのメニューを考えたほうがいいな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "流々那がじっとこちらを見ている。瞳を輝かせて。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "勢いとはいえ、あんなタンカを切っちまったし、なんとかしてやりたいが……\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "特に策があったわけじゃないんだっ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……と、言い出すこともできず。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、どうかなされましたか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113990001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おお、ジュンジロー。急に出てくんな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「グルメコンテストでなにをなさるつもりで？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113990004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「優勝するって、カツマが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113990005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ええっ、この状況からグルメコンテストで優勝を！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113990005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「にしてもご主人、まーた無茶なことを」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113990007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「勢いだったんだよ！　ああいう言い方をされたら、こっちだって黙っていら\nれないだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「カツマ、やっぱり無理かな……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113990006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、無理じゃない。無理じゃないぞ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とにかくなにか、あのふたりの屋台に対抗できるメニューを考えなければ……\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「ここですね、異臭騒ぎがあった屋台は」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおっ、兎子！　ちょうどいいところに！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「ちょうどいいってどういうことですか？　ウチは仕事中です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「そのブタの餌にもならない物体をとっとと片付けてください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、それはまあ片付けるが……。なあ、ちょっと相談に乗ってくれないか\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「……仕事中だって言ったのが聞こえませんでしたか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そう言うなって、ちょっとでいいから。先っちょだけ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「仕方ありませんね。で、なんです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「グルメコンテストで優勝するために、なにか手はないか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「……寝言ですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「寝言じゃねえ！　真面目だ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「はぁ。そもそもグルメコンテストのルールはご存じで？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ルール？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、ルールもわからずに優勝するなどタンカを切ったのですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113990008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせぇ。これから教わるつもりだったんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「当日の屋台の評判と、料理を審査員に食べさせたときの評価を総合して優勝\nが決まるの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113990007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうなのか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「いまの優勝候補は遥架先生とグレーテル先生のところですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっぱりあのふたりか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「正直、味では敵わないでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「うん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113990008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「ですから、味ではない部分で勝負すればいいのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「料理の味が良くても接客が最悪だといい評価にはならないでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど！　で、どうすればいいんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「そんなの簡単ですよ。そこの黒い姫様が裸エプロンで接客したらどうです？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「男どもが沢山つれるでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「はっ、裸エプロン！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113990009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000113_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふざけんな！　流々那にそんなことさせられるか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「冗談ですよ。ま、料理で困っているのなら、プロに聞けばいいのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「プロ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "すると、兎子が指をさす。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あれは、ほむらとイグニスじゃないか！", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00016704_01", "8", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あいつらがどうして学園に？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「学園祭にきた客を目当てに出張屋台をだしているのです。ご存じなかったの\nです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「存じねぇよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だが、あの二人に聞けばなにかいいアイデアをもらえるかもしれねえ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「助かったぜ、兎子」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "善は急げだ。流々那を連れてほむらの屋台へ向かう。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「……せいぜい、頑張ってくださいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113990016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,101 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0160" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……これで、全員か……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「ああ、そのようだ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーンの部下" ]},
+		{"command":[ "SETTEXT", "「流々那さん！　じゃなかったアナザーさん！　この子たちは連れて行くね！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_030114230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「連れていく？　どこへだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロックの部下" ]},
+		{"command":[ "SETTEXT", "「体育館です！　捕まえた子はひとまず、そこに保護しようとＤｒ.サイレー\nンが！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010114230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、そういうことなら頼む。でも、おまえたちは大丈夫なのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラの部下" ]},
+		{"command":[ "SETTEXT", "「はい、大丈夫で……ううううっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020114230001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーンの部下" ]},
+		{"command":[ "SETTEXT", "「くうううっ！　うああああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_030114230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「どうした！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114230003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グリムロックの部下" ]},
+		{"command":[ "SETTEXT", "「く、苦し……あ、あ、あああああああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010114230002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0156" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_023" ]},
+		{"command":[ "SETNAME", "ブラックメルヘンの部下たち" ]},
+		{"command":[ "SETTEXT", "「ぐおおおおおおおっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_010114230003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんてこった！　こいつらまで！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「ガスの濃度が、濃くなっているのかもしれません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020114230001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「おのれ……襲来者（インベーダー）！　彼女たちまで利用するなんて……！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114230004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「３人とも、少しだけ辛抱してくれ！　必ず……あなたたちを助けて見せる！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114230005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

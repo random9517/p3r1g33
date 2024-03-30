@@ -1,0 +1,68 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0081" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_016" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「ほ、本当に来てしまったですよ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021540012" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "破" ]},
+		{"command":[ "SETTEXT", "「お母さんたちも来れればよかったんですけど、仕事があるなら仕方ないです\nねー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_102_010021540009" ]},
+		{"command":[ "SETCHARA", "0", "char_00010201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "急" ]},
+		{"command":[ "SETTEXT", "「せっかく来たんだし、ちょっとくらい遊ぼうよ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_103_010021540011" ]},
+		{"command":[ "SETCHARA", "0", "char_00010301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「けど、厄災退治から離れていいんです？　お亥さまに怒られるかもです……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021540013" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "破" ]},
+		{"command":[ "SETTEXT", "「姉さん。いつまでもそんな顔してないで、一緒にバカンスを楽しみましょう\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_102_010021540010" ]},
+		{"command":[ "SETCHARA", "0", "char_00010201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「う～～ん……確かに、ここまで来てしまった以上、赤点を一旦忘れた方がい\nいかもしれないです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021540014" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "急" ]},
+		{"command":[ "SETTEXT", "「じゃあ、一緒に遊ぼ……せっかく姉妹水入らずの時間なんだし、楽しまない\nと損だと思うなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_103_010021540012" ]},
+		{"command":[ "SETCHARA", "0", "char_00010301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "序" ]},
+		{"command":[ "SETTEXT", "「姉妹水入らず……ふふふ、そうですね。たまにはこういう時間も、悪くない\nかも知れないです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_101_010021540015" ]},
+		{"command":[ "SETCHARA", "0", "char_00010101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "破" ]},
+		{"command":[ "SETTEXT", "「やっと笑顔になってくれたねー。それじゃあ、まずはみんなでひと泳ぎしま\nしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_102_010021540011" ]},
+		{"command":[ "SETCHARA", "0", "char_00010201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

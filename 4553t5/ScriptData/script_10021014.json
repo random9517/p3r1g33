@@ -1,0 +1,128 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0173" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_007" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "円盤少女Ａ" ]},
+		{"command":[ "SETTEXT", "「まだまだー！　こんなもんじゃ負けないんだからねっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_162_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016201_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "円盤少女Ｂ" ]},
+		{"command":[ "SETTEXT", "「あんたたちより、じょーしのほうがずーっと怖いもんね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_163_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「なかなかしぶといであるな。こちらにもう少し戦力があれば、円盤女などひ\nとひねりであるが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "円盤少女Ａ" ]},
+		{"command":[ "SETTEXT", "「ってことは、あんたたちだけじゃ勝てないんでしょー！　やーい！　ヨワヨ\nワー！　ヨワヨワ女幹部ー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_162_010114320002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "円盤少女Ｂ" ]},
+		{"command":[ "SETTEXT", "「戦力なんか、どこからも出てこないよーだ！　やーい！　やーい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_163_010114320002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016301_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「戦力がどこからも出てこない？　いつからそんな風に錯覚していました？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "円盤少女Ｂ" ]},
+		{"command":[ "SETTEXT", "「へ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_163_010114320003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「氷華！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "清水隊員" ]},
+		{"command":[ "SETTEXT", "「ＥＤＯ戦闘部隊、ただいま到着です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_056_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エフュサス隊員" ]},
+		{"command":[ "SETTEXT", "「ひとまず、あたしら第一陣がね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_058_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「第一陣！？　ということは――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「こちら冴島だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010114320001" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「長官！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「話は聞いた！　これよりＥＤＯは、全力をもってＧ・ルナリアムを援護する\n！　こっちはまかせて、行って来い！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010114320002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「長官……！　助かるぜ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「おっと！　ＥＤＯにばかり、いいところは持っていかせないヨ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003801_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「わたくしたち九姉妹（ナイン・シスターズ）も、協定に従い参戦いたします\nわ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "お七" ]},
+		{"command":[ "SETTEXT", "「さあ、ひさしぶりにでっかい出入りだよ！　先生方、ヤッちまってください\nな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_033_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「おうよ！　行くぞイグニス！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「喜んで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010114320001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

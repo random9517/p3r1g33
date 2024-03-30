@@ -1,0 +1,268 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「おい、カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……？　どうしたセレイン」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「今日時間あるよな？　放課後、食堂に顔出せ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「放課後に？　なんだよ、何の用事だ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「いいから来い！　忘れんなよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、おいっ！　なんだよ……行っちまった」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まるで、放課後に校舎裏に呼び出されるシチュエーションのようでしたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022340001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やめろ、セレインだと、あんまりシャレになってねぇんだからな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「念の為、防護服でも着込まれてはいかがです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022340002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「食堂行くのに着ねーよ……いや、一応考えたほうがいいのか……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0182" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お……おーい、来たぞ、セレイン……ん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「あっ、来た来たっ！　ほらー、こっちよー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020022340001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002404_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「お忙しい中、わざわざすみません、カツマさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130022340001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000120_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マーガレットに流々那も……って、その格好はこの前の……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「お、おう、カツマ……来たのか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000410_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「セレイン……？　お前までメイドの……どういうことだ？　一体何が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「えっへへー、バレンタインメイドさんチーム復活ね！　てことで、わざわざ\n呼んだのは他でもないわ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020022340002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002404_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「実は、何だかおかしいと思いましたので……改めてこちらの風習を調べたん\nです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130022340002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000120_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「そうしたら、バレンタインデーとは女性が気になる男性の方や、お世話にな\nっている方にチョコレートを贈る日だということで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130022340003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、あぁ……そうだ。そうか、そうか……！　やっとそこにたどり着けたん\nだな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、そんなに感極まらなくても」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022340003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「バカ野郎、この当たり前のことが伝わるまでに、どれだけ苦労したと思って\nんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「あ……あの、それで……私としましても、カツマさんにはとてもお世話にな\nっていますし……もしよろしければ、これを……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130022340004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000120_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ……あ、お、俺に……チョコを？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「はい、その、ご迷惑でなければ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130022340005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……っ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、そんなに感極まらなくても」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022340004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「バカ野郎、感極まるだろ……こんなの。そうか……いや、迷惑なんてことあ\nる訳ないぞ。ありがとうな、流々那」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「い、いえっ。あの……お口に合うといいのですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130022340006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000120_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「合うに決まってるさ、いや、無理矢理でも合わせるぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「まぁ……ふふっ、はい、その時はお願い致します」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130022340007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000120_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「私からは友チョコよ。ほら、ありがたく思いなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020022340003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002404_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう、友チョコか。俺が貰っちまっていいのかな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「別に気になる男ってわけじゃないけど。まあ、知らない仲でもないし？　一\n応、世話になったしね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020022340004" ]},
+		{"command":[ "SETCHARA", "0", "char_00002404_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そっか、そういうことならまぁ、遠慮なく」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「続けて２個目とは……ご主人、バレンタインというのはこんなにチョコを貰\nえる日だったのですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022340005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせぇ、余計なお世話だ。それに数じゃなく、気持ちが大事なんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「気持ちはテキトーだから、そんなに気にしないで。それより、ほら早く」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020022340005" ]},
+		{"command":[ "SETCHARA", "0", "char_00002404_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「あ……お、おう……カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000410_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「セレイン……もしかして、お前もくれるのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「まぁ、なんだ。その、この前はぶっ飛ばしたりして、悪かったな。これ、や\nるから……勘弁しろよな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ははっ、友チョコならぬ詫びチョコってとこか。いいよ、別に気にしてねぇ\nし」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ん……まぁ、そんならいいけど、ほれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、ありがとうな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000410_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「あららー？　そんなにそっけなくしちゃってぇ、カツマのために頑張って作\nったってこと言わなくていいの～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020022340006" ]},
+		{"command":[ "SETCHARA", "0", "char_00002404_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「なななななっ、何言ってるんだっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030022340009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000410_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「皆さん本当に楽しそうで。バレンタインというのは、本当に素敵なイベント\nなのですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130022340009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000120_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ええ、今日も平和で何よりですなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022340007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,96 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0081" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_016" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうしてこうなった……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「ここが南国リゾート……ふふっ。悪くないわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000107_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「こんなにも綺麗な海で泳げるとは……くっ！　楽しみすぎて、筋肉が疼いて\nしまう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000111_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファ" ]},
+		{"command":[ "SETTEXT", "「バカなこと言ってないで、さっさと荷物を置いてひと泳ぎしましょ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_060021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000306_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「よーし！　私が一番乗りだーーー！　ひゃっほおおおぉーーーーー！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000404_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「はぁ……海で泳ぐなんて、なにが楽しいのかさっぱり理解できません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_060021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000506_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「そうだね……わ、私もこんな格好で……人前に出るなんて……！　あっ、ダ\nメ……！　か、身体が熱くなってきてる……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000205_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「イヤがってる割には、二人ともちゃんと水着を着てるのね～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_050021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000605_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピースムーン" ]},
+		{"command":[ "SETTEXT", "「ディアナ様。せっかくのリゾートなんですし、お二方が水着を着ているのは\nある意味自然なことかと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_008_040021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000811_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「お姉ちゃん。わたしたちも泳ごうよ！　ほら、カツマさんも！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_030021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001203_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっと待ってつきみ……！　か、カツマさん。先に行ってますね…\n…！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_020021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「南国のビーチで美女に囲まれるとは……まさにハーレムですな、ご主人」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021520001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうしてこうなったんだあああああぁーーーーー！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "女幹部たちをはじめ、ステラルクスの面々までもが一堂に集結する南国のビー\nチ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "本当に、どうしてこんなことになってしまったのだろうか……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

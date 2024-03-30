@@ -1,0 +1,160 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "いやぁ……レディ・ホープが連れてきたヤツらの強いのなんのって。あっとい\nう間にＥＤＯの連中は抑え込まれ、俺は捕まって監禁されることになった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……俺、いったいどうなっちまうんだろう……。いつになったら出して\nもらえるんだ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っていうか、このまま出してもらえないんじゃ！？　それどころか、面倒だ\nから処刑！　なんてことも……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やばいやばい！　ありえないとは言い切れねえぞ！？　どうする！？　どうす\nれば助かる！？　考えろ！　考えるんだ、俺！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0185" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「カツマさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114660001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひいっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「あなたの処遇が決まりましたので、お伝えしに来ました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114660002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "き、来たぁっ！？　こうなったら覚悟を決めて……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「命ばかりはお助けをっ！　地球には腹を空かせたワンパク盛りの女幹部やヒ\nーローが数十人！　あと駄犬が一匹！　俺の帰りを待っております！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうだ！　覚悟を決めた一世一代の土下座と命乞いっ！　これで哀れを催さな\nい人間なんざ、どこぞのアホ王女か鬼教師ぐらいだっ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「……なにを考えているのかはわかりましたが、ひとまずご安心を。現時点で\nは、あなたの生命に危険はありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114660003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「マジ！？　ほんと！？　信じていいの！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「はい。あなたの遺伝情報その他を調査した結果――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114660004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「あなたは『刻の女王の血縁者である可能性は否定できないものの、確定的に\n明らかではない』ことがわかりましたので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114660005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか……よ、よかったぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いや、いいのか？　なんかの拍子に『確実に血縁だ』ってことになったら、命\nに危険があるかもってことじゃねえのか！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「ですが、あなたが多元宇宙における『最重要危険人物』である現状には変\nわりありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114660006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「もうしばらくの間、ここに滞在していただくことになります。ご協力を」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114660007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しばらくの間って……どれぐらい？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「しばらくの間、です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090114660008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ…そ、そうですか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "答える気はない、もしくはそんなん知るか、ってことね……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とにかく、このままじゃまずい！　なんとか、こっから逃げ出す方法を考えな\nいと……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、思ってはみたものの、脱走の方法なんか考えつかない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おまけにこの牢屋、頼めばテレビやゲームも差し入れてもらえるし、なにより\n自分で飯の支度や掃除をしなくていいしで、居心地は悪くない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんなこんなで、つい順応してしまい……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「勘弁してくれってば……こんなにうるさくちゃ、おちおち寝てらんねぇじゃ\nねぇか……ぐぅ～……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「…………！?　こ、こいつ……！　起きろ、このボケナスビ～～～っ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114660001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んぁ……？　あひっ！？　ひ、姫様！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……と、いうわけだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

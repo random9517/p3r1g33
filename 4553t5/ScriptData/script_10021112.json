@@ -1,0 +1,228 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0174" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「おっとっと……なんだキミら。思ったよりやるじゃん。まあ、今日は顔見せ\nだし、こんなとこかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010114450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジェスタはそう言って、再びワームホールを開いた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「それじゃみんな、ひとまず引きあげるとしようか。それじゃ、また近いうち\nにねー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010114450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジェスタたちは次々とワームホールに飛び込み、撤収していく。ふぅ……どう\nにか勝てたか。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうにか勝てたんだが……翔生子は蒼ざめた顔で、ぶるぶる震えている。どう\nしたんだろう？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なあ、しょう――」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「翔生子ちゃん、大丈夫？　どうしたの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010114450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あ。俺が声をかけようとしたのに……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ジェスタが……帝国の道化師がわたしたちの前に現れたということは、時間\n帝国も、こちらの動きを察知しているということです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「つまり、わたしたちも、それから姫様たちも、帝国が網を張っている中に飛\nび込んでいくということになります……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114450003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なるほど、それで怯えてるってことか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「翔生子、だいじょ――」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「翔生子ちゃん、大丈夫！　なにが待ち構えてたって、あたしたちがついてる\nから！　心配ないよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010114450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それ、俺が言おうとしたのに……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「そ、そうですね……皆さんがいれば、きっと……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114450004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いやはや、ご主人。今日はイケメンムーブが決まりませんなぁ。いつもにも\nまして」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるへー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、そっぽを向くとそこにはハルノブと名乗る忍者がいた。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「む？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114450001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こいつとは初対面のはずなんだが、なぜかどこかで見たことがあるような……\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「どうかしましたか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114450002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "背格好と言い、体型といい、どこかで見たような気がしなくもない……いった\nいどこで……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｈ・Ｍサムライ" ]},
+		{"command":[ "SETTEXT", "「こら！　そこ！　うちのクノイチをスケベな目で見るな！　ハラキリゴクモ\nン申しつけるぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020114450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、悪い！　でも違う！　それは誤解だ！　俺はただ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「違うのかもしれないが、常日頃からスケベな目つきをしているから誤解され\nるのだ。普段の行いを反省しなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010114450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010001_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、そこまで言われなきゃならないの！？　謝ったのに？　誤解なのに！\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「うふふっ……にいさま、今日もかわいそうです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114450005" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「あ。翔生子ちゃん、元気出たみたいだね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010114450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シャラク" ]},
+		{"command":[ "SETTEXT", "「なるほどー！　スケベな目つきも使いよう、ってことだねー！　あはははは\nははっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_099_010114450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「まあ、よいではないですか。緊張がほぐれたのはよいことです。そこで、\nちょっとご提案があるですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114450003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「わ、わたしにですか？　なんでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114450006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ジェスタとやらが撤退するときに開いたワームホールの痕跡が、まだ残って\nいます。これを利用して、時間城へ行くことはできますか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114450004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ふむ。そういえば、まだそこに光がうっすらと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010114450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あ……そうですね！　これぐらいなら、わたしの力でもなんとか……！　\nはい！　やってみます、いえ、やります！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114450007" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「閉じかけたワームホールを再び開き……時間城への道を作り出します！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114450008" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

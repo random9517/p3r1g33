@@ -1,0 +1,194 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……？　ハルノブ、どうしちゃったんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「採石場から帰ってから、なんだか様子がおかしくて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「無口なのはいつものことだが、それにしても変だな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さっき、何かあったのかな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「ったく、なーにやってんだよハルノブ。どっかで変なもんでも拾い食いした\nんだろ！　ははははははは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「あれ……？　おーい、拾い食いハルノブ～。ドアノブでも食っちゃったんじ\nゃないのか～？」」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116540003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「カ、カツマ！　ハルノブが変だ！　なにも言い返してこない！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「落ち着けセレーナ。さすがに『ハルノブがドアノブ食った』とか、アホらし\nすぎて言い返しようがないだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「だって！　いつものハルノブだったら『うっさいですバカ犬』とか言ってく\nるぞ！？　それなのに――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116540004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、そりゃそうだけどさ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「やはり、自分の記憶のことで悩んでいるのかもしれないな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そっか……それはあるのかもなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "たしかにハルノブはオボロだった頃の記憶を失ってるんだし、いろいろと悩み\nもあるんだろうなあ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「そういうわけですから隊長さん。悩みを聞いてあげてくれませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010116540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001701_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？　俺が？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「まあ、こういうのは隊長の……というか、カツマの役目だからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「そうね。ハルノブの話を聞いてあげて。そうすれば、きっと少しは気が晴れ\nると思うから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうかなぁ……それじゃ、まあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「さすがですぞ、ご主人。これが『ママにしたいキャラ部門』上位入賞者の実\n力ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その話はよせっつーの！　って、それはともかくハルノブ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「……さっきからうるさいですね。なんなんです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116540004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「外でお茶でもしてこようぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116540005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「か、カツマさんと……お茶ですか……？　ウチを……誘っているですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116540006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。少しぐらい気分転換したほうがいいだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116540007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「はぁ……めんどうですね。でもまあ、隊長がそういうのなら仕方ないですね\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116540008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、んじゃ行こうぜ。みんな、ちょっと出てくるから後はよろしくな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「了解！　隊のことはまかせて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「……い、今の、カツマさんとハルノブの雰囲気……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あやしい……限りなく怪しい……！　ニンジャ直感が危険を告げている……\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

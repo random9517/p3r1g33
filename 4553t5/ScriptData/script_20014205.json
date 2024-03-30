@@ -1,0 +1,221 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、その……悪かったな。なかなかいい所、見つけられなくてな」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "結局、日が暮れて、部活は決まらないまま時間切れになってしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あっ、い、いえっ、いえいえ、そんなっ！　私こそ……あのっ、優柔不断で\n、ちゃんと決められなくてっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「で、でもっ、一緒に回って頂いてっ、本当に助かりましたっ。楽しかったで\nすしっ、勉強にもなりましたし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「ですからっ、その……謝らないで下さいっ。私、また自分でも探してみよう\nと思いますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか。何かいいところが見つかるといいな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「は、はいっ……ありがとうございます。あの……それじゃ、私はこれで……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何度も丁寧にお辞儀をしながら、うららは学校を出ていった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いい娘さんでしたなぁ。文句一つ言わず、礼儀正しく、気遣いもできて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022930001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「全くだ。それに引き換え、うちの学校の顧問連中と来たらまぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「空気が読めず、職権乱用、傍若無人、ことごとく常識はずれでしたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022930002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、そこまでは言ってねぇけどよ……ただ、学園長にはもうちょっと人選\nを何とかしろってのは言った方がいいかもな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「何にせよ、陰キャで部活動には無縁だったご主人には、縁遠い世界でしたな\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022930003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「勝手に決めつけてんじゃねぇ。俺の学生時代なんて何も知らねぇだろ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おや、違いましたか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022930004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……違わねぇけどよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022930005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ニヤニヤしてんじゃねぇ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "数週間後――", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふぁぁぁぁぁーーっ、やれやれ、今日も学校は平和そのものと……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「警備員さんっ……！　あ、あのっ……こんにちはっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930005" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん？　おう、春風さんか。久しぶりだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「はい、え、えっと……その節は、大変お世話になりましたっ。ありがとう…\n…ございますっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや、俺は何もしてないって。それより、部活は何か決まったのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あ、あはは……それ、なんですけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930007" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あれから、自分でも他の部活動見学をしたんですけど、どうしてもこれって\nいうのは見つからなくて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「ただっ、そこに所属している人たちは、みんなすごく一生懸命でっ、楽しそ\nうで……それを見てるだけでも元気が貰えてっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930009" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「それで、私……いろいろ考えたんです。自分のしたいことって何なんだろう\nなって……それでっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930010" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「皆さんのことを応援することができないかなって……その、チアガールみた\nいな形とはまた別になるんですけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「そのまま、『部活動サポート部』っていうのを設立して。なるべく多くの部\n活動をしている皆さんと関わっていきたいなって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へぇ……新しい部活か。なるほどな……春風さんらしくていいんじゃないか\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「はいっ、その……ま、まだまだ、方向性も分からなくて、これからどうなる\nか……全然分からないんですけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930013" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「で、でもっ、わわ、私っ……頑張りますっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930014" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "うらら" ]},
+		{"command":[ "SETTEXT", "「あっ……！　それじゃっ、あのっ、私、授業がありますから、これでっ……\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_261_010022930015" ]},
+		{"command":[ "SETCHARA", "0", "char_00026101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、頑張ってな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ぺこりと頭を下げて、うららはパタパタと走り去っていった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……若いってのはいいねぇ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "後ろ姿を見送りながら、思わずポツリとそんな呟きが漏れる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "会ったばかりの時は、おっかなびっくりした感じが拭えなかったが、あれだけ\n喋れるようになってるんだから大したもんだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どれ……今日一日くらいは、もうちっと気合入れるかねぇ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何となくエネルギーを貰ったような気がして、俺は大きく頷いた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

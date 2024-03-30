@@ -1,0 +1,279 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぉわぁぁぁぁぁぁぁぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あいっ、ててっ…………あ……あれ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "したたかに打ち付けた腰をさすりながら周囲を見ると、そこは見慣れた部屋の\n一角だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここは……あれ……作戦室……か？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「何事ですか、ご主人！　って……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュンジロー！　い、いたのか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……？　そりゃあ、おりますがなんですか……事件性のある叫びが聞こえた\nと思ったら、寝ぼけて椅子から落ちただけですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022540002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「寝ぼけて……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「なるほど、これから作戦という割に、寝過ごす余裕があるとは中々図太い神\n経の持ち主ですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うぉわっ！？　ハ、ハルノブっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「はい、ウチですが。何をそんなに驚いてらっしゃるんです？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「何をって……お前が空から落としてくれたお陰で、俺は死ぬかと……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「空から……はぁ、それはどこの空からでしょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どこって……いや、だから、それは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「少なくとも、この部屋は屋根がありますので、空から落とすというのは無理\nがあるかと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「う……けどよ、お前が俺をさらっていって！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「さらっていった？　ウチが貴方をですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだよ！　アナザーエファナティカとカグヤがバチバチにやり合ってる中\nに、突然乱入して、自分こそが妻だって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「妻というのは、『夫と妻』としての妻のことですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「他に何があるんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ふむ……それは貴方が夫であり、ウチが妻であると言ったと。どういう風に\nですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……えぇと、それは、だな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「どうしました、そこまで言っておいて、今更言いよどむことがあるのですか\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやっ、そんなことはないぞ。つ、つまりだな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「なるほど。我々が揃って自分たちのことを貴方の妻だと主張し、更には敵か\nらも夫としてさらわれそうになり、戦いになったと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「最後に乱入したのがウチで、お持ち帰りをしようとした所、うっかり空中で\n取り落としてしまって目が覚めたと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうだ。いや、目が覚めたって言うか……夢じゃないんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「多分、何ていうか……そういう並行世界があって意識だけ飛ばされたみたい\nな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "余りにもリアルな体験の筈だったが、こうして言葉にすればするほど、その荒\n唐無稽さに自信が揺らぎ始めていく。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかも、当人を前に、いかに俺のことを好きだったかと説明させられるという\nのは、かなりの気恥ずかしさがあった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「やれやれ……何ともご自身に都合のいい妄想が炸裂した感じですなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022540003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんな妄想言えるかよ！　自分で考えたことだったら、恥ずかしすぎて口に\n出来んわ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「潜在的にそういう願望があったとか……まあ、ハーレムは男のロマンという\n気持ちは分からなくもありませんが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022540004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから違うって言ってるだろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ、何をしているの？　そろそろ作戦が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ、カグヤ、いいところに！　お前は分かるだろ？　俺のことを旦那様と\nして守るって、ギリギリまで戦って！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……え……な、なに……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「永遠の愛を誓って、必ず守るって言ってくれたよな！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あの、どうしたのカツマ……気持ち悪いんだけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022540003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「き、気持ち悪い……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「それより、早く準備して。合同作戦が始まっちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022540004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「合同作戦？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「お忘れですか、ご主人。ハルノブ殿との合同作戦開始まであと５分もありま\nせんぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022540005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ええ、もしやと思い迎えに来てみればこの有様です。夢は夜に見たらいいで\nすよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから夢じゃ……くそっ、だったらあれは何だったんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「もういいでしょう、ご主人。これ以上は、本気で遅れてしまいますぞ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022540006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わーってるよ！　あーもう、夢なら夢で、もうちょいマシな展開になればよ\nかったのにな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ぼやいてないで、さっさと来る」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022540005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はいよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「やれやれ、仕方ない人ですね……一番大切なことにまるで気づかないんです\nから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「薬指の指輪……まだ付けているのを見つけた時に、一体どんな顔を見せてく\nれるでしょうか……ふふっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「おっと……ウチが遅れていては話になりませんね。さて、人気ナンバーワン\nとして、もう一暴れさせてもらいましょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110022540015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

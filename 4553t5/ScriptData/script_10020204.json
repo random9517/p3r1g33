@@ -1,0 +1,217 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0154" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「カツマクン！　キミもハマってしまったようだね！　このボクが、ミス・パ\nープルと共同開発した『女幹部これくたぁ』、略して幹――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「略さんでいい。っていうか……ミス・パープルと共同開発だと？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ふと壁を見ると「手を洗いましょう」とかのポスターと並んで、「私が協力し\nました！」と、カードを手にミス・パープルが微笑むポスターが……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんなんだこのポスター。っていうか……なんだか限りなく嫌な予感がして\nきた」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「はははは、今さらなにを言うんだい。ブースターパックを買いにきておいて\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それを言われると返す言葉もねえけどよ。しかし、なんで自称科学者のおま\nえが、カードゲームを開発してんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「ふむ。それはキミにしては珍しく、もっともな疑問だね。……と、いっても\nたいした理由じゃないんだ。ある研究の副産物なんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どんな研究だ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「無電源戦闘シミュレーターさ。襲来者（インベーダー）の攻撃でコンピュー\nターが使えなくなったときに備えてね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、なるほど……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「そのために、対襲来者（インベーダー）戦のありとあらゆる局面を研究し尽\nくし、分析しつくした結果――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「生まれたのが、このカードゲームというわけさ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160006" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なぜゲームにした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「天才のボクの研究から生まれただけに、ゲームの面白さは保証付き！　その\n証拠に、ホラ！　あれを見たまえ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160007" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれって……んあぁああ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "遥架" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_020113160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002002_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "思わず変な声が出た。今までずっと気づかなかったが、遥架がベッドに腰かけ\nて黙々とカードを整理している。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「どうだい！　あの遥架ですらハマってしまったんだよ！　このゲームに！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160008" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「し、信じられねえ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あの鉄面皮ファラオ、どう考えてもゲームなんかで遊ぶキャラには見えねえぞ\n……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「信じられないだろうが、彼女、ハマりにハマって対戦しまくったあげく、今\nではかなり強くなってるんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160009" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "珠魚" ]},
+		{"command":[ "SETTEXT", "「あ、そうだ！　どうだい、カツマクン！　カードを買いまくってデッキを強\n化したことだし、遥架と対戦してみるってのは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_020113160010" ]},
+		{"command":[ "SETCHARA", "0", "char_00002202_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「遥架とか……たしかに、強そうなカードも手に入ったし、ちょっと試しに対\n戦してみてもいいかも――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "遥架" ]},
+		{"command":[ "SETTEXT", "「っ！！！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00002002_01", "8", "CENTER", "0" ]},
+		{"command":[ "PLAYVOICE", "v2_020_020113160002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺がぼそっとつぶやくと、遥架の目がギラッ、と光った！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわわわっ！　なんだ！？　なんだ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "遥架" ]},
+		{"command":[ "SETTEXT", "「カツマ……貴様は、我との対戦を望むであるか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_020113160003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え？　あ、ああ……そうだな。せっかくだし、対戦してみようぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "遥架" ]},
+		{"command":[ "SETTEXT", "「王たる我との真剣勝負を望む。そういうことであるな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_020113160004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「し、真剣勝負？　まあ、そうだな……ゲームは真剣にやらなきゃ、面白くね\nえもんな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんとなくおかしな感じはしたが、妙にグイグイ迫って来る遥架に気圧されて\nしまい、思わずうなずいた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "すると――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_026" ]},
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「よかろうである！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113160001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って！　なんで変身した！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「貴様の本気、しかと受け止めたである。その真剣勝負を全力で受けるため、\n変身したである」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113160002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待て！　おまえ、なんか企んでねえか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「企んでなどいないのである。単に、真剣勝負は真剣勝負。それだけのことで\nある」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113160003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002001_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やべっ！　ハメられた！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0114" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ハルカプトラ" ]},
+		{"command":[ "SETTEXT", "「さあ！　カードグルイましょうである！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_020_010113160004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「冗談じゃねええええーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

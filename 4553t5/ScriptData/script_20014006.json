@@ -1,0 +1,218 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0174" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "瓦礫。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう、まさに瓦礫が広がっていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それはただ無慈悲に降り注いだ光の暴力による一方的な力の行使、その純然た\nる結果が残骸となって彼女の心を容易く打ち砕く。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "思い返すと最初にどこぞの長官が危ない連絡をしていたが、こういうことか…\n…", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「いやー！　わたしのファミレスがー－－－－！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "口元を押さえて叫ぶ彼女に、誰が何を言えるだろうか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "目を離した隙にファミレス一軒が残骸と化していれば……いくらなんでも同情\nするに余りあるだろう。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "襲来者とそれを阻止するために動いた経営者との攻防戦だが、この状況下にお\nいてもはや勝利者などいないのだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「いやー、いいダベり場だったのになー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016502_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「この惨劇を前にして、鬼かお前は」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「ホントいい破壊っぷりねぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018203_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まったくだ。瓦礫と一緒に今回の主犯共が埋まっている。全員何か呻いている\nようなので、どうやら無事なようだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「任務……完了」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「任務ってのはファミレス一軒瓦礫にすることか？　あ？　ツインなバスター\nライフルで全部終わらす冷血漢か？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「まぁなんだ、尊い犠牲ってやつだろ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「尊くねーよ。超技術の爆発オチじゃねーか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「誰の責任になるんでしょうな、これ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだよ！　どうすんだこれ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "弁償とか言われたらヤバイ！　一体何か月分の、いや、何年分の給料がすっ飛\nぶんだ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「……。もう会うことはないでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「ああ、苦しい戦いだったぜ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「これより帰投する。後の処理は任せた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022830003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「俺も姐さんの指示に従って同任務に就くぜ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022830003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「待ちなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "へこんでいたミス・パープルが電光石火の動きを見せてフランカの肩を掴む。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「ミス・パープル、凶悪な顔を突き付けられては落ち着いて会話もできやしな\nい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022830004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ふ、ふふ、逃げようとしてましたよねぇ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022830003" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「……ちなみにまだ残っているものは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022830005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「台所だけだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022830004" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「台所しか無事なところはないのに面白い子ねぇ……！　ふふ、殺すのは最後\nじゃなくて今すぐにしてあげるわ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022830004" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「……ではさらばだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022830006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「じ、じゃあなー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022830005" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「待ちなさーい！　今回関わった全員にしっかり弁償してもらいますからー！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022830005" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、俺は関係ねぇー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「……働くって――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016502_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「――大変よねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018203_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「うふふ、労働の辛さを知ってより私に甘えてくるカツマさん……ふふふふふ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022830003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「なるほど、労働が大変っていうよりあの人が大変なんすね。頑張れっす！　\nファイトっすー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022830003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016502_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

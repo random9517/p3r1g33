@@ -1,0 +1,68 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "PLAYBGM", "BGM_015" ]},		{"command":[ "PLAYVOICE", "054_0104101" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「隊長さん、またしてくれるのー？　うん、ありがと－」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005401_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+        {"command":[ "SPOTCHARA", "0" ] },		{"command":[ "DISPNAME", "TRUE" ]},		{"command":[ "DISPTEXT", "TRUE" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104102" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「隊長さんが気持ちよくしてくれたからかな？　最近、ちょっとだけおっぱい\nもお尻も成長した気がするー……えへへっ」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005401_01", "0", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104103" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「えっ？　お尻の成長確かめてみたい？　えっと……上に跨がる？　いいの？\n　うん、それじゃあ……えっと、隊長さんのお顔にお尻向けて……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005401_01", "8", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104104" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「こういう感じでいいのかなー？　んっ……うん、おちんちん、また腫れちゃ\nってるね。パンパンだよー」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_01" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104105" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「お尻で撫でてあげれば、少し楽になるかな？　よしよし……よしよし……え\nへへっ、どう？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104106" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「お尻の形が綺麗で、感触もすべすべで最高？　んー……自分ではよくわから\nないけどー……でも、隊長さんが褒めてくれると嬉しい－」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104107" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「何だか、もっと動きたくなってきちゃう……えっと、腰をこんな風に振れば\nいいかな……んしょ、んしょ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104108" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「お尻の谷間に、しっかりおちんちんを挟んで……こすこすっ、しこしこ……\nしこしこっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104109" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んっ……おかしいなー、ボクの身体、冷たいはずなのに……こんな風にオチ\nンチンこすってると、お股だけ熱くなってくるー」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104110" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「うんっ、はふっ……んっ、何だかヌルヌルしたお汁、垂れてきちゃってるみ\nたい……どうしたんだろー……はぁ、はぁっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104111" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んふっ、はぁ、あんんっ……！　うん、声も……何だか、勝手に出ちゃう、\nおちんちん、お尻とこすれると……はふっ、はぁんっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104112" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「お股のほうまで、熱いのジンジンきて……んくっ、はぁうっ……あぁ、えっ\nと……もっと気持ちよくなれる方法が……ある？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104113" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「うん、してみたいー……隊長さんとなら、もっともっといろいろなこと、気\n持ちいいことしたいから……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104114" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「えっ……おねだり？　んと……ボクのオマンコの初めて、隊長さんの大きな\nオチンポで破ってください？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104115" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「太いオチンポで、オマンコを奥までズボズボして、熱いザーメンで、子宮に\n種付けお願いします……これでいいのかな？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_03" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104116" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「わー、隊長さん、ボクのおねだりだけでおちんちん……オチンポ、ひとまわ\nり大きくなっちゃってる……すごーい」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104117" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「えっと、もう入れちゃっていいの？　うん、それじゃあ……んっ、あぁ、凄\nい……先っぽ、当たっただけでジンって気持ちよく……はぅっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104118" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んくううううっ！　はぁ、はぁ、すごーい……本当に隊長さんのオチンポ、\nボクの中に入ってきて……はひぃっ、くううううっ！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104119" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「はぁはぁ、太いオチンポで、ボクの中……オマンコの中、いっぱいになっち\nゃった……はぁ、はひぃっ、あぁっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104120" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「くぅっ、あぁ、オチンポの先の出っ張ってるところが、中の壁にゴリゴリ強\nくこすれて、んふっ、あぁ、熱い……凄く熱いよー」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104121" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「はぁ、ひぅっ、あはぁっ！　はぁはぁ、う、うん、動かないとダメだよねー\n。動いて、オチンポをしっかりしごかないとぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104122" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「オマンコで、オチンポをシコシコして、隊長さんにも気持ちよくなってもら\nう……ボクも、もっともっと気持ちよく……はうぅぅっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104123" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「はぁ、はぁ、お尻……振ってぇ、あはぁっ、ひぃっ、くううっ、すごーい、\nこれ、気持ちよくて、はぁ、はんっ、あぁぁっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104124" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ボク、腰が勝手に動いちゃうっ、はひっ、ひううううっ、いい、隊長さん、\nもっともっと動いてもっ、くぅっ、はんんぅっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104125" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ボクのオマンコ、奥までぜーんぶ使って、オチンポしごいてもいい？　いい\nよねー、はひっ、あぁっ、いぃっ、あふぁああっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104126" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んくうううっ！　あぅっ、はぁはぁ、奥っ、オマンコの一番深いところにコ\nンコン当たると、ジンって中が痺れちゃうよぉ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104127" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ここ、子宮？　赤ちゃんできるところ、オチンポがコンコン当たるの、凄く\n感じちゃうっ、声、出ちゃうっ、はんんっ、くふぁあっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104128" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「はぁはぁ、こうして、お尻を小刻みに振って、オチンポの先と子宮、グリグ\nリこすりつけるっ、ふぁんっ、あああんっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104129" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「あふっ、あぁっ！　た、隊長さんも、腰振るの？　ひぅっ、ああっ、いい、\nもっと深いところまでオチンポきてるぅっ！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104130" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「あはぁっ、あっ、もうっ、きちゃうっ、お腹の奥、熱くてぇ、はぁはぁ、何\nか凄く気持ちいいの、くりゅううっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104131" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ボク、もう……らめぇっ！　きちゃうっ、きちゃうよぉっ！　いい、隊長さ\nん、ボク……もう我慢できないっ、はんんっ、くふぁああっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104132" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「うん、一緒、隊長さんと一緒にぃっ、イィッ……はひっ、あぁ、きちゃうっ\n、くりゅっ、イィッ……はひいいいいいいっ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104133" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んくうううううううっ、あぁっ、しゅごぉっ、中、ボクの中に熱いのっ、隊\n長さんの精液、ドピュドピュきてるよぉぉっ！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_08" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104134" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「いぃっ、あふううっ、子宮、隊長さんの精液でいっぱいになってぇ、ボク、\n気持ちいいの止まらないっ、イクッ、イクぅっ、イクぅうう！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104135" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「はぁ、はんっ。、くぅふぁああ……はぁはぁ……あはっ、身体……ふわふわ\n浮いてるみたい……はぁ、はひぃ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104136" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「隊長さんも、気持ちよかった……？　オチンポ、まだボクのオマンコで硬い\nまま－、ビクビクして……んぅっ、可愛い……はふぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104137" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「いっぱいこすれて、オマンコの中、少しだけジンジン痛いけど……でも……\nこの傷はすぐには治ってほしくないかな……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104138" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「隊長さんとボクの、大切な思い出……そんな気がするから。えへへ……隊長\nさんもそう思ってくれる？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104139" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ふぁんっ、あぁ、オチンポ、さっきよりふくらんで……あは、もっと気持ち\nよくしてくれる？　オマンコ、じゅぼじゅぼしてくれる？」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0104140" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「うん、ボクもしたい、もっともっとー、隊長さんのオチンポで、ボクに気持\nちいいこと教えて！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

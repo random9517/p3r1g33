@@ -1,0 +1,309 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0122" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さて、んじゃあ働いてくるか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ウェイターとして働けぬ我が身が惜しいですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022790001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さすがにファミレスに動物入れるのはまずいからな。お前は店の裏で待機だ\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「仕方ありませんな。ご主人様が仕方なくあくせく働いている間は仕方なく惰\n眠を貪りましょう。仕方ありませんので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022790002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「クッソ腹立つなぁ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そういや先に潜入してるやつがいるって話だが」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「もしや援軍というのは貴方か」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022790001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「あ、なんだオマエかよ。久しぶりじゃねーか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022790001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「応援ってお前らだったのか。えっと、フランカと……デッパイトンファーだ\nったか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「久しぶりなところで即セクハラたぁ上等だテメェ。表出ろ。今すぐフルボッ\nコの上、全裸の市中引き回しの刑だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022790002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「まて、それは危険だ。せめて人目のないところで実行しろ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022790002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「人目がなくてもそこまでやってほしくねぇよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "冴島長官の言っていた助っ人ってこいつらかよ！　また癖のある人選だな、大\n丈夫か……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「ち、バイトの内容を教えてやる。店の中知っておかねぇと調査もできねーだ\nろ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022790003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「心配は無用だ。多少の失敗ならこちらでフォローしよう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022790003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、んじゃあ教えてくれ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「よし、まず不審者がいたら即射殺を」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022790004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ここ、ファミレスだよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうしてバイトとして働き始めたのだった……が。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「あらあらあら～、まさかカツマさんが後輩になるなんてぇ～、うふふ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022790001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018203_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ファミレスにあっちゃいけない色気がムンムン漂ってくる。この人妻バイト、\nエロ過ぎる……！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ファミレス側の人選ミスにも程がねーか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「あら、これでもここじゃ先輩よ。ちゃ～んと、このハルミ先輩がぁ、カツマ\nさんだけ、指導してあげるわね～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022790002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だけ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まさかあいつら二人を誰も指導してないとか……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "――そしてその不安は見事的中したのだった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「なんだその注文は。貴様、ファミレスの正義（王道）というものを知らんな\n？　まずはお得なお子様ランチＡセット、ドリンクバー付きだろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022790005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「おい！　姉御の言うことはちゃんと聞けよ！　あとアタシはサイドで辛みチ\nキンがいいと思うぜ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022790004" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「待て待て待て」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんでバイト始めた瞬間から職場崩壊起こしてやがんだよ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「目立たず探りを入れる奴が目立ちまくって客をドン引きさせてんじゃねー！\n」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「ん～、でもぉカツマさんを指導するのは私の役目だしぃ、あの二人は怖くて\n誰も指導してないもんね～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022790003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018203_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「む、確かにファミレスのことは教わってないが、注文とは客から用件を聞き\nだすことだろう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022790006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「あー、姉御は放っておいたら勝手に何かやらかすからな。それが嫌ならちっ\nとは教えろよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022790005" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前ら、俺にバイトのこと教えてやるとか息巻いてなかったか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「……！　各所に設置した探知機がオーナーを補足、この店に来る。各自戦闘\n準備！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022790007" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「あら、これは困ったわ。みんな、気合を入れてやりましょうね～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022790004" ]},
+		{"command":[ "SETCHARA", "0", "char_00018203_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くっそ！　全然何も教わってねーんだけど！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何も教わらずに仕事やんなきゃならないのかよー！　くっそ、犯人を捜すどこ\nろじゃないぞ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とにかく客の注文取ったり料理運んだりキッチンに入ったりゴミ捨てしている\nと、いつの間にかオーナーのミス・パープルが俺たちの仕事ぶりを監視してい\nることに気付く。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ちゃんと働いているみたいですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022790001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "手探り状態で何とかしている俺達に、そう評価を下す。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "事情を知らない先輩達はオーナーの登場に緊張が走り、傍目でもわかるレベル\nで真剣に取り組んでいる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「カツマさん、その調子で溶け込んでしっかり見つけてくださいね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022790002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺にそっと耳打ちをしてきたので、呆れて肩をすくめてみせた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なら突然来るのやめてくんないっすかねぇ。急に忙しくなってそれどころじ\nゃなくなるんすわ～」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の精一杯の皮肉は、しかしミス・パープルが無視したことで意味を失った。\nくっそー。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ミス・パープルが食事を終えて出ていくと、今度は彼女によってファミレス入\n店待ちをしていた客がどっと押し寄せてくる！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「ど、どんだけ客が来るんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022790006" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「状況・赤。応援の見込み無し。ここが死に場所……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022790008" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うおおおお！　いくぞぉぉー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0123" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……というわけで初日から残業しまくった。これがこの店の普通だと、先輩\nウェイターから教わった……怖い、バイト怖い……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ははぁ、私が見張り兼惰眠を貪っている間にそんなことが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022790003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「つか、正直忙しすぎねーか、これ……？　みんな正常な判断力を失ってる気\nがする……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「やはり嫌な予感がしますなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022790004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、行先き不安しかねぇ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ところで私の休憩部屋のキーをまだ頂いていないのですが、先にご飯を要求\nします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022790005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんぐらい自分で用意しろ駄眠犬！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

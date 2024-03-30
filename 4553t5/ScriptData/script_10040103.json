@@ -1,0 +1,108 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「皆さん、乱闘を始めたようですが放置しておいてよろしいのですかな？　隊\n長として」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020116410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるへー！　こっちはそれどころじゃねえんだ！　こっちの書類は、とにか\nく今日中に提出しちまわないと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おやおや、書類に追われて乱闘どころではないと。まあ、その状況はわから\nぬでもないのですが――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020116410002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「カツマぁ！　なにやってんの！　隊員たちがケンカしてるよ！　隊長が止め\nなさいよ隊長がさあ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010116410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「カツマさーん！　なんとかしてーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010116410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふえっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まあ、皆さんが放っておいてくれるかというと、当然そういうわけにもいか\nないのでしょうなあ。がんばってくださいませ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_020116410003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、ちょっと待てよ！？　なにがあったんだ、なにが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「なにがじゃないよ！　早くこいつを追い出しなよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010116410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「まだ出番のことを気にしてるわけ！？　あんたたち、ほんとにちっちゃい女\nね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なんだとー！？　私のはちっちゃくない！　なんなら比べてみるか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ちっちゃくて悪かったわね！　カツマさんはそんなこと気にしませんよね！\n？　ね！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010116410001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だからなんの話だよ！　ああああ！　書類の山が崩れる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「書類なんかどうでもいいからとにかく私の味方をしろ！　おい聞いてるのか\n下僕っ！　カツマのくせに生意気だぞ―っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116410002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから、なにがなんだかわかんねえって言ってんでしょーっ！？　ああああ\nあもうっ！　いいかげんに――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "あ、あれ……眼の前が急に……まっくら……に……。", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "1", "sbg_0000" ] },
+		{"command":[ "DISPIMAGE", "1", "true" ] },
+		{"command":[ "FADEINIMAGE", "1", "NORMAL" ] },
+		{"command":[ "FADEOUTCHARA", "0", "FAST" ] },
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ？　どうした？　おい、カツマ！　カツマぁーーーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116410001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,248 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "と、いうわけで戦闘も終わり……つぎはジュンジローを締め上げるターンだ。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まあ、もっとも相手はジュンジローだ。締めあげるまでもなくベラベラ事情を\n吐いてくれやがったが。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「──つまり、あなたに奮起してもらうためのお芝居だった、ということです\nぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まさか、ジュンジローばかりか他の連中までグルになって……一丸となって俺\nをだましていたとは……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……一番長い付き合いの、仲間の死。たしかに物語なら、主役が覚醒する場\n面だよな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人が主役がとうかはともかく……まあまあ上手くいった様子ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺に喝を入れるための荒療治だった、ってわけか、", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こいつの下手なお芝居にまんまと乗せられてしまった……自分が情けない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「一度ならず、二度三度……乗せられちまった……バカだ……俺は」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「私は、最初反対していたのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺をだますことに罪悪感があったからか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いえ、ご主人の怠け癖は筋金入りですからな。この程度の芝居で改心するは\nずがない、ということです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……わかってんじゃねえか。お前ごときで俺が悲しむはずがないもんな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はぁ、まあ、そうかもしれませんが……わたくしが間違っていたかもしれま\nせんな。多少はいい結果を招いたように思えますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだよ、そりゃ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「どーしようもない怠け者でグータラなご主人が、少しはいいところを見せて\nくれたようにも思える、ということですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "悪びれもせず、ムカつくことを言うクソ犬にふつふつと怒りが湧いてくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さあ、なんて言ってやろう──と思った途端、ドヤドヤと女子軍団がやって来\nた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「ネタばらしは終わったようですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そういうことだ。悪く思うな、カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……カツマ。ジュンジローに怒っちゃダメ。この子も命令に従っただけなん\nだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……お、怒ってる？　俺がぁ？　ははははは！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「カ、カツマさん……こめかみに血管が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「これはそうとうカッカと来ておりますなあ。ご主人、気を落ち着けて。あま\nり怒ると体によくありませんぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……こ、こいつっ！　言わせておけば言い放題ぬかしやがってっ！！！！！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うるせえっ！　怒ってねえって言ってんだろ、このアホ犬っ！　だいたいお\n前はなぁ！　俺の部下のくせしやがって、いつもいつもいつもいつも――」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、俺が本格的に怒り始めたとたん、バカ犬が女たちの背後に逃げ込む。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「うわー。助けて下さいませー。このままでは、ご主人に折檻的な何かをされ\nてしまうかもしれないような気がしますぞー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120008" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだよ、その棒読みは！　もう怒ったカンベンできねえ！　今日と言う今\n日はマジで折檻的な何かをしてやろうか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「なにが折檻的な何かだ、このボケナスビ！　もとはと言えば、お前が隊長と\nしてふがいないからこういうことになるのだろうか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「そうだー！　暴力はんたーい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……うっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「最低です。そもそもあなたが普段からやる気を見せないからこそ、こういう\nことになったのです。反省するです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010110120002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「自分の至らなさを部下になすりつけるとか、とんだパワハラ上司もいたもん\nだねえ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ううううううっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ええ、ええ、そのとおりです。まったくご主人にも困ったものです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110120009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……こ、この野郎、安全地帯だと思って好き勝手ぬかしやがって！　いいか\nげんにしろってんだ、この能なしのアホ犬！　てめえなんか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさん！　そこまで言わなくてもいいでしょう！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010110120001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ジュンジローがかわいそう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010110120002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ま、まりあとカグヤまで……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "く、くそぉ……っ！　なぜか俺に甘いあの二人まで敵に回ったとなると……こ\nの状況は分が悪い！　悪すぎる！ってか、俺が悪いのか？　だまされたのは俺\nなんだぞ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "うううう……またストレスゲージが上がったような気がする。上がった気はす\nるけど……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まあ、多少なりともホッと安心している。そんな部分があるのも、また事実で\nはあった……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「心配……ゲフンゲフン！　手間かけさせんじゃねえってんだよ。このバカ犬\nぅ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+	    {"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "false" ]},
+	    {"command":[ "DISPNAME", "false" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_1_010.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

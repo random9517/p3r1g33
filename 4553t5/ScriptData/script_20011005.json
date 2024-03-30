@@ -1,0 +1,312 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くそっ……いい加減、この網を何とかしろっての！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「おっとと、ごめんごめん忘れてた。でも、変に暴れられちゃっても困るから\n、手はそのままにさせてもらうね♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……何だって俺をさらって来たんだよ……人質にしても、もっとこう……相\n応しいのがいるだろうが」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「何だ、自分で気がついてないの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「気がつく？　何の話だ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「だから～、お兄さんってば、うちの世界での伝説になってた『世界を統べる\n力』の持ち主でしょ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……？　なんだ、そりゃ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「またまた、とぼけちゃって～って思ったけど、本当に知らないのかな。そっ\nかー、じゃあ教えたげる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「私達の世界には、伝承があってねー『世界を統べる持ち主』の人と契約する\nと、すっごい力が手に入るの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「私はそれを手に入れるために、こことは別にある世界から来たんだけど……\nまさか、来た早々に見つけられるなんて思わなかったな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「もしかして、まだ分かってないの？　お兄さんのことだってば」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300007" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……えっ？　お、俺！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「そうだよぉ、さっきイグニスとくっついた時にスティグマが浮かんだじゃん\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300008" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「スティグマ……何か、あの紋様のやつか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「そうそう。あれは、契約が結ばれた時に、自分がその人のモノだっていう証\nみたいなやつ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「お兄さんが、イグニスのことをぎゅーって抱き締めたから、契約出来たんじ\nゃないかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「何だそりゃ……そんな簡単なことで契約出来ちまうのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「んー、どういう条件かは人によると思うけど、とりあえずイグニスはそうだ\nったんじゃないの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「まだピンと来てない？　なら、証拠見せたげよっか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300012" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おい……何をする気だ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「んふふ……じっとしててね……んっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300013" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んむぅっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「んっ……んむっ、ちゅっ……んふ……りゅぷ……ちゅぷん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んっ、むっ……んくっ……んんっ……んちゅぷっ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「あむ……れろ……んりゅ、れろ、んっ、んれるぅ、れりゅ、れろぉ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んふぅ……んっ、あっ……ぷはっ！　お、お前な……いきなり舌なんか……\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「ほら、見て見て、あーん……ここ、舌のとこぉ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300016" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「ね、見えるれひょ？　これが……スティグマ……私達に、この淫紋を刻める\nことが、お兄さんが力を持ってる証拠って訳」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前、まさか……今ので、その……契約……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「当ったりー♪　別に１対１じゃなきゃいけないなんて話はないしね。いざと\nなれば、イグニスのはほっぽっちゃえばいいし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300018" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んな勝手な……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「これってねぇ、結構強い力なんだよぉ？　この紋が出てる時はぁ、他の男の\n人に触ることも出来なくなっちゃうの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300019" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、何だよそりゃ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「主従の契約をしてるから、それを裏切っちゃう行為は出来なくなるってこと\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「しかも、オナニーでもイケなくなっちゃうんだよ？　もう、私……お兄さん\nとのセックスじゃないと満足出来ない身体になっちゃったんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300021" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「責任とってもらわないと、困っちゃうナー。そだ、もうこの際だし、一回試\nしてみる？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、何ズボン脱がそうとしてんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「またまたー、捕まった人質がされちゃうことなんて、一つしかないでしょぉ\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300023" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「普通、逆だろ！　いや捕まったのは確かに俺だけど！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「大丈夫、痛くしたりしないから。こんなちっちゃい体だけど……ちゃんとお\n兄さんのこと……楽しませてあげられると思うよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300024" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いや、しかしだな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「お兄さんはじっとしてればそれでいいから。すーぐ済むからねー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300025" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「そこまでだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「ほへ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300026" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「やーっと見つけたぜ、ったく手間掛けさせやがって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ほむら！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「主殿！　お助けに参りました！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「ウソ、なんで？　どうしてここがわかったの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300027" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「あん？　出会った奴らを全部ぶっ倒して来たら、着いたんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「そういうことだ。もうお前に逃げ場はないぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010021300003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016701_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まさか、本当に着くとは思いませんでしたぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「何それ……これだから脳筋ってば、信じられないんだから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300028" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「さーて、ガキんちょ。おイタをした落とし前はきっちりつけてもらうかんな\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021300003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アルマ" ]},
+		{"command":[ "SETTEXT", "「ここにたどり着いた位で随分調子に乗るじゃない。もう勝ったとか思っちゃ\nってるの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_166_010021300029" ]},
+		{"command":[ "SETCHARA", "0", "char_00016601_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「上等だ。悪い子には、尻を叩いて分からせなきゃダメみたいだな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020021300004" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

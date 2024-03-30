@@ -1,0 +1,229 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "ベルガマスクに案内されて、俺たちがやってきたのは採石場だった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「幹部になったのなら、この採石場には一度は行くべきだな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「案内したい場所ってここかよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「だが、隊長としては最も思い出深い場所といっても過言ではないのではない\nか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115450002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「ふむ、確かにな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうか……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "たしかに、ここで起きたことはいろいろある。困ったときはいつもの採石場で\n戦っているし。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかし、ここでの一番の思い出は、シルバスターもろとも始末されそうになっ\nたことか……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「第１部１話ですな。いやぁ、懐かしい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ、ここからすべてが始まったんだ。それは間違いない」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その声は、カグヤか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「女王様！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「むっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「女王様？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "女王様と呼ばれて、たしかにトキノさんは反応した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんなことより、採石場にカグヤたちと、時間帝国の幹部が集まっていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "アナザーエファナティカにアナザーセレーナ……それと、なんだ、あのドスケ\nベダークエルフ！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "見覚えがある３人組なんだが、思い出せん……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「あっれ～？　おにーさん、アーちゃんたちのこと忘れちゃってる～？　記憶\n力ざこざこ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019602_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あっ、このオトナとしてわからせなければという使命感にかられる感じ、覚え\nがあるぞ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "たしか、男の性癖にダイレクトアタックをかますような、ダークエルフの三姉\n妹で……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「思い出した！　モモヒキシスターズ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「モイライシスターズだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019402_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「全ての道は採石場に通ず！　やはりみなここに集ったな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115450003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000702_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだそれ！　いったいどうなっているんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさん、その人は時間帝国の刻の女王なんです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まりあはトキノさんを指さして言った。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ？　なにを言っているんだ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「お前たち、いますぐ女王様を連れ帰るぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「お前に指図されずとも、いくぞ、妹たち！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010115450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019402_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「オッケー☆　ラケちゃん、クロちゃん、ジェットストリームセクシーをしか\nけるよっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010115450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「は～い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019502_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「じぇっと？　え？　なんだその技は！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010115450003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そっちもなにを言ってるんだ！　コントなのか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「この人はトキノさん、時間帝国の人間ではないし、ましてや刻の女王なわけ\nがない！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「逃がさねぇぞ！　カツマだっけ？　せっかくだから“女王様”と一緒に“来\nて”もらうぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000411_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「そうはいくか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115450002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000411_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「なにやってんだいカツマ！　そいつは刻の女王だよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115450001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、刻の女王が地球に来てるわけがないだろ！」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「逃げますよ、トキノさん！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "トキノさんの手を取り、その場から逃げようとしたが、トキノさんは動かなか\nった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「トキノさん……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

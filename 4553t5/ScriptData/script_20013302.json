@@ -1,0 +1,388 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「マミ……マミ……起きなさい、マミ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「ん……え……これ、なに……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「マミ、今私はあなたの精神に直接話しかけています」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「え、なにそれ怖い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「致し方ないのです。今のあなたは……あなたの身体は酷いことになっていま\nすので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「酷いことって……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「具体的には敵の砲撃で腕が○○になって足は**になって、胴体は崩れてき\nた瓦礫で□□なことになってます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「それ、死んでませんか私……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「いえ、奇跡的に生きています。とはいえ、このまま放置すればいずれ死に至\nるでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「はあ……なんだか現実感がありませんが。ええと、それで私に何の用なんで\nすか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「ていうかあなたはそもそも誰なんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「ああ、これは申し遅れました。私はマム」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「この地球と呼ばれる蒼き星の遥か彼方にある奇跡の星（ミラクル・スター）\nからやってきた巨人族です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260007" ]},
+		{"command":[ "SETCHARA", "0", "char_00021001_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「確かに……大きいですね色々と」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「いえ、なんでもないです。それで、そのマムさんがなんの用でしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「この星、地球のことは遥か遠くに住む我らにも聞こえてきました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「善良を旨とし、知性と法で正義を成している人間という種族がいると」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「あー……それはちょっと買いかぶりかも……まあ、総合的にいえばそういう\n星かもしれませんね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「そうでしょう。ですので、我々の星総意で地球と友好を結ぼうと、そう決定\nいたしました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「そして、そのための使者として私が選ばれたのですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「いざこの星に到着してみると、地球は侵略を受けておりました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「この状況で私が出れば、逆に混乱させたり敵対と受け取られる可能性がある\nかもしれません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「また、地球で私が活動しようと思うと、多大なエネルギーを消費してしまう\nことも判明しました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「なので、ひとまず母星に連絡して判断を仰ごうと思っていたのですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「今まさに目の前で戦闘が始まり、あなたが重傷を負いました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「マミ。頼母木マミ。このままではあなたは死にます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「そう、ですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「ですが――私と同化することで生き延びることができます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「同化……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「ええ、同化です。いまこうしているようにあなたの精神、そして肉体にも私\nが入り込みます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「それは……私が私でなくなるということですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「いえ、あなたの意識や肉体を侵すことはありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「そうですね……あなたの心身に私が同居する、という言い方が正しいでしょ\nうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「もちろん、煩わしいことになるとは思います。ですが、今あなたが陥ってい\nる生命の危機は回避できます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260023" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「それに、かつてあなたが切望していた存在……ヒーローとしても甦れます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260024" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「へ……？　え、な、なんでそのことを……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「もうしわけありませんが、精神にお邪魔するときに色々と覗いてしまいまし\nた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260025" ]},
+		{"command":[ "SETCHARA", "0", "char_00021001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「小さい頃、ヒーローの真似事をして遊具から飛んで足を骨折したとか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260026" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「ふわっ！？　ちょっ、そういうプライバシーまで見たんですか！？　恥ずか\nしい……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「ごめんなさい。でも、困っている人に手を貸したり、誰かに親切にしたり、\n迷っている人を助けたり」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260027" ]},
+		{"command":[ "SETCHARA", "0", "char_00021001_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「あなたの行動はそう、私の求める地球人の正しさそのものでした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260028" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「それは……そんなの、誰にだってできることです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「かもしれません。そうでないかもしれません。あなたのしたことの価値は、\n助けられた人が決めているでしょうから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260029" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「話がそれましたね。あなたの身体に私が同化するということは、あなたが生\nきることであり、私が生きることにもなります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260030" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「人間のときはあなたとして、巨人のときは私として。ゆえに、戦いのときは\n私が出て戦うことになります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260031" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「そうして、あなたにはなんの利があるんですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「一つは、友好のための下準備です。私が姿を現して敵を倒していれば、友好\nの交渉もスムーズに始められるでしょうから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260032" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「二つは、先ほども言いましたが、地球で私が活動するためには大量のミラク\nルパワーを消費してしまい、長時間の行動が難しいからです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260033" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「そちらはこの惑星への最適化が進めばある程度は改善されますが……それで\nも奇跡の星と同じように活動するのは難しいでしょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260034" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「……なるほど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「ちなみに、断ってもあなたの身体はきちんと治して私は去ります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260035" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「その場合、私は休眠に近い状態になってまたお会いするために時間が必要に\nなりますが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260036" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「そんなの……そんなの聞いたら断れるわけないじゃないですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「ふふ、あなたならそういう風に思ってくれると思いました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260037" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「なんだか……ちゃっかりしてますね。もっと真面目な感じかと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「真面目ではありますよ。本当ならあなたの身体を治して、接触せずに去るつ\nもりでした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260038" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「ただ、その際にあなたの記憶に触れて、あなたが私にとって非常に好ましい\n人間であると」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260039" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「そう思ったのでこうして話しかけました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260040" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「マムさん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「あなたとならば、そう、うまくやれそうだ。そう思ったのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260041" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「話が長くなってしまいましたが、あくまで決定権はマミ、あなたにあります\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260042" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「あなたがどちらを選んでも、身体の危機は回避できます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260043" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「返事を、もらえますか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260044" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「私はヒーローではありません。でも、正義の味方ではありたいと思っていま\nす」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260023" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「あなたと同化すれば、きっと私一人よりも多くの人を助けられる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260024" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「それはきっと、正しい行いなのだと、私は思います」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260025" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「それに――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260026" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「私もあなたとなら、うまくやれそうです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260027" ]},
+		{"command":[ "SETCHARA", "0", "char_00021001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マミ" ]},
+		{"command":[ "SETTEXT", "「ですから、お願いします。私と、同化してください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_205_010022260028" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「……やっぱりあなたと接触してよかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260045" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミラクルマム" ]},
+		{"command":[ "SETTEXT", "「マミ、ありがとうございます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_210_010022260046" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

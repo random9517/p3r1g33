@@ -1,0 +1,261 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0127" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "……それは、クリスマスを来週に控えたとある日のことだった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ？　商店街の見回り強化ぁ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大戸岐学園の学園長……道子に呼び出された俺と輝夜は、新しい任務を言いつ\nけられているところだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ええ、その通りです。来週のクリスマス、その当日に見回りのパトロールを\nお願いします」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「地域の皆様に貢献することも、私達の大切な仕事だと思いませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ええええ……？　こうしてたまーに集まりに来てるってだけで、結構貢献し\nてると思うんですけどね～？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「確かに、そのことには感謝しています。ですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「でも……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050022080001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「近頃、商店街で不審な人物が目撃されているという噂があるのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080004" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「不審な人物といえば……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022080001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の顔を見上げるジュンジローに、何か含むところを感じる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ああ、カツマさんではありませんよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080005" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ～。良かった……って当然のように俺を疑うなよ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いかにも怪しかったので……つい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022080002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「私が手に入れた情報によると、不審者は女性とのことです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080006" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「じょ、女性！？　それって、もしや露出狂とか……！　まさか痴女！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "少しワクワクしている俺を、輝夜がジトっとした目で軽く睨みつけてくる。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「やはり……ご主人が不審者なのでは……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022080003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だっから違うってーの！　お前、俺といつも一緒にいただろうが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「この時期は、年末年始を目前にして気が緩んでしまう時期でもあり……学生\n達にとっては楽しい楽しい冬休みでもあります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080007" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「不審者に誘われて、生徒達がついフラフラと騙され傷つけられる可能性は否\n定できるものではありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「そして、浮かれた空気にあてられて起こる近隣トラブル、お酒を飲んだ人達\nのケンカ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「クリスマスは、華やかなイメージとは裏腹に危険が付き物な日なのですよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「確かに、皆がハメを外す日ってのは危険だと思いますよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「でしょう？　ですから、ぜひともお願いしたいんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080011" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「でもそんなの、商店街の人達でやりゃいいじゃないですか。自分達の町のこ\nとなんですし」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080012" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "学園長の笑顔から、並々ならぬ威圧を感じた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひっ！　い、いや、俺がパトロールしたくないとかではなく、その、まあ、\n参加する人数は多い方がいいかなーって！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ほほほほら！　どうせやるなら隅々まできっちり見回りたいじゃないですか\n！」　", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「……そういうことでしたか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ハイハイハイハイ、もちろんそういうことでございますよ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「私も、その件については色々と考えを巡らせたのですが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080015" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「師走は商売人の皆様が最も多忙な時期です。ですから、彼らに時間を取らせ\nるわけにはいかないと思い直したんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「大切な商売のお時間を守る事。それも私の仕事だと思うのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー……なるほど。とはいえ、俺達２人だけってのはなあ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「……私は、２人でいい……けど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050022080002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「輝夜だって他に手伝いもあるだろ？　せめてもう１人くらい人数が欲しいよ\nな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「だから……私は２人でいいけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050022080003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや。そこまでお前に負担を強いる学園長じゃないと思うぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「その通りです。もちろん、それには私自身も参加します」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080018" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "輝夜" ]},
+		{"command":[ "SETTEXT", "「……そんな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_050022080004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000204_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「クリスマス当日は、貴方達２人が中心になってパトロールをしてもらいます\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080019" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「そのかわり、他の雑務は全て私が請け負いましょう。そしてそれが終わり次\n第……合流してパトロールにも協力するつもりです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それなら、集中すりゃなんとかなるか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「２人の実力を見込んでの頼みです。どうか、よろしくお願いしますね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022080021" ]},
+		{"command":[ "SETCHARA", "0", "char_00002602_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "学園長は、こうと決めたら絶対に譲らない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "『厄介な事に巻き込まれちまったな……』とぼやきつつも、俺はまだ呑気な\n気分でいた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "本当に、聖夜の事件に巻き込まれるまでは……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

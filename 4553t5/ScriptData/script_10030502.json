@@ -1,0 +1,310 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "アーリーボディになったロッテとクララを連れていつものように本部へとやっ\nてきた。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いままでもふたりとも俺にべったりというか、かなり懐いてくれていたが、", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ボディがかわったせいか、いろんなものがおっきく見えます。新鮮です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「う……。ここってこんなに人いたっけ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "好奇心旺盛になったロッテに右腕をひっぱられ、やや人見知りがましたクララ\nが左腕にしがみつく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「か、カツマちゃん！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、Ｍ．Ｏ．Ｅか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「また新しいロボが……！　しかもロリっ子……カツマちゃんってそういうロ\nボが好きなのね……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115240002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやまて！　こいつらはロッテとクララだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと事情があって、こういうボディをしているだけなんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「そうなの……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115240003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「はい！　ちょっとちっちゃくなりましたが、お兄ちゃんへのごほうしはばっ\nちりできます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「問題ないから、気にしないで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ａ．Ｍ．Ａ" ]},
+		{"command":[ "SETTEXT", "「あらあら、かわいいボディになったわね～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_212_010115240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00021201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「にゃふふぅ、ほめられちゃいました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115240003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「ふん、かわいいのは当然だし？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115240003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「なんだかふたりともキャラが変わってない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115240004" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、このボディになったことで、性格も若干チューンされたらしい」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ａ．Ｍ．Ａ" ]},
+		{"command":[ "SETTEXT", "「ロボットあるあるねー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_212_010115240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00021201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あるあるなのか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「たしかに、もしもわたしのＡＩが乗用車じゃなくて戦艦に搭載されていたら\n今の性格じゃないと思うし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115240005" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ａ．Ｍ．Ａ" ]},
+		{"command":[ "SETTEXT", "「わたしも、バスじゃなくてＳＬ機関車だったらまた違う性格だったかもしれ\nないわね～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_212_010115240003" ]},
+		{"command":[ "SETCHARA", "0", "char_00021201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そういうものなのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「でも、どんな姿でもカツマちゃんへの愛は絶対変わらないわ！　これだけは\nはっきり言えるわよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115240006" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう。ハイビームを輝かせるな、まぶしい……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「カツマ、ちょっといいか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010115240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんですか。ていうか、長官そわそわしすぎですよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「いや、なんでもない。そんなことよりお客様だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010115240002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺にお客様っていったい……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「カツマさん、こんにちは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「レディ・ホープ！？　もしかして俺、また拘束されるような展開！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃんを拘束ですって！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115240007" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃんをどうするつもりですか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115240004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「まてまて！　ああもう、今なら話をこじらせるような連中はいないと思って\nいたのに！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010115240003" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「いえ、ちゃんと話を聞いてもらいますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「それに今日はカツマさんを拘束しにきたわけではないのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115240003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうなのか？　じゃあ、いったいどういう用事で？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「ちょっと事情聴取を受けてもらいたいのです。実は、スペースネットにカツ\nマさんが現れたのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115240004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「スペースネットに？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115240004" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃんが！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115240005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どういうことだよ、というか、スペースネットなんて行ったことないぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「そうですよね。ですが、確かにカツマさんが現れたのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115240005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「とにかく、一緒に現場まできてもらえますか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115240006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「現場ってことは、スペースネット。ロッテたちの生まれ故郷ですねっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115240006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「か、カツマちゃんを連れて里帰り……！？　抜け駆けは許さないんだからっ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115240008" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ａ．Ｍ．Ａ" ]},
+		{"command":[ "SETTEXT", "「まあまあ、Ｍ．Ｏ．Ｅちゃん落ち着いて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_212_010115240004" ]},
+		{"command":[ "SETCHARA", "0", "char_00021201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「とにかく、きてもらえますね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115240007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな。無実であることは簡単に証明できるだろうし」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「では、一緒に行きましょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115240007" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「兄さんと、その人だけじゃ不安だから、私もついてく」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115240005" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっと……このふたりもつれていっていいか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「かまいませんよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115240008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "機械化帝国へ出発というところで警報が鳴る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんなときに襲来者か！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「おでかけまえに、ばっちり倒しちゃいましょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115240008" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「別に見てなくていいけど、兄さん、見てて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115240006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

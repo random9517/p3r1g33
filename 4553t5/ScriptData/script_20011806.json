@@ -1,0 +1,127 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0029" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「待て！　逃しませんよ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550005" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "逃げるクノイチの前に着地をする場面に出くわした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「取り消して下さい。下剋上リーダーという言葉」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550006" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＢ" ]},
+		{"command":[ "SETTEXT", "「くぅ……あ、あれは、そういう台本だったから言っただけにすぎませんでご\nざるわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_149_020021550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00014902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＣ" ]},
+		{"command":[ "SETTEXT", "「そうそう、ライターに文句言って下さいでござるよぉ……拙者たちは、ただ\n演じてるだけでござるから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_150_020021550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00015002_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＢ" ]},
+		{"command":[ "SETTEXT", "「って、アミは――じゃない、クノイチＡはどこ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_149_020021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00014902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＣ" ]},
+		{"command":[ "SETTEXT", "「あの子、足だけは速いから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_150_020021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00015002_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＡ" ]},
+		{"command":[ "SETTEXT", "「ああ、もう、遅いっすよ！　一周しちゃったじゃないっすか……って、あれ\n？　追いつかれてるでござるっすよ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_148_020021550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00014802_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「……戯言はもうお仕舞いですか？　もうこれ以上わけのわからない言い訳を\nするようなら、問答無用です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＡ" ]},
+		{"command":[ "SETTEXT", "「ああ、さっきの『下剋上』って言葉に怒ってるんでしたっすっけ。あれはそ\nういう台本だったんすよ、だから拙者どもの落ち度では――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_148_020021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00014802_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「……はい、問答無用」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550008" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＡ" ]},
+		{"command":[ "SETTEXT", "「へ？　さ、寒いっす！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_148_020021550008" ]},
+		{"command":[ "SETCHARA", "0", "char_00014802_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＢ" ]},
+		{"command":[ "SETTEXT", "「お馬鹿！！　乳なし！！　どうしてあなたはこう余計なことを――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_149_020021550008" ]},
+		{"command":[ "SETCHARA", "0", "char_00014902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＣ" ]},
+		{"command":[ "SETTEXT", "「う、動け、ない………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_150_020021550008" ]},
+		{"command":[ "SETCHARA", "0", "char_00015002_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい、その程度にしとけ。モブを殺して、誰に功績を誇るつもりだ？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「……残りのクノイチを追います…………絶対、許さない……」」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020021550020" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「げっ……おい、待てって！！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マスク・ザ・ブルーはまた追っかけっこの続きを始めてしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おい、待てって！！　ああ、もう……しんどいなぁ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "仕方なくまたマスク・ザ・ブルーの頼もしい背中を追って、こちらも全速力\nで走るしかなかった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

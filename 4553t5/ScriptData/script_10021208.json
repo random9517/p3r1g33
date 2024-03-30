@@ -1,0 +1,119 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0180" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "そして、俺たちは追われていた。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "時間帝国兵α" ]},
+		{"command":[ "SETTEXT", "「いたぞ！　追え！　逃がすなーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_924_010114550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00092401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわあああーっ！　逃げろ逃げろ逃げろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「だから変態行為はよせと言ったんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_010114550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺のせいか！？　そうじゃねえだろ！　そこの、忍びなれども忍ばない忍者\nのせいだっつーの！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「誰のことですか、この変質者」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえだよ！　おまえ以外に誰がいる！？　だから着替えろっていったじゃ\nねーか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ウチたちが着替えたところで、おまえの体型でモロばれです。おっさんの癖\nに女性兵士になりすませると思ったんですか、この変態」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114550002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんときは、これが一番いいと思ったんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「変態の上に、救いようのない間抜けですね。お前の間抜けな作戦が失敗した\nのを、ウチのせいにするなです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114550003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「うーん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010114550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだよ！　おまえもなんか文句あんのか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「いや、そうじゃなくてさ、もしかしてカツマさんとハルノブさん、知り合い\nだったの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010114550002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんでだよ！　知らねえよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ここまでのバカ、さすがに初めて見たです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114550004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "バッケンローダー" ]},
+		{"command":[ "SETTEXT", "「いやいや、だからそういうとこ。なんか妙に掛け合いがハマってるというか\n、長年組んでる漫才コンビのような――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_010114550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00002801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「わ、わたしもそう思いました……にいさまと仲が良くて、羨ましい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「うらやましければ、いつでも代わってやるです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110114550005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まったくだ！　いや、しかし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "たしかにこのツッコミの切れ具合、妙に馴染みがあるような、おかしな感じが\n……いったいなんなんだ？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホクサイ" ]},
+		{"command":[ "SETTEXT", "「ちょっと隊長さん！？　考えてないで前見て！　敵が来たよーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_096_010114550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00010001_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

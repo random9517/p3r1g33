@@ -1,0 +1,195 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0201" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ベルガマスクとともに、一行が向かったのはムーンランド公国大使館前です\nなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115440001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「歩きながらまさかとは思ったが、なんでここなんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「九重市のランドマーク、有名観光スポットといえば、大使館に決まっている\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「ほう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115440001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやいや、ここのどこが観光名所だよ！　観光名所だとしてもがっかり観光\n名所だろうが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そもそも観光客どころか地元の市民もあんまり近づかないぞ、ここ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「いやいや、こう見えてこの大使館は歴史があるのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「それに、九重市の歴史は、ムーンランド公国とともにあるといっても過言で\nはないからなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあ……そうっすね……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "この街は俺たちが最初に侵略して征服しようとしていた場所だ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そういう意味では、ベルガマスクの言うことは間違いではない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかしそれは、ムーンランド公国ではなくグレートルナリアムの歴史ではない\nだろうか。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "トキノさんにそのことを話してしまっていいのか？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「ほう……それは興味深いな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115440002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「そうだろう！　トキノさんは見る目があるな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "意外と食いついている……！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「というわけで、ここに地図を用意した」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「地図というか、不動産広告ですな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010115440002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「そう、この土地を買った当時のものだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「ここに、この大使館が建てられた秘密が隠されている」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どういうことだ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "最寄駅から距離がある。日当たりもそんなに良くない。近くにコンビニやスー\nパーもない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「立地としては、あまりよくないが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115440003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「そう、だがこの土地にも利点があるのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「利点……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それがなんなのか、俺は皆目見当がつかない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「……！　わかった。チカだな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115440004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「地下？　地面の下ってことですか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんかこう、地脈の流れがーとか、魔力の強いスポットでーとか、そういうや\nつだろうか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……いや、それなら俺だって知っているはずだが？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「そうではない。この土地の値段、地価だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115440005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「その通りだ！　この土地に大使館が建てられた理由の一つに、この土地が安\nかったからというのがある」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「まあ、諸説あるのだがな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんなに歴史のない建物に『諸説』とかあるのかよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「いろいろ総合的に判断してこの土地に大使館を立てることに決めたのだ。当\n時のムーンランド公国の女王はな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「なるほどな、実に興味深い」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115440006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ベルガマスクのふざけた説明に、トキノさんは何度もうなずいている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もしかしてトキノさんは、こういうがっかり観光地のような場所が好きなのか\n？　ちょっと意外だ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ベルガマスク" ]},
+		{"command":[ "SETTEXT", "「さて、もう一か所、トキノさんを案内したい場所があるのだが、来るか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_020115440012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「うむ。次はどこへ連れて行ってくれるのか、楽しみだぞ、ベルガマスク」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115440007" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,134 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0165" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_020" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "ディアナを保健室へ追いこんだ。ここなら逃げ場はない。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「観念しろー！　手柄を横取りなんかさせないんだからなー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040113720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「て、手柄ってなんのこと！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_040113720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「なーに言ってるんですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「話をややこしくするな。ディアナ、お前あの幽霊のことなにか知ってるのか\n？」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「あ、あの子のこと！？　あの子は追いかけちゃダメなの！　もう帰りましょ\nう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_040113720002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「世の中には、見ちゃいけないもの……知っちゃいけない秘密があるの～っ！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_040113720003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あの子……？　もしかして、あの人影ってお前の知り合いなのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「ふむ、あの人影に心当たりがあるようですね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「し、知らないっ、ディアナちゃんは知らないわっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_040113720004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「本当に知らないんだから～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_040113720005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「怪しい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040113720002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "このリアクションは、間違いなくなにか知っている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「こうなったら、きちんと答えてもらいますよ。あの人影のこと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113720003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「あ……ああ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_040113720006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "強気に迫る兎子に対して、ディアナは顔を真っ青にしていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつも自信満々のディアナがこんなにうろたえるなんて。いったいディアナは\nなにを見たんだ？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今回の幽霊騒ぎについてなにを知っているんだ……？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ！？　またサメか！？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「くひ～～～～、はひ～～～～……。やぁ……やっとぉ……追いついたぁ……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001802_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "急に入り口が開いた音がしたと思ったら、遅れてやってきたグレーテルだった\n。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こっちもこっちで顔が真っ青だ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "保健室に入ったとたんに倒れてしまった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「メディーック！　メディーックですぞー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113720001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

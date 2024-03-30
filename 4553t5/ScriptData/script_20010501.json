@@ -1,0 +1,238 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0125" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「こっちだこっち！　カツマ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "たったったっ、と小走りに駆けるセレインが、巨大な赤い門の前で立ち止まる\n。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「前に雑誌で見せたよな。ここが中華街の入り口！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "6", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「この街には四つの大門があってさ。ここは赤だから……朱雀門だな。かっこ\nいいだろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。しかし、写真で見るより威圧感あるなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「だろだろっ？　青い龍の門や白虎の門もかっこいいんだぞ。今度見に行くぞ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "どうせ断っても連れていくんだろ……でも正直、見たくはあるな", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それにしても立派な門だ。こういうの、うちの組織もあったら威厳が増すよ\nな」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「おっ、そりゃいいな。後で長官に頼んでみっか♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "二人で並んでそびえたつ朱雀門をしばらく眺めていると、先に音を上げたのは\nセレインだった。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「……あいててて。ずっと見上げてると、首が痛くなってくるな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「今日のお目当てはこれじゃないだろ？　せっかくの休日、これでもかって食\nい倒れする約束じゃんか！　早く行くぞ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040007" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「約束って……早朝に叩き起こされて、無理やり連れ出すのを約束って言うの\nか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ちっちゃいことは気にすんなって！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "随分ご機嫌らしく、セレインは鼻歌を歌いながら中華街をズンズン進んでいく\n。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しょうがない。ここまで来たら付き合うしかないか……」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「……ん？　まだそんなとこにいるのかぁ？　早く来ないと置いてくぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040009" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はいはいはい……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「はぁあああ……♪　中華街って、いつ来てもイイよなぁ……♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「んー！　もう匂いからして最高だぁ。私の中の狼の血がたぎってくるーっ！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "中華街と狼は関係ないと思うが……", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "両手を上げて喜ぶセレインは、いつもに増して元気いっぱい、活力に溢れてい\nる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「このあたりに、美味い肉まんを出す店があるんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040012" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「って、なんだ？　すっごくおいしそうな匂いがしてくる……。これも肉まん\nか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040013" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「すんすん……。はぁああ、いーい匂いだあ……。フラフラ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040014" ]},
+	{"command":[ "SETCHARA", "0", "char_00000403_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "風に乗って流れてくる、おいしそうな匂いにセレインが吸い寄せられていく。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ああ～。本命を食べる前に、い、一個くらい別の肉まんを食べるのもありか\nもな～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040015" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「一体いくつ食べる気なんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「おっ！　ちょうど最後の一個みたい。……すいませーんっ！　それ、買いま\nーすっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "勢い良く手を出したセレインの、その指先にバチンッ！　と別の指が触れる。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "3", "CENTER", "-300" ]},
+	{"command":[ "SETCHARA", "1", "char_00000403_01", "3", "CENTER", "300" ]},
+	{"command":[ "DISPCHARA", "1", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「な、なんだ！？　誰だ！　わたしの肉まんを横取りしようとするやつは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040017" ]},
+	{"command":[ "SETCHARA", "1", "char_00000403_01", "7", "CENTER", "300" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「んむ！？　横取り！？　今横取りて言ったカ、おまえ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021040001" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "3", "CENTER", "-300" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ああ、言ったよ！　だって事実だろ、この横取り女！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「な……なななな何言うてるカ！　この肉まん、私が先に手に取ってたネ！！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021040002" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "7", "CENTER", "-300" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「いーやっ！　私の方が早かった！　間違いない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「なんですトー！？　違うヨ！　蚩尤の方が先に目ェつけてたアル！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021040003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「ふぬぬぬぬぬ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040020" ]},
+	{"command":[ "SETCHARA", "1", "char_00000403_01", "1", "CENTER", "300" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「ぐぬぬぬぬ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021040004" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "1", "CENTER", "-300" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "蚩尤" ]},
+		{"command":[ "SETTEXT", "「……こうなったラ、ドチラの言い分が正しいカ……実力で勝負ヨ！　かかっ\nてくるアル！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_038_010021040005" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "7", "CENTER", "-300" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「いい度胸してるじゃないか！　絶対に負けないからなー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_040021040021" ]},
+	{"command":[ "SETCHARA", "1", "char_00000403_01", "7", "CENTER", "300" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいおいおい……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "止める隙もなく、二人の拳が交差する！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "SETCHARA", "0", "char_00003801_01", "7", "CENTER", "-200" ]},
+	{"command":[ "SETCHARA", "1", "char_00000403_01", "7", "CENTER", "200" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

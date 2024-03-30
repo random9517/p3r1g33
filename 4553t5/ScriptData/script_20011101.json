@@ -1,0 +1,153 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「以前のボイコットからこっち、多少は上層部も仕事量を考えてくれているよ\nうな気はするが……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今日も今日とて、隊長室で仕事漬けの日々を送るカツマであったが、執務机に\n積み上がる書類の山の高さは、以前と大した違いはない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "むしろ、イングレティブル・スクワッドに参加する勢力が徐々に増えている昨\n今、諸々の雑事は増えるこそすれ、減るわけがないのだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「外との折衝を手伝ってくれる秘書さんは追加されたけど、結局は俺の多忙は\n変わってないんだよなあ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「仕事中に済まないな、カツマ。入らせてもらうぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、アナザーが来るなんて珍しいな、一体どうした？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「相変わらず多忙で苦労していると聞いたのでな。以前の詫びも兼ねて、紹介\nしたい者がいるんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021260002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「以前の詫びって……ああ、俺が飛び出した時のことか。アレはどっちかって\n言うと忘れてくれた方が嬉しいんだが……ん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "-400" ]},
+		{"command":[ "SETCHARA", "1", "char_00001101_01", "0", "CENTER", "400" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれ、その子は誰だ？　初めて見る顔だよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「この子は積上　翔生子。我がアナザー・グレート・ルナリアム唯一の人員で\nあり、部下……いや、盟友だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021260003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あ、あの、は、初めまして……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "1", "char_00001101_01", "2", "CENTER", "400" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へえ、アナザーに仲間がいたとは初耳だ。俺はカツマだ。よろしくな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……あっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260003" ]},
+		{"command":[ "SETCHARA", "1", "char_00001101_01", "3", "CENTER", "400" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "差し出されたカツマの手を見た翔生子は、細い肩を震わせて小さく息を呑み、\nアナザーの後ろに隠れてしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "1", "CENTER", "100" ]},
+		{"command":[ "SETCHARA", "1", "char_00000109_01", "6", "CENTER", "-100" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「すまんなカツマ、この子はちょっと人見知りな面があってな……。ほら、握\n手くらいで怖がるな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021260004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「すっ、すいません、姫さま……。隊長さんもごめんなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、いやまあ……気にすんな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "出した手をひっそりと引っ込めながら、カツマは隣で物言いたげにしているア\nナザーに視線を移して、会話を促した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「こんな翔生子だが、実は書類やらの整理には滅法強くてな。カツマのサポー\nトをしてもらおうかと思ったんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021260005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え、さっきの様子だと、俺と一緒で大丈夫なのか？　おまえがいなくても？\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「正直言うと、この人見知りを少しずつ直してやりたくてな……。事務仕事の\n手伝いでもさせれば、多少は良くなるかと思ったんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090021260006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "アナザーの表情と声音には、しかしどこか優しさが混じっている。どうやら彼\n女にとって、翔生子とは大事な存在であるらしい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「手伝いは喉から手が出るくらい欲しいが、本人は納得してるのか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……は、はいっ！　このままだと姫さまのご迷惑になるかもしれませんし、\n隊長さんが良ければ、お手伝いさせて下さい」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか。じゃあよろしくな。ええと……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「翔生子、でいいです。そちらの方が、その、呼ばれ慣れてますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "再度差し出されたカツマの手を、今度はおずおずと握りながら、翔生子はぎこ\nちなく微笑むのだった……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,448 @@
+{
+
+	"scriptCommands" :  [
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+        {"command":[ "SETIMAGE", "0", "still_00010401_02_01" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },
+        {"command":[ "FADEOUT", "NORMAL" ]},
+        {"command":[ "PLAYBGM", "BGM_015" ]},
+        {"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「……閨の営み。話には聞いていたが、実際に行うのは初めてでござる……う\nう、少し……ほんの少しだが、緊張するでござるよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104101" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ご存知かもしれぬが、拙者は……まだ、おぼこでござる……。あいにく、ま\nだ一度も経験したことがござらん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104102" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「それゆえ、いささか不調法なこともあるかと存ずる。何卒……何卒ご容赦い\nただきたくそうろう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104103" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ……ふぅ……そ、その逞しきイチモツが拙者の中に入ってくるというの\nか……信じられぬ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふぅ……まあよい。こうしてお見合いしているだけでは、何も始まらぬ……\nさあ、隊長殿、始めて欲しいでござる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「うくぅ！！？　うあぁ……はぁ、はぁ……あぁぁぁ……メリメリ音がするで\nござるぅ……あぐぅ……んひぃぃぃ……んあぁ、あはぁぁぁ……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104106" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_03" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はー……はー……あうぅ、お、思っていたよりも、痛いで、ござるなぁ……\nはぁー、はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104107" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「昔、柔術の稽古で鎖骨が折れたことがあったが……まあ、それよりはマシか\n……いや、まったく別種の痛みで、ござる……うぐぅ、あふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「あ、ああああっ、入ってくるぅ……隊長殿のイチモツが……チンポが、腹の\n隙間をこじ開けてくるぅぅぅ……ぐぅ、うあぁぁ……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104109" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はー……はー……あふぅ、うぐぅ……い、今根本まで、入った……でござる\nか？　はぁ……ふぅ……さ、左様でござるか……あふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104110" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「い、今のところ平気でござる……まあ、少し痛くはあるでござるが……まぁ\n、悪と戦うことを思えば、大してつらいものではござらん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「このまま動いていただいても、拙者一向に構わんでござる……さぁ、このま\nま動くとよろしかろう……はぁ、はぁ、うあぁぁぁぁぁ……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「は、腹が……引っ張られるぅ……ぐぅ、うあぁ、はぁ、あぁぁ……へその裏\nが、チンポにくっついて行くようでござる～～～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104113" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「あぐぅ、あはぁ……はぁ、はぁ……こ、これが、閨の営み……この時代では\n『せっくす』というそうであるが……どんな字を当てるのやら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104114" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「何？　『せっくす』とは外来語……左様でござったか。では、『同衾（どう\nきん）』や『共寝（ともね）』などとはもう言わないのでござるか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104115" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「さ、左様であったか……なんとも嘆かわしい……んっ、んああぁあ……ま、\nまた、入って、くっ、うっ、うあぁぁ……はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふむ、今度は、それほど苦しくはなかったでござる……むしろ、その……少\nし気持ちよさが混じっておったような……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふむぅ、隊長殿、もう一度、お願いいたす──んっ、ぐぅ、あぁ、はぁ……\nひっぱられ、押し込まれて……あ、あ、あぁ……はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「もう、痛くはないでござる……けど、ん、はぁ……少し、まだ苦しいでござ\nるな……あふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「けれど、このままでは隊長殿が我慢できますまい……拙者の方なら問題ござ\nらぬ。さあ、存分に参られい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふぐぅ！　あうぅぅ……はぁ、はぁ……ど、どうですかな？　隊長殿、拙者\nの身体は……？　ぐぅ、ふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104121" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「なかなかいい具合、ですと？　左様で、ござるか……はぁ、はぁ……それは\n結構のことでござる……ぐぅ、ふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「うっ、うあぁ……ゴツゴツぶつかってる……腹の奥が、持ち上がっておる…\n…はぁ、あぁぁ……く、苦しい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はー……はー……はぁぁんっ！？　ああ、い、今変な声が出てしまったでご\nざる……はぁ、んん……あっ、ひやうぅぅぅん……♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104124" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「今のが、快感……？　ふぅ、あふぅ……拙者、今女の喜びを感じているでご\nざるか……？　はー……はぁ……あふぅぅぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふぅ、ふふふ、嬉しいでござる……女の幸せなど、とうに諦めておりました\nからなぁ……はぁ……はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「子孫達には、女の幸せを諦めず、しっかり若苗の家名を継いでもらいたいも\nのでござるが……ううぅむ、こんなこと大きなお世話でござるな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……はぁぁあん♪　隊長殿、き、気持ちいいのが、止まらなく\nなってきたでござる……んっ、ああ、あふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ……んくぅ……わ、わかるでござるよ……隊長殿、そなたもっ、ぐぅ、\nうう……気持ちよくなってるでござるな……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「こ、このまま、中に精液を出すでござるか……？　拙者なら構わぬっ……子\n孫を産み、育て、家名を継ぐ……これも侍の義務にござるからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……もっと激しくても、拙者は平気でござるよ？　そ、そう、\nその調子……あっ、あっ、ああっ、んぎぃぃぃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ちょ、は、激しすぎて、あぐぅ、ひうぅぅ……こ、壊れる……はぁ、んっ、\nあああ、ちょっと待つでござるぅ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104132" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ひぃぃ……あああ、駄目ぇえ……おかしく、なりそう……き、気持ちいい…\n…あっ、あひぃ！　なんだか、変でござるぅ……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「イ、イク？　これをそう言うのでござるか？　はぁ、はぁ……わかったで、\nござる……拙者、イカせてつかまつり、そうろう……はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「んひぃぃぃ……あっ、あっ、イ、イクッ、イクでござる……んん、んくぅ！\n　あっ、あっ、あぁぁぁぁぁん♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ひぐぅ！？　あはぁっ、は……あぁぁはぁぁぁ……腹の奥で、ちんぽが暴れ\nて……ひぐぅ、あふぅ……はぁ、はへぇぇぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104136" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_06" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ああ、女の幸せを感じるでござる……欲しい、もっと精液が、欲しいでござ\nる……んん、はぁ……あふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「腹の奥底に、隊長殿の精が蓄えられていく……これが、生命に変わるかと思\nうと……ああ、なんともいえぬ幸せを感じるでござる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104138" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……あふぅ……隊長殿……今宵は、お呼びいただき、感謝して\nいるでござる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104139" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「拙者……もっと『せっくす』をしてみたいでござる……はぁ、はぁ……気持\nちいい……隊長殿……また、いつでも拙者をお呼びつけ、下され──」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104140" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「……ん？　なんでござるか？　まだチンポが大きなまま？　ふむ……これは\n面妖な。射精をすれば治まると聞いておったのでござるが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104201" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふむ……つまりまだまだ満足しておらぬ、と……そういうことでござるな？\n　では……もう一度挑戦させていただきたくそうろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104202" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「よろしいでござるか？　隊長殿……今一度拙者の身体で、せっくすを堪能し\nていただくでござる……いざっ、参る！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104203" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ん……んんぁ、はぁ、はぁ……それにしても、せっくすとは……楽しいもの\nでござるな……はぁ、ふう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104204" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「性の文化が大いに栄えるのも納得でござるな……はぁ、はぁ……ああぁぁ…\n…中からクチュクチュと音が聞こえてくる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104205" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ああ、隊長殿……ちんぽが、腹の中を掻き混ぜてるでござる……くぅ、ふう\n……精液が、ううぅ、ネットリと絡みついて……ぐぅ、ひうぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104206" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ……ふぅ……士道を生きるものとして、色欲は厳しく戒めるべきもの…\n…ふぅ、それも納得でござるな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104207" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ん、はぁ……はぁあぁん……き、気持ちよすぎて、気高き侍の魂の、堕落を\n招くでござるよ……はー……あふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104208" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「くぅ……うぅぅぁ、はぁ、はぁ……あぁぁぁ……どうしても、声が出てしま\nうで、ござる……はぁ、んふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104209" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「もっと、欲しい……チンポが恋しくて、身体が勝手に動いてしまうで、ござ\nる……ふぅ、あふぅ……ん、ん、あぁぁあん……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104210" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「拙者が、おなごであることを、思い知らされてしまう……はぁ、んくぅ……\n拙者、孕みたいと思っているのやもしらんでござる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104211" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ……ふぅ……ふふ、今も、精液が子宮の中に……ああ、妊娠する……孕\nんでしまうでござる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104212" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「精液が、膣の中で掻き混ぜられてる……精子が、いっぱい染み込んでくる…\n…ぐぅ、ひうぅ、はぁ……あぁぁぁん……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104213" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「隊長殿……はぁ、ふぅ……拙者、自分を見失ってしまいそうでござる……せ\nっくすとは……本当に素晴らしいものでござるな……んん、あふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104214" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ、はぁ……あはぁぁ……女の幸せ、もっと突き詰めたくなってしまいた\nくなる……拙者、剣を置いて、隊長の側室に──」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104215" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「い、いや……拙者、何を言ってるでござる？　いかんいかん……はぁ、はぁ\n……た、隊長……ま、またイキそうでござる……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104216" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はぁ……ん、ああ、はぁぁあん……腰が、動いてしまうでござる……もっと\n、深く、激しく……チンポを……ぐぅ、ううぁ、はぁ……あああぁぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104217" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「子宮と、チンポがぶつかってる……あ、ああ、気持ちいい……頭がどうにか\nなってしまいそう……ふぅ、はぁ……ひぐぅぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104218" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「も、もう限界でござる……あ、イ、イク……イクで、ござる……はぁ、はぁ\n……あああ、駄目、駄目駄目駄目ぇぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104219" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「隊長も一緒に……はぁ、はぁ……出してぇ……拙者に、精液を……あの白い\nドロドロを、拙者に全部……ん、くぅ、ひゃうう！　ひやぁぁぁあん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104220" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ひぐぅぅ！？　はへぇぇ……あああ、熱いぃぃぃ……！　精液が、また、拙\n者の中にぃ……！　ぐっ、んひぃ……はぁ、ひやぁぁ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104301" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_09" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「へその裏に、精液が……ぐぅ、うぅ、ぶつかってくる……っ！　チンポの先\nから、熱いものが……こんなに……ふぐぅ！　きゃうぅぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104302" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「うあぁ……子宮が、破裂してしまいそう……ぐぅ、うう……孕むぅ……まだ\nまだ剣を置くわけには、いかぬというのに……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104303" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ああ……はぁ、それでも、メスの本能が満たされていく……ああ、イクぅ…\n…イクのが、止まらないでござるよぉ……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104304" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_08" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふぐぅ、んひぃぃ……まだ出てるでござる……ああ、子宮が溺れてしまいそ\nうでござる……はー……はー……あへぇぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104305" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「うぁぁ……拙者の下腹部が、ぽっこりしてる……これ、まさか……赤子？　\nいや、精液が溜まっているだけでござるな……ビックリした……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104306" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「うわぁ……つながったところから、精液がこんなに溢れ出して……はぁ……\nはぁ……ああ、こんなに出されていたのでござるな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104307" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふぅ……せっくすとは、素晴らしいものでござるな……次、また閨に呼ばれ\nる時が待ち遠しいでござる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104308" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふふ……参ったでござる。これでは稽古が手につかぬでござるよ……鍛錬の\nためだったというのに、これでは逆効果でござる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104309" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「いや、これは試練……はぁ、ふぅ……サムライとして生きるための覚悟が問\nわれているのでござるな……拙者、今後ますます頑張るでござるよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104310" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「んひぃぃぃ！！　い、いきなり、チンポが引き抜かれて……あぐぅ、び、ビ\nックリしたでござるぅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104401" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_12" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ひやぁ……あはぁぁ……イッてる……拙者、いっぱいイッてるでござるぅ…\n…！　ん、んひぃ……はへぇぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104402" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ああぁぁ……っ、精液が……っ！　ひぐう、はへぇぇ……精液が、降り注い\nでくるでござるぅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104403" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ヌルヌルが、肌に張り付いてくる……ぅ！　あ、あ、熱いぃ……身体が、溶\nけてしまうでござる！　はぁ……はぁ……んひぃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104404" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「こ、この匂い……はぁ、ふぅ……むせ返ってしまいそうでござる……はぁ…\n…ひぅ……くんくん……はへぇぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104405" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_11" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「精液の匂いだけで、イッてしまいそうでござるよ……はぁ……はぁ……あへ\nぇぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104406" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「え？　膣が、ヒクヒク震えてる……？　うう、武士の股ぐらを覗き込むとは\n……いくら隊長どのでも、それは……あ、あ、ああぁぁん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104407" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「はー……はぁ、精液で、イクとは……信じられないでござる……はぁ、ふぅ\n……ああ、身体が溶けてしまいそう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104408" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「ふぅ……これで、満足していただけたでござるか？　それはよかったでござ\nる。拙者もせっくすを堪能できたでござる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104409" ]},
+		{"command":[ "SETIMAGE", "0", "still_00010401_02_10" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "虎之丞" ]},
+		{"command":[ "SETTEXT", "「いやぁ、実りある鍛錬になったでござる……ふふふ、また是非とも、こうし\nて閨を共にしたいでござるなぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_104_0104410" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+
+	]
+
+}

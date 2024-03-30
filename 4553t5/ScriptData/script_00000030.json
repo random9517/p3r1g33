@@ -1,0 +1,17 @@
+{
+
+	"scriptCommands" :  [
+
+    	{"command":[ "PLAYMOVIE", "OVA_Valkyrie2_3_3.mp4" ] },
+
+		{"command":[ "FADEOUT", "NORMAL" ]},
+
+    	{"command":[ "WAITMOVE" ] },
+
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "EXIT" ]}
+
+	]
+
+}

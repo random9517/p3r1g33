@@ -1,0 +1,75 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0155" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ナレーション" ]},
+		{"command":[ "SETTEXT", "「そのころ、Ｍ．Ａ．Ｍ．Ａとカツマたちは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_999_010114100001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リーダー" ]},
+		{"command":[ "SETTEXT", "「ぎゃふん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_010114100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015601_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これで逃げることもないだろう。あとはじっくりと尋問するだけだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「おとなしくこちらの質問に答えてもらおう。そうすれば、手荒な真似はしな\nい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リーダー" ]},
+		{"command":[ "SETTEXT", "「ははははは！　もうすでに作戦は完遂したも同然なのだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_010114100002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015601_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リーダー" ]},
+		{"command":[ "SETTEXT", "「うっかり飛び込んで負けはしたが、これも計算のうち！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_010114100003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リーダー" ]},
+		{"command":[ "SETTEXT", "「我らの技術で生み出した電波で街中の自動車を暴走させ、お前たちを呼び出\nす作戦だったのさ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_010114100004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リーダー" ]},
+		{"command":[ "SETTEXT", "「まさか、お前たちを暴走した車の中に閉じ込めることが出来るとはな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_010114100005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リーダー" ]},
+		{"command":[ "SETTEXT", "「これぞ正しくケガの功名！　災い転じて福となすということよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_010114100006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「捕まってるくせに偉そうなこと言うんじゃない！　その電波の止め方を教え\nてもらおうじゃないか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "リーダー" ]},
+		{"command":[ "SETTEXT", "「で、電波を止める方法……っ！　止める方法を用意するのを忘れた……！！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_156_010114100007" ]},
+		{"command":[ "SETCHARA", "0", "char_00015601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

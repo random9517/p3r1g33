@@ -1,0 +1,189 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "ハロウィン終了後……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "アナザーオボロは、一人、鏡の前でハロウィンの衣装に着替えていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「……余った衣装……。持ってきてしまいましたね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「ええと……。おそらく、これでいいはずです。着方がよくわかりませんでし\nたが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「随分と過激な衣装ではありませんか。まったく。ハロウィンに浮かれて騒ぐ\nなんて愚の骨頂です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "周囲には誰もおらず、オボロはくるくると衣装を纏って回転する。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「……なるほど。こういう構造なのですね。しかし、隊長のやつ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「いくらイベントだからといって……皆にこんな破廉恥な姿をさせて悦に入っ\nていたなんて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「とんでもない変態野郎です、信じられないです。最低です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「……でも……まあ……。服自体は悪くありませんね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「こうして鏡で見ている分には……そうです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「ウチに……似合っていないとは言い切れないというか……。これは相当可愛\nいのでは……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "じーっと鏡を見つめて、くるくる、くるくると上機嫌で回るオボロ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「んっ。こんな服……。他の誰かが着るはめになるよりは、ウチが身を挺して\nですね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070010" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「これを着ることで、人助けにもなったというか。それを含めてウチはイケて\nいると……。ええ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「…………んむむむむむ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「駄目です。この服を見ていたら、ムズムズしてきてしまいました。だってこ\nの服……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「まるで魔法少女のようで……。ああっ、が、我慢できません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「少し……少しだけなら……。部屋で一人ではしゃぐくらい、いいです……よ\nね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070015" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「『きゅる～ん☆　トリック　オア　トリート！』　なんちゃって、ですね…\n…ふふふ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070016" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「『ウチが皆のハロウィンを、スペシャル可愛く盛り上げちゃうですよ～！　\nきゅるるん☆』」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ビシ！　と右手を額に当て、ノリノリになっていたオボロは後ろで何か物音が\nしたのに気づいた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「ん？　なんです、今の音……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070018" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "キィ……とドアが開き、それを見たオボロの顔色が真っ青に変わる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「んぇっ！？　あ、あな、あな、あなたは……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070019" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「ま、待ってください……。まさか、まさか今の台詞を聞いていたんですか！\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「その上……ウチのハロウィン衣装を見て……？　わああああっ！　ああああ\nああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070021" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「の、覗き見をしているなんて卑怯です！　う、ウチは何もしていませんよ。\n何も……んんんっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「これは着ることを強要されたのです！　だ、誰に！？　それは……それは言\nえません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070023" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「うるさい！　うるさいです！　馬鹿ッ、ばか、馬鹿っ、大馬鹿～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070024" ]},
+		{"command":[ "SETCHARA", "0", "char_00000513_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「別にウチはハロウィンになんて興味はありませんし！　参加したいわけあり\nません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070025" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「……ちーがーいますっ！　ウチは、ウチは、ウチはっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070026" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「ハロウィンなんかに興味ありません！　あんな軟弱者の祭り！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070027" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アナザーオボロ" ]},
+		{"command":[ "SETTEXT", "「本当です！　嘘じゃないです！　だから見るな～ッ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090022070028" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

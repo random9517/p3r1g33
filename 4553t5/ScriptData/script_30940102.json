@@ -1,0 +1,126 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_01" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},		{"command":[ "PLAYVOICE", "094_0104101" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「……こんな身体ですからね。こういうことをする機会があるだなんて、思っ\nてもみませんでした」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},		{"command":[ "DISPTEXT", "TRUE" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104102" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「わたくしは、自分で服を脱ぐことすらできませんもの。このままあなたのオ\nモチャになるしかありません」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104103" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「え？　金縛りにしたり、相手の感度を操作したり、自由自在に操れるだろう\n……ですって？　ええ、まあ、そういうことも可能です」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104104" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「けど、それは趣味ではありません……わたくしも信頼できる男性と、愛と情\nを交わしあいたいと心から願っています」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104105" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ですから……その……あの……わたくしの思いを察していただき、あなたに\nは感謝しております。ふふふ、ありがとうございます、隊長さん」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104106" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あ……あああ、そ、そこ……自分では触れない場所なので、ん、はぁ……刺\n激に慣れていないのです……はぁ、んんぅん……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_03" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104107" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「まだ自分の腕があった頃には、時々触っておりましたが……んん、この身体\nになってからはまったく……あっ、あっ、くぅ！　ひうぅぅ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104108" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「きっと、心を委ねた相手だから、身体がリラックスしているのでしょうね。\nふふ……感じ過ぎて困ってしまいます」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104109" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……呼吸するだけで、身体が熱い……。手足が無いからなかなか放熱で\nきなくて……頭が少しぼーっとしています……はふぅ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104110" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「さあ、そろそろ挿れ頃ですよ……身体があなたを求めて、熱くなっています\n。はぁ……はぁ……緊張します……ん、んん、んはぁぁぁ！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104111" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「こ、これが……セックスなのですね。はぁ……はぁ……感激、です……はぁ\n、はぁ……全然、痛くありません……はぁ、あふぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104112" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「これも、今までさんざんいたずらされてしまったから、ですね……ふふ、あ\nなたの変態に救われました……感謝、いたします……あふぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104113" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふっ、ぐぅ……少し、苦しい、です……。は、はい、ほんの少しだけ、手加\n減をお願い、します……お気遣い、感謝いたし、ます……ん、んんん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104114" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふぐぅぅ、うあぁぁ！　腰が動くと、お腹の中まで持っていかれてしまいそ\nう、です……はぁ、ふぅ……苦しい、けど……気持ちいい……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104115" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ん……んん、はぁ……ああぁ、だんだん、お腹の中のひっかかりが、スムー\nズになってくる……いっぱい濡れてる証拠、ですね……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104116" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あ、あああぁん……あなたに、淫乱な身体に、仕立て上げられてしまいまし\nた……もう、あなたなしでは生きていけない、かも……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104117" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふふふ、ミュータントとして、進化していくべきなのに……肉体的な欲望な\nど、前時代的な衝動に身を焦がすだなんて……はしたないこと……ですね」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104118" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「くぅ、ふぅ……はぁ、あぁぁぁん！　身体が……熱い……あああ、恥ずかし\nさと、気持ちよさが、身体の中で燃え上がるようです……はぁあん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104119" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あっ、あああぁ……濡れてる……こんなに濡れてしまうだなんて……恥ずか\nしい……あっ、あっ、んっ、ひやぁぁぁん……っ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104120" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ペニスが、んっ、ペニスが……大きくて、硬くて、たくましい塊が、わたく\nしの奥深いところを、えぐってる……あ、ああ、ひぐぅぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104121" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ああ、腕がないことが、こんなにも寂しいだなんて……はぁ、はぁ、あなた\nを抱きしめ、もっと奥で感じてみたい……んっ、んくぅ、あはぁぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104122" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ひぐぅ！　ひゃぐぅぅっ！　はぁ……はぁ……あはぁぁぁぁ……か、身体が\n、欲しがってる……あなたを、もっといっぱい欲しがってる……っ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104123" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ペニス……気持ちいい……はぁ、ふぅ、腰が、動いてしまいます……ああ、\n手足が無いのが、もどかしい……はぁ、はぁ……あはぁぁぁ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104124" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「アソコが、溶けちゃう……これまで散々感じさせられたのに、今、この瞬間\nが、一番感じています……わたくし、どうなってしまうのでしょう？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104125" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「身体に、ズンズン来るぅ……あっ、あっ、お腹の奥が持ち上がっちゃうぅ…\n…はっ、ぐぅ、んんっ、ふぐぅぅぅぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104126" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「うぅぅ、あはぁぁ……この角度、クッ、クリトリスが擦れて……ひぐぅ、あ\nふぅ……身体中がジンジン、します……はぁ、ひうぅぅん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104127" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「くっ、ううぁぁ！　わたくし……いやらしい……自分が恥ずかしいほどに…\n…感じて、います……ぐぅ、ああ、視線すら、気持ちいい……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_06" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104128" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「こんなにも、感じてしまうだなんて……信じられません……ミュータントと\nして生きることを決めたのに……人間の幸せなんて、とうに諦めたのに……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104129" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……あああ……隊長……あ、あなたこそ……進化の姿、なのか\nも……ああ、駄目ぇ、気持ちよくて、頭が上手く働きません……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104130" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あああ……駄目ぇぇ……おかしく、なっちゃう……身体が、あなたに支配さ\nれていく……きゃうぅ、あはぁぁ……イ、イキ、そう……ですぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104131" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ぐぅ、あふぅ……隊長も、イキそう、なのですか？　嬉しい……一緒に、気\n持ちよくなって、下さい……はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104132" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「わたくしと共に、新たなステージに登りましょう……あっ、あああ……震え\nてる……ペニスが、中でヒクヒクして……ひっ！　きゃう！　ひうぅぅ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104133" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「だ、出して、下さい……あっ、駄目ぇぇ……イクっ……きゃうぅ！　うくぅ\n！！　ひゃぐぅぅぅぅぅぅ！！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104134" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「んひぃぃぃ！？　きゃうぅぅ……はぁ、あはぁぁぁぁあん！！　熱いの、溢\nれてる……っ、アソコの中、あなたの体温でいっぱいになってるぅ！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104135" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「隊長の出したて精液が……お腹の中で、暴れてる……はぁ、はぁ……生命の\nエナジーが身体に染み渡って、くるようです……あふぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104136" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あの匂いが、わたくしの中に満たされている……あああ、幸せです……はぁ\n、あふぅ……こんなに、人肌が心地いいだなんて……知りませんでした」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104137" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……あああ……精液が、お腹の中で揺れている……チャプチャプ音がし\nています……ふふふ、たっぷり、出してくれましたね……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104138" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……熱い……こんなに汗をかいたの、ひさしぶりです……まだ\n手足があったころ以来かも……ふふふ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104139" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふぅ……ふぅ……少し呼吸を整えさせて下さい。はぁ……ああ、すごい……\n熱が体内で渦を巻いています……新たな世界が拓いてしまいそうです……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104140" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ああ、まだこんなにペニスが硬いまま……ふぅ、ふふふ……本当に、たくま\nしい……。続き、ですか？　ええ、ぜひお願い、いたします」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104201" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……あっ、はぁぁあん……中が、ネットリ、いたします……っ\n、精液が、アソコに……お、お、おまんこいっぱいに……広がってる……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104202" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふふふ……わたくしったら、なんてはしたない……オマンコ……オマンコ…\n…ああ、駄目ぇ……口にするだけで、感じてしまいます……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104203" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ああ、もっとオマンコに、欲しい……ペニスを……い、いえ、チ、チンポを\n……オチンポ、わたくしに……もっと、もっとぉ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104204" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「まだまだ出し足りない……オチンポが、そう叫んでいるみたいです……ふふ\n、ええ、聞こえます……オチンポの声が……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104205" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ、はぁ……精液が、染み込まされて、います……んんぅ、あふぅ……わ\nたくしの形だけの子宮が……女を思い出して、います……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104206" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふぅ……ふふふ、実は、わたくし、妊娠できないん、です……サイキックの\n代償に、生殖能力を犠牲にしてしまいましたから……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104207" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「でも、こうして……んん、はぁぁぁん……セックスの悦びを感じています…\n…これも、あなたのおかげです……はぁ、はぁ、ひぐぅぅぅぅん……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104208" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……妊娠、したかった、かも……でも、もうどうしようもあり\nません……だから、いっぱい、楽しませて、下さいね。隊長さん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104209" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふぅ、ふふふ……人間として必要なものが、次々と失われ、ミュータントと\nして生きる決意をしたつもりですが……気持ちが揺らいでしまいそう……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104210" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あっ、ああああ……腰使いが、激しい……身体が、オチンポに、串刺しにさ\nれちゃいそう……です……はぁ、ふぅ……んくぅぅぅぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104211" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ズンズンと、突き上げられてる……あはぁぁ、頭の中まで、オチンポの振動\nを感じちゃう……ふぐぅ、あはぁ……んくぅぅぅぅぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104212" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あっ、あっ、はぁ！　あひぃぃぃ！？　イッ、イッちゃい、ましたぁ……は\nぁ、はぁ……あはぁ、すみません、先に気持ちよくなっちゃって……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104213" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ひぅ……あふぅ……はぁ、はぁ……イカされ過ぎ、ですね……ふふふ、人間\nって、素晴らしいです……わたくし、新たな感動を憶えて、います」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104214" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふぅ、あふぅ……だって。生殖などミュータントに不要だと思うこともあり\nましたから……ふふふ、ミュータントは進化して成るものですから」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104215" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……隊長も、ミュータントに、なってくれればいいのに……そ\nうしたら……もっと、もっとわたくしと……はぁ、あふぅ、んんん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104216" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「駄目ぇぇ……ま、またイキ、そうですぅ……はぁ、はぁ……あっ、あっ、ひ\nやぁっぁ！　イッ、んぎぃ！　あはぁぁぁぁぁん！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104217" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ま、またイッちゃいましたぁ……ふぅ、んくぅ……はぁ、はへぇぇぇ……あ\n、ああ、チンポ、震えています……あなたも、イキそうなの、ですか？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104218" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふふふ、嬉しい……またわたくしに、精液をぶちまけてくださるの、ですね\n……はぁ、はぁ……幸せぇ……ん、あふぅ！　ひぐぅぅぅぅ……！！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104219" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ま、またイッ、ちゃったぁ……あ、ああ、駄目、出してぇ……隊長の精液、\n欲しい……早く、早く、わたくしに……ん、くぅ……はへぇぇぇぇ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104220" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あっ、あああ……ダメェ……イクッ、イキそう……あああ、欲しい……身体\nが精液、欲しがってますぅ……くぅ、あぐぅ、はぁあっぁあん……！」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_09" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "PLAYVOICE", "094_0104301" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……また中にいただけるの、ですね……ふふふ、子宮が女性扱\nいしてもらえて、喜んでいます……はぁ、んん、あはぁぁ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104302" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「さあ、下さい……一緒に……イキましょう……はぁ、はぁ……あっ、あひぃ\n！？　イッ、イグぅ……あ、ああ、イッちゃうぅぅぅぅぅ！！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104303" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あはぁぁぁぁぁ！！？　ビュルビュル出てる……熱いの、オマンコの中で渦\n巻いてる～～……はぁ、ふぅ……んひぃぃぃ……」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_12" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104304" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「出てる……入って、くるぅ……子宮の中が、満たされてる……あ、ああ、幸\nせです……こんなに、気持ちいいだなんてぇ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104305" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふぐぅ、あはぁぁ……はぁ、あへぇぇ……お、おかしく、なちゃいそう、で\nす……ああ、オマンコ、気持ちいい……精液、最高ですぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104306" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あ……あああ……ビクビクが、弱くなっていく……ん、ふぅ……少し、寂し\nいですね……もっと、欲しい……身体が精液、欲しがってる、のに……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_10" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104307" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふぅ……ふぅ……ああ、発射が、終わってしまいましたね……ふふふ、でも\n気持ちいいの、続いてる……あああ、オマンコに幸せが満ちている……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104308" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あ……あああ……ゴボゴボ、音がする……精液が、空気に触れて、泡立って\nます……はぁ、はぁ……はへぇぇぇ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104309" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「いっぱい、出してくれましたね……ふぅ、ふふふふ……ありがとう、ござい\nます……隊長……人類の幸せを思い出させてくれて……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_11" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104310" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あなたの子を宿したいと心から思いました……妊娠できないことが、こんな\nにも辛いだなんて……でも、今、人生で一番幸せです……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "PLAYVOICE", "094_0104401" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……身体を汚して下さい……あなたの精液、肌で感じたい……\n熱と匂いと感触……わたくしに味わわせて下さい……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104402" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……あっ、あっ、イキ、ます……あっ、駄目ぇ……い、イキ、そう……\nんぐぅ、あひぃい……ひゃうぅぅぅぅぅぅ！！！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104403" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あっ！　ああああ！！　あはぁぁぁ……熱いっ！　精液が、身体に触れただ\nけなのにっ……あ、ああ、どうして、こんなに……んひぃぃぃぃ！！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_15" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104404" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「あはぁぁぁ……出てるぅ……いっぱい、出ています……っ。精液で、身体が\n塗りつぶされちゃうぅ……はぁ、はぁ……あへぇぇぇ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104405" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「見て下さい……体中が、精液で染まってる……この匂いが染み付いちゃうぅ\n……あはぁぁ……鼻の中で、精子が泳いでる……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104406" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ん、んん……あはぁぁぁ……いっぱい、出して、くれましたね……ふふ、ま\nだ先っちょから雫が垂れています……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_13" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104407" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「この一滴一滴に、無限の生命の源が蓄えられているの、ですね……はぁ、ふ\nぅ……ふふふ、人類の可能性を感じました……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104408" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「はぁ……はぁ……あああ、オチンポ、ビクビクしてる……まだ気持ちいいみ\nたい、ですね……ふふ、なんと可愛らしい……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00009401_02_14" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104409" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「人類が進化して、肌で受精し、出産するようになったら、どうします？　そ\nんなミュータントが生まれる可能性はゼロではありませんよ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "094_0104410" ]},		{"command":[ "SETNAME", "スティグマ" ]},		{"command":[ "SETTEXT", "「ふふふ……セックスって楽しいです……わたくし……もっと淫乱に進化した\nい……あなたの為に……あなたとともに在るために……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},		{"command":[ "EXIT" ]}
+	]
+}

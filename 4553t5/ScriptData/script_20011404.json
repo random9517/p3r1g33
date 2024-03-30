@@ -1,0 +1,165 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0145" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうして！？　なんで俺の葬式が……なんで俺が死んでるんだよっ！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021490001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000112_01", "1", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っていうか、あれはいつの話だ！？　俺はいつ死んじまうんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナサンタ" ]},
+		{"command":[ "SETTEXT", "「近い未来よ。それも、ごくごく近い未来」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_120021490002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ごくごく近いって……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子サンタ" ]},
+		{"command":[ "SETTEXT", "「落ち着くです。さっきも言ったように、私たちはあなたを助けにきたのです\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_080021490001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000508_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「助けに……！？　じゃあ、未来は変えられるんだな！？　どうすればいい！\n？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファサンタ" ]},
+		{"command":[ "SETTEXT", "「それを理解するために、あなたは自分の原点を知る必要があるわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021490001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺の……原点？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファサンタ" ]},
+		{"command":[ "SETTEXT", "「見せてあげるわ。行きましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021490002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+	 	{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPIMAGE", "0", "FALSE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SETTEXT", "そういってエファサンタがぱちん、と指を鳴らすと……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0146" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「っ！？　おい、ここは……！　それに、あそこにいるのは……！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファサンタ" ]},
+		{"command":[ "SETTEXT", "「ええ。子供のころの、あなたとカグヤ。そしてここは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021490003" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "6", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……俺たちが育った施設だ。月にある、身よりのない子供たちを養育す\nる施設……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そうだった……俺とカグヤは、ここで姉弟同然に育ったんだ……。あれ……？\n　俺たちが食ってる、あれはたしか……。", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちぇーっ！　なんだよ、クリスマスだってのに。こんなちっちゃいケーキし\nか出ないなんてさー！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そんなこといっちゃだめだよ、センセイたちだって、たいへんなんだよ。\nいつも、ヨサンがたりないー！　って……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021490001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ヨサン、ってなんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「おカネのことだって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021490002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おカネか……そっか……おカネがあれば、ケーキがたべれる……おカネって\n、おキューリョーのことだよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「だとおもう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021490003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし！　おれ、もっともっとガンバって、えらいカンブになる！　ツキのモ\nンショーがあるから、カンブになれるんだもんな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんで、えらくなって、じょおーさまからおキューリョーいっぱいもらって\n、でっかいケーキ、いっぱい、いっぱいたべるぞー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ、すごーい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010021490004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もちろん、カグヤにもたべさせてやるからな！　あははははっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファサンタ" ]},
+		{"command":[ "SETTEXT", "「どう？　思い出した？　これが、あなたの原点」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_080021490004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000308_01", "6", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そうだった……これが俺の原点……。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "幹部になって、チャンスをつかんで、とにかく上を目指そうって……。カグヤ\nにも、いい思いをさせてやろうって。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だけど現実は逆で。どうやっても俺より才能のあるカグヤには勝てなくて。い\nつも、あいつに上から見下ろされてるようで……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺も遅れて幹部にはなったけど、いつの間にかいろんなものが、日々のあれこ\nれに紛れて、流されちまって……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

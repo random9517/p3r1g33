@@ -1,0 +1,61 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0024" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "襲来者" ]},
+		{"command":[ "SETTEXT", "「ぐううっ！　なかなかやるな、原住民ども！」", "NORMAL" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今日も今日とて飽きもせず、襲来者（インベーダー）たちは地球を狙ってやっ\nてくる。さすがにこっちも対応に慣れてきた。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ！　チャンスだ！　一気にカタを付けよう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090104010001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+	{"command":[ "SPOTCHARA", "0" ] },
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「そんなことはお前に言われるまでもない！　下僕！　行け！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104010001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから、それやめてくださいって！　号令は俺が出しますから！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「じゃ、どうするの～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010104010001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「決まってんだろ！　全員、行けーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「まかせて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010104010001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「どっちにしろ突っ込むのなら、ご主人の号令は不要ではありませんかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010104010001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

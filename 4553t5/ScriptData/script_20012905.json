@@ -1,0 +1,210 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0045" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし！　俺の思いつきどおりに事が運んだな！！」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……あれだけ人の気配がなく、しーんと静まり返っていた社にはごった返すほ\nどの人波が出来ていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「タダ酒につられてやってきた人々、賑わいが気になって立ち寄った女達……\n」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そして、酒が理由だと言いながら……ドエロい巫女を見ようと集まってきた\nスケベな男ども！　完璧な作戦だった！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "大人たちが集まれば、自然に子どもたちの姿も見えてくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「社を忘れ去っていた人間たちによる、お参りの列、列、列……。ここまで盛\n況なら、ちょっとしたお祭りみたいなもんだ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「と、なりゃ……祭りには屋台だろ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022180001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003402_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いくら無料とはいえ、酒だけを飲んで騒ぐには限界がある。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「必ずツマミが欲しくなると思って、ほむらに持ち掛けた屋台……大成功だな\n。まさに荒稼ぎって勢いで食べ物が売れていく……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「らっしゃいらっしゃーい！　最高のツマミを各種、取り揃えてるぜ！　甘い\nモンが欲しいならそっちもまかしときな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022180002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「焼きそば５つにかき氷３つ！　ベビーカステラに焼きイカ……ふっふっふっ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022180003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「日本酒に飽きたら生ビールはどうだ！　ビールに特別合うソーセージも、唐\n揚げもあるぜぇ？　迷うだろ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020022180004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「椅子が足りない時は言ってくれ！　すぐに運んでくる……。ああ、割り箸は\nここだ。どうぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022180001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016702_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「あれ……。坊やは迷子かな？　大丈夫、おねーちゃんが今、ママを探してあ\nげるからね～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010022180001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001704_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "根っからの商売人２人だけじゃない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ウエイトレスとしてめきめきと実力をつけたイグニスによる完璧な接客と……\n持ち前の優しさで人々を癒やす夜叉。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「思いつきで選んだにしては、結構いいメンツだった気がするな……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺自身もこの結果には大満足だったが、それに輪をかけて興奮していたのは稲\n穂姫だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「ああ、あああ……！　素晴らしい！　こんな日が本当に訪れるとは……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022180001" ]},
+		{"command":[ "SETCHARA", "0", "char_00024102_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「自分の神社にこんなに大勢ヒトが来たのは久しぶりじゃ……。うううっ、う\nううう……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022180002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「ありがとう……！　本当にありがとう、人の子よ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022180003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "この社の神様ときたら……涙を流して喜び、酒を飲みながら俺に抱きつくわ、\nはしゃぎすぎてつんのめるわともう大騒ぎだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「ここまでの賑わいを、こんな短期間に作り出したその手腕。恐れ入った……\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022180004" ]},
+		{"command":[ "SETCHARA", "0", "char_00024102_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「このまま社の神主にならんか？　なんなら婿にもしてやるぞ？　んん……？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022180005" ]},
+		{"command":[ "SETCHARA", "0", "char_00024102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺に顔を近づけ、酒臭い息を吐きかける稲穂姫に牛神様とイグニスがぎょっと\nした顔をした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「い、いけません。稲穂姫様。神ともあろうお方がこんな男の……つ、つ、つ\n、妻になるなどと！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022180002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016702_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「そ……そうですよ。早まってはいけません。それに彼は、私と……。こほん\n、い……いえ、なんでもありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022180001" ]},
+		{"command":[ "SETCHARA", "0", "char_00003003_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "稲穂姫" ]},
+		{"command":[ "SETTEXT", "「そんな意地悪を言うでない……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_241_010022180006" ]},
+		{"command":[ "SETCHARA", "0", "char_00024102_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「なーりーまーせーんー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_010022180003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016702_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "牛神様" ]},
+		{"command":[ "SETTEXT", "「いーけーまーせーんー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_030_020022180002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003003_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "三人が三人とも、自分に俺を抱き寄せようとするせいで……俺はトリプルおっ\nぱいにはさまれて嬉し＆苦し状態になってしまった", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「や、やめろ……！　息ができな……。うぐッ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いやはや……祭りとおっぱいに囲まれて果てる。これが男子の本望ですなぁ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022180001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しみじみするジュンジローに、真面目な夜叉は心配そうに話しかける。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜叉" ]},
+		{"command":[ "SETTEXT", "「あれ、カツマさんの顔青くなってますけど、大丈夫ですか……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_010022180002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001704_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これが大丈夫に見えるかぁああ！？　死ぬっ……乳圧に酸素を奪われて死ぬ\nっ……！　うぐあああああっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「たすけっ……！　助けてくれええええっ！　ああああああーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あああああ……あぁぁぁぁ～……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "渾身の力で叫んでみるも、俺の声は……むなしく６つのデカおっぱいの圧に消\nえていった……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

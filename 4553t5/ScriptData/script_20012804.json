@@ -1,0 +1,428 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ふああああ……」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もう１時間は、狭い商店街をぐるぐる見回りしたと思う。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もうこれくらいでいいんじゃねーか？　おかしな様子なんかまるで無いし」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「平和そのものって感じだろ。あーあ、なんか肩凝ってきた」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "完全にやる気を失ってダラける俺とは真逆に、カグヤは真剣に任務を遂行し続\nけている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あと少しだけ頑張りたい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだって？　もう、行けるところは全部行ったろーが！　お前も確認した\nろ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「うん、色んな場所を巡ったけどすごかった……。どこに行ってもカップルば\nっかりで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カップルぅ？　そうだったかあ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "カグヤに言われて、きょろきょろと周囲を見渡すと……確かに至る場所に男、\n女、男、女の二人組が腕を組んだり、密着したり……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「わ、キスしてる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "熱烈に絡み合う２人に、恥じらうカグヤを見ていると……ますますやる気がな\nくなってくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「かーっ……イチャついてやがる。見せつけてやがる……！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「帰ろうぜ。こんだけ回れば、学園長も許してくれるんじゃねーか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「待て！　そこのカップル！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110001" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「納得してくれると思うぜ。はー、さむ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「こら！　無視をするな！　そこのお前らだっ、サンタコスプレカップル！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "コン、と俺の後頭部にぶつかってきたのは人型の硬いクッキー。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ものすごくクリスマスらしい、スノーマンのクッキーだった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだこれ……いってぇ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……危ない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺をかばい、間一髪で前に出たカグヤのおかげで致命傷にはならなかったが…\n…それははっきりと、俺を狙った一撃だった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ほう。あの攻撃を避けるとは。大したヤツだ、感心したぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110003" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわっ！　なんだお前！」　", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って……あれ？　どこかで見たことがある顔だな……。えーっと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「ニャンコ先生？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだそうだニャンコ先生だろ！　いきなり出てきて攻撃してくるなんて…\n…そんなに仲が悪かったつもりないぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「むっ！　その名は私の名とは少し違う……。私はアナザーニャンコ！　漆黒\nの夜を司る、誇り高き黒い猫だっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110004" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……アナザーということは別世界のニャンコ先生か」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ、下がって。こいつは私が片付ける」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の前に一歩進んで、構えるカグヤ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "鋭い殺気を放つカグヤに狙いを定められても、サンタガールはそれを鼻で笑い\n飛ばす。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「はぁ～～？　おまえごときに、私が倒せるとでも思っているのか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110005" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「私はブラックサンタ・マスター。今日この日、クリスマスを支配する者だ…\n…！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……それが何。あなたは何もしていない私達を襲った。それで、反撃する理\n由としては充分」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「は？　本気で言っているのか？　エロエロコスプレ女」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110007" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「え、エロエロコスプレ女……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「お前達はなぁ！　イヤらしい、エッチな空気をかもし出しまくって……私の\n逆鱗に触れた！　だから攻撃した！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110008" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「エ、エッチな空気……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「私は何人ものバカ女を襲ったが……この町でも、お前たち２人が一番卑猥な\n存在だったぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110009" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「特に……お前、女！　その服。いやらしすぎる。微妙にかわいこぶってると\nころが最高に鼻につくッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「わ……私の服は関係ない……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「お前達はクリスマスを、この町を、いや……世界を乱すエロスの権化だ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110011" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「クリスマスの日にサンタコスプレでラブラブカップルぅ～♪　とでも言うつ\nもりか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「浮かれくさりおって……いいか？　そういう愚か者を今時はこう言うのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「イタくてダサい、時代遅れの勘違いバカップル……とな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110014" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「バカップル……っ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「フフッ、反論など出来るはずもない。一目瞭然だからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110015" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「おまえからは発情したオンナの匂いがプンプンする！　その格好、露出しま\nくりでどう見ても男を誘っているとしか思えない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前も似たような格好だろうが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「むっ！？　こんなエロエロ女と私を同一視するな！　こいつはな、心の中で\n思っているに違いない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110017" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「今夜は私がプレゼント～♪　エッチなサンタをご馳走しちゃうゾ～♪　とな\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110018" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「エロエロ女だなんて……。うううっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "心を覗かれたかのように、激しくダメージを受けうずくまるカグヤ。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そこに畳みかけるようにして、黒いサンタコスチュームの女はビシビシと言い\n放つ。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「お前！　今夜この男に、何かしらの白い液体を注がれてホワイトクリスマス\nしたいと思っているんだろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110019" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……うっ、それは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「なんならうっかりクリスマスベビーを作って、可愛いお嫁さんになろうとし\nているな！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110020" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「どうしてそれを知って……。恥ずかしい……っ、ごめんなさい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010022110014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000213_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「くそっ、カグヤをここまで追い込むなんて……幻術か？！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「幻術？！　そんなものは使っていないが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110021" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いいや……そうじゃなければ、ここまでこいつがダメージを受けるわけがな\nい！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「幻術使いめ……！　俺達は一体どうやって、この凄まじい幻術に対抗すれば\nいいんだ……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「だから私は、幻術なんぞ使っていないが！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あくまで幻術を認めようとしない、黒いサンタ衣装の幻術使い。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はおろおろしているカグヤの腕を掴み、じりじりと幻術使いと距離を取ろう\nとした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カグヤ！　幻術が届かない場所まで下がるぞ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「そうはさせるか！　私は獲物は逃がさない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110025" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「断じて幻術ではないが、忍術は使ってやってもいいぞ……。私の卓越した忍\n術から逃げられたヤツはいない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110026" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「聖夜に飛び散れっ、不届き者ども！　ククク……フフフ、ハハハハ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110027" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "不敵な笑みを浮かべてにじり寄ってくる不審者に、成す術もなく追いつめられ\nた俺達二人。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここまでか……！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺が諦めかけたその時……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "２つの影が、俺達と黒いサンタの方に向かって駆けてくるのが見えた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「不届き者はあなたの方ですッ……！　そこを動かないで！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020022110001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002603_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「学園長……！　あと……ええと、犬！　犬だ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「知っていてワザと貶めるのはやめて欲しいですぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022110001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「……なんだ、お前らは。しかも……むむっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110028" ]},
+		{"command":[ "SETCHARA", "0", "char_00010005_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａニャンコ先生" ]},
+		{"command":[ "SETTEXT", "「そこの熟女ォ！　おまえもまた破廉恥な格好をしているな！　お前も粛清対\n象だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_100_030022110029" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ぐるぐると唸りながら、黒いサンタ女が俺達の方に飛びかかってくる……！", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

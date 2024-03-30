@@ -1,0 +1,132 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "結局、襲来者（インベーダー）に責任を押し付けることはできなかった……。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「あらぁ……『【悲報】ＥＤＯが街を破壊』って動画、またまた再生数伸びて\nるわぁ……７４億回だって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「夕方のニュースにも取り上げられてるわ……ＥＤＯの管理体制に問題がある\nんじゃないかって……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「まあ、問題あるかないかで言えば大ありだとは思うけどねぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「それよりやっぱり、ネットでの炎上がひどい……。カツマが時間帝国に脳改\n造されてるんじゃないか、なんて噂まで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「こっちもひどいわ。『今のカツマ隊長は偽者だ。たぶんマフラーとブーツの\n色も違うはずだ』なんて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010114830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「ひどいです！　にいさま、ブーツはともかくマフラーなんかしてないのに！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010114830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「翔生子ちゃんの気持ちはわかるけど、そこはちょっと話がズレてるかな……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010114830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「刻の女王がカツマを息子呼ばわりした件が、多元宇宙ネットで漏れてしまっ\nたのが痛いなぁ……誰がリークしたんだか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010114830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004999_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おい、カツマ。これからどうするんだ？　……カツマ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114830001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ああ、カツマさんなら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010114830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はい！　はい！　その件に関しましてはですね、全面的にこちらのミスであ\nりまして……はい！　申し訳ございませ～～～んっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「朝から抗議の電話が鳴りっぱなしで、ずっとその対応に追われて謝りっぱな\nし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010114830003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ホントにねえ……なんだか、見てて気の毒になってきちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ……かわいそう……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114830002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だったら誰か変わってくれよ、一本ぐらいさぁ！　朝からかかってきた電話\n、ぜーんぶ俺が取ってるんだぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ええ～……だってそれは……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010114830004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ちょっと、ねえ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114830003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ……がんばって！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010114830003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お　ま　え　ら　なぁ～～！！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "くっそー！　どれもこれも、みんな刻の女王のせいだ！　あいつが悪い！", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "絶対許さねえぞ！　時間帝国めええええええええっ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

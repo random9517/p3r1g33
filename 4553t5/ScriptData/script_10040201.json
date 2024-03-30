@@ -1,0 +1,124 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "今日も今日とて時間帝国の連中は、地球に悪さをしかけてくる。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａウタマロ" ]},
+		{"command":[ "SETTEXT", "「くっそー！　よくも私らの作戦を邪魔しやがったな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_030116530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009703_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａオボロ" ]},
+		{"command":[ "SETTEXT", "「作戦に無理があったです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090116530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000509_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「付き合わされるこっちの身にもなれ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080116530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａウタマロ" ]},
+		{"command":[ "SETTEXT", "「なんだと！？　私の完璧な『カツマ緊縛誘拐調教作戦』にケチつける気かよ\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_097_030116530002" ]},
+		{"command":[ "SETCHARA", "0", "char_00009703_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カカカカカカツマを緊縛して調教してあんなことやそんなことをしようと企\nむなんて……！　許さない許さない許さない許さない！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116530001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「お！　カグヤ元気だなぁ！　私も行くぜぇ！　どりゃああああああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「来ぉーーーーいっ！　今日こそキャインと言わせてやるっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080116530002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「つきみ！　私たちも行くわよ！　カツマさんを総受けにしようとした奴なん\nか……許せなぁあーーーーいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010116530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001499_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "シルバスター" ]},
+		{"command":[ "SETTEXT", "「わかったわかった！　わかったから姉ちゃん落ち着いてっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_020116530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001302_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「なし崩しで戦闘に突入してしまったが……いつもの通りということで、やっ\nてしまって構わんな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「もう、適当に頼む……。まったくあいつらと来たら……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ホントにもう、脳筋だらけで困ったものです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116530001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａオボロ" ]},
+		{"command":[ "SETTEXT", "「はぁ……脳筋たちとの共闘は考え直すべきかもですね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090116530002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000509_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「……！？　向こうにＡ・オボロが……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116530002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａオボロ" ]},
+		{"command":[ "SETTEXT", "「……ハルノブ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_090116530003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000509_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ウチは……オボロ、あいつは……Ａ・オボロ。でも、ウチにはオボロとして\nの記憶は……ほとんどありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116530003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ウチは本当にオボロなのでしょうか？　そもそもウチはいったい……なんな\nのでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116530004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ウチは、いったい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116530005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、ハルノブーっ！　戦闘始まってんだから、モノローグ入れてないで手\n伝ってくれーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

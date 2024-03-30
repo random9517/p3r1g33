@@ -1,0 +1,71 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0004" ]},
+        {"command":[ "DISPIMAGE", "0", "true" ] },		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},		{"command":[ "PLAYVOICE", "054_0103101" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「隊長さん、ボクに何かご用？　うん、夜だけど大丈夫－、ボク、あんまり寝\n付きよくないからー」", "NORMAL" ]},
+        {"command":[ "SETCHARA", "0", "char_00005401_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+        {"command":[ "SPOTCHARA", "0" ] },
+		{"command":[ "DISPNAME", "TRUE" ]},		{"command":[ "DISPTEXT", "TRUE" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103102" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「えっ、パワーアップの訓練？　こんなお部屋の中で？　うーん、チェーンソ\nー振り回したら、壁を切っちゃいそう……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005401_01", "3", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103103" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「そういう訓練じゃない……？　あっ、どうしてズボン脱いじゃうの？　あの\n……わー……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005401_01", "8", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103104" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「うん、男の人の……初めてみるー。……何だか、面白い形－。ちょっとだけ\n、怖いかも……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103105" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「え、その……おちんちん？　使って訓練するの？　それで強くなれるんだー\n……すごーい」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103106" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「もっと傍で見ればいいの？　それで本当に強くなれるの？　何だか、ちょっ\nと疑問ー」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005401_01", "3", "CENTER", "0" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103107" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「……強くなれるし、身体も成長するかも？　本当？　……おっぱいも、大き\nくなったりするのかな？　えっ、するの？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103108" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「じゃあ……わわ……傍で見ると、ちょっとグロテスクかも。パンパンに腫れ\nてて、ビクビク震えてて……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_01" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103109" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「隊長さん、こんなに真っ赤に腫れてて、痛くないの？　へぇ、大丈夫なんだ\nー……ふーん……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103110" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ちょっと苦しいから、咥えてほしい？　えっとー、こんなところ咥えて大丈\n夫なのかなー……んー、まーいいや」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103111" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「はむぅ……ちゅっ、れろぉっ、ちゅぅっ……んっ……んーっ、こんな感じで\nいいのー？　よくわからないけど……れろっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103112" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「感想？　えっと……よくわかんないかなー……ちゅっ、ちゅぱっ、ちょっと\n変な臭いがするかも……れろっ、じゅるるっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103113" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「生臭い？　汗の臭い？　何だか不思議な感じ……れろっ、ちゅっ、でも、そ\nんなに嫌な臭いじゃないかも……ちゅっ、ちゅぅっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103114" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ちゅっ……はぁむぅ、うん……何だか、先っぽからお汁出てきたけど、これ\n……おしっこ……じゃないよね……れろっ、れろっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103115" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「少しだけしょっぱい……ちゅっ、はむっ、うんっ……ちゅっ、これ、舐めて\nいるだけで本当に身体が成長するの？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103116" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「うん……ちゅっ、ちゅぱ……でも……ちょっとだけ、胸の奥、熱くなってき\nてる……れろっ、ちゅっ、ちゅぱっ、ちゅっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103117" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「舐めてるだけなのに、心臓もすっごくドキドキして……はむっ、ちゅっ、効\nいてきてるのかな、これって……ちゅうっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103118" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「隊長さんのおちんちんは、女の子を成長させちゃう、凄いおちんちんなんだ\nねー……ちゅっ、はむっ、れろっ、れろっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103119" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んっ……舐めるだけじゃなくて、唇でもっと深くまで咥えればいいの？　う\nん、やってみるー……んくっ、。はぁ、はむっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103120" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んっ、けほけほっ……大丈夫、ちょっと、喉の奥に当たっちゃったけど……\nはぁ、はむっ、んくっ、ちゅううっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103121" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「お口の中が、隊長さんの臭いでいっぱいになっちゃってる……はぁはぁ、胸\nのドキドキも、早くなってきた……んふっ、じゅるるるっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103122" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「はぁはぁ、隊長さん、大丈夫ー？　息、凄く荒くなってるし……んちゅっ、\n目も血走ってきてるけど……れろっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_04" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103123" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「それにおちんちんも、さっきより腫れが酷くなって……んちゅっ、はぁはぁ\n、やけどしちゃいそうなくらい、熱いけど……れろっ、ちゅぱっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103124" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ボクの身体が冷たいから、ますますそう感じちゃうのかな？　ちゅっ、んん\nっ……このまま咥えて、冷やしてあげればいい？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103125" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「じゃあ、そうする……れろっ、ちゅううっ、じゅるるるっ、ちゅっ、はぁ、\nはぁ……ちゅぱっ、んちゅぅっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103126" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「よだれ、もっともっとたーくさんまぶしたほうが、冷えるよね……ちゅぱっ\n、ちゅぱっ、んくっ、ちゅぅっ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_05" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103127" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「おちんちん、お口の中で凄く震えて……大丈夫？　気持ちいい……の？　そ\nっか……うん、なら……いいけど……じゅるるるるっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103128" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「変な臭いも、しょっぱい味も濃くなってきてて……ボクも何だか、頭がぼー\nっと……して……んちゅっ、ちゅうううううううっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103129" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「はぁ、んくっ、あぁっ、はむううっ！　おちんちん、先っぽがふくらんで…\n…え、出る？　何が……んくっ、ふぁ、待って……ちゅううううっ！？」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103130" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んぷぅっ、んむうううううっ！　ごぼっ、んくっ、はぁ、げほっ、じゅるる\nるっ、ちゅぱっ、んくっ、んんんんっ！！」", "NORMAL" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_09" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103131" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ぷはぁ、はぁはぁ……お口の中に、粘っこいお汁がたーくさん……はぁはぁ\n、凄い臭いで……はひっ、はぁ、んんぅっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103132" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「隊長さん、これ、何？　んっ、ちゅっ、はぁ、はぁ、え……精液？　出した\nらおちんちんがスッキリするものなんだ……そっかー……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103133" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「じゃあ、しっかり吸い出してあげないとダメだよね……んちゅっ、じゅるる\nるっ、ちゅぱっ、ちゅっ、じゅるっ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103134" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「……唾液と混ぜて、飲めばいいの？　飲むと、身体がもっと成長するかも？\n　本当－？　んちゅっ、じゅるっ、ちゅぱっ、ちゅぅっ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_07" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103135" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「んく、んくっ……はぁはぁ、まだまだ粘っこくて、喉に張り付いて取れなく\nなりそぉ……んじゅるるっ、ちゅうううっ」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_08" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103136" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「味も、透明なお汁より凄く濃くて……でも、んくっ、ちゅっ、飲んでると、\n本当に胸がますます熱くなって……はぁ、はむぅ……」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103137" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ちゅぱっ、ちゅぅっ、んちゅっ、これで……んっ、うん……残ってるのも全\n部吸い出すー……じゅるるるるるるるるっ！」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103138" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「ぷはぁああ……んちゅっ、はぁはぁ……これで、ボクのおっぱい、成長する\nのかな？　んちゅっ、ちゅっ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_02" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103139" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「一度じゃダメ？　もっとたくさんしないと……んー……そっかー……そうだ\nよねー……れろっ、ちゅっ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00005401_01_01" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "PLAYVOICE", "054_0103140" ]},		{"command":[ "SETNAME", "ターニャ" ]},		{"command":[ "SETTEXT", "「でも、これ……嫌じゃないから、隊長さんがよかったら、またしてほしいか\nな－。……いい？　そっかー、ありがとー……えへへっ」", "NORMAL" ]},		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

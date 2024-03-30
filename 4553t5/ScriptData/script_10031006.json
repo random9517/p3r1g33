@@ -1,0 +1,59 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "なんだかんだで俺たちはセットに配置されたロボットを倒し、『工房』に爆弾\nをセットし、脱出してきた。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「よし！　全員無事脱出！　どうだ長官！　百点満点だろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010116020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「……長官？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「……はい、ダメー！　脱出に時間かかりすぎ！　お前ら全員、木っ端みじん\n！　ボーナスの査定マイナス！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010116020002" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ええええ～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010116020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「そういうわけでやり直し！　今度はちゃんと、時間内に脱出してくるように\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010116020003" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「やれやれ、またロボットと戦うのかい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010116020001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

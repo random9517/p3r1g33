@@ -1,0 +1,160 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0024" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "突然ワケのわからない空間に転移しちまった。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……なんだこりゃ。まあいい。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "この荒涼とした荒れ地なら、市民に迷惑はかからないだろう。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それにしても、なんだここは……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はて……異空間のようですな。戦闘用の……氷華どののお力でしょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021550004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「いや、ここは敵側が用意した空間だね。おそらく通常の３倍のパワーが出る\nようだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550005" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なんと？　では氷華どののピンチでは――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021550005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＡ" ]},
+		{"command":[ "SETTEXT", "「はっはーっ！　さすがに７人相手では分が悪いようでござるっすな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_148_020021550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00014802_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＢ" ]},
+		{"command":[ "SETTEXT", "「さあ、大人しくわたくしのスピニング・チョークの犠牲になりなさい……で\nござる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_149_020021550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00014902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クノイチＣ" ]},
+		{"command":[ "SETTEXT", "「このクノイチスーツは、身体能力を向上させるんでござる……ナメプは危険\nでござるよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_150_020021550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00015002_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「……くっ、ちょこまかと……生身ではキツいみたいですね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020021550016" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「苦戦してるね……さすがは東洋の神秘、ニンジャ……いや、クノイチという\nヤツだね。知っているかい？　クノイチの語源を」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、そういうのいいから……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "氷華が圧されてる……。あのクノイチども、それなりに手練らしい。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「まあ、それはそれとして、支援の必要があるのでは？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだな……ここは全力射撃で蹴散らして――ん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「――ならば、本気を出すしかなさそうですね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020021550017" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "氷華がまるでカメラ目線でもするように大見得を切る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "するとシャキーンと何らかの効果音が聞こえたような気がした。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「凍てつく嵐で悪を討つ！　……変身！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020021550018" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「全てを止める絶対零度！　マスク・ザ・ブルー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550001" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00005001_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ・ザ・ブルー" ]},
+		{"command":[ "SETTEXT", "「仮面戦隊マスカレード！　見参！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_010021550002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……一人しかいないのに、戦隊を名乗るのは無理がありますな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……きっと人数分の名乗りがあったんだろうな。」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「その点については、我が米花街遊撃隊が調査中なのだがね、今彼女は色々問\n題を抱えているんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「そっと見守ってあげて欲しいね……そう、まるで路傍の花を愛おしむように\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010021550008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ほむらとモメてるってことか。とっとと解決してもらいたいもんだ。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

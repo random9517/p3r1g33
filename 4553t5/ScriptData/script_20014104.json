@@ -1,0 +1,268 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0177" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「それじゃ、次は沙世子さん。自己紹介をお願いできるかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022870001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 	
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ジェスタの言葉に反応したのは、黒々とした角の生えた爆乳の美女だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「あら♪　私の紹介をしていいの？　……とはいっても、私にそんなに目立つ\n特徴なんてないのよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870001" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか？　色々とぶっ飛んでいるような……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「自覚がないヤツが一番ヤバいのは、どこの世界でも共通ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022870001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「いや～ん。本当に謙遜なんかじゃないの。どこにでもいる平凡な主婦で～す\n♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870002" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや。こっちの世界にはこんな露出度の高い、褐色肌でバインボインな主婦\nはいない」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「そうなんだぁ。私の世界にはそこらじゅうにいっぱいいるかも？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「すごい世界からとんでもない主婦が召喚されちまったもんだ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「……と、話が脱線しているよ。自己紹介、自己紹介」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022870002" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「あん♪　そうだったわ。じゃあ改めて♪　……こほん、こほん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870004" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「私の名前は沙世子・フルーレティ。普通の団地に住む、夫ありの普通の主婦\nよ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「嘘だ！　絶対にそれだけじゃねえ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「……ありきたりな人妻で……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「さすがにそれは無理があると思いますぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022870002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「えぇっとぉ……困っちゃったわぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870007" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「ここにはボクたちしかいないんだし、本当のことを明かしてもかまわないん\nじゃない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022870003" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「そうね……。それならぶっちゃけてしまうけれど、私……いつもは素性を隠\nして暮らしているサキュバスなの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870008" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっぱり！　誰が見たってそうだと思った！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「ええっ？　そうかしら？　出来るだけおとなしくしているつもりなんだけど\nなあ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「何１つとして控え目じゃないしな。こんな団地妻がいたら大変だ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「うふふふっ♪　それは褒めてくれているって思ってもいいのかしら♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870010" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「私はねぇ。淫乱で有名なサキュバスの中では、おっと～りのんび～りしてる\nタイプなんだけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「どうしても、淫魔であることからは逃れられなくって。その……性欲は旺盛\nな方、かしら？　嫌だったかしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870012" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い、いや……別に嫌ってことはない」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「本当？　うれし～い♪　私の夫……旦那さまは淡泊な方で、あんまりエッチ\n……営みには興味がないみたいなの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「私も無理強いはしたくないから、あまり彼とはしてなくて……それで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870014" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「たま～に、お腹が空いたら同じ団地に住んでる男の人達にご飯になってもら\nってるんだぁ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「だからね？　あなたも良かったらどう？　時々精をわけてくれるなら、うん\nっとサービスしちゃうんだけどな……♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870016" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「あはは。サキュバスにとっては死活問題だからね、精のエネルギーを食べる\nってことは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022870004" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「そうなのよ～。わかってくれてありがとう♪　普段は頑張って我慢している\nんだけれど……それでもね、限界があって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870017" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「仕方なく色んな男の人に精をわけてもらいにいくんだけど……サキュバスっ\nて相手を性的な魅力で依存させる体質なのかしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「いつも相手が夢中になりすぎちゃって、可哀想で。あまり同じ相手からは吸\nわないように気をつけてるの。……でも」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「そろそろ、定期的に吸わせてくれるパートナーが欲しいなぁって思ってて。\n……考えてみてくれると嬉しいわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ん？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「だから。３日に一度くらい、セックスさせてくれると嬉しいわ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870021" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、お、お、お、と、とんでもないことを言い放ってきたぞこのサキュバス\n……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「あなたは何もしなくていいの。私がぜ～んぶしてあげますから。うふふ、マ\nマって呼んでくれてもいいのよ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870022" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「やさしーくあまぁく♪　トロットロにとろけちゃうくらい……いっぱいいっ\nぱい愛してあげる♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870023" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「そのお返しに、ドロドロの濃い精液を与えてくれたら、お互いに幸せになれ\nるでしょ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870024" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「だからね♪　私にたくさん精液をご馳走してくれると嬉しいわ～♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870025" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アンドレッテ" ]},
+		{"command":[ "SETTEXT", "「せ、せ、せ、せ、せいえきだなんて……！　お下品なっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_260_010022870001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026001_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「ええ～っ。ただのお食事を、下品だと思う方が下品だと思うなあ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870026" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アンドレッテ" ]},
+		{"command":[ "SETTEXT", "「な、なぁんですってぇええええ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_260_010022870002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026001_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「怒っちゃいやよ～。……うん♪　私の自己紹介はそんなところかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870027" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「なんだかムラムラしちゃう夜には、闇に向かってぜひ呼んで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870028" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「沙世子さ～んって♪　そうしたら、すぐに精を吸い取りにいくから安心して\nちょうだいね♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870029" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「カラッカラのミイラになるまでちゅーちゅーしてあげる♪」　", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022870030" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「安心できる要素が１つもねえ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,155 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0151" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_020" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ええい、捕まえてやる！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "幽霊らしい人影は中庭まで逃げてきた。バテてきたらしいところに飛びついて\n抑え込む。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「きゃぁああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_070113740001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んぅ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "相手は幽霊。実体はないはずなのに、飛びつけてしまった。しかもとても柔ら\nかい。いい匂いもする。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「はぁ……はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_070113740002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000607_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いや、どうもこれは幽霊なんかじゃぁない。どう見ても、どう触っても、生き\nている人間だ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その女の人は、俺の方を怯えた表情で見つめている。なんだか、どことなーく\nディアナに似ているような……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「あ、あの……おっぱいから手を、離してください……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_070113740003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わ、わりぃ！　わざとじゃねーんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「そんな言い訳と一緒に上司におっぱい揉まれるの、慣れてますけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_070113740004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "慌てて手を離すと、その人は俺から数歩離れた。警戒はしているようだが、も\nう逃げる気はないらしい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「みんなが幽霊だーとかサメだーとか言うから……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「サメ……。あのサメのこと、なにか知っているんですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_070113740005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやぁ、それはこっちが知りたいっていうか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「つまりお嬢さんがあのサメを操っているわけではない？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113740001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「操るもなにも……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_070113740006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "急にその人が俺のことを指さした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なんだ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0151" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "振り向くと、空間がぱっくり裂けている。そして中からぬっと顔を出したのは\n、あのときのサメのバケモノだ。", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00022201_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「きゃぁあああぁぁぁっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_070113740007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000607_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おおっ、殺人事件の第一発見者のような見事な悲鳴っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113740002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「バカなこと言ってるんじゃない！　逃げないと……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とにかく、なぜか学園に迷い込んでいたその人を連れて、襲い来るサメから逃\nげなければ……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スーザン" ]},
+		{"command":[ "SETTEXT", "「見つけたぞ！　サメぇっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_127_010113740001" ]},
+		{"command":[ "SETCHARA", "0", "char_00012701_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マリッサ" ]},
+		{"command":[ "SETTEXT", "「アタイが相手だっ！　縄張り荒らしめっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_095_010113740001" ]},
+		{"command":[ "SETCHARA", "0", "char_00009501_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いいタイミングでスーザンとマリッサがやってきた。今度こそ除サメしてもら\nおう！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,17 @@
+{
+
+	"scriptCommands" :  [
+
+    	{"command":[ "PLAYMOVIE", "OVA_brainjacker_2_1.mp4" ] },
+
+		{"command":[ "FADEOUT", "NORMAL" ]},
+
+    	{"command":[ "WAITMOVE" ] },
+
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "EXIT" ]}
+
+	]
+
+}

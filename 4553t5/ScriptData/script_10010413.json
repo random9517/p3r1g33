@@ -1,0 +1,97 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0119" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "Ａジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ワームホール、展開完了。目的地、地球、九重市」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_040104130001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000904_01", "0", "CENTER", "0" ]}, 
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+	{"command":[ "SPOTCHARA", "0" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しっかし、ホントに優秀だよな。メカのほうは……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ふん。ただの交通機関とワガハイを比べられても困りますな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010104130001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000901_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「さて、それでは帰るとしようか……ん？　エファナティカ、どこへ行くのだ\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010104130001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ああ、申し訳ありませんルナテミス様。私は、大会本部に提出しなければな\nらない書類がありまして……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010104130001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「書類？　そんなのあったか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「表の顔のほうで必要なのさ。大使館員としての出張書類がね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010104130002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、なるほどね。そういうことならお願いしますよ、館長」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ま、面倒な手続きもあるらしいから、あんたらは先に帰ってな。おい、アナ\nザー・ジュンジロー。帰りの座標だけ教えといてくれ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010104130003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａジュンジロー" ]},
+		{"command":[ "SETTEXT", "「了解。個人端末に転送済み」", "NORMAL" ]},
+	{"command":[ "SETCHARA", "0", "char_00000904_01", "0", "CENTER", "0" ]}, 
+		{"command":[ "PLAYVOICE", "v2_009_040104130002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「それじゃ、ダイヤナちゃんたちは帰るわね。お先に～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010104130001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000601_01", "8", "CENTER", "0" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010104130004" ]},
+	{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「………………おい。みんな行ったよ。出てきたらどうだい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010104130005" ]},
+	{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "謎の人影" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「……それで？　伝言とやらを伝えてもらおうじゃないか。あたしに何をさせ\nようってんだ――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010104130006" ]},
+	{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]}, 
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

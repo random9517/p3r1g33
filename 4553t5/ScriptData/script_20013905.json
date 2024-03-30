@@ -1,0 +1,174 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "狂乱のハロウィンから、数日後。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "すっかり魔法が溶けて、元に戻っているはずのアヌビスとアーマーンは……何\n日経ってもポワワンとした表情のまま暮らしていた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいおい。大丈夫なのか。やっぱりあの魔法、まだ抜けきってないんじゃな\nいか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「そっすねぇ……♪　あの時の……ハロウィンの余韻が身体に残ってるみたい\nっていうか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「淫らな熱を取りきれなくて……。常に火照ってしまっているのかも……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00008101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前ら、すっかり天然のサキュバスみたいになっちまって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「……そう。私達は……サキュバスなのかも。だとしたら、くっついていても\nいい……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022770002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うっ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「あはは、それいっすね！　あーしら仲良しサキュバスーってことで、パイセ\nンに超くっつきまくるのもアリかも～!」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022770002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「冗談だって。冗談……ううう」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "人目をはばからずにベタベタしてくる二人を、両側から引きはがしたのはルナ\nテミスとまりあだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「……少し目を離せば、他の女に迫られて……。まったく、カツマからは目が\n離せそうにないな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ルナテミスさん。彼は私がしっかり監視しておきますから、ご心配なさらず\n任務へ行ってください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「それは無用の気遣いだ。カツマは私が見張っておくから、お前は自分の仕事\nに戻っていいぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022770002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「そ……そういうわけにはいきません。ハロウィンのお祭りは終わったんです\nから……これからは皆さんにも、気を引き締めてもらわないと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022770002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「とか言って、お二人さんもまだサキュバスの時の感覚が残ってるんじゃない\nッスか？　いいじゃないですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022770003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「我慢はカラダに良くないですよ。あーしらも我慢しないんで、皆さんも我慢\nナシで攻めまくっちゃえばいいと思ったり！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022770004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「我慢なしで攻めまくる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022770003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アヌビス" ]},
+		{"command":[ "SETTEXT", "「協力できることは、するよ。遠慮しないで願ってね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_081_010022770003" ]},
+		{"command":[ "SETCHARA", "0", "char_00008101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「私の本当の願い……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022770003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「それならカツマを抵抗できないようにしてほしい。……いや、カツマが私だ\nけを愛するようにしてほしい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090022770004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「であれば私も……。はっ、だめです！　恋愛は一対一で誠意をもって行わな\nければ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010022770004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アーマーン" ]},
+		{"command":[ "SETTEXT", "「いいじゃないっすか～みんな一緒で～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022770005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016501_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ミイラ取りがミイラになってるから！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いやはや、今年のハロウィンもドタバタのち大嵐、ところによりサキュバス\nでしたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022770001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「冷静に話してないで助けてくれ～っ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……結局、４人は元に戻ったような、戻っていないような……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あいまいな状態のまま、日常生活に戻っていった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、ちゃんと確かめればいいのかもしれないが……怖くて出来ない」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「また、股間を伸ばされてはたまりませんからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022770002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれはお前の指示だからな！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "過激さを増していくＥＤＯ本部のハロウィンに、俺は早くも来年の１０月が恐\nろしくてたまらなくなるのだった……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

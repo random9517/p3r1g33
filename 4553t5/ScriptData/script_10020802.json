@@ -1,0 +1,427 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「――続いては、自由参加によるフリースロー勝負となります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113850001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001702_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「ご来場の皆様は、くれぐれも熱中症などにご注意の上、ご観覧下さい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113850002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「なお、具合が悪くなられた方は、すぐにお近くの教員へお申し出下さい。救\n護所までご案内致します」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113850003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "地域の皆様との親睦を図るため、一般市民も参加の球技大会を開催ってのは、\n今の立場上わからんじゃないし……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "案内係や雑用、競技の審判と、人手が要るのもわかるんだが……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "兎子" ]},
+		{"command":[ "SETTEXT", "「予備のボールはネット裏へ運んだのですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_050113850001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000505_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今やってる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ディアナ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃーん！　迷子はどこへ連れて行けばいいんだっけ～？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_040113850001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000604_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「学食だ学食！　あそこが迷子センター！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレイン" ]},
+		{"command":[ "SETTEXT", "「カツマぁ、腹減ったんだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_030113850001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000403_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ！？　ぶぶ漬けでも食ってろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なぜ、どうして、俺までこんな、休日に駆り出されなければならない……。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やってられるかーっ！！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー……ホントだりぃ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だいたいだな、この暑い最中に、わざわざグラウンドを走り回るなんざ、正気\nの沙汰じゃない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人、良いのですか、こんな場所で堂々とサボっておられて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「休日だぞ？　堂々と惰眠を貪るべき公休日なんだぞ本来は？　仕事なんざ中\n止だ中止」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はあ。それで堂々と、スマホで動画を視聴ですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「これはこれで観ておかないと、カグヤやエファがうるさいんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "人目を避けた木陰でやれること自体、限られているからな。仕方なしにだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「『こんな基本も観ていないのか』とか、『これを知らないなんて恥ずかしい\n』とか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「『隊長失格』『幹部の資格もない』とまで言われたんだぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「なかなかの人格否定ですなあ。教養として必須というわけですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どこがどう必須なのか、まずそこから教えて欲しいもんだぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何しろ今、興味もないのに眺めている動画は……こてこてのラブロマンスだか\nらなあ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もう３０年以上前に、一世を風靡したドラマらしいが。タイトルや劇中のセリ\nフが流行語にもなったとか。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わたくしも嫌いではありませんぞ、『１万年と２０００年前からのプロポー\nズ』」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ。お前も視聴済みかよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「はい。人生における愛の重要さ、その勉強になりました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやお前犬だろ――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご主人危ない！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の言葉半ばで叫んだジュンジローが、さっと伏せの姿勢を取り――。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ごはあっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何事かと気を取られた隙に、顔面へ思い切り何かがぶつけられた……痛いぞ地\n味に。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ってて……なんだ？　ボール？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "傍らに落ちて弾むサッカーボール。そして、少し離れた所からかけられる声。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「こら！　そんな所でサボっていないで、巡回ぐらいしなさい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あいつかよ……俺目掛けて、こいつを蹴ったのは？　良いシュートのコントロ\nール力だとは思うが。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺は今、熱中症で休憩中なんだ。少し熱を冷まさせろ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「またそんな嘘を。あなたがサボっている隙に、本物の熱中症患者が出たらど\nうするんですか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「それに、今ここへ敵襲でもあれば、一般市民も巻き添えになるんです。気を\n引き締めて下さい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「襲来者（インベーダー）も、こんなのどかな大会を邪魔するほど、野暮じゃ\nないと祈りたいなあ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "グラウンドの中央へ目を向ければ、爺様が孫と思しき少女と一緒になって、ド\nッジボールに参加している。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "誰も、本気で球を相手にぶつけるつもりがない。優しい球威でほとんどパスし\nているだけだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「勝ち負けではなく、スポーツそのものを楽しむ雰囲気ですなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その通りだな、主人の身を守るより先に自分の安全を確保した駄犬」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「はあ……まあ、学園長の方針ですからね。今日はのびのび、ゆっくりやれっ\nていうのは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「にしたって、だらけすぎるのもどうかと。人が足りないんですし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「その、人が足りないってのもなあ。頭数だけはやたらいるだろ、ここ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「かもしれませんけど。連絡がつかない人もいて」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "連絡がつかないって……所在不明？　俺より堂々とサボっている奴がいるのか\n？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「それが――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850007" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "って、あん？　なんだ？　あの爆音は。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「バイクの集団！？　そのまま校庭へ乗り込んでくるなんて、非常識な！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850008" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんだ、珍走団か？　にしても……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだあ、ありゃ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おっほー。これはまたなかなか、大胆な装いの皆様ですなあ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「鼻の下を伸ばすな駄犬。元々伸びているとしても」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「ああいうのは、破廉恥、というんです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850009" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ま、なかなかにセクシーな格好ではあるよな。下着の上に肩当てやら何やらと\n。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ふん。球技大会と聞いて来てみれば、なんて雑な闘い方……ヌルい！　ヌル\nすぎる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113850001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "？？？" ]},
+		{"command":[ "SETTEXT", "「ヌルい根性で、ヌルい競技の真似事など……そんなことで、厳しい婚活競争\nを生き抜けると思うな！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113850002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "塾生一同" ]},
+		{"command":[ "SETTEXT", "「イエス！　アイマム！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いやいやいや？　なんだ、あいつらは？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ヌルいを連発していた奴がリーダーで、残りはその手下ってところか。同じよ\nうな格好でずらりと乗り付けてきやがって。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ん？　んんー……くん、くんくん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あ？　この匂い……ご主人、あのリーダー格の人物、エファナティカ様では\nありませんかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113850010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ？　エファ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "珍しく鼻が利いたか駄犬。いやしかし……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「敬愛なるルナルバース１３世陛下も、何処（いずこ）からかご覧あれ！　あ\nたしたちは必ず陛下のように幸せな結婚をしてみせます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113850003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ホントにエファナティカかよ！？　何やってんだ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "姿が見えないと思ったら、球技大会の余興か？　にしたって……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "一般の皆様を前にして、その格好はないだろ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「エファナティカさん！？　連絡がつかないと思ったら、あなた一体何をして\nいるんですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113850010" ]},
+		{"command":[ "SETCHARA", "0", "char_00001602_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「気安く呼ぶな！　私は最強の婚活道場・純情塾の塾長である！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113850004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000311_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「あんたたちに『乱杰李威仏斗暴屡（らんじぇりい・ふっとぼうる）』での真\n剣勝負を申し込む！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113850005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……はあ？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「今、なんと……？？？？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「聞こえなかったのか？　あたしは最強の婚活道場・純情塾塾長である！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113850006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "繰り返されても意味がわからん。それに……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "純情……とは。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「あたしたちの婚活道の前に、ヌルい男女の交流は不要！　生涯の伴侶とは、\n闘って奪い取るもの！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010113850007" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "というか、そこまで婚活に拘っていたのかよ……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

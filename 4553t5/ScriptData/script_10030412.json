@@ -1,0 +1,189 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0184" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_011" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「隊長は、次元管理統制局にまた投獄されている……って聞いたけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「僕たちが案内されたのは、普通の応接室だった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「開けろ！　インクレディブル・スクワッドだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「ルナテミスが豪快に扉を蹴破り、僕たちはカツマ隊長と対面した」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「レディ・ホープ！　言われた通りタヌキ像をもってきた……ぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "統制局局員" ]},
+		{"command":[ "SETTEXT", "「ケーキが焼けましたよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020115200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00092801_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ、ありがとうございます！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "統制局局員" ]},
+		{"command":[ "SETTEXT", "「お茶のおかわりはいかがですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_MOB_020115200002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやぁ、すみませんねぇ。いただきます！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「またいきなり身柄を預かることになってしまい、申し訳なかったわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000609_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いえいえ。むしろこんな好待遇で迎えられるなんて、嬉しい限りですよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「てっきりまた牢屋にぶち込まれるかと思ってましたから」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「まあ、本来はそうしないといけないのですけど、カツマ隊長ですから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115200002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「特別……なんですよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115200003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうなんスか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「……コホン。カツマ隊長は重要人物ですから。傷つけるようなことはいたし\nません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115200004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「ＥＤＯの長官とも、今後カツマ隊長の身柄を預かる際には」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115200005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "レディ・ホープ" ]},
+		{"command":[ "SETTEXT", "「安全を第一にするようにと話をつけてあります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_090115200006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へぇ、長官がそんなことを、俺のために……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おい……貴様……ぁ……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ……なに、楽しそうにしている……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あれ？　姫様たち遅かったですね。一緒にお茶でもどうスか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「その光景に、僕も言葉を失ったね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「カツマ隊長がのんきに談笑していたのもそうだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「僕の両サイドから身体が震えあがるほどの殺気が放たれていたんだから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……あれ……？　姫様？　それにアナザーも……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、そんな青筋を浮かべて……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0192" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ルナテミス＆Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「……お前の罪を数えろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115200004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あんぎゃぁあああぁぁぁああぁぁっ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「……そのあとに起こったことかい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200007" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「それはとてもじゃないが僕の口からは語れない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「本当に……恐ろしい事件だったよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010115200009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "FALSE" ]},
+	    {"command":[ "DISPNAME", "FALSE" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_3_004.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+
+		{"command":[ "EXIT" ]}
+	]
+}

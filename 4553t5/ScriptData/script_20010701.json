@@ -1,0 +1,395 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここがあの超エリート校、鷹羽学園か……」", "NORMAL" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「潜入捜査の任務とはいえ、よくこんな学園の用務員になれたもんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は組織に命じられ、鷹羽学園に臨時の用務員として潜入任務をすることにな\nった。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "任務の内容は、この学園に眠るとされる『願いを叶える秘密の力』の調査だ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まずは学園長様に挨拶でもしとくか」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0127" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SETNAME", "風祭マユミ" ]},
+		{"command":[ "SETTEXT", "「あなたが新しい用務員？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_020021090001" ]},
+	{"command":[ "SETCHARA", "0", "char_00015902_01", "3", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はい。短い間ですが、よろしくお願いします」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "風祭マユミ" ]},
+		{"command":[ "SETTEXT", "「……問題を起こさないことと、真面目に仕事をすること。この二つをしっか\nりと守りなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_020021090002" ]},
+	{"command":[ "SETCHARA", "0", "char_00015902_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "風祭マユミ" ]},
+		{"command":[ "SETTEXT", "「業務については、宿直室にマニュアルが置いてあるわ。隅々まで読んで、内\n容を理解しておいて頂戴……他に質問はあるかしら？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_020021090003" ]},
+	{"command":[ "SETCHARA", "0", "char_00015902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「質問といいますか……学園の構造を把握したいので、見回りも兼ねて軽く視\n察をしたいのですが、大丈夫でしょうか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "風祭マユミ" ]},
+		{"command":[ "SETTEXT", "「別に構わないわ。ただし、生徒たちは授業中よ。見回りをするにしても、静\nかに行いなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_020021090004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "風祭マユミ" ]},
+		{"command":[ "SETTEXT", "「それと、不審な点を見つけたり、なにか問題が起こったら、すぐ私に連絡を\nして頂戴」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_159_020021090005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかりました。なにかありましたら、すぐに連絡させてもらいます」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんかお堅い感じのする学園長だな……", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まあいいや。見回りの許可も貰えたし、秘密の力について調査するか", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0126" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「広い学園だな。何処を歩いてるのか、わからなくなってきそうだ」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それにしても、願いを叶えるほどの力ってなんなんだろうな……」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「……………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090001" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ん？　なんだあの生徒。今は授業中のはずなのに、出歩いてるぞ？」", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、そこのキミ。こんなところでなにをしてるんだ？　今は授業中のはず\nだろ？」", "NORMAL" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「何処でなにしてようと、あたしの勝手だろ。っていうか、お前誰だよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090002" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺は今日からこの学園の用務員になったモンだ。なにかあったら学園長に報\n告しろって言われてるから、こうして見回りを……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「教師でもないクセに、あたしに指図すんなよな。こっちは探し物してんだか\nらさ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こ、こいつ……！　大人な身体してるくせに、中身はガキじゃねぇか……！", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いかんいかん。ここで問題を起こしたら、学園長に怒られちまうな。\nここは穏便に……", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「探し物なら、俺も手伝ってやろうか？」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「ふんっ。誰もお前の助けなんて求めてねぇよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090004" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、ちょ……！　行っちまった……」", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「見るからに不良っぽかったし、サボりみたいなもんかな……っていうか、こ\nんなエリート校にも不良って居るんだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっと、あんな奴のこと考えてる場合じゃないな！　さっさと調査をしない\nと、日が暮れちまう！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その夜、俺は夜間警備と調査のために、再び学園内を歩き回ることにした。", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0128" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_006" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……この時間なら誰も居ないし、人目を気にせずに調査ができる……ん？」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「……………………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090005" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "0", "CENTER", "0" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ！　お前は昼間の不良！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「なっ……！？　どうしてこんな時間におっさんが居るんだよ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090006" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっさんじゃないし、俺はここの用務員だ。それと今は夜間警備の時間だ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それで？　お前はなんでこんな時間に学園に居るんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「そ、それは……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いくら生徒と言えど、学園に忍び込むのは不法侵入だ。このことは学園長に\n報告させてもらうぞ。お前、名前は？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「薬師丸泉だ……なあ、頼む……！　学園に忍び込んだこと、黙っててくれね\nぇか……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090008" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……なにか理由でもあるのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「おっさんは来たばっかりだから知らねぇだろうけど、この学園には願いを叶\nえてくれる秘密の力ってのがあるらしいんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090009" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「願いを叶える力……！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんでこんな不良が、力のことを知っているんだ！？　もしかしてこいつ、\n別の組織のエージェントなのか！？", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "だが、エージェントにしては無防備すぎる……一体、なにが狙いなんだ……\n！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「とはいえ、よくある七不思議みたいなモンだけどな。あたしも詳しくは知ら\nねぇんだけど……本当に存在するなら、絶対手に入れたいんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090010" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……仮にその力って奴が実在したとして、お前はそれを手に入れてどうする\n気なんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「復讐したい奴がいるんだ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090011" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「復讐するために力を求めてるのか？　気持ちはわからなくはないが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「力じゃない！　私はそいつの居場所が知りたいんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090012" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……詳しく話を聞いてもいいか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「あたしは生まれてからずっと、母さんと二人で過ごしてきたんだ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090013" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「母さんはあんまり身体が強くなかったけど、パートをしながらあたしを育て\nてくれた……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090014" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「でもこの前、店が忙しいからって理由で、休みなしで出勤させられて……そ\nしたら仕事中に母さんが倒れて、そのまま……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090015" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど。過労で倒れて亡くなったと……それでお前は、その店の店長に復\n讐したいんだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「勝手に母さんを殺すんじゃねぇ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090016" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ち、違うのか！？　話の流れからそんな感じかと……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「過労で倒れたのは事実だけど、暫く療養したら元気になって、今も普通に働\nいてるよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090017" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「しかも時給も上がってボーナスも出て、ちゃんと有休も取れるようになった\nんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「待遇改善されてるじゃないか……一体なにが不満なんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「あたしが許せないのは、労働基準法を守らなかったクソ店長だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090019" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「あのクソ野郎に一発食らわせてやろうと思ったのに、責任取って店を辞めた\nらしくて、居場所がわかんねぇんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090020" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんな不祥事起こせば、責任も取らされるだろ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「だからあたしは秘密の力って奴を使って、あのクソ店長の居場所を見つけて\n、復讐してやるんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090021" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなこじんまりとした復讐のために、あるかどうかもわかんない力を求め\nてるとか、すごい行動力だな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こりゃエージェントとかじゃなくて、ただの単細胞な女学生って感じだな", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「理由はわかったが、不法侵入なのに代わりはないしなぁ……」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_007" ]},
+		{"command":[ "SETNAME", "サキ" ]},
+		{"command":[ "SETTEXT", "「……あなたも、願いを叶える力を狙ってるの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_139_010021090001" ]},
+	{"command":[ "SETCHARA", "0", "char_00013901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だ、誰だ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「な、なんだお前！？　どっから入ってきた！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090022" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サキ" ]},
+		{"command":[ "SETTEXT", "「さっきの話、聞かせてもらったわ。でも、ごめんなさい。私も力が必要なの\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_139_010021090002" ]},
+	{"command":[ "SETCHARA", "0", "char_00013901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「なんでお前、力のことを……！　いや、んなことどうでもいいや！　とりあ\nえず、部外者が出しゃばってんじゃねぇよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090023" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サキ" ]},
+		{"command":[ "SETTEXT", "「喧嘩はあまり好きじゃないけど、私の邪魔をするのなら容赦はしないわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_139_010021090003" ]},
+	{"command":[ "SETCHARA", "0", "char_00013901_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "泉" ]},
+		{"command":[ "SETTEXT", "「それはこっちのセリフだ！　おい、おっさん！　とりあえず話はあとだ！　\nまずはこの不審者を片付けようぜ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_138_010021090024" ]},
+	{"command":[ "SETCHARA", "0", "char_00013801_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だから俺はおっさんじゃ……！　まあいい。不審者退治も仕事の内だからな\n！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

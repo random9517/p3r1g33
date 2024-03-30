@@ -1,0 +1,267 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「とりあえず、昨日なにか変わったことがなかった？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「変わったことねぇ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「あたちたちは買い物をしていたんだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「買い物。どこに？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「どこって、店を何軒もまわったね。服屋、雑貨屋、ホームセンター……あと\n食料品も買ったし……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうそう。で、荷物は全部俺が持ったんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「荷物持ちとして呼んだんだから当然だろ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまけに、保育園のチラシまで持たされたぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「待ちな、そのチラシを受け取ったのはあんたじゃないか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「保育園のチラシ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010003" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、これだこれ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は昨日履いていたズボンからくしゃくしゃになったチラシを取りだして見せ\nた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「あんたねぇ、昨日のうちにちゃんと洗濯しなよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「洗濯は今朝するつもりだったんだよ！　でも、よかっただろ？　昨日の証拠\nが捨てられず残ってたんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「まあそうだけどさ……。あ、そういえばチラシをもらった後に、妙な感じが\nあったよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、そういえばそうだったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「おっ、それは有力情報かもしれないね。ぜひ詳しく聞かせてくれないかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010004" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんというか、ぐらっときたというか、なにかを吸われた感じが……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「へぇ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「もしかして、あのときになにかされたんじゃないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だな。考えられるとしたらそれしかねえ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっとふたりとも、まだそうと決まったわけじゃないだろう？　ま\nずは僕の推理を……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010006" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「チラシに保育園の住所とか書いてないかい？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ばっちり書かれているな。きっと、この場所に行けば俺たちをこんな姿にし\nた犯人がいるに違いない！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「そ、そうだね。僕もそう思うよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010007" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし、さっそく出発だ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待ちな！　あんたその格好で行くつもりかい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あっ、そうだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さすがに普段寝ているときの格好のまま、街を歩くわけにはいかないが……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ちょっと待て！　この身長で着れる服がないぞ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "子どもサイズの服なんてもってるわけがねえ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにか手はないか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「しかたないねぇ。あたちのお古でいいなら着せてあげるよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、お前の服を！？　それって……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もしかしなくても、いまエファナティカが着ているようなデザインラインだよ\nな……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なあ、他にないのか？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「つべこべ言ってないで着るんだよ！　ほかに着るものはないんだから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "小さくなってもエファナティカはエファナティカのままだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は無理やり着替えさせられ、犯人がいるであろう保育園がある場所へと出発\nすることになった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0027" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「エファナティカのお古を着せられたのはいいが、軽くメイクまでされるとは\n聞いてねーぞ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「まあまあ。元の姿ならまだしも、若返っているおかげでちょっとメイクすれ\nば本当に女の子みたいだよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010008" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それは褒められてるのか……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それにしても、この道どこかで……って、あの建物は！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「どうしたんだい、そんな大声をだして」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、あの雑居ビルは時間帝国が運営する塾があった建物なんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "鳳雛" ]},
+		{"command":[ "SETTEXT", "「時間帝国ってそんなことしてたの？　なんでまた」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_079_010023010009" ]},
+		{"command":[ "SETCHARA", "0", "char_00007901_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「それはメインストーリーを参照してくださいませ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010023010001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「でもこれで今回の騒動が時間帝国がらみだってはっきりしたね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010013" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「まったく、いったいなんのつもりだか知らないけど、とにかくそのたくらみ\nをぶち壊すよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010023010014" ]},
+		{"command":[ "SETCHARA", "0", "char_00000316_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

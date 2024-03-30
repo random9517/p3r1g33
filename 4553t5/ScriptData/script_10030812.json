@@ -1,0 +1,199 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0160" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そもそもおかしいと思ったんだよ！　この俺があま～い学園生活だぁ！？」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「世間は上司のパワハラと大量の書類と胃に穴が開くストレスばっかなんだぞ\n！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んな夢はとっくに犬の餌にでも混ぜて食わせてんだよ！　舐めるな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「ジュンジローになに食べさせてるっちゃ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115760001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、前にもこんなことあったような……。だが、そういうのはみんな夢や\n妄想なんだよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「甘い生活は死んだんだ。いくら呼んでも帰ってはこないんだ。もうあの時間\nは終わって、俺たちも人生と向き合う時なんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「し、死んでなんかないっちゃ！　むしろこれから産むんだっちゃ！　これか\nらはじまるんだっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115760002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "全て思い出した俺がまりあ相手に愚痴っていると、急に地鳴りがした。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ、地震か！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ふと顔をあげると、空にヒビが！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、雷のような轟音とともに、ドラグソードが姿を見せた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ドラグソード！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カグヤさん！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115760003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ドラグソードの肩にカグヤが乗っていた。いつになく険しい表情で。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「まりあ……！　抜け駆けは、許さない……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115760001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おいカグヤ落ち着け！　助けに来てくれたんだよな！？　俺たちを、こ\nの変な時空から……！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "時空の壁をぶち壊して登場したドラグソード。その向こうの校庭にはルナテミ\nスたちの姿も見える。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「いたぞ！　カツマだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010115760001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「カツマ！　こっちだ！　はやくその世界からもどってこい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090115760001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「よし、帰るぞ。まりあ……」", "NORMAL" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まりあの手を取ろうとしたが、バチッと強烈な静電気のようなもので弾かれて\nしまった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さっきも見たが、まりあがビリビリと帯電している。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさんは渡さない。カツマさんとのあま～い生活も渡さない……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115760004" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「Ｖやねんだっちゃぁあああぁぁぁ～～～～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115760005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なっ、なんだ！？　まりあが巨大化した！？", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうなってるんだよ！　どうしていきなりまりあが巨大化するんだよ！　な\nんで巨大化できるんだよ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "目まぐるしく変化する状況にツッコミが追いつかない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「そういうことか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115760001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うおっ、いきなり現れるなよサイレーン」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「どうやら、古時計の力で巨大化した……のかな？　あと、愛の力とかそのへ\nん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115760002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おまえ、そういう非科学的なことって嫌いじゃなかったか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「だって目の前で起きちゃってるんだから仕方ないだろう。認めざるをえない\nじゃないか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115760003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「いくらまりあ時空の主だからって、ここまでやりたい放題できるなんて、ボ\nクも想定していなかったよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115760004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだよまりあ時空って」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "サイレーン" ]},
+		{"command":[ "SETTEXT", "「この世界の名前だけど？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_022_010115760005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あまりにもストレートな名前に俺が呆れている一方で、カグヤとまりあは一触\n即発の雰囲気となっていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「まりあさんが相手でも、手加減しない。力ずくでもカツマを返してもらう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115760002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさんは渡さないっちゃ。この世界で、わたしとずっと幸せに暮らすん\nだっちゃ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115760006" ]},
+		{"command":[ "SETCHARA", "0", "char_00001405_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

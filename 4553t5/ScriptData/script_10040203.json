@@ -1,0 +1,184 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0108" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「……『外でお茶する』と、あなたさっきそう言いましたよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。緑茶のホットでよかったよな？　買ってきたぞ。あと、焼団子も」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「だからそういう問題ではなくてですね！　普通お茶すると言ったら競艇場で\nはなく喫茶店とかで――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、でも、ここいろいろ売ってるし……お茶もあるし……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「はぁ……もういいです。まったく、あなたは変わりませんね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「変わらない……？　いま、ウチ、そう言いましたか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。そう聞こえたけど……どうかしたのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「なぜ『変わらない』とわかったんでしょう？　あなたと競艇場に来たことな\nんか、なかったはずなのに……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そういや、来たことはなかったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ウチがハルノブになる前は？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……？　あー……それは……やっぱり来たことはないけど。でも、俺が暇\nさえあればここに来てることは知ってたはずだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「そう……ですか……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やっぱり、記憶のことで悩んでたのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「……まあ、そうです。自分がオボロだった頃のことが、どうしても思い出せ\nません。それなのに、あのＡ・オボロを見ると――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「頭がもやもやするです。どうもにはっきりしない、嫌な気分……自分がどち\nらなのか見失ってしまいそうな、不快な感覚……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "5", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「とにかく、そういうことです。でも、こんなことアナタに相談したところで\n――」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハイッパーマッポーサムライ" ]},
+		{"command":[ "SETTEXT", "「そうだ！　カツマに相談してもなんにもならぬ！　そういうときこそ、拙者\nに相談するがよい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020116550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なぬ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「その声は！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハイッパーマッポーサムライ" ]},
+		{"command":[ "SETTEXT", "「話は聞かせてもらった！　ハルノブよ、そんな時こそ特訓だ！　特訓特訓ま\nた特訓！　８時までに全員集合！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020116550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにが言いたいんだアンタは」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハイッパーマッポーサムライ" ]},
+		{"command":[ "SETTEXT", "「ええい面倒なり！　とにかく黙って二人ともついてくるがよい！　ワッショ\nーーーーーイ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020116550003" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ちょ、ちょっと！　放してください！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110116550012" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんで俺まで連れて行かれるんだ！？　ちょっと待て―っ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハイッパーマッポーサムライ" ]},
+		{"command":[ "SETTEXT", "「特訓だ特訓だぁーっ！　わーはーっはっはっはっは！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_145_020116550004" ]},
+		{"command":[ "SETCHARA", "0", "char_00014502_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「俺は関係ねえだろ！　放してぇ～～～っ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「――って！　カツマさんまで連れて行かれちゃったじゃない！　どうするの\nよ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010116550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「協力を頼む相手を間違えた……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「っていうか、無理やり連れてこられたわたしはどうすれば……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010116550001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「とにかく、カツマさんたちを追うわよ！　つきみも付いてきなさいっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010116550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「はぁ……もう……時々姉ちゃんの考えてることがわかんなくなるよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010116550002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001201_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

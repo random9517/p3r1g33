@@ -1,0 +1,301 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0041" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "時間帝国のスパイという濡れ衣を着せられた俺は、逃亡生活を続けていた。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さすがにロッテとクララを連れて逃げるのは目立ちすぎるし、ふたりとは別行\n動をしている。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しかし……いったいいつまでこんな生活を続ければいいんだ……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ＥＤＯの包囲網から逃げ続けるにもそろそろ限界だ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ああ、風呂に入りてぇ。着の身着のまま逃げ続けているから、服や戦闘スーツ\nが臭くなってきた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「みつけましたよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しまった！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の前に現れたのはよりによってハルノブだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「く、くるな！　俺は違う！　俺はスパイなんかじゃない！　信じてくれハル\nノブ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ハルノブ……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「お兄ちゃん、みつけました！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「まったく、心配……なんか、してないけど！　でも……心配させて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ロッテにクララも！？　どうなってるんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「それについては後で話します。ウチについてきてください」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、先に答えてくれ。お前は俺をどうするつもりなんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「……別に、他の幹部のように貴方をつかまえるつもりはありません」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ロッテ" ]},
+		{"command":[ "SETTEXT", "「ハルノブさんはロッテたちを助けてくれたの！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_157_010115300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015704_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クララ" ]},
+		{"command":[ "SETTEXT", "「みんないるから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_158_010115300002" ]},
+		{"command":[ "SETCHARA", "0", "char_00015804_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだって！？　それは本当か！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「あまり大声を出さないでください。それよりどうするんです？　ウチについ\nてきますか？　きませんか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……わかった」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0000" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "ハルノブもメカカツマの催眠術にかかっているはずだが、俺はハルノブのこと\nを信じることにした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "罠の可能性も十分ある。しかしメカカツマの催眠術はロッテとクララには効か\nなかったはずだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ふたりが大丈夫そうなら、きっと信じていい。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0136" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]}, 
+		{"command":[ "SETTEXT", "ハルノブについていくと、地下の隠れ家へと案内された。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ｏ．Ｅ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃん！　無事だったのね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_111_010115300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00011101_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｍ．Ａ．Ｍ．Ａ" ]},
+		{"command":[ "SETTEXT", "「も～、心配したわ～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_212_010115300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00021201_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「Ｍ．Ｏ．ＥにＭ．Ａ．Ｍ．Ａ！　おまえらも無事だったか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ハルノブの隠れ家に集まっていたのは、Ｍ．Ｏ．ＥやＭ．Ａ．Ｍ．Ａだけでな\nく、ロボットやメカの仲間たちだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「本部の車庫で、スリープ状態になっていたのよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300001" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ミヤビ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「まったく、またアーリーボディのふたりに無茶させたわね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「ロボットを優しく扱えないような男にはきっついお説教が必要だけど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「今回だけは大目に見てあげるわ。非常事態だったんでしょ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだ！　あいつが、メカカツマが！　催眠術で！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「そうみたいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300005" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「ロッテとクララの記憶を分析した結果、メカカツマは催眠術で相手に自分が\nカツマだと思わせてたみたい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「相手の記憶の中にあるカツマと入れ替わっていたのよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなことをしていたのか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「だけど、有機生命体に効果はあっても、私たちみたいなロボットには効果が\nなかったみたいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほどな……って、お前らに効果がないのはわかったが、ハルノブ、お前\nはどうなんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前はあいつの催眠術にかかっているはずだよな？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「催眠術にかかっているかはわかりませんが……ただ、ウチはあのカツマの匂\nいが気に入らないのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「それよりは、貴方の匂いの方が……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ずいっと身を寄せたハルノブがすんすんと鼻を鳴らす。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「……っ！　くっさい！　臭すぎです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「しょうがないだろ！　こっちは逃亡生活で風呂にすらまともに入れてないん\nだからな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「だっ、だからってこんな……っ！　くぅう……鼻がまがりそうです……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ま、まあとにかく！　ウチはあのカツマが気に入らないので、あなたの側に\nつくことにしたんです！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300010" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうなのか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「聞くところによると、ハルノブはアンタの記憶がないらしいじゃない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300009" ]},
+		{"command":[ "SETCHARA", "0", "char_00021301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミヤビ" ]},
+		{"command":[ "SETTEXT", "「だから催眠術が効かなかったんだと思うわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_213_010115300010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「う……くぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300011" ]},
+		{"command":[ "SETCHARA", "0", "char_00000511_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なるほど……って、どうしたんだハルノブ。もしかして、俺が臭すぎて頭が\n痛くなったとか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルノブ" ]},
+		{"command":[ "SETTEXT", "「ば、バカなこと言ってるんじゃねーです！　なにか……くぅ、この臭いに覚\nえが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_110115300012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の臭いが、ハルノブの記憶を刺激したっていうのか？　ん？　待てよ……？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ひらめいた！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

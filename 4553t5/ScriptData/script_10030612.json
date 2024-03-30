@@ -1,0 +1,337 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「……ふぅ。どうやら楽しい時間はここまでのようだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ここまでって、どうしたんですか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「時間帝国はトキノさんのことを狙っているんですから逃げないと」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "トキノ" ]},
+		{"command":[ "SETTEXT", "「逃げる必要などない。なぜなら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「私こそ、刻の女王なのだからな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な……っ！　え……っ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "驚きのあまり声が出ない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんな……トキノさんが、刻の女王……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ど、どういうことだ！？　俺を騙していたのか！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「結果としてはそうなってしまった。カツマよ、騙すようなことをしてすまな\nかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460004" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "トキノさん……いや、刻の女王は、あまりにもあっけなく頭を下げたのだった\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうなると、俺も強く責めづらい。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「お前の母として、無性にお前に会いたくなったのだ。ゆえに、このような行\n動を起こした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「エファナティカたちにも面倒をかけたな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「ああ、いえ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「女王様が元に戻られたのなら、それでよしです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019402_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「カツマ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460007" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なんだ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おもむろに近づいた刻の女王が、俺のことを抱きしめる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ほんのり甘い匂いのするやわらかい肢体に包まれ、たわわなバストが胸板に押\nしあてられる。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "その感触に、俺は言葉を失っていた。ほんの数秒の抱擁が、永遠かのように感\nじられた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「親子デート、楽しかったぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460008" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ……ああ……その……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺から離れた刻の女王に、質問を投げかける。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ひとつ、教えてくれ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「なんだ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どうして、俺のそばまでやってきたのに、俺を連れて行こうとしなかったん\nだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前たちの目的は、俺を連れていくことじゃないのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「そうだな。だが、力づくは私の望むところではない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「力づくで息子を手に入れたという歴史は、私たち時間帝国の定める“正しき\n時の流れ”にあるべきものではない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460011" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「ゆえに私は、お前が私の元へくることを待つのだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460012" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「なに、じきにわかる。カツマは私の元へ来るべきだということがな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460013" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「さっきから、好き放題言って！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「カツマさんは渡しません！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "カグヤとまりあが刻の女王へ向かっていく。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「このチャンス、逃さないよ！　生きて帰すわけがないだろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「そうだ！　この偽物め、今日こそぶっとばす！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ダイヤナちゃんだって、いいとこ見せるんだから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「はぁあっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460014" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "向かってくる幹部たちに向かって、刻の女王が手をかざす。それだけで全員が\n吹き飛ばされた。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「みんな！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「なんて力……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010115460002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「まったく……めちゃくちゃだよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010115460002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「命を奪うつもりはない。皆の者、帰るぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460015" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「か、帰るのですか！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115460002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「お言葉ですが女王様、いまこそ、彼らを倒す絶好の機会かと……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010115460002" ]},
+		{"command":[ "SETCHARA", "0", "char_00019402_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「私が帰ると言ったら帰るのだ。それに、お前たちはその珍妙な格好で戦うつ\nもりか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460016" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「えっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115460003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000314_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "クロートー" ]},
+		{"command":[ "SETTEXT", "「ち、珍妙……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_194_010115460003" ]},
+		{"command":[ "SETCHARA", "0", "char_00019402_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そのとき、時間帝国のやつらは同じことを考えていたに違いない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "彼らの中で、一番珍妙な格好をしているのは、ほとんど裸同然の刻の女王だ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「それはそれとして、私の逢瀬を邪魔したお仕置きは受けてもらうからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460017" ]},
+		{"command":[ "SETCHARA", "0", "char_00020102_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000411_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ラケシス" ]},
+		{"command":[ "SETTEXT", "「そんな～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_195_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019502_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アトロポス" ]},
+		{"command":[ "SETTEXT", "「アーちゃんたち、女王様が心配で地球までやってきたのに～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_196_010115460001" ]},
+		{"command":[ "SETCHARA", "0", "char_00019602_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "sbg_0202" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「では、カツマよ。またいずれ会おう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "刻の女王" ]},
+		{"command":[ "SETTEXT", "「さらばだ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_201_010115460019" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "そう言って、刻の女王は幹部をつれてワームホールに消えていった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ……なんなんだ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "採石場には呆気にとられたままの俺と、幹部たちが残された。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "FALSE" ]},
+	    {"command":[ "DISPNAME", "FALSE" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_3_006.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+
+		{"command":[ "EXIT" ]}
+	]
+}

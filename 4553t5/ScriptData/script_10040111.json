@@ -1,0 +1,237 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「はーっはっはっは！　どうした、インクレディブル・スクワッド！　歯ごた\nえがまったくないではないか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「まったくだ！　こんなもんでへたばるとはな！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「くっ……！　腰さえ痛くなければ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「ダイヤナちゃんのセクシーな太ももが筋肉痛なんて……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「みんな！　しっかりして！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいおいおいおい！　いったいどうしたんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「隊長！　みんなが……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116490002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "昴のまわりで、なぜかみんなが倒れ込んでうめいている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「これは……いったいどういうこと！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「すまない……私たちはもう、限界だ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだって！？　あいつらに何をされた！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「はーっはっは！　知りたくば教えてやろう！　実はな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100116490002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「実は……？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「……我らにもわからん！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100116490003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんじゃそりゃ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「てか、こっちが聞きたいわ！　出てきたときからヘロヘロ状態だわ、戦闘が\n始まる前にみんな勝手にバタバタ倒れるわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080116490002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんなんだよ、そりゃ！　姫様！　いったいどうしたんです！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「き、筋肉痛だ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「筋肉痛！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「それに……あたまボーっとしゅるぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010116490002" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「頭！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "グリムロック" ]},
+		{"command":[ "SETTEXT", "「フフフフフ……原因は明らかに……昨日までの過重労働」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「過重労働～！？　……あ！　わかった！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「どういうこと？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ほら、こいつら昨日まで、昴が来たからって妙に張り切って仕事とか勉強と\nかしてたろ。普段ろくにやらないくせにさ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「あ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010116490002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「なるほど……慣れないことをするから、筋肉痛になったり知恵熱を出したり\nで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010116490002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「この始末ってわけだよ、まったく！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「そ、そんな……！　私はただ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116490003" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、いいんだ。昴のせいじゃない。ただこいつらが、勝手に調子に乗った\nだけだから」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "などと話していると、突然背後から……", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「あれ？　カツマ？　なんでここにいるの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「セレーナ？　おまえこそ、そんなとこでなにを――」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "修羅姫" ]},
+		{"command":[ "SETTEXT", "「って！　なぜセレーナがここにいる！？　敵の背後に回るはずだろう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ガンシスター" ]},
+		{"command":[ "SETTEXT", "「修羅姫もでしょ！？　セレーナは９時方向、修羅姫とわたしは３時方向から\n回り込んで――あれ！？　わたしもなんでここに！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_013_010116490001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001301_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「３人とも方向全然違う！　しかも味方の背後に回り込んでどうするの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116490004" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だめだよー！　この脳筋トリオにそんな複雑な指示出しちゃー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "まりあ" ]},
+		{"command":[ "SETTEXT", "「つきみ……！　お姉ちゃん情けなくって涙出てくるわ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_014_010116490003" ]},
+		{"command":[ "SETCHARA", "0", "char_00001401_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「わははは！　なんだか知らぬが敵は混乱しておる！　チャンスだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100116490004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「兵士たち！　襲来者たち！　ヤツらを一気に叩き潰せ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080116490003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うおっと！？　あーもう、しょうがねえ！　昴！　とにかく時間帝国のヤツ\nらをどうにかするぞ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "クロノスストライダー・昴" ]},
+		{"command":[ "SETTEXT", "「わ、わかった！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_268_010116490005" ]},
+		{"command":[ "SETCHARA", "0", "char_00026801_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

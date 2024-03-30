@@ -1,0 +1,445 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_02" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふふっ、お仕置きの時間だよ、隊長ちゃん♪　あはっ、その驚いた顔、ド\nキドキしちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104101" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「いきなり押し倒されるなんて、思ってなかったんでしょ－？　でも、おちん\nちんは正直だよねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104102" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「もう、期待してこんなに元気……ビクビク震えて、ピコさまのアソコ……オ\nマンコに入りたそうにしてるよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104103" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ほら、ちょっと腰動かして……んふぅっ、クチュッて先っぽがこすれただけ\nで、気持ちよさそうに震えちゃってるぅ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、ピコさまの中に入りたい？　きついオマンコでぇ、おちんちん咥え\nて欲しいんでしょー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「おちんちん、ビクビクさせておねだりしてる。あはっ、どうしようかなぁー\n、うーん……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104106" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_01" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「なーんて……ここまでして焦らしてたら、隊長ちゃん、本気で泣いちゃいそ\nうだしぃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104107" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ちゃんとピコさまのオマンコで、気持ちよくしてあげるからぁ……おとなし\nく、おちんちん、いじめられちゃえ、あはぁ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「くふっ、はぁ、はんんぅっ、あはぁっ、きたぁ……太いおちんちん、ピコさ\nまの奥にくりゅっ、んくっ、はぁんんっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104109" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「はぁ、はんんぅっ、あはぁ……見えるでしょぉ？　隊長ちゃんの太いおちん\nちんが、ピコさまの窮屈なオマンコに全部入っちゃってるの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104110" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「キツキツのオマンコに食べられて、おちんちん、もう嬉しそうにビクビク震\nえてる……はふぅっ、止まらなくなってるぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「でもぉ、ダメだからね？　挿れたばっかりで、すぐ精液びゅーってしちゃう\nような情けないおちんちん、ピコさまは許さないし－」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104112" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「せっかくぅ、ピコさまがオマンコでよしよししてあげるんだからぁ、ちゃん\nと我慢して、気持ちよくなりなさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104113" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「んぅっ、ほらぁ、こうして……くふぁっ、はぁ、腰っ、凄くエッチに振って\nぇ……あはぁっ、はぁ、あんんぅっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104114" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ヌルヌルのオマンコで、おちんちん、いっぱいこすってあげる……太いおち\nんちん、こすって、締めて……あふっ、はんんぅ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104115" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、まだゆっくりだから、焦れちゃってるでしょぉ？　おちんちん、息\n苦しそうにビクビク震えっぱなしだし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あはっ、ダメ、もうちょっと我慢しないと……気持ちよくなれないでしょ。\nはぁ、はぁっ、んぅっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「お尻ぃ、隊長ちゃんの腰にこすりつけるみたいにグリグリ動いてぇ……んぅ\n、おちんちんの先っぽ、奥で撫で撫でしてあげる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ピコさまの子宮の入り口と、おちんちんの先っぽ、キスしちゃってるのわか\nるでしょ？　んぅっ、はぁ、くふぁぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「閉じてるところ、おちんちんでグリグリ、広げられるみたい……あは、これ\n気持ちいいかもっ、はぁ、くふっ、はぁ、はぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、先っぽから垂れてくるお汁、どんどん増えてきちゃってるね。早く\n出したいって、オマンコにぃ、子宮におねだりしてきてるぅ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104121" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あははっ、でも、まだダメぇー。もっともっと、焦れて切なくなってる隊長\nちゃんの顔、見せて？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、我慢できないならぁ、動いちゃえばぁ？　ピコさまは軽いし、隊長\nちゃんが本気出せばはね飛ばせるよー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「……できないでしょ？　カワイイ魔女のピコさまに責められてぇ、それで喜\nんじゃうよわよわおちんちんだもんねぇ、隊長ちゃんは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104124" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、情けなく喘いでる顔、カワイイ。ピコさまも見てるだけでドキドキ\nして、オマンコ疼くっ、はぁ、はんんぅっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あはぁっ、わかるでしょ？　オマンコも、このザコおちんちんをもっといじ\nめたくて、ギュッて締まっちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「息苦しくなっちゃうくらい締めてぇ、あはぁっ、はぁ、壁もうねうね動いて\n、搾り取るっ、はぁ、くふぁあっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「はふっ、んぅっ、ピコさまもお腹熱くてっ、そろそろほしくなってきちゃっ\nた……熱いのっ、もっと熱くてネバネバしたのぉ……くふぁあっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「エッチな声出してぇ、お尻、弾ませて……動くぅっ、オマンコで、思いっき\nりおちんちんしごいて、いじめるっ、あふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あはっ、はひっ、くううっ、いいよ、隊長ちゃんっ。ふくらんでる先っぽと\n子宮口、何度もキスして……んぅっ、くふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「そのたびにぃ、ピコさまも熱いお汁、いっぱい出てくりゅっ、エッチなお汁\nあふれて、オマンコから恥ずかしい音してるっ、はぁ、あはっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「くぅっ、んぅっ、はぁ、出そうになってきた？　んぅっ、おちんちんがビク\nビク震えてるから、すぐわかっちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104132" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、どうしようかなー、ここで動き止めてぇ……うんと切なそうにして\nる隊長ちゃんの顔、ちょっと見てみたいけどぉ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「んぅっ、はぁんっ、もう、ピコさまもほしい……いっぱいほしいからぁ、こ\nのまま動くっ、じゅぼじゅぼっ、動いちゃうっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「いいよ、出しちゃえ、隊長ちゃんっ。ピコさまにいっぱい責められて、おち\nんちんの先から、情けなくビュービューしちゃえっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「はひっ、んんぅっ、くりゅっ、あふうううううっ！　ふぁああっ、あぁ、熱\nいのきたぁ、ビュービューきたぁっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104136" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_07" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あはっ、ドロドロのお汁ぅ、ピコさまの子宮にかかってるぅっ、んぅっ、凄\nい……いっぱい、いっぱいきてりゅううっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「はふっ、くううっ、イッ……くぅっ、イク……はふっ、はぁ、あああっ、ダ\nメぇ……止まらないっ、はひぃいいいっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あはぁっ、もう入り口から精液あふれてきちゃってるぅ……隊長ちゃん、い\nきなり出し過ぎぃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ピコさまの子宮、臭い精液でいっぱいにしちゃうなんて……んぅっ、臭いが\n取れなくなっちゃいそぉ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104140" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_09" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「でも、まだまだ元気なまま。いじめられて気持ちよくなるの、クセになっち\nゃったんでしょー？　あはっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104201" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_08" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「おちんちんは、そうですってオマンコの中でビクビク震えっぱなしだよ？　\nカワイイ魔女にいじめられる虜になっちゃいましたって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104202" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「情けなくてカワイイ隊長ちゃん！　じゃあ、今度は焦らしたりしないで一気\nに責めてあげるからね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104203" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「えっ？　出したばかりで敏感だから、いきなり激しいとくすぐったい？　ふ\nふっ、それなら……ますます、してあげないとぉ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104204" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「こうしてぇ、思いっきり、お尻を弾ませてぇ……んふっ、くふぁあっ、うん\nと激しくっ、はぁ、はひっ、あふぁああっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104205" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_09" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「どうっ？　精液とオマンコのお汁でグチョグチョの中で、いっぱいおちんち\nんしごかれるのっ、はぁ、はんんぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104206" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あはっ、くすぐったい？　気持ちいい？　もう、言葉も喋られないくらい悶\nえて、腰浮かせちゃってるぅっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104207" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふっ、苦しかったら、ピコさまのこと止めてみればぁ？　魔法で邪魔した\nりなんてしないからぁ、力任せに止めていいよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104208" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「……しないよねぇ、だってぇ、隊長ちゃんはカワイイ、カワイイ、ピコさま\nにいじめられるの大好きなヘンタイおちんちんだもんねー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104209" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「んぅっ、そんな情けない顔で気持ちよくなってる隊長ちゃん、本当、カワイ\nイ……あはぁ、ピコさまもぉっ、感じるぅっ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104210" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「情けない隊長ちゃんのおちんちん、硬くて太いヘンタイおちんちんでぇ、オ\nマンコ奥まで突いてぇ、もっともっとぉっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104211" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_10" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「そうっ、んくっ、子宮の中まで届いちゃうくらいっ、深くぅっ、はぁ、ひふ\nぁああっ、はぁ、もっとぉっ、もっとぉっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104212" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ほら、ほらぁっ、出しちゃえっ、もう我慢なんて無理なんだからぁ、またび\nゅーびゅーしちゃえっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104213" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_09" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ピコさまのオマンコでいじめられて、さっきよりいっぱい、さっきより濃い\n精液出してぇ、出しちゃえっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104214" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「んふっ、はぁ、あああっ、また先っぽふくらんで、んくっ、あぁ、子宮の入\nり口、捲れちゃうっ、くぅっ、ふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104215" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ヘンタイなのにぃ、ピコさまをこんなに気持ちよくしちゃう悪いおちんちん\n、いっぱい締めてお仕置きすりゅっ、んふっ、ふぁああっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104216" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「はぁ、んぅっ、ヌルヌルのぉ、蕩けちゃってるオマンコの壁でぇ、ちゅぱち\nゅぱっ、しゃぶるみたいにこすって……くぅっ、んんぅっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104217" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「くふぁあっ、はぁはぁ、もう限界でしょ？　ほら、出してぇ、ピコさまに精\n液を捧げなさいっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104218" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あはっ、カワイイ魔女のオマンコでぇ、精液全部搾り取られて、おかしくな\nっちゃえぇ、くぅっ、はんんぅっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104219" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「オマンコでも、外でもぉ、隊長ちゃんの好きなところに全部出してぇ、精液\n出してぇ、はひぃっ、くふぁあああっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104220" ]},
+		{"command":[ "WAITINPUT" ]},
+
+
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「んふううううっ、あはぁ、凄い、また中ぁ、オマンコの奥にぃ、熱いお汁ぅ\n、精液びゅーびゅーきてるぅううっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104301" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_13" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ピコさまの子宮ぅ、隊長ちゃんの精液でいっぱいにっ、はひぃっ、あはぁ、\nいっぱいになってイク……イクぅぅっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104302" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「凄いっ、んふっ、まだまだびゅーって出てぇ、精液、止まらなくなっちゃっ\nてるぅっ、はぁ、はひぃい……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104303" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_12" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あはぁ、ピコさまのオマンコが気持ちよすぎてぇ、隊長ちゃんのヘンタイお\nちんちん、壊れちゃったみたい？　はぁ、はふぅ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104304" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ほら、遠慮しないでぇ、もっと出しちゃえ。腰、揺さぶってぇ……イッてる\nおちんちん、まだまだこすってあげるからぁ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104305" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_11" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あははっ、気持ちよすぎて悶えてる隊長ちゃん、凄く素敵な顔……見てるだ\nけで、ピコさまもまたイッちゃいそぉ……はふぅっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104306" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ふふふっ、ピコさまのオマンコに屈服して、ビクビク震えっぱなしのおちん\nちん、本当、カワイイ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104307" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「最強魔女王候補のピコさまに勝てなくても、当然だし。別に恥ずかしくない\nから、そんなに顔、真っ赤にしなくてもいいのに～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104308" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「それともぉ……もっともっと気持ちよくなりたくて、そんな目でピコさまを\n見てるの？　ふふふっ、隊長ちゃん、本当にヘンターイ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104309" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「いいよ……このままもっともっと、ピコさまのお腹が精液でふくらんじゃう\nくらい、ビュービューしちゃえ……あはぁっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104310" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "JUMP", "END" ]},
+
+		{"command":[ "LABEL", "LABEL2" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ひゃうっ、あはぁ、おちんちん、抜けて……んんんっ！　ピコさまの身体に\n熱いのかかってぇ……はふううっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104401" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_16" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「顔にまで、臭い精液ぃ、いっぱいきて……んふっ、はぁ、隊長ちゃんの臭い\nで染められりゅっ、イク……くううううっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104402" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「ドロドロお汁ぅっ、おちんちん汁でべとべとにぃ……あはぁ……カワイイ、\nピコさまを精液塗れにするとかぁ、隊長ちゃん、ドヘンターイ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104403" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あふぅ、んぅ……精液塗れのピコさまを見て、おちんちん、また硬くしてる\nとか、本当……ヘンタイすぎぃ……はふぅ……」", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_15" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104404" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「んぅっ、ダメぇ……この鼻にツンってくる臭い……隊長ちゃんの精液の臭い\n嗅いでると、ピコさまも子宮疼いて、止まらなくなっちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104405" ]},
+		{"command":[ "SETIMAGE", "0", "still_00004001_02_14" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「もっともっと、隊長ちゃんが気持ちよすぎて泣いちゃうくらい、いっぱいオ\nマンコでいじめたくなっちゃう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104406" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「あは……ダメ、逃がさないから！　だってぇ、ピコさまの身体をドロドロに\n染めて、こんな気持ちにさせたの隊長ちゃんだしー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104407" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「責任取って、もっとピコさまにいじめられて、もっともっと気持ちよくなっ\nちゃえ。ふふふっ、ふふふっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104408" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「逃げたければ、ピコさまをはね飛ばしてもいいんだよ？　ほらほら、この小\nさいお尻をどかしてぇ、逃げちゃえば？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104409" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ピコ" ]},
+		{"command":[ "SETTEXT", "「しないよねぇ。だってぇ……隊長ちゃんのおちんちん、まだまだ物足りなさ\nそうに震えてるし……いいよ、もっとたーくさんいじめてあげる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_040_0104410" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

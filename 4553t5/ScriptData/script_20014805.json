@@ -1,0 +1,342 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0082" ]},
+		{"command":[ "DISPIMAGE","0", "TRUE" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},	
+		{"command":[ "SETTEXT", "ヒーローショーを終えて、俺は氷漬けから解放された。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "エロい女幹部のサプライズ参戦、ブルーのエロスーツ変身など、形はどうあれ \nショーは盛り上がったので、運営からはお礼を言われた。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "しかし、俺の身体はボロボロだ。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ぶぇっくし！　ちくしょー……夏だってのに体の芯まで冷え切っちまった… \n…」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「恥ずかしいスーツに変身させれば弱くなると思ったのに、脱いだ方が強くな \nるだなんてきいてねぇぞ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "じゃあ、普段の氷華はどれくらい強いんだろう。いや、オフのあいつがマスカ \nレードとしての力を使うとは思えないな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "あいつは、オンとオフの切り替えがはっきりしてるし。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「よっ、おつかれさん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "頬にぴたっと冷たいものが当たった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "振り向くと、ラムネを持ったほむらと、イグニスが立っている。ふたりとも水 \n着姿だ。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "1", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "0", "CENTER", "-300" ]},
+		{"command":[ "SETCHARA", "1", "char_00016705_01", "0", "CENTER", "300" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんでここに？　お前、予定があるんじゃなかったのかよ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「ヒーローショーがあるときいて、正義でも屋台を出していたんですよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_020023240001" ]},
+		{"command":[ "DISPCHARA", "1", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00016705_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ま、そういうこった。おまえらの話してた、氷華の恥ずかしい格好ってのも \n気になったしな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "にやにやと笑っているほむらを見て、本当はブルーの恥ずかしい姿を見るのが \n目的だろうと思った。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「というか水着で屋台をやってたのか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ああ。海だしな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240003" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「今年は私の分まで水着を用意してもらったのです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_020023240002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016705_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "胸など隠すには心もとない面積の布地。そして紐もイグニスの肉感にかかれば \n容易くちぎれそうだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「そんなにじっくりと見られると、恥ずかしいです……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_020023240003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016705_01", "5", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いやお前、ビキニアーマーとか着てただろ。あれと大差ないぞ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「気持ちの問題です。ビキニアーマーは鎧なので割り切って装備できますが、 \nこれはただのビキニですので……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_020023240004" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どこが違うんだよ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「こまかいこと気にしてんじゃねぇよ。そんな暇あるなら、気の利いたことで \nも言ってやれって」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240004" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「んぉっ、そんなラムネのビンを押しつけるな……ぐりぐりと……痛たたた… \n…」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ほむらからラムネをうけとり、あらためて水着姿のイグニスを見る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……でけぇ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "率直な感想が口から飛び出した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「だめだこりゃ。こいつに気の利いた言葉を期待した俺がバカだった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240005" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、似合ってるぞイグニス。だがな、その、いろんなでかいもんが目には \nいってだなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "イグニス" ]},
+		{"command":[ "SETTEXT", "「ふふふ、主殿に気に入ってもらえたのならなによりです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_167_020023240005" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00016705_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "あわててフォローする俺を、イグニスがにこやかな表情で見つめていた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "「なあ、マスカレードってみんなああなのか？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "ラムネを飲みながら、ほむらにステージでのことを話す。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ああって？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240006" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いや、スーツを脱いだ方が強い……みたいな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「あー……あのスーツは俺たちの力のリミッターみたいなもんだからな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240007" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「スーツが弱まれば力の制御は難しくなるし、燃費も悪くなる。だが、普段以 \n上の力が出せる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240008" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「俺が現役のころにも数回そんな場面があったな。自分からスーツを破って戦 \nったときには長官に大目玉くらったっけ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240009" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そうだったのか。というか、長官もアイテムの改造をするとき教えてくれて \nもよかったじゃないか！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「長官も忘れてたんじゃないか？　それか、燃費が悪くなるから結果として弱 \n体化すると判断したか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240010" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「デメリットありの強化フォームは、弱体化じゃねぇんだよなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「ま、そうだわな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240011" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "タコ乙女" ]},
+		{"command":[ "SETTEXT", "「あっ、隊長さん！　探しましたよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_030023240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00021903_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "そこへ、タコ乙女もやってきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "タコ乙女" ]},
+		{"command":[ "SETTEXT", "「隊長さん、聞いてください！　今回のショーが盛り上がったので」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_030023240002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "タコ乙女" ]},
+		{"command":[ "SETTEXT", "「また来月からもお仕事をもらえることになりました！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_030023240003" ]},
+		{"command":[ "SETCHARA", "0", "char_00021903_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "タコ乙女" ]},
+		{"command":[ "SETTEXT", "「隊長さんがブルーさんに相談してくれたからですよね？　ありがとうござい \nます！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_030023240004" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……ああ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "氷華に直接相談したわけじゃないが、まあ、そういうことにしておくか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "タコ乙女" ]},
+		{"command":[ "SETTEXT", "「このあと、打ち上げをしようかと思うんですけど、隊長さんもどうですか？ \n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_219_030023240005" ]},
+		{"command":[ "SETCHARA", "0", "char_00021903_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おっ、いいな。店は……正義でいいか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "ほむら" ]},
+		{"command":[ "SETTEXT", "「適当に決めんじゃねぇ。まあいいけど。あとで参加人数だけ教えろよな。料 \n理の準備とかしねぇとだし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_034_020023240012" ]},
+		{"command":[ "SETCHARA", "0", "char_00003404_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おう、よろしくな！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "「……そういうことでしたか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020023240001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「事情があるなら、先に相談してくれればいいのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020023240002" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「そんなに相談しにくいでしょうか、私って」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020023240003" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おーい、氷華ー？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「なんでしょうか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020023240004" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「このあと打ち上げらしいんだが、お前はどうする？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「オフのお前が、仕事でもない飲み会に参加するとは思えないが、一応……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「行きましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020023240005" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「たまにはいいでしょう。今回の件については、隊長にも言いたいことが山ほ \nどありますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020023240006" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そうか。じゃあお前も参加ってことで、正義にむかうぞ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		
+		{"command":[ "SETTEXT", "珍しく氷華も参加しての打ち上げは、いつも以上の盛り上がりをみせた。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,218 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「おまえたち、覚えてろよお……っ！　私の姫力、いつか見せつけてやるから\nなあっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010021260006" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "9", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「三下のやられ台詞みたいなの叫ばないで下さいよっ！？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "自分が属している組織の上司が、泣きながら負け犬の遠吠えをしていれば悲し\nくもなる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セラフィックスター" ]},
+		{"command":[ "SETTEXT", "「さて、それじゃあ静かになったことだし、続きをしちゃおっか！　……あれ\n？　何してるの、ミルラちゃん？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_090_010021260015" ]},
+		{"command":[ "SETCHARA", "0", "char_00009001_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「戦いも一段落しましたし、お茶にしませんこと？　良い茶葉がありますの」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260014" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつの間に持ち込んだのか、ミルラはティーセット一式を前に紅茶を淹れ始め\nている。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちゃっかりそのためのスペースも空けてやがる……。まあ、手伝ってもらっ\nてるし、休憩くらいはしてもいいけどよ」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「あ、良い匂い……です。花みたいな……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260018" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「ええと、その、ゆ、友人に振る舞うのでしたら、それなりのものを出さなけ\nれば、貴族として笑われてしまいますから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260015" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "何だかんだ言いながらも、ミルラも同じくらいの年頃の少女と親交を持てたこ\nとが嬉しいのだろう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セラフィックスター" ]},
+		{"command":[ "SETTEXT", "「あ、わたし、お菓子持ってるよ！　友達が焼いてくれたクッキーなんだけど\n、お茶請けにどうぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_090_010021260016" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00009001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "さくらがカバンから取り出したお菓子を見て、少女たちが歓声を上げる。それ\nなりに賑やかだが、悪い気はしないカツマであった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "（仲良きことは美しきこと……だな。翔生子の人見知りも、これで多少\nはマシになるだろ）", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セラフィックスター" ]},
+		{"command":[ "SETTEXT", "「そうだ、隊長さん！　お手伝いしてるんだから、わたしたちに何かご褒美を\nくれるんだよね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_090_010021260017" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあ？　なんだよそれ、聞いてねえぞ！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「まったく、こんな見目麗しい少女たちの助力を、無償で受けようだなんて、\n隊長さんは随分と考えが甘いのではなくて？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260016" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「わ、わたしは別に……ひゃあっ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260019" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "辞退の言葉を口にしようとした翔生子を、さくらが後ろから抱きしめて黙らせ\nる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セラフィックスター" ]},
+		{"command":[ "SETTEXT", "「ダメだよ翔生子ちゃん、ちゃぁーんと対価はもらわなきゃ！　あ、そうだ！\n　今度みんなで買い物行こうよ！　隊長さんも一緒に！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_090_010021260018" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00009001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "（ゆっ、友人と一緒に買い物……！？　これがリア充……！！）", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260017" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「買い物、いいですわね。隊長さんは荷物持ち、ということでよろしくて？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260018" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「へいへい、分かりましたよ。そのくらいなら安いもんだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セラフィックスター" ]},
+		{"command":[ "SETTEXT", "「やったー！　楽しみー！　あ、そうだ！　翔生子ちゃん、今度わたしのお友\n達も紹介するね。見た目ちょっと似てて驚くかもね？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_090_010021260019" ]},
+		{"command":[ "SETCHARA", "0", "char_00009001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「え？　似てる、の……？　うん、お買い物も、おともだちも、ちょっぴり楽\nしみ、です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260020" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミルラ" ]},
+		{"command":[ "SETTEXT", "「さくらさん、この辺りで良いお店の心当たりがあったら教えて下さる？　予\n定は早めに組んでおきませんと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_043_010021260019" ]},
+		{"command":[ "SETCHARA", "0", "char_00004301_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セラフィックスター" ]},
+		{"command":[ "SETTEXT", "「えー、気が早いなあ。さてはミルラちゃん、めちゃくちゃ楽しみにしてるで\nしょ？　可愛いなあ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_090_010021260020" ]},
+		{"command":[ "SETCHARA", "0", "char_00009001_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「会って日も浅いってのに、よくもまあ、あんなに仲良く出来るもんだ。　あ\nれが俗に言う陽キャってやつか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「でも、すごくいい人です、さくらちゃんも、ミルラちゃんも。それに……隊\n長さんも」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260021" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……お前も、もう少しくらいはわがまま言ったっていいんだぞ？　ウチの連\n中見てみろ、どいつもこいつも好き勝手放題だ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もっとも、幹部連中のようになられるのは勘弁して欲しいところだ……などと\nカツマが考えていると、翔生子に袖を小さく引っ張られる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「じゃあ、わたしもごほうび……いいですか？　あの、隊長さんが嫌じゃなけ\nれば、ですけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260022" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「いいぞ、仕事を手伝ってくれた礼なんだから、遠慮せず言え」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "カツマが促してみるが、翔生子は何故か頬を赤らめて俯いたままだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "2", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "（……そんな恥ずかしがるようなお願いなのか！？　一体何を……）", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「……にいさま、って呼んでも……いいですか？　嫌だったら、いいんですけ\nど……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260023" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "余りにささやかで可愛らしいお願いに、カツマは苦笑してしまう。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「それくらいならお安いご用だ。　……ただ、みんなの前ではちょっと恥ずか\nしいから、この部屋でだけな？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "翔生子" ]},
+		{"command":[ "SETTEXT", "「はい、にいさま。これからも、よろしくお願いしますっ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_011_010021260024" ]},
+		{"command":[ "SETCHARA", "0", "char_00001101_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いつかのように頭を撫でられて、翔生子は今度こそ、花咲くように微笑うのだ\nった――。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,169 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0117" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ？　カツマ？　起きて、カツマ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん……あ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「カツマ！？　目を醒ました、カツマ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「カグヤか……ああ。バッチリな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ここは……地球防衛機構の本部か？　元に……戻れたのか？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご安心下さいご主人、どうやらわたくしたちのよく知る場所のようです」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、ジュンジロー。そうか、戻ってこれたか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「まったく、情けない限りなのです。敵の攻撃を受けて三日三晩寝込むとは」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010108200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000501_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そんなにか？　そりゃ……悪かった」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「下僕の分際で、私たちまで巻き込んで。いい迷惑ですわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「だなあ。しばらく一緒にのびてたっていうのがまた悔しい話でさ、絶対やり\n返してやる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010108200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こいつらの方が先に目を醒ましたの、か？　俺と一緒に攻撃を受けたって話、\n本当だったのか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「その間の記憶が一切ないのも、心配なのよね～。変な寝言言ったりしてなか\nったかしら」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010108200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんだ、憶えていないのか？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「そうよ。ジュンジローちゃんはうっすら憶えてるみたいだけど」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010108200002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「申し訳ありません。具体的な事はわたくしめもとーんと記憶にございません\nで」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010108200002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……すっとぼけてやがるな、ジュンジローめ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "まあ……下手に「憶えてる」なんて言おうものなら、忘れるまで幹部全員から\n殴られそうだ……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「グレート・ルナリアムの幹部ともあろう者が、揃いも揃って恥ずかしい。陛\n下もさぞご立腹であろう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010108200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ルナルバースも一緒に寝ていた。案ずるな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090108200001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お。世話になったみたいだな、一応礼を言っておくぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「構わない。それにしても……グレート・ルナリアムの幹部は、仲の良い事だ\nな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090108200002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……やっぱりジュンジローの勧め通り、向こうに居座った方が良かったかなあ\n。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「敵襲！？　ったく、休む間もない」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「呑気に寝ていた分、働きなさいカツマ。あなたが率先して！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010108200004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「仕方ない、行くか」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カグヤ" ]},
+		{"command":[ "SETTEXT", "「そうね。さ、行こう――カツマちゃん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_002_010108200003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……え」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今あいつ……なんか、おかしな呼び方しなかった……か？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+	    {"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "false" ]},
+	    {"command":[ "DISPNAME", "false" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_1_008.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

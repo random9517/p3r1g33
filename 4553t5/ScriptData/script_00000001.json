@@ -1,0 +1,9 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEOUT", "NORMAL" ]},
+    	{"command":[ "PLAYMOVIE", "OVA_1_3.mp4" ] },
+    	{"command":[ "WAITMOVE" ] },
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,214 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0147" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ナレーション" ]},
+		{"command":[ "SETTEXT", "「こうしてッ！　悪は去ったッ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_999_010113540001" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ナレーション" ]},
+		{"command":[ "SETTEXT", "「ゴレイジョーとアクレイジョーの活躍により、平和は守られたのだったッ！\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_999_010113540002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ……。なんとかなったな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「そうですなぁ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "襲来者（インベーダー）と戦うことで、劇の内容は令嬢と悪役令嬢が手を組ん\nで悪を倒すというラストとなった。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "観客からは拍手喝采だったし、演劇は成功ってことでいいのかな？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「はぁ……。せっかく練習したのに」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000116_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「敵のせいでめちゃくちゃだわっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002403_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「うん、でも仕方ないよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001703_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「学園祭に被害が少なく済んでよかったよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00001204_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「はい、そうですね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000117_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まあなぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「結局、投票のことはうやむやになっちゃったね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020113540001" ]},
+		{"command":[ "SETCHARA", "0", "char_00002803_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そうですわ、投票！　結局あなたは誰を選ぶつもりだったの！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000116_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「えっ、だから俺だけじゃ決められないんだってば！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "投票はもちろん俺も参加するが、観客の投票があったうえでのこと。そう何度\nも説明しているじゃないか！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「でも、この中で投票する権利を持っているのは先生だけだし」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00002403_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「てことは、先生の１票で真のヒロインが決まっちゃうってこと！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00001204_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁ！？　たった１票なら無効だろ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「そんなことない。カツマ先生の１票なら１兆票くらいの価値があるから」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113540002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000117_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「桁が増えてるんだが！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんとかごまかしたいところだが、流々那も今回ばかりは頼れそうにない。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああっと、こうしちゃいられないな、俺は他の仕事をしないとなあ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0134" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「あっ、逃げるつもりね！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113540004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「逃がさないわ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113540005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「待てーっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010113540004" ]},
+		{"command":[ "SETCHARA", "0", "char_00001204_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "流々那" ]},
+		{"command":[ "SETTEXT", "「私を選ぶでしょ、カツマ先生？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_130113540005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「うう、私も気になります、カツマ先生！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113540003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "桃花" ]},
+		{"command":[ "SETTEXT", "「面白そうだし、あたしもついてこうかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_028_020113540003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "逃げる俺を追ってくる令嬢戦隊。それとアクレイジョー。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "道子" ]},
+		{"command":[ "SETTEXT", "「ふふふ、青春ですわねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_026_020113540001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "明日楽" ]},
+		{"command":[ "SETTEXT", "「あれがですか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_016_020113540001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お前らっ、この戦った後の校庭を片付けないといけないだろうがぁっ！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルルーナ" ]},
+		{"command":[ "SETTEXT", "「そんなの、真のヒロインを決めてからでいいでしょう！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_070113540005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああもう、王子役なんてもう二度とやらないからなぁっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "STOPBGM" ]},
+	    {"command":[ "DISPTEXT", "FALSE" ]},
+	    {"command":[ "DISPNAME", "FALSE" ]},
+ 		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+ 		{"command":[ "DISPIMAGE", "0", "FALSE" ] },
+	    {"command":[ "PLAYMOVIE", "ED_2_005.mp4" ]},
+	    {"command":[ "WAITMOVE" ]},
+	    {"command":[ "WAITINPUT" ]},
+
+
+		{"command":[ "EXIT" ]}
+	]
+}

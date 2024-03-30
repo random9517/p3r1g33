@@ -1,0 +1,212 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0142" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_012" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "──犬の遺影って、ちゃんと用意されるんだなぁ……と、菊の花に囲まれたジ\nュンジローの間抜けな顔写真を見ながら思った。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "司会" ]},
+		{"command":[ "SETTEXT", "「──では続いて職場の上司でいらっしゃいました、冴島長官よりご挨拶\nをお願いいたします」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "葬式はしめやかに進行している。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こうして葬式に出席するのは初めてだが、想像していた通りちっとも楽しくな\nかった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「えー、本日はとても悲しい日です。あー、えー……そのー……彼とは、戦場\nで肩を並べて戦った……ということもないのですがー……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010110040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00004901_01", "1", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "冴島長官" ]},
+		{"command":[ "SETTEXT", "「と、ともかく、彼は勇敢に戦い、勇敢に散っていきました。本当に悲しいこ\nとです……ええ、本当に悲しんでいます」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_049_010110040002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "司会" ]},
+		{"command":[ "SETTEXT", "「えー、悲しみに満ちたお言葉ありがとうございます。彼もきっと喜んでいる\nでしょう……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……どうだかなぁ。長官のグダグダなあいさつを聞いたら、皮肉のひとつも飛\nばしてたんじゃねえかな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "に、しても冴島長官。意外とこういうあいさつは苦手みたいだな……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "司会" ]},
+		{"command":[ "SETTEXT", "「続きまして、ルナルバース１３世陛下にシュンジロー氏との思い出を語って\nいただこうと思います」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「うむ、ほれ、マイクをよこせ。余が一曲歌ってしんぜよう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "司会" ]},
+		{"command":[ "SETTEXT", "「あ、いえ、歌の方はまた別の機会ということで……それよりもその、ジュン\nジロー氏の思い出を一言語っていただければ、と……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「ふむぅ、せっかちだのう……まあ、なにかと忙しい者も多いからの。手短に\n済ませようぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110040002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……変わんねえな、あの人は。こんなときでも、", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……というか、こんなに大勢客が集まるとは。ジュンジローのやつ、意外に人\n望があったらしい。犬のくせに。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナルバース" ]},
+		{"command":[ "SETTEXT", "「んむう、あれは勇敢な犬であった、あっぱれ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_007_010110040003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000701_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "いや、弔辞で『あっぱれ』はねえだろ……と思ったけど、さすがにあの陛下に\nツッコむ度胸はない。そんな気力もわかない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "司会" ]},
+		{"command":[ "SETTEXT", "「ええっと、あの……ありがとうございました」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "司会" ]},
+		{"command":[ "SETTEXT", "「それでは、同じく同僚でいらっしゃいました、Ｇ・ルナリアムの幹部の方た\nちにも一言ずついただこうと思います」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……おいおい、他の幹部達って、ジュンジローとそんなに関わりなかっただろ\n？　薄いエピソードしか出てこないぞ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……と思っていたら──。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「ジュンジローはいつも言っていた。『この戦いが終わったら、会津若松のハ\nナコちゃんと結婚するつもりですぞ』と……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010110040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……は？　なんだそれ、初耳だ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「いつも『実家の母に仕送りをして、いい暮らしをさせてやりますぞ』って…\n…親思いの、優しい犬でした」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010110040001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000401_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "実家の母……？　聞いたことねえな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「『不甲斐ない上司に手柄を立てさせてやりたいものですぞ』って、いつもカ\nツマのことを心配していたものだよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010110040001" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おいおいおいおい……？　なんだ？　俺の知らねえ話ばっかり出てくるぞ？　\nあいつ、いつの間にみんなとそんな話をしてたんだ？　っていうか……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんなんだよ……？　死亡フラグの連発じゃねえか……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……なんだか、とんでもない茶番に巻き込まれた気がしてきたぞ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あいつが……あのふてぶてしく、可愛げの欠片もないあのクソ犬が、そんなに\nキレイにフラグをたてて、華々しく死ぬはずねえじゃねえか……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それに他の幹部連中が真面目くさった顔で、涙をこらえて、美談を語るだなん\nて、どう考えてもあいつらしくない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……つまり、死んだのはジュンジローなんかじゃない。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "きっと他の犬だったんだろう──じゃあ俺は、なんのためにここにいるんだ？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ジュンジロー」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "思わずポツリとあいつの名をつぶやいた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もし生きて、ここにいたとしても、あいつは聞こえないふりをして無視しただ\nろう。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「馬鹿馬鹿しい……やってられねえよ……やってられっか……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……もういい。この場にいたくない。とっとと抜け出して、どこかでサボろう\n──そう思った瞬間。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "司会" ]},
+		{"command":[ "SETTEXT", "「えー、式の途中ではございますが、緊急入電をご披露させていただきます」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "司会" ]},
+		{"command":[ "SETTEXT", "「『襲来者（インベーダー）出現。インクレディブルスクワッド出動せよ』。\n繰り返します『襲来者（インベーダー）出現――』」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……やってやるぜ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ちょうどいいや……今むしゃくしゃしていたところだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "敵さんには悪いが、精一杯ストレス解消させてもらおうじゃねえか！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

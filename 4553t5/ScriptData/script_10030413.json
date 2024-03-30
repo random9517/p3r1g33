@@ -1,0 +1,123 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0177" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「まったく、なにが起こったのやら！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「味方に攻撃されるなんて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「だいたい、セレーナが一人で偽物の相手をしているから、統率が乱れたので\nはないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「なっ！　そうかもしれねぇけど……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115210002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「やあやあ、お帰り～。その様子だと、ま～たあの女幹部に負けてきたんだね\n～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「いやぁ、だめだよ～。戦場じゃあもっと広い視野でいなくちゃ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「道化師の癖に、余に説教するつもりか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「だいたいなんなんだ！　蝶だのタヌキだの、妙なモンばかり探させて！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「まあまあ、そういわないでよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210003" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「一見、くだらないアイテムに見えるかもしれないけど、それを時間帝国が確\n保することが大事なんだ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「山のようにある無駄な時間のなかから、必要なものを選定して、保存してお\nかなくちゃいけない」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「大きな時の流れを守るためにはね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「女王様のそういうご判断なんだけどなー？　二人とも、女王様のことが信じ\nられないの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210007" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａエファナティカ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_100115210004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000310_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「…………」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115210004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「ま、今回のタヌキは、ボクが部屋に飾りたかっただけなんだけどねー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210008" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「だって面白いじゃん。あんなタヌキ像、どの時間を探してもみつからないよ\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａセレーナ" ]},
+		{"command":[ "SETTEXT", "「お前……！　一発殴らせろ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_080115210005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000408_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「やだよー♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010115210010" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

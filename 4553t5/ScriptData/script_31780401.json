@@ -1,0 +1,433 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_01" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「こんなにも激しくおっぱいに絡んでくるなんて……どうやら私の胸がお気に\n入りみたいね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403101" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ふふっ……せっかくだし、このまま挟み込んであげるわ。んっ……あっ、は\nあぁ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403102" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「スベスベした感触と触手汁のヌルヌルした感触が合わさって、凄くいやらし\nいわね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403103" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「それに臭いもいやらしくて……軽く嗅いでるだけでも、オマンコが疼いてき\nちゃうわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403104" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「あっ、んんっ……！　触手たちがおっぱいだけじゃなくて、全身に絡みつい\nてくるぅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403105" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「私を逃がしたくないって言ってるみたいだわ……あっ、あっ！　全身がヌル\nヌルして気持ちいいっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403106" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ああぁんっ……！　そんなに強く絡みつかれたら、手が動かしにくいわ……\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403107" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_02" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「せっかくおっぱいで挟んであげてるんだし、貴方もおっぱいで気持ちよくな\nりたいでしょ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403108" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ほらっ……こうしてスベスベのおっぱいで触手をシコシコしてあげるから…\n…んっ、んんっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403109" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「谷間にヌルヌルした液体が広がっていくわ……！　それに動かすたびに、く\nちゅくちゅっていやらしい音もしてる……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403110" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ふふっ……触手全体がビクビク跳ねてるわ。気持ちよくて、震えが止まらな\nいみたいね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403111" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「貴方が悶える姿……とっても可愛いわよ……んっ、あっ……！　はぁ、んふ\nっ……くっ、はあぁ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403112" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「あんんっ……！　触手の先端が激しく脈打ってるわ……！　そんなに暴れた\nら、シコシコしにくいじゃない……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403113" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「もう……私の口の中でなら好きなだけ暴れていいから、少し大人しくしてな\nさい」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403114" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「咥え込んであげるからこっちに先端を向けなさい……あーんっ……んっ、ん\nむっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403115" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_03" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ぢゅぷっ、ちゅ、ちゅちゅ……！　ぴちゃ、ぐちゅるっ……れろっ、ぴちゅ\n……！　ずっ、ずずっ、ぢゅるるるっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403116" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「んふうぅ……！　先走りにょ触手汁が口の中に広がってりゅわ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403117" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ちょっとしょっぱいけりょ……こにょドロっひょした口当たりは、いつ味わ\nっへも最高ね……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403118" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ずちゅ、ちゅぱっ……！　ぷちゅ、ぐちゅるっ……ぢゅぽっ、じゅぽっ……\n！　にちゃ、んちゅぱっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403119" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「口だけりゃなくて、おっぱいれもしっかりシコシコひてあげりゅわね……ん\nっ、ちゅちゅ……れりゅ、ちゅぴぃ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403120" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ふふっ……おっぱいひょ口りぇ同時に刺激ひゃれると、たまらないれしょう\n……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403121" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_04" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「遠慮ひにゃいれ、いっぱい感じにゃひゃい……貴方たちは本能にょままに動\nくのが、一番素敵なんらから……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403122" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ずずっ、ぢゅぷっ！　ちゅ、れろっ、れりゅうぅ……！　んぶっ、ちゅ、じ\nゅぱっ……ずずっ、ぐじゅるっ……んっ、んむうぅ……！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403123" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「触手が喉にょ奥にまりぇ入ってくりゅうぅ……！　ぐっ、苦しっ……！　じ\nゅぴっ、ずっ、ちゅぶぅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403124" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「そりぇにおっぱいでシゴくたびに、触手汁が奥かりゃ溢れてきへ……！　触\n手と触手汁れ、窒息しひゃいそうらわ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403125" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「れもこの程度、想定にょ範囲内よ……貴方ひゃちの行動は、全てお見通しな\nんらかりゃ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403126" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「こにょまま思いっきり吸い上げながりゃ、激しくおっぱいれズリズリひてあ\nげりゅ……！　ちゅ、ずずずっ！　ちゅぱっ、ずぷぅ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403127" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ほりゃ……！　こうやって触手の中を吸われるにょ、たまらないれしょ……\n！　ずずっ、ぢゅぢゅぢゅ……！　じゅぞっ、ぐじゅるっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403128" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「その状態れおっぱいをもっと寄せて……思いっきり圧をかけにゃがらシコシ\nコすりぇば……んっ、ちゅううぅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403129" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ちゅぷっ、じゅずずっ！　ぢゅぱっ、れぢゅ、にちゃあぁ……！　ふふっ…\n…思った通り、激しく触手が震え出したわね……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403130" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「口の中れビクビク跳にゃながりゃ、先走りの触手汁が何度もぴゅっぴゅっひ\nてりゅわ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403131" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「もう我慢にょ限界といった感じにぇ……触手汁をびゅーびゅーひたくて、た\nまらにゃいみたいね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403132" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ふふっ……遠慮ひないで出ひなしゃい……！　貴方のくっさい触手汁、全部\n受け止めへあげりゅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403133" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ずぶっ、じゅぶっ！　ぴちゃ、ぶちゅるっ！　れりゅ、れろぉ……ちゅちゅ\n、ずぢゅ、ぐちゅるっ！　ぢゅぴっ、じゅぶうぅ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403134" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ほりゃ……出しなひゃいっ……！　触手汁を口にょ中にぶっかけて、気持ち\nよくなりなひゃいっ……！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403135" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「んじゅるううぅ！？　しょ、触手汁きたあぁ……！　ぐっ、ぢゅぷううぅ！\n？　ぐっ、んむううぅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403136" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_07" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「喉に直接流しこまりぇるくらい、激しくびゅーびゅーひてりゅ……！　早く\n飲み込まにゃいと、吐き出ひちゃいひょうらわ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403137" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「じゅるるっ！　んぐっ、ごくっ、ごくんっ！　ちゅぱっ、ちゅううぅ……ぢ\nゅぶっ、ちゅ……じゅぞぞぞっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403138" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「んんんっ！　飲んれも飲んでも、あとからどんどん溢れてくりゅうぅ……！\n？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403139" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「苦しいけりょ、触手汁で感じひゃうっ！　口と喉を犯ひゃれて、私も気持ち\nよくなっひゃうううぅぅぅ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403140" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「んっ、ちゅぱっ……！　はぁ、んっ……あぶっ……！　いっぱい出たみひゃ\nいね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403201" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「それにひても、相変わらずしゅごい量ね……この量をオマンコに出されてた\nりゃ、確実に妊娠ひてりゅわよ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403202" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_05" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ふふっ……せっかくらし、このままオマンコにも出ひてもらおうかひら……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403203" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「あむっ、んちゅ……！？　あ、ありゃ……？　触手が口内れ暴れてくりゅわ\n……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403204" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「もひかひて、もう１回おっぱいと口で気持ひよくなりひゃいの？　もう……\nしょうがない子ね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403205" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ずちゅ、ちゅちゅ……！　ずぱっ、ちゅぴぃ……！　ぴちゃ、ぷちゅるっ…\n…れろっ、れりゅ、んじゅるぅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403206" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「さっきよりも触手が太くなってりゅわ……こりぇを咥えたままらと、顎が外\nれひゃいそうね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403207" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「れも貴方のためなりゃ、どれらけ苦ひくても耐えられりゅわ……ちゅぱっ、\nちゅちゅ……！　ずっ、ぐちゅるっ……ぶちゅ、ぢゅぴぃ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403208" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「んんっ……！　奥の方にまりゃ触手汁が残ってりゅわね……こりぇも全部吸\nい出ひてあげりゅ……ちゅ、じゅぞっ……じゅぞおぉ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403209" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ぷちゅ、ちゅるるっ……！　おっぱいでシコシコひてりゅと、さらに残り汁\nが出てくりゅわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403210" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_06" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「こんらに汁を残すだにゃんて悪い子ね……次は一滴残らず、びゅーびゅーす\nりゅのよ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403211" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ぐちゅ、ぢゅぷっ、じゅぞぞっ！　ぢゅるっ、ぴちゃ、ぐちゅ、ちゅぴぃ！\n　ぢゅちゅ、んじゅ……ずっ、ぶちゅるぅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403212" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ちゅぱっ、ちゅ、じゅぞっ……んっ、んむうぅ……！　触手の震えが少ひず\nつ大きくなってりゅわ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403213" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「このまま一気にスパートをかけへあげりゅ……！　まずはおっぱいをさらに\n寄せて……んっ、ちゅぐっ……！　ちゅりゅ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403214" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「触手の根本からシゴくように、激しくズリズリひながりゃ……思いっきり吸\nい上げてあげりゅと……！　んぢゅ、じゅぞぞぞっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403215" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「あんんっ！　全身の拘束がひゃらに強くなっひぇくりゅうぅ！　触手全体が\n感じて、気持ちヨガってりゅのねっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403216" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「気持ひいいなりゃ、このままびゅーびゅー触手汁を出しにゃさいっ！　さっ\nきと同じように、全部受け止めてあげりゅ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403217" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「濃厚な触手ミルク、いっぱいぴゅっぴゅっひてっ！　私のこと、真っ白に染\nめ上げてぇ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403218" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ちゅぱっ！　ぐちゅ、ずずっ！　ぴちゃ、ぐりゅ、ちゅぱ、んじゅるっ！　\nずずっ、ちゅうぅ！　ちゅぱっ、びちゃあぁ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403219" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ああぁんっ！　触手たちが思いっきり震えてりゅわっ！　ほりゃ、出してっ\n！　触手汁びゅーびゅー出して、気持ちよくなりなひゃいっ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403220" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SELECT", "そのまま射精","LABEL1","外して射精","LABEL2" ]},
+
+		{"command":[ "LABEL", "LABEL1" ]},
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ちゅぱっ、ちゅうううぅ！　ぐっ、んむううぅ！？　触手汁が口の中にびゅ\nるびゅる出てりゅうぅ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403301" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_08" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「２回目にゃのに凄い量だわっ！　そりぇにこの味わいっ……１回目よりも濃\nい感じがすりゅわねっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403302" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「んっ、じゅ、ちゅちゅっ！　こんないも美味しい特濃ミルク、味わわないな\nんてもっひゃいないわっ！　ずっ、じゅぞぞっ……じゅるぅ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403303" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ちゅぱっ、ずっ、ちゅぱっ！　ずずっ……ぢゅ、んじゅるっ！　んぐっ、ん\nぐっ……ごくっ、ごくんっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403304" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ああぁ……！　美味ひいわっ……！　味は勿論らけど、喉に絡みちゅく感じ\nも最高よっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403305" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「このまま全部飲み干してあげりゅ……！　ずぞっ、じゅぢゅ、ぐちゅるっ！\n　ちゅぱっ、ちゅ……じゅ、ずずずっ、んぢゅぷっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403306" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「はああぁ……やっぱり貴方たちの汁は最高ね……飲んでりゅだけで、気持ひ\nよくなっちゃったわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403307" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「そういえば、ちゃんと一滴残らず出せたかひら……？　ちょっと確認すりゅ\nわね……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403308" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ずっ、じゅぞっ……ちゅ、ぢゅうううぅ……んっ、ちゅぱっ、ちゅ……ちゅ\nるるるっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403309" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ふふっ……一滴残りゃず出せたみひゃいね。言ったことを守りぇていい子だ\nわ。さすがは私の触手たちね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403310" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "JUMP", "END" ]},
+
+		{"command":[ "LABEL", "LABEL2" ]},
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「あはああぁんっ！　今度は顔に触手汁がびゅーびゅー出てるぅ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403401" ]},
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "still_00017804_01_09" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「熱くて臭い汁がこんなにっ……！　あっ、ああっ！　ダメっ、これ……浴び\nるだけで感じちゃうぅ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403402" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「エッチな触手汁をぶっかけられながらイッちゃうっ！　気持ちよくなっちゃ\nうぅ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403403" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「あっ、あっ！　来るっ！　気持ちいいのくるぅ！　イクッ！　イクイクッ！\n　イックうううううぅぅぅ～～～～～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403404" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「んっ、んんっ……はぁ、あはあぁ……触手汁まみれにされながら、イッちゃ\nったわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403405" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「顔だけじゃなくておっぱいにもこんなに汁がついて……あんっ……！　先走\nり汁と合わさって、濃い臭いがするわ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403406" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「それに全身も触手の粘液でヌルヌルになって……これじゃあ、全身から触手\nの香りがしちゃいそうね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403407" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「この染みつくような臭い……洗っても落ちそうにないわね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403408" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「ふふっ……でもこの臭いに塗れてると、貴方たちと一つになれてる感じが強\nくなって、とっても心地いいわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403409" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アユミ" ]},
+		{"command":[ "SETTEXT", "「これからもいっぱい可愛がってあげるわね……私の愛しい触手たち……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_178_0403410" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

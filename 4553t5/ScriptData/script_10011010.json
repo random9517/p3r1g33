@@ -1,0 +1,154 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0022" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_012" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………はぁ、はぁ……ジュンジロー。これで少しはお前も気が晴れたろう\n？　どうか安らかに眠ってくれ──」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「いや～～～……参りました。危うく死ぬところでございました」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110100001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、なんだオマエーーーーーーーーっ！　なんで生きてんだよ！」", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……いかがなさいました？　ご主人。そんな涙目で。お腹でも痛くなってし\nまいましたかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110100002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、どこかの誰かさんのおかげでな。ストレスで胃に穴が空きそうだ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ふむう、それはいけませんなぁ。私のような犬はストレスとは無縁でござい\nますから、なんと申し上げれば良いものやら……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110100003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「………………だろうな。その分俺にストレスも疲労も押し付けやがって！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なんなんだ、なんなんだよ、いったい！　こっちはジュンジローの弔い合戦の\nつもりで、キツい連戦を戦い抜いたってのに……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なぜなの！？　なんでこの駄犬は、平気な顔でまたひょっこり戻って来てくれ\nちゃってんの！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ま、まあいい。お前のようなクソ犬も枯れ木に山の賑わいってやつだ。\n居ないよりもいた方がずっといい」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ほほう、それはそれは。私のような愛くるしい愛玩動物にしてみれば、なん\nとも嬉しいような嬉しくないようなお言葉──」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110100004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "9", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「む！？　いけません、ご主人！　伏せるのですぞ！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110100005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「な、なんだ？　どうした？　おいっ、ジュンジロー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "言われたとおり、伏せて物陰に潜り込むと、ジュンジローが走り去っていく気\n配がした。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「また爆弾が……えーと、ＩＣＢＭというヤツですな。私が咥えて持ち去りま\nすので、ご主人はそのまま──ふが、もがもがもが……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010110100006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000901_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………ＩＣＢＭ？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "って、今アイツＩＣＢＭっていったか？　ＩＣＢＭって、大陸間弾道弾だよな\n？　それ、咥えて走っていけるようなもんか！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と思って、恐る恐る顔をのぞかせてみると──ジュンジローが走り去った方向\nで、大爆発が起こった！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ジュ、ジュンジローーーー！！！」", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_012" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "もうもうと砂塵と煙が巻き上がる空気の中、青空にジュンジローの笑顔を見た\nような気がした。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ、ああああ……あいつ……俺を庇ったってのか……？　くそぉ……キャラ\nにないことするんじゃ――」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「…………って、いや？　いやいやいや！？　おかしいだろ！？　なんでこん\nなことが何度も続くんだ？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "流石におかしい。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……なんだ？　なにが起きてるんだ？　いったいどうなってんだよ、こりゃ\n！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう、どう考えてもこれはおかしい。とにかく、様子を確かめてみないと！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そう思って煙がまだ治まり切っていない爆心地に向かうと――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……なんだよ！　また敵の新手かよ！　ホントに懲りねえなお前ら！　いい\nじゃねえか！　やってやるぜ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ちょうどいいや……今むしゃくしゃしていたところなんだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "敵さんには悪いが、精一杯ストレス解消――", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って、もうええわ！　このセリフもさすがに言い飽きたわ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

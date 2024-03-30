@@ -1,0 +1,54 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0101" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_003" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "襲来者" ]},
+		{"command":[ "SETTEXT", "「原住民どもー！　無駄な抵抗はやめろー！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「またそのセリフかい！　たまにはもうちょっと、芸のあること言ってみたら\nどうなんだい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａルナテミス" ]},
+		{"command":[ "SETTEXT", "「まりあたちに連絡はついた！　もうすぐ戻ってくる！　それまでなんとか、\n我々だけで守るんだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090114880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000109_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "エファナティカ" ]},
+		{"command":[ "SETTEXT", "「それはいいけどさ！　肝心の隊長はどうなってんだい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_003_010114880002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000301_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "氷華" ]},
+		{"command":[ "SETTEXT", "「やはり隊長がいないと、万全の態勢で戦うことができません……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_050_020114880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00005002_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「カツマちゃぁ～～ん！　もういぢめないから、早く帰ってきてぇ～～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010114880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000601_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「まったく下僕のやつ……！　早く戻ってこないか！　いつまで私――私たち\nを待たせるつもりだっ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010114880001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

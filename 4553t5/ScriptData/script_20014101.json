@@ -1,0 +1,332 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はぁああ……。今日もやっと終わったか……」", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "かわりばえのしない自分の部屋だが、帰ってくるとそれなりに落ち着く。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おおっ、ご主人。今日も冴えない顔をしておりますな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どこに冴える要素があるんだよ。毎日毎日色んなところを駆けずり回されて\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「やれこっちでトラブルだ、それあっちで大喧嘩。気の休まる時間もあったも\nんじゃないっつうの」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「おおお……。それはご苦労様であります……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そういや、こういう仕事をしはじめてついに３周年を迎えちまったんだ\nな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "３年前に突然巻き込まれた任務、そして隊長という地位にもそろそろ慣れてき\nたような気がしなくもない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「さてはて。あとどんだけ働けば、世界平和ってやつになるんだか」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「とか言いながら、今の仕事をなかなかに気に入っていそうですが」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はは、うるせー」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "今のところ、当分はこの任務から解放されそうにない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、呑気に考えていた瞬間……ブワッ、と身体が闇に吸い込まれる感覚に襲わ\nれた。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うおぉお！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "はじめは勘違いかと思っていたその感覚は、どんどんどんどん強さを増してい\nく！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うわ、ああああああああ！　この感覚……！　これ、は！　ああああああ！\n」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ワームホール！？　まった誰かが俺を勝手にどこかへ飛ばそうとしてやがる\nうう！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ご、ご主人～～～っ！　みるみるうちに吸い込まれていきますぞ～！！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どぇああああああああ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0177" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_005" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あ！　痛ってぇええええええええ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ぎゃふん！　でございますぞ～！　イタタタタ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840005" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……毎度のことだが、ワームホールでの移動はむちゃくちゃ痛い。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "たぶん、開く場所が床より高いんだよな。それで落っことされる", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……で、今回は誰が呼んだんだ？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺が周囲をきょろきょろと見回すと、どこからともなく現れたのは……。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「よく来てくれたね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "刻の道化師こと、ジェスタその人だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「うわわわっ、真後ろから現れましたぞ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840006" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「んん？　可愛い犬くんまで連れてきてしまったかい。ごめんね、うまくコン\nトロール出来なかった」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840002" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「わりとよくあることですので大丈夫ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840007" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「そうなんだ。キミも色々苦労してるんだね。エライエライ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840003" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「お誉めにあずかり光栄ですぞ！　ですがあなたは……？　え～っと」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840008" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「ボクはジェスタ。時間帝国の中で最も身分が低く、卑しい道化師だよ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840004" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「キミのご主人様とは何度か会ったことがあるんだ。……そうだよね、隊長く\nん」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ。確かにな。だが……お前以外の４人は知らん」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺の言葉に、居並ぶ４人の女達が全員ピクッと反応した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "スザク" ]},
+		{"command":[ "SETTEXT", "「４人とは……私たちのことで間違いないか？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_257_010022840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00025701_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ヴァラファール" ]},
+		{"command":[ "SETTEXT", "「ククク……。不敵な目をしている。我がそんなにも気になるか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_258_010022840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00025801_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……なんかこのパターン、前にもあったような……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「気のせいじゃない？　もしくは～、そうだなぁ。いつもボクのことを考えす\nぎていて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840006" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「夢に見るほどだったとか。ホント、キミって面白いよね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そ、そんなんじゃねえよ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「え～♪　そうだったら嬉しかったのに～。っていう冗談は横においておいて\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「今日はキミにぜひとも紹介したい人達がいるんだ。よければ時間をもらえな\nいかな」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はあ……。つーか、逃げられそうな感じもしないし、ある意味強制イベント\nのような……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "沙世子" ]},
+		{"command":[ "SETTEXT", "「うふふふっ。理解が早くて助かります。あなたってすご～く賢いのねえ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_259_010022840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00025901_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おっとりぽわぽわとした言葉遣いで、褐色の女がにっこり微笑む。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アンドレッテ" ]},
+		{"command":[ "SETTEXT", "「そうでしょうか。むしろ下品で知性のカケラも感じられないのではなくて？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_260_010022840001" ]},
+		{"command":[ "SETCHARA", "0", "char_00026001_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おっと、今度は高飛車で傲慢そうな軍服の少女が割って入ってきた。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アンドレッテ" ]},
+		{"command":[ "SETTEXT", "「今、何か失礼なことを頭の中に思い浮かべていませんでした？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_260_010022840002" ]},
+		{"command":[ "SETCHARA", "0", "char_00026001_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「まさか。そんなわけないだろう」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アンドレッテ" ]},
+		{"command":[ "SETTEXT", "「ふんっ。見逃すのは一度きりですからね！　庶民らしく私には礼節を持って\n対応なさい！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_260_010022840003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……また、濃そうなメンバーだな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "こういう時に、抵抗をすればするほどややこしくなるのが定番の流れだ。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "なので、俺はおとなしくジェスタのやりたいようにやらせてみることにする。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「３年も振り回されてると、さすがにこっちも学習するよな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「そうだね。何事も、石の上にも３年。３周年くらいでペースがわかってくる\nよね♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840010" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「３周年とは一体……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022840009" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「それはこっちの話。可愛い犬くんは気にしなくていいことだよ。じゃ、本題\nに入っていいかな？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840011" ]},
+		{"command":[ "SETCHARA", "0", "char_00023101_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "意味深に微笑むジェスタに、背筋がゾクリとする。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お手柔らかにお願いします……」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジェスタ" ]},
+		{"command":[ "SETTEXT", "「あははっ、それはお約束できないなあ♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_231_010022840012" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,259 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0183" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETTEXT", "激しくぶつかりあった人妻戦闘員達と、おねだりトーチャー……そして俺。", "NORMAL" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "しかし、結果は火を見るより明らかで……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "すぐに戦闘員達はトーチャーの一蹴りで蹴散らされてしまった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「きゅうううう～。つ、強すぎるよぉ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "4", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｉ" ]},
+		{"command":[ "SETTEXT", "「尋問部はガチだもん……。あたしたち雑魚戦闘員の出る幕じゃないしぃ～～\n～……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_183_010022220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018301_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「よし。全員捕獲したな。こいつらを縄でふんじばれ。ああ、いいぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「このまま、有無を言わさずＥＤＯ本部に連れていく！　それで……健康診断\n完了だ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022220002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「お、おう？　う、うん……まあ……。あんたほどの人が言うのなら……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "流されたまま、人妻たちを誘拐するのは申し訳ないが……今更トーチャーに逆\nらうのも怖い。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「恨まないでくれよ！」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺はトーチャーと手分けをして、人妻戦闘員達をＥＤＯ本部へと連行した。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0139" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「きゃああああ～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……ってわけで、人妻戦闘員３名！　言われた通りに運搬完了！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「よーし。このあたりでいいだろう。ご苦労だったな、隊長。ジュンジロー」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022220003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020401_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「は、ははははい……。えーっと、じゃあ早速ホズミ先生に引き渡して……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「……その必要はない。少し待っていろ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022220004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ｏトーチャー" ]},
+		{"command":[ "SETTEXT", "「貴様らが探しているその女……は……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_010022220005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そこまで言うと、トーチャーはそのままその場で目を閉じた。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ゆっくりとほどけ、消えていくトーチャーの変身姿。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そして、その中から現れたのは……。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「ん……。ここ、は……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "意外すぎる人物……女医のホズミ先生、その人だった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ホ、ホズミ先生じゃないですか！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「どひぇえええええっ！　おねだりトーチャーの正体は、意外な人物だったの\nですなぁ！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022220001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「んん～……？　むにゃむにゃむにゃ……。ふぁあ……、わたし、うたた寝を\nしていたのかしら……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「あら？　あら、あら、あら？　隊長さん？　それにジュンジローさんも……\n。あっ、そして……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「健康診断に来なかった人妻の皆様たちじゃありませんか！　ああ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220004" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「隊長さん、皆さんを連れてきてくれたんですね。ありがとうございます……\n！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「……ど、どうやらホズミ先生にトーチャーの時の記憶はないようですな……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ、そんなことありえるか！？　どういう理屈であんなことになっちまった\nって言うんだよ！！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "サディスティックかつ高慢なトーチャーと、目の前の優しい聖母が同一人物だ\nとはとても思えない。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "俺は自分の目を疑いはしたものの……実際見てしまったからには納得するしか\nない、とんでもない状況に陥ってしまった。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「え……、え？　よ……良かったんだよな？　これで……？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「せっかく皆さんが来てくれたんです。すぐに診察をはじめますね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220006" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「みなさ～ん。すぐに終わりますから安心してくださいね～♪」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220007" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「ふふふ、これが終われば今年の診断は円満終了。怪人協会さんからのお礼が\nＥＤＯにやっと入ります」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220008" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「後で、請求書をお送りして……。ああ、忙しくなりそうだわ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220009" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「先生に……自分が、バリバリの怪人協会の人間だって自覚は……ないみたい\nだし」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「ほらほら……もう諦めて、おとなしく受診しちゃってくださいねぇ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220010" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｈ" ]},
+		{"command":[ "SETTEXT", "「き～～～。くやしーい、来年は捕まったりしないんだからぁ～～～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "戦闘員Ｊ" ]},
+		{"command":[ "SETTEXT", "「でもでも！　またトーチャーが来たらどうしよぉおおお～！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_184_010022220002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018401_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ホズミ" ]},
+		{"command":[ "SETTEXT", "「……とーちゃー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_204_020022220011" ]},
+		{"command":[ "SETCHARA", "0", "char_00020402_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "可愛らしく首をかしげるホズミ先生、本人も知らないおねだりトーチャーの恐\nろしい姿。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "それを思い出しつつ、俺は……ジュンジローとブルブル身震いした。", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「し、知らぬが仏……ということにしておきましょうか」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022220003" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「そ……そうだな！　俺は頼まれたことが解決できりゃあいいんだし！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "あまり深く突っ込むのも怖いので、俺は無理やり自分を納得させたのだった。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "LABEL", "END" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

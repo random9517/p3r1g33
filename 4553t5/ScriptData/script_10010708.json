@@ -1,0 +1,98 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0133" ]},
+		{"command":[ "DISPIMAGE","0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_006" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「はぁーっ、はぁーっ！　げがわー！　げがわー！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "7", "CENTER", "0" ]},
+	{"command":[ "DISPTEXT", "TRUE" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+	{"command":[ "DISPCHARA", "0", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「とはいえ、これでは毛皮を取る暇もないな。次から次へと猿が現れる！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "セレーナ" ]},
+		{"command":[ "SETTEXT", "「ううううう……こう寒くっちゃ、身体も思うように動かないぞ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_004_010107080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000401_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "オボロ" ]},
+		{"command":[ "SETTEXT", "「さっき、ロケットから投げ出されたダメージも効いています。どうするんで\nすか、隊長」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_005_010107080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000501_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「わかってるって！　わかっちゃいるけど、どうしたもんか……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "とにかく、みんなを元気づけないと……そうだ！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おいみんな！　ここをなんとか出来たら、猿鍋でもやろう！　アツアツの鍋\nを！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "Ａ・ルナテミス" ]},
+		{"command":[ "SETTEXT", "「猿鍋……？　つまり、あいつらを食うのか……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_090107080002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000109_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "つきみ" ]},
+		{"command":[ "SETTEXT", "「ええー……なんか、やだ……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_012_010107080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00001201_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ルナテミス" ]},
+		{"command":[ "SETTEXT", "「悪趣味なことを言うんじゃない……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_001_010107080002" ]},
+	{"command":[ "SETCHARA", "0", "char_00000101_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って！　毛皮毛皮って騒いでたくせになに言ってんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ダイヤナ" ]},
+		{"command":[ "SETTEXT", "「って言われてもぉ～。猿鍋じゃ、テンション上がんなぁ～い……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_006_010107080001" ]},
+	{"command":[ "SETCHARA", "0", "char_00000601_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……だろうなあ。それはたしかに、俺もそう思う……ううううううう……寒\nっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ううううう……このままじゃ、旗色が悪すぎる……。どうにかしねえと……！", "NORMAL" ]},
+	{"command":[ "DISPNAME", "FALSE" ]},
+	{"command":[ "DISPCHARA", "0", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "猿３" ]},
+		{"command":[ "SETTEXT", "「キキーッ！　ウキキキー！」", "NORMAL" ]},
+	{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "猿４" ]},
+		{"command":[ "SETTEXT", "「キキキッキキキー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+	{"command":[ "EXIT" ]}
+	]
+}

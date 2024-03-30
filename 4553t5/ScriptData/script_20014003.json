@@ -1,0 +1,250 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0122" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「よっすー！　遊びに来ましたっす！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022800001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016502_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "またなんか見覚えのある奴が一人……いやなんだその背後にいるいかにもなギ\nャル軍団は？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ん？　制服？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「あ、いーとこに気付いたっすね！　実は留学生扱いで近くの学校に通ってる\nんすよ！　この人たちは学校でできた友達っす！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022800002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「アヌビス様への報告が楽しみっす！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022800003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ギャル１" ]},
+		{"command":[ "SETTEXT", "「ちょっすー、このファミレスまじイケてねー？」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ギャル２" ]},
+		{"command":[ "SETTEXT", "「わかるー。こーさー、バエるってゆーかー」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「センパーイ！　席への案内お願いするっす！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022800004" ]},
+		{"command":[ "SETCHARA", "0", "char_00016502_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "……ギャル達の圧が凄い。まさかこいつらが揃った状態でアヌビスへ報告する\n気じゃないだろうな。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「はたらいているセンパイ、なかなかいいっすね～。通っちゃおっかな～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022800005" ]},
+		{"command":[ "SETCHARA", "0", "char_00016502_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「はいはい好きにしてくれ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「んもぅ、お客様を誘惑しちゃだめよ～。カツマくんは私のなんだからぁ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022800001" ]},
+		{"command":[ "SETCHARA", "0", "char_00018203_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「わっ、な、なんすかいきなり！　ちょ、センパイはウチのっす！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022800006" ]},
+		{"command":[ "SETCHARA", "0", "char_00016502_01", "4", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「うおああ！　引っ張るな！　制服破けるっつーの！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "制服、この一丁しかもってねーんだぞ！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「ち、次はこっちか！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022800001" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「忙しすぎるだろ！　このファミレス！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022800001" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……そういやあいつら二人だけ、異様に忙しそうだな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「ん～っと、なんかお客様から人気あるからぁ、ミス・パープルさんに稼げる\nと思われてぇ、シフト入れられまくってるみたいなの～」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022800002" ]},
+		{"command":[ "SETCHARA", "0", "char_00018203_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "マジか……。その働きっぷりが評価されているということか。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ちょっと参考になるかもと思って目を向けていると。", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「貴様、注文は何だ。男なら五秒以内に言え。出なければ私のスペシャルコー\nス行きだ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022800002" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "客" ]},
+		{"command":[ "SETTEXT", "「はひぃ！　豚めに料理を恵んでくださり感謝しますぅ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "え？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「んだぁ？　おいてめぇ、オレ様の運んだ料理にケチつけるってーのか？　こ\nっちゃ死ぬほど忙しいんだよ。……ったく、可愛いからって何もしねーとは限\nらねーんだぜ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022800002" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "7", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "客" ]},
+		{"command":[ "SETTEXT", "「ああん、カレン様ぁ……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "おい？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ふふふ、軍人喫茶に王子様カフェという手もありですね。彼女らのシフトを\nもっと増やしましょう」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010022800001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ねーよ！　本来の目的忘れてるんじゃねぇ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「マジで日本のバイトはクレイジーだ！　こんなに忙しいなんてよ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022800003" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "フランカ" ]},
+		{"command":[ "SETTEXT", "「……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_160_010022800003" ]},
+		{"command":[ "SETCHARA", "0", "char_00016002_01", "1", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カレン" ]},
+		{"command":[ "SETTEXT", "「なっ、姉さんが忙しすぎて注文受付時以外、口を開かなくなった……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_206_020022800004" ]},
+		{"command":[ "SETCHARA", "0", "char_00020602_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "アマ子" ]},
+		{"command":[ "SETTEXT", "「センパーイ！　早く注文ー！　私の特別なちゅーもんうけてー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_165_010022800007" ]},
+		{"command":[ "SETCHARA", "0", "char_00016502_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ハルミ" ]},
+		{"command":[ "SETTEXT", "「だぁめ、カツマさんは私と一緒に裏方でイロイロ働くのぉ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_182_010022800003" ]},
+		{"command":[ "SETCHARA", "0", "char_00018203_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「い……いい加減にしてくれー！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0122" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……てなことがしょっちゅう起こるんだよ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「あっはっは、もはや爆笑です」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022800001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「てめー手の中に奥歯突っ込んで口ガタガタ言わせるぞ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「その支離滅裂さでご主人がどれだけ疲れているか察して余りありますな……\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022800002" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「こんなので、襲来者の捜査なんかできるかってんだ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「バイトに慣れてくれば活路も見えましょう。踏ん張り時ですぞ」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022800003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「だといいがな……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "センパイバイト" ]},
+		{"command":[ "SETTEXT", "「おい！　休憩戻れー！」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「げ、もう休憩終わりか。じゃあ行ってくる！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「ああ、おいたわしやご主人……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010022800004" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}

@@ -1,0 +1,246 @@
+{
+	"scriptCommands" :  [
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0025" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "PLAYBGM", "BGM_004" ]},
+	{"command":[ "SPOTCHARA", "0", "1", "2", "3"]},
+		{"command":[ "WAITMOVE" ]},
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「シミュレーション終了！　ＥＤＯさんチームの勝利です！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "3", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "DISPTEXT", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "生徒Ｂ" ]},
+		{"command":[ "SETTEXT", "「うう～。やっぱり社会人チーム強すぎ～……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "古舘隊員" ]},
+		{"command":[ "SETTEXT", "「勝ったっす～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_061_010113290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00006101_01", "8", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「驚いたな、このマシン！　すっごいリアルじゃねえか！　面白ぇぞ、これ！\n」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「そうでしょうとも！　我がコンツェルンのアミューズメント部門とＤｒ．サ\nイレーンが総力を挙げた傑作ですから！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113290002" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「Ｄｒ．サイレーンのほうはちょっと不安だけどな。学生たちが夢中になるの\nもわかるぜ、これは。だけど、なあ……」」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「なんでしょう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113290003" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "3", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「料金って、いくらぐらいになるんだ？　あんまり学生たちが夢中になって、\nこづかいを突っ込みすぎるとまた問題が……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「本来、うちのお支払いは全てクリスタルでお願いしているのですが、今回は\n現金も受け付けておりまして、１回あたりこれぐらいで……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113290004" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "6", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ああ、なんだ。ゲーセンに毛が生えたぐらいじゃねえか。これならまあ、学\n生のこづかいでも……」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「はい！　多次元の学生さんたちに健全な娯楽を提供するというのも、当コン\nツェルンの使命ですので！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113290005" ]},
+		{"command":[ "SETCHARA", "0", "char_00007201_01", "8", "CENTER", "0" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「微妙にうさんくさいセリフだが、そこは気にしないぞ！　ま、怖～い明日楽\nセンセに怒られないように、ほどほどにな」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ミス・パープル" ]},
+		{"command":[ "SETTEXT", "「ええ、その点は気を付けております。それよりカツマ先生。学生さんたちに\n、宣伝をよろしくお願いしますね」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_072_010113290006" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「あー、いや……さすがに教師がそれやっちゃ、まずいんじゃねえかなあ……\n兼業教師とはいえ」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "SETIMAGE", "0", "bg_0124" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETTEXT", "てなことをミス・パープルと話して、寮に帰る。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「模型シミュレーションねえ。俺もプラモ作ってみようかな」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「よろしいですな。ご主人は酒と競艇以外の趣味を持つべきだと、ワタクシ常\n々……むむ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113290001" ]},
+		{"command":[ "SETCHARA", "0", "char_00000902_01", "0", "CENTER", "0" ]},
+		{"command":[ "DISPCHARA", "0", "TRUE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「どした？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "ジュンジロー" ]},
+		{"command":[ "SETTEXT", "「この部屋から妙な声が聞こえます。なにやら事件の匂いがしますぞ……？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_009_010113290002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「この部屋？　ここはグレーテルの部屋じゃねえか。こんなとこで事件なんか\n……」", "NORMAL" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、足を止めると、わずかに開いたドアから声が漏れてくる。", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "PLAYBGM", "BGM_015" ]},
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「……ここに入れてほしいの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113290001" ]},
+		{"command":[ "DISPCHARA", "0", "FALSE" ]}, 
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「……え？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「は、はい。お願いします。ぐっと奥まで……。わたし、自分ではもう、おさ\nえきれなくて……」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113290001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なんですと！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「グレーテル、わたしのはどう？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113290001" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「ふふふっ、きれいだよ。ほら、これ。もうこんなに濡れてる」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113290002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「おおおおおおいっ！？　なにやってんだおまえら！？」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "『女教師百合淫行！』『深夜の学生寮で、みだらな行為をさせた疑い！』", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "そんなニュースの見出しが脳裏をよぎる。これは……やばいぞ！？", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「グレーテル先生っ！　早く！　早くハメてぇ～～～っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113290002" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「それじゃ、行くよ。んっ……！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113290003" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "ハマっちゃったぁ！？", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "本格的にまずいぞ、これはっ！　止めないとっ！", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "bg_0149" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]},
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「なにやってんだおまえらーっ！？」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETTEXT", "と、慌てて部屋に飛び込んでしまった俺が見たものは！", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0120" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]}, 
+		{"command":[ "PLAYBGM", "BGM_018" ]},
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「ふぅ！　足回りの部品はこれで全部かな？　先生、きちんとハマってます？\n」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113290003" ]},
+		{"command":[ "DISPNAME", "TRUE" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「大丈夫……。これ、押さえてればいいの？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113290004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "マーガレット" ]},
+		{"command":[ "SETTEXT", "「夜日楽ー！　水で濡らしたシール、どこに貼ればいいのー？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_024_020113290002" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「ふふふっ、それはデカールって言うんですよ？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113290004" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「って！　なんでおまえらプラモデル作ってるんだーっ！」", "NORMAL" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "夜日楽" ]},
+		{"command":[ "SETTEXT", "「きゃあああああっ！　のぞき魔！？」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_017_020113290005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "FADEIN", "NORMAL" ]},
+		{"command":[ "SETIMAGE", "0", "sbg_0121" ]},
+		{"command":[ "DISPIMAGE", "0", "true" ]},
+		{"command":[ "FADEOUT", "NORMAL" ]}, 
+		{"command":[ "SETNAME", "グレーテル" ]},
+		{"command":[ "SETTEXT", "「なにをしてるの……？　この変態！　変態！　変態……っ！」", "NORMAL" ]},
+		{"command":[ "PLAYVOICE", "v2_018_020113290005" ]},
+		{"command":[ "WAITINPUT" ]},
+
+		{"command":[ "SETNAME", "カツマ" ]},
+		{"command":[ "SETTEXT", "「ちょっと待て　だから誤解だってば！　誤解――うわああああああああっ！\n」", "NORMAL" ]},
+		{"command":[ "DISPNAME", "FALSE" ]},
+		{"command":[ "WAITINPUT" ]},
+		{"command":[ "EXIT" ]}
+	]
+}
